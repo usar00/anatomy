@@ -11,7 +11,7 @@ const features = [
     icon: "🗺️",
     title: "ステップバイステップ学習",
     description:
-      "Duolingo風の学習パスで、基礎から積み上げる。ユニット→セクション→5-7問の構成で無理なく進める。",
+      "基礎から積み上げる学習パス。ユニット→セクション→5〜7問の短いレッスンで、無理なく進められる。",
   },
   {
     icon: "🔄",
@@ -96,7 +96,7 @@ export default function LandingPage() {
               学ぼう
             </h1>
             <p className="text-lg sm:text-xl text-secondary mb-10 leading-relaxed">
-              基礎から積み上げるDuolingo風の学習パスで、
+              基礎から積み上げる学習パスで、
               <br className="hidden sm:block" />
               解剖学の知識を着実に身につける。
             </p>

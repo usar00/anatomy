@@ -5,64 +5,65 @@ interface Message {
   state: CharacterState;
 }
 
+// リン: シンプルでややニヒルなトーン。テンション上げすぎず、淡々と。
 // レッスン開始
 export const lessonStartMessages: Message[] = [
-  { text: "さて、やってみよっか", state: "idle" },
-  { text: "このセクション、面白いよ", state: "encouraging" },
-  { text: "準備はいい？", state: "idle" },
-  { text: "一緒に進めていこう", state: "encouraging" },
-  { text: "ここ、大事なところだよ", state: "thinking" },
+  { text: "じゃあ、いくよ", state: "idle" },
+  { text: "このセクションやっとく？", state: "idle" },
+  { text: "準備できたら始めて", state: "idle" },
+  { text: "一緒にやろう", state: "encouraging" },
+  { text: "ここ、大事なとこ", state: "thinking" },
 ];
 
 // 正解
 export const correctMessages: Message[] = [
   { text: "うん、合ってる", state: "happy" },
-  { text: "お、いい感じ", state: "happy" },
-  { text: "そうそう", state: "idle" },
-  { text: "正解。ちゃんとわかってるね", state: "happy" },
+  { text: "正解", state: "idle" },
+  { text: "そう", state: "idle" },
+  { text: "ちゃんとわかってるね", state: "happy" },
   { text: "その通り", state: "idle" },
 ];
 
 // 連続正解（2問以上）
 export const streakCorrectMessages: Message[] = [
   { text: "調子いいね", state: "happy" },
-  { text: "この流れ、いいよ", state: "encouraging" },
-  { text: "しっかり身についてきてる", state: "happy" },
+  { text: "この流れでいこう", state: "encouraging" },
+  { text: "身についてきてる", state: "happy" },
 ];
 
 // 不正解
 export const incorrectMessages: Message[] = [
-  { text: "惜しいね。ここ、ちょっとコツがあって...", state: "comforting" },
-  { text: "これ間違えやすいんだよね", state: "comforting" },
-  { text: "大丈夫、覚えていこう", state: "comforting" },
-  { text: "ここは次に出たら取れるよ", state: "encouraging" },
-  { text: "よくある間違いだから気にしないで", state: "comforting" },
+  { text: "惜しい。ここ、コツがあるんだよね", state: "comforting" },
+  { text: "これ、みんな間違えやすい", state: "comforting" },
+  { text: "大丈夫。覚えとこう", state: "comforting" },
+  { text: "次に出たら取れる", state: "encouraging" },
+  { text: "気にしなくていいよ", state: "comforting" },
 ];
 
 // セクション完了（星別）
 export const sectionCompleteMessages: Record<number, Message[]> = {
   3: [
-    { text: "お疲れさま。完璧だったね", state: "celebrating" },
-    { text: "全問正解、さすがだね", state: "celebrating" },
+    { text: "おつ。完璧だった", state: "celebrating" },
+    { text: "全問正解。えらい", state: "celebrating" },
   ],
   2: [
-    { text: "お疲れさま。ちゃんと身についてきてるよ", state: "happy" },
-    { text: "いい結果だね。この調子で", state: "happy" },
+    { text: "おつ。ちゃんと身についてる", state: "happy" },
+    { text: "いい結果。この調子", state: "happy" },
   ],
   1: [
-    { text: "お疲れさま。もう一回やるともっとよくなるよ", state: "encouraging" },
-    { text: "復習すると定着するから、またやってみて", state: "encouraging" },
+    { text: "おつ。もう一回やると伸びるよ", state: "encouraging" },
+    { text: "復習すると定着する。またやって", state: "encouraging" },
   ],
   0: [
-    { text: "最初はこんなものだよ。繰り返しが大事", state: "comforting" },
-    { text: "まだ始めたばかりだから、焦らなくていいよ", state: "comforting" },
+    { text: "最初はこんなもん。繰り返しでいこう", state: "comforting" },
+    { text: "始めたばかりだから、焦らなくていい", state: "comforting" },
   ],
 };
 
 // ストリーク
 export const streakMessages: Message[] = [
-  { text: "続けてるの、えらいね", state: "happy" },
-  { text: "コツコツが一番大事", state: "encouraging" },
+  { text: "続けてるの、いいね", state: "happy" },
+  { text: "コツコツいこう", state: "encouraging" },
 ];
 
 // ランダムにメッセージを取得
