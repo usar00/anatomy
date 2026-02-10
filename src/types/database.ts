@@ -70,8 +70,10 @@ export interface Database {
         Row: {
           id: string;
           category_id: string;
+          section_id: string | null;
           question_text: string;
           question_type: "text_only" | "image_based" | "label_image";
+          interaction_type: "standard_mcq" | "word_bank" | "matching_pairs" | "free_input";
           explanation: string | null;
           source: string | null;
           difficulty: "easy" | "medium" | "hard";
@@ -82,8 +84,10 @@ export interface Database {
         Insert: {
           id?: string;
           category_id: string;
+          section_id?: string | null;
           question_text: string;
           question_type?: "text_only" | "image_based" | "label_image";
+          interaction_type?: "standard_mcq" | "word_bank" | "matching_pairs" | "free_input";
           explanation?: string | null;
           source?: string | null;
           difficulty?: "easy" | "medium" | "hard";
@@ -94,8 +98,10 @@ export interface Database {
         Update: {
           id?: string;
           category_id?: string;
+          section_id?: string | null;
           question_text?: string;
           question_type?: "text_only" | "image_based" | "label_image";
+          interaction_type?: "standard_mcq" | "word_bank" | "matching_pairs" | "free_input";
           explanation?: string | null;
           source?: string | null;
           difficulty?: "easy" | "medium" | "hard";
@@ -361,6 +367,156 @@ export interface Database {
             isOneToOne: false;
           },
         ];
+      };
+      units: {
+        Row: {
+          id: string;
+          name: string;
+          slug: string;
+          description: string | null;
+          icon_url: string | null;
+          sort_order: number;
+          created_at: string;
+        };
+        Insert: {
+          id?: string;
+          name: string;
+          slug: string;
+          description?: string | null;
+          icon_url?: string | null;
+          sort_order?: number;
+          created_at?: string;
+        };
+        Update: {
+          id?: string;
+          name?: string;
+          slug?: string;
+          description?: string | null;
+          icon_url?: string | null;
+          sort_order?: number;
+          created_at?: string;
+        };
+        Relationships: [];
+      };
+      sections: {
+        Row: {
+          id: string;
+          unit_id: string;
+          name: string;
+          slug: string;
+          description: string | null;
+          sort_order: number;
+          created_at: string;
+        };
+        Insert: {
+          id?: string;
+          unit_id: string;
+          name: string;
+          slug: string;
+          description?: string | null;
+          sort_order?: number;
+          created_at?: string;
+        };
+        Update: {
+          id?: string;
+          unit_id?: string;
+          name?: string;
+          slug?: string;
+          description?: string | null;
+          sort_order?: number;
+          created_at?: string;
+        };
+        Relationships: [];
+      };
+      concepts: {
+        Row: {
+          id: string;
+          section_id: string;
+          name: string;
+          description: string | null;
+          sort_order: number;
+        };
+        Insert: {
+          id?: string;
+          section_id: string;
+          name: string;
+          description?: string | null;
+          sort_order?: number;
+        };
+        Update: {
+          id?: string;
+          section_id?: string;
+          name?: string;
+          description?: string | null;
+          sort_order?: number;
+        };
+        Relationships: [];
+      };
+      user_section_progress: {
+        Row: {
+          id: string;
+          user_id: string;
+          section_id: string;
+          status: "locked" | "available" | "in_progress" | "completed";
+          stars: number;
+          best_score: number;
+          attempts: number;
+          completed_at: string | null;
+        };
+        Insert: {
+          id?: string;
+          user_id: string;
+          section_id: string;
+          status?: "locked" | "available" | "in_progress" | "completed";
+          stars?: number;
+          best_score?: number;
+          attempts?: number;
+          completed_at?: string | null;
+        };
+        Update: {
+          id?: string;
+          user_id?: string;
+          section_id?: string;
+          status?: "locked" | "available" | "in_progress" | "completed";
+          stars?: number;
+          best_score?: number;
+          attempts?: number;
+          completed_at?: string | null;
+        };
+        Relationships: [];
+      };
+      user_concept_mastery: {
+        Row: {
+          id: string;
+          user_id: string;
+          concept_id: string;
+          mastery_level: number;
+          times_correct: number;
+          times_seen: number;
+          last_seen_at: string | null;
+          next_review_at: string | null;
+        };
+        Insert: {
+          id?: string;
+          user_id: string;
+          concept_id: string;
+          mastery_level?: number;
+          times_correct?: number;
+          times_seen?: number;
+          last_seen_at?: string | null;
+          next_review_at?: string | null;
+        };
+        Update: {
+          id?: string;
+          user_id?: string;
+          concept_id?: string;
+          mastery_level?: number;
+          times_correct?: number;
+          times_seen?: number;
+          last_seen_at?: string | null;
+          next_review_at?: string | null;
+        };
+        Relationships: [];
       };
     };
     Views: Record<string, never>;

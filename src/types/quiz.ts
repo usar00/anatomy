@@ -10,6 +10,14 @@ export type QuizSession = Database["public"]["Tables"]["quiz_sessions"]["Row"];
 export type QuizAnswer = Database["public"]["Tables"]["quiz_answers"]["Row"];
 export type DailyStreak = Database["public"]["Tables"]["daily_streaks"]["Row"];
 export type Subscription = Database["public"]["Tables"]["subscriptions"]["Row"];
+export type Unit = Database["public"]["Tables"]["units"]["Row"];
+export type Section = Database["public"]["Tables"]["sections"]["Row"];
+export type Concept = Database["public"]["Tables"]["concepts"]["Row"];
+export type UserSectionProgress = Database["public"]["Tables"]["user_section_progress"]["Row"];
+export type UserConceptMastery = Database["public"]["Tables"]["user_concept_mastery"]["Row"];
+
+// Interaction types
+export type InteractionType = "standard_mcq" | "word_bank" | "matching_pairs" | "free_input";
 
 // Composite types for quiz display
 export interface QuestionWithChoices extends Question {
@@ -60,3 +68,38 @@ export interface ImportData {
   category_description?: string;
   questions: ImportQuestion[];
 }
+
+// Learning path types
+export interface SectionWithProgress extends Section {
+  progress: UserSectionProgress | null;
+  concepts: Concept[];
+}
+
+export interface UnitWithSections extends Unit {
+  sections: SectionWithProgress[];
+}
+
+export interface LessonQuestion extends QuestionWithChoices {
+  interaction_type: InteractionType;
+  concepts: Concept[];
+}
+
+// Word bank metadata
+export interface WordBankMeta {
+  template: string; // e.g. "上腕骨は {{blank}} に分類される"
+  distractors?: string[]; // extra wrong options
+}
+
+// Matching pairs metadata
+export interface MatchingPairsMeta {
+  pairs: { left: string; right: string }[];
+}
+
+// Free input metadata
+export interface FreeInputMeta {
+  accepted_answers: string[];
+  hint?: string;
+}
+
+// Character states
+export type CharacterState = "idle" | "happy" | "encouraging" | "thinking" | "celebrating" | "comforting";

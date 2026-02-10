@@ -21,6 +21,12 @@ export function Header() {
         <nav className="flex items-center gap-4">
           {user && (
             <>
+              <Link
+                href="/learn"
+                className="text-sm text-primary font-semibold hover:text-primary-hover transition-colors"
+              >
+                学習
+              </Link>
               {isFreeMember && (
                 <Link
                   href="/home"

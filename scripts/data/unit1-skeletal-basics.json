@@ -1,0 +1,556 @@
+{
+  "unit": {
+    "name": "骨格系の基礎",
+    "slug": "skeletal-basics",
+    "description": "人体を支える骨格系の基本的な構造と分類を学ぶ",
+    "sort_order": 0
+  },
+  "category": "骨格系",
+  "category_slug": "skeletal",
+  "sections": [
+    {
+      "name": "骨の分類",
+      "slug": "bone-classification",
+      "description": "骨の形状による5つの分類を学ぶ",
+      "sort_order": 0,
+      "concepts": [
+        { "name": "長骨", "description": "長さが幅より大きい骨（大腿骨、上腕骨など）" },
+        { "name": "短骨", "description": "幅と長さがほぼ等しい骨（手根骨、足根骨）" },
+        { "name": "扁平骨", "description": "薄く平らな骨（頭蓋骨、肩甲骨）" },
+        { "name": "不規則骨", "description": "複雑な形状の骨（椎骨、蝶形骨）" },
+        { "name": "種子骨", "description": "腱の中にある小さな骨（膝蓋骨）" }
+      ],
+      "questions": [
+        {
+          "question_text": "大腿骨はどの骨の分類に属するか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "大腿骨は人体で最も長い骨であり、長さが幅より大きいため「長骨」に分類される。Gray's Anatomy, Chapter 6: Osteology",
+          "source": "Gray's Anatomy",
+          "choices": [
+            { "text": "長骨", "is_correct": true },
+            { "text": "短骨", "is_correct": false },
+            { "text": "扁平骨", "is_correct": false },
+            { "text": "不規則骨", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "手根骨はどの骨の分類に属するか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "手根骨は手首にある8つの小さな骨で、幅と長さがほぼ等しいため「短骨」に分類される。",
+          "source": "Gray's Anatomy",
+          "choices": [
+            { "text": "短骨", "is_correct": true },
+            { "text": "長骨", "is_correct": false },
+            { "text": "種子骨", "is_correct": false },
+            { "text": "扁平骨", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "膝蓋骨は膝の前面にあり、大腿四頭筋の腱の中に存在する種子骨である。",
+          "source": "Gray's Anatomy",
+          "metadata": {
+            "template": "膝蓋骨は {{blank}} に分類される"
+          },
+          "choices": [
+            { "text": "種子骨", "is_correct": true },
+            { "text": "長骨", "is_correct": false },
+            { "text": "短骨", "is_correct": false },
+            { "text": "扁平骨", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "骨の分類と例を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "長骨=大腿骨、短骨=手根骨、扁平骨=頭蓋骨、不規則骨=椎骨。それぞれの形状的特徴を覚えよう。",
+          "source": "Gray's Anatomy",
+          "metadata": {
+            "pairs": [
+              { "left": "長骨", "right": "大腿骨" },
+              { "left": "短骨", "right": "手根骨" },
+              { "left": "扁平骨", "right": "頭蓋骨" },
+              { "left": "不規則骨", "right": "椎骨" }
+            ]
+          },
+          "choices": [
+            { "text": "正解", "is_correct": true },
+            { "text": "不正解", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "肩甲骨はどの骨の分類に属するか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "肩甲骨は薄く平らな形状をしているため「扁平骨」に分類される。肩甲骨は胸郭の後面に位置し、上肢の運動に重要な役割を果たす。",
+          "source": "Gray's Anatomy",
+          "choices": [
+            { "text": "扁平骨", "is_correct": true },
+            { "text": "長骨", "is_correct": false },
+            { "text": "不規則骨", "is_correct": false },
+            { "text": "種子骨", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "腱の中に存在する小さな骨を何と呼ぶか、入力してください",
+          "interaction_type": "free_input",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "種子骨は腱の中に発達する骨で、膝蓋骨が最も代表的な例である。腱にかかる摩擦を軽減する役割がある。",
+          "source": "Gray's Anatomy",
+          "metadata": {
+            "accepted_answers": ["種子骨", "しゅしこつ", "sesamoid bone"],
+            "hint": "膝蓋骨がこの分類の代表的な例です"
+          },
+          "choices": [
+            { "text": "種子骨", "is_correct": true },
+            { "text": "不正解", "is_correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "骨の構造",
+      "slug": "bone-structure",
+      "description": "骨を構成する組織と構造について学ぶ",
+      "sort_order": 1,
+      "concepts": [
+        { "name": "緻密骨", "description": "骨の外層を形成する硬い組織" },
+        { "name": "海綿骨", "description": "骨の内部にあるスポンジ状の組織" },
+        { "name": "骨膜", "description": "骨の外表面を覆う膜" },
+        { "name": "骨髄", "description": "骨の中心にある造血組織" }
+      ],
+      "questions": [
+        {
+          "question_text": "骨の外層を構成する硬い組織は何と呼ばれるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "緻密骨（コンパクトボーン）は骨の外層を形成し、密に詰まったオステオン（ハバース系）から構成される。",
+          "source": "Gray's Anatomy",
+          "choices": [
+            { "text": "緻密骨", "is_correct": true },
+            { "text": "海綿骨", "is_correct": false },
+            { "text": "骨膜", "is_correct": false },
+            { "text": "骨髄", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "海綿骨は骨の内部にあるスポンジ状の骨組織で、骨梁と呼ばれる網目状の構造を持つ。",
+          "source": "Gray's Anatomy",
+          "metadata": {
+            "template": "骨の内部にあるスポンジ状の組織は {{blank}} と呼ばれる"
+          },
+          "choices": [
+            { "text": "海綿骨", "is_correct": true },
+            { "text": "緻密骨", "is_correct": false },
+            { "text": "骨膜", "is_correct": false },
+            { "text": "関節軟骨", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "骨の構造と機能を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "緻密骨は構造的強度、海綿骨は衝撃吸収、骨膜は骨の保護と成長、骨髄は血球の生成（造血）を担う。",
+          "source": "Gray's Anatomy",
+          "metadata": {
+            "pairs": [
+              { "left": "緻密骨", "right": "構造的強度" },
+              { "left": "海綿骨", "right": "衝撃吸収" },
+              { "left": "骨膜", "right": "骨の保護と成長" },
+              { "left": "骨髄", "right": "造血" }
+            ]
+          },
+          "choices": [
+            { "text": "正解", "is_correct": true },
+            { "text": "不正解", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "赤色骨髄の主な機能は何か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "赤色骨髄は造血（血球の産生）を行う。成人では主に椎骨、胸骨、肋骨、骨盤骨などの扁平骨や不規則骨に存在する。",
+          "source": "Gray's Anatomy",
+          "choices": [
+            { "text": "血球の産生（造血）", "is_correct": true },
+            { "text": "カルシウムの貯蔵", "is_correct": false },
+            { "text": "脂肪の貯蔵", "is_correct": false },
+            { "text": "骨の修復", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "骨の外表面を覆い、骨の成長と修復に関わる膜は何か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "骨膜（ペリオステウム）は骨の外表面を覆う結合組織の膜で、神経と血管が通り、骨の成長・修復に重要。",
+          "source": "Gray's Anatomy",
+          "choices": [
+            { "text": "骨膜", "is_correct": true },
+            { "text": "骨内膜", "is_correct": false },
+            { "text": "関節包", "is_correct": false },
+            { "text": "滑膜", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "骨のオステオン（ハバース系）を構成する中心の管は何と呼ばれるか、入力してください",
+          "interaction_type": "free_input",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "ハバース管（中心管）はオステオンの中心を走る管で、血管と神経が通る。これにより骨細胞に栄養が供給される。",
+          "source": "Gray's Anatomy",
+          "metadata": {
+            "accepted_answers": ["ハバース管", "中心管", "はばーすかん", "haversian canal"],
+            "hint": "オステオンの中心を走る管で、血管と神経が通ります"
+          },
+          "choices": [
+            { "text": "ハバース管", "is_correct": true },
+            { "text": "不正解", "is_correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "体幹の骨格",
+      "slug": "axial-skeleton",
+      "description": "体幹の骨格（頭蓋骨、脊柱、胸郭）を学ぶ",
+      "sort_order": 2,
+      "concepts": [
+        { "name": "頭蓋骨", "description": "脳を保護する22個の骨" },
+        { "name": "脊柱", "description": "26個の椎骨からなる柱状の構造" },
+        { "name": "胸郭", "description": "胸骨と12対の肋骨からなる構造" },
+        { "name": "椎骨の区分", "description": "頸椎7、胸椎12、腰椎5、仙骨1、尾骨1" }
+      ],
+      "questions": [
+        {
+          "question_text": "成人の脊柱を構成する椎骨の数はいくつか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "成人の脊柱は26個の椎骨からなる。頸椎7、胸椎12、腰椎5、仙骨1（5つの椎骨が癒合）、尾骨1（3-5個が癒合）。",
+          "source": "Gray's Anatomy",
+          "choices": [
+            { "text": "26個", "is_correct": true },
+            { "text": "24個", "is_correct": false },
+            { "text": "33個", "is_correct": false },
+            { "text": "30個", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "頸椎の数はいくつか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "頸椎は脊柱の最上部にある7つの椎骨。C1（環椎）とC2（軸椎）は特殊な形状を持つ。",
+          "source": "Gray's Anatomy",
+          "choices": [
+            { "text": "7個", "is_correct": true },
+            { "text": "5個", "is_correct": false },
+            { "text": "12個", "is_correct": false },
+            { "text": "8個", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "胸椎は12個あり、それぞれが肋骨と関節を形成する。胸椎は脊柱の中で最も数が多い区分。",
+          "source": "Gray's Anatomy",
+          "metadata": {
+            "template": "胸椎の数は {{blank}} である"
+          },
+          "choices": [
+            { "text": "12個", "is_correct": true },
+            { "text": "7個", "is_correct": false },
+            { "text": "5個", "is_correct": false },
+            { "text": "10個", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "脊柱の区分と椎骨の数をマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "頸椎=7個、胸椎=12個、腰椎=5個。「朝7時に胸を12回叩いて腰を5回回す」で覚えよう。",
+          "source": "Gray's Anatomy",
+          "metadata": {
+            "pairs": [
+              { "left": "頸椎", "right": "7個" },
+              { "left": "胸椎", "right": "12個" },
+              { "left": "腰椎", "right": "5個" }
+            ]
+          },
+          "choices": [
+            { "text": "正解", "is_correct": true },
+            { "text": "不正解", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "肋骨は何対あるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "肋骨は12対（24本）。うち真肋（第1-7肋骨）は胸骨に直接付着し、仮肋（第8-10）は間接的に、浮肋（第11-12）は胸骨に付着しない。",
+          "source": "Gray's Anatomy",
+          "choices": [
+            { "text": "12対", "is_correct": true },
+            { "text": "10対", "is_correct": false },
+            { "text": "14対", "is_correct": false },
+            { "text": "8対", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "第1頸椎（C1）の名称を入力してください",
+          "interaction_type": "free_input",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "第1頸椎は「環椎（アトラス）」と呼ばれ、ギリシャ神話で天球を支えるアトラスに由来する。椎体がなくリング状の形をしている。",
+          "source": "Gray's Anatomy",
+          "metadata": {
+            "accepted_answers": ["環椎", "アトラス", "atlas", "かんつい"],
+            "hint": "ギリシャ神話で天球を支える巨人の名前に由来します"
+          },
+          "choices": [
+            { "text": "環椎", "is_correct": true },
+            { "text": "不正解", "is_correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "四肢の骨格（上肢）",
+      "slug": "upper-limb",
+      "description": "上肢を構成する骨を学ぶ",
+      "sort_order": 3,
+      "concepts": [
+        { "name": "上肢帯", "description": "鎖骨と肩甲骨" },
+        { "name": "上腕骨", "description": "上腕の長骨" },
+        { "name": "前腕の骨", "description": "橈骨と尺骨" },
+        { "name": "手の骨", "description": "手根骨8、中手骨5、指骨14" }
+      ],
+      "questions": [
+        {
+          "question_text": "上肢帯を構成する2つの骨は何か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "上肢帯は鎖骨（クラビクル）と肩甲骨（スキャプラ）から構成され、上肢を体幹に接続する。",
+          "source": "Gray's Anatomy",
+          "choices": [
+            { "text": "鎖骨と肩甲骨", "is_correct": true },
+            { "text": "上腕骨と鎖骨", "is_correct": false },
+            { "text": "肩甲骨と胸骨", "is_correct": false },
+            { "text": "鎖骨と肋骨", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "前腕の外側（親指側）にある骨はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "橈骨（ラディアス）は前腕の外側（親指側）にある。尺骨（ウルナ）は内側（小指側）にある。",
+          "source": "Gray's Anatomy",
+          "choices": [
+            { "text": "橈骨", "is_correct": true },
+            { "text": "尺骨", "is_correct": false },
+            { "text": "上腕骨", "is_correct": false },
+            { "text": "中手骨", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "手根骨は手首を構成する8つの小さな短骨で、2列（近位列と遠位列）に配列される。",
+          "source": "Gray's Anatomy",
+          "metadata": {
+            "template": "手根骨の数は {{blank}} である"
+          },
+          "choices": [
+            { "text": "8個", "is_correct": true },
+            { "text": "5個", "is_correct": false },
+            { "text": "14個", "is_correct": false },
+            { "text": "7個", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "上肢の骨とその数をマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "手根骨=8個（近位列4+遠位列4）、中手骨=5個（手のひら）、指骨=14個（親指2+他の指各3）。",
+          "source": "Gray's Anatomy",
+          "metadata": {
+            "pairs": [
+              { "left": "手根骨", "right": "8個" },
+              { "left": "中手骨", "right": "5個" },
+              { "left": "指骨", "right": "14個" }
+            ]
+          },
+          "choices": [
+            { "text": "正解", "is_correct": true },
+            { "text": "不正解", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "上腕骨の遠位端にある、前腕の尺骨と関節を形成する部分は何か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "滑車（トロクレア）は上腕骨の遠位端内側にあり、尺骨の滑車切痕と関節を形成し、肘の屈曲・伸展を可能にする。",
+          "source": "Gray's Anatomy",
+          "choices": [
+            { "text": "滑車（トロクレア）", "is_correct": true },
+            { "text": "小頭（キャピテラム）", "is_correct": false },
+            { "text": "三角筋粗面", "is_correct": false },
+            { "text": "大結節", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "鎖骨の英語名を入力してください",
+          "interaction_type": "free_input",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "鎖骨はclavicleと呼ばれ、ラテン語のclavicula（小さな鍵）に由来する。体の中で最初に骨化が始まる骨の一つ。",
+          "source": "Gray's Anatomy",
+          "metadata": {
+            "accepted_answers": ["clavicle", "Clavicle", "クラビクル"],
+            "hint": "ラテン語で「小さな鍵」を意味する言葉に由来します"
+          },
+          "choices": [
+            { "text": "clavicle", "is_correct": true },
+            { "text": "不正解", "is_correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "四肢の骨格（下肢）",
+      "slug": "lower-limb",
+      "description": "下肢を構成する骨を学ぶ",
+      "sort_order": 4,
+      "concepts": [
+        { "name": "下肢帯", "description": "骨盤を構成する寛骨" },
+        { "name": "大腿骨", "description": "人体最大の長骨" },
+        { "name": "下腿の骨", "description": "脛骨と腓骨" },
+        { "name": "足の骨", "description": "足根骨7、中足骨5、趾骨14" }
+      ],
+      "questions": [
+        {
+          "question_text": "人体で最も長い骨はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "大腿骨は人体で最も長く、最も強い骨である。身長の約4分の1の長さがある。",
+          "source": "Gray's Anatomy",
+          "choices": [
+            { "text": "大腿骨", "is_correct": true },
+            { "text": "脛骨", "is_correct": false },
+            { "text": "上腕骨", "is_correct": false },
+            { "text": "腓骨", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "寛骨を構成する3つの骨は何か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "寛骨は腸骨、坐骨、恥骨の3つの骨が癒合して形成される。これらは思春期頃に癒合が完了する。",
+          "source": "Gray's Anatomy",
+          "choices": [
+            { "text": "腸骨・坐骨・恥骨", "is_correct": true },
+            { "text": "腸骨・仙骨・恥骨", "is_correct": false },
+            { "text": "坐骨・仙骨・尾骨", "is_correct": false },
+            { "text": "腸骨・坐骨・尾骨", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "脛骨は下腿の内側にある太い骨で、体重を支える主要な骨。腓骨は外側の細い骨で主に筋の付着に関わる。",
+          "source": "Gray's Anatomy",
+          "metadata": {
+            "template": "下腿で体重を支える主要な骨は {{blank}} である"
+          },
+          "choices": [
+            { "text": "脛骨", "is_correct": true },
+            { "text": "腓骨", "is_correct": false },
+            { "text": "大腿骨", "is_correct": false },
+            { "text": "距骨", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "下肢の骨と位置をマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "脛骨は下腿内側、腓骨は下腿外側、距骨は足首、踵骨はかかとに位置する。",
+          "source": "Gray's Anatomy",
+          "metadata": {
+            "pairs": [
+              { "left": "脛骨", "right": "下腿の内側" },
+              { "left": "腓骨", "right": "下腿の外側" },
+              { "left": "距骨", "right": "足首" },
+              { "left": "踵骨", "right": "かかと" }
+            ]
+          },
+          "choices": [
+            { "text": "正解", "is_correct": true },
+            { "text": "不正解", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "足根骨の数はいくつか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "足根骨は7個で、距骨、踵骨、舟状骨、立方骨、内側楔状骨、中間楔状骨、外側楔状骨から構成される。",
+          "source": "Gray's Anatomy",
+          "choices": [
+            { "text": "7個", "is_correct": true },
+            { "text": "8個", "is_correct": false },
+            { "text": "5個", "is_correct": false },
+            { "text": "10個", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "膝蓋骨の英語名を入力してください",
+          "interaction_type": "free_input",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "膝蓋骨はpatella（パテラ）と呼ばれ、ラテン語で「小さな皿」を意味する。人体最大の種子骨。",
+          "source": "Gray's Anatomy",
+          "metadata": {
+            "accepted_answers": ["patella", "Patella", "パテラ"],
+            "hint": "ラテン語で「小さな皿」を意味します"
+          },
+          "choices": [
+            { "text": "patella", "is_correct": true },
+            { "text": "不正解", "is_correct": false }
+          ]
+        }
+      ]
+    }
+  ]
+}

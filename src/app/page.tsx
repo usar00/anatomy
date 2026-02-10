@@ -8,16 +8,28 @@ import { Card } from "@/components/ui/Card";
 
 const features = [
   {
-    icon: "📚",
-    title: "豊富な問題数",
+    icon: "🗺️",
+    title: "ステップバイステップ学習",
     description:
-      "筋骨格系、循環器系、神経系など、解剖学の主要分野を幅広くカバー。",
+      "Duolingo風の学習パスで、基礎から積み上げる。ユニット→セクション→5-7問の構成で無理なく進める。",
   },
   {
-    icon: "🎯",
-    title: "4択クイズ形式",
+    icon: "🔄",
+    title: "多彩な問題形式",
     description:
-      "選択式で気軽に取り組める。正誤フィードバックと詳しい解説付き。",
+      "選択肢、穴埋め、ペアマッチ、自由入力。同じ知識を違う形式で繰り返し学ぶことで定着を促す。",
+  },
+  {
+    icon: "🧠",
+    title: "スペースドリペティション",
+    description:
+      "忘れかけた頃に自動で復習を提案。科学的な間隔反復で長期記憶に定着させる。",
+  },
+  {
+    icon: "👤",
+    title: "リンがサポート",
+    description:
+      "マスコットキャラ「リン」が学習に寄り添う。正解も不正解も、自然なリアクションで応援。",
   },
   {
     icon: "🖼️",
@@ -26,22 +38,10 @@ const features = [
       "解剖図やイラストを使った視覚的な問題で、実践的な知識を身につけられる。",
   },
   {
-    icon: "📊",
-    title: "学習記録",
-    description:
-      "アカウント登録で学習の進捗を記録。苦手分野の把握や復習に活用。",
-  },
-  {
-    icon: "🔄",
-    title: "復習モード",
-    description:
-      "間違えた問題を自動でピックアップ。効率的に弱点を克服できる。",
-  },
-  {
     icon: "🏆",
     title: "無料で始められる",
     description:
-      "全カテゴリ・全問題にアクセス可能。登録なしですぐに始められる。",
+      "Gray's Anatomyに基づく問題に全アクセス可能。登録なしですぐに始められる。",
   },
 ];
 
@@ -69,7 +69,7 @@ export default function LandingPage() {
       if (!user) {
         await signInAnonymously();
       }
-      router.push("/categories");
+      router.push("/learn");
     } catch (error) {
       console.error("Failed to start:", error);
     } finally {
@@ -96,9 +96,9 @@ export default function LandingPage() {
               学ぼう
             </h1>
             <p className="text-lg sm:text-xl text-secondary mb-10 leading-relaxed">
-              クイズ形式で解剖学の知識を効率的に習得。
+              基礎から積み上げるDuolingo風の学習パスで、
               <br className="hidden sm:block" />
-              登録不要ですぐに始められます。
+              解剖学の知識を着実に身につける。
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
@@ -106,7 +106,7 @@ export default function LandingPage() {
                 onClick={handleStartQuiz}
                 isLoading={isStarting || isLoading}
               >
-                すぐに始める（無料）
+                学習を始める（無料）
               </Button>
               <Button size="lg" variant="outline" onClick={() => router.push("/login")}>
                 Google でログイン
