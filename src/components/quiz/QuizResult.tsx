@@ -8,27 +8,48 @@ interface QuizResultProps {
   totalQuestions: number;
   correctCount: number;
   categoryName: string;
+  mode?: string;
+  isFreeMember?: boolean;
   onRetry: () => void;
   onBackToCategories: () => void;
+  onGoHome?: () => void;
 }
 
 export function QuizResult({
   totalQuestions,
   correctCount,
   categoryName,
+  mode = "normal",
+  isFreeMember = false,
   onRetry,
   onBackToCategories,
+  onGoHome,
 }: QuizResultProps) {
-  const percentage = totalQuestions > 0 ? (correctCount / totalQuestions) * 100 : 0;
+  const percentage =
+    totalQuestions > 0 ? (correctCount / totalQuestions) * 100 : 0;
 
   const getGrade = () => {
-    if (percentage >= 90) return { emoji: "🏆", label: "素晴らしい！", color: "text-success" };
-    if (percentage >= 70) return { emoji: "🎉", label: "よくできました！", color: "text-primary" };
-    if (percentage >= 50) return { emoji: "📚", label: "もう少し頑張ろう！", color: "text-warning" };
+    if (percentage >= 90)
+      return { emoji: "🏆", label: "素晴らしい！", color: "text-success" };
+    if (percentage >= 70)
+      return { emoji: "🎉", label: "よくできました！", color: "text-primary" };
+    if (percentage >= 50)
+      return {
+        emoji: "📚",
+        label: "もう少し頑張ろう！",
+        color: "text-warning",
+      };
     return { emoji: "💪", label: "復習しましょう！", color: "text-danger" };
   };
 
   const grade = getGrade();
+
+  const modeLabel =
+    mode === "review"
+      ? "復習モード"
+      : mode === "random"
+        ? "ランダムモード"
+        : "通常モード";
 
   return (
     <div className="max-w-lg mx-auto">
@@ -37,7 +58,8 @@ export function QuizResult({
         <h2 className={`text-2xl font-bold mb-2 ${grade.color}`}>
           {grade.label}
         </h2>
-        <p className="text-secondary mb-6">{categoryName}</p>
+        <p className="text-secondary mb-1">{categoryName}</p>
+        <p className="text-xs text-secondary mb-6">{modeLabel}</p>
 
         <div className="bg-muted rounded-2xl p-6 mb-6">
           <div className="text-5xl font-bold text-foreground mb-1">
@@ -79,6 +101,15 @@ export function QuizResult({
           >
             カテゴリ一覧に戻る
           </Button>
+          {isFreeMember && onGoHome && (
+            <Button
+              variant="ghost"
+              onClick={onGoHome}
+              className="w-full"
+            >
+              ホームに戻る
+            </Button>
+          )}
         </div>
       </Card>
     </div>

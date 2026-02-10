@@ -15,7 +15,9 @@ interface AuthContextType {
   user: User | null;
   isLoading: boolean;
   isGuest: boolean;
+  isFreeMember: boolean;
   signInAnonymously: () => Promise<void>;
+  upgradeToGoogle: () => Promise<void>;
   signOut: () => Promise<void>;
 }
 
@@ -23,7 +25,9 @@ const AuthContext = createContext<AuthContextType>({
   user: null,
   isLoading: true,
   isGuest: false,
+  isFreeMember: false,
   signInAnonymously: async () => {},
+  upgradeToGoogle: async () => {},
   signOut: async () => {},
 });
 
@@ -38,7 +42,21 @@ export function useAuth() {
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [user, setUser] = useState<User | null>(null);
   const [isLoading, setIsLoading] = useState(true);
+  const [role, setRole] = useState<string>("guest");
   const supabase = createClient();
+
+  // Fetch user role from profiles table
+  const fetchRole = useCallback(
+    async (userId: string) => {
+      const { data } = await supabase
+        .from("profiles")
+        .select("role")
+        .eq("id", userId)
+        .single();
+      if (data) setRole((data as { role: string }).role);
+    },
+    [supabase]
+  );
 
   useEffect(() => {
     // Get initial session
@@ -46,7 +64,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       const {
         data: { session },
       } = await supabase.auth.getSession();
-      setUser(session?.user ?? null);
+      const currentUser = session?.user ?? null;
+      setUser(currentUser);
+      if (currentUser) await fetchRole(currentUser.id);
       setIsLoading(false);
     };
 
@@ -55,13 +75,15 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     // Listen for auth changes
     const {
       data: { subscription },
-    } = supabase.auth.onAuthStateChange((_event, session) => {
-      setUser(session?.user ?? null);
+    } = supabase.auth.onAuthStateChange(async (_event, session) => {
+      const currentUser = session?.user ?? null;
+      setUser(currentUser);
+      if (currentUser) await fetchRole(currentUser.id);
       setIsLoading(false);
     });
 
     return () => subscription.unsubscribe();
-  }, [supabase.auth]);
+  }, [supabase.auth, fetchRole]);
 
   const signInAnonymously = useCallback(async () => {
     const { error } = await supabase.auth.signInAnonymously();
@@ -71,19 +93,50 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     }
   }, [supabase.auth]);
 
+  const upgradeToGoogle = useCallback(async () => {
+    const { error } = await supabase.auth.linkIdentity({
+      provider: "google",
+      options: {
+        redirectTo: `${window.location.origin}/auth/callback?next=/home`,
+      },
+    });
+    if (error) {
+      console.error("Upgrade to Google error:", error.message);
+      throw error;
+    }
+    // After redirect + callback, update the profile role
+    if (user) {
+      await supabase
+        .from("profiles")
+        .update({ role: "free" })
+        .eq("id", user.id);
+      setRole("free");
+    }
+  }, [supabase, user]);
+
   const signOut = useCallback(async () => {
     const { error } = await supabase.auth.signOut();
     if (error) {
       console.error("Sign-out error:", error.message);
       throw error;
     }
+    setRole("guest");
   }, [supabase.auth]);
 
   const isGuest = user?.is_anonymous ?? false;
+  const isFreeMember = role === "free" || role === "premium";
 
   return (
     <AuthContext.Provider
-      value={{ user, isLoading, isGuest, signInAnonymously, signOut }}
+      value={{
+        user,
+        isLoading,
+        isGuest,
+        isFreeMember,
+        signInAnonymously,
+        upgradeToGoogle,
+        signOut,
+      }}
     >
       {children}
     </AuthContext.Provider>

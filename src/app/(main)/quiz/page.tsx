@@ -18,7 +18,10 @@ function QuizContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const categoryId = searchParams.get("category");
-  const { user, isLoading: authLoading } = useAuth();
+  const mode = searchParams.get("mode") || "normal";
+  const limitParam = searchParams.get("limit");
+  const questionLimit = limitParam ? parseInt(limitParam, 10) : 0;
+  const { user, isLoading: authLoading, isGuest, isFreeMember } = useAuth();
 
   const [questions, setQuestions] = useState<QuestionWithChoices[]>([]);
   const [category, setCategory] = useState<Category | null>(null);
@@ -47,6 +50,34 @@ function QuizContent() {
 
       if (catData) setCategory(catData as Category);
 
+      let filteredQuestionIds: Set<string> | null = null;
+
+      // Review mode: fetch incorrect question IDs
+      if (mode === "review" && !isGuest) {
+        const { data: sessions } = await supabase
+          .from("quiz_sessions")
+          .select("id")
+          .eq("user_id", user.id);
+
+        if (sessions && sessions.length > 0) {
+          const sessionIds = (sessions as { id: string }[]).map((s) => s.id);
+
+          const { data: incorrectAnswers } = await supabase
+            .from("quiz_answers")
+            .select("question_id")
+            .in("session_id", sessionIds)
+            .eq("is_correct", false);
+
+          if (incorrectAnswers) {
+            filteredQuestionIds = new Set(
+              (incorrectAnswers as { question_id: string }[]).map(
+                (a) => a.question_id
+              )
+            );
+          }
+        }
+      }
+
       // Fetch questions with choices and images
       const { data: questionsData, error } = await supabase
         .from("questions")
@@ -69,12 +100,30 @@ function QuizContent() {
         return;
       }
 
+      let typedQuestions = questionsData as unknown as QuestionWithChoices[];
+
+      // Apply review filter
+      if (mode === "review" && filteredQuestionIds) {
+        typedQuestions = typedQuestions.filter((q) =>
+          filteredQuestionIds!.has(q.id)
+        );
+      }
+
+      if (typedQuestions.length === 0) {
+        setIsLoading(false);
+        return;
+      }
+
       // Shuffle questions and choices
-      const typedQuestions = questionsData as unknown as QuestionWithChoices[];
-      const shuffledQuestions = shuffle(typedQuestions).map((q) => ({
+      let shuffledQuestions = shuffle(typedQuestions).map((q) => ({
         ...q,
         choices: shuffle(q.choices),
       }));
+
+      // Apply question limit
+      if (questionLimit > 0 && questionLimit < shuffledQuestions.length) {
+        shuffledQuestions = shuffledQuestions.slice(0, questionLimit);
+      }
 
       setQuestions(shuffledQuestions);
 
@@ -84,7 +133,7 @@ function QuizContent() {
         .insert({
           user_id: user.id,
           category_id: categoryId,
-          mode: "normal",
+          mode: mode as "normal" | "review" | "random" | "test",
           total_questions: shuffledQuestions.length,
           status: "in_progress",
         })
@@ -98,12 +147,15 @@ function QuizContent() {
     };
 
     fetchQuestions();
-  }, [categoryId, user, authLoading]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [categoryId, mode, questionLimit, user, authLoading, isGuest]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  const handleSelectChoice = useCallback((choiceId: string) => {
-    if (isAnswered) return;
-    setSelectedChoiceId(choiceId);
-  }, [isAnswered]);
+  const handleSelectChoice = useCallback(
+    (choiceId: string) => {
+      if (isAnswered) return;
+      setSelectedChoiceId(choiceId);
+    },
+    [isAnswered]
+  );
 
   const handleAnswer = useCallback(async () => {
     if (!selectedChoiceId || isAnswered) return;
@@ -138,15 +190,29 @@ function QuizContent() {
           correct_count: correct ? correctCount + 1 : correctCount,
         })
         .eq("id", sessionId);
+
+      // Update daily streak
+      await supabase.rpc("upsert_daily_streak", {
+        p_user_id: user.id,
+        p_correct: correct,
+      });
     }
-  }, [selectedChoiceId, isAnswered, questions, currentIndex, answerStartTime, sessionId, user, correctCount, supabase]);
+  }, [
+    selectedChoiceId,
+    isAnswered,
+    questions,
+    currentIndex,
+    answerStartTime,
+    sessionId,
+    user,
+    correctCount,
+    supabase,
+  ]);
 
   const handleNext = useCallback(async () => {
     if (currentIndex + 1 >= questions.length) {
-      // Quiz complete
       setIsComplete(true);
 
-      // Update session status
       if (sessionId) {
         await supabase
           .from("quiz_sessions")
@@ -174,7 +240,6 @@ function QuizContent() {
     setSessionId(null);
     setAnswerStartTime(Date.now());
 
-    // Re-shuffle
     setQuestions((prev) => {
       const reshuffled = shuffle([...prev]);
       return reshuffled.map((q) => ({
@@ -183,7 +248,6 @@ function QuizContent() {
       }));
     });
 
-    // Create new session
     const createNewSession = async () => {
       if (!user || !categoryId) return;
       const { data: session } = await supabase
@@ -191,7 +255,7 @@ function QuizContent() {
         .insert({
           user_id: user.id,
           category_id: categoryId,
-          mode: "normal",
+          mode: mode as "normal" | "review" | "random" | "test",
           total_questions: questions.length,
           status: "in_progress",
         })
@@ -219,7 +283,6 @@ function QuizContent() {
     );
   }
 
-  // No category selected
   if (!categoryId) {
     return (
       <div className="max-w-2xl mx-auto px-4 py-12 text-center">
@@ -235,17 +298,22 @@ function QuizContent() {
     );
   }
 
-  // No questions found
   if (questions.length === 0) {
     return (
       <div className="max-w-2xl mx-auto px-4 py-12 text-center">
         <Card>
-          <p className="text-4xl mb-4">📭</p>
+          <p className="text-4xl mb-4">
+            {mode === "review" ? "🎉" : "📭"}
+          </p>
           <p className="text-lg font-medium mb-2">
-            このカテゴリにはまだ問題がありません
+            {mode === "review"
+              ? "復習する問題がありません"
+              : "このカテゴリにはまだ問題がありません"}
           </p>
           <p className="text-sm text-secondary mb-6">
-            問題データのインポートを行ってください
+            {mode === "review"
+              ? "全問正解しています！他のモードを試してみましょう"
+              : "問題データのインポートを行ってください"}
           </p>
           <Button onClick={() => router.push("/categories")}>
             カテゴリ一覧に戻る
@@ -255,7 +323,7 @@ function QuizContent() {
     );
   }
 
-  // Quiz complete - show results
+  // Quiz complete
   if (isComplete) {
     return (
       <div className="max-w-2xl mx-auto px-4 py-8">
@@ -263,8 +331,11 @@ function QuizContent() {
           totalQuestions={questions.length}
           correctCount={correctCount}
           categoryName={category?.name ?? ""}
+          mode={mode}
+          isFreeMember={isFreeMember}
           onRetry={handleRetry}
           onBackToCategories={() => router.push("/categories")}
+          onGoHome={() => router.push("/home")}
         />
       </div>
     );
@@ -278,7 +349,15 @@ function QuizContent() {
 
   return (
     <div className="max-w-2xl mx-auto px-4 py-8">
-      {/* Progress */}
+      {/* Mode indicator */}
+      {mode !== "normal" && (
+        <div className="mb-4">
+          <span className="text-xs font-medium px-2 py-1 rounded-full bg-primary-light text-primary">
+            {mode === "review" ? "🔄 復習モード" : "🎲 ランダムモード"}
+          </span>
+        </div>
+      )}
+
       <ProgressBar
         current={currentIndex}
         total={questions.length}
@@ -286,7 +365,6 @@ function QuizContent() {
         className="mb-8"
       />
 
-      {/* Question */}
       <Card className="mb-6">
         <QuestionCard
           question={currentQuestion}
@@ -295,7 +373,6 @@ function QuizContent() {
         />
       </Card>
 
-      {/* Choices */}
       <div className="mb-6">
         <ChoiceList
           choices={currentQuestion.choices}
@@ -305,7 +382,6 @@ function QuizContent() {
         />
       </div>
 
-      {/* Action Buttons */}
       {!isAnswered ? (
         <Button
           onClick={handleAnswer}
@@ -317,13 +393,10 @@ function QuizContent() {
         </Button>
       ) : (
         <div className="space-y-4">
-          {/* Explanation */}
           <ExplanationPanel
             question={currentQuestion}
             isCorrect={isCorrect ?? false}
           />
-
-          {/* Next Button */}
           <Button onClick={handleNext} className="w-full" size="lg">
             {currentIndex + 1 >= questions.length
               ? "結果を見る"
@@ -332,7 +405,6 @@ function QuizContent() {
         </div>
       )}
 
-      {/* Quit button */}
       <div className="mt-4 text-center">
         <button
           onClick={() => router.push("/categories")}

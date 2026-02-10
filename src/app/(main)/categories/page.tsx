@@ -10,27 +10,32 @@ import type { Category, CategoryWithStats } from "@/types/quiz";
 
 // Category icons mapping
 const categoryIcons: Record<string, string> = {
-  "musculoskeletal": "🦴",
-  "cardiovascular": "❤️",
-  "nervous": "🧠",
-  "respiratory": "🫁",
-  "digestive": "🫃",
-  "urinary": "🫘",
-  "endocrine": "⚗️",
-  "reproductive": "🧬",
-  "integumentary": "🖐️",
-  "lymphatic": "🛡️",
-  "sensory": "👁️",
+  musculoskeletal: "🦴",
+  cardiovascular: "❤️",
+  nervous: "🧠",
+  respiratory: "🫁",
+  digestive: "🫃",
+  urinary: "🫘",
+  endocrine: "⚗️",
+  reproductive: "🧬",
+  integumentary: "🖐️",
+  lymphatic: "🛡️",
+  sensory: "👁️",
 };
 
 function getCategoryIcon(slug: string): string {
   return categoryIcons[slug] || "📖";
 }
 
+interface CategoryWithProgress extends CategoryWithStats {
+  answered_correctly: number;
+}
+
 export default function CategoriesPage() {
   const router = useRouter();
-  const { user, isLoading: authLoading, signInAnonymously } = useAuth();
-  const [categories, setCategories] = useState<CategoryWithStats[]>([]);
+  const { user, isLoading: authLoading, isGuest, signInAnonymously } =
+    useAuth();
+  const [categories, setCategories] = useState<CategoryWithProgress[]>([]);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -44,12 +49,12 @@ export default function CategoriesPage() {
         } catch {
           console.error("Failed to sign in anonymously");
         }
-        return; // Auth state change will re-trigger
+        return;
       }
 
       const supabase = createClient();
 
-      // Fetch categories with question counts
+      // Fetch categories
       const { data: categoriesData, error: catError } = await supabase
         .from("categories")
         .select("*")
@@ -62,31 +67,64 @@ export default function CategoriesPage() {
       }
 
       // Fetch question counts per category
-      const { data: countData, error: countError } = await supabase
+      const { data: countData } = await supabase
         .from("questions")
-        .select("category_id")
+        .select("id, category_id")
         .eq("is_active", true);
-
-      if (countError) {
-        console.error("Error fetching question counts:", countError);
-      }
 
       // Calculate counts
       const countMap: Record<string, number> = {};
+      const questionCategoryMap: Record<string, string> = {};
       if (countData) {
-        for (const q of countData as { category_id: string }[]) {
+        for (const q of countData as { id: string; category_id: string }[]) {
           countMap[q.category_id] = (countMap[q.category_id] || 0) + 1;
+          questionCategoryMap[q.id] = q.category_id;
         }
       }
 
-      const categoriesWithStats: CategoryWithStats[] = (
+      // Fetch user's correct answers for progress
+      let correctByCategory: Record<string, Set<string>> = {};
+      if (user) {
+        const { data: sessions } = await supabase
+          .from("quiz_sessions")
+          .select("id")
+          .eq("user_id", user.id);
+
+        if (sessions) {
+          const sessionIds = new Set(
+            (sessions as { id: string }[]).map((s) => s.id)
+          );
+
+          const { data: answers } = await supabase
+            .from("quiz_answers")
+            .select("question_id, session_id")
+            .eq("is_correct", true);
+
+          if (answers) {
+            for (const a of answers as {
+              question_id: string;
+              session_id: string;
+            }[]) {
+              if (!sessionIds.has(a.session_id)) continue;
+              const catId = questionCategoryMap[a.question_id];
+              if (!catId) continue;
+              if (!correctByCategory[catId])
+                correctByCategory[catId] = new Set();
+              correctByCategory[catId].add(a.question_id);
+            }
+          }
+        }
+      }
+
+      const categoriesWithProgress: CategoryWithProgress[] = (
         (categoriesData || []) as Category[]
       ).map((cat) => ({
         ...cat,
         question_count: countMap[cat.id] || 0,
+        answered_correctly: correctByCategory[cat.id]?.size || 0,
       }));
 
-      setCategories(categoriesWithStats);
+      setCategories(categoriesWithProgress);
       setIsLoading(false);
     };
 
@@ -94,7 +132,7 @@ export default function CategoriesPage() {
   }, [user, authLoading, signInAnonymously]);
 
   const handleCategorySelect = (categoryId: string) => {
-    router.push(`/quiz?category=${categoryId}`);
+    router.push(`/categories/${categoryId}/modes`);
   };
 
   if (authLoading || isLoading) {
@@ -136,32 +174,58 @@ export default function CategoriesPage() {
         </Card>
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {categories.map((category) => (
-            <Card
-              key={category.id}
-              hover
-              onClick={() => handleCategorySelect(category.id)}
-              className="relative"
-            >
-              {category.is_premium_only && (
-                <span className="absolute top-3 right-3 text-xs bg-warning-light text-warning font-medium px-2 py-0.5 rounded-full">
-                  🔒 プレミアム
-                </span>
-              )}
-              <div className="text-4xl mb-3">
-                {getCategoryIcon(category.slug)}
-              </div>
-              <h3 className="text-lg font-semibold mb-1">{category.name}</h3>
-              {category.description && (
-                <p className="text-sm text-secondary mb-3 line-clamp-2">
-                  {category.description}
-                </p>
-              )}
-              <div className="flex items-center gap-2 text-sm text-secondary">
-                <span>📝 {category.question_count} 問</span>
-              </div>
-            </Card>
-          ))}
+          {categories.map((category) => {
+            const progressPercent =
+              category.question_count > 0
+                ? Math.round(
+                    (category.answered_correctly / category.question_count) * 100
+                  )
+                : 0;
+
+            return (
+              <Card
+                key={category.id}
+                hover
+                onClick={() => handleCategorySelect(category.id)}
+                className="relative"
+              >
+                {category.is_premium_only && (
+                  <span className="absolute top-3 right-3 text-xs bg-warning-light text-warning font-medium px-2 py-0.5 rounded-full">
+                    🔒 プレミアム
+                  </span>
+                )}
+                <div className="text-4xl mb-3">
+                  {getCategoryIcon(category.slug)}
+                </div>
+                <h3 className="text-lg font-semibold mb-1">
+                  {category.name}
+                </h3>
+                {category.description && (
+                  <p className="text-sm text-secondary mb-3 line-clamp-2">
+                    {category.description}
+                  </p>
+                )}
+                <div className="flex items-center justify-between text-sm text-secondary mb-2">
+                  <span>📝 {category.question_count} 問</span>
+                  {category.answered_correctly > 0 && (
+                    <span className="text-success">
+                      {category.answered_correctly}/{category.question_count}{" "}
+                      正解済
+                    </span>
+                  )}
+                </div>
+                {/* Progress bar */}
+                {category.answered_correctly > 0 && (
+                  <div className="w-full bg-muted rounded-full h-1.5 overflow-hidden">
+                    <div
+                      className="bg-success h-full rounded-full transition-all duration-500"
+                      style={{ width: `${progressPercent}%` }}
+                    />
+                  </div>
+                )}
+              </Card>
+            );
+          })}
         </div>
       )}
 
@@ -170,7 +234,6 @@ export default function CategoriesPage() {
         <Button
           variant="outline"
           onClick={() => {
-            // Pick a random category and start
             if (categories.length > 0) {
               const random =
                 categories[Math.floor(Math.random() * categories.length)];

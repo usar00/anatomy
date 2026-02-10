@@ -4,12 +4,12 @@ import Link from "next/link";
 import { useAuth } from "@/components/auth/AuthProvider";
 
 export function Header() {
-  const { user, isGuest, signOut } = useAuth();
+  const { user, isGuest, isFreeMember, signOut } = useAuth();
 
   return (
     <header className="sticky top-0 z-50 bg-card/80 backdrop-blur-md border-b border-card-border">
       <div className="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 group">
+        <Link href={isFreeMember ? "/home" : "/"} className="flex items-center gap-2 group">
           <span className="text-2xl" role="img" aria-label="anatomy">
             🦴
           </span>
@@ -21,6 +21,14 @@ export function Header() {
         <nav className="flex items-center gap-4">
           {user && (
             <>
+              {isFreeMember && (
+                <Link
+                  href="/home"
+                  className="text-sm text-secondary hover:text-foreground transition-colors"
+                >
+                  ホーム
+                </Link>
+              )}
               <Link
                 href="/categories"
                 className="text-sm text-secondary hover:text-foreground transition-colors"
