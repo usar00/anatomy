@@ -1,0 +1,52 @@
+"use client";
+
+import Link from "next/link";
+import { useAuth } from "@/components/auth/AuthProvider";
+
+export function Header() {
+  const { user, isGuest, signOut } = useAuth();
+
+  return (
+    <header className="sticky top-0 z-50 bg-card/80 backdrop-blur-md border-b border-card-border">
+      <div className="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between">
+        <Link href="/" className="flex items-center gap-2 group">
+          <span className="text-2xl" role="img" aria-label="anatomy">
+            🦴
+          </span>
+          <span className="font-bold text-lg text-foreground group-hover:text-primary transition-colors">
+            Anatomy Quiz
+          </span>
+        </Link>
+
+        <nav className="flex items-center gap-4">
+          {user && (
+            <>
+              <Link
+                href="/categories"
+                className="text-sm text-secondary hover:text-foreground transition-colors"
+              >
+                カテゴリ
+              </Link>
+              {isGuest && (
+                <Link
+                  href="/login"
+                  className="text-sm text-primary hover:text-primary-hover font-medium transition-colors"
+                >
+                  ログイン
+                </Link>
+              )}
+              {!isGuest && (
+                <button
+                  onClick={() => signOut()}
+                  className="text-sm text-secondary hover:text-foreground transition-colors"
+                >
+                  ログアウト
+                </button>
+              )}
+            </>
+          )}
+        </nav>
+      </div>
+    </header>
+  );
+}

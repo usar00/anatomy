@@ -1,0 +1,223 @@
+{
+  "category": "筋骨格系",
+  "category_slug": "musculoskeletal",
+  "category_description": "骨格、関節、筋肉に関する問題。人体の運動器系の構造と機能を学びます。",
+  "questions": [
+    {
+      "question_text": "上腕二頭筋の起始として正しいものはどれか？",
+      "question_type": "text_only",
+      "difficulty": "medium",
+      "explanation": "上腕二頭筋は2つの起始を持つ。長頭は肩甲骨の関節上結節から、短頭は肩甲骨の烏口突起から起始する。停止は橈骨粗面である。",
+      "source": "OpenStax Anatomy and Physiology",
+      "metadata": {
+        "tags": ["上肢", "筋肉", "起始停止"],
+        "subcategory": "上肢の筋"
+      },
+      "images": [],
+      "choices": [
+        { "text": "肩甲骨の関節上結節と烏口突起", "is_correct": true },
+        { "text": "鎖骨の外側端と肩峰", "is_correct": false },
+        { "text": "上腕骨の大結節と小結節", "is_correct": false },
+        { "text": "肩甲骨の肩峰と肩甲棘", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "人体の骨の総数として最も近いものはどれか？",
+      "question_type": "text_only",
+      "difficulty": "easy",
+      "explanation": "成人の人体には約206個の骨がある。ただし、個人差や年齢による癒合の違いがあるため、多少の変動がある。新生児は約270個の骨を持つが、成長に伴い一部が癒合して206個になる。",
+      "source": "OpenStax Anatomy and Physiology",
+      "metadata": {
+        "tags": ["骨格", "総論"],
+        "subcategory": "骨格系総論"
+      },
+      "images": [],
+      "choices": [
+        { "text": "約206個", "is_correct": true },
+        { "text": "約180個", "is_correct": false },
+        { "text": "約250個", "is_correct": false },
+        { "text": "約300個", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "大腿四頭筋に含まれない筋はどれか？",
+      "question_type": "text_only",
+      "difficulty": "medium",
+      "explanation": "大腿四頭筋は大腿直筋、外側広筋、内側広筋、中間広筋の4つの筋で構成される。縫工筋は大腿四頭筋には含まれず、大腿の前面を斜めに走行する筋である。",
+      "source": "OpenStax Anatomy and Physiology",
+      "metadata": {
+        "tags": ["下肢", "筋肉", "大腿"],
+        "subcategory": "下肢の筋"
+      },
+      "images": [],
+      "choices": [
+        { "text": "縫工筋", "is_correct": true },
+        { "text": "大腿直筋", "is_correct": false },
+        { "text": "外側広筋", "is_correct": false },
+        { "text": "内側広筋", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "肩関節（肩甲上腕関節）の関節の種類として正しいものはどれか？",
+      "question_type": "text_only",
+      "difficulty": "easy",
+      "explanation": "肩関節（肩甲上腕関節）は球関節に分類される。上腕骨頭が肩甲骨の関節窩にはまり込む構造で、人体で最も可動域の広い関節である。",
+      "source": "OpenStax Anatomy and Physiology",
+      "metadata": {
+        "tags": ["関節", "上肢"],
+        "subcategory": "関節"
+      },
+      "images": [],
+      "choices": [
+        { "text": "球関節", "is_correct": true },
+        { "text": "蝶番関節", "is_correct": false },
+        { "text": "車軸関節", "is_correct": false },
+        { "text": "鞍関節", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "椎骨のうち、頸椎の数として正しいものはどれか？",
+      "question_type": "text_only",
+      "difficulty": "easy",
+      "explanation": "頸椎は7個ある（C1〜C7）。これはほぼ全ての哺乳類に共通する数である。胸椎は12個、腰椎は5個、仙骨は5個（癒合）、尾骨は3〜5個である。",
+      "source": "OpenStax Anatomy and Physiology",
+      "metadata": {
+        "tags": ["骨格", "脊柱", "頸椎"],
+        "subcategory": "体幹の骨格"
+      },
+      "images": [],
+      "choices": [
+        { "text": "7個", "is_correct": true },
+        { "text": "5個", "is_correct": false },
+        { "text": "12個", "is_correct": false },
+        { "text": "8個", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "手根骨は全部でいくつあるか？",
+      "question_type": "text_only",
+      "difficulty": "medium",
+      "explanation": "手根骨は近位列と遠位列にそれぞれ4個ずつ、合計8個ある。近位列：舟状骨、月状骨、三角骨、豆状骨。遠位列：大菱形骨、小菱形骨、有頭骨、有鉤骨。",
+      "source": "OpenStax Anatomy and Physiology",
+      "metadata": {
+        "tags": ["骨格", "上肢", "手"],
+        "subcategory": "上肢の骨格"
+      },
+      "images": [],
+      "choices": [
+        { "text": "8個", "is_correct": true },
+        { "text": "6個", "is_correct": false },
+        { "text": "10個", "is_correct": false },
+        { "text": "7個", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "三角筋の主な作用として正しいものはどれか？",
+      "question_type": "text_only",
+      "difficulty": "easy",
+      "explanation": "三角筋の主な作用は肩関節の外転である。三角筋は肩関節を覆う大きな筋肉で、前部線維は屈曲・内旋、中部線維は外転、後部線維は伸展・外旋にも関与する。",
+      "source": "OpenStax Anatomy and Physiology",
+      "metadata": {
+        "tags": ["上肢", "筋肉", "三角筋"],
+        "subcategory": "上肢の筋"
+      },
+      "images": [],
+      "choices": [
+        { "text": "肩関節の外転", "is_correct": true },
+        { "text": "肘関節の屈曲", "is_correct": false },
+        { "text": "手関節の背屈", "is_correct": false },
+        { "text": "肩関節の内転", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "アキレス腱が付着する骨はどれか？",
+      "question_type": "text_only",
+      "difficulty": "easy",
+      "explanation": "アキレス腱（踵骨腱）は腓腹筋とヒラメ筋から成る下腿三頭筋の腱で、踵骨（かかとの骨）に付着する。人体最大の腱であり、足関節の底屈に重要な役割を果たす。",
+      "source": "OpenStax Anatomy and Physiology",
+      "metadata": {
+        "tags": ["下肢", "腱", "足"],
+        "subcategory": "下肢の筋"
+      },
+      "images": [],
+      "choices": [
+        { "text": "踵骨", "is_correct": true },
+        { "text": "距骨", "is_correct": false },
+        { "text": "脛骨", "is_correct": false },
+        { "text": "腓骨", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "回旋筋腱板（ローテーターカフ）に含まれない筋はどれか？",
+      "question_type": "text_only",
+      "difficulty": "hard",
+      "explanation": "回旋筋腱板は棘上筋、棘下筋、小円筋、肩甲下筋の4つの筋で構成される。大円筋は回旋筋腱板には含まれない。回旋筋腱板は肩関節の安定性に重要な役割を果たしている。",
+      "source": "OpenStax Anatomy and Physiology",
+      "metadata": {
+        "tags": ["上肢", "筋肉", "肩", "ローテーターカフ"],
+        "subcategory": "上肢の筋"
+      },
+      "images": [],
+      "choices": [
+        { "text": "大円筋", "is_correct": true },
+        { "text": "棘上筋", "is_correct": false },
+        { "text": "棘下筋", "is_correct": false },
+        { "text": "肩甲下筋", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "骨の長軸方向の成長に最も関与する部位はどれか？",
+      "question_type": "text_only",
+      "difficulty": "medium",
+      "explanation": "骨端板（成長板）は長骨の骨端と骨幹の間にある軟骨組織で、骨の長軸方向の成長に関与する。思春期の終わりにホルモンの影響で骨端板が骨化（閉鎖）すると、骨の長さの成長が止まる。",
+      "source": "OpenStax Anatomy and Physiology",
+      "metadata": {
+        "tags": ["骨格", "成長", "骨端板"],
+        "subcategory": "骨格系総論"
+      },
+      "images": [],
+      "choices": [
+        { "text": "骨端板（成長板）", "is_correct": true },
+        { "text": "骨膜", "is_correct": false },
+        { "text": "骨髄", "is_correct": false },
+        { "text": "関節軟骨", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "膝関節の内側側副靭帯が損傷しやすいのはどのような外力が加わった場合か？",
+      "question_type": "text_only",
+      "difficulty": "hard",
+      "explanation": "内側側副靭帯（MCL）は膝の外側から内側への外力（外反力）によって損傷しやすい。スポーツ中に膝の外側からタックルを受けた場合などに典型的に発生する。外反ストレスにより内側が引き伸ばされて靭帯が損傷する。",
+      "source": "OpenStax Anatomy and Physiology",
+      "metadata": {
+        "tags": ["下肢", "関節", "靭帯", "膝"],
+        "subcategory": "関節"
+      },
+      "images": [],
+      "choices": [
+        { "text": "膝の外側からの外力（外反力）", "is_correct": true },
+        { "text": "膝の内側からの外力（内反力）", "is_correct": false },
+        { "text": "膝の前方からの外力", "is_correct": false },
+        { "text": "膝の後方からの外力", "is_correct": false }
+      ]
+    },
+    {
+      "question_text": "骨格筋の収縮において、アクチンフィラメントが滑り込む構造はどれか？",
+      "question_type": "text_only",
+      "difficulty": "hard",
+      "explanation": "滑り説（sliding filament theory）によれば、筋収縮時にアクチン（細いフィラメント）がミオシン（太いフィラメント）の間に滑り込む。これによりサルコメア（筋節）が短縮し、筋全体が収縮する。",
+      "source": "OpenStax Anatomy and Physiology",
+      "metadata": {
+        "tags": ["筋肉", "生理学", "筋収縮"],
+        "subcategory": "筋の生理"
+      },
+      "images": [],
+      "choices": [
+        { "text": "ミオシンフィラメントの間", "is_correct": true },
+        { "text": "Z線の間", "is_correct": false },
+        { "text": "筋小胞体の中", "is_correct": false },
+        { "text": "T管の中", "is_correct": false }
+      ]
+    }
+  ]
+}

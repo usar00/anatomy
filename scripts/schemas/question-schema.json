@@ -1,0 +1,116 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Anatomy Quiz Import Data",
+  "description": "生成AIが出力する解剖学クイズの問題データスキーマ",
+  "type": "object",
+  "required": ["category", "questions"],
+  "properties": {
+    "category": {
+      "type": "string",
+      "description": "カテゴリ名（例: 筋骨格系、循環器系、神経系）"
+    },
+    "category_slug": {
+      "type": "string",
+      "description": "カテゴリのスラッグ（例: musculoskeletal）。省略時はカテゴリ名から自動生成",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "category_description": {
+      "type": "string",
+      "description": "カテゴリの説明文"
+    },
+    "questions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["question_text", "question_type", "difficulty", "explanation", "choices"],
+        "properties": {
+          "question_text": {
+            "type": "string",
+            "description": "問題文"
+          },
+          "question_type": {
+            "type": "string",
+            "enum": ["text_only", "image_based", "label_image"],
+            "description": "問題の種類。text_only: テキストのみ、image_based: 画像を見て答える、label_image: 画像のラベルを当てる"
+          },
+          "difficulty": {
+            "type": "string",
+            "enum": ["easy", "medium", "hard"],
+            "description": "難易度"
+          },
+          "explanation": {
+            "type": "string",
+            "description": "正解の解説文。なぜその答えが正しいのかを説明する"
+          },
+          "source": {
+            "type": "string",
+            "description": "問題の出典（例: OpenStax Anatomy and Physiology）"
+          },
+          "metadata": {
+            "type": "object",
+            "description": "追加メタデータ（タグ、サブカテゴリなど自由形式）",
+            "properties": {
+              "tags": {
+                "type": "array",
+                "items": { "type": "string" }
+              },
+              "subcategory": {
+                "type": "string"
+              },
+              "chapter": {
+                "type": "string"
+              }
+            }
+          },
+          "images": {
+            "type": "array",
+            "default": [],
+            "items": {
+              "type": "object",
+              "required": ["url", "role"],
+              "properties": {
+                "url": {
+                  "type": "string",
+                  "description": "画像ファイル名またはURL"
+                },
+                "role": {
+                  "type": "string",
+                  "enum": ["main", "explanation", "choice"],
+                  "description": "画像の用途。main: 問題文に表示、explanation: 解説に表示、choice: 選択肢に使用"
+                },
+                "alt_text": {
+                  "type": "string",
+                  "description": "画像の代替テキスト（アクセシビリティ用）"
+                }
+              }
+            }
+          },
+          "choices": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 6,
+            "items": {
+              "type": "object",
+              "required": ["text", "is_correct"],
+              "properties": {
+                "text": {
+                  "type": "string",
+                  "description": "選択肢のテキスト"
+                },
+                "image_url": {
+                  "type": "string",
+                  "description": "選択肢に画像がある場合のファイル名またはURL"
+                },
+                "is_correct": {
+                  "type": "boolean",
+                  "description": "正解の選択肢ならtrue"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
