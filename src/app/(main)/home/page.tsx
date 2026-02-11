@@ -9,12 +9,8 @@ import { Button } from "@/components/ui/Button";
 import {
   fetchTodayStats,
   fetchStreak,
-  fetchCategoryProgress,
-  fetchInProgressSession,
   type TodayStats,
   type StreakInfo,
-  type CategoryProgress,
-  type InProgressSession,
 } from "@/lib/queries/dashboard";
 
 export default function HomePage() {
@@ -23,32 +19,26 @@ export default function HomePage() {
 
   const [todayStats, setTodayStats] = useState<TodayStats | null>(null);
   const [streak, setStreak] = useState<StreakInfo | null>(null);
-  const [progress, setProgress] = useState<CategoryProgress[]>([]);
-  const [inProgress, setInProgress] = useState<InProgressSession | null>(null);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     if (authLoading) return;
 
-    // Redirect guests to categories
+    // Redirect guests to learn
     if (!user || isGuest) {
-      router.push("/categories");
+      router.push("/learn");
       return;
     }
 
     const fetchData = async () => {
       const supabase = createClient();
-      const [stats, streakData, progressData, session] = await Promise.all([
+      const [stats, streakData] = await Promise.all([
         fetchTodayStats(supabase, user.id),
         fetchStreak(supabase, user.id),
-        fetchCategoryProgress(supabase, user.id),
-        fetchInProgressSession(supabase, user.id),
       ]);
 
       setTodayStats(stats);
       setStreak(streakData);
-      setProgress(progressData);
-      setInProgress(session);
       setIsLoading(false);
     };
 
@@ -85,21 +75,10 @@ export default function HomePage() {
 
       {/* Quick Actions */}
       <div className="flex flex-col sm:flex-row gap-3 mb-8">
-        {inProgress && (
-          <Button
-            onClick={() =>
-              router.push(`/quiz?category=${inProgress.categoryId}`)
-            }
-          >
-            前回の続きから（{inProgress.categoryName}{" "}
-            {inProgress.answeredCount}/{inProgress.totalQuestions}）
-          </Button>
-        )}
         <Button
-          variant="outline"
-          onClick={() => router.push("/categories")}
+          onClick={() => router.push("/learn")}
         >
-          カテゴリを選んで始める
+          学習を続ける
         </Button>
       </div>
 
@@ -137,51 +116,6 @@ export default function HomePage() {
         </Card>
       </div>
 
-      {/* Category Progress */}
-      <div className="mb-8">
-        <h2 className="text-xl font-bold mb-4">カテゴリ別進捗</h2>
-        {progress.length === 0 ? (
-          <Card>
-            <p className="text-sm text-secondary text-center py-4">
-              まだ学習データがありません。クイズを始めましょう！
-            </p>
-          </Card>
-        ) : (
-          <div className="space-y-3">
-            {progress.map((cat) => {
-              const percent =
-                cat.totalQuestions > 0
-                  ? Math.round(
-                      (cat.answeredCorrectly / cat.totalQuestions) * 100
-                    )
-                  : 0;
-              return (
-                <Card
-                  key={cat.categoryId}
-                  hover
-                  onClick={() =>
-                    router.push(`/categories/${cat.categoryId}/modes`)
-                  }
-                >
-                  <div className="flex items-center justify-between mb-2">
-                    <span className="font-medium">{cat.categoryName}</span>
-                    <span className="text-sm text-secondary">
-                      {cat.answeredCorrectly}/{cat.totalQuestions} 問正解（
-                      {percent}%）
-                    </span>
-                  </div>
-                  <div className="w-full bg-muted rounded-full h-2 overflow-hidden">
-                    <div
-                      className="bg-primary h-full rounded-full transition-all duration-500"
-                      style={{ width: `${percent}%` }}
-                    />
-                  </div>
-                </Card>
-              );
-            })}
-          </div>
-        )}
-      </div>
     </div>
   );
 }

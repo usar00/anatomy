@@ -78,7 +78,7 @@ function QuizContent() {
         }
       }
 
-      // Fetch questions with choices and images
+      // Fetch questions with choices and images (only standard MCQ for quiz mode)
       const { data: questionsData, error } = await supabase
         .from("questions")
         .select(`
@@ -87,7 +87,8 @@ function QuizContent() {
           images:question_images (*)
         `)
         .eq("category_id", categoryId)
-        .eq("is_active", true);
+        .eq("is_active", true)
+        .eq("interaction_type", "standard_mcq");
 
       if (error) {
         console.error("Error fetching questions:", error);

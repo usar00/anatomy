@@ -66,11 +66,12 @@ export default function CategoriesPage() {
         return;
       }
 
-      // Fetch question counts per category
+      // Fetch question counts per category (only standard MCQ for quiz mode)
       const { data: countData } = await supabase
         .from("questions")
         .select("id, category_id")
-        .eq("is_active", true);
+        .eq("is_active", true)
+        .eq("interaction_type", "standard_mcq");
 
       // Calculate counts
       const countMap: Record<string, number> = {};

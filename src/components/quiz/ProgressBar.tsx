@@ -15,7 +15,7 @@ export function ProgressBar({
   correctCount,
   className,
 }: ProgressBarProps) {
-  const progress = total > 0 ? ((current) / total) * 100 : 0;
+  const progress = total > 0 ? ((current + 1) / total) * 100 : 0;
 
   return (
     <div className={cn("space-y-2", className)}>

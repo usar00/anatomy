@@ -98,7 +98,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     const { error } = await supabase.auth.linkIdentity({
       provider: "google",
       options: {
-        redirectTo: `${window.location.origin}/auth/callback?next=/home`,
+        redirectTo: `${window.location.origin}/auth/callback?next=/learn`,
       },
     });
     if (error) {
