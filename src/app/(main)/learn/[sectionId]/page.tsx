@@ -370,6 +370,17 @@ export default function LessonPage({
               <span className="font-semibold text-foreground">解説: </span>
               {currentQuestion.explanation}
             </p>
+            {currentQuestion.images
+              ?.filter((img) => img.image_role === "explanation")
+              .map((img) => (
+                <div key={img.id} className="mt-3 rounded-lg overflow-hidden bg-background/50">
+                  <img
+                    src={img.image_url}
+                    alt={img.alt_text || "解説画像"}
+                    className="object-contain max-h-48 w-auto mx-auto"
+                  />
+                </div>
+              ))}
           </motion.div>
         )}
 

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" width="420" height="320">
+  <rect width="420" height="320" fill="#ffffff" rx="12"/>
+
+  <!-- Title -->
+  <text x="210" y="28" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#333">この骨はどの分類？</text>
+
+  <!-- Long bone (Femur-like) -->
+  <g transform="translate(30, 50)">
+    <rect x="20" y="30" width="20" height="120" rx="8" fill="#f5e6d3" stroke="#c4a882" stroke-width="2"/>
+    <ellipse cx="30" cy="30" rx="25" ry="18" fill="#f5e6d3" stroke="#c4a882" stroke-width="2"/>
+    <ellipse cx="30" cy="150" rx="28" ry="20" fill="#f5e6d3" stroke="#c4a882" stroke-width="2"/>
+    <text x="30" y="195" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#555">大腿骨</text>
+    <circle cx="30" cy="215" r="12" fill="#4a90d9"/>
+    <text x="30" y="220" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="white">1</text>
+  </g>
+
+  <!-- Short bone (Carpal-like) -->
+  <g transform="translate(115, 50)">
+    <rect x="5" y="50" width="45" height="40" rx="12" fill="#f5e6d3" stroke="#c4a882" stroke-width="2"/>
+    <rect x="0" y="95" width="50" height="42" rx="12" fill="#f5e6d3" stroke="#c4a882" stroke-width="2"/>
+    <rect x="8" y="5" width="38" height="38" rx="10" fill="#f5e6d3" stroke="#c4a882" stroke-width="2"/>
+    <text x="27" y="165" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#555">手根骨</text>
+    <circle cx="27" cy="185" r="12" fill="#e8a54b"/>
+    <text x="27" y="190" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="white">2</text>
+  </g>
+
+  <!-- Flat bone (Skull-like) -->
+  <g transform="translate(200, 50)">
+    <ellipse cx="40" cy="65" rx="42" ry="55" fill="#f5e6d3" stroke="#c4a882" stroke-width="2"/>
+    <ellipse cx="28" cy="80" rx="8" ry="6" fill="#fff" stroke="#c4a882" stroke-width="1.5"/>
+    <ellipse cx="52" cy="80" rx="8" ry="6" fill="#fff" stroke="#c4a882" stroke-width="1.5"/>
+    <path d="M35,95 Q40,102 45,95" fill="none" stroke="#c4a882" stroke-width="1.5"/>
+    <text x="40" y="145" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#555">頭蓋骨</text>
+    <circle cx="40" cy="165" r="12" fill="#7ab648"/>
+    <text x="40" y="170" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="white">3</text>
+  </g>
+
+  <!-- Irregular bone (Vertebra-like) -->
+  <g transform="translate(310, 50)">
+    <ellipse cx="35" cy="55" rx="30" ry="22" fill="#f5e6d3" stroke="#c4a882" stroke-width="2"/>
+    <rect x="25" y="30" width="20" height="25" rx="3" fill="#f5e6d3" stroke="#c4a882" stroke-width="2"/>
+    <line x1="15" y1="55" x2="5" y2="45" stroke="#c4a882" stroke-width="3" stroke-linecap="round"/>
+    <line x1="55" y1="55" x2="65" y2="45" stroke="#c4a882" stroke-width="3" stroke-linecap="round"/>
+    <text x="35" y="100" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#555">椎骨</text>
+    <circle cx="35" cy="120" r="12" fill="#9b59b6"/>
+    <text x="35" y="125" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="white">4</text>
+  </g>
+
+  <!-- Sesamoid bone (Patella-like) -->
+  <g transform="translate(115, 215)">
+    <ellipse cx="30" cy="25" rx="22" ry="25" fill="#f5e6d3" stroke="#c4a882" stroke-width="2"/>
+    <text x="30" y="70" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#555">膝蓋骨</text>
+    <circle cx="30" cy="90" r="12" fill="#e74c3c"/>
+    <text x="30" y="95" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="white">5</text>
+  </g>
+
+  <!-- Question area -->
+  <rect x="200" y="225" width="200" height="70" fill="#f0f4ff" rx="8" stroke="#4a90d9" stroke-width="1"/>
+  <text x="300" y="250" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#4a90d9">各骨の分類は？</text>
+  <text x="300" y="270" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#666">長骨・短骨・扁平骨</text>
+  <text x="300" y="285" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#666">不規則骨・種子骨</text>
+</svg>

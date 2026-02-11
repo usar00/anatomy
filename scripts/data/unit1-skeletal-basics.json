@@ -101,6 +101,48 @@
           ]
         },
         {
+          "question_text": "下の図を見て、番号4の骨（椎骨）はどの分類に属するか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "image_based",
+          "difficulty": "medium",
+          "explanation": "椎骨は複雑で不定形な形状を持つため「不規則骨」に分類される。図の各骨: 1=長骨（大腿骨）、2=短骨（手根骨）、3=扁平骨（頭蓋骨）、4=不規則骨（椎骨）、5=種子骨（膝蓋骨）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/bone-types.svg",
+              "role": "main",
+              "alt_text": "5種類の骨の分類を示す図。1:大腿骨、2:手根骨、3:頭蓋骨、4:椎骨、5:膝蓋骨"
+            }
+          ],
+          "choices": [
+            { "text": "不規則骨", "is_correct": true },
+            { "text": "扁平骨", "is_correct": false },
+            { "text": "短骨", "is_correct": false },
+            { "text": "種子骨", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "下の図で、番号2の骨（手根骨）はどの分類に属するか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "image_based",
+          "difficulty": "easy",
+          "explanation": "手根骨は幅と長さがほぼ等しい小さな骨であり「短骨」に分類される。手首にある8個の短骨で構成される。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/bone-types.svg",
+              "role": "main",
+              "alt_text": "5種類の骨の分類を示す図。1:大腿骨、2:手根骨、3:頭蓋骨、4:椎骨、5:膝蓋骨"
+            }
+          ],
+          "choices": [
+            { "text": "短骨", "is_correct": true },
+            { "text": "種子骨", "is_correct": false },
+            { "text": "長骨", "is_correct": false },
+            { "text": "扁平骨", "is_correct": false }
+          ]
+        },
+        {
           "question_text": "腱の中に存在する小さな骨を何と呼ぶか、入力してください",
           "interaction_type": "free_input",
           "question_type": "text_only",
@@ -179,6 +221,84 @@
           "choices": [
             { "text": "正解", "is_correct": true },
             { "text": "不正解", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "下の断面図で、ラベルBが示す骨の構造はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "image_based",
+          "difficulty": "medium",
+          "explanation": "ラベルBは骨の外層にある硬い組織で「緻密骨（compact bone）」を示している。緻密骨は密に詰まったオステオン（ハバース系）から構成され、骨の構造的強度を提供する。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/long-bone-structure.svg",
+              "role": "main",
+              "alt_text": "長骨の断面図。A:骨膜、B:緻密骨、C:骨髄腔、D:海綿骨、E:骨端、F:骨幹"
+            },
+            {
+              "url": "/images/anatomy/long-bone-structure-labeled.svg",
+              "role": "explanation",
+              "alt_text": "長骨の断面図（解答付き）。各部位の名称が記載されている"
+            }
+          ],
+          "choices": [
+            { "text": "緻密骨", "is_correct": true },
+            { "text": "海綿骨", "is_correct": false },
+            { "text": "骨膜", "is_correct": false },
+            { "text": "骨髄", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "下の断面図で、ラベルDが示すスポンジ状の構造は何か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "image_based",
+          "difficulty": "easy",
+          "explanation": "ラベルDは骨端部内部にあるスポンジ状の組織で「海綿骨（spongy bone）」を示している。骨梁と呼ばれる網目状の構造を持ち、衝撃吸収の役割を果たす。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/long-bone-structure.svg",
+              "role": "main",
+              "alt_text": "長骨の断面図。A:骨膜、B:緻密骨、C:骨髄腔、D:海綿骨、E:骨端、F:骨幹"
+            },
+            {
+              "url": "/images/anatomy/long-bone-structure-labeled.svg",
+              "role": "explanation",
+              "alt_text": "長骨の断面図（解答付き）。各部位の名称が記載されている"
+            }
+          ],
+          "choices": [
+            { "text": "海綿骨", "is_correct": true },
+            { "text": "緻密骨", "is_correct": false },
+            { "text": "骨膜", "is_correct": false },
+            { "text": "関節軟骨", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "下の断面図で、ラベルAが示す骨の外表面を覆う構造は何か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "image_based",
+          "difficulty": "easy",
+          "explanation": "ラベルAは骨の外表面を覆う膜で「骨膜（periosteum）」を示している。骨膜には神経と血管が通り、骨の成長・修復に重要な役割を果たす。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/long-bone-structure.svg",
+              "role": "main",
+              "alt_text": "長骨の断面図。A:骨膜、B:緻密骨、C:骨髄腔、D:海綿骨、E:骨端、F:骨幹"
+            },
+            {
+              "url": "/images/anatomy/long-bone-structure-labeled.svg",
+              "role": "explanation",
+              "alt_text": "長骨の断面図（解答付き）。各部位の名称が記載されている"
+            }
+          ],
+          "choices": [
+            { "text": "骨膜", "is_correct": true },
+            { "text": "骨内膜", "is_correct": false },
+            { "text": "関節包", "is_correct": false },
+            { "text": "滑膜", "is_correct": false }
           ]
         },
         {
@@ -265,6 +385,48 @@
             { "text": "5個", "is_correct": false },
             { "text": "12個", "is_correct": false },
             { "text": "8個", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "下の脊柱の図で、青色で示されている最上部の区分の名称は何か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "image_based",
+          "difficulty": "easy",
+          "explanation": "青色で示されている最上部の7個の椎骨は「頸椎」である。頸椎は脊柱の中で最も可動性が高く、頭部の運動を可能にする。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/vertebral-column.svg",
+              "role": "main",
+              "alt_text": "脊柱の区分を示す図。上から青色（7個）、橙色（12個）、緑色（5個）、紫色（仙骨）、赤色（尾骨）"
+            }
+          ],
+          "choices": [
+            { "text": "頸椎", "is_correct": true },
+            { "text": "胸椎", "is_correct": false },
+            { "text": "腰椎", "is_correct": false },
+            { "text": "仙椎", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "下の脊柱の図で、橙色で示されている区分は何個の椎骨からなるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "image_based",
+          "difficulty": "easy",
+          "explanation": "橙色で示されている区分は「胸椎」で12個の椎骨からなる。各胸椎は肋骨と関節を形成し、胸郭の後壁を構成する。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/vertebral-column.svg",
+              "role": "main",
+              "alt_text": "脊柱の区分を示す図。上から青色（頸椎7個）、橙色（胸椎12個）、緑色（腰椎5個）、紫色（仙骨）、赤色（尾骨）"
+            }
+          ],
+          "choices": [
+            { "text": "12個", "is_correct": true },
+            { "text": "7個", "is_correct": false },
+            { "text": "5個", "is_correct": false },
+            { "text": "10個", "is_correct": false }
           ]
         },
         {
@@ -373,6 +535,48 @@
             { "text": "尺骨", "is_correct": false },
             { "text": "上腕骨", "is_correct": false },
             { "text": "中手骨", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "下の上肢骨格の図で、ラベルAが示す骨の名称は何か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "image_based",
+          "difficulty": "easy",
+          "explanation": "ラベルAは上腕の長骨「上腕骨（humerus）」を示している。上腕骨は肩関節と肘関節を形成し、上肢の中で最も大きな骨である。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/upper-limb-bones.svg",
+              "role": "main",
+              "alt_text": "上肢の骨格図。A:上腕骨、B:橈骨、C:尺骨、D:手根骨"
+            }
+          ],
+          "choices": [
+            { "text": "上腕骨", "is_correct": true },
+            { "text": "橈骨", "is_correct": false },
+            { "text": "鎖骨", "is_correct": false },
+            { "text": "尺骨", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "下の上肢骨格の図で、ラベルCが示す骨の名称は何か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "image_based",
+          "difficulty": "medium",
+          "explanation": "ラベルCは前腕の内側（小指側）にある「尺骨（ulna）」を示している。尺骨の近位端には肘頭があり、上腕骨の滑車と関節を形成する。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/upper-limb-bones.svg",
+              "role": "main",
+              "alt_text": "上肢の骨格図。A:上腕骨、B:橈骨、C:尺骨、D:手根骨"
+            }
+          ],
+          "choices": [
+            { "text": "尺骨", "is_correct": true },
+            { "text": "橈骨", "is_correct": false },
+            { "text": "上腕骨", "is_correct": false },
+            { "text": "腓骨", "is_correct": false }
           ]
         },
         {
