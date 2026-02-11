@@ -185,11 +185,11 @@ export default function ModesPage() {
                   setSelectedMode(mode.id);
                 }
               }}
-              className={`cursor-pointer ${
-                selectedMode === mode.id
+              className={`${isDisabled || isReviewEmpty ? "opacity-50 cursor-not-allowed" : "cursor-pointer"} ${
+                selectedMode === mode.id && !isDisabled && !isReviewEmpty
                   ? "ring-2 ring-primary border-primary"
                   : ""
-              } ${isDisabled || isReviewEmpty ? "opacity-50 cursor-not-allowed" : ""}`}
+              }`}
             >
               <div className="flex items-center gap-4">
                 <span className="text-3xl">{mode.icon}</span>
@@ -214,7 +214,7 @@ export default function ModesPage() {
                     </p>
                   )}
                 </div>
-                {selectedMode === mode.id && (
+                {selectedMode === mode.id && !isDisabled && !isReviewEmpty && (
                   <span className="text-primary text-xl">✓</span>
                 )}
               </div>
@@ -229,7 +229,8 @@ export default function ModesPage() {
         <div className="grid grid-cols-4 gap-2">
           {questionCountOptions.map((count) => {
             const label = count === 0 ? "全問" : `${count}問`;
-            const isDisabled = count > 0 && count > totalQuestions;
+            const maxAvailable = selectedMode === "review" ? reviewCount : totalQuestions;
+            const isDisabled = count > 0 && count > maxAvailable;
             const effectiveCount =
               selectedMode === "review"
                 ? count === 0
@@ -263,7 +264,12 @@ export default function ModesPage() {
       </div>
 
       {/* Start Button */}
-      <Button onClick={handleStart} size="lg" className="w-full">
+      <Button
+        onClick={handleStart}
+        size="lg"
+        className="w-full"
+        disabled={selectedMode === "review" && reviewCount === 0}
+      >
         クイズを開始
       </Button>
     </div>
