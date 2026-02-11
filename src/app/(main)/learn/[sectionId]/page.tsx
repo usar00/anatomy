@@ -31,7 +31,7 @@ export default function LessonPage({
 }) {
   const { sectionId } = use(params);
   const router = useRouter();
-  const { user, isLoading: authLoading } = useAuth();
+  const { user, isLoading: authLoading, signInAnonymously } = useAuth();
 
   const [questions, setQuestions] = useState<LessonQuestion[]>([]);
   const [sectionInfo, setSectionInfo] = useState<{
@@ -56,6 +56,14 @@ export default function LessonPage({
   useEffect(() => {
     if (authLoading) return;
 
+    // Auto sign-in anonymously if no user (guest flow / direct navigation)
+    if (!user) {
+      signInAnonymously().catch((err) =>
+        console.error("Failed to sign in anonymously:", err)
+      );
+      return;
+    }
+
     const load = async () => {
       const supabase = createClient();
       const [questionsData, info] = await Promise.all([
@@ -72,7 +80,7 @@ export default function LessonPage({
     };
 
     load();
-  }, [authLoading, sectionId]);
+  }, [authLoading, sectionId, user, signInAnonymously]);
 
   const currentQuestion = questions[currentIndex];
   const totalQuestions = questions.length;
