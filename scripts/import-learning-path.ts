@@ -59,7 +59,7 @@ interface ImportFile {
   sections: SectionData[];
 }
 
-async function importLearningPath(filePath: string, dryRun: boolean) {
+async function importLearningPath(filePath: string, dryRun: boolean, replace: boolean) {
   const content = fs.readFileSync(filePath, "utf-8");
   const data: ImportFile = JSON.parse(content);
 
@@ -215,20 +215,40 @@ async function importLearningPath(filePath: string, dryRun: boolean) {
     }
     console.log(`  Concepts: ${conceptIds.length}/${section.concepts.length}`);
 
+    // Replace mode: delete existing questions in this section
+    if (replace) {
+      const { data: oldQuestions } = await supabase
+        .from("questions")
+        .select("id")
+        .eq("section_id", sectionId);
+
+      if (oldQuestions && oldQuestions.length > 0) {
+        const oldIds = oldQuestions.map((q) => q.id);
+        // カスケード削除: question_images, choices, question_concepts
+        await supabase.from("question_images").delete().in("question_id", oldIds);
+        await supabase.from("choices").delete().in("question_id", oldIds);
+        await supabase.from("question_concepts").delete().in("question_id", oldIds);
+        await supabase.from("questions").delete().in("id", oldIds);
+        console.log(`  🔄 Replaced: deleted ${oldQuestions.length} existing questions`);
+      }
+    }
+
     // Import questions
     let qImported = 0;
     for (const q of section.questions) {
-      // Check duplicate
-      const { data: existing } = await supabase
-        .from("questions")
-        .select("id")
-        .eq("section_id", sectionId)
-        .eq("question_text", q.question_text)
-        .single();
+      if (!replace) {
+        // Check duplicate (skip in replace mode since we already deleted)
+        const { data: existing } = await supabase
+          .from("questions")
+          .select("id")
+          .eq("section_id", sectionId)
+          .eq("question_text", q.question_text)
+          .single();
 
-      if (existing) {
-        console.log(`  ⚠️  Skip duplicate: "${q.question_text.substring(0, 30)}..."`);
-        continue;
+        if (existing) {
+          console.log(`  ⚠️  Skip duplicate: "${q.question_text.substring(0, 30)}..."`);
+          continue;
+        }
       }
 
       // Insert question
@@ -302,14 +322,22 @@ async function importLearningPath(filePath: string, dryRun: boolean) {
 async function main() {
   const args = process.argv.slice(2);
   const dryRun = args.includes("--dry-run");
+  const replace = args.includes("--replace");
   const files = args.filter((a) => !a.startsWith("--"));
 
   if (files.length === 0) {
-    console.log("Usage: npx tsx scripts/import-learning-path.ts <file.json> [--dry-run]");
+    console.log("Usage: npx tsx scripts/import-learning-path.ts <file.json> [--dry-run] [--replace]");
+    console.log("");
+    console.log("Options:");
+    console.log("  --dry-run   Validate without writing to database");
+    console.log("  --replace   Delete existing questions in each section before importing");
     process.exit(1);
   }
 
   console.log("🦴 Anatomy Quiz - Learning Path Importer\n");
+  if (replace) {
+    console.log("🔄 Replace mode: existing questions will be deleted and re-imported\n");
+  }
 
   for (const file of files) {
     const resolved = path.resolve(file);
@@ -317,7 +345,7 @@ async function main() {
       console.error(`❌ File not found: ${file}`);
       continue;
     }
-    await importLearningPath(resolved, dryRun);
+    await importLearningPath(resolved, dryRun, replace);
   }
 }
 

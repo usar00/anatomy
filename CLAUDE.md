@@ -24,6 +24,9 @@ npm run start        # Start production server
 npm run lint         # Run ESLint (flat config, eslint 9)
 npm run import       # Import question data: tsx scripts/import-questions.ts
 npm run import:dry   # Dry-run import (validation only)
+# Learning path import (unit/section/concept structure):
+npx tsx scripts/import-learning-path.ts scripts/data/unit1-skeletal-basics.json
+npx tsx scripts/import-learning-path.ts scripts/data/unit1-skeletal-basics.json --replace  # 既存問題を削除して再インポート
 ```
 
 There is no test framework configured. No test runner or test files exist.
