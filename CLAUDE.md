@@ -81,7 +81,7 @@ src/
 
 supabase/migrations/         # SQL migration files (001-003)
 scripts/                     # CLI utilities (import, image processing)
-public/images/               # Static assets (anatomy SVGs, Rin character WebPs)
+public/images/               # Static assets (anatomy images, Rin character WebPs)
 ```
 
 ## Architecture Patterns
@@ -162,6 +162,16 @@ Question data lives in `scripts/data/*.json`. Import workflow:
 The import script (`scripts/import-questions.ts`) handles category creation, section/concept linking, duplicate detection, and slug generation.
 
 AI-generated questions can use the prompt template at `scripts/prompts/generate-questions.md`.
+
+## Anatomy Images
+
+Question images are sourced from **Wikimedia Commons** (Gray's Anatomy plates, OpenStax, Blausen Medical etc.) and stored in `public/images/anatomy/`. All images are Public Domain or CC BY 3.0 licensed.
+
+- **Attribution file:** `public/images/anatomy/ATTRIBUTIONS.md` — lists source, author, and license for each image. Must be updated when adding new images.
+- **Image roles in questions:** `main` (shown during quiz), `explanation` (shown after answering), `choice` (per-choice images).
+- **Naming convention:** Descriptive kebab-case filenames (e.g., `bone-classification-types.png`, `vertebral-column-colored.png`).
+- **Formats:** PNG/JPG for raster images from Wikimedia, SVG for vector diagrams. All served from `public/` via Next.js `<Image>`.
+- **Question text style:** Image-based questions reference English anatomical labels visible in the images (e.g., "図中の「Compact bone」に相当する日本語名称は？") to reinforce bilingual terminology learning.
 
 ## Key Files to Know
 
