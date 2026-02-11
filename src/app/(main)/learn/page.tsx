@@ -48,7 +48,7 @@ export default function LearnPage() {
   return (
     <div className="max-w-md mx-auto px-4 py-6">
       {/* Character greeting */}
-      <div className="flex justify-center mb-6">
+      <div className="mb-6">
         <Rin state={rinState} message={rinMessage} size="md" />
       </div>
 

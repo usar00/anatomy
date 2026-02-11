@@ -315,7 +315,7 @@ export default function LessonPage({
       </div>
 
       {/* Character */}
-      <div className="flex justify-center mb-4">
+      <div className="mb-4">
         <Rin state={rinState} message={rinMessage} size="sm" />
       </div>
 
