@@ -19,45 +19,34 @@ export function Header() {
         </Link>
 
         <nav className="flex items-center gap-4">
-          {user && (
-            <>
-              <Link
-                href="/learn"
-                className="text-sm text-primary font-semibold hover:text-primary-hover transition-colors"
-              >
-                学習
-              </Link>
-              {isFreeMember && (
-                <Link
-                  href="/home"
-                  className="text-sm text-secondary hover:text-foreground transition-colors"
-                >
-                  ホーム
-                </Link>
-              )}
-              <Link
-                href="/categories"
-                className="text-sm text-secondary hover:text-foreground transition-colors"
-              >
-                カテゴリ
-              </Link>
-              {isGuest && (
-                <Link
-                  href="/login"
-                  className="text-sm text-primary hover:text-primary-hover font-medium transition-colors"
-                >
-                  ログイン
-                </Link>
-              )}
-              {!isGuest && (
-                <button
-                  onClick={() => signOut()}
-                  className="text-sm text-secondary hover:text-foreground transition-colors"
-                >
-                  ログアウト
-                </button>
-              )}
-            </>
+          <Link
+            href="/learn"
+            className="text-sm text-primary font-semibold hover:text-primary-hover transition-colors"
+          >
+            学習
+          </Link>
+          {user && isFreeMember && (
+            <Link
+              href="/home"
+              className="text-sm text-secondary hover:text-foreground transition-colors"
+            >
+              ホーム
+            </Link>
+          )}
+          {user && !user.is_anonymous ? (
+            <button
+              onClick={() => signOut()}
+              className="text-sm text-secondary hover:text-foreground transition-colors"
+            >
+              ログアウト
+            </button>
+          ) : (
+            <Link
+              href="/login"
+              className="text-sm text-primary hover:text-primary-hover font-medium transition-colors"
+            >
+              ログイン
+            </Link>
           )}
         </nav>
       </div>

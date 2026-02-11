@@ -66,8 +66,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       } = await supabase.auth.getSession();
       const currentUser = session?.user ?? null;
       setUser(currentUser);
-      if (currentUser) await fetchRole(currentUser.id);
       setIsLoading(false);
+      // Fetch role in background (non-blocking)
+      if (currentUser) fetchRole(currentUser.id);
     };
 
     getSession();
@@ -78,8 +79,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     } = supabase.auth.onAuthStateChange(async (_event, session) => {
       const currentUser = session?.user ?? null;
       setUser(currentUser);
-      if (currentUser) await fetchRole(currentUser.id);
       setIsLoading(false);
+      if (currentUser) fetchRole(currentUser.id);
     });
 
     return () => subscription.unsubscribe();

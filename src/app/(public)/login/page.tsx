@@ -4,15 +4,12 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/client";
-import { useAuth } from "@/components/auth/AuthProvider";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
 
 export default function LoginPage() {
   const router = useRouter();
-  const { signInAnonymously } = useAuth();
   const [isLoading, setIsLoading] = useState(false);
-  const [isGuestLoading, setIsGuestLoading] = useState(false);
 
   const handleGoogleLogin = async () => {
     setIsLoading(true);
@@ -31,16 +28,8 @@ export default function LoginPage() {
     }
   };
 
-  const handleGuestStart = async () => {
-    setIsGuestLoading(true);
-    try {
-      await signInAnonymously();
-      router.push("/categories");
-    } catch (error) {
-      console.error("Guest start error:", error);
-    } finally {
-      setIsGuestLoading(false);
-    }
+  const handleGuestStart = () => {
+    router.push("/learn");
   };
 
   return (
@@ -101,7 +90,6 @@ export default function LoginPage() {
               size="lg"
               className="w-full"
               onClick={handleGuestStart}
-              isLoading={isGuestLoading}
             >
               ゲストとして始める
             </Button>

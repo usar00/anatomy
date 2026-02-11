@@ -2,7 +2,6 @@
 
 import { useRouter } from "next/navigation";
 import { useState } from "react";
-import { useAuth } from "@/components/auth/AuthProvider";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
 
@@ -58,23 +57,12 @@ const sampleQuestion = {
 
 export default function LandingPage() {
   const router = useRouter();
-  const { user, isLoading, signInAnonymously } = useAuth();
-  const [isStarting, setIsStarting] = useState(false);
+
   const [sampleSelected, setSampleSelected] = useState<number | null>(null);
   const [sampleAnswered, setSampleAnswered] = useState(false);
 
-  const handleStartQuiz = async () => {
-    setIsStarting(true);
-    try {
-      if (!user) {
-        await signInAnonymously();
-      }
-      router.push("/learn");
-    } catch (error) {
-      console.error("Failed to start:", error);
-    } finally {
-      setIsStarting(false);
-    }
+  const handleStartQuiz = () => {
+    router.push("/learn");
   };
 
   const handleSampleAnswer = (index: number) => {
@@ -104,7 +92,7 @@ export default function LandingPage() {
               <Button
                 size="lg"
                 onClick={handleStartQuiz}
-                isLoading={isStarting || isLoading}
+                
               >
                 学習を始める（無料）
               </Button>
