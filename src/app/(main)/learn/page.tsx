@@ -10,7 +10,7 @@ import { getRandomMessage, lessonStartMessages } from "@/components/character/me
 import type { UnitWithSections, CharacterState } from "@/types/quiz";
 
 export default function LearnPage() {
-  const { user, isLoading: authLoading } = useAuth();
+  const { user, isLoading: authLoading, signInAnonymously } = useAuth();
   const [units, setUnits] = useState<UnitWithSections[]>([]);
   const [loading, setLoading] = useState(true);
   const [rinState, setRinState] = useState<CharacterState>("idle");
@@ -18,14 +18,22 @@ export default function LearnPage() {
   const fetched = useRef(false);
 
   useEffect(() => {
-    // Wait for auth to finish, then load regardless of user state
     if (authLoading) return;
+
+    // Auto sign-in anonymously if no user (guest flow)
+    if (!user) {
+      signInAnonymously().catch((err) =>
+        console.error("Failed to sign in anonymously:", err)
+      );
+      return;
+    }
+
     if (fetched.current) return;
     fetched.current = true;
 
     const load = async () => {
       const supabase = createClient();
-      const data = await fetchUnitsWithProgress(supabase, user?.id ?? null);
+      const data = await fetchUnitsWithProgress(supabase, user.id);
       setUnits(data);
       setLoading(false);
 
@@ -35,7 +43,7 @@ export default function LearnPage() {
     };
 
     load();
-  }, [user, authLoading]);
+  }, [user, authLoading, signInAnonymously]);
 
   if (authLoading || loading) {
     return (
