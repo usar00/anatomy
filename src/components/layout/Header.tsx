@@ -30,7 +30,7 @@ export function Header() {
               href="/home"
               className="text-sm text-secondary hover:text-foreground transition-colors"
             >
-              ホーム
+              記録
             </Link>
           )}
           {user && !user.is_anonymous ? (
