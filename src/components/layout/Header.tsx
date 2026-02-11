@@ -9,7 +9,7 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 bg-card/80 backdrop-blur-md border-b border-card-border">
       <div className="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between">
-        <Link href={isFreeMember ? "/home" : "/"} className="flex items-center gap-2 group">
+        <Link href={isFreeMember ? "/learn" : "/"} className="flex items-center gap-2 group">
           <span className="text-2xl" role="img" aria-label="anatomy">
             🦴
           </span>

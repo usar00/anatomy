@@ -85,8 +85,14 @@ export default function HomePage() {
 
       {/* Quick Actions */}
       <div className="flex flex-col sm:flex-row gap-3 mb-8">
+        <Button
+          onClick={() => router.push("/learn")}
+        >
+          学習を続ける
+        </Button>
         {inProgress && (
           <Button
+            variant="outline"
             onClick={() =>
               router.push(`/quiz?category=${inProgress.categoryId}`)
             }

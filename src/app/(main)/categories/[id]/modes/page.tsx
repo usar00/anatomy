@@ -70,12 +70,13 @@ export default function ModesPage() {
 
       if (catData) setCategory(catData as Category);
 
-      // Count total questions
+      // Count total questions (only standard MCQ for quiz mode)
       const { count } = await supabase
         .from("questions")
         .select("id", { count: "exact", head: true })
         .eq("category_id", categoryId)
-        .eq("is_active", true);
+        .eq("is_active", true)
+        .eq("interaction_type", "standard_mcq");
 
       setTotalQuestions(count || 0);
 
@@ -96,12 +97,13 @@ export default function ModesPage() {
             .eq("is_correct", false);
 
           if (incorrectAnswers) {
-            // Get unique question IDs that belong to this category
+            // Get unique question IDs that belong to this category (standard MCQ only)
             const { data: catQuestions } = await supabase
               .from("questions")
               .select("id")
               .eq("category_id", categoryId)
-              .eq("is_active", true);
+              .eq("is_active", true)
+              .eq("interaction_type", "standard_mcq");
 
             const catQuestionIds = new Set(
               ((catQuestions || []) as { id: string }[]).map((q) => q.id)
