@@ -62,7 +62,7 @@ export function Rin({
               alt={`リン - ${state}`}
               width={width}
               height={height}
-              className="object-contain mix-blend-multiply"
+              className="object-contain"
               priority={state === "idle"}
             />
           </motion.div>
