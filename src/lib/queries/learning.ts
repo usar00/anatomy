@@ -12,33 +12,24 @@ import type {
 
 export async function fetchUnitsWithProgress(
   supabase: SupabaseClient,
-  userId: string
+  userId: string | null
 ): Promise<UnitWithSections[]> {
-  // Fetch all units
-  const { data: units } = await supabase
-    .from("units")
-    .select("*")
-    .order("sort_order");
+  // Fetch all data in parallel for performance
+  const [unitsRes, sectionsRes, progressRes, conceptsRes] = await Promise.all([
+    supabase.from("units").select("*").order("sort_order"),
+    supabase.from("sections").select("*").order("sort_order"),
+    userId
+      ? supabase.from("user_section_progress").select("*").eq("user_id", userId)
+      : Promise.resolve({ data: null }),
+    supabase.from("concepts").select("*").order("sort_order"),
+  ]);
+
+  const units = unitsRes.data;
+  const sections = sectionsRes.data;
+  const progress = progressRes.data;
+  const concepts = conceptsRes.data;
 
   if (!units || units.length === 0) return [];
-
-  // Fetch all sections
-  const { data: sections } = await supabase
-    .from("sections")
-    .select("*")
-    .order("sort_order");
-
-  // Fetch user progress
-  const { data: progress } = await supabase
-    .from("user_section_progress")
-    .select("*")
-    .eq("user_id", userId);
-
-  // Fetch concepts
-  const { data: concepts } = await supabase
-    .from("concepts")
-    .select("*")
-    .order("sort_order");
 
   const progressMap: Record<string, UserSectionProgress> = {};
   if (progress) {
@@ -68,7 +59,7 @@ export async function fetchUnitsWithProgress(
           ...section,
           progress: sectionProgress || {
             id: "",
-            user_id: userId,
+            user_id: userId || "",
             section_id: section.id,
             status: defaultStatus,
             stars: 0,

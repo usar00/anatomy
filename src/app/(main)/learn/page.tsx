@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { useAuth } from "@/components/auth/AuthProvider";
 import { createClient } from "@/lib/supabase/client";
 import { fetchUnitsWithProgress } from "@/lib/queries/learning";
@@ -15,17 +15,20 @@ export default function LearnPage() {
   const [loading, setLoading] = useState(true);
   const [rinState, setRinState] = useState<CharacterState>("idle");
   const [rinMessage, setRinMessage] = useState("");
+  const fetched = useRef(false);
 
   useEffect(() => {
-    if (authLoading || !user) return;
+    // Wait for auth to finish, then load regardless of user state
+    if (authLoading) return;
+    if (fetched.current) return;
+    fetched.current = true;
 
     const load = async () => {
       const supabase = createClient();
-      const data = await fetchUnitsWithProgress(supabase, user.id);
+      const data = await fetchUnitsWithProgress(supabase, user?.id ?? null);
       setUnits(data);
       setLoading(false);
 
-      // Show welcome message
       const msg = getRandomMessage(lessonStartMessages);
       setRinState(msg.state);
       setRinMessage(msg.text);

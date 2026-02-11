@@ -7,12 +7,12 @@ import { SpeechBubble } from "./SpeechBubble";
 import type { CharacterState } from "@/types/quiz";
 
 const stateImages: Record<CharacterState, string> = {
-  idle: "/images/rin/idle.png",
-  happy: "/images/rin/happy.png",
-  encouraging: "/images/rin/encouraging.png",
-  thinking: "/images/rin/thinking.png",
-  celebrating: "/images/rin/celebrating.png",
-  comforting: "/images/rin/comforting.png",
+  idle: "/images/rin/idle.webp",
+  happy: "/images/rin/happy.webp",
+  encouraging: "/images/rin/encouraging.webp",
+  thinking: "/images/rin/thinking.webp",
+  celebrating: "/images/rin/celebrating.webp",
+  comforting: "/images/rin/comforting.webp",
 };
 
 interface RinProps {

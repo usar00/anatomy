@@ -54,7 +54,7 @@ export default function LessonPage({
   const [rinMessage, setRinMessage] = useState("");
 
   useEffect(() => {
-    if (authLoading || !user) return;
+    if (authLoading) return;
 
     const load = async () => {
       const supabase = createClient();
@@ -72,7 +72,7 @@ export default function LessonPage({
     };
 
     load();
-  }, [user, authLoading, sectionId]);
+  }, [authLoading, sectionId]);
 
   const currentQuestion = questions[currentIndex];
   const totalQuestions = questions.length;
