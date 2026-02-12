@@ -594,6 +594,13 @@
           "difficulty": "easy",
           "explanation": "肋骨（ribs）は12対（左右合計24本）あり、後方で胸椎と関節し、胸郭（thoracic cage）を構成する。肋骨は胸骨との関係により3群に分類される。①真肋（true ribs/vertebrosternal ribs）：第1〜第7肋骨の7対。各肋骨が独自の肋軟骨を介して胸骨に直接付着する。②仮肋（false ribs/vertebrochondral ribs）：第8〜第10肋骨の3対。肋軟骨が直接胸骨には付着せず、上位の肋軟骨（第7肋軟骨）に結合して間接的に胸骨につながる。③浮肋（floating ribs/vertebral ribs）：第11・第12肋骨の2対。前方の肋軟骨が短く、胸骨にはまったく付着しない。胸郭の主な機能は、心臓・肺・大血管などの胸腔内臓器の保護と、呼吸運動の支持である。吸気時には肋骨が挙上・外転して胸郭が拡大し、肺の膨張を可能にする（Gray's Anatomy, Chapter 25; OpenStax Anatomy and Physiology, 7.4）。",
           "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/rib-cage-anterior.svg",
+              "role": "explanation",
+              "alt_text": "胸郭の前面図。12対の肋骨、胸骨、胸椎が描かれ、真肋（第1-7）・仮肋（第8-10）・浮肋（第11-12）の区分が確認できる"
+            }
+          ],
           "choices": [
             { "text": "12対", "is_correct": true },
             { "text": "10対", "is_correct": false },
@@ -612,6 +619,13 @@
             "accepted_answers": ["環椎", "アトラス", "atlas", "かんつい"],
             "hint": "ギリシャ神話で天球を支える巨人の名前に由来します"
           },
+          "images": [
+            {
+              "url": "/images/anatomy/atlas-axis-gray.png",
+              "role": "explanation",
+              "alt_text": "Gray's Anatomyの環椎（Atlas/C1）上面図。椎体を欠くリング状の特徴的な構造が描かれている"
+            }
+          ],
           "choices": [
             { "text": "環椎", "is_correct": true },
             { "text": "不正解", "is_correct": false }
@@ -725,6 +739,13 @@
           "metadata": {
             "template": "手根骨の数は {{blank}} である"
           },
+          "images": [
+            {
+              "url": "/images/anatomy/hand-bones-labeled.svg",
+              "role": "explanation",
+              "alt_text": "手の骨格図。手根骨（Carpals）8個、中手骨（Metacarpals）5個、指骨（Phalanges）14個が英語でラベル付けされている"
+            }
+          ],
           "choices": [
             { "text": "8個", "is_correct": true },
             { "text": "5個", "is_correct": false },
@@ -746,6 +767,13 @@
               { "left": "指骨", "right": "14個" }
             ]
           },
+          "images": [
+            {
+              "url": "/images/anatomy/hand-bones-labeled.svg",
+              "role": "explanation",
+              "alt_text": "手の骨格図。手根骨8個・中手骨5個・指骨14個の3グループがラベル付けされている"
+            }
+          ],
           "choices": [
             { "text": "正解", "is_correct": true },
             { "text": "不正解", "is_correct": false }
@@ -758,6 +786,13 @@
           "difficulty": "medium",
           "explanation": "滑車（trochlea/トロクレア）は上腕骨の遠位端内側にある滑車状（糸巻き型）の関節面であり、尺骨の滑車切痕（trochlear notch）と関節して腕尺関節を形成する。この関節は蝶番関節（hinge joint）であり、肘の屈曲・伸展運動を可能にする。「trochlea」はラテン語で「滑車」を意味し、その形状に由来する名称である。上腕骨遠位端には滑車と並んで外側に「小頭（capitulum）」があり、こちらは橈骨頭と関節して腕橈関節を形成する。小頭は球状の関節面で、肘の屈曲・伸展に加え、前腕の回内・回外にも関与する。滑車の上方内側には内側上顆があり、前腕屈筋群と手の内在筋の一部が共通起始する。内側上顆の後方を尺骨神経が通過するため、肘をぶつけたときに小指側にしびれを感じることがある（Gray's Anatomy, Chapter 49; OpenStax Anatomy and Physiology, 8.2）。",
           "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/elbow-joint-gray.png",
+              "role": "explanation",
+              "alt_text": "Gray's Anatomyの肘関節図。上腕骨遠位端の滑車（Trochlea）と小頭（Capitulum）、尺骨の滑車切痕、橈骨頭が描かれている"
+            }
+          ],
           "choices": [
             { "text": "滑車（トロクレア）", "is_correct": true },
             { "text": "小頭（キャピテラム）", "is_correct": false },
@@ -809,6 +844,13 @@
           "difficulty": "easy",
           "explanation": "大腿骨（femur）は人体で最も長く、最も強い骨であり、成人で身長の約4分の1（約43-50cm）の長さがある。長骨に分類され、近位端の大腿骨頭が寛骨の寛骨臼と股関節（球関節）を形成し、遠位端の内側顆・外側顆が脛骨と膝関節を形成する。大腿骨頭の中央にあるくぼみ（大腿骨頭窩）には大腿骨頭靱帯が付着し、大腿骨頭動脈による血流供給路となっている。大腿骨の近位端には大転子・小転子があり、それぞれ殿筋群・腸腰筋が付着する。大腿骨頸部（大腿骨頭と転子部をつなぐ部分）は高齢者の骨折好発部位であり、特に骨粗鬆症の患者では転倒時に骨折しやすい。大腿骨は体重の数倍の荷重に耐えることができ、歩行時には体重の約2.5倍、走行時には約5倍の力がかかるとされる（Gray's Anatomy, Chapter 51; OpenStax Anatomy and Physiology, 8.4）。",
           "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/lower-limb-bones-labeled.svg",
+              "role": "explanation",
+              "alt_text": "下肢の骨格図。Femur（大腿骨）、Patella（膝蓋骨）、Tibia（脛骨）、Fibula（腓骨）が英語でラベル付けされている"
+            }
+          ],
           "choices": [
             { "text": "大腿骨", "is_correct": true },
             { "text": "脛骨", "is_correct": false },
@@ -823,6 +865,13 @@
           "difficulty": "medium",
           "explanation": "寛骨（hip bone / os coxae / innominate bone）は腸骨（ilium）・坐骨（ischium）・恥骨（pubis）の3つの骨が癒合して形成される。小児期には3つの骨は「Y字軟骨（triradiate cartilage）」を介して寛骨臼（acetabulum）の部分で連結されており、15〜17歳頃にこの軟骨が骨化して3骨が完全に癒合する。腸骨は最も大きく、上部の腸骨翼が骨盤の広がりを形成する。腸骨稜は体表から触知でき、腰に手を当てたときに触れる骨性のランドマークである。坐骨は下後方に位置し、坐骨結節が座ったときに体重を支える部分となる。恥骨は前方に位置し、左右の恥骨が恥骨結合で正中線上に連結される。3骨が合流する寛骨臼は深い半球状のくぼみで、大腿骨頭を受け入れて股関節を形成する。左右の寛骨は後方で仙骨と仙腸関節を形成し、骨盤帯（pelvic girdle）を構成する（Gray's Anatomy, Chapter 51; OpenStax Anatomy and Physiology, 8.3）。",
           "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/pelvis-gray.png",
+              "role": "explanation",
+              "alt_text": "Gray's Anatomyの寛骨図。腸骨（Ilium）、坐骨（Ischium）、恥骨（Pubis）の3つの構成骨と寛骨臼（Acetabulum）が描かれている"
+            }
+          ],
           "choices": [
             { "text": "腸骨・坐骨・恥骨", "is_correct": true },
             { "text": "腸骨・仙骨・恥骨", "is_correct": false },
@@ -840,6 +889,13 @@
           "metadata": {
             "template": "下腿で体重を支える主要な骨は {{blank}} である"
           },
+          "images": [
+            {
+              "url": "/images/anatomy/lower-limb-bones-labeled.svg",
+              "role": "explanation",
+              "alt_text": "下肢の骨格図。Tibia（脛骨）が内側に、Fibula（腓骨）が外側に描かれている"
+            }
+          ],
           "choices": [
             { "text": "脛骨", "is_correct": true },
             { "text": "腓骨", "is_correct": false },
@@ -862,6 +918,13 @@
               { "left": "踵骨", "right": "かかと" }
             ]
           },
+          "images": [
+            {
+              "url": "/images/anatomy/lower-limb-bones-labeled.svg",
+              "role": "explanation",
+              "alt_text": "下肢の骨格図。脛骨・腓骨の位置関係と足部の骨が描かれている"
+            }
+          ],
           "choices": [
             { "text": "正解", "is_correct": true },
             { "text": "不正解", "is_correct": false }
@@ -874,6 +937,13 @@
           "difficulty": "easy",
           "explanation": "足根骨（tarsal bones）は7個で、後足部の距骨（talus）・踵骨（calcaneus）、中足部の舟状骨（navicular）・立方骨（cuboid）・内側楔状骨（medial cuneiform）・中間楔状骨（intermediate cuneiform）・外側楔状骨（lateral cuneiform）から構成される。手根骨（8個）より1つ少ない7個であるが、足根骨は個々の骨が手根骨より大きく、体重を支えるという機能に適した頑丈な構造をしている。距骨は足根骨の中で唯一脛骨・腓骨と関節し、体重を足部に伝達する。踵骨は足根骨中最大で、かかとの骨格を形成する。足根骨は互いに靱帯で連結され、足のアーチ構造（内側縦アーチ・外側縦アーチ・横アーチ）の形成に寄与している。このアーチ構造は歩行時の衝撃吸収とバネ作用に不可欠であり、足のアーチの崩壊は扁平足の原因となる（Gray's Anatomy, Chapter 51; OpenStax Anatomy and Physiology, 8.4）。",
           "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/foot-bones-gray.png",
+              "role": "explanation",
+              "alt_text": "Gray's Anatomyの足の骨格図。足根骨（Tarsals）7個、中足骨（Metatarsals）5個、趾骨（Phalanges）が描かれている"
+            }
+          ],
           "choices": [
             { "text": "7個", "is_correct": true },
             { "text": "8個", "is_correct": false },
@@ -892,6 +962,13 @@
             "accepted_answers": ["patella", "Patella", "パテラ"],
             "hint": "ラテン語で「小さな皿」を意味します"
           },
+          "images": [
+            {
+              "url": "/images/anatomy/lower-limb-bones-labeled.svg",
+              "role": "explanation",
+              "alt_text": "下肢の骨格図。Patella（膝蓋骨）が大腿骨と脛骨の間に位置している"
+            }
+          ],
           "choices": [
             { "text": "patella", "is_correct": true },
             { "text": "不正解", "is_correct": false }
