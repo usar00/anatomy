@@ -518,6 +518,75 @@ export interface Database {
         };
         Relationships: [];
       };
+      reference_texts: {
+        Row: {
+          id: string;
+          text_id: string;
+          unit_slug: string;
+          section_slug: string;
+          title: string;
+          body: string;
+          key_terms: Json;
+          sort_order: number;
+          created_at: string;
+        };
+        Insert: {
+          id?: string;
+          text_id: string;
+          unit_slug: string;
+          section_slug: string;
+          title: string;
+          body: string;
+          key_terms?: Json;
+          sort_order?: number;
+          created_at?: string;
+        };
+        Update: {
+          id?: string;
+          text_id?: string;
+          unit_slug?: string;
+          section_slug?: string;
+          title?: string;
+          body?: string;
+          key_terms?: Json;
+          sort_order?: number;
+          created_at?: string;
+        };
+        Relationships: [];
+      };
+      question_reference_texts: {
+        Row: {
+          question_id: string;
+          reference_text_id: string;
+          sort_order: number;
+        };
+        Insert: {
+          question_id: string;
+          reference_text_id: string;
+          sort_order?: number;
+        };
+        Update: {
+          question_id?: string;
+          reference_text_id?: string;
+          sort_order?: number;
+        };
+        Relationships: [
+          {
+            foreignKeyName: "question_reference_texts_question_id_fkey";
+            columns: ["question_id"];
+            referencedRelation: "questions";
+            referencedColumns: ["id"];
+            isOneToOne: false;
+          },
+          {
+            foreignKeyName: "question_reference_texts_reference_text_id_fkey";
+            columns: ["reference_text_id"];
+            referencedRelation: "reference_texts";
+            referencedColumns: ["id"];
+            isOneToOne: false;
+          },
+        ];
+      };
     };
     Views: Record<string, never>;
     Functions: Record<string, never>;

@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useCallback, use } from "react";
 import { useRouter } from "next/navigation";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { useAuth } from "@/components/auth/AuthProvider";
 import { createClient } from "@/lib/supabase/client";
 import { fetchLessonQuestions, fetchSectionInfo } from "@/lib/queries/learning";
@@ -22,6 +22,7 @@ import type {
   Section,
   Unit,
   CharacterState,
+  KeyTerm,
 } from "@/types/quiz";
 
 export default function LessonPage({
@@ -392,6 +393,19 @@ export default function LessonPage({
           </motion.div>
         )}
 
+        {/* Reference texts (基礎テキスト) */}
+        {isAnswered && currentQuestion.referenceTexts?.length > 0 && (
+          <motion.div
+            initial={{ opacity: 0, y: 8 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="mt-4"
+          >
+            {currentQuestion.referenceTexts.map((rt) => (
+              <ReferenceTextCard key={rt.id} referenceText={rt} />
+            ))}
+          </motion.div>
+        )}
+
         {/* Next button */}
         {isAnswered && (
           <motion.div
@@ -405,6 +419,68 @@ export default function LessonPage({
           </motion.div>
         )}
       </motion.div>
+    </div>
+  );
+}
+
+/** 基礎テキストカード — 解説の下に展開表示 */
+function ReferenceTextCard({ referenceText }: { referenceText: LessonQuestion["referenceTexts"][number] }) {
+  const [isOpen, setIsOpen] = useState(false);
+  const keyTerms = (referenceText.key_terms ?? []) as unknown as KeyTerm[];
+
+  return (
+    <div className="bg-card border border-card-border rounded-xl overflow-hidden mb-3">
+      <button
+        onClick={() => setIsOpen((v) => !v)}
+        className="w-full flex items-center justify-between px-4 py-3 text-left"
+      >
+        <span className="text-sm font-semibold text-primary flex items-center gap-1.5">
+          <span className="text-base">&#128214;</span>
+          {referenceText.title}
+        </span>
+        <span
+          className={`text-xs text-secondary transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
+        >
+          &#9660;
+        </span>
+      </button>
+
+      <AnimatePresence>
+        {isOpen && (
+          <motion.div
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: "auto", opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.2 }}
+            className="overflow-hidden"
+          >
+            <div className="px-4 pb-4">
+              {/* 本文 */}
+              <div className="text-sm text-secondary whitespace-pre-line leading-relaxed">
+                {referenceText.body}
+              </div>
+
+              {/* 用語集 */}
+              {keyTerms.length > 0 && (
+                <div className="mt-3 border-t border-card-border pt-3">
+                  <p className="text-xs font-semibold text-foreground mb-2">
+                    &#128218; 重要用語
+                  </p>
+                  <div className="space-y-1.5">
+                    {keyTerms.map((kt) => (
+                      <div key={kt.term} className="text-xs text-secondary">
+                        <span className="font-semibold text-foreground">{kt.term}</span>
+                        <span className="text-muted mx-1">({kt.english})</span>
+                        <span>— {kt.definition}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }

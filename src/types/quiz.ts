@@ -15,6 +15,14 @@ export type Section = Database["public"]["Tables"]["sections"]["Row"];
 export type Concept = Database["public"]["Tables"]["concepts"]["Row"];
 export type UserSectionProgress = Database["public"]["Tables"]["user_section_progress"]["Row"];
 export type UserConceptMastery = Database["public"]["Tables"]["user_concept_mastery"]["Row"];
+export type ReferenceText = Database["public"]["Tables"]["reference_texts"]["Row"];
+
+// 基礎テキストの用語
+export interface KeyTerm {
+  term: string;
+  english: string;
+  definition: string;
+}
 
 // Interaction types
 export type InteractionType = "standard_mcq" | "word_bank" | "matching_pairs" | "free_input";
@@ -82,6 +90,7 @@ export interface UnitWithSections extends Unit {
 export interface LessonQuestion extends QuestionWithChoices {
   interaction_type: InteractionType;
   concepts: Concept[];
+  referenceTexts: ReferenceText[];
 }
 
 // Word bank metadata
