@@ -296,7 +296,7 @@ export default function LandingPage() {
             </a>
           </div>
           <p className="text-xs text-secondary mt-2">
-            &copy; {new Date().getFullYear()} Anatomy Quiz
+            &copy; {new Date().getFullYear()} Hosoya
           </p>
         </div>
       </footer>
