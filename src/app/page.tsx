@@ -287,6 +287,14 @@ export default function LandingPage() {
           <p className="text-sm text-secondary">
             問題の出典：OpenStax Anatomy and Physiology（CC BY 4.0）
           </p>
+          <div className="flex justify-center gap-4 mt-3">
+            <a href="/privacy" className="text-xs text-secondary hover:text-foreground underline">
+              プライバシーポリシー
+            </a>
+            <a href="/terms" className="text-xs text-secondary hover:text-foreground underline">
+              利用規約
+            </a>
+          </div>
           <p className="text-xs text-secondary mt-2">
             &copy; {new Date().getFullYear()} Anatomy Quiz
           </p>
