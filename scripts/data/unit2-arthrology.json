@@ -14,10 +14,22 @@
       "description": "構造と可動性による関節の3つの分類を学ぶ",
       "sort_order": 0,
       "concepts": [
-        { "name": "線維性関節", "description": "線維性結合組織で骨が結合する不動または微動の関節" },
-        { "name": "軟骨性関節", "description": "軟骨で骨が結合する不動または半可動の関節" },
-        { "name": "滑膜性関節", "description": "関節腔と滑膜を持つ自由に動く関節" },
-        { "name": "関節の機能的分類", "description": "不動関節・半関節・可動関節の可動性による分類" }
+        {
+          "name": "線維性関節",
+          "description": "線維性結合組織で骨が結合する不動または微動の関節"
+        },
+        {
+          "name": "軟骨性関節",
+          "description": "軟骨で骨が結合する不動または半可動の関節"
+        },
+        {
+          "name": "滑膜性関節",
+          "description": "関節腔と滑膜を持つ自由に動く関節"
+        },
+        {
+          "name": "関節の機能的分類",
+          "description": "不動関節・半関節・可動関節の可動性による分類"
+        }
       ],
       "questions": [
         {
@@ -29,10 +41,25 @@
           "source": "Gray's Anatomy",
           "images": [],
           "choices": [
-            { "text": "線維性関節", "is_correct": true },
-            { "text": "軟骨性関節", "is_correct": false },
-            { "text": "滑膜性関節", "is_correct": false },
-            { "text": "骨性関節", "is_correct": false }
+            {
+              "text": "線維性関節",
+              "is_correct": true
+            },
+            {
+              "text": "軟骨性関節",
+              "is_correct": false
+            },
+            {
+              "text": "滑膜性関節",
+              "is_correct": false
+            },
+            {
+              "text": "骨性関節",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "joint-structural-classification"
           ]
         },
         {
@@ -44,10 +71,25 @@
           "source": "Gray's Anatomy",
           "images": [],
           "choices": [
-            { "text": "軟骨性関節", "is_correct": true },
-            { "text": "線維性関節", "is_correct": false },
-            { "text": "滑膜性関節", "is_correct": false },
-            { "text": "半月板関節", "is_correct": false }
+            {
+              "text": "軟骨性関節",
+              "is_correct": true
+            },
+            {
+              "text": "線維性関節",
+              "is_correct": false
+            },
+            {
+              "text": "滑膜性関節",
+              "is_correct": false
+            },
+            {
+              "text": "半月板関節",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "joint-structural-classification"
           ]
         },
         {
@@ -59,10 +101,25 @@
           "source": "Gray's Anatomy",
           "images": [],
           "choices": [
-            { "text": "滑膜性関節", "is_correct": true },
-            { "text": "線維性関節", "is_correct": false },
-            { "text": "軟骨性関節", "is_correct": false },
-            { "text": "線維軟骨結合", "is_correct": false }
+            {
+              "text": "滑膜性関節",
+              "is_correct": true
+            },
+            {
+              "text": "線維性関節",
+              "is_correct": false
+            },
+            {
+              "text": "軟骨性関節",
+              "is_correct": false
+            },
+            {
+              "text": "線維軟骨結合",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "joint-structural-classification"
           ]
         },
         {
@@ -74,10 +131,25 @@
           "source": "Gray's Anatomy",
           "images": [],
           "choices": [
-            { "text": "靭帯結合（syndesmosis）", "is_correct": true },
-            { "text": "縫合（suture）", "is_correct": false },
-            { "text": "釘植（gomphosis）", "is_correct": false },
-            { "text": "軟骨結合（synchondrosis）", "is_correct": false }
+            {
+              "text": "靭帯結合（syndesmosis）",
+              "is_correct": true
+            },
+            {
+              "text": "縫合（suture）",
+              "is_correct": false
+            },
+            {
+              "text": "釘植（gomphosis）",
+              "is_correct": false
+            },
+            {
+              "text": "軟骨結合（synchondrosis）",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "joint-structural-classification"
           ]
         },
         {
@@ -90,11 +162,24 @@
           "images": [],
           "metadata": {
             "pairs": [
-              { "left": "線維性関節", "right": "頭蓋縫合" },
-              { "left": "軟骨性関節", "right": "椎間板" },
-              { "left": "滑膜性関節", "right": "膝関節" }
+              {
+                "left": "線維性関節",
+                "right": "頭蓋縫合"
+              },
+              {
+                "left": "軟骨性関節",
+                "right": "椎間板"
+              },
+              {
+                "left": "滑膜性関節",
+                "right": "膝関節"
+              }
             ]
-          }
+          },
+          "reference_text_ids": [
+            "joint-structural-classification",
+            "joint-functional-classification"
+          ]
         },
         {
           "question_text": "次の文を完成させてください:",
@@ -106,13 +191,33 @@
           "images": [],
           "metadata": {
             "template": "機能的分類で、ほとんど動かない関節を {{blank}} という",
-            "word_options": ["不動関節", "半関節", "可動関節", "滑膜関節"]
+            "word_options": [
+              "不動関節",
+              "半関節",
+              "可動関節",
+              "滑膜関節"
+            ]
           },
           "choices": [
-            { "text": "不動関節", "is_correct": true },
-            { "text": "半関節", "is_correct": false },
-            { "text": "可動関節", "is_correct": false },
-            { "text": "滑膜関節", "is_correct": false }
+            {
+              "text": "不動関節",
+              "is_correct": true
+            },
+            {
+              "text": "半関節",
+              "is_correct": false
+            },
+            {
+              "text": "可動関節",
+              "is_correct": false
+            },
+            {
+              "text": "滑膜関節",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "joint-functional-classification"
           ]
         },
         {
@@ -124,8 +229,15 @@
           "source": "Gray's Anatomy",
           "images": [],
           "metadata": {
-            "acceptable_answers": ["釘植", "gomphosis", "釘植関節"]
-          }
+            "acceptable_answers": [
+              "釘植",
+              "gomphosis",
+              "釘植関節"
+            ]
+          },
+          "reference_text_ids": [
+            "joint-structural-classification"
+          ]
         },
         {
           "question_text": "長骨の骨端板（epiphyseal plate）の結合は、軟骨性関節のどのサブタイプか？",
@@ -136,10 +248,25 @@
           "source": "Gray's Anatomy",
           "images": [],
           "choices": [
-            { "text": "軟骨結合（synchondrosis）", "is_correct": true },
-            { "text": "線維軟骨結合（symphysis）", "is_correct": false },
-            { "text": "靭帯結合（syndesmosis）", "is_correct": false },
-            { "text": "縫合（suture）", "is_correct": false }
+            {
+              "text": "軟骨結合（synchondrosis）",
+              "is_correct": true
+            },
+            {
+              "text": "線維軟骨結合（symphysis）",
+              "is_correct": false
+            },
+            {
+              "text": "靭帯結合（syndesmosis）",
+              "is_correct": false
+            },
+            {
+              "text": "縫合（suture）",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "joint-structural-classification"
           ]
         }
       ]
@@ -150,10 +277,22 @@
       "description": "滑膜性関節を構成する基本構造を学ぶ",
       "sort_order": 1,
       "concepts": [
-        { "name": "関節包", "description": "関節を包む結合組織の袋（線維膜と滑膜の二層構造）" },
-        { "name": "関節軟骨", "description": "骨端を覆う硝子軟骨で摩擦を軽減する" },
-        { "name": "滑液", "description": "関節腔を満たす粘稠な液体で潤滑と栄養を担う" },
-        { "name": "靭帯と補助構造", "description": "関節を安定させる靭帯、関節半月、関節唇など" }
+        {
+          "name": "関節包",
+          "description": "関節を包む結合組織の袋（線維膜と滑膜の二層構造）"
+        },
+        {
+          "name": "関節軟骨",
+          "description": "骨端を覆う硝子軟骨で摩擦を軽減する"
+        },
+        {
+          "name": "滑液",
+          "description": "関節腔を満たす粘稠な液体で潤滑と栄養を担う"
+        },
+        {
+          "name": "靭帯と補助構造",
+          "description": "関節を安定させる靭帯、関節半月、関節唇など"
+        }
       ],
       "questions": [
         {
@@ -165,10 +304,25 @@
           "source": "Gray's Anatomy",
           "images": [],
           "choices": [
-            { "text": "関節軟骨", "is_correct": true },
-            { "text": "滑膜", "is_correct": false },
-            { "text": "関節包", "is_correct": false },
-            { "text": "靭帯", "is_correct": false }
+            {
+              "text": "関節軟骨",
+              "is_correct": true
+            },
+            {
+              "text": "滑膜",
+              "is_correct": false
+            },
+            {
+              "text": "関節包",
+              "is_correct": false
+            },
+            {
+              "text": "靭帯",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "synovial-joint-basic-structure"
           ]
         },
         {
@@ -180,10 +334,25 @@
           "source": "Gray's Anatomy",
           "images": [],
           "choices": [
-            { "text": "滑膜", "is_correct": true },
-            { "text": "線維膜", "is_correct": false },
-            { "text": "骨膜", "is_correct": false },
-            { "text": "関節軟骨", "is_correct": false }
+            {
+              "text": "滑膜",
+              "is_correct": true
+            },
+            {
+              "text": "線維膜",
+              "is_correct": false
+            },
+            {
+              "text": "骨膜",
+              "is_correct": false
+            },
+            {
+              "text": "関節軟骨",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "synovial-joint-basic-structure"
           ]
         },
         {
@@ -195,10 +364,25 @@
           "source": "Gray's Anatomy",
           "images": [],
           "choices": [
-            { "text": "骨の成長促進", "is_correct": true },
-            { "text": "関節の潤滑", "is_correct": false },
-            { "text": "関節軟骨への栄養供給", "is_correct": false },
-            { "text": "衝撃の吸収", "is_correct": false }
+            {
+              "text": "骨の成長促進",
+              "is_correct": true
+            },
+            {
+              "text": "関節の潤滑",
+              "is_correct": false
+            },
+            {
+              "text": "関節軟骨への栄養供給",
+              "is_correct": false
+            },
+            {
+              "text": "衝撃の吸収",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "synovial-joint-basic-structure"
           ]
         },
         {
@@ -210,10 +394,25 @@
           "source": "Gray's Anatomy",
           "images": [],
           "choices": [
-            { "text": "線維膜", "is_correct": true },
-            { "text": "滑膜", "is_correct": false },
-            { "text": "骨膜", "is_correct": false },
-            { "text": "軟骨膜", "is_correct": false }
+            {
+              "text": "線維膜",
+              "is_correct": true
+            },
+            {
+              "text": "滑膜",
+              "is_correct": false
+            },
+            {
+              "text": "骨膜",
+              "is_correct": false
+            },
+            {
+              "text": "軟骨膜",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "synovial-joint-basic-structure"
           ]
         },
         {
@@ -225,10 +424,25 @@
           "source": "Gray's Anatomy",
           "images": [],
           "choices": [
-            { "text": "線維軟骨", "is_correct": true },
-            { "text": "硝子軟骨", "is_correct": false },
-            { "text": "弾性軟骨", "is_correct": false },
-            { "text": "緻密骨", "is_correct": false }
+            {
+              "text": "線維軟骨",
+              "is_correct": true
+            },
+            {
+              "text": "硝子軟骨",
+              "is_correct": false
+            },
+            {
+              "text": "弾性軟骨",
+              "is_correct": false
+            },
+            {
+              "text": "緻密骨",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "synovial-joint-basic-structure"
           ]
         },
         {
@@ -241,13 +455,33 @@
           "images": [],
           "metadata": {
             "template": "滑液の粘性を与える主成分は {{blank}} である",
-            "word_options": ["ヒアルロン酸", "コラーゲン", "エラスチン", "プロテオグリカン"]
+            "word_options": [
+              "ヒアルロン酸",
+              "コラーゲン",
+              "エラスチン",
+              "プロテオグリカン"
+            ]
           },
           "choices": [
-            { "text": "ヒアルロン酸", "is_correct": true },
-            { "text": "コラーゲン", "is_correct": false },
-            { "text": "エラスチン", "is_correct": false },
-            { "text": "プロテオグリカン", "is_correct": false }
+            {
+              "text": "ヒアルロン酸",
+              "is_correct": true
+            },
+            {
+              "text": "コラーゲン",
+              "is_correct": false
+            },
+            {
+              "text": "エラスチン",
+              "is_correct": false
+            },
+            {
+              "text": "プロテオグリカン",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "synovial-joint-basic-structure"
           ]
         },
         {
@@ -260,11 +494,23 @@
           "images": [],
           "metadata": {
             "pairs": [
-              { "left": "関節軟骨", "right": "摩擦軽減" },
-              { "left": "滑膜", "right": "滑液の分泌" },
-              { "left": "靭帯", "right": "関節の安定化" }
+              {
+                "left": "関節軟骨",
+                "right": "摩擦軽減"
+              },
+              {
+                "left": "滑膜",
+                "right": "滑液の分泌"
+              },
+              {
+                "left": "靭帯",
+                "right": "関節の安定化"
+              }
             ]
-          }
+          },
+          "reference_text_ids": [
+            "synovial-joint-basic-structure"
+          ]
         },
         {
           "question_text": "肩関節や股関節の関節窩の縁を取り囲み、関節窩を深くする線維軟骨のリングを何というか？（日本語で回答）",
@@ -275,8 +521,17 @@
           "source": "Gray's Anatomy",
           "images": [],
           "metadata": {
-            "acceptable_answers": ["関節唇", "labrum", "ラブラム", "関節窩唇", "寛骨臼唇"]
-          }
+            "acceptable_answers": [
+              "関節唇",
+              "labrum",
+              "ラブラム",
+              "関節窩唇",
+              "寛骨臼唇"
+            ]
+          },
+          "reference_text_ids": [
+            "synovial-joint-basic-structure"
+          ]
         }
       ]
     },
@@ -286,10 +541,22 @@
       "description": "6種類の滑膜性関節とその運動軸を学ぶ",
       "sort_order": 2,
       "concepts": [
-        { "name": "球関節", "description": "球状の骨頭が臼状の窩にはまる多軸性関節（肩関節・股関節）" },
-        { "name": "蝶番関節と車軸関節", "description": "一軸性の関節（肘関節・橈尺関節）" },
-        { "name": "鞍関節と楕円関節", "description": "二軸性の関節（母指CM関節・橈骨手根関節）" },
-        { "name": "平面関節", "description": "平坦な関節面による滑り運動の関節（椎間関節）" }
+        {
+          "name": "球関節",
+          "description": "球状の骨頭が臼状の窩にはまる多軸性関節（肩関節・股関節）"
+        },
+        {
+          "name": "蝶番関節と車軸関節",
+          "description": "一軸性の関節（肘関節・橈尺関節）"
+        },
+        {
+          "name": "鞍関節と楕円関節",
+          "description": "二軸性の関節（母指CM関節・橈骨手根関節）"
+        },
+        {
+          "name": "平面関節",
+          "description": "平坦な関節面による滑り運動の関節（椎間関節）"
+        }
       ],
       "questions": [
         {
@@ -301,10 +568,25 @@
           "source": "Gray's Anatomy",
           "images": [],
           "choices": [
-            { "text": "球関節", "is_correct": true },
-            { "text": "蝶番関節", "is_correct": false },
-            { "text": "車軸関節", "is_correct": false },
-            { "text": "楕円関節", "is_correct": false }
+            {
+              "text": "球関節",
+              "is_correct": true
+            },
+            {
+              "text": "蝶番関節",
+              "is_correct": false
+            },
+            {
+              "text": "車軸関節",
+              "is_correct": false
+            },
+            {
+              "text": "楕円関節",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "synovial-joint-six-types"
           ]
         },
         {
@@ -316,10 +598,25 @@
           "source": "Gray's Anatomy",
           "images": [],
           "choices": [
-            { "text": "蝶番関節", "is_correct": true },
-            { "text": "車軸関節", "is_correct": false },
-            { "text": "鞍関節", "is_correct": false },
-            { "text": "平面関節", "is_correct": false }
+            {
+              "text": "蝶番関節",
+              "is_correct": true
+            },
+            {
+              "text": "車軸関節",
+              "is_correct": false
+            },
+            {
+              "text": "鞍関節",
+              "is_correct": false
+            },
+            {
+              "text": "平面関節",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "synovial-joint-six-types"
           ]
         },
         {
@@ -331,10 +628,25 @@
           "source": "Gray's Anatomy",
           "images": [],
           "choices": [
-            { "text": "車軸関節", "is_correct": true },
-            { "text": "蝶番関節", "is_correct": false },
-            { "text": "球関節", "is_correct": false },
-            { "text": "楕円関節", "is_correct": false }
+            {
+              "text": "車軸関節",
+              "is_correct": true
+            },
+            {
+              "text": "蝶番関節",
+              "is_correct": false
+            },
+            {
+              "text": "球関節",
+              "is_correct": false
+            },
+            {
+              "text": "楕円関節",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "synovial-joint-six-types"
           ]
         },
         {
@@ -346,10 +658,25 @@
           "source": "Gray's Anatomy",
           "images": [],
           "choices": [
-            { "text": "鞍関節", "is_correct": true },
-            { "text": "楕円関節", "is_correct": false },
-            { "text": "球関節", "is_correct": false },
-            { "text": "平面関節", "is_correct": false }
+            {
+              "text": "鞍関節",
+              "is_correct": true
+            },
+            {
+              "text": "楕円関節",
+              "is_correct": false
+            },
+            {
+              "text": "球関節",
+              "is_correct": false
+            },
+            {
+              "text": "平面関節",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "synovial-joint-six-types"
           ]
         },
         {
@@ -361,10 +688,25 @@
           "source": "Gray's Anatomy",
           "images": [],
           "choices": [
-            { "text": "平面関節", "is_correct": true },
-            { "text": "蝶番関節", "is_correct": false },
-            { "text": "鞍関節", "is_correct": false },
-            { "text": "車軸関節", "is_correct": false }
+            {
+              "text": "平面関節",
+              "is_correct": true
+            },
+            {
+              "text": "蝶番関節",
+              "is_correct": false
+            },
+            {
+              "text": "鞍関節",
+              "is_correct": false
+            },
+            {
+              "text": "車軸関節",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "synovial-joint-six-types"
           ]
         },
         {
@@ -377,11 +719,23 @@
           "images": [],
           "metadata": {
             "pairs": [
-              { "left": "蝶番関節・車軸関節", "right": "一軸性" },
-              { "left": "楕円関節・鞍関節", "right": "二軸性" },
-              { "left": "球関節", "right": "多軸性" }
+              {
+                "left": "蝶番関節・車軸関節",
+                "right": "一軸性"
+              },
+              {
+                "left": "楕円関節・鞍関節",
+                "right": "二軸性"
+              },
+              {
+                "left": "球関節",
+                "right": "多軸性"
+              }
             ]
-          }
+          },
+          "reference_text_ids": [
+            "synovial-joint-six-types"
+          ]
         },
         {
           "question_text": "次の文を完成させてください:",
@@ -393,13 +747,33 @@
           "images": [],
           "metadata": {
             "template": "橈骨手根関節は滑膜性関節の分類で {{blank}} に属する",
-            "word_options": ["楕円関節", "蝶番関節", "球関節", "鞍関節"]
+            "word_options": [
+              "楕円関節",
+              "蝶番関節",
+              "球関節",
+              "鞍関節"
+            ]
           },
           "choices": [
-            { "text": "楕円関節", "is_correct": true },
-            { "text": "蝶番関節", "is_correct": false },
-            { "text": "球関節", "is_correct": false },
-            { "text": "鞍関節", "is_correct": false }
+            {
+              "text": "楕円関節",
+              "is_correct": true
+            },
+            {
+              "text": "蝶番関節",
+              "is_correct": false
+            },
+            {
+              "text": "球関節",
+              "is_correct": false
+            },
+            {
+              "text": "鞍関節",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "synovial-joint-six-types"
           ]
         },
         {
@@ -411,8 +785,15 @@
           "source": "Gray's Anatomy",
           "images": [],
           "metadata": {
-            "acceptable_answers": ["車軸関節", "pivot joint", "ピボット関節"]
-          }
+            "acceptable_answers": [
+              "車軸関節",
+              "pivot joint",
+              "ピボット関節"
+            ]
+          },
+          "reference_text_ids": [
+            "synovial-joint-six-types"
+          ]
         }
       ]
     },
@@ -422,10 +803,22 @@
       "description": "肩・肘・手関節など上肢の主要な関節を学ぶ",
       "sort_order": 3,
       "concepts": [
-        { "name": "肩関節", "description": "上腕骨頭と肩甲骨関節窩からなる球関節" },
-        { "name": "肘関節", "description": "上腕骨・橈骨・尺骨からなる複合関節" },
-        { "name": "手関節", "description": "橈骨と手根骨からなる楕円関節" },
-        { "name": "橈尺関節", "description": "前腕の回内・回外を行う車軸関節" }
+        {
+          "name": "肩関節",
+          "description": "上腕骨頭と肩甲骨関節窩からなる球関節"
+        },
+        {
+          "name": "肘関節",
+          "description": "上腕骨・橈骨・尺骨からなる複合関節"
+        },
+        {
+          "name": "手関節",
+          "description": "橈骨と手根骨からなる楕円関節"
+        },
+        {
+          "name": "橈尺関節",
+          "description": "前腕の回内・回外を行う車軸関節"
+        }
       ],
       "questions": [
         {
@@ -437,10 +830,25 @@
           "source": "Gray's Anatomy",
           "images": [],
           "choices": [
-            { "text": "球関節", "is_correct": true },
-            { "text": "蝶番関節", "is_correct": false },
-            { "text": "楕円関節", "is_correct": false },
-            { "text": "鞍関節", "is_correct": false }
+            {
+              "text": "球関節",
+              "is_correct": true
+            },
+            {
+              "text": "蝶番関節",
+              "is_correct": false
+            },
+            {
+              "text": "楕円関節",
+              "is_correct": false
+            },
+            {
+              "text": "鞍関節",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "upper-limb-joints-overview"
           ]
         },
         {
@@ -452,10 +860,25 @@
           "source": "Gray's Anatomy",
           "images": [],
           "choices": [
-            { "text": "腕尺関節", "is_correct": true },
-            { "text": "腕橈関節", "is_correct": false },
-            { "text": "近位橈尺関節", "is_correct": false },
-            { "text": "遠位橈尺関節", "is_correct": false }
+            {
+              "text": "腕尺関節",
+              "is_correct": true
+            },
+            {
+              "text": "腕橈関節",
+              "is_correct": false
+            },
+            {
+              "text": "近位橈尺関節",
+              "is_correct": false
+            },
+            {
+              "text": "遠位橈尺関節",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "upper-limb-joints-overview"
           ]
         },
         {
@@ -467,10 +890,25 @@
           "source": "Gray's Anatomy",
           "images": [],
           "choices": [
-            { "text": "車軸関節", "is_correct": true },
-            { "text": "蝶番関節", "is_correct": false },
-            { "text": "平面関節", "is_correct": false },
-            { "text": "楕円関節", "is_correct": false }
+            {
+              "text": "車軸関節",
+              "is_correct": true
+            },
+            {
+              "text": "蝶番関節",
+              "is_correct": false
+            },
+            {
+              "text": "平面関節",
+              "is_correct": false
+            },
+            {
+              "text": "楕円関節",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "upper-limb-joints-overview"
           ]
         },
         {
@@ -482,10 +920,25 @@
           "source": "Gray's Anatomy",
           "images": [],
           "choices": [
-            { "text": "舟状骨と月状骨", "is_correct": true },
-            { "text": "有頭骨と有鉤骨", "is_correct": false },
-            { "text": "大菱形骨と小菱形骨", "is_correct": false },
-            { "text": "三角骨と豆状骨", "is_correct": false }
+            {
+              "text": "舟状骨と月状骨",
+              "is_correct": true
+            },
+            {
+              "text": "有頭骨と有鉤骨",
+              "is_correct": false
+            },
+            {
+              "text": "大菱形骨と小菱形骨",
+              "is_correct": false
+            },
+            {
+              "text": "三角骨と豆状骨",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "upper-limb-joints-overview"
           ]
         },
         {
@@ -497,10 +950,25 @@
           "source": "Gray's Anatomy",
           "images": [],
           "choices": [
-            { "text": "回旋筋腱板（rotator cuff）", "is_correct": true },
-            { "text": "三角筋群", "is_correct": false },
-            { "text": "上腕二頭筋群", "is_correct": false },
-            { "text": "僧帽筋群", "is_correct": false }
+            {
+              "text": "回旋筋腱板（rotator cuff）",
+              "is_correct": true
+            },
+            {
+              "text": "三角筋群",
+              "is_correct": false
+            },
+            {
+              "text": "上腕二頭筋群",
+              "is_correct": false
+            },
+            {
+              "text": "僧帽筋群",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "upper-limb-joints-overview"
           ]
         },
         {
@@ -513,12 +981,27 @@
           "images": [],
           "metadata": {
             "pairs": [
-              { "left": "肩関節", "right": "球関節" },
-              { "left": "肘関節（腕尺関節）", "right": "蝶番関節" },
-              { "left": "橈骨手根関節", "right": "楕円関節" },
-              { "left": "近位橈尺関節", "right": "車軸関節" }
+              {
+                "left": "肩関節",
+                "right": "球関節"
+              },
+              {
+                "left": "肘関節（腕尺関節）",
+                "right": "蝶番関節"
+              },
+              {
+                "left": "橈骨手根関節",
+                "right": "楕円関節"
+              },
+              {
+                "left": "近位橈尺関節",
+                "right": "車軸関節"
+              }
             ]
-          }
+          },
+          "reference_text_ids": [
+            "upper-limb-joints-overview"
+          ]
         },
         {
           "question_text": "次の文を完成させてください:",
@@ -530,13 +1013,33 @@
           "images": [],
           "metadata": {
             "template": "肩関節は人体で最も {{blank}} しやすい関節である",
-            "word_options": ["脱臼", "骨折", "炎症", "変形"]
+            "word_options": [
+              "脱臼",
+              "骨折",
+              "炎症",
+              "変形"
+            ]
           },
           "choices": [
-            { "text": "脱臼", "is_correct": true },
-            { "text": "骨折", "is_correct": false },
-            { "text": "炎症", "is_correct": false },
-            { "text": "変形", "is_correct": false }
+            {
+              "text": "脱臼",
+              "is_correct": true
+            },
+            {
+              "text": "骨折",
+              "is_correct": false
+            },
+            {
+              "text": "炎症",
+              "is_correct": false
+            },
+            {
+              "text": "変形",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "upper-limb-joints-overview"
           ]
         },
         {
@@ -548,8 +1051,15 @@
           "source": "Gray's Anatomy",
           "images": [],
           "metadata": {
-            "acceptable_answers": ["輪状靭帯", "annular ligament", "橈骨輪状靭帯"]
-          }
+            "acceptable_answers": [
+              "輪状靭帯",
+              "annular ligament",
+              "橈骨輪状靭帯"
+            ]
+          },
+          "reference_text_ids": [
+            "upper-limb-joints-overview"
+          ]
         }
       ]
     },
@@ -559,10 +1069,22 @@
       "description": "股・膝・足関節など下肢の主要な関節を学ぶ",
       "sort_order": 4,
       "concepts": [
-        { "name": "股関節", "description": "大腿骨頭と寛骨臼からなる球関節" },
-        { "name": "膝関節", "description": "大腿骨・脛骨・膝蓋骨からなる人体最大の関節" },
-        { "name": "足関節", "description": "脛骨・腓骨・距骨からなる蝶番関節" },
-        { "name": "仙腸関節", "description": "仙骨と腸骨をつなぐ平面関節（半可動）" }
+        {
+          "name": "股関節",
+          "description": "大腿骨頭と寛骨臼からなる球関節"
+        },
+        {
+          "name": "膝関節",
+          "description": "大腿骨・脛骨・膝蓋骨からなる人体最大の関節"
+        },
+        {
+          "name": "足関節",
+          "description": "脛骨・腓骨・距骨からなる蝶番関節"
+        },
+        {
+          "name": "仙腸関節",
+          "description": "仙骨と腸骨をつなぐ平面関節（半可動）"
+        }
       ],
       "questions": [
         {
@@ -574,10 +1096,25 @@
           "source": "Gray's Anatomy",
           "images": [],
           "choices": [
-            { "text": "球関節", "is_correct": true },
-            { "text": "蝶番関節", "is_correct": false },
-            { "text": "楕円関節", "is_correct": false },
-            { "text": "鞍関節", "is_correct": false }
+            {
+              "text": "球関節",
+              "is_correct": true
+            },
+            {
+              "text": "蝶番関節",
+              "is_correct": false
+            },
+            {
+              "text": "楕円関節",
+              "is_correct": false
+            },
+            {
+              "text": "鞍関節",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "lower-limb-joints-overview"
           ]
         },
         {
@@ -589,10 +1126,25 @@
           "source": "Gray's Anatomy",
           "images": [],
           "choices": [
-            { "text": "半月板", "is_correct": true },
-            { "text": "関節唇", "is_correct": false },
-            { "text": "関節円板", "is_correct": false },
-            { "text": "靭帯", "is_correct": false }
+            {
+              "text": "半月板",
+              "is_correct": true
+            },
+            {
+              "text": "関節唇",
+              "is_correct": false
+            },
+            {
+              "text": "関節円板",
+              "is_correct": false
+            },
+            {
+              "text": "靭帯",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "lower-limb-joints-overview"
           ]
         },
         {
@@ -604,10 +1156,25 @@
           "source": "Gray's Anatomy",
           "images": [],
           "choices": [
-            { "text": "十字靭帯", "is_correct": true },
-            { "text": "側副靭帯", "is_correct": false },
-            { "text": "半月板", "is_correct": false },
-            { "text": "膝蓋靭帯", "is_correct": false }
+            {
+              "text": "十字靭帯",
+              "is_correct": true
+            },
+            {
+              "text": "側副靭帯",
+              "is_correct": false
+            },
+            {
+              "text": "半月板",
+              "is_correct": false
+            },
+            {
+              "text": "膝蓋靭帯",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "lower-limb-joints-overview"
           ]
         },
         {
@@ -619,10 +1186,25 @@
           "source": "Gray's Anatomy",
           "images": [],
           "choices": [
-            { "text": "蝶番関節", "is_correct": true },
-            { "text": "球関節", "is_correct": false },
-            { "text": "平面関節", "is_correct": false },
-            { "text": "車軸関節", "is_correct": false }
+            {
+              "text": "蝶番関節",
+              "is_correct": true
+            },
+            {
+              "text": "球関節",
+              "is_correct": false
+            },
+            {
+              "text": "平面関節",
+              "is_correct": false
+            },
+            {
+              "text": "車軸関節",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "lower-limb-joints-overview"
           ]
         },
         {
@@ -635,12 +1217,27 @@
           "images": [],
           "metadata": {
             "pairs": [
-              { "left": "股関節", "right": "球関節" },
-              { "left": "膝関節", "right": "蝶番関節" },
-              { "left": "足関節", "right": "蝶番関節" },
-              { "left": "仙腸関節", "right": "平面関節" }
+              {
+                "left": "股関節",
+                "right": "球関節"
+              },
+              {
+                "left": "膝関節",
+                "right": "蝶番関節"
+              },
+              {
+                "left": "足関節",
+                "right": "蝶番関節"
+              },
+              {
+                "left": "仙腸関節",
+                "right": "平面関節"
+              }
             ]
-          }
+          },
+          "reference_text_ids": [
+            "lower-limb-joints-overview"
+          ]
         },
         {
           "question_text": "次の文を完成させてください:",
@@ -652,13 +1249,33 @@
           "images": [],
           "metadata": {
             "template": "膝関節は人体で {{blank}} の滑膜性関節である",
-            "word_options": ["最大", "最小", "最強", "最古"]
+            "word_options": [
+              "最大",
+              "最小",
+              "最強",
+              "最古"
+            ]
           },
           "choices": [
-            { "text": "最大", "is_correct": true },
-            { "text": "最小", "is_correct": false },
-            { "text": "最強", "is_correct": false },
-            { "text": "最古", "is_correct": false }
+            {
+              "text": "最大",
+              "is_correct": true
+            },
+            {
+              "text": "最小",
+              "is_correct": false
+            },
+            {
+              "text": "最強",
+              "is_correct": false
+            },
+            {
+              "text": "最古",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "lower-limb-joints-overview"
           ]
         },
         {
@@ -670,10 +1287,25 @@
           "source": "Gray's Anatomy",
           "images": [],
           "choices": [
-            { "text": "大腿骨頭靭帯", "is_correct": true },
-            { "text": "腸骨大腿靭帯", "is_correct": false },
-            { "text": "恥骨大腿靭帯", "is_correct": false },
-            { "text": "坐骨大腿靭帯", "is_correct": false }
+            {
+              "text": "大腿骨頭靭帯",
+              "is_correct": true
+            },
+            {
+              "text": "腸骨大腿靭帯",
+              "is_correct": false
+            },
+            {
+              "text": "恥骨大腿靭帯",
+              "is_correct": false
+            },
+            {
+              "text": "坐骨大腿靭帯",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "lower-limb-joints-overview"
           ]
         },
         {
@@ -685,8 +1317,16 @@
           "source": "Gray's Anatomy",
           "images": [],
           "metadata": {
-            "acceptable_answers": ["前十字靭帯", "ACL", "anterior cruciate ligament", "前十字靱帯"]
-          }
+            "acceptable_answers": [
+              "前十字靭帯",
+              "ACL",
+              "anterior cruciate ligament",
+              "前十字靱帯"
+            ]
+          },
+          "reference_text_ids": [
+            "lower-limb-joints-overview"
+          ]
         }
       ]
     }

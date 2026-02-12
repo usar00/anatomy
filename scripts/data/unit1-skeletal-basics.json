@@ -14,11 +14,26 @@
       "description": "骨の形状による5つの分類を学ぶ",
       "sort_order": 0,
       "concepts": [
-        { "name": "長骨", "description": "長さが幅より大きい骨（大腿骨、上腕骨など）" },
-        { "name": "短骨", "description": "幅と長さがほぼ等しい骨（手根骨、足根骨）" },
-        { "name": "扁平骨", "description": "薄く平らな骨（頭蓋骨、肩甲骨）" },
-        { "name": "不規則骨", "description": "複雑な形状の骨（椎骨、蝶形骨）" },
-        { "name": "種子骨", "description": "腱の中にある小さな骨（膝蓋骨）" }
+        {
+          "name": "長骨",
+          "description": "長さが幅より大きい骨（大腿骨、上腕骨など）"
+        },
+        {
+          "name": "短骨",
+          "description": "幅と長さがほぼ等しい骨（手根骨、足根骨）"
+        },
+        {
+          "name": "扁平骨",
+          "description": "薄く平らな骨（頭蓋骨、肩甲骨）"
+        },
+        {
+          "name": "不規則骨",
+          "description": "複雑な形状の骨（椎骨、蝶形骨）"
+        },
+        {
+          "name": "種子骨",
+          "description": "腱の中にある小さな骨（膝蓋骨）"
+        }
       ],
       "questions": [
         {
@@ -36,10 +51,25 @@
             }
           ],
           "choices": [
-            { "text": "長骨", "is_correct": true },
-            { "text": "短骨", "is_correct": false },
-            { "text": "扁平骨", "is_correct": false },
-            { "text": "不規則骨", "is_correct": false }
+            {
+              "text": "長骨",
+              "is_correct": true
+            },
+            {
+              "text": "短骨",
+              "is_correct": false
+            },
+            {
+              "text": "扁平骨",
+              "is_correct": false
+            },
+            {
+              "text": "不規則骨",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "bone-five-types"
           ]
         },
         {
@@ -57,10 +87,25 @@
             }
           ],
           "choices": [
-            { "text": "短骨", "is_correct": true },
-            { "text": "長骨", "is_correct": false },
-            { "text": "種子骨", "is_correct": false },
-            { "text": "扁平骨", "is_correct": false }
+            {
+              "text": "短骨",
+              "is_correct": true
+            },
+            {
+              "text": "長骨",
+              "is_correct": false
+            },
+            {
+              "text": "種子骨",
+              "is_correct": false
+            },
+            {
+              "text": "扁平骨",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "bone-five-types"
           ]
         },
         {
@@ -81,10 +126,25 @@
             }
           ],
           "choices": [
-            { "text": "種子骨", "is_correct": true },
-            { "text": "長骨", "is_correct": false },
-            { "text": "短骨", "is_correct": false },
-            { "text": "扁平骨", "is_correct": false }
+            {
+              "text": "種子骨",
+              "is_correct": true
+            },
+            {
+              "text": "長骨",
+              "is_correct": false
+            },
+            {
+              "text": "短骨",
+              "is_correct": false
+            },
+            {
+              "text": "扁平骨",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "bone-five-types"
           ]
         },
         {
@@ -96,10 +156,22 @@
           "source": "Gray's Anatomy",
           "metadata": {
             "pairs": [
-              { "left": "長骨", "right": "大腿骨" },
-              { "left": "短骨", "right": "手根骨" },
-              { "left": "扁平骨", "right": "頭蓋骨" },
-              { "left": "不規則骨", "right": "椎骨" }
+              {
+                "left": "長骨",
+                "right": "大腿骨"
+              },
+              {
+                "left": "短骨",
+                "right": "手根骨"
+              },
+              {
+                "left": "扁平骨",
+                "right": "頭蓋骨"
+              },
+              {
+                "left": "不規則骨",
+                "right": "椎骨"
+              }
             ]
           },
           "images": [
@@ -110,8 +182,17 @@
             }
           ],
           "choices": [
-            { "text": "正解", "is_correct": true },
-            { "text": "不正解", "is_correct": false }
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "bone-five-types"
           ]
         },
         {
@@ -129,10 +210,25 @@
             }
           ],
           "choices": [
-            { "text": "扁平骨", "is_correct": true },
-            { "text": "長骨", "is_correct": false },
-            { "text": "不規則骨", "is_correct": false },
-            { "text": "種子骨", "is_correct": false }
+            {
+              "text": "扁平骨",
+              "is_correct": true
+            },
+            {
+              "text": "長骨",
+              "is_correct": false
+            },
+            {
+              "text": "不規則骨",
+              "is_correct": false
+            },
+            {
+              "text": "種子骨",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "bone-five-types"
           ]
         },
         {
@@ -150,10 +246,25 @@
             }
           ],
           "choices": [
-            { "text": "不規則骨", "is_correct": true },
-            { "text": "扁平骨", "is_correct": false },
-            { "text": "短骨", "is_correct": false },
-            { "text": "種子骨", "is_correct": false }
+            {
+              "text": "不規則骨",
+              "is_correct": true
+            },
+            {
+              "text": "扁平骨",
+              "is_correct": false
+            },
+            {
+              "text": "短骨",
+              "is_correct": false
+            },
+            {
+              "text": "種子骨",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "bone-five-types"
           ]
         },
         {
@@ -171,10 +282,25 @@
             }
           ],
           "choices": [
-            { "text": "短骨", "is_correct": true },
-            { "text": "種子骨", "is_correct": false },
-            { "text": "長骨", "is_correct": false },
-            { "text": "扁平骨", "is_correct": false }
+            {
+              "text": "短骨",
+              "is_correct": true
+            },
+            {
+              "text": "種子骨",
+              "is_correct": false
+            },
+            {
+              "text": "長骨",
+              "is_correct": false
+            },
+            {
+              "text": "扁平骨",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "bone-five-types"
           ]
         },
         {
@@ -185,7 +311,11 @@
           "explanation": "種子骨（Sesamoid Bone）は腱の中、または腱が骨の表面を通過する部位に発達する小さな骨である。名称はゴマ（sesame）の種に形が似ていることに由来する。種子骨の主な機能は3つある。第一に、腱と骨の間の摩擦を軽減する滑車の役割。第二に、腱が骨から離れる距離を増やすことで、てこの腕を大きくし、筋の力学的効率を向上させる役割。第三に、腱にかかる圧迫力から腱を保護する役割である。膝蓋骨（patella）は人体最大の種子骨であり、大腿四頭筋の腱内に位置する。膝蓋骨が存在することで膝関節伸展の効率が約50%向上するとされている。その他の種子骨としては、足の母趾の中足趾節関節底面にある2つの種子骨（内側・外側）や、手の母指の中手指節関節にある種子骨がある。種子骨の数や存在部位には個人差がある（Gray's Anatomy, Chapter 6; OpenStax Anatomy and Physiology, 6.1）。",
           "source": "Gray's Anatomy",
           "metadata": {
-            "accepted_answers": ["種子骨", "しゅしこつ", "sesamoid bone"],
+            "accepted_answers": [
+              "種子骨",
+              "しゅしこつ",
+              "sesamoid bone"
+            ],
             "hint": "膝蓋骨がこの分類の代表的な例です"
           },
           "images": [
@@ -196,8 +326,17 @@
             }
           ],
           "choices": [
-            { "text": "種子骨", "is_correct": true },
-            { "text": "不正解", "is_correct": false }
+            {
+              "text": "種子骨",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "bone-five-types"
           ]
         }
       ]
@@ -208,10 +347,22 @@
       "description": "骨を構成する組織と構造について学ぶ",
       "sort_order": 1,
       "concepts": [
-        { "name": "緻密骨", "description": "骨の外層を形成する硬い組織" },
-        { "name": "海綿骨", "description": "骨の内部にあるスポンジ状の組織" },
-        { "name": "骨膜", "description": "骨の外表面を覆う膜" },
-        { "name": "骨髄", "description": "骨の中心にある造血組織" }
+        {
+          "name": "緻密骨",
+          "description": "骨の外層を形成する硬い組織"
+        },
+        {
+          "name": "海綿骨",
+          "description": "骨の内部にあるスポンジ状の組織"
+        },
+        {
+          "name": "骨膜",
+          "description": "骨の外表面を覆う膜"
+        },
+        {
+          "name": "骨髄",
+          "description": "骨の中心にある造血組織"
+        }
       ],
       "questions": [
         {
@@ -229,10 +380,25 @@
             }
           ],
           "choices": [
-            { "text": "緻密骨", "is_correct": true },
-            { "text": "海綿骨", "is_correct": false },
-            { "text": "骨膜", "is_correct": false },
-            { "text": "骨髄", "is_correct": false }
+            {
+              "text": "緻密骨",
+              "is_correct": true
+            },
+            {
+              "text": "海綿骨",
+              "is_correct": false
+            },
+            {
+              "text": "骨膜",
+              "is_correct": false
+            },
+            {
+              "text": "骨髄",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "bone-internal-structure"
           ]
         },
         {
@@ -253,10 +419,25 @@
             }
           ],
           "choices": [
-            { "text": "海綿骨", "is_correct": true },
-            { "text": "緻密骨", "is_correct": false },
-            { "text": "骨膜", "is_correct": false },
-            { "text": "関節軟骨", "is_correct": false }
+            {
+              "text": "海綿骨",
+              "is_correct": true
+            },
+            {
+              "text": "緻密骨",
+              "is_correct": false
+            },
+            {
+              "text": "骨膜",
+              "is_correct": false
+            },
+            {
+              "text": "関節軟骨",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "bone-internal-structure"
           ]
         },
         {
@@ -268,10 +449,22 @@
           "source": "Gray's Anatomy",
           "metadata": {
             "pairs": [
-              { "left": "緻密骨", "right": "構造的強度" },
-              { "left": "海綿骨", "right": "衝撃吸収" },
-              { "left": "骨膜", "right": "骨の保護と成長" },
-              { "left": "骨髄", "right": "造血" }
+              {
+                "left": "緻密骨",
+                "right": "構造的強度"
+              },
+              {
+                "left": "海綿骨",
+                "right": "衝撃吸収"
+              },
+              {
+                "left": "骨膜",
+                "right": "骨の保護と成長"
+              },
+              {
+                "left": "骨髄",
+                "right": "造血"
+              }
             ]
           },
           "images": [
@@ -282,8 +475,17 @@
             }
           ],
           "choices": [
-            { "text": "正解", "is_correct": true },
-            { "text": "不正解", "is_correct": false }
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "bone-internal-structure"
           ]
         },
         {
@@ -306,10 +508,25 @@
             }
           ],
           "choices": [
-            { "text": "緻密骨", "is_correct": true },
-            { "text": "海綿骨", "is_correct": false },
-            { "text": "骨膜", "is_correct": false },
-            { "text": "骨髄", "is_correct": false }
+            {
+              "text": "緻密骨",
+              "is_correct": true
+            },
+            {
+              "text": "海綿骨",
+              "is_correct": false
+            },
+            {
+              "text": "骨膜",
+              "is_correct": false
+            },
+            {
+              "text": "骨髄",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "bone-internal-structure"
           ]
         },
         {
@@ -332,10 +549,25 @@
             }
           ],
           "choices": [
-            { "text": "衝撃吸収", "is_correct": true },
-            { "text": "造血", "is_correct": false },
-            { "text": "骨の保護", "is_correct": false },
-            { "text": "カルシウム貯蔵", "is_correct": false }
+            {
+              "text": "衝撃吸収",
+              "is_correct": true
+            },
+            {
+              "text": "造血",
+              "is_correct": false
+            },
+            {
+              "text": "骨の保護",
+              "is_correct": false
+            },
+            {
+              "text": "カルシウム貯蔵",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "bone-internal-structure"
           ]
         },
         {
@@ -358,10 +590,25 @@
             }
           ],
           "choices": [
-            { "text": "骨の保護と成長・修復", "is_correct": true },
-            { "text": "造血", "is_correct": false },
-            { "text": "衝撃吸収", "is_correct": false },
-            { "text": "関節運動の円滑化", "is_correct": false }
+            {
+              "text": "骨の保護と成長・修復",
+              "is_correct": true
+            },
+            {
+              "text": "造血",
+              "is_correct": false
+            },
+            {
+              "text": "衝撃吸収",
+              "is_correct": false
+            },
+            {
+              "text": "関節運動の円滑化",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "bone-internal-structure"
           ]
         },
         {
@@ -379,10 +626,25 @@
             }
           ],
           "choices": [
-            { "text": "血球の産生（造血）", "is_correct": true },
-            { "text": "カルシウムの貯蔵", "is_correct": false },
-            { "text": "脂肪の貯蔵", "is_correct": false },
-            { "text": "骨の修復", "is_correct": false }
+            {
+              "text": "血球の産生（造血）",
+              "is_correct": true
+            },
+            {
+              "text": "カルシウムの貯蔵",
+              "is_correct": false
+            },
+            {
+              "text": "脂肪の貯蔵",
+              "is_correct": false
+            },
+            {
+              "text": "骨の修復",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "bone-internal-structure"
           ]
         },
         {
@@ -400,10 +662,25 @@
             }
           ],
           "choices": [
-            { "text": "骨膜", "is_correct": true },
-            { "text": "骨内膜", "is_correct": false },
-            { "text": "関節包", "is_correct": false },
-            { "text": "滑膜", "is_correct": false }
+            {
+              "text": "骨膜",
+              "is_correct": true
+            },
+            {
+              "text": "骨内膜",
+              "is_correct": false
+            },
+            {
+              "text": "関節包",
+              "is_correct": false
+            },
+            {
+              "text": "滑膜",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "bone-internal-structure"
           ]
         },
         {
@@ -414,7 +691,12 @@
           "explanation": "ハバース管（Haversian canal / 中心管）はオステオン（ハバース系）の中心軸を走る管で、内部に1〜2本の毛細血管と細い神経線維が通っている。この血管を通じて、周囲の骨層板（ラメラ）内に存在する骨細胞に酸素と栄養が供給される。栄養素はハバース管から骨細管（canaliculi）を通じて骨細胞へと拡散し、骨細胞同士も骨細管内のギャップ結合を介して連絡している。ハバース管は骨の長軸にほぼ平行に走行し、隣接するハバース管同士はフォルクマン管（穿通管/Volkmann's canal）によって横方向に連結されている。フォルクマン管は骨膜の血管からハバース管への血液供給路となり、骨組織全体への栄養供給ネットワークを形成している。この緻密骨の微細構造は、19世紀の英国解剖学者クロプトン・ハバースにちなんで命名された（Gray's Anatomy, Chapter 6; OpenStax Anatomy and Physiology, 6.3）。",
           "source": "Gray's Anatomy",
           "metadata": {
-            "accepted_answers": ["ハバース管", "中心管", "はばーすかん", "haversian canal"],
+            "accepted_answers": [
+              "ハバース管",
+              "中心管",
+              "はばーすかん",
+              "haversian canal"
+            ],
             "hint": "オステオンの中心を走る管で、血管と神経が通ります"
           },
           "images": [
@@ -425,8 +707,17 @@
             }
           ],
           "choices": [
-            { "text": "ハバース管", "is_correct": true },
-            { "text": "不正解", "is_correct": false }
+            {
+              "text": "ハバース管",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "bone-internal-structure"
           ]
         }
       ]
@@ -437,10 +728,22 @@
       "description": "体幹の骨格（頭蓋骨、脊柱、胸郭）を学ぶ",
       "sort_order": 2,
       "concepts": [
-        { "name": "頭蓋骨", "description": "脳を保護する22個の骨" },
-        { "name": "脊柱", "description": "26個の椎骨からなる柱状の構造" },
-        { "name": "胸郭", "description": "胸骨と12対の肋骨からなる構造" },
-        { "name": "椎骨の区分", "description": "頸椎7、胸椎12、腰椎5、仙骨1、尾骨1" }
+        {
+          "name": "頭蓋骨",
+          "description": "脳を保護する22個の骨"
+        },
+        {
+          "name": "脊柱",
+          "description": "26個の椎骨からなる柱状の構造"
+        },
+        {
+          "name": "胸郭",
+          "description": "胸骨と12対の肋骨からなる構造"
+        },
+        {
+          "name": "椎骨の区分",
+          "description": "頸椎7、胸椎12、腰椎5、仙骨1、尾骨1"
+        }
       ],
       "questions": [
         {
@@ -458,10 +761,25 @@
             }
           ],
           "choices": [
-            { "text": "26個", "is_correct": true },
-            { "text": "24個", "is_correct": false },
-            { "text": "33個", "is_correct": false },
-            { "text": "30個", "is_correct": false }
+            {
+              "text": "26個",
+              "is_correct": true
+            },
+            {
+              "text": "24個",
+              "is_correct": false
+            },
+            {
+              "text": "33個",
+              "is_correct": false
+            },
+            {
+              "text": "30個",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "axial-skeleton-overview"
           ]
         },
         {
@@ -479,10 +797,25 @@
             }
           ],
           "choices": [
-            { "text": "7個", "is_correct": true },
-            { "text": "5個", "is_correct": false },
-            { "text": "12個", "is_correct": false },
-            { "text": "8個", "is_correct": false }
+            {
+              "text": "7個",
+              "is_correct": true
+            },
+            {
+              "text": "5個",
+              "is_correct": false
+            },
+            {
+              "text": "12個",
+              "is_correct": false
+            },
+            {
+              "text": "8個",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "axial-skeleton-overview"
           ]
         },
         {
@@ -505,10 +838,25 @@
             }
           ],
           "choices": [
-            { "text": "頸椎", "is_correct": true },
-            { "text": "胸椎", "is_correct": false },
-            { "text": "腰椎", "is_correct": false },
-            { "text": "仙椎", "is_correct": false }
+            {
+              "text": "頸椎",
+              "is_correct": true
+            },
+            {
+              "text": "胸椎",
+              "is_correct": false
+            },
+            {
+              "text": "腰椎",
+              "is_correct": false
+            },
+            {
+              "text": "仙椎",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "axial-skeleton-overview"
           ]
         },
         {
@@ -531,10 +879,25 @@
             }
           ],
           "choices": [
-            { "text": "12個", "is_correct": true },
-            { "text": "7個", "is_correct": false },
-            { "text": "5個", "is_correct": false },
-            { "text": "10個", "is_correct": false }
+            {
+              "text": "12個",
+              "is_correct": true
+            },
+            {
+              "text": "7個",
+              "is_correct": false
+            },
+            {
+              "text": "5個",
+              "is_correct": false
+            },
+            {
+              "text": "10個",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "axial-skeleton-overview"
           ]
         },
         {
@@ -555,10 +918,25 @@
             }
           ],
           "choices": [
-            { "text": "12個", "is_correct": true },
-            { "text": "7個", "is_correct": false },
-            { "text": "5個", "is_correct": false },
-            { "text": "10個", "is_correct": false }
+            {
+              "text": "12個",
+              "is_correct": true
+            },
+            {
+              "text": "7個",
+              "is_correct": false
+            },
+            {
+              "text": "5個",
+              "is_correct": false
+            },
+            {
+              "text": "10個",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "axial-skeleton-overview"
           ]
         },
         {
@@ -570,9 +948,18 @@
           "source": "Gray's Anatomy",
           "metadata": {
             "pairs": [
-              { "left": "頸椎", "right": "7個" },
-              { "left": "胸椎", "right": "12個" },
-              { "left": "腰椎", "right": "5個" }
+              {
+                "left": "頸椎",
+                "right": "7個"
+              },
+              {
+                "left": "胸椎",
+                "right": "12個"
+              },
+              {
+                "left": "腰椎",
+                "right": "5個"
+              }
             ]
           },
           "images": [
@@ -583,8 +970,17 @@
             }
           ],
           "choices": [
-            { "text": "正解", "is_correct": true },
-            { "text": "不正解", "is_correct": false }
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "axial-skeleton-overview"
           ]
         },
         {
@@ -602,10 +998,25 @@
             }
           ],
           "choices": [
-            { "text": "12対", "is_correct": true },
-            { "text": "10対", "is_correct": false },
-            { "text": "14対", "is_correct": false },
-            { "text": "8対", "is_correct": false }
+            {
+              "text": "12対",
+              "is_correct": true
+            },
+            {
+              "text": "10対",
+              "is_correct": false
+            },
+            {
+              "text": "14対",
+              "is_correct": false
+            },
+            {
+              "text": "8対",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "axial-skeleton-overview"
           ]
         },
         {
@@ -616,7 +1027,12 @@
           "explanation": "第1頸椎（C1）は「環椎（atlas/アトラス）」と呼ばれる。この名称はギリシャ神話で天球を肩に担ぐ巨人アトラスに由来し、頭蓋骨を直接支える椎骨であることから名付けられた。環椎は他の椎骨と大きく異なる独特の形態を持ち、椎体と棘突起を欠き、前弓と後弓からなるリング状の構造をしている。上面の上関節窩は後頭骨の後頭顆と関節して「環椎後頭関節」を形成し、うなずき運動（頭部の屈曲・伸展）を可能にする。環椎の直下にある第2頸椎（C2）は「軸椎（axis/アクシス）」と呼ばれ、椎体から上方に突出する歯突起（dens/odontoid process）が特徴的である。歯突起は発生学的には環椎の椎体に相当する部分が軸椎に癒合したものであり、環椎が歯突起を軸として回旋することで首の左右回旋運動（約50%の頸部回旋）が可能となる（Gray's Anatomy, Chapter 25; OpenStax Anatomy and Physiology, 7.3）。",
           "source": "Gray's Anatomy",
           "metadata": {
-            "accepted_answers": ["環椎", "アトラス", "atlas", "かんつい"],
+            "accepted_answers": [
+              "環椎",
+              "アトラス",
+              "atlas",
+              "かんつい"
+            ],
             "hint": "ギリシャ神話で天球を支える巨人の名前に由来します"
           },
           "images": [
@@ -627,8 +1043,17 @@
             }
           ],
           "choices": [
-            { "text": "環椎", "is_correct": true },
-            { "text": "不正解", "is_correct": false }
+            {
+              "text": "環椎",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "axial-skeleton-overview"
           ]
         }
       ]
@@ -639,10 +1064,22 @@
       "description": "上肢を構成する骨を学ぶ",
       "sort_order": 3,
       "concepts": [
-        { "name": "上肢帯", "description": "鎖骨と肩甲骨" },
-        { "name": "上腕骨", "description": "上腕の長骨" },
-        { "name": "前腕の骨", "description": "橈骨と尺骨" },
-        { "name": "手の骨", "description": "手根骨8、中手骨5、指骨14" }
+        {
+          "name": "上肢帯",
+          "description": "鎖骨と肩甲骨"
+        },
+        {
+          "name": "上腕骨",
+          "description": "上腕の長骨"
+        },
+        {
+          "name": "前腕の骨",
+          "description": "橈骨と尺骨"
+        },
+        {
+          "name": "手の骨",
+          "description": "手根骨8、中手骨5、指骨14"
+        }
       ],
       "questions": [
         {
@@ -660,10 +1097,25 @@
             }
           ],
           "choices": [
-            { "text": "鎖骨と肩甲骨", "is_correct": true },
-            { "text": "上腕骨と鎖骨", "is_correct": false },
-            { "text": "肩甲骨と胸骨", "is_correct": false },
-            { "text": "鎖骨と肋骨", "is_correct": false }
+            {
+              "text": "鎖骨と肩甲骨",
+              "is_correct": true
+            },
+            {
+              "text": "上腕骨と鎖骨",
+              "is_correct": false
+            },
+            {
+              "text": "肩甲骨と胸骨",
+              "is_correct": false
+            },
+            {
+              "text": "鎖骨と肋骨",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "upper-limb-bones-overview"
           ]
         },
         {
@@ -681,10 +1133,25 @@
             }
           ],
           "choices": [
-            { "text": "橈骨", "is_correct": true },
-            { "text": "尺骨", "is_correct": false },
-            { "text": "上腕骨", "is_correct": false },
-            { "text": "中手骨", "is_correct": false }
+            {
+              "text": "橈骨",
+              "is_correct": true
+            },
+            {
+              "text": "尺骨",
+              "is_correct": false
+            },
+            {
+              "text": "上腕骨",
+              "is_correct": false
+            },
+            {
+              "text": "中手骨",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "upper-limb-bones-overview"
           ]
         },
         {
@@ -702,10 +1169,25 @@
             }
           ],
           "choices": [
-            { "text": "上腕骨", "is_correct": true },
-            { "text": "橈骨", "is_correct": false },
-            { "text": "鎖骨", "is_correct": false },
-            { "text": "尺骨", "is_correct": false }
+            {
+              "text": "上腕骨",
+              "is_correct": true
+            },
+            {
+              "text": "橈骨",
+              "is_correct": false
+            },
+            {
+              "text": "鎖骨",
+              "is_correct": false
+            },
+            {
+              "text": "尺骨",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "upper-limb-bones-overview"
           ]
         },
         {
@@ -723,10 +1205,25 @@
             }
           ],
           "choices": [
-            { "text": "内側（小指側）", "is_correct": true },
-            { "text": "外側（親指側）", "is_correct": false },
-            { "text": "前面", "is_correct": false },
-            { "text": "後面", "is_correct": false }
+            {
+              "text": "内側（小指側）",
+              "is_correct": true
+            },
+            {
+              "text": "外側（親指側）",
+              "is_correct": false
+            },
+            {
+              "text": "前面",
+              "is_correct": false
+            },
+            {
+              "text": "後面",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "upper-limb-bones-overview"
           ]
         },
         {
@@ -747,10 +1244,25 @@
             }
           ],
           "choices": [
-            { "text": "8個", "is_correct": true },
-            { "text": "5個", "is_correct": false },
-            { "text": "14個", "is_correct": false },
-            { "text": "7個", "is_correct": false }
+            {
+              "text": "8個",
+              "is_correct": true
+            },
+            {
+              "text": "5個",
+              "is_correct": false
+            },
+            {
+              "text": "14個",
+              "is_correct": false
+            },
+            {
+              "text": "7個",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "upper-limb-bones-overview"
           ]
         },
         {
@@ -762,9 +1274,18 @@
           "source": "Gray's Anatomy",
           "metadata": {
             "pairs": [
-              { "left": "手根骨", "right": "8個" },
-              { "left": "中手骨", "right": "5個" },
-              { "left": "指骨", "right": "14個" }
+              {
+                "left": "手根骨",
+                "right": "8個"
+              },
+              {
+                "left": "中手骨",
+                "right": "5個"
+              },
+              {
+                "left": "指骨",
+                "right": "14個"
+              }
             ]
           },
           "images": [
@@ -775,8 +1296,17 @@
             }
           ],
           "choices": [
-            { "text": "正解", "is_correct": true },
-            { "text": "不正解", "is_correct": false }
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "upper-limb-bones-overview"
           ]
         },
         {
@@ -794,10 +1324,25 @@
             }
           ],
           "choices": [
-            { "text": "滑車（トロクレア）", "is_correct": true },
-            { "text": "小頭（キャピテラム）", "is_correct": false },
-            { "text": "三角筋粗面", "is_correct": false },
-            { "text": "大結節", "is_correct": false }
+            {
+              "text": "滑車（トロクレア）",
+              "is_correct": true
+            },
+            {
+              "text": "小頭（キャピテラム）",
+              "is_correct": false
+            },
+            {
+              "text": "三角筋粗面",
+              "is_correct": false
+            },
+            {
+              "text": "大結節",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "upper-limb-bones-overview"
           ]
         },
         {
@@ -808,7 +1353,11 @@
           "explanation": "鎖骨は英語でclavicleと呼ばれ、ラテン語の「clavicula（小さな鍵）」に由来する。鎖骨のS字カーブの形状が古代ローマの鍵に似ていたことからこの名称がついた。鎖骨は人体の発生において最も早く骨化が始まる骨の一つであり、胎生5〜6週で膜内骨化によって形成が始まる（多くの骨は軟骨内骨化で形成されるが、鎖骨は膜内骨化が主体である点が特徴的）。鎖骨は内側端の胸鎖関節（胸骨との関節）と外側端の肩鎖関節（肩甲骨の肩峰との関節）を介して、上肢帯と体幹を唯一骨性に連結する「つっかえ棒」として機能する。鎖骨は体表から容易に触知でき、外傷で最も骨折しやすい骨の一つでもある。特に中央3分の1（鎖骨骨幹部）が最も細く、転倒時に手をついた際の外力が集中するため骨折の好発部位となる（Gray's Anatomy, Chapter 49; OpenStax Anatomy and Physiology, 8.1）。",
           "source": "Gray's Anatomy",
           "metadata": {
-            "accepted_answers": ["clavicle", "Clavicle", "クラビクル"],
+            "accepted_answers": [
+              "clavicle",
+              "Clavicle",
+              "クラビクル"
+            ],
             "hint": "ラテン語で「小さな鍵」を意味する言葉に由来します"
           },
           "images": [
@@ -819,8 +1368,17 @@
             }
           ],
           "choices": [
-            { "text": "clavicle", "is_correct": true },
-            { "text": "不正解", "is_correct": false }
+            {
+              "text": "clavicle",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "upper-limb-bones-overview"
           ]
         }
       ]
@@ -831,10 +1389,22 @@
       "description": "下肢を構成する骨を学ぶ",
       "sort_order": 4,
       "concepts": [
-        { "name": "下肢帯", "description": "骨盤を構成する寛骨" },
-        { "name": "大腿骨", "description": "人体最大の長骨" },
-        { "name": "下腿の骨", "description": "脛骨と腓骨" },
-        { "name": "足の骨", "description": "足根骨7、中足骨5、趾骨14" }
+        {
+          "name": "下肢帯",
+          "description": "骨盤を構成する寛骨"
+        },
+        {
+          "name": "大腿骨",
+          "description": "人体最大の長骨"
+        },
+        {
+          "name": "下腿の骨",
+          "description": "脛骨と腓骨"
+        },
+        {
+          "name": "足の骨",
+          "description": "足根骨7、中足骨5、趾骨14"
+        }
       ],
       "questions": [
         {
@@ -852,10 +1422,25 @@
             }
           ],
           "choices": [
-            { "text": "大腿骨", "is_correct": true },
-            { "text": "脛骨", "is_correct": false },
-            { "text": "上腕骨", "is_correct": false },
-            { "text": "腓骨", "is_correct": false }
+            {
+              "text": "大腿骨",
+              "is_correct": true
+            },
+            {
+              "text": "脛骨",
+              "is_correct": false
+            },
+            {
+              "text": "上腕骨",
+              "is_correct": false
+            },
+            {
+              "text": "腓骨",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "lower-limb-bones-overview"
           ]
         },
         {
@@ -873,10 +1458,25 @@
             }
           ],
           "choices": [
-            { "text": "腸骨・坐骨・恥骨", "is_correct": true },
-            { "text": "腸骨・仙骨・恥骨", "is_correct": false },
-            { "text": "坐骨・仙骨・尾骨", "is_correct": false },
-            { "text": "腸骨・坐骨・尾骨", "is_correct": false }
+            {
+              "text": "腸骨・坐骨・恥骨",
+              "is_correct": true
+            },
+            {
+              "text": "腸骨・仙骨・恥骨",
+              "is_correct": false
+            },
+            {
+              "text": "坐骨・仙骨・尾骨",
+              "is_correct": false
+            },
+            {
+              "text": "腸骨・坐骨・尾骨",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "lower-limb-bones-overview"
           ]
         },
         {
@@ -897,10 +1497,25 @@
             }
           ],
           "choices": [
-            { "text": "脛骨", "is_correct": true },
-            { "text": "腓骨", "is_correct": false },
-            { "text": "大腿骨", "is_correct": false },
-            { "text": "距骨", "is_correct": false }
+            {
+              "text": "脛骨",
+              "is_correct": true
+            },
+            {
+              "text": "腓骨",
+              "is_correct": false
+            },
+            {
+              "text": "大腿骨",
+              "is_correct": false
+            },
+            {
+              "text": "距骨",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "lower-limb-bones-overview"
           ]
         },
         {
@@ -912,10 +1527,22 @@
           "source": "Gray's Anatomy",
           "metadata": {
             "pairs": [
-              { "left": "脛骨", "right": "下腿の内側" },
-              { "left": "腓骨", "right": "下腿の外側" },
-              { "left": "距骨", "right": "足首" },
-              { "left": "踵骨", "right": "かかと" }
+              {
+                "left": "脛骨",
+                "right": "下腿の内側"
+              },
+              {
+                "left": "腓骨",
+                "right": "下腿の外側"
+              },
+              {
+                "left": "距骨",
+                "right": "足首"
+              },
+              {
+                "left": "踵骨",
+                "right": "かかと"
+              }
             ]
           },
           "images": [
@@ -926,8 +1553,17 @@
             }
           ],
           "choices": [
-            { "text": "正解", "is_correct": true },
-            { "text": "不正解", "is_correct": false }
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "lower-limb-bones-overview"
           ]
         },
         {
@@ -945,10 +1581,25 @@
             }
           ],
           "choices": [
-            { "text": "7個", "is_correct": true },
-            { "text": "8個", "is_correct": false },
-            { "text": "5個", "is_correct": false },
-            { "text": "10個", "is_correct": false }
+            {
+              "text": "7個",
+              "is_correct": true
+            },
+            {
+              "text": "8個",
+              "is_correct": false
+            },
+            {
+              "text": "5個",
+              "is_correct": false
+            },
+            {
+              "text": "10個",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "lower-limb-bones-overview"
           ]
         },
         {
@@ -959,7 +1610,11 @@
           "explanation": "膝蓋骨は英語でpatella（パテラ）と呼ばれ、ラテン語の「patina（皿）」の縮小形「patella（小さな皿）」に由来する。その名の通り、平べったい皿状の形態をしている。膝蓋骨は人体最大の種子骨であり、大腿四頭筋の腱内に位置する。膝蓋骨の主な機能は、大腿四頭筋の牽引力を効率的に膝蓋靱帯を介して脛骨粗面に伝達することである。膝蓋骨が存在することで膝伸展のてこの腕が増大し、大腿四頭筋の膝伸展効率が約50%向上するとされている。膝蓋骨の後面は関節軟骨で覆われ、大腿骨の膝蓋面と関節する（膝蓋大腿関節）。この関節面には人体で最も厚い関節軟骨（最大7mm）が存在し、膝関節の屈伸時に大きな圧縮力に耐えている。膝蓋骨は一般に3〜5歳頃から骨化が始まり、思春期に完成する（Gray's Anatomy, Chapter 51; OpenStax Anatomy and Physiology, 8.4）。",
           "source": "Gray's Anatomy",
           "metadata": {
-            "accepted_answers": ["patella", "Patella", "パテラ"],
+            "accepted_answers": [
+              "patella",
+              "Patella",
+              "パテラ"
+            ],
             "hint": "ラテン語で「小さな皿」を意味します"
           },
           "images": [
@@ -970,8 +1625,17 @@
             }
           ],
           "choices": [
-            { "text": "patella", "is_correct": true },
-            { "text": "不正解", "is_correct": false }
+            {
+              "text": "patella",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "lower-limb-bones-overview"
           ]
         }
       ]

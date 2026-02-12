@@ -1,0 +1,161 @@
+{
+  "description": "基礎テキスト — 各セクションの全体像と専門用語を解説。問題の解説画面で reference_text_ids に基づいて表示される。",
+  "texts": [
+    {
+      "id": "bone-five-types",
+      "unit_slug": "skeletal-basics",
+      "section_slug": "bone-classification",
+      "title": "骨の5つの分類",
+      "body": "人体には約206個の骨があり、形状に基づいて5つに分類される。\n\n① 長骨（Long Bone）— 長さが幅より明らかに大きい管状の骨。大腿骨・上腕骨・脛骨・指骨など、主に四肢に存在し、てこの原理で運動を生み出す。小さな指骨も長骨に含まれる点がポイント。\n② 短骨（Short Bone）— 幅・長さ・厚さがほぼ等しい立方体に近い形の骨。手根骨（8個）・足根骨（7個）が代表例で、複雑な動きの中で安定性を提供する。\n③ 扁平骨（Flat Bone）— 薄く平らな骨。頭蓋冠の骨・肩甲骨・胸骨・肋骨など。臓器の保護や筋の広い付着面を提供する。内部に赤色骨髄を多く含み造血に寄与。\n④ 不規則骨（Irregular Bone）— 上の3つに当てはまらない複雑な形状の骨。椎骨・寛骨・蝶形骨・顔面骨など。形状は機能に応じて多様。\n⑤ 種子骨（Sesamoid Bone）— 腱の中に埋め込まれた小さな骨。膝蓋骨が最大の種子骨。腱にかかる摩擦を軽減し、力の伝達効率を高める。",
+      "key_terms": [
+        { "term": "長骨", "english": "Long Bone", "definition": "長さが幅より大きい管状の骨。四肢に多く運動のてこを担う" },
+        { "term": "短骨", "english": "Short Bone", "definition": "幅と長さがほぼ等しい立方体状の骨。手根骨・足根骨" },
+        { "term": "扁平骨", "english": "Flat Bone", "definition": "薄く平らな骨。保護や筋付着面を提供" },
+        { "term": "不規則骨", "english": "Irregular Bone", "definition": "複雑な形状の骨。椎骨・寛骨など" },
+        { "term": "種子骨", "english": "Sesamoid Bone", "definition": "腱の中にある小さな骨。膝蓋骨が代表" }
+      ]
+    },
+    {
+      "id": "bone-internal-structure",
+      "unit_slug": "skeletal-basics",
+      "section_slug": "bone-structure",
+      "title": "骨の内部構造",
+      "body": "骨は生きた組織で、外側から内側に向かって層状の構造を持つ。\n\n① 骨膜（Periosteum）— 骨の外表面を覆う膜。外層（線維層）は保護、内層（骨形成層）は骨芽細胞を含み骨の成長と修復を担う。血管・神経が豊富で、骨折時の痛みはここから。\n② 緻密骨（Compact Bone）— 骨の外層を構成する硬く密な組織。ハバース系（osteon）という円柱状の構造が規則的に並ぶ。骨に強度と剛性を与える。\n③ 海綿骨（Spongy Bone / Cancellous Bone）— 骨の内部にあるスポンジ状の組織。骨梁（trabecula）というメッシュ構造で、軽量ながら力を分散する。赤色骨髄を含み造血の場。\n④ 骨髄腔（Medullary Cavity）— 長骨の骨幹内部の空洞。成人では黄色骨髄（脂肪）で満たされるが、必要時に赤色骨髄に転換可能。\n\n覚え方: 骨を「卵」に例えると、殻＝緻密骨、白身＝海綿骨、殻の外の薄皮＝骨膜。",
+      "key_terms": [
+        { "term": "骨膜", "english": "Periosteum", "definition": "骨の外表面を覆う膜。骨の成長・修復・血管供給を担う" },
+        { "term": "緻密骨", "english": "Compact Bone", "definition": "骨の外層。ハバース系が規則配列し、強度を提供" },
+        { "term": "海綿骨", "english": "Spongy Bone", "definition": "骨梁のメッシュ構造。軽量で力を分散、造血の場" },
+        { "term": "骨髄腔", "english": "Medullary Cavity", "definition": "長骨の骨幹内部の空洞。成人では黄色骨髄で満たされる" },
+        { "term": "ハバース系", "english": "Osteon", "definition": "緻密骨の基本構造単位。中心管の周りに骨層板が同心円状に配列" }
+      ]
+    },
+    {
+      "id": "axial-skeleton-overview",
+      "unit_slug": "skeletal-basics",
+      "section_slug": "axial-skeleton",
+      "title": "体幹の骨格（軸骨格）の全体像",
+      "body": "人体の骨格は大きく2つに分かれる。体の中心軸を構成する「軸骨格（Axial Skeleton）」と、四肢と肢帯からなる「付属骨格（Appendicular Skeleton）」である。軸骨格は約80個の骨からなり、以下の3つの領域で構成される。\n\n① 頭蓋骨（Skull）— 22個の骨。脳を保護する脳頭蓋（8個: 前頭骨・頭頂骨×2・側頭骨×2・後頭骨・蝶形骨・篩骨）と、顔面を構成する顔面頭蓋（14個: 上顎骨×2・下顎骨・頬骨×2 など）。ほとんどの骨は縫合（suture）で不動結合。下顎骨だけが可動。\n② 脊柱（Vertebral Column）— 26個の骨。上から順に: 頸椎7個（C1-C7）→ 胸椎12個（T1-T12）→ 腰椎5個（L1-L5）→ 仙骨1個（5個が癒合）→ 尾骨1個（3-5個が癒合）。「朝7時に関東12か所、午後5時」で7-12-5を記憶できる。S字カーブ（前弯・後弯）で衝撃吸収。\n③ 胸郭（Thoracic Cage）— 胸骨1個 + 肋骨12対（24本）。心臓と肺を保護し、呼吸運動を補助する。肋骨は真肋（1-7番、直接胸骨に付く）・仮肋（8-10番、軟骨を介して付く）・浮肋（11-12番、前方が遊離）に分類。",
+      "key_terms": [
+        { "term": "軸骨格", "english": "Axial Skeleton", "definition": "体の中心軸を構成する約80個の骨（頭蓋・脊柱・胸郭）" },
+        { "term": "頭蓋骨", "english": "Skull", "definition": "脳頭蓋8個 + 顔面頭蓋14個 = 22個の骨" },
+        { "term": "脊柱", "english": "Vertebral Column", "definition": "頸椎7 + 胸椎12 + 腰椎5 + 仙骨1 + 尾骨1 = 26個" },
+        { "term": "胸郭", "english": "Thoracic Cage", "definition": "胸骨 + 肋骨12対。心肺を保護し呼吸を補助" }
+      ]
+    },
+    {
+      "id": "upper-limb-bones-overview",
+      "unit_slug": "skeletal-basics",
+      "section_slug": "upper-limb",
+      "title": "上肢の骨格の全体像",
+      "body": "上肢（腕と手）の骨格は、肩から指先まで片側32個、両側で64個の骨からなる。\n\n① 上肢帯（Shoulder Girdle）— 鎖骨（clavicle）と肩甲骨（scapula）の2骨。体幹と上肢をつなぐ。鎖骨は人体で最も骨折しやすい骨の一つ。\n② 上腕（Arm）— 上腕骨（humerus）1本。肩関節と肘関節をつなぐ長骨。\n③ 前腕（Forearm）— 橈骨（radius）と尺骨（ulna）の2本。橈骨は親指側（外側）、尺骨は小指側（内側）。覚え方:「RADio（ラジオ）は手首で聴く」→ 橈骨が手首側で太い。\n④ 手（Hand）— 手根骨8個（近位列4個 + 遠位列4個）+ 中手骨5本 + 指骨14本（母指2本、他の指は各3本）= 27個。手根骨の覚え方:「大小有月、舟月三豆」。\n\n合計: 2 + 1 + 2 + 27 = 32個（片側）",
+      "key_terms": [
+        { "term": "上肢帯", "english": "Shoulder Girdle", "definition": "鎖骨と肩甲骨。体幹と上肢を接続" },
+        { "term": "上腕骨", "english": "Humerus", "definition": "上腕の長骨。肩関節〜肘関節" },
+        { "term": "橈骨", "english": "Radius", "definition": "前腕の親指側（外側）の骨。遠位端が太い" },
+        { "term": "尺骨", "english": "Ulna", "definition": "前腕の小指側（内側）の骨。近位端が太い" },
+        { "term": "手根骨", "english": "Carpal Bones", "definition": "手首の8個の短骨。近位列4個 + 遠位列4個" }
+      ]
+    },
+    {
+      "id": "lower-limb-bones-overview",
+      "unit_slug": "skeletal-basics",
+      "section_slug": "lower-limb",
+      "title": "下肢の骨格の全体像",
+      "body": "下肢（脚と足）の骨格は、骨盤から足先まで片側31個、両側で62個の骨からなる。上肢より頑丈で、体重の支持と歩行に特化している。\n\n① 下肢帯（Pelvic Girdle）— 寛骨（hip bone）1個（腸骨・坐骨・恥骨が癒合したもの）。左右の寛骨 + 仙骨 + 尾骨で骨盤（pelvis）を構成。内臓の保護と体重の伝達を担う。\n② 大腿（Thigh）— 大腿骨（femur）1本。人体で最も長く最も強い骨（成人で約43cm）。\n③ 下腿（Leg）— 脛骨（tibia）と腓骨（fibula）の2本。脛骨が太く体重を支持、腓骨は細く主に筋の付着と足関節の安定に寄与。膝蓋骨（patella）は膝の前面にある種子骨。\n④ 足（Foot）— 足根骨7個（距骨・踵骨・舟状骨・内側/中間/外側楔状骨・立方骨）+ 中足骨5本 + 趾骨14本 = 26個。踵骨が最大。足のアーチ構造が衝撃吸収と推進力を提供。\n\n合計: 1 + 1 + 3（脛骨+腓骨+膝蓋骨）+ 26 = 31個（片側）",
+      "key_terms": [
+        { "term": "寛骨", "english": "Hip Bone", "definition": "腸骨・坐骨・恥骨が癒合した骨。骨盤を構成" },
+        { "term": "大腿骨", "english": "Femur", "definition": "人体で最も長く最も強い骨。約43cm" },
+        { "term": "脛骨", "english": "Tibia", "definition": "下腿の内側の太い骨。体重を支持" },
+        { "term": "腓骨", "english": "Fibula", "definition": "下腿の外側の細い骨。筋付着と足関節安定" },
+        { "term": "足根骨", "english": "Tarsal Bones", "definition": "足首の7個の骨。距骨と踵骨が主要" }
+      ]
+    },
+    {
+      "id": "joint-structural-classification",
+      "unit_slug": "arthrology",
+      "section_slug": "joint-classification",
+      "title": "関節の3つの構造的分類",
+      "body": "関節（Joint / Articulation）とは、2つ以上の骨が出会う場所のことで、必ずしも動く必要はない。関節は骨をつなぐ組織の種類によって3つに分類される。\n\n① 線維性関節（Fibrous Joint）— コラーゲン線維で骨が直接結合。関節腔なし。\n  ・縫合（suture）: 頭蓋骨の骨同士。薄い線維層で結合、ほぼ不動。\n  ・靭帯結合（syndesmosis）: 骨間靭帯や骨間膜で結合。遠位脛腓関節が代表。微動可能。\n  ・釘植（gomphosis）: 歯が歯槽骨にはまる。歯根膜で固定。\n\n② 軟骨性関節（Cartilaginous Joint）— 軟骨で骨が結合。関節腔なし。\n  ・軟骨結合（synchondrosis）: 硝子軟骨で結合。骨端板、第1肋骨-胸骨の結合。不動。\n  ・線維軟骨結合（symphysis）: 線維軟骨で結合。恥骨結合、椎間板。半可動。\n\n③ 滑膜性関節（Synovial Joint）— 関節腔と滑膜を持つ。自由に動く可動関節。\n  人体の主要な「動く」関節（肩・肘・膝・股関節など）はすべてこの型。\n\nポイント: 関節腔があるかないかが最大の違い。線維性と軟骨性は関節腔なし、滑膜性だけが関節腔あり。",
+      "key_terms": [
+        { "term": "線維性関節", "english": "Fibrous Joint", "definition": "コラーゲン線維で結合。関節腔なし。縫合・靭帯結合・釘植の3型" },
+        { "term": "軟骨性関節", "english": "Cartilaginous Joint", "definition": "軟骨で結合。関節腔なし。軟骨結合と線維軟骨結合の2型" },
+        { "term": "滑膜性関節", "english": "Synovial Joint", "definition": "関節腔と滑膜を持つ可動関節。人体で最も多い" },
+        { "term": "関節腔", "english": "Joint Cavity", "definition": "骨端間の滑液で満たされた空間。滑膜性関節にのみ存在" }
+      ]
+    },
+    {
+      "id": "joint-functional-classification",
+      "unit_slug": "arthrology",
+      "section_slug": "joint-classification",
+      "title": "関節の機能的分類（可動性による分類）",
+      "body": "関節は構造的分類のほかに、可動性（どれくらい動くか）に基づく機能的分類もある。\n\n① 不動関節（Synarthrosis）— ほぼ動かない。\n  例: 頭蓋の縫合、歯の釘植、骨端板の軟骨結合\n\n② 半関節（Amphiarthrosis）— わずかに動く。\n  例: 恥骨結合、椎間板、遠位脛腓関節（靭帯結合）\n\n③ 可動関節（Diarthrosis）— 自由に動く。\n  例: 肩関節、膝関節、肘関節など（＝滑膜性関節）\n\n構造的分類と機能的分類の対応:\n  線維性関節 → だいたい不動関節（ただし靭帯結合は半関節）\n  軟骨性関節 → 不動〜半関節\n  滑膜性関節 → 可動関節\n\n注意: 2つの分類は視点が違う（構造 vs 機能）ので完全には一致しない。試験では「構造的に○○関節、機能的に○○関節」と両方聞かれることが多い。",
+      "key_terms": [
+        { "term": "不動関節", "english": "Synarthrosis", "definition": "ほぼ動かない関節。頭蓋縫合など" },
+        { "term": "半関節", "english": "Amphiarthrosis", "definition": "わずかに動く関節。恥骨結合、椎間板など" },
+        { "term": "可動関節", "english": "Diarthrosis", "definition": "自由に動く関節。滑膜性関節と同義" }
+      ]
+    },
+    {
+      "id": "synovial-joint-basic-structure",
+      "unit_slug": "arthrology",
+      "section_slug": "synovial-joint-structure",
+      "title": "滑膜性関節の基本構造",
+      "body": "滑膜性関節（Synovial Joint）は人体で最も多く、最も自由に動く関節である。すべての滑膜性関節に共通する基本構造は以下の通り。\n\n① 関節軟骨（Articular Cartilage）— 骨端の表面を覆う硝子軟骨。厚さ0.5〜5mm。摩擦係数は氷よりも低く（μ ≈ 0.001）、関節面の滑りを可能にする。血管がないため自己修復能力が低い。\n② 関節包（Joint Capsule）— 関節を包む袋。二層構造:\n  ・外層 = 線維膜（fibrous membrane）: 丈夫なコラーゲン線維。機械的強度を提供。\n  ・内層 = 滑膜（synovial membrane）: 薄い膜。滑液を分泌する。\n③ 滑液（Synovial Fluid）— 関節腔を満たす粘稠な液体。ヒアルロン酸が粘性を与える。3つの機能: 潤滑・栄養供給・衝撃吸収。\n④ 靭帯（Ligament）— 骨と骨をつなぐコラーゲン線維の帯。関節の過度な動きを制限し安定させる。\n\n補助構造（一部の関節にのみ存在）:\n  ・半月板 / 関節円板 — 線維軟骨のクッション（膝関節など）\n  ・関節唇（labrum）— 関節窩の縁を深くするリング（肩・股関節）\n  ・滑液包（bursa）— 摩擦を減らす滑液の入った袋",
+      "key_terms": [
+        { "term": "関節軟骨", "english": "Articular Cartilage", "definition": "骨端を覆う硝子軟骨。非常に低い摩擦で滑りを実現" },
+        { "term": "関節包", "english": "Joint Capsule", "definition": "線維膜（外層）と滑膜（内層）の二層構造の袋" },
+        { "term": "滑膜", "english": "Synovial Membrane", "definition": "関節包の内層。滑液を分泌する薄い膜" },
+        { "term": "線維膜", "english": "Fibrous Membrane", "definition": "関節包の外層。機械的強度を提供" },
+        { "term": "滑液", "english": "Synovial Fluid", "definition": "ヒアルロン酸を含む粘稠な液体。潤滑・栄養・衝撃吸収" },
+        { "term": "靭帯", "english": "Ligament", "definition": "骨と骨をつなぐ線維の帯。関節を安定させる" },
+        { "term": "半月板", "english": "Meniscus", "definition": "線維軟骨のC字型クッション。膝関節に存在" },
+        { "term": "関節唇", "english": "Labrum", "definition": "関節窩の縁を深くする線維軟骨のリング。肩・股関節" }
+      ]
+    },
+    {
+      "id": "synovial-joint-six-types",
+      "unit_slug": "arthrology",
+      "section_slug": "synovial-joint-types",
+      "title": "滑膜性関節の6つの種類",
+      "body": "滑膜性関節は関節面の形状と運動軸の数によって6種類に分類される。\n\n【一軸性（1方向だけ動く）】\n① 蝶番関節（Hinge Joint）— ドアの蝶番のように屈曲・伸展のみ。\n  例: 肘関節（腕尺関節）、指の関節（IP関節）、足関節\n② 車軸関節（Pivot Joint）— 一方の骨が他方のリング内で回旋。\n  例: 近位橈尺関節（前腕の回内・回外）、環軸関節（首の回旋「いいえ」の動き）\n\n【二軸性（2方向に動く）】\n③ 楕円関節（Condyloid / Ellipsoid Joint）— 楕円面が楕円窩にはまる。屈曲・伸展 + 外転・内転。\n  例: 橈骨手根関節（手首）、MP関節（指の付け根）\n④ 鞍関節（Saddle Joint）— 鞍状の面が直交してはまる。屈曲・伸展 + 外転・内転。\n  例: 母指CM関節（ものをつまむ動作の基盤）\n\n【多軸性（ほぼ全方向に動く）】\n⑤ 球関節（Ball-and-Socket Joint）— 球が臼にはまる。全方向の運動が可能。\n  例: 肩関節（最も可動域が広い）、股関節（最も安定）\n⑥ 平面関節（Plane / Gliding Joint）— 平坦な面が互いに滑る。小さな滑り運動。\n  例: 椎間関節、肩鎖関節、手根間関節\n\n覚え方: 「蝶車（一軸）楕鞍（二軸）球平（多軸）」",
+      "key_terms": [
+        { "term": "蝶番関節", "english": "Hinge Joint", "definition": "屈曲・伸展のみの一軸性関節。肘・指・足関節" },
+        { "term": "車軸関節", "english": "Pivot Joint", "definition": "回旋のみの一軸性関節。橈尺関節・環軸関節" },
+        { "term": "楕円関節", "english": "Condyloid Joint", "definition": "二軸性関節。手関節・指の付け根" },
+        { "term": "鞍関節", "english": "Saddle Joint", "definition": "二軸性関節。母指CM関節" },
+        { "term": "球関節", "english": "Ball-and-Socket Joint", "definition": "多軸性関節。肩関節・股関節" },
+        { "term": "平面関節", "english": "Plane Joint", "definition": "平坦面の滑り運動。椎間関節" },
+        { "term": "運動軸", "english": "Axis of Movement", "definition": "関節が動く方向の数。一軸性・二軸性・多軸性" }
+      ]
+    },
+    {
+      "id": "upper-limb-joints-overview",
+      "unit_slug": "arthrology",
+      "section_slug": "upper-limb-joints",
+      "title": "上肢の主要関節の全体像",
+      "body": "上肢には、肩から指先まで多種多様な関節が並び、手の精密な動きを実現している。主要な4つの関節を押さえよう。\n\n① 肩関節（Glenohumeral Joint）— 球関節（多軸性）\n  上腕骨頭が肩甲骨の浅い関節窩にはまる。人体で最も可動域が広いが、最も脱臼しやすい。安定性は回旋筋腱板（rotator cuff: 棘上筋・棘下筋・小円筋・肩甲下筋の4筋）が担う。\n\n② 肘関節（Elbow Joint）— 1つの関節包に3つの関節を含む複合関節\n  ・腕尺関節（蝶番関節）→ 肘の屈曲・伸展\n  ・腕橈関節 → 屈曲・伸展と回旋の補助\n  ・近位橈尺関節（車軸関節）→ 前腕の回内・回外\n  内側側副靭帯・外側側副靭帯・輪状靭帯で安定化。\n\n③ 橈骨手根関節 / 手関節（Radiocarpal Joint）— 楕円関節（二軸性）\n  橈骨と舟状骨・月状骨が関節。掌屈・背屈と橈屈・尺屈が可能。\n\n④ 橈尺関節（Radioulnar Joints）— 車軸関節（一軸性）\n  近位と遠位の2か所で橈骨が尺骨の周りを回旋し、回内・回外を実現。",
+      "key_terms": [
+        { "term": "肩関節", "english": "Glenohumeral Joint", "definition": "球関節。最大の可動域、最も脱臼しやすい" },
+        { "term": "回旋筋腱板", "english": "Rotator Cuff", "definition": "肩関節を安定させる4筋（SITS: 棘上・棘下・小円・肩甲下筋）" },
+        { "term": "肘関節", "english": "Elbow Joint", "definition": "腕尺・腕橈・近位橈尺の3関節からなる複合関節" },
+        { "term": "輪状靭帯", "english": "Annular Ligament", "definition": "橈骨頭を取り囲む靭帯。近位橈尺関節の安定に必須" },
+        { "term": "橈骨手根関節", "english": "Radiocarpal Joint", "definition": "楕円関節。手首の掌屈・背屈・橈屈・尺屈" }
+      ]
+    },
+    {
+      "id": "lower-limb-joints-overview",
+      "unit_slug": "arthrology",
+      "section_slug": "lower-limb-joints",
+      "title": "下肢の主要関節の全体像",
+      "body": "下肢の関節は体重を支えながら歩行・走行を可能にするため、上肢より安定性が高く頑丈に作られている。主要な4つの関節を押さえよう。\n\n① 股関節（Hip Joint）— 球関節（多軸性）\n  大腿骨頭が深い寛骨臼にはまる。肩関節と同じ球関節だが、寛骨臼が深く寛骨臼唇でさらに深くなるため安定性が高い。腸骨大腿靭帯（人体最強の靭帯）など強力な靭帯で補強。大腿骨頭靭帯（ligamentum teres）は内部に血管を含む。\n\n② 膝関節（Knee Joint）— 蝶番関節（修正型）、人体最大の関節\n  大腿骨・脛骨・膝蓋骨の3骨で構成。主に屈曲・伸展を行う。安定構造が豊富:\n  ・十字靭帯: 前十字靭帯（ACL、前方安定性）と後十字靭帯（PCL、後方安定性）\n  ・側副靭帯: 内側（MCL）と外側（LCL）で左右の安定性\n  ・半月板: 内側と外側の2つ。線維軟骨製で荷重分散と衝撃吸収\n\n③ 足関節（Ankle Joint / Talocrural Joint）— 蝶番関節（一軸性）\n  脛骨・腓骨が作る「ほぞ穴」に距骨がはまる。背屈と底屈を行う。外側靭帯（ATFL・CFL・PTFL）と内側の三角靭帯で安定。足関節捻挫はスポーツ外傷で最多。\n\n④ 仙腸関節（Sacroiliac Joint）— 平面関節（半可動）\n  仙骨と腸骨をつなぐ。強力な靭帯で固定されほぼ動かないが、体重を骨盤経由で下肢に伝達する重要な関節。",
+      "key_terms": [
+        { "term": "股関節", "english": "Hip Joint", "definition": "球関節。深い寛骨臼で安定性が高い" },
+        { "term": "膝関節", "english": "Knee Joint", "definition": "人体最大の関節。十字靭帯・半月板で安定" },
+        { "term": "前十字靭帯", "english": "ACL", "definition": "脛骨の前方滑り出しを防ぐ関節内靭帯" },
+        { "term": "半月板", "english": "Meniscus", "definition": "膝の内側・外側にある線維軟骨のクッション" },
+        { "term": "足関節", "english": "Ankle Joint", "definition": "蝶番関節。距骨がほぞ穴にはまり背屈・底屈" },
+        { "term": "仙腸関節", "english": "Sacroiliac Joint", "definition": "仙骨と腸骨の半可動関節。体重伝達" }
+      ]
+    }
+  ]
+}
