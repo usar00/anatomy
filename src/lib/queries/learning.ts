@@ -3,6 +3,7 @@ import type {
   Unit,
   Section,
   Concept,
+  ReferenceText,
   UserSectionProgress,
   UnitWithSections,
   SectionWithProgress,
@@ -136,10 +137,43 @@ export async function fetchLessonQuestions(
     }
   }
 
+  // 基礎テキストを取得
+  const { data: qrtLinks } = await supabase
+    .from("question_reference_texts")
+    .select("question_id, reference_text_id")
+    .in("question_id", questionIds);
+
+  const refTextIds = [...new Set(
+    (qrtLinks || []).map((l: { reference_text_id: string }) => l.reference_text_id)
+  )];
+
+  const refTextMap: Record<string, ReferenceText> = {};
+  if (refTextIds.length > 0) {
+    const { data: refTexts } = await supabase
+      .from("reference_texts")
+      .select("*")
+      .in("id", refTextIds);
+    if (refTexts) {
+      for (const rt of refTexts as ReferenceText[]) {
+        refTextMap[rt.id] = rt;
+      }
+    }
+  }
+
+  const questionRefTextMap: Record<string, ReferenceText[]> = {};
+  if (qrtLinks) {
+    for (const link of qrtLinks as { question_id: string; reference_text_id: string }[]) {
+      if (!questionRefTextMap[link.question_id]) questionRefTextMap[link.question_id] = [];
+      const rt = refTextMap[link.reference_text_id];
+      if (rt) questionRefTextMap[link.question_id].push(rt);
+    }
+  }
+
   return (questions as unknown as QuestionWithChoices[]).map((q) => ({
     ...q,
     interaction_type: (q as unknown as { interaction_type: string }).interaction_type as LessonQuestion["interaction_type"],
     concepts: questionConceptMap[q.id] || [],
+    referenceTexts: questionRefTextMap[q.id] || [],
   }));
 }
 
