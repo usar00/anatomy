@@ -28,6 +28,13 @@
           "difficulty": "easy",
           "explanation": "大腿骨は人体で最も長い骨（成人で約43cm）であり、長さが幅より大きいため「長骨（Long Bone）」に分類される。長骨とは、骨幹（diaphysis）と呼ばれる細長い管状の部分と、両端の骨端（epiphysis）から構成される骨の分類である。長骨の骨幹内部には骨髄腔があり、成人では主に黄色骨髄（脂肪組織）で満たされている。大腿骨のほか、上腕骨・脛骨・腓骨・橈骨・尺骨・指骨なども長骨に分類される。なお、指骨のように小さくても長さが幅より大きければ長骨に含まれる点に注意。長骨は主に四肢に存在し、てこの原理により運動を可能にする機能を持つ（Gray's Anatomy, Chapter 6: Osteology; OpenStax Anatomy and Physiology, 6.1）。",
           "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/bone-classification-types.png",
+              "role": "explanation",
+              "alt_text": "骨の5つの分類を示す図。Long Bone（長骨）、Short Bone（短骨）、Flat Bone（扁平骨）、Irregular Bone（不規則骨）、Sesamoid Bone（種子骨）の代表例が描かれている"
+            }
+          ],
           "choices": [
             { "text": "長骨", "is_correct": true },
             { "text": "短骨", "is_correct": false },
@@ -42,6 +49,13 @@
           "difficulty": "easy",
           "explanation": "手根骨は手首にある8つの小さな骨で、幅と長さと厚さがほぼ等しい立方体に近い形状を持つため「短骨（Short Bone）」に分類される。短骨は、表面が薄い緻密骨で覆われ、内部は海綿骨で満たされているのが特徴である。手根骨の8つは近位列（舟状骨・月状骨・三角骨・豆状骨）と遠位列（大菱形骨・小菱形骨・有頭骨・有鉤骨）の2列に配列され、手首の複雑な運動を可能にしている。短骨のもう一つの代表例は足根骨（7個）であり、こちらも同様に足首の安定性と可動性に寄与する。短骨は長骨のような骨髄腔を持たないが、海綿骨内に赤色骨髄を含むことがある（Gray's Anatomy, Chapter 6; OpenStax Anatomy and Physiology, 6.1）。",
           "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/bone-classification-types.png",
+              "role": "explanation",
+              "alt_text": "骨の5つの分類を示す図。Short Bone（短骨）の代表例として手根骨が描かれている"
+            }
+          ],
           "choices": [
             { "text": "短骨", "is_correct": true },
             { "text": "長骨", "is_correct": false },
@@ -59,6 +73,13 @@
           "metadata": {
             "template": "膝蓋骨は {{blank}} に分類される"
           },
+          "images": [
+            {
+              "url": "/images/anatomy/bone-classification-types.png",
+              "role": "explanation",
+              "alt_text": "骨の5つの分類を示す図。Sesamoid Bone（種子骨）として膝蓋骨の例が描かれている"
+            }
+          ],
           "choices": [
             { "text": "種子骨", "is_correct": true },
             { "text": "長骨", "is_correct": false },
@@ -81,6 +102,13 @@
               { "left": "不規則骨", "right": "椎骨" }
             ]
           },
+          "images": [
+            {
+              "url": "/images/anatomy/bone-classification-types.png",
+              "role": "explanation",
+              "alt_text": "骨の5つの分類と各代表例を示す図。長骨＝大腿骨、短骨＝手根骨、扁平骨＝頭蓋骨、不規則骨＝椎骨、種子骨＝膝蓋骨"
+            }
+          ],
           "choices": [
             { "text": "正解", "is_correct": true },
             { "text": "不正解", "is_correct": false }
@@ -93,6 +121,13 @@
           "difficulty": "easy",
           "explanation": "肩甲骨は薄く平らな三角形の形状をしているため「扁平骨（Flat Bone）」に分類される。扁平骨とは、薄い板状の骨で、2層の緻密骨の間に薄い海綿骨層（板間層）が挟まれた「サンドイッチ構造」を持つのが特徴である。扁平骨の主な機能は2つあり、第一に内臓や脳などの重要な臓器を保護すること（例：頭蓋冠が脳を保護）、第二に筋の広い付着面を提供することである。肩甲骨は胸郭の後面、第2〜第7肋骨の高さに位置し、17以上の筋が付着する。そのほかの扁平骨の代表例には、頭蓋冠を構成する前頭骨・頭頂骨・後頭骨、胸郭を構成する胸骨、そして骨盤の腸骨翼などがある。扁平骨は赤色骨髄を豊富に含み、成人における造血の重要な場となっている（Gray's Anatomy, Chapter 6; OpenStax Anatomy and Physiology, 6.1）。",
           "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/bone-classification-types.png",
+              "role": "explanation",
+              "alt_text": "骨の5つの分類を示す図。Flat Bone（扁平骨）の代表例が描かれている"
+            }
+          ],
           "choices": [
             { "text": "扁平骨", "is_correct": true },
             { "text": "長骨", "is_correct": false },
@@ -153,6 +188,13 @@
             "accepted_answers": ["種子骨", "しゅしこつ", "sesamoid bone"],
             "hint": "膝蓋骨がこの分類の代表的な例です"
           },
+          "images": [
+            {
+              "url": "/images/anatomy/bone-classification-types.png",
+              "role": "explanation",
+              "alt_text": "骨の5つの分類を示す図。Sesamoid Bone（種子骨）の代表例として膝蓋骨が示されている"
+            }
+          ],
           "choices": [
             { "text": "種子骨", "is_correct": true },
             { "text": "不正解", "is_correct": false }
@@ -179,6 +221,13 @@
           "difficulty": "easy",
           "explanation": "緻密骨（compact bone / cortical bone）は骨の外層を形成する硬く緻密な骨組織であり、骨全体の約80%の質量を占める。緻密骨の基本構造単位は「オステオン（osteon）」またはハバース系（Haversian system）と呼ばれ、中心を走るハバース管（中心管）の周囲に、同心円状に配列された骨層板（ラメラ）が重なった構造をしている。骨層板の間には骨小腔（lacuna）があり、骨細胞（osteocyte）が1個ずつ収まっている。骨細胞同士は骨細管（canaliculi）と呼ばれる微小な管で連結され、栄養や情報の伝達を行う。緻密骨は主に長骨の骨幹部に厚く存在し、圧縮力やねじれに対する構造的強度を提供する。一方、骨端部では緻密骨は薄く、内部は海綿骨で満たされている（Gray's Anatomy, Chapter 6; OpenStax Anatomy and Physiology, 6.3）。",
           "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/bone-cross-section.svg",
+              "role": "explanation",
+              "alt_text": "骨の断面図。緻密骨（Compact bone）が外層に、海綿骨（Spongy bone）が内部に描かれ、オステオン構造が詳細に示されている"
+            }
+          ],
           "choices": [
             { "text": "緻密骨", "is_correct": true },
             { "text": "海綿骨", "is_correct": false },
@@ -196,6 +245,13 @@
           "metadata": {
             "template": "骨の内部にあるスポンジ状の組織は {{blank}} と呼ばれる"
           },
+          "images": [
+            {
+              "url": "/images/anatomy/bone-cross-section.svg",
+              "role": "explanation",
+              "alt_text": "骨の断面図。内部の海綿骨（Spongy bone）の骨梁構造と外層の緻密骨が描かれている"
+            }
+          ],
           "choices": [
             { "text": "海綿骨", "is_correct": true },
             { "text": "緻密骨", "is_correct": false },
@@ -218,6 +274,13 @@
               { "left": "骨髄", "right": "造血" }
             ]
           },
+          "images": [
+            {
+              "url": "/images/anatomy/long-bone-anatomy-labeled.jpg",
+              "role": "explanation",
+              "alt_text": "長骨の詳細な解剖図（OpenStax）。緻密骨・海綿骨・骨膜・骨髄腔の各構造がラベル付けされている"
+            }
+          ],
           "choices": [
             { "text": "正解", "is_correct": true },
             { "text": "不正解", "is_correct": false }
@@ -308,6 +371,13 @@
           "difficulty": "easy",
           "explanation": "赤色骨髄（red bone marrow）は造血幹細胞を含む組織であり、赤血球・白血球（好中球、リンパ球など）・血小板の産生（造血/hematopoiesis）を行う人体の主要な造血器官である。成人では毎日約2000億個の赤血球と数百億個の白血球が骨髄で新たに産生されている。小児期には、ほぼすべての骨の骨髄が赤色骨髄であるが、成長に伴い四肢の長骨の骨髄は脂肪組織に富む黄色骨髄（yellow bone marrow）に置き換わる。成人で赤色骨髄が残存する主な部位は、椎骨・胸骨・肋骨・骨盤骨（腸骨）・頭蓋骨などの扁平骨や不規則骨、および大腿骨や上腕骨の近位骨端部である。なお、重度の出血など造血需要が高まった場合、黄色骨髄が赤色骨髄に再転換されることもある（Gray's Anatomy, Chapter 6; OpenStax Anatomy and Physiology, 6.4）。",
           "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/long-bone-anatomy-labeled.jpg",
+              "role": "explanation",
+              "alt_text": "長骨の詳細な解剖図（OpenStax）。骨髄腔（Medullary cavity）内の赤色骨髄と黄色骨髄の位置が示されている"
+            }
+          ],
           "choices": [
             { "text": "血球の産生（造血）", "is_correct": true },
             { "text": "カルシウムの貯蔵", "is_correct": false },
@@ -322,6 +392,13 @@
           "difficulty": "easy",
           "explanation": "骨膜（periosteum/ペリオステウム）は関節面を除く骨の外表面を覆う結合組織性の膜で、2層構造からなる。外層の線維層は密性結合組織で構成され、骨を保護し、腱・靱帯がシャーピー線維を介して骨に付着する部位となる。内層の骨形成層には骨芽細胞の前駆細胞が存在し、骨の付加成長（太さの成長）と骨折修復を担う。骨膜には豊富な血管網があり、骨への栄養供給の約3分の1を担っている（残りは骨内の栄養動脈による）。また、骨膜には感覚神経が密に分布しており、これが骨折時の痛みの主な原因となる。骨膜と対をなす構造として「骨内膜（endosteum）」があり、こちらは骨髄腔の内面やハバース管の内面、海綿骨の骨梁表面を覆う薄い膜で、やはり骨芽細胞と破骨細胞を含み骨のリモデリングに関与する（Gray's Anatomy, Chapter 6; OpenStax Anatomy and Physiology, 6.3）。",
           "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/long-bone-anatomy-labeled.jpg",
+              "role": "explanation",
+              "alt_text": "長骨の詳細な解剖図（OpenStax）。骨膜（Periosteum）が骨の外表面を覆う様子が明示されている"
+            }
+          ],
           "choices": [
             { "text": "骨膜", "is_correct": true },
             { "text": "骨内膜", "is_correct": false },
@@ -340,6 +417,13 @@
             "accepted_answers": ["ハバース管", "中心管", "はばーすかん", "haversian canal"],
             "hint": "オステオンの中心を走る管で、血管と神経が通ります"
           },
+          "images": [
+            {
+              "url": "/images/anatomy/bone-cross-section.svg",
+              "role": "explanation",
+              "alt_text": "骨の断面図。オステオン（ハバース系）の構造が詳細に描かれ、中心のハバース管、同心円状の骨層板、骨細管が確認できる"
+            }
+          ],
           "choices": [
             { "text": "ハバース管", "is_correct": true },
             { "text": "不正解", "is_correct": false }
@@ -366,6 +450,13 @@
           "difficulty": "easy",
           "explanation": "成人の脊柱は26個の椎骨から構成される。内訳は、頸椎（cervical vertebrae）7個、胸椎（thoracic vertebrae）12個、腰椎（lumbar vertebrae）5個、仙骨（sacrum）1個、尾骨（coccyx）1個である。ただし、仙骨はもともと5個の仙椎が思春期から成人にかけて癒合したものであり、尾骨も3〜5個の尾椎が癒合したものである。そのため、癒合前の個別の椎骨として数えると合計33個（7+12+5+5+4）となり、教科書によっては「33個」と記載されている場合もある。脊柱は単なる直線ではなく、4つの生理的弯曲（頸椎前弯・胸椎後弯・腰椎前弯・仙骨後弯）を持つS字カーブを形成しており、これにより直立二足歩行時の衝撃を分散し、頭部を効率的に支えることができる。脊柱全体の主な機能は、体幹の支持、脊髄の保護、頭蓋骨の支持、肋骨の付着点の提供である（Gray's Anatomy, Chapter 25; OpenStax Anatomy and Physiology, 7.3）。",
           "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/spinal-column-regions.png",
+              "role": "explanation",
+              "alt_text": "脊柱の区分を示すラベル付き図。Cervical（頸椎7個）、Thoracic（胸椎12個）、Lumbar（腰椎5個）、Sacrum（仙骨）、Coccyx（尾骨）が明示されている"
+            }
+          ],
           "choices": [
             { "text": "26個", "is_correct": true },
             { "text": "24個", "is_correct": false },
@@ -380,6 +471,13 @@
           "difficulty": "easy",
           "explanation": "頸椎（cervical vertebrae）は脊柱の最上部にある7個の椎骨（C1〜C7）で、頭蓋骨を支え、頭部の運動を可能にする。頸椎の数は哺乳類においてほぼ一定で、キリンのような首の長い動物も7個である（例外はナマケモノなどごくわずか）。頸椎の特徴として、横突起に「横突孔（transamen transversarium）」があり、椎骨動脈が通過する点が他の椎骨と異なる。特にC1（環椎/atlas）とC2（軸椎/axis）は特殊な形態を持つ。環椎は椎体を持たないリング状の骨で、頭蓋骨を直接支える。軸椎は上方に突出する歯突起（dens）を持ち、環椎が歯突起を軸として回旋することで頭部の左右回旋運動が可能となる。C7は棘突起が特に長く突出しており「隆椎（vertebra prominens）」と呼ばれ、首の後面で触知できる重要な体表ランドマークである（Gray's Anatomy, Chapter 25; OpenStax Anatomy and Physiology, 7.3）。",
           "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/vertebral-column-colored.png",
+              "role": "explanation",
+              "alt_text": "Gray's Anatomyの脊柱側面図。最上部の頸椎（7個）の区分が色分けされている"
+            }
+          ],
           "choices": [
             { "text": "7個", "is_correct": true },
             { "text": "5個", "is_correct": false },
@@ -449,6 +547,13 @@
           "metadata": {
             "template": "胸椎の数は {{blank}} である"
           },
+          "images": [
+            {
+              "url": "/images/anatomy/spinal-column-regions.png",
+              "role": "explanation",
+              "alt_text": "脊柱の区分を示す図。Thoracic（胸椎12個）の区分が明示されている"
+            }
+          ],
           "choices": [
             { "text": "12個", "is_correct": true },
             { "text": "7個", "is_correct": false },
@@ -470,6 +575,13 @@
               { "left": "腰椎", "right": "5個" }
             ]
           },
+          "images": [
+            {
+              "url": "/images/anatomy/spinal-column-regions.png",
+              "role": "explanation",
+              "alt_text": "脊柱の区分を示す図。Cervical（頸椎7個）、Thoracic（胸椎12個）、Lumbar（腰椎5個）が明示されている"
+            }
+          ],
           "choices": [
             { "text": "正解", "is_correct": true },
             { "text": "不正解", "is_correct": false }
@@ -526,6 +638,13 @@
           "difficulty": "easy",
           "explanation": "上肢帯（pectoral girdle / shoulder girdle）は鎖骨（clavicle/クラビクル）と肩甲骨（scapula/スキャプラ）の2つの骨から構成され、上肢（腕）を体幹（胸郭）に接続する役割を持つ。鎖骨は内側端が胸骨と胸鎖関節を形成し、外側端が肩甲骨の肩峰と肩鎖関節を形成する、S字状にカーブした細長い骨である。鎖骨は上肢帯が体幹の骨格と直接関節する唯一のポイントであり、上肢にかかる力を胸骨に伝達する「つっかえ棒」の役割を果たす。一方、肩甲骨は胸郭の後面に位置する三角形の扁平骨であり、関節窩で上腕骨頭と肩関節を形成する。肩甲骨は胸郭に対して骨性の関節を持たず、筋肉のみで保持されている（肩甲胸郭関節）ため、広い範囲で滑走・回旋でき、上肢の広い可動域に寄与している（Gray's Anatomy, Chapter 49; OpenStax Anatomy and Physiology, 8.1）。",
           "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/upper-limb-bones-labeled.svg",
+              "role": "explanation",
+              "alt_text": "上肢の骨格図。Clavicle（鎖骨）とScapula（肩甲骨）が上肢帯として描かれている"
+            }
+          ],
           "choices": [
             { "text": "鎖骨と肩甲骨", "is_correct": true },
             { "text": "上腕骨と鎖骨", "is_correct": false },
@@ -540,6 +659,13 @@
           "difficulty": "easy",
           "explanation": "橈骨（radius/ラディアス）は前腕の外側（親指側/lateral side）にある骨である。解剖学的正位（手のひらを前に向けた姿勢）で外側に位置するのが橈骨、内側（小指側/medial side）に位置するのが尺骨（ulna/ウルナ）である。橈骨は近位端が小さく遠位端が大きい、尺骨は近位端が大きく遠位端が小さいという対照的な形態を持つ。これは、肘関節では主に尺骨が上腕骨と関節する一方、手首（橈骨手根関節）では主に橈骨が手根骨と関節するためである。前腕の回内・回外運動では、橈骨が尺骨の周りを回旋する。回内時には橈骨が尺骨の上を交差し、手のひらが後方を向く。この橈骨の回旋運動がドアノブを回す、ドライバーを使うなどの日常動作を可能にしている（Gray's Anatomy, Chapter 49; OpenStax Anatomy and Physiology, 8.2）。",
           "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/upper-limb-bones-labeled.svg",
+              "role": "explanation",
+              "alt_text": "上肢の骨格図。Radius（橈骨）が外側（親指側）、Ulna（尺骨）が内側（小指側）に位置している"
+            }
+          ],
           "choices": [
             { "text": "橈骨", "is_correct": true },
             { "text": "尺骨", "is_correct": false },
@@ -650,6 +776,13 @@
             "accepted_answers": ["clavicle", "Clavicle", "クラビクル"],
             "hint": "ラテン語で「小さな鍵」を意味する言葉に由来します"
           },
+          "images": [
+            {
+              "url": "/images/anatomy/upper-limb-bones-labeled.svg",
+              "role": "explanation",
+              "alt_text": "上肢の骨格図。最上部にClavicle（鎖骨）が明示されている"
+            }
+          ],
           "choices": [
             { "text": "clavicle", "is_correct": true },
             { "text": "不正解", "is_correct": false }
