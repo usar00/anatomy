@@ -375,10 +375,10 @@ export default function LessonPage({
             animate={{ opacity: 1, y: 0 }}
             className="mt-4 bg-muted rounded-xl px-4 py-3"
           >
-            <p className="text-sm text-secondary">
+            <div className="text-sm text-secondary whitespace-pre-line">
               <span className="font-semibold text-foreground">解説: </span>
               {currentQuestion.explanation}
-            </p>
+            </div>
             {currentQuestion.images
               ?.filter((img) => img.image_role === "explanation")
               .map((img) => (
