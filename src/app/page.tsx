@@ -77,7 +77,8 @@ export default function LandingPage() {
       <section className="relative overflow-hidden bg-gradient-to-br from-primary/5 via-background to-primary/10">
         <div className="max-w-5xl mx-auto px-4 py-20 sm:py-28">
           <div className="text-center max-w-3xl mx-auto">
-            <div className="text-5xl mb-6">🦴</div>
+            <div className="text-5xl mb-4">🦴</div>
+            <p className="text-sm font-semibold text-primary tracking-widest uppercase mb-4">Anatomy Quiz</p>
             <h1 className="text-4xl sm:text-5xl font-bold text-foreground mb-6 leading-tight">
               解剖学を、
               <span className="text-primary">もっと楽しく</span>
