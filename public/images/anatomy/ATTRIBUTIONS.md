@@ -47,3 +47,45 @@ All images are either in the **Public Domain** or licensed under **Creative Comm
 - **Author:** LadyofHats (Mariana Ruiz Villarreal)
 - **Source:** https://commons.wikimedia.org/wiki/File:Human_arm_bones_diagram.svg
 - **License:** Public Domain
+
+### rib-cage-anterior.svg
+- **Title:** Rib cage anterior
+- **Author:** Wikimedia Commons contributors
+- **Source:** https://commons.wikimedia.org/wiki/File:Rib_cage_anterior.svg
+- **License:** Public Domain
+
+### atlas-axis-gray.png
+- **Title:** Gray's Anatomy Plate 86 — First and second cervical vertebrae
+- **Author:** Henry Vandyke Carter
+- **Source:** https://commons.wikimedia.org/wiki/File:Gray86.png
+- **License:** Public Domain (Gray's Anatomy, 1918 edition)
+
+### hand-bones-labeled.svg
+- **Title:** Scheme human hand bones
+- **Author:** Mariana Ruiz Villarreal (LadyofHats)
+- **Source:** https://commons.wikimedia.org/wiki/File:Scheme_human_hand_bones-en.svg
+- **License:** Public Domain
+
+### elbow-joint-gray.png
+- **Title:** Gray's Anatomy Plate 329 — Left elbow joint
+- **Author:** Henry Vandyke Carter
+- **Source:** https://commons.wikimedia.org/wiki/File:Gray329.png
+- **License:** Public Domain (Gray's Anatomy, 1918 edition)
+
+### lower-limb-bones-labeled.svg
+- **Title:** Human leg bones labeled
+- **Author:** LadyofHats (Mariana Ruiz Villarreal)
+- **Source:** https://commons.wikimedia.org/wiki/File:Human_leg_bones_labeled.svg
+- **License:** Public Domain
+
+### pelvis-gray.png
+- **Title:** Gray's Anatomy Plate 236 — Male pelvis
+- **Author:** Henry Vandyke Carter
+- **Source:** https://commons.wikimedia.org/wiki/File:Gray236.png
+- **License:** Public Domain (Gray's Anatomy, 1918 edition)
+
+### foot-bones-gray.png
+- **Title:** Gray's Anatomy Plate 268 — Skeleton of foot
+- **Author:** Henry Vandyke Carter
+- **Source:** https://commons.wikimedia.org/wiki/File:Gray268.png
+- **License:** Public Domain (Gray's Anatomy, 1918 edition)
