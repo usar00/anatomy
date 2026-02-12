@@ -1,0 +1,694 @@
+{
+  "unit": {
+    "name": "関節学",
+    "slug": "arthrology",
+    "description": "骨と骨をつなぐ関節の分類・構造・機能を学ぶ",
+    "sort_order": 1
+  },
+  "category": "関節学",
+  "category_slug": "arthrology",
+  "sections": [
+    {
+      "name": "関節の分類",
+      "slug": "joint-classification",
+      "description": "構造と可動性による関節の3つの分類を学ぶ",
+      "sort_order": 0,
+      "concepts": [
+        { "name": "線維性関節", "description": "線維性結合組織で骨が結合する不動または微動の関節" },
+        { "name": "軟骨性関節", "description": "軟骨で骨が結合する不動または半可動の関節" },
+        { "name": "滑膜性関節", "description": "関節腔と滑膜を持つ自由に動く関節" },
+        { "name": "関節の機能的分類", "description": "不動関節・半関節・可動関節の可動性による分類" }
+      ],
+      "questions": [
+        {
+          "question_text": "頭蓋骨の縫合（suture）はどの構造的分類の関節に属するか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "頭蓋骨の縫合（suture）は「線維性関節（Fibrous Joint）」に分類される。線維性関節とは、骨と骨が線維性結合組織（コラーゲン線維）によって直接結合している関節で、関節腔を持たないのが特徴である。線維性関節には3つのサブタイプがある：①縫合（suture）— 頭蓋骨の骨同士を結合する薄い線維性結合組織の層で、成長後はほぼ不動となる。成人では一部が骨化して骨性癒合（synostosis）となる場合もある。②靭帯結合（syndesmosis）— 骨間靭帯や骨間膜で結合する関節で、遠位脛腓関節が代表例。わずかな動きが可能。③釘植（gomphosis）— 歯が歯槽骨にはまり込む特殊な関節で、歯根膜の線維で固定されている。線維性関節は関節腔がなく、滑膜も存在しないため、滑膜性関節とは根本的に構造が異なる（Gray's Anatomy, Part III: Syndesmology; OpenStax Anatomy and Physiology, 9.1）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "choices": [
+            { "text": "線維性関節", "is_correct": true },
+            { "text": "軟骨性関節", "is_correct": false },
+            { "text": "滑膜性関節", "is_correct": false },
+            { "text": "骨性関節", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "恥骨結合はどの構造的分類の関節に属するか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "恥骨結合（pubic symphysis）は「軟骨性関節（Cartilaginous Joint）」に分類される。軟骨性関節とは、骨と骨が軟骨によって結合している関節で、関節腔を持たない。軟骨性関節には2つのサブタイプがある：①軟骨結合（synchondrosis）— 硝子軟骨で骨を結合する。代表例は長骨の骨端板（成長板）や第1肋骨と胸骨の結合で、成長後に骨化するものもある。②線維軟骨結合（symphysis）— 線維軟骨の板やパッドで骨を結合する。恥骨結合はこちらのタイプで、左右の恥骨を線維軟骨のディスクでつなぎ、わずかな動き（半可動）を許容する。椎間板（椎体間の関節）も線維軟骨結合の代表例で、衝撃吸収と脊柱の柔軟性に寄与する。妊娠後期にはリラキシン（relaxin）の作用で恥骨結合が弛緩し、出産時の産道拡大を助ける（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.1）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "choices": [
+            { "text": "軟骨性関節", "is_correct": true },
+            { "text": "線維性関節", "is_correct": false },
+            { "text": "滑膜性関節", "is_correct": false },
+            { "text": "半月板関節", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "関節腔（joint cavity）と滑膜を持つ関節の構造的分類はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "関節腔（joint cavity / synovial cavity）と滑膜（synovial membrane）を持つのは「滑膜性関節（Synovial Joint）」である。滑膜性関節は人体で最も数が多く、最も可動性の高い関節分類で、全身の主要な可動関節（肩・肘・膝・股関節など）はすべて滑膜性関節に属する。滑膜性関節の基本構造は：①関節軟骨 — 骨端を覆う硝子軟骨で摩擦を軽減する。②関節腔 — 骨端の間の空間で滑液で満たされている。③関節包 — 外側の線維膜と内側の滑膜の二層構造。④滑膜 — 関節包の内面を覆い滑液を分泌する。⑤滑液 — 粘稠な液体で関節の潤滑・栄養・衝撃吸収を担う。線維性関節と軟骨性関節はいずれも関節腔を持たず、骨が結合組織または軟骨で直接結合している点で滑膜性関節と大きく異なる（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.4）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "choices": [
+            { "text": "滑膜性関節", "is_correct": true },
+            { "text": "線維性関節", "is_correct": false },
+            { "text": "軟骨性関節", "is_correct": false },
+            { "text": "線維軟骨結合", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "遠位脛腓関節（distal tibiofibular joint）は線維性関節のどのサブタイプに分類されるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "遠位脛腓関節は線維性関節の「靭帯結合（syndesmosis）」に分類される。靭帯結合とは、比較的長い距離にわたるコラーゲン線維の束（骨間靭帯や骨間膜）で2つの骨が結合する関節の型である。遠位脛腓関節では、脛骨と腓骨の下端が前脛腓靭帯・後脛腓靭帯・骨間靭帯によって強固に結合され、足関節（距腿関節）の安定した「ほぞ穴（mortise）」構造を形成している。この関節はわずかな動き（微動）が可能であり、背屈時に距骨のやや広い前方部分が入り込む際にほぞ穴がわずかに広がる。前腕の橈骨と尺骨の間の骨間膜も靭帯結合の代表例で、前腕の回内・回外運動時に力を伝達する役割を果たす。縫合（suture）は頭蓋骨のみ、釘植（gomphosis）は歯のみに存在する点で区別される（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.1）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "choices": [
+            { "text": "靭帯結合（syndesmosis）", "is_correct": true },
+            { "text": "縫合（suture）", "is_correct": false },
+            { "text": "釘植（gomphosis）", "is_correct": false },
+            { "text": "軟骨結合（synchondrosis）", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "関節の構造的分類とその代表例を正しく組み合わせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "関節の3つの構造的分類と代表例の対応：①線維性関節（Fibrous Joint）— 頭蓋縫合。骨同士がコラーゲン線維で直接結合し、関節腔を持たない。頭蓋縫合のほか、遠位脛腓関節（靭帯結合）や歯と歯槽骨の結合（釘植）も含まれる。②軟骨性関節（Cartilaginous Joint）— 椎間板。骨同士が軟骨で結合する。椎間板は線維軟骨結合（symphysis）の代表例で、衝撃吸収と脊柱の可動性を提供する。骨端板（synchondrosis）も軟骨性関節の一種。③滑膜性関節（Synovial Joint）— 膝関節。関節腔と滑膜を有し自由に動く。人体の主要な可動関節はほぼすべて滑膜性関節である。この3分類は関節の「構造的分類（structural classification）」であり、可動性に基づく「機能的分類」（不動関節・半関節・可動関節）とは視点が異なるが、一般に線維性→不動、軟骨性→半可動、滑膜性→可動という対応が多い（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.1）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "metadata": {
+            "pairs": [
+              { "left": "線維性関節", "right": "頭蓋縫合" },
+              { "left": "軟骨性関節", "right": "椎間板" },
+              { "left": "滑膜性関節", "right": "膝関節" }
+            ]
+          }
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "機能的分類において、ほとんど動かない関節を「不動関節（synarthrosis）」と呼ぶ。関節の機能的分類は可動性（range of motion）に基づき3段階に分けられる：①不動関節（synarthrosis）— ほぼ動きがない。頭蓋骨の縫合や歯の釘植が代表例。②半関節（amphiarthrosis）— わずかな動きが可能。恥骨結合や椎間板の結合が代表例。③可動関節（diarthrosis）— 自由に動く。肩関節、膝関節などの滑膜性関節が該当する。機能的分類と構造的分類は概ね対応するが完全に一致するわけではない。例えば、靭帯結合（線維性関節）は微動が可能なため半関節に分類されることが多い。骨端板の軟骨結合（synchondrosis）は不動関節に分類される。国試や解剖学の試験では両分類の対応関係を問われることが多い（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.1）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "metadata": {
+            "template": "機能的分類で、ほとんど動かない関節を {{blank}} という",
+            "word_options": ["不動関節", "半関節", "可動関節", "滑膜関節"]
+          },
+          "choices": [
+            { "text": "不動関節", "is_correct": true },
+            { "text": "半関節", "is_correct": false },
+            { "text": "可動関節", "is_correct": false },
+            { "text": "滑膜関節", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "歯が歯槽骨に固定される線維性関節の型を何というか？（日本語で回答）",
+          "interaction_type": "free_input",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "歯が歯槽骨に固定される関節の型は「釘植（gomphosis）」である。gomphosisはギリシャ語で「釘を打ち込む（to bolt）」を意味し、歯根が歯槽骨のソケットに「打ち込まれた」ように固定されている様子を表す。歯根と歯槽骨の間には「歯根膜（periodontal ligament）」と呼ばれるコラーゲン線維の束があり、これが歯を骨に強固に固定しつつ、咀嚼時のわずかな衝撃吸収も可能にしている。釘植は線維性関節の3つのサブタイプ（縫合・靭帯結合・釘植）の一つであり、歯と歯槽骨の間にのみ存在する特殊な関節である。機能的には不動関節（synarthrosis）に分類されるが、実際には歯根膜の弾性によりごくわずかな動きが生じ、歯列矯正治療ではこの特性を利用して歯を移動させることができる（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.1）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "metadata": {
+            "acceptable_answers": ["釘植", "gomphosis", "釘植関節"]
+          }
+        },
+        {
+          "question_text": "長骨の骨端板（epiphyseal plate）の結合は、軟骨性関節のどのサブタイプか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "長骨の骨端板（成長板）は「軟骨結合（synchondrosis）」に分類される。軟骨結合とは、硝子軟骨（hyaline cartilage）で2つの骨（または1つの骨の骨化中心）を結合する関節の型である。骨端板は骨幹（diaphysis）と骨端（epiphysis）の間にある硝子軟骨の層で、小児期の長軸方向の骨成長を担う。骨端板の軟骨細胞は増殖・肥大・骨化のサイクルを繰り返し、骨を縦方向に伸長させる。成長が完了すると骨端板は骨化して「骨端線（epiphyseal line）」となり、軟骨結合は骨性癒合（synostosis）に置き換わる。もう一つの代表例は第1肋軟骨結合（第1肋骨と胸骨柄の結合）で、こちらも硝子軟骨による不動の結合である。第2-7肋骨の肋軟骨結合は滑膜性関節の要素を含む場合がある点に注意。軟骨結合は機能的に不動関節（synarthrosis）に分類される（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.1）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "choices": [
+            { "text": "軟骨結合（synchondrosis）", "is_correct": true },
+            { "text": "線維軟骨結合（symphysis）", "is_correct": false },
+            { "text": "靭帯結合（syndesmosis）", "is_correct": false },
+            { "text": "縫合（suture）", "is_correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "滑膜性関節の構造",
+      "slug": "synovial-joint-structure",
+      "description": "滑膜性関節を構成する基本構造を学ぶ",
+      "sort_order": 1,
+      "concepts": [
+        { "name": "関節包", "description": "関節を包む結合組織の袋（線維膜と滑膜の二層構造）" },
+        { "name": "関節軟骨", "description": "骨端を覆う硝子軟骨で摩擦を軽減する" },
+        { "name": "滑液", "description": "関節腔を満たす粘稠な液体で潤滑と栄養を担う" },
+        { "name": "靭帯と補助構造", "description": "関節を安定させる靭帯、関節半月、関節唇など" }
+      ],
+      "questions": [
+        {
+          "question_text": "滑膜性関節で、骨端を覆って摩擦を軽減する組織は何か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "骨端を覆って摩擦を軽減するのは「関節軟骨（articular cartilage）」である。関節軟骨は硝子軟骨（hyaline cartilage）の一種で、滑膜性関節の骨端表面を0.5〜5mm程度の厚さで覆っている。関節軟骨の表面は非常に滑らかで、摩擦係数は氷同士の摩擦よりも低い（μ ≈ 0.001-0.01）。この驚異的な低摩擦は、軟骨表面の薄い滑液膜と軟骨自体の水分保持能力による。関節軟骨は血管・神経・リンパ管を持たない無血管組織であり、栄養は滑液からの拡散と関節運動時の圧縮・弛緩による「ポンプ作用」に依存する。そのため自己修復能力が極めて限られ、損傷すると治癒が困難である。変形性関節症（osteoarthritis）は関節軟骨の変性・摩耗が主病態であり、高齢者の関節痛の最大の原因となる（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.4）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "choices": [
+            { "text": "関節軟骨", "is_correct": true },
+            { "text": "滑膜", "is_correct": false },
+            { "text": "関節包", "is_correct": false },
+            { "text": "靭帯", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "関節包の内面を覆い、滑液を分泌する膜の名称は？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "関節包の内面を覆い滑液を分泌するのは「滑膜（synovial membrane）」である。関節包（joint capsule / articular capsule）は二層構造をしており、外層の「線維膜（fibrous membrane）」と内層の「滑膜（synovial membrane）」からなる。線維膜は緻密結合組織で構成され、関節の機械的強度と安定性を提供する。滑膜は薄い結合組織膜で、滑膜細胞（synoviocytes）からなる。滑膜細胞にはA型（マクロファージ様、関節腔の老廃物を貪食）とB型（線維芽細胞様、ヒアルロン酸を合成・分泌）の2種類がある。滑膜は関節腔内の関節軟骨表面以外のすべてを覆い、滑液を産生して関節の潤滑・栄養・免疫防御を担う。関節リウマチ（rheumatoid arthritis）では滑膜に慢性炎症が生じ、増殖した滑膜組織（パンヌス）が関節軟骨や骨を破壊する（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.4）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "choices": [
+            { "text": "滑膜", "is_correct": true },
+            { "text": "線維膜", "is_correct": false },
+            { "text": "骨膜", "is_correct": false },
+            { "text": "関節軟骨", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "滑液（synovial fluid）の主な機能に含まれないものはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "滑液の主な機能は①潤滑（lubrication）、②栄養供給、③衝撃吸収の3つであり、「骨の成長促進」は滑液の機能には含まれない。滑液（synovial fluid）は関節腔を満たす透明〜淡黄色の粘稠な液体で、血漿の濾出液にヒアルロン酸（hyaluronic acid）が加わったものである。ヒアルロン酸が滑液に特有の粘性（viscosity）を与え、関節面間で薄い潤滑膜を形成する。滑液は関節軟骨への唯一の栄養供給源であり、関節運動による圧縮と弛緩のサイクルで軟骨内に栄養素を押し込む。正常な膝関節には約3.5mLの滑液が存在する。関節炎などの炎症では滑液量が増加して関節水腫（joint effusion）を生じ、穿刺による滑液分析は診断に重要である。骨の成長は骨端板の軟骨内骨化や骨膜下の膜性骨化によるものであり、滑液とは無関係である（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.4）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "choices": [
+            { "text": "骨の成長促進", "is_correct": true },
+            { "text": "関節の潤滑", "is_correct": false },
+            { "text": "関節軟骨への栄養供給", "is_correct": false },
+            { "text": "衝撃の吸収", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "関節包の外層を構成し、関節の機械的強度を提供する膜を何というか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "関節包の外層は「線維膜（fibrous membrane）」であり、緻密結合組織（dense connective tissue）で構成される。線維膜は主にI型コラーゲン線維が不規則に配列した構造を持ち、関節を包む丈夫な袋として機械的強度と安定性を提供する。線維膜の厚さと密度は関節にかかる負荷に応じて異なり、股関節や膝関節では特に厚く発達する。線維膜には血管と神経（固有感覚受容器）が豊富に分布しており、関節の位置感覚や痛覚に関与する。また、線維膜は一部が肥厚して靭帯（intrinsic ligaments / capsular ligaments）を形成する場合がある。例えば、股関節の腸骨大腿靭帯は関節包の線維膜が肥厚したもので、人体最強の靭帯の一つである。一方、内層の滑膜は薄く柔軟で、関節腔側を覆って滑液を分泌する機能的な膜である（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.4）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "choices": [
+            { "text": "線維膜", "is_correct": true },
+            { "text": "滑膜", "is_correct": false },
+            { "text": "骨膜", "is_correct": false },
+            { "text": "軟骨膜", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "膝関節の内側半月板と外側半月板は何で構成されるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "膝関節の半月板（meniscus）は「線維軟骨（fibrocartilage）」で構成される。半月板は関節の補助構造（accessory structure）の一つで、膝関節では大腿骨顆と脛骨高原の間に内側半月板（medial meniscus）と外側半月板（lateral meniscus）の2つが存在する。半月板は断面がC字型の楔状をしており、①荷重分散（接触面積を増やして単位面積あたりの圧力を低減）、②衝撃吸収、③関節の安定性向上、④関節軟骨への滑液分配に寄与する。半月板の外側1/3には血管が分布するが（red zone）、内側2/3は無血管（white zone）であるため、内側の損傷は自然治癒しにくい。内側半月板は内側側副靭帯と癒合しているため可動性が低く、外側半月板より損傷頻度が高い。半月板損傷は若年スポーツ選手のひねり動作や高齢者の変性で多く、関節鏡手術の最も一般的な適応の一つである（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.4）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "choices": [
+            { "text": "線維軟骨", "is_correct": true },
+            { "text": "硝子軟骨", "is_correct": false },
+            { "text": "弾性軟骨", "is_correct": false },
+            { "text": "緻密骨", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "滑液の粘性を与える主成分は「ヒアルロン酸（hyaluronic acid）」である。ヒアルロン酸はグリコサミノグリカン（GAG）の一種で、N-アセチルグルコサミンとグルクロン酸が交互に結合した巨大な多糖鎖である。滑膜のB型滑膜細胞が合成・分泌し、分子量が非常に大きい（数百万Da）ため溶液に高い粘性を与える。この粘性は「チキソトロピー（thixotropy）」の性質を持ち、速い動きでは粘性が低下して関節面の滑りを促進し、ゆっくりとした荷重では粘性が上がって衝撃を吸収する。この非ニュートン流体としての性質が関節を多様な運動条件で保護する。変形性関節症では滑液中のヒアルロン酸が低分子化・減少し、粘弾性が低下する。治療としてヒアルロン酸の関節内注射（viscosupplementation）が行われることがある（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.4）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "metadata": {
+            "template": "滑液の粘性を与える主成分は {{blank}} である",
+            "word_options": ["ヒアルロン酸", "コラーゲン", "エラスチン", "プロテオグリカン"]
+          },
+          "choices": [
+            { "text": "ヒアルロン酸", "is_correct": true },
+            { "text": "コラーゲン", "is_correct": false },
+            { "text": "エラスチン", "is_correct": false },
+            { "text": "プロテオグリカン", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "滑膜性関節の構造とその機能を正しく組み合わせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "滑膜性関節の主要構造とその機能の対応：①関節軟骨 — 摩擦軽減。硝子軟骨が骨端を覆い、非常に低い摩擦係数（μ ≈ 0.001-0.01）で関節面の滑りを可能にする。②滑膜 — 滑液の分泌。関節包の内層として滑液を産生し、関節腔内の老廃物除去にも関与する。③靭帯 — 関節の安定化。コラーゲン線維の束で骨同士をつなぎ、関節の過度な動きを制限して脱臼を防ぐ。靭帯には関節包に含まれる内在靭帯（capsular ligaments）と関節包の外にある外在靭帯（extracapsular ligaments）、および関節腔内にある関節内靭帯（intracapsular ligaments、例：膝の十字靭帯）がある。これらの構造が協調して働くことで、滑膜性関節は安定性を保ちながら自由な運動を可能にしている（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.4）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "metadata": {
+            "pairs": [
+              { "left": "関節軟骨", "right": "摩擦軽減" },
+              { "left": "滑膜", "right": "滑液の分泌" },
+              { "left": "靭帯", "right": "関節の安定化" }
+            ]
+          }
+        },
+        {
+          "question_text": "肩関節や股関節の関節窩の縁を取り囲み、関節窩を深くする線維軟骨のリングを何というか？（日本語で回答）",
+          "interaction_type": "free_input",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "関節窩の縁を取り囲む線維軟骨のリングは「関節唇（labrum）」である。関節唇（labrum、ラテン語で「唇」の意）は線維軟骨からなるリング状の構造で、関節窩（glenoid cavity / acetabulum）の縁に付着して関節窩の深さと接触面積を増大させ、関節の安定性を高める。肩関節では関節唇を「関節窩唇（glenoid labrum）」と呼び、浅い関節窩の深さを約50%増加させて上腕骨頭の安定を助ける。股関節では「寛骨臼唇（acetabular labrum）」と呼び、大腿骨頭を包み込んで関節の密封性（seal）を高め、滑液の流出を防いで関節内の負圧を維持する。関節唇損傷は肩では投球障害（SLAP損傷・Bankart損傷）、股関節ではスポーツでのインピンジメント（FAI）に関連して多く見られ、関節鏡手術の適応となることがある（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.4）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "metadata": {
+            "acceptable_answers": ["関節唇", "labrum", "ラブラム", "関節窩唇", "寛骨臼唇"]
+          }
+        }
+      ]
+    },
+    {
+      "name": "滑膜性関節の種類",
+      "slug": "synovial-joint-types",
+      "description": "6種類の滑膜性関節とその運動軸を学ぶ",
+      "sort_order": 2,
+      "concepts": [
+        { "name": "球関節", "description": "球状の骨頭が臼状の窩にはまる多軸性関節（肩関節・股関節）" },
+        { "name": "蝶番関節と車軸関節", "description": "一軸性の関節（肘関節・橈尺関節）" },
+        { "name": "鞍関節と楕円関節", "description": "二軸性の関節（母指CM関節・橈骨手根関節）" },
+        { "name": "平面関節", "description": "平坦な関節面による滑り運動の関節（椎間関節）" }
+      ],
+      "questions": [
+        {
+          "question_text": "肩関節のように、球状の骨頭が臼状の窩にはまる多軸性の関節を何というか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "球状の骨頭が臼状の窩にはまる多軸性の関節は「球関節（ball-and-socket joint）」である。球関節では、一方の骨の凸面（球状の骨頭）が他方の骨のカップ状の窩に収まる形態をしており、屈曲・伸展、外転・内転、回旋、およびこれらを組み合わせた分回し運動（circumduction）のすべてが可能な「多軸性（multiaxial / triaxial）」関節である。人体の球関節は肩関節（glenohumeral joint）と股関節（hip joint）の2つのみである。肩関節は関節窩が浅いため可動域が極めて広い（人体で最も可動性の高い関節）が、その分安定性が低く脱臼しやすい。一方、股関節は寛骨臼が深く大腿骨頭を大きく包み込むため安定性が高いが、可動域は肩関節より狭い。このように同じ球関節でも安定性と可動性はトレードオフの関係にある（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.4）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "choices": [
+            { "text": "球関節", "is_correct": true },
+            { "text": "蝶番関節", "is_correct": false },
+            { "text": "車軸関節", "is_correct": false },
+            { "text": "楕円関節", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "肘関節の腕尺関節のように、一方向の屈曲・伸展のみを行う一軸性の関節を何というか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "一方向の屈曲・伸展のみを行う一軸性の関節は「蝶番関節（hinge joint）」である。蝶番関節は扉の蝶番（hinge）のように一つの軸を中心に屈曲と伸展のみが可能な「一軸性（uniaxial）」関節である。蝶番関節の骨端は、一方が凸面の円柱状（trochlea）、他方がそれに適合する凹面を持ち、側副靭帯が関節の両側を安定させて一方向のみの運動を保証する。代表例は：①肘関節の腕尺関節（上腕骨滑車と尺骨の滑車切痕）— 肘の屈曲・伸展を担う。②膝関節（大腿骨顆と脛骨高原）— 主に屈曲・伸展を行うが、屈曲位でわずかな回旋も可能なため「修正蝶番関節（modified hinge）」とも呼ばれる。③指節間関節（IP関節）— 指の曲げ伸ばしを担う純粋な蝶番関節。④足関節（距腿関節）— 背屈と底屈を行う（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.4）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "choices": [
+            { "text": "蝶番関節", "is_correct": true },
+            { "text": "車軸関節", "is_correct": false },
+            { "text": "鞍関節", "is_correct": false },
+            { "text": "平面関節", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "近位橈尺関節のように、一方の骨が他方の骨の周りを回転する一軸性の関節を何というか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "一方の骨が他方の骨の周りを回転する一軸性の関節は「車軸関節（pivot joint）」である。車軸関節では、一方の骨の円柱状または円錐状の突起が、他方の骨のリング状構造（骨と靭帯で形成）の中で回転軸を中心にした回旋運動のみが可能である。代表例は：①近位橈尺関節（proximal radioulnar joint）— 橈骨頭が尺骨の橈骨切痕と輪状靭帯（annular ligament）で形成されるリング内で回転し、前腕の回内（pronation）・回外（supination）を可能にする。②環軸関節（atlantoaxial joint）— 第1頸椎（環椎/atlas）が第2頸椎（軸椎/axis）の歯突起（dens）を軸として回旋し、首の左右回旋運動を担う。頭を「いいえ」と振る動作はこの環軸関節で行われる。遠位橈尺関節も同様に車軸関節で、近位・遠位の橈尺関節が協調して前腕の回旋を実現する（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.4）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "choices": [
+            { "text": "車軸関節", "is_correct": true },
+            { "text": "蝶番関節", "is_correct": false },
+            { "text": "球関節", "is_correct": false },
+            { "text": "楕円関節", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "母指の手根中手関節（CM関節）のように、互いに直交する鞍状の面を持つ二軸性の関節を何というか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "互いに直交する鞍状の面を持つ二軸性の関節は「鞍関節（saddle joint）」である。鞍関節の関節面は、馬の鞍（saddle）のように一方向では凸面、それに直交する方向では凹面という独特の形状を持つ。この相互にはまり合う鞍状面により、屈曲・伸展と外転・内転の2軸の運動が可能で、これらを組み合わせた分回し運動（circumduction）もできる。人体の鞍関節の代表は母指の第1手根中手関節（first carpometacarpal joint / CM関節）で、大菱形骨（trapezium）と第1中手骨の間に形成される。この関節は母指の「対立（opposition）」— 母指の指腹を他の指の指腹に合わせる動作 — を可能にする極めて重要な関節であり、ヒトの精密な把持能力（precision grip）の解剖学的基盤である。変形性母指CM関節症は中高年女性に多い疾患で、つまみ動作時の痛みが特徴的である（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.4）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "choices": [
+            { "text": "鞍関節", "is_correct": true },
+            { "text": "楕円関節", "is_correct": false },
+            { "text": "球関節", "is_correct": false },
+            { "text": "平面関節", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "椎間関節（facet joint）のように、平坦な関節面が互いに滑り合う関節を何というか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "平坦な関節面が互いに滑り合う関節は「平面関節（plane joint / gliding joint）」である。平面関節の骨端はほぼ平坦か、わずかに湾曲した面を持ち、関節面が互いに滑るような動き（gliding / sliding）を行う。この滑り運動は範囲が限られるため、運動軸を特定しにくく「非軸性（nonaxial）」あるいは「多軸性」と分類されることがある。代表例は：①椎間関節（facet joint / zygapophyseal joint）— 上位椎骨の下関節突起と下位椎骨の上関節突起の間の関節。脊柱の屈曲・伸展・側屈・回旋を許容する。②肩鎖関節（acromioclavicular joint）— 鎖骨と肩峰の間の関節。③手根間関節 — 手根骨同士の間の関節。④足根間関節。平面関節は個々の運動範囲は小さいが、複数が協調することで大きな全体運動を実現する。脊柱は24個の可動椎骨が椎間関節で連結されることで柔軟な運動が可能となる（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.4）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "choices": [
+            { "text": "平面関節", "is_correct": true },
+            { "text": "蝶番関節", "is_correct": false },
+            { "text": "鞍関節", "is_correct": false },
+            { "text": "車軸関節", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "滑膜性関節の種類と運動軸の数を正しく組み合わせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "滑膜性関節の6種類は運動軸の数により3群に分類される：【一軸性（uniaxial）】①蝶番関節（hinge joint）— 屈曲・伸展。肘関節、指節間関節、足関節。②車軸関節（pivot joint）— 回旋のみ。近位橈尺関節、環軸関節。【二軸性（biaxial）】③楕円関節（condyloid/ellipsoid joint）— 屈曲・伸展＋外転・内転。橈骨手根関節、中手指節関節。④鞍関節（saddle joint）— 屈曲・伸展＋外転・内転。母指CM関節。【多軸性（multiaxial/triaxial）】⑤球関節（ball-and-socket joint）— 全方向の運動。肩関節、股関節。⑥平面関節（plane joint）— 滑り運動（非軸性とも分類）。椎間関節、肩鎖関節。運動軸の数が増えるほど可動性が高くなるが、一般的に安定性とのトレードオフが生じる（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.4）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "metadata": {
+            "pairs": [
+              { "left": "蝶番関節・車軸関節", "right": "一軸性" },
+              { "left": "楕円関節・鞍関節", "right": "二軸性" },
+              { "left": "球関節", "right": "多軸性" }
+            ]
+          }
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "橈骨手根関節（手関節）は「楕円関節（condyloid joint / ellipsoid joint）」に分類される。楕円関節は、一方の骨端が楕円体状の凸面を、他方が対応する楕円状の凹面を持つ二軸性の関節である。屈曲・伸展（掌屈・背屈）と外転・内転（橈屈・尺屈）の2方向の運動が可能で、これらを組み合わせた分回し運動（circumduction）も行える。ただし球関節とは異なり、長軸回りの回旋は関節面の形状により制限される。橈骨手根関節では、橈骨遠位端の凹面が舟状骨・月状骨の凸面と関節し、手首の多彩な運動を可能にしている。中手指節関節（MP関節、指の付け根）も楕円関節であり、指の屈曲・伸展と外転・内転（指を広げる・閉じる）を行う。楕円関節は二軸性関節の中で最も多い型である（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.4）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "metadata": {
+            "template": "橈骨手根関節は滑膜性関節の分類で {{blank}} に属する",
+            "word_options": ["楕円関節", "蝶番関節", "球関節", "鞍関節"]
+          },
+          "choices": [
+            { "text": "楕円関節", "is_correct": true },
+            { "text": "蝶番関節", "is_correct": false },
+            { "text": "球関節", "is_correct": false },
+            { "text": "鞍関節", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "環軸関節（第1頸椎と第2頸椎の関節）は滑膜性関節のどの種類に分類されるか？（日本語で回答）",
+          "interaction_type": "free_input",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "環軸関節は「車軸関節（pivot joint）」に分類される。環軸関節（atlantoaxial joint）は第1頸椎・環椎（atlas, C1）と第2頸椎・軸椎（axis, C2）の間の関節で、正中環軸関節と外側環軸関節からなる。正中環軸関節では、軸椎の歯突起（dens / odontoid process）が環椎の前弓と横靭帯（transverse ligament）で作られるリング内で回転する。これにより頭部の左右約40-45°ずつ、計約80-90°の回旋運動が可能になる。日常動作では首を振って「いいえ」と表現する動きがこの関節で行われる（一方、うなずく「はい」の動きは環椎後頭関節で行われる）。歯突起骨折や横靭帯断裂は環軸関節の脱臼を引き起こし、脊髄圧迫による四肢麻痺や致命的な結果につながりうるため、頸椎外傷の診断では特に注意が必要である（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.4）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "metadata": {
+            "acceptable_answers": ["車軸関節", "pivot joint", "ピボット関節"]
+          }
+        }
+      ]
+    },
+    {
+      "name": "上肢の主要関節",
+      "slug": "upper-limb-joints",
+      "description": "肩・肘・手関節など上肢の主要な関節を学ぶ",
+      "sort_order": 3,
+      "concepts": [
+        { "name": "肩関節", "description": "上腕骨頭と肩甲骨関節窩からなる球関節" },
+        { "name": "肘関節", "description": "上腕骨・橈骨・尺骨からなる複合関節" },
+        { "name": "手関節", "description": "橈骨と手根骨からなる楕円関節" },
+        { "name": "橈尺関節", "description": "前腕の回内・回外を行う車軸関節" }
+      ],
+      "questions": [
+        {
+          "question_text": "肩関節（肩甲上腕関節）はどの種類の滑膜性関節に分類されるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "肩関節（glenohumeral joint / shoulder joint）は「球関節（ball-and-socket joint）」に分類される。上腕骨頭（humeral head）が肩甲骨の関節窩（glenoid cavity）にはまる構造で、多軸性の自由な運動（屈曲・伸展・外転・内転・内旋・外旋・分回し運動）が可能である。肩関節は人体で最も可動域が広い関節であるが、これは関節窩が上腕骨頭に対して極めて浅い（上腕骨頭の表面積の約1/3しか覆わない）ことによる。この浅い関節窩を補うために、関節窩唇（glenoid labrum）が縁を取り囲んで窩を深くし、4つの回旋筋腱板（rotator cuff）の筋群 — 棘上筋・棘下筋・小円筋・肩甲下筋 — が上腕骨頭を関節窩に引き寄せて動的安定性を提供する。肩関節の安定性は主にこれらの軟部組織に依存するため、脱臼が全関節中で最も多い（前方脱臼が約95%）（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.5）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "choices": [
+            { "text": "球関節", "is_correct": true },
+            { "text": "蝶番関節", "is_correct": false },
+            { "text": "楕円関節", "is_correct": false },
+            { "text": "鞍関節", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "肘関節を構成する3つの関節のうち、主に屈曲・伸展を担う関節はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "肘関節で主に屈曲・伸展を担うのは「腕尺関節（humeroulnar joint）」である。肘関節は1つの関節包に3つの関節が含まれる複合関節（compound joint）で、①腕尺関節（humeroulnar joint）— 上腕骨滑車と尺骨の滑車切痕からなる蝶番関節。肘の屈曲（約145°）と伸展を行う主要な関節。②腕橈関節（humeroradial joint）— 上腕骨小頭と橈骨頭からなる関節。屈曲・伸展と回旋に関与。③近位橈尺関節（proximal radioulnar joint）— 橈骨頭が尺骨の橈骨切痕内で回旋する車軸関節。前腕の回内・回外を担う。肘関節は内側側副靭帯（MCL / ulnar collateral ligament）と外側側副靭帯（LCL）、および輪状靭帯（annular ligament）によって安定化されている。投球動作の反復で内側側副靭帯が損傷する「肘内側側副靭帯損傷」は野球選手に多く、トミー・ジョン手術（靭帯再建術）の適応となる（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.5）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "choices": [
+            { "text": "腕尺関節", "is_correct": true },
+            { "text": "腕橈関節", "is_correct": false },
+            { "text": "近位橈尺関節", "is_correct": false },
+            { "text": "遠位橈尺関節", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "前腕の回内・回外を可能にする橈尺関節は、滑膜性関節のどの種類か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "橈尺関節は「車軸関節（pivot joint）」に分類される。前腕には近位橈尺関節と遠位橈尺関節の2つの車軸関節があり、これらが協調して前腕の回内（pronation）と回外（supination）を実現する。回外位では橈骨と尺骨が平行に並び、回内すると橈骨が尺骨の上を交差するように回転する。近位橈尺関節では橈骨頭が尺骨の橈骨切痕と輪状靭帯で作られるリング内で回旋し、遠位橈尺関節では橈骨遠位端が尺骨頭の周りを回旋する。前腕の回旋可動域は回外約80-90°、回内約80-90°で、合計約160-180°の回旋が可能である。日常生活では、ドアノブを回す、ドライバーを使う、手のひらを上に向けてものを受け取るなどの動作に不可欠である。「supination」の覚え方として「soup（スープ）を手のひらに載せる姿勢」という語呂合わせが知られている（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.5）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "choices": [
+            { "text": "車軸関節", "is_correct": true },
+            { "text": "蝶番関節", "is_correct": false },
+            { "text": "平面関節", "is_correct": false },
+            { "text": "楕円関節", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "橈骨手根関節（手関節）で、橈骨と関節する近位手根骨はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "橈骨手根関節（radiocarpal joint）で橈骨と直接関節するのは「舟状骨と月状骨」である。橈骨手根関節は橈骨遠位端の凹面が、近位手根骨列の舟状骨（scaphoid）と月状骨（lunate）の凸面と関節する楕円関節（condyloid joint）である。三角骨（triquetrum）は関節円板（triangular fibrocartilage complex: TFCC）の遠位面と接するが、橈骨とは直接関節しない。TFCCは橈骨遠位端と尺骨頭の間に張る線維軟骨の円板で、尺側手根部の安定性と荷重伝達に重要な役割を果たす。橈骨手根関節では掌屈（flexion, 約80°）・背屈（extension, 約70°）と橈屈（radial deviation, 約20°）・尺屈（ulnar deviation, 約30°）の2軸運動が可能で、手根中手関節とともに手首の多彩な動きを実現する。舟状骨骨折は転倒時に手をつくことで多く発生し、解剖学的嗅ぎタバコ入れ（anatomical snuff box）の圧痛が特徴的な臨床徴候である（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.5）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "choices": [
+            { "text": "舟状骨と月状骨", "is_correct": true },
+            { "text": "有頭骨と有鉤骨", "is_correct": false },
+            { "text": "大菱形骨と小菱形骨", "is_correct": false },
+            { "text": "三角骨と豆状骨", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "肩関節の動的安定性を提供する4つの筋群を総称して何と呼ぶか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "肩関節の動的安定性を提供する4つの筋群の総称は「回旋筋腱板（rotator cuff）」である。回旋筋腱板は棘上筋（supraspinatus）・棘下筋（infraspinatus）・小円筋（teres minor）・肩甲下筋（subscapularis）の4つの筋の腱が肩関節包を取り囲むように融合した構造である。覚え方として英語の頭文字を取って「SITS muscles」（Supraspinatus, Infraspinatus, Teres minor, Subscapularis）と呼ばれる。各筋の機能：棘上筋は外転の開始（最初の15°）、棘下筋と小円筋は外旋、肩甲下筋は内旋を担い、4筋すべてが上腕骨頭を関節窩に押し付けて安定させる「圧迫力（compression force）」を発生させる。回旋筋腱板の損傷（特に棘上筋腱断裂）は中高年に非常に多く、腕を上げる際の痛みや筋力低下の原因となる。インピンジメント症候群では肩峰下で棘上筋腱が挟み込まれて炎症を起こす（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.5）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "choices": [
+            { "text": "回旋筋腱板（rotator cuff）", "is_correct": true },
+            { "text": "三角筋群", "is_correct": false },
+            { "text": "上腕二頭筋群", "is_correct": false },
+            { "text": "僧帽筋群", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "上肢の関節とその滑膜性関節の種類を正しく組み合わせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "上肢の主要関節とその分類の対応：①肩関節 — 球関節。上腕骨頭と肩甲骨関節窩からなり、多軸性の運動（屈曲・伸展・外転・内転・回旋・分回し運動）が可能。人体で最も可動域の広い関節。②肘関節（腕尺関節）— 蝶番関節。上腕骨滑車と尺骨滑車切痕からなり、屈曲・伸展の一軸性運動を行う。③橈骨手根関節 — 楕円関節。橈骨遠位端と舟状骨・月状骨からなり、掌屈・背屈と橈屈・尺屈の二軸性運動が可能。④近位橈尺関節 — 車軸関節。橈骨頭が輪状靭帯と尺骨橈骨切痕内で回旋し、前腕の回内・回外を行う。⑤母指CM関節 — 鞍関節。大菱形骨と第1中手骨からなり、母指の対立運動を可能にする。上肢は多様な関節型を含み、それぞれが固有の運動を提供して手の精密な操作を実現している（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.5）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "metadata": {
+            "pairs": [
+              { "left": "肩関節", "right": "球関節" },
+              { "left": "肘関節（腕尺関節）", "right": "蝶番関節" },
+              { "left": "橈骨手根関節", "right": "楕円関節" },
+              { "left": "近位橈尺関節", "right": "車軸関節" }
+            ]
+          }
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "肩関節は人体で最も「脱臼」しやすい関節である。肩関節脱臼（shoulder dislocation）は全関節脱臼の約50%を占め、その約95%が前方脱臼（anterior dislocation）である。前方脱臼は腕を外転・外旋した状態で外力が加わった際に生じやすく、上腕骨頭が関節包の前下方を突き破って前方に逸脱する。これは肩関節の構造的特徴による：①関節窩が浅く上腕骨頭との接触面積が小さい、②関節包が緩い（特に下方）、③安定性が主に軟部組織（回旋筋腱板、関節唇、靭帯）に依存している。前方脱臼の合併症として、Bankart損傷（前下方の関節唇・関節包の剥離）とHill-Sachs損傷（上腕骨頭後外側の陥没骨折）がある。初回脱臼後の再脱臼率は若年者で高く（20歳以下で約70-90%）、反復性脱臼では手術的修復（Bankart修復術）が行われる（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.5）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "metadata": {
+            "template": "肩関節は人体で最も {{blank}} しやすい関節である",
+            "word_options": ["脱臼", "骨折", "炎症", "変形"]
+          },
+          "choices": [
+            { "text": "脱臼", "is_correct": true },
+            { "text": "骨折", "is_correct": false },
+            { "text": "炎症", "is_correct": false },
+            { "text": "変形", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "肘関節で橈骨頭を包む輪状の靭帯を何というか？（日本語で回答）",
+          "interaction_type": "free_input",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "橈骨頭を包む輪状の靭帯は「輪状靭帯（annular ligament）」である。輪状靭帯（annular ligament of radius）は尺骨の橈骨切痕の前縁から後縁に付着するC字型の強靭な帯で、橈骨頭の4/5周を取り囲んでリング状構造を形成する。この靭帯のリングの中で橈骨頭が回転することで前腕の回内・回外が可能になる。輪状靭帯は橈骨頭が近位方向に脱出するのを防ぐ重要な安定構造であるが、小児（特に2-5歳）では橈骨頭がまだ十分に発達しておらず輪状靭帯の下をすり抜けることがある。これが「肘内障（nursemaid's elbow / pulled elbow / radial head subluxation）」であり、腕を急に引っ張った際に発症する。整復は前腕を回外しながら肘を屈曲させることで行い、クリック感とともに整復される（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.5）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "metadata": {
+            "acceptable_answers": ["輪状靭帯", "annular ligament", "橈骨輪状靭帯"]
+          }
+        }
+      ]
+    },
+    {
+      "name": "下肢の主要関節",
+      "slug": "lower-limb-joints",
+      "description": "股・膝・足関節など下肢の主要な関節を学ぶ",
+      "sort_order": 4,
+      "concepts": [
+        { "name": "股関節", "description": "大腿骨頭と寛骨臼からなる球関節" },
+        { "name": "膝関節", "description": "大腿骨・脛骨・膝蓋骨からなる人体最大の関節" },
+        { "name": "足関節", "description": "脛骨・腓骨・距骨からなる蝶番関節" },
+        { "name": "仙腸関節", "description": "仙骨と腸骨をつなぐ平面関節（半可動）" }
+      ],
+      "questions": [
+        {
+          "question_text": "股関節は滑膜性関節のどの種類に分類されるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "股関節（hip joint）は「球関節（ball-and-socket joint）」に分類される。大腿骨頭（femoral head）が寛骨臼（acetabulum）にはまり込む構造で、肩関節と同じく多軸性の運動（屈曲・伸展・外転・内転・内旋・外旋・分回し運動）が可能である。ただし、肩関節と比べて寛骨臼が深く、大腿骨頭の約2/3以上を覆うため安定性が高い代わりに可動域はやや狭い。寛骨臼はさらに寛骨臼唇（acetabular labrum）によって深くなり、関節内の負圧を維持して大腿骨頭の保持力を高める。股関節の安定性は、深い寛骨臼に加えて強力な靭帯群 — 腸骨大腿靭帯（Bigelow靭帯、人体最強の靭帯）、恥骨大腿靭帯、坐骨大腿靭帯 — によって補強される。大腿骨頭には大腿骨頭靭帯（ligamentum teres）が付着し、内部を大腿骨頭動脈が走行して骨頭への血液供給に寄与する（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.5）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "choices": [
+            { "text": "球関節", "is_correct": true },
+            { "text": "蝶番関節", "is_correct": false },
+            { "text": "楕円関節", "is_correct": false },
+            { "text": "鞍関節", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "膝関節で大腿骨と脛骨の間にある2つのC字型の線維軟骨を何というか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "大腿骨と脛骨の間にある2つのC字型の線維軟骨は「半月板（meniscus）」である。膝関節には内側半月板（medial meniscus）と外側半月板（lateral meniscus）の2つがあり、脛骨高原（tibial plateau）の上に位置して大腿骨顆との間に介在する。半月板は断面が楔状をしており、外縁が厚く中心に向かって薄くなる。主な機能は：①荷重分散（大腿骨顆の凸面と脛骨高原のほぼ平坦な面との接触面積を3倍程度に増加させ、単位面積あたりの圧力を低減）、②衝撃吸収、③関節の安定性への寄与、④滑液の関節軟骨への分配促進。内側半月板はC字型で脛骨に強固に固定され可動性が低いのに対し、外側半月板はO字型に近く可動性が高い。このため内側半月板は損傷リスクが高く、スポーツでの膝のひねり動作や加齢による変性で断裂しやすい（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.5）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "choices": [
+            { "text": "半月板", "is_correct": true },
+            { "text": "関節唇", "is_correct": false },
+            { "text": "関節円板", "is_correct": false },
+            { "text": "靭帯", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "膝関節の前後方向の安定性を担う2つの関節内靭帯を総称して何と呼ぶか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "膝関節の前後方向の安定性を担う2つの関節内靭帯は「十字靭帯（cruciate ligaments）」である。十字靭帯は関節腔内（ただし滑膜外）にある2本の靭帯で、互いに「十字」に交差することからこの名がある。①前十字靭帯（ACL: anterior cruciate ligament）— 脛骨の前顆間区から大腿骨外顆の内側面に向かって後上方に走行する。脛骨の前方への滑り出し（前方引き出し）を防ぎ、膝の過伸展と内旋を制限する。②後十字靭帯（PCL: posterior cruciate ligament）— 脛骨の後顆間区から大腿骨内顆の外側面に向かって前上方に走行する。脛骨の後方への滑り出し（後方引き出し）を防ぐ。ACL損傷はスポーツ外傷で最も多い膝靭帯損傷で、急な方向転換やジャンプ着地時に発生しやすい。ACL断裂時は「ポップ音」を感じることが多く、Lachmanテストや前方引き出しテストで診断される（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.5）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "choices": [
+            { "text": "十字靭帯", "is_correct": true },
+            { "text": "側副靭帯", "is_correct": false },
+            { "text": "半月板", "is_correct": false },
+            { "text": "膝蓋靭帯", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "足関節（距腿関節）は滑膜性関節のどの種類に分類されるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "足関節（距腿関節 / talocrural joint / ankle joint）は「蝶番関節（hinge joint）」に分類される。足関節は脛骨遠位端と腓骨遠位端（外果）が作る「ほぞ穴（mortise）」に距骨（talus）の滑車がはまり込む構造で、背屈（dorsiflexion, 約20°）と底屈（plantarflexion, 約50°）の一軸性運動を行う。距骨滑車は前方がやや広いため、背屈位ではほぞ穴に密にはまり関節が最も安定し、底屈位では前後方向の遊びが生じて不安定になる。このため足関節捻挫は底屈・内反の姿勢で最も起きやすい。足関節の安定性は主に靭帯によって提供される。外側は前距腓靭帯（ATFL）・踵腓靭帯（CFL）・後距腓靭帯（PTFL）、内側は三角靭帯（deltoid ligament）で補強される。足関節捻挫は全スポーツ外傷の中で最も頻度が高く、約85%が外側靭帯（特にATFL）の損傷である（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.5）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "choices": [
+            { "text": "蝶番関節", "is_correct": true },
+            { "text": "球関節", "is_correct": false },
+            { "text": "平面関節", "is_correct": false },
+            { "text": "車軸関節", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "下肢の関節とその滑膜性関節の種類を正しく組み合わせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "下肢の主要関節とその分類の対応：①股関節 — 球関節。大腿骨頭と寛骨臼からなる多軸性関節。深い寛骨臼と強力な靭帯群により、肩関節より安定性が高い。②膝関節 — 蝶番関節（修正型）。大腿骨顆と脛骨高原からなり、主に屈曲・伸展を行う。屈曲位ではわずかな回旋も可能なため「修正蝶番関節（modified hinge joint）」とも呼ばれる。人体最大かつ最も複雑な関節で、十字靭帯・側副靭帯・半月板を含む。③足関節 — 蝶番関節。距骨滑車が脛腓のほぞ穴にはまり、背屈と底屈を行う。④仙腸関節 — 平面関節（一部は線維性）。仙骨と腸骨の耳状面が関節し、強力な靭帯で固定されてわずかな滑り運動のみ許容する半可動関節。体重を下肢に伝達する重要な関節だが、可動性は非常に限られる（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.5）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "metadata": {
+            "pairs": [
+              { "left": "股関節", "right": "球関節" },
+              { "left": "膝関節", "right": "蝶番関節" },
+              { "left": "足関節", "right": "蝶番関節" },
+              { "left": "仙腸関節", "right": "平面関節" }
+            ]
+          }
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "膝関節は人体で「最大」の滑膜性関節である。膝関節（knee joint）は大腿骨・脛骨・膝蓋骨の3つの骨で構成され、大腿脛骨関節（medial and lateral tibiofemoral joints）と膝蓋大腿関節（patellofemoral joint）の3つの関節を含む複合関節である。関節包で囲まれた関節腔の容積が全関節中で最大であり、滑液量も最も多い（正常で約3.5mL）。膝関節の安定性は、骨の形状よりも靭帯と筋肉に大きく依存する。主要な靭帯として、内側側副靭帯（MCL）と外側側副靭帯（LCL）が内外方向の安定性を、前十字靭帯（ACL）と後十字靭帯（PCL）が前後方向の安定性を提供する。さらに内側・外側半月板が荷重分散と衝撃吸収を行い、大腿四頭筋（特に内側広筋）が膝蓋骨の安定化に重要な役割を果たす。このように多くの構造が協調して膝関節の安定性と機能を維持している（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.5）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "metadata": {
+            "template": "膝関節は人体で {{blank}} の滑膜性関節である",
+            "word_options": ["最大", "最小", "最強", "最古"]
+          },
+          "choices": [
+            { "text": "最大", "is_correct": true },
+            { "text": "最小", "is_correct": false },
+            { "text": "最強", "is_correct": false },
+            { "text": "最古", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "股関節で、大腿骨頭と寛骨臼の間を走り血管を含む靭帯はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "大腿骨頭と寛骨臼の間を走り血管を含む靭帯は「大腿骨頭靭帯（ligamentum teres / ligament of the head of the femur）」である。大腿骨頭靭帯は寛骨臼の横靭帯と寛骨臼切痕縁から起始し、大腿骨頭の中心にある大腿骨頭窩（fovea capitis）に停止する関節内靭帯である。この靭帯の内部を大腿骨頭動脈（閉鎖動脈の枝）が走行し、大腿骨頭への血液供給に寄与する。ただし成人では大腿骨頭の血流は主に大腿骨頸部を走行する内側・外側大腿回旋動脈の枝に依存し、大腿骨頭靭帯経由の血流は補助的である。小児では大腿骨頭動脈の寄与がより大きい。股関節脱臼や大腿骨頸部骨折では、これらの血管が損傷されて大腿骨頭壊死（avascular necrosis）を引き起こすリスクがある。腸骨大腿靭帯・恥骨大腿靭帯・坐骨大腿靭帯は関節包の外にある靭帯で、血管は含まない（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.5）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "choices": [
+            { "text": "大腿骨頭靭帯", "is_correct": true },
+            { "text": "腸骨大腿靭帯", "is_correct": false },
+            { "text": "恥骨大腿靭帯", "is_correct": false },
+            { "text": "坐骨大腿靭帯", "is_correct": false }
+          ]
+        },
+        {
+          "question_text": "膝関節で脛骨の前方への滑り出しを防ぐ靭帯を何というか？（日本語で回答）",
+          "interaction_type": "free_input",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "脛骨の前方への滑り出しを防ぐ靭帯は「前十字靭帯（ACL: anterior cruciate ligament）」である。前十字靭帯は膝関節の関節腔内（ただし滑膜外）にある靭帯で、脛骨の前顆間区から起始し、後上方に走行して大腿骨外顆の内側面に停止する。名称の「前（anterior）」は脛骨側の付着部の位置を表し、後十字靭帯の脛骨付着部より前方にあることに由来する。ACLは前内側束（AMB）と後外側束（PLB）の2つの線維束からなり、AMBは主に前方安定性を、PLBは主に回旋安定性を提供する。ACL損傷はスポーツ外傷で最も多い膝靭帯損傷であり、非接触型（急な方向転換、減速、ジャンプ着地）が約70%を占める。女性はACL損傷のリスクが男性の2-8倍高く、Q角の大きさやホルモンの影響が関与すると考えられている。診断にはLachmanテストが最も感度が高い（Gray's Anatomy, Part III; OpenStax Anatomy and Physiology, 9.5）。",
+          "source": "Gray's Anatomy",
+          "images": [],
+          "metadata": {
+            "acceptable_answers": ["前十字靭帯", "ACL", "anterior cruciate ligament", "前十字靱帯"]
+          }
+        }
+      ]
+    }
+  ]
+}
