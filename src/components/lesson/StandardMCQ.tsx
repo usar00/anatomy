@@ -52,7 +52,7 @@ export function StandardMCQ({
             >
               {labels[index]}
             </span>
-            <span className="text-sm font-medium flex-1">
+            <span className="text-base font-medium flex-1">
               {choice.choice_text}
             </span>
             {showResult && isCorrect && (

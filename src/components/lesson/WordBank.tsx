@@ -66,7 +66,7 @@ export function WordBank({
               onClick={() => handleSelect(word)}
               disabled={isAnswered}
               className={cn(
-                "px-4 py-2.5 rounded-xl border-2 text-sm font-medium transition-all",
+                "px-4 py-2.5 rounded-xl border-2 text-base font-medium transition-all",
                 !isAnswered && !isSelected && "border-card-border bg-card hover:border-primary/40",
                 !isAnswered && isSelected && "border-primary bg-primary text-white",
                 isAnswered && isCorrectWord && "border-success bg-success-light text-success",
@@ -82,7 +82,7 @@ export function WordBank({
 
       {/* Show correct answer if wrong */}
       {isAnswered && selectedWord !== correctAnswer && (
-        <p className="text-sm text-success text-center">
+        <p className="text-base text-success text-center">
           正解: {correctAnswer}
         </p>
       )}
