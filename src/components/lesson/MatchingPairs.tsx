@@ -67,7 +67,7 @@ export function MatchingPairs({
 
   return (
     <div className="space-y-4">
-      <p className="text-sm text-secondary text-center mb-2">
+      <p className="text-base text-secondary text-center mb-2">
         左右の正しいペアをタップして結んでください
       </p>
       <div className="grid grid-cols-2 gap-3">
@@ -83,7 +83,7 @@ export function MatchingPairs({
                 onClick={() => handleLeftClick(index)}
                 disabled={isAnswered || isMatched}
                 className={cn(
-                  "w-full px-3 py-3 rounded-xl border-2 text-sm font-medium transition-all text-left",
+                  "w-full px-3 py-3 rounded-xl border-2 text-base font-medium transition-all text-left",
                   !isMatched && !isActive && "border-card-border bg-card hover:border-primary/40",
                   isActive && "border-primary bg-primary-light ring-2 ring-primary/30",
                   isMatched && getMatchColor(index)
@@ -110,7 +110,7 @@ export function MatchingPairs({
                 onClick={() => handleRightClick(originalIndex)}
                 disabled={isAnswered || isMatched || selectedLeft === null}
                 className={cn(
-                  "w-full px-3 py-3 rounded-xl border-2 text-sm font-medium transition-all text-left",
+                  "w-full px-3 py-3 rounded-xl border-2 text-base font-medium transition-all text-left",
                   !isMatched && selectedLeft === null && "border-card-border bg-card opacity-60",
                   !isMatched && selectedLeft !== null && "border-card-border bg-card hover:border-primary/40",
                   isMatched && matchedLeftIndex !== undefined && (
@@ -131,7 +131,7 @@ export function MatchingPairs({
 
       {/* Status */}
       {!isAnswered && !allMatched && (
-        <p className="text-xs text-secondary text-center">
+        <p className="text-sm text-secondary text-center">
           {Object.keys(matches).length}/{meta.pairs.length} ペア完了
         </p>
       )}
@@ -139,9 +139,9 @@ export function MatchingPairs({
       {/* Show correct answers if wrong */}
       {isAnswered && !Object.entries(matches).every(([l, r]) => Number(l) === r) && (
         <div className="bg-success-light/50 rounded-xl p-3 mt-2">
-          <p className="text-xs font-medium text-success mb-1">正しいペア:</p>
+          <p className="text-sm font-medium text-success mb-1">正しいペア:</p>
           {meta.pairs.map((pair, i) => (
-            <p key={i} className="text-xs text-foreground">
+            <p key={i} className="text-sm text-foreground">
               {pair.left} → {pair.right}
             </p>
           ))}

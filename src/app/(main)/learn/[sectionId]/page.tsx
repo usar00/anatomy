@@ -337,7 +337,7 @@ export default function LessonPage({
       >
         {/* Question text */}
         <div className="mb-5">
-          <p className="text-base font-semibold text-foreground leading-relaxed">
+          <p className="text-lg font-medium text-foreground leading-relaxed">
             {currentQuestion.question_text}
           </p>
           {/* Question image */}

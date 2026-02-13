@@ -68,13 +68,13 @@ export function FreeInput({ meta, isAnswered, onAnswer }: FreeInputProps) {
       {!isAnswered && meta.hint && !showHint && (
         <button
           onClick={() => setShowHint(true)}
-          className="text-xs text-secondary hover:text-foreground transition-colors"
+          className="text-sm text-secondary hover:text-foreground transition-colors"
         >
           ヒントを見る
         </button>
       )}
       {!isAnswered && showHint && meta.hint && (
-        <p className="text-sm text-secondary bg-muted rounded-lg px-3 py-2">
+        <p className="text-base text-secondary bg-muted rounded-lg px-3 py-2">
           💡 {meta.hint}
         </p>
       )}
@@ -92,7 +92,7 @@ export function FreeInput({ meta, isAnswered, onAnswer }: FreeInputProps) {
 
       {/* Correct answer if wrong */}
       {isAnswered && !isCorrect && (
-        <p className="text-sm text-success text-center">
+        <p className="text-base text-success text-center">
           正解: {meta.accepted_answers[0]}
         </p>
       )}
