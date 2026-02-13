@@ -375,7 +375,7 @@ export default function LessonPage({
             animate={{ opacity: 1, y: 0 }}
             className="mt-4 bg-muted rounded-xl px-4 py-3"
           >
-            <p className="text-sm text-secondary">
+            <p className="text-base text-secondary leading-relaxed">
               <span className="font-semibold text-foreground">解説: </span>
               {currentQuestion.explanation}
             </p>
@@ -434,7 +434,7 @@ function ReferenceTextCard({ referenceText }: { referenceText: LessonQuestion["r
         onClick={() => setIsOpen((v) => !v)}
         className="w-full flex items-center justify-between px-4 py-3 text-left"
       >
-        <span className="text-sm font-semibold text-primary flex items-center gap-1.5">
+        <span className="text-base font-semibold text-primary flex items-center gap-1.5">
           <span className="text-base">&#128214;</span>
           {referenceText.title}
         </span>
@@ -456,19 +456,19 @@ function ReferenceTextCard({ referenceText }: { referenceText: LessonQuestion["r
           >
             <div className="px-4 pb-4">
               {/* 本文 */}
-              <div className="text-sm text-secondary whitespace-pre-line leading-relaxed">
+              <div className="text-base text-secondary whitespace-pre-line leading-relaxed">
                 {referenceText.body}
               </div>
 
               {/* 用語集 */}
               {keyTerms.length > 0 && (
                 <div className="mt-3 border-t border-card-border pt-3">
-                  <p className="text-xs font-semibold text-foreground mb-2">
+                  <p className="text-sm font-semibold text-foreground mb-2">
                     &#128218; 重要用語
                   </p>
                   <div className="space-y-1.5">
                     {keyTerms.map((kt) => (
-                      <div key={kt.term} className="text-xs text-secondary">
+                      <div key={kt.term} className="text-sm text-secondary leading-relaxed">
                         <span className="font-semibold text-foreground">{kt.term}</span>
                         <span className="text-muted mx-1">({kt.english})</span>
                         <span>— {kt.definition}</span>

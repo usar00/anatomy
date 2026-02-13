@@ -30,7 +30,7 @@ export function ExplanationPanel({
       </div>
 
       {question.explanation && (
-        <p className="text-sm leading-relaxed mb-3">{question.explanation}</p>
+        <p className="text-base leading-relaxed mb-3">{question.explanation}</p>
       )}
 
       {explanationImage && (
@@ -46,7 +46,7 @@ export function ExplanationPanel({
       )}
 
       {question.source && (
-        <p className="text-xs text-secondary mt-2">出典: {question.source}</p>
+        <p className="text-sm text-secondary mt-2">出典: {question.source}</p>
       )}
     </div>
   );
