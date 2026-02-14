@@ -156,6 +156,93 @@
         { "term": "足関節", "english": "Ankle Joint", "definition": "蝶番関節。距骨がほぞ穴にはまり背屈・底屈" },
         { "term": "仙腸関節", "english": "Sacroiliac Joint", "definition": "仙骨と腸骨の半可動関節。体重伝達" }
       ]
+    },
+    {
+      "id": "muscle-tissue-three-types",
+      "unit_slug": "myology-basics",
+      "section_slug": "muscle-tissue-types",
+      "title": "3種類の筋組織と骨格筋の構造",
+      "body": "人体には3種類の筋組織が存在し、それぞれ構造と機能が異なる。\n\n① 骨格筋（Skeletal Muscle）— 横紋を持つ随意筋。体性運動神経の支配を受け、意識的に収縮させることができる。骨に付着して関節運動を生み出し、体重の約40-50%を占める。筋線維（筋細胞）は多核で細長く、直径10-100μm、長さ数cm〜数十cmに達する。\n② 心筋（Cardiac Muscle）— 横紋を持つ不随意筋。心臓にのみ存在し、自律的なリズムで収縮する。細胞間は介在板（intercalated disc）で結合され、ギャップ結合を介して電気的に連絡するため、機能的合胞体として一斉に収縮する。1-2個の核を持つ。\n③ 平滑筋（Smooth Muscle）— 横紋を持たない不随意筋。内臓壁・血管壁・気管支などに存在し、蠕動運動や血管収縮を担う。紡錘形の単核細胞で、アクチン・ミオシンの配列が不規則なため横紋が見えない。\n\n骨格筋の階層構造: 筋全体 → 筋束（fascicle）→ 筋線維（muscle fiber）→ 筋原線維（myofibril）→ サルコメア（sarcomere）。結合組織も3層: 筋外膜（epimysium）→ 筋周膜（perimysium）→ 筋内膜（endomysium）。\n\nサルコメア: Z線からZ線までの収縮の最小単位。太いフィラメント（ミオシン）と細いフィラメント（アクチン）が規則的に並ぶ。A帯（暗帯）= ミオシンの全長、I帯（明帯）= アクチンのみ、H帯 = A帯中央のミオシンのみの部分。収縮時はA帯の長さは不変で、I帯とH帯が短縮する。",
+      "key_terms": [
+        { "term": "骨格筋", "english": "Skeletal Muscle", "definition": "横紋を持つ随意筋。骨に付着し運動を生み出す" },
+        { "term": "心筋", "english": "Cardiac Muscle", "definition": "横紋を持つ不随意筋。介在板で結合し自動収縮" },
+        { "term": "平滑筋", "english": "Smooth Muscle", "definition": "横紋のない不随意筋。内臓壁・血管壁に存在" },
+        { "term": "サルコメア", "english": "Sarcomere", "definition": "Z線間の収縮最小単位。アクチンとミオシンの配列" },
+        { "term": "筋周膜", "english": "Perimysium", "definition": "筋束を包む結合組織。血管・神経の通路" },
+        { "term": "介在板", "english": "Intercalated Disc", "definition": "心筋細胞間の結合構造。ギャップ結合を含む" }
+      ]
+    },
+    {
+      "id": "skeletal-muscle-contraction",
+      "unit_slug": "myology-basics",
+      "section_slug": "skeletal-muscle-function",
+      "title": "骨格筋の機能と筋収縮の仕組み",
+      "body": "骨格筋の収縮はスライディング・フィラメント理論で説明される。フィラメント自体は短くならず、アクチン（細いフィラメント）がミオシン（太いフィラメント）の間に滑り込むことでサルコメアが短縮する。\n\n【興奮収縮連関の流れ】\n①運動神経からアセチルコリン（ACh）が神経筋接合部に放出 → ②筋鞘の脱分極 → ③T管を介して興奮が深部に伝播 → ④筋小胞体からCa²⁺放出 → ⑤Ca²⁺がトロポニンに結合しトロポミオシンが移動 → ⑥ミオシン結合部位が露出しクロスブリッジ形成 → ⑦パワーストローク（ATP消費）→ ⑧Ca²⁺が筋小胞体に回収されると弛緩\n\n【筋の役割分類】\n・主動筋（agonist）: 運動を主に生み出す筋\n・拮抗筋（antagonist）: 主動筋と反対の作用を持つ筋\n・協力筋（synergist）: 主動筋を補助する筋\n・固定筋（fixator）: 関節を安定させる筋\n\n【起始と停止】\n・起始（origin）: 収縮時に動かない側（通常は近位）\n・停止（insertion）: 収縮時に動く側（通常は遠位）\n\n【筋と骨の結合】\n・腱（tendon）: 紐状・帯状の結合組織。アキレス腱が最大\n・腱膜（aponeurosis）: シート状に広がった腱。腹壁の筋に多い\n\n【収縮の種類】\n・等尺性収縮（isometric）: 筋長不変、張力のみ発生（壁を押す）\n・等張性収縮（isotonic）: 求心性（短縮）と遠心性（伸張）がある",
+      "key_terms": [
+        { "term": "スライディング・フィラメント理論", "english": "Sliding Filament Theory", "definition": "アクチンがミオシンの間に滑り込んで筋が収縮する理論" },
+        { "term": "主動筋", "english": "Agonist", "definition": "運動を主に生み出す筋" },
+        { "term": "拮抗筋", "english": "Antagonist", "definition": "主動筋と反対の作用を持つ筋" },
+        { "term": "起始", "english": "Origin", "definition": "筋の付着部で動かない側（通常は近位）" },
+        { "term": "停止", "english": "Insertion", "definition": "筋の付着部で動く側（通常は遠位）" },
+        { "term": "腱", "english": "Tendon", "definition": "筋と骨を結ぶ紐状の結合組織" }
+      ]
+    },
+    {
+      "id": "head-neck-muscles-overview",
+      "unit_slug": "myology-basics",
+      "section_slug": "head-neck-muscles",
+      "title": "頭頸部の主要な筋",
+      "body": "頭頸部の筋は大きく咀嚼筋群・表情筋群・頸部の筋に分けられ、それぞれ異なる脳神経に支配される。\n\n【咀嚼筋群】三叉神経（V₃）支配。下顎骨を動かして咀嚼を行う4筋:\n① 咬筋（masseter）— 最も強力な閉口筋。頬骨弓→下顎角。\n② 側頭筋（temporalis）— 扇形の閉口筋。側頭窩→筋突起。後部線維は下顎後退。\n③ 内側翼突筋（medial pterygoid）— 閉口の補助。咬筋と対をなす。\n④ 外側翼突筋（lateral pterygoid）— 唯一の開口補助筋。下顎の前突と側方運動。\n\n【表情筋群】顔面神経（VII）支配。骨から皮膚に停止する皮筋:\n・前頭筋 — 眉を上げ額にシワを寄せる\n・眼輪筋 — 目を閉じる\n・口輪筋 — 口を閉じ、すぼめる\n・大頬骨筋 — 口角を上げる（笑顔）\n・広頸筋 — 頸部の皮膚を引き下げる\n\n【頸部の主要な筋】\n・胸鎖乳突筋（SCM）— 副神経（XI）支配。片側収縮: 頭を同側に側屈し反対側に回旋。両側収縮: 頸部屈曲。頸部のランドマーク。\n・僧帽筋（trapezius）— 副神経（XI）支配。上部: 肩甲骨挙上。中部: 肩甲骨内転。下部: 肩甲骨下制。\n\n覚え方: 「咀嚼は五（V）、表情は七（VII）、SCMと僧帽は十一（XI）」",
+      "key_terms": [
+        { "term": "咬筋", "english": "Masseter", "definition": "最も強力な閉口筋。三叉神経V₃支配" },
+        { "term": "表情筋", "english": "Muscles of Facial Expression", "definition": "皮膚に停止する皮筋。顔面神経VII支配" },
+        { "term": "胸鎖乳突筋", "english": "Sternocleidomastoid", "definition": "頸部側面の筋。頭の回旋と屈曲。副神経XI支配" },
+        { "term": "僧帽筋", "english": "Trapezius", "definition": "背部上方の大きな筋。肩甲骨の挙上・内転・下制" },
+        { "term": "外側翼突筋", "english": "Lateral Pterygoid", "definition": "咀嚼筋で唯一の開口補助筋。下顎の前突" }
+      ]
+    },
+    {
+      "id": "trunk-muscles-overview",
+      "unit_slug": "myology-basics",
+      "section_slug": "trunk-muscles",
+      "title": "体幹の主要な筋",
+      "body": "体幹の筋は腹壁の筋・背部の筋・呼吸筋に大別され、姿勢の維持・体幹の運動・呼吸・腹圧の調整を担う。\n\n【腹壁の筋（前面と側面）】\n① 腹直筋（rectus abdominis）— 恥骨→肋軟骨・剣状突起。体幹の屈曲。腱画で区切られ「シックスパック」を形成。肋間神経（T7-T12）支配。\n② 外腹斜筋（external oblique）— 最浅層。下位8肋骨→腸骨稜・白線。線維は前下方に走行。体幹の対側回旋と側屈。\n③ 内腹斜筋（internal oblique）— 中間層。腸骨稜・胸腰筋膜→肋骨・白線。外腹斜筋と直交する方向。体幹の同側回旋。\n④ 腹横筋（transversus abdominis）— 最深層。線維は水平。コルセットのように腹圧を維持。コアスタビリティの要。\n\n【背部の筋】\n・脊柱起立筋（erector spinae）— 腸肋筋・最長筋・棘筋の3筋柱。仙骨→後頭骨。両側収縮で体幹伸展、片側で側屈。姿勢維持の抗重力筋。覚え方: I Love Spine。\n\n【呼吸筋】\n・横隔膜（diaphragm）— 呼吸の主筋（安静呼吸の75%）。ドーム状の筋で胸腔と腹腔を隔てる。収縮→下降→胸腔拡大→吸息。横隔神経（C3-C5）支配。「C3,4,5 keep the diaphragm alive」。3つの裂孔: 大動脈裂孔（T12）、食道裂孔（T10）、大静脈孔（T8）。",
+      "key_terms": [
+        { "term": "腹直筋", "english": "Rectus Abdominis", "definition": "腹壁前面の筋。体幹の屈曲。シックスパック" },
+        { "term": "外腹斜筋", "english": "External Oblique", "definition": "腹壁最浅層。体幹の対側回旋と側屈" },
+        { "term": "腹横筋", "english": "Transversus Abdominis", "definition": "腹壁最深層。水平走行でコアスタビリティの要" },
+        { "term": "脊柱起立筋", "english": "Erector Spinae", "definition": "背部の3筋柱。体幹の伸展と姿勢維持" },
+        { "term": "横隔膜", "english": "Diaphragm", "definition": "呼吸の主筋。横隔神経C3-C5支配" }
+      ]
+    },
+    {
+      "id": "upper-limb-muscles-overview",
+      "unit_slug": "myology-basics",
+      "section_slug": "upper-limb-muscles",
+      "title": "上肢の主要な筋",
+      "body": "上肢の筋は肩の筋・上腕の筋・前腕の筋に大別され、肩の運動から手指の精密な動きまでを担う。\n\n【肩の筋】\n① 三角筋（deltoid）— 肩の丸みを作る。3部: 前部（屈曲）・中部（外転の主力）・後部（伸展）。腋窩神経（C5-C6）支配。\n② 回旋筋腱板（rotator cuff）— 肩関節を安定させるSITS筋: 棘上筋（Supraspinatus, 外転開始）・棘下筋（Infraspinatus, 外旋）・小円筋（Teres minor, 外旋補助）・肩甲下筋（Subscapularis, 内旋）。\n\n【上腕の筋】\n前面（屈筋群）— 筋皮神経（C5-C6）支配:\n・上腕二頭筋（biceps brachii）— 2頭。肘屈曲と前腕回外の主力。停止: 橈骨粗面。\n・上腕筋（brachialis）— 肘屈曲の最も強力な筋（角度に関係なく）。\n\n後面（伸筋群）— 橈骨神経（C6-C8）支配:\n・上腕三頭筋（triceps brachii）— 3頭。肘伸展の唯一の主動筋。停止: 肘頭。\n\n【前腕の筋】\n屈筋群（前面）— 主に正中神経・尺骨神経支配。上腕骨内側上顆から共通起始。手首・手指の屈曲。\n伸筋群（後面）— 橈骨神経支配。上腕骨外側上顆から共通起始。手首・手指の伸展。\n\n【臨床的に重要な神経損傷パターン】\n・橈骨神経損傷 → 下垂手（wrist drop）: 手首と指が伸展できない\n・正中神経損傷 → 猿手（ape hand）: 母指の対立不能\n・尺骨神経損傷 → 鷲手（claw hand）: 第4-5指のMP過伸展とIP屈曲",
+      "key_terms": [
+        { "term": "三角筋", "english": "Deltoid", "definition": "肩の外転の主動筋。腋窩神経支配" },
+        { "term": "上腕二頭筋", "english": "Biceps Brachii", "definition": "肘の屈曲と前腕の回外。筋皮神経支配" },
+        { "term": "上腕三頭筋", "english": "Triceps Brachii", "definition": "肘伸展の唯一の主動筋。橈骨神経支配" },
+        { "term": "回旋筋腱板", "english": "Rotator Cuff", "definition": "肩を安定させる4筋（SITS）。棘上筋が最も損傷しやすい" },
+        { "term": "下垂手", "english": "Wrist Drop", "definition": "橈骨神経損傷による手首・指の伸展不能" }
+      ]
+    },
+    {
+      "id": "lower-limb-muscles-overview",
+      "unit_slug": "myology-basics",
+      "section_slug": "lower-limb-muscles",
+      "title": "下肢の主要な筋",
+      "body": "下肢の筋は殿部の筋・大腿の筋・下腿の筋に大別され、体重の支持・歩行・走行を担う。上肢より大きく強力な筋が多い。\n\n【殿部の筋】\n① 大殿筋（gluteus maximus）— 殿部最大の筋。股関節の伸展と外旋。階段昇降・立ち上がり・走行時に活躍。下殿神経（L5-S2）支配。\n② 中殿筋（gluteus medius）— 股関節の外転の主力。歩行時の骨盤安定に不可欠。麻痺でトレンデレンブルグ徴候。上殿神経（L4-S1）支配。\n③ 小殿筋（gluteus minimus）— 外転と内旋。上殿神経支配。\n\n【大腿前面】大腿神経（L2-L4）支配:\n・大腿四頭筋（quadriceps femoris）— 4筋: 大腿直筋（唯一の二関節筋）・外側広筋・内側広筋・中間広筋。膝伸展の主動筋。膝蓋靭帯を介して脛骨粗面に停止。\n\n【大腿後面】坐骨神経（L4-S3）支配:\n・ハムストリングス（hamstrings）— 3筋: 大腿二頭筋・半腱様筋・半膜様筋。膝の屈曲と股関節の伸展。坐骨結節から起始。スプリント時の肉離れが多い。\n\n【下腿後面】脛骨神経支配:\n・下腿三頭筋（triceps surae）— 腓腹筋（2頭, 二関節筋）+ ヒラメ筋（単関節筋）。アキレス腱（人体最大の腱）を介して踵骨に停止。足の底屈。\n\n【重要な神経】坐骨神経は人体最大の末梢神経（太さ約2cm）。膝窩で脛骨神経と総腓骨神経に分岐する。",
+      "key_terms": [
+        { "term": "大腿四頭筋", "english": "Quadriceps Femoris", "definition": "大腿前面の4筋。膝伸展の主動筋。大腿神経支配" },
+        { "term": "ハムストリングス", "english": "Hamstrings", "definition": "大腿後面の3筋。膝屈曲と股関節伸展。坐骨神経支配" },
+        { "term": "大殿筋", "english": "Gluteus Maximus", "definition": "殿部最大。股関節伸展の主動筋。下殿神経支配" },
+        { "term": "中殿筋", "english": "Gluteus Medius", "definition": "股関節外転。歩行時の骨盤安定。麻痺でトレンデレンブルグ徴候" },
+        { "term": "下腿三頭筋", "english": "Triceps Surae", "definition": "腓腹筋+ヒラメ筋。アキレス腱を形成。足の底屈" },
+        { "term": "坐骨神経", "english": "Sciatic Nerve", "definition": "人体最大の末梢神経。L4-S3。下肢後面の大部分を支配" }
+      ]
     }
   ]
 }
