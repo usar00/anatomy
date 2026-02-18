@@ -320,7 +320,7 @@
             }
           ],
           "metadata": {
-            "acceptable_answers": [
+            "accepted_answers": [
               "A帯",
               "A band",
               "暗帯"
@@ -644,7 +644,7 @@
             }
           ],
           "metadata": {
-            "acceptable_answers": [
+            "accepted_answers": [
               "アセチルコリン",
               "acetylcholine",
               "ACh"
@@ -964,7 +964,7 @@
             }
           ],
           "metadata": {
-            "acceptable_answers": [
+            "accepted_answers": [
               "顔面神経",
               "facial nerve",
               "第VII脳神経",
@@ -1293,7 +1293,7 @@
             }
           ],
           "metadata": {
-            "acceptable_answers": [
+            "accepted_answers": [
               "食道裂孔",
               "esophageal hiatus"
             ]
@@ -1612,7 +1612,7 @@
             }
           ],
           "metadata": {
-            "acceptable_answers": [
+            "accepted_answers": [
               "筋皮神経",
               "musculocutaneous nerve"
             ]
@@ -1940,7 +1940,7 @@
             }
           ],
           "metadata": {
-            "acceptable_answers": [
+            "accepted_answers": [
               "坐骨神経",
               "sciatic nerve"
             ]
