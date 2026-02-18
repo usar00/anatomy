@@ -17,6 +17,11 @@
       "id": "cartilaginous-joints-basics",
       "title": "軟骨性関節の構造と機能",
       "content": "軟骨性関節（Cartilaginous Joint）は、骨と骨が軟骨で結合される関節で、関節腔を持たない。2つのサブタイプがある。①軟骨結合（Synchondrosis）：硝子軟骨で骨を結合する。代表例は長骨の骨端板（Epiphyseal Plate）で、成長期には軟骨の増殖により骨が伸長し、成長完了後は骨化して骨端線（Epiphyseal Line）となる。第1肋骨と胸骨の間の肋軟骨結合も軟骨結合で、不動関節である。②線維軟骨結合（Symphysis）：線維軟骨の円盤（ディスク）で骨を結合する。代表例は椎間板（Intervertebral Disc）と恥骨結合（Pubic Symphysis）。椎間板は髄核と線維輪からなり、脊柱の荷重吸収とわずかな動きを可能にする。恥骨結合は左右の恥骨を線維軟骨のディスクで結合し、通常はほぼ不動だが、妊娠中はリラキシンの作用で弛緩し出産時に骨盤出口を広げる。線維軟骨結合は半関節（Amphiarthrosis）に分類され、個々の関節の動きはわずかでも、積み重なると大きな可動域となる（脊柱全体の前屈・後屈・側屈・回旋）。"
+    },
+    {
+      "id": "synovial-joint-structure-basics",
+      "title": "滑膜性関節の構造と機能",
+      "content": "滑膜性関節（Synovial Joint）は最も一般的な関節で、全身の大部分の関節がこのタイプに属する。最大の特徴は関節腔（Joint Cavity）を持つことで、骨端同士が直接結合されず、関節腔内の滑液（Synovial Fluid）を介して動く。基本構造は以下の通り。①関節軟骨（Articular Cartilage）：骨の関節面を覆う硝子軟骨の層（厚さ1-7mm）。血管・神経を持たず、摩擦を極限まで低減する（摩擦係数0.001-0.01、氷上の氷よりも低い）。②関節包（Joint Capsule）：関節を包む二層構造の袋。外層の線維膜（Fibrous Membrane）は緻密結合組織で関節の構造的安定性を提供し、内層の滑膜（Synovial Membrane）は滑液を産生・吸収する。③滑液（Synovial Fluid）：ヒアルロン酸と間質液からなる粘稠な液体。関節軟骨への栄養供給（軟骨は無血管なので滑液が唯一の栄養源）、潤滑、衝撃吸収の3つの機能を持つ。動きによって滑液が軟骨に押し込まれ栄養が行き渡る（ウィーピング潤滑）ため、適度な運動が軟骨の健康維持に不可欠。関節軟骨は無血管のため自己修復能力が極めて低く、一度損傷すると回復が困難（変形性関節症の原因）。"
     }
   ],
   "sections": [
@@ -502,6 +507,251 @@
             }
           ],
           "reference_text_ids": ["cartilaginous-joints-basics"]
+        }
+      ]
+    },
+    {
+      "name": "滑膜性関節の構造",
+      "slug": "synovial-structure",
+      "description": "なぜ関節はスムーズに動く？ — 滑液は人工潤滑油より優秀",
+      "sort_order": 2,
+      "concepts": [
+        {
+          "name": "関節包と滑膜",
+          "description": "関節を包む二層構造の袋。線維膜は安定性、滑膜は滑液産生を担う"
+        },
+        {
+          "name": "関節軟骨と滑液",
+          "description": "硝子軟骨が摩擦を極限まで低減し、滑液が潤滑・栄養・衝撃吸収を担う"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "滑膜性関節が線維性関節・軟骨性関節と異なる最大の構造的特徴はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "滑膜性関節の最大の特徴は関節腔（Joint Cavity）を持つことです。線維性関節は線維組織で、軟骨性関節は軟骨で骨同士が直接結合されますが、滑膜性関節では骨端同士が離れており、関節腔内の滑液を介して動きます。この構造により大きな可動性が実現されます。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "choices": [
+            {
+              "text": "骨同士がコラーゲン線維で直接結合されている",
+              "is_correct": false
+            },
+            {
+              "text": "関節腔（Joint Cavity）を持ち、骨端同士が直接結合されていない",
+              "is_correct": true
+            },
+            {
+              "text": "軟骨で骨同士が結合されており、可動性がない",
+              "is_correct": false
+            },
+            {
+              "text": "骨端が完全に骨化して癒合している",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["synovial-joint-structure-basics"]
+        },
+        {
+          "question_text": "次の文を完成させてください:\n\n関節軟骨は血管を持たないため、唯一の栄養源は関節腔内の【　　】である。",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "関節軟骨は無血管組織であり、血管からの栄養供給を受けられません。その代わり、関節腔内の滑液（Synovial Fluid）が唯一の栄養源となります。滑液は滑膜から産生され、関節の動きによって軟骨表面に押し込まれる（ウィーピング潤滑）ことで栄養が行き渡ります。このため、適度な運動が軟骨の健康維持に不可欠です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "metadata": {
+            "word_bank": ["滑液（Synovial Fluid）", "骨髄液", "リンパ液", "脳脊髄液"]
+          },
+          "choices": [
+            {
+              "text": "骨髄液",
+              "is_correct": false
+            },
+            {
+              "text": "リンパ液",
+              "is_correct": false
+            },
+            {
+              "text": "滑液（Synovial Fluid）",
+              "is_correct": true
+            },
+            {
+              "text": "脳脊髄液",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["synovial-joint-structure-basics"]
+        },
+        {
+          "question_text": "関節軟骨の摩擦係数（0.001-0.01）が氷上の氷よりも低い理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "関節軟骨が極めて低い摩擦係数を実現できるのは、軟骨と滑液の組み合わせによる複数の潤滑メカニズムが働くためです。①境界潤滑：滑液中のルブリシン（糖タンパク質）が軟骨表面に薄い保護膜を形成、②流体潤滑：荷重で滑液の膜が圧縮されて流体力学的な浮力を生む、③ウィーピング潤滑：荷重で軟骨から滑液が染み出して表面を潤す。これら複数のメカニズムが協調して、人工関節を超える潤滑性能を実現しています。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "choices": [
+            {
+              "text": "軟骨表面が完全に平滑で鏡面のように磨かれているため",
+              "is_correct": false
+            },
+            {
+              "text": "滑液と軟骨の組み合わせによる複数の潤滑メカニズム（境界・流体・ウィーピング）が協調するため",
+              "is_correct": true
+            },
+            {
+              "text": "関節軟骨にはダイヤモンドと同じ硬度の結晶が含まれているため",
+              "is_correct": false
+            },
+            {
+              "text": "関節腔が真空状態に近く、空気抵抗がないため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["synovial-joint-structure-basics"]
+        },
+        {
+          "question_text": "適度な運動が関節軟骨の健康維持に不可欠である理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "関節軟骨は無血管組織であり、滑液が唯一の栄養源です。軟骨への栄養供給は「ウィーピング潤滑」というメカニズムで行われます。関節を動かすと、軟骨表面に荷重がかかり、スポンジを絞るように滑液が軟骨から出入りします。この「ポンプ作用」により栄養素と老廃物の交換が促進されます。長期間動かないと滑液の循環が悪くなり、軟骨の栄養不足と変性が進みます。これが「関節は使わないと悪くなる」理由です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "choices": [
+            {
+              "text": "運動すると軟骨内の血管が拡張して血流が増加するため",
+              "is_correct": false
+            },
+            {
+              "text": "運動の荷重変化で滑液が軟骨に出入りし、無血管の軟骨に栄養が供給されるため",
+              "is_correct": true
+            },
+            {
+              "text": "運動すると骨芽細胞が軟骨表面に新しい軟骨を追加するため",
+              "is_correct": false
+            },
+            {
+              "text": "運動すると関節包の線維膜が伸縮し、軟骨を物理的にマッサージするため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["synovial-joint-structure-basics"]
+        },
+        {
+          "question_text": "滑膜性関節の構成要素とその機能を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "関節軟骨は骨の関節面を覆う硝子軟骨で、摩擦を極限まで低減します。滑膜（関節包の内層）は滑液を産生・吸収し、関節腔内の環境を維持します。滑液はヒアルロン酸と間質液からなる粘稠な液体で、潤滑・栄養供給・衝撃吸収を担います。線維膜（関節包の外層）は緻密結合組織で関節の構造的安定性を提供します。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "metadata": {
+            "pairs": [
+              {"left": "関節軟骨", "right": "骨の関節面を覆い、摩擦を極限まで低減する"},
+              {"left": "滑膜", "right": "関節包の内層で滑液を産生・吸収する"},
+              {"left": "滑液", "right": "潤滑・栄養供給・衝撃吸収を担う粘稠な液体"},
+              {"left": "線維膜", "right": "関節包の外層で構造的安定性を提供する"}
+            ]
+          },
+          "choices": [
+            {
+              "text": "関節軟骨 → 骨の関節面を覆い、摩擦を極限まで低減する",
+              "is_correct": true
+            },
+            {
+              "text": "滑膜 → 関節包の内層で滑液を産生・吸収する",
+              "is_correct": true
+            },
+            {
+              "text": "滑液 → 潤滑・栄養供給・衝撃吸収を担う粘稠な液体",
+              "is_correct": true
+            },
+            {
+              "text": "線維膜 → 関節包の外層で構造的安定性を提供する",
+              "is_correct": true
+            }
+          ],
+          "reference_text_ids": ["synovial-joint-structure-basics"]
+        },
+        {
+          "question_text": "関節包が「二層構造」（外層の線維膜 + 内層の滑膜）になっていることの機能的意義として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "関節包の二層構造は異なる2つの機能を同時に満たすための設計です。外層の線維膜は緻密結合組織でできており、関節の脱臼を防ぐ構造的安定性を提供します。内層の滑膜は薄い結合組織で、滑液の産生・吸収を行い関節腔の内部環境を維持します。もし一層だけなら、頑丈さ（安定性）と柔軟さ（滑液産生・可動性）を両立できません。線維膜が「壁」、滑膜が「内装」のような役割分担です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "choices": [
+            {
+              "text": "外層は構造的安定性（脱臼防止）、内層は滑液産生という異なる機能を一つの構造で両立するため",
+              "is_correct": true
+            },
+            {
+              "text": "二層にすることで関節包の厚みを増し、外部からの細菌感染を防ぐため",
+              "is_correct": false
+            },
+            {
+              "text": "外層が断熱材として機能し、関節内の温度を体温より高く保つため",
+              "is_correct": false
+            },
+            {
+              "text": "二層の間にリンパ液が流れ、関節の免疫監視を行うため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["synovial-joint-structure-basics"]
+        },
+        {
+          "question_text": "変形性関節症（OA）で関節軟骨が摩耗した場合、自然に修復されにくい理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "関節軟骨が損傷後に修復されにくい根本的な理由は、軟骨が無血管組織であることです。通常の組織修復には血液によって運ばれる幹細胞、成長因子、免疫細胞が必要ですが、軟骨にはこれらが届きません。軟骨細胞（Chondrocyte）は軟骨マトリックスに閉じ込められて分裂能力が低く、新しい細胞の供給が限られます。このため、加齢や過度の使用で軟骨が摩耗すると回復が困難で、骨同士が直接こすれ合い痛みを生じます（変形性関節症）。これが「関節の老化」の主な原因です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "choices": [
+            {
+              "text": "関節軟骨は無血管組織で、修復に必要な幹細胞や成長因子が血液で運ばれてこないため",
+              "is_correct": true
+            },
+            {
+              "text": "滑液が軟骨の修復を化学的に抑制する因子を含んでいるため",
+              "is_correct": false
+            },
+            {
+              "text": "関節軟骨は成人では完全に石灰化しており、生きた細胞を含まないため",
+              "is_correct": false
+            },
+            {
+              "text": "関節の動きが常に軟骨に摩擦をかけ、修復する暇を与えないため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["synovial-joint-structure-basics"]
+        },
+        {
+          "question_text": "関節リウマチ（RA）では滑膜に慢性炎症が起こり、最終的に関節が破壊される。このメカニズムとして最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "関節リウマチは自己免疫疾患で、免疫系が誤って自分の滑膜を攻撃します。炎症を起こした滑膜は異常に増殖して「パンヌス」と呼ばれる肉芽組織を形成し、これが関節軟骨と骨を侵食します。また、炎症により過剰に分泌される酵素（MMP: マトリックスメタロプロテアーゼなど）が軟骨のコラーゲンとプロテオグリカンを分解します。さらに炎症性サイトカイン（TNF-α、IL-1、IL-6）が破骨細胞を活性化し、骨の吸収（破壊）を促進します。つまり滑膜の炎症→軟骨破壊→骨破壊という連鎖的な関節破壊が進行します。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "choices": [
+            {
+              "text": "滑液が減少して関節が乾燥し、摩擦による物理的な摩耗で軟骨が削られるため",
+              "is_correct": false
+            },
+            {
+              "text": "炎症で増殖した滑膜（パンヌス）が軟骨と骨を侵食し、炎症性酵素が軟骨を分解するため",
+              "is_correct": true
+            },
+            {
+              "text": "関節包の線維膜が石灰化して硬くなり、関節が物理的に動かなくなるため",
+              "is_correct": false
+            },
+            {
+              "text": "炎症で関節軟骨が急速に増殖し、関節腔を埋め尽くして動きが制限されるため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["synovial-joint-structure-basics"]
         }
       ]
     }
