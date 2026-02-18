@@ -187,20 +187,20 @@
           ],
           "choices": [
             {
-              "text": "長骨",
-              "is_correct": true
+              "text": "扁平骨",
+              "is_correct": false
             },
             {
               "text": "短骨",
               "is_correct": false
             },
             {
-              "text": "扁平骨",
+              "text": "不規則骨",
               "is_correct": false
             },
             {
-              "text": "不規則骨",
-              "is_correct": false
+              "text": "長骨",
+              "is_correct": true
             }
           ],
           "reference_text_ids": [
@@ -219,11 +219,7 @@
           },
           "choices": [
             {
-              "text": "短骨",
-              "is_correct": true
-            },
-            {
-              "text": "長骨",
+              "text": "種子骨",
               "is_correct": false
             },
             {
@@ -231,7 +227,11 @@
               "is_correct": false
             },
             {
-              "text": "種子骨",
+              "text": "短骨",
+              "is_correct": true
+            },
+            {
+              "text": "長骨",
               "is_correct": false
             }
           ],
@@ -248,11 +248,11 @@
           "source": "OpenStax Anatomy and Physiology 6.1",
           "choices": [
             {
-              "text": "てこの原理で筋の力を大きな動きに変えるため",
-              "is_correct": true
+              "text": "四肢は衝撃を吸収する必要があるため",
+              "is_correct": false
             },
             {
-              "text": "四肢は衝撃を吸収する必要があるため",
+              "text": "長骨は他の骨より軽いため",
               "is_correct": false
             },
             {
@@ -260,8 +260,8 @@
               "is_correct": false
             },
             {
-              "text": "長骨は他の骨より軽いため",
-              "is_correct": false
+              "text": "てこの原理で筋の力を大きな動きに変えるため",
+              "is_correct": true
             }
           ],
           "reference_text_ids": [
@@ -277,16 +277,16 @@
           "source": "OpenStax Anatomy and Physiology 6.1",
           "choices": [
             {
-              "text": "手首を多方向に動かせなくなる",
-              "is_correct": true
-            },
-            {
               "text": "手首が折れやすくなる",
               "is_correct": false
             },
             {
               "text": "手首の衝撃吸収力が高まる",
               "is_correct": false
+            },
+            {
+              "text": "手首を多方向に動かせなくなる",
+              "is_correct": true
             },
             {
               "text": "手全体が軽くなる",
@@ -348,10 +348,6 @@
           "source": "Gray's Anatomy / OpenStax Anatomy and Physiology 6.1",
           "choices": [
             {
-              "text": "小さくても長さが幅より大きく、骨幹と骨端の構造を持つから",
-              "is_correct": true
-            },
-            {
               "text": "指は手根骨より硬いから",
               "is_correct": false
             },
@@ -362,6 +358,10 @@
             {
               "text": "指は四肢の先端にあるから",
               "is_correct": false
+            },
+            {
+              "text": "小さくても長さが幅より大きく、骨幹と骨端の構造を持つから",
+              "is_correct": true
             }
           ],
           "reference_text_ids": [
@@ -377,11 +377,11 @@
           "source": "OpenStax Anatomy and Physiology 6.1",
           "choices": [
             {
-              "text": "てことして働き、筋の力を手先の速い動きに変換する",
-              "is_correct": true
+              "text": "上腕骨が衝撃を吸収してバットの振動を和らげる",
+              "is_correct": false
             },
             {
-              "text": "上腕骨が衝撃を吸収してバットの振動を和らげる",
+              "text": "上腕骨が軽いので腕を速く振ることができる",
               "is_correct": false
             },
             {
@@ -389,8 +389,8 @@
               "is_correct": false
             },
             {
-              "text": "上腕骨が軽いので腕を速く振ることができる",
-              "is_correct": false
+              "text": "てことして働き、筋の力を手先の速い動きに変換する",
+              "is_correct": true
             }
           ],
           "reference_text_ids": [
@@ -406,16 +406,16 @@
           "source": "Gray's Anatomy / OpenStax Anatomy and Physiology 6.1",
           "choices": [
             {
-              "text": "短骨が衝撃を分散した後、力が集中する橈骨遠位端は骨密度低下の影響を受けやすいから",
-              "is_correct": true
+              "text": "橈骨は手根骨より小さく弱いから",
+              "is_correct": false
             },
             {
               "text": "手根骨は長骨より硬い素材でできているから",
               "is_correct": false
             },
             {
-              "text": "橈骨は手根骨より小さく弱いから",
-              "is_correct": false
+              "text": "短骨が衝撃を分散した後、力が集中する橈骨遠位端は骨密度低下の影響を受けやすいから",
+              "is_correct": true
             },
             {
               "text": "転倒時は手根骨に力がかからないから",
@@ -465,19 +465,19 @@
           ],
           "choices": [
             {
-              "text": "扁平骨",
-              "is_correct": true
-            },
-            {
               "text": "不規則骨",
               "is_correct": false
             },
             {
-              "text": "短骨",
+              "text": "長骨",
               "is_correct": false
             },
             {
-              "text": "長骨",
+              "text": "扁平骨",
+              "is_correct": true
+            },
+            {
+              "text": "短骨",
               "is_correct": false
             }
           ],
@@ -501,11 +501,11 @@
               "is_correct": true
             },
             {
-              "text": "短骨",
+              "text": "扁平骨",
               "is_correct": false
             },
             {
-              "text": "扁平骨",
+              "text": "短骨",
               "is_correct": false
             },
             {
@@ -526,19 +526,19 @@
           "source": "OpenStax Anatomy and Physiology 6.1",
           "choices": [
             {
-              "text": "薄く広い形が臓器を覆う盾として適しているから",
-              "is_correct": true
-            },
-            {
-              "text": "扁平骨は他の骨より硬い素材でできているから",
-              "is_correct": false
-            },
-            {
               "text": "扁平骨は軽いので体の中心部に集まるから",
               "is_correct": false
             },
             {
               "text": "頭蓋骨には関節がないため扁平骨が適するから",
+              "is_correct": false
+            },
+            {
+              "text": "薄く広い形が臓器を覆う盾として適しているから",
+              "is_correct": true
+            },
+            {
+              "text": "扁平骨は他の骨より硬い素材でできているから",
               "is_correct": false
             }
           ],
@@ -555,20 +555,20 @@
           "source": "Gray's Anatomy / OpenStax Anatomy and Physiology 6.1",
           "choices": [
             {
-              "text": "保護・支持・筋付着など複数の機能を果たすため複雑な形が必要だから",
-              "is_correct": true
+              "text": "椎骨は柔らかい素材でできているため形が定まらないから",
+              "is_correct": false
             },
             {
               "text": "椎骨は成長中に形が不規則に変化するから",
               "is_correct": false
             },
             {
-              "text": "椎骨は柔らかい素材でできているため形が定まらないから",
+              "text": "不規則骨は体の中心にある骨の総称だから",
               "is_correct": false
             },
             {
-              "text": "不規則骨は体の中心にある骨の総称だから",
-              "is_correct": false
+              "text": "保護・支持・筋付着など複数の機能を果たすため複雑な形が必要だから",
+              "is_correct": true
             }
           ],
           "reference_text_ids": [
@@ -622,11 +622,7 @@
           "source": "Gray's Anatomy",
           "choices": [
             {
-              "text": "硬い外層で衝撃に耐え、中の海綿骨で衝撃を吸収して軽さも確保できる",
-              "is_correct": true
-            },
-            {
-              "text": "海綿骨があると血液を大量に送り込めるため骨が強くなる",
+              "text": "緻密骨が2層あるため扁平骨は他の骨の2倍の硬さを持つ",
               "is_correct": false
             },
             {
@@ -634,8 +630,12 @@
               "is_correct": false
             },
             {
-              "text": "緻密骨が2層あるため扁平骨は他の骨の2倍の硬さを持つ",
+              "text": "海綿骨があると血液を大量に送り込めるため骨が強くなる",
               "is_correct": false
+            },
+            {
+              "text": "硬い外層で衝撃に耐え、中の海綿骨で衝撃を吸収して軽さも確保できる",
+              "is_correct": true
             }
           ],
           "reference_text_ids": [
@@ -651,19 +651,19 @@
           "source": "Gray's Anatomy",
           "choices": [
             {
-              "text": "外側の緻密骨が打撃に抵抗し、板間層の海綿骨が衝撃を吸収し、内側の緻密骨が脳を守る",
-              "is_correct": true
+              "text": "脳脊髄液が衝撃を吸収するため頭蓋骨の構造は関係ない",
+              "is_correct": false
             },
             {
               "text": "頭蓋骨全体がバネのようにたわんで衝撃を逃がす",
               "is_correct": false
             },
             {
-              "text": "頭蓋骨の縫合線が開いて衝撃を分散する",
-              "is_correct": false
+              "text": "外側の緻密骨が打撃に抵抗し、板間層の海綿骨が衝撃を吸収し、内側の緻密骨が脳を守る",
+              "is_correct": true
             },
             {
-              "text": "脳脊髄液が衝撃を吸収するため頭蓋骨の構造は関係ない",
+              "text": "頭蓋骨の縫合線が開いて衝撃を分散する",
               "is_correct": false
             }
           ],
@@ -680,20 +680,20 @@
           "source": "Gray's Anatomy / OpenStax Anatomy and Physiology",
           "choices": [
             {
-              "text": "てこの効率が落ち、同じ膝伸展力を得るのにより大きな筋力が必要になる",
-              "is_correct": true
-            },
-            {
-              "text": "膝が全く伸ばせなくなる",
-              "is_correct": false
-            },
-            {
               "text": "膝の可動域が広がり過伸展しやすくなる",
               "is_correct": false
             },
             {
               "text": "大腿四頭筋の腱が切れやすくなる",
               "is_correct": false
+            },
+            {
+              "text": "膝が全く伸ばせなくなる",
+              "is_correct": false
+            },
+            {
+              "text": "てこの効率が落ち、同じ膝伸展力を得るのにより大きな筋力が必要になる",
+              "is_correct": true
             }
           ],
           "reference_text_ids": [
@@ -735,11 +735,11 @@
               "is_correct": false
             },
             {
-              "text": "骨膜",
+              "text": "骨髄",
               "is_correct": false
             },
             {
-              "text": "骨髄",
+              "text": "骨膜",
               "is_correct": false
             }
           ],
@@ -759,19 +759,19 @@
           },
           "choices": [
             {
-              "text": "海綿骨",
-              "is_correct": true
+              "text": "軟骨",
+              "is_correct": false
             },
             {
-              "text": "緻密骨",
-              "is_correct": false
+              "text": "海綿骨",
+              "is_correct": true
             },
             {
               "text": "骨膜",
               "is_correct": false
             },
             {
-              "text": "軟骨",
+              "text": "緻密骨",
               "is_correct": false
             }
           ],
@@ -788,11 +788,11 @@
           "source": "OpenStax Anatomy and Physiology 6.3",
           "choices": [
             {
-              "text": "曲げやねじれの力が集中するため、高い強度が必要だから",
-              "is_correct": true
+              "text": "骨幹部には血管が多いため、緻密骨で保護する必要があるから",
+              "is_correct": false
             },
             {
-              "text": "骨幹部には血管が多いため、緻密骨で保護する必要があるから",
+              "text": "骨幹部には筋が直接付着するため、硬くなければならないから",
               "is_correct": false
             },
             {
@@ -800,8 +800,8 @@
               "is_correct": false
             },
             {
-              "text": "骨幹部には筋が直接付着するため、硬くなければならないから",
-              "is_correct": false
+              "text": "曲げやねじれの力が集中するため、高い強度が必要だから",
+              "is_correct": true
             }
           ],
           "reference_text_ids": [
@@ -817,19 +817,19 @@
           "source": "Gray's Anatomy / OpenStax Anatomy and Physiology 6.3",
           "choices": [
             {
-              "text": "最小限の素材で力に対する最大限の強度を実現できる",
-              "is_correct": true
-            },
-            {
               "text": "骨梁を一方向に揃えることで骨髄の流れがスムーズになる",
               "is_correct": false
             },
             {
-              "text": "骨梁が同じ方向に並ぶと骨折時にきれいに折れて治りやすい",
+              "text": "力の方向に骨梁が並ぶと新しい骨を作る速度が上がる",
               "is_correct": false
             },
             {
-              "text": "力の方向に骨梁が並ぶと新しい骨を作る速度が上がる",
+              "text": "最小限の素材で力に対する最大限の強度を実現できる",
+              "is_correct": true
+            },
+            {
+              "text": "骨梁が同じ方向に並ぶと骨折時にきれいに折れて治りやすい",
               "is_correct": false
             }
           ],
@@ -888,11 +888,7 @@
           "source": "Gray's Anatomy / OpenStax Anatomy and Physiology 6.3",
           "choices": [
             {
-              "text": "中空のパイプは中実の棒より同じ重さで曲げに強いから",
-              "is_correct": true
-            },
-            {
-              "text": "骨髄を作るスペースが必要だから",
+              "text": "骨の内部には血管が通れないため空洞にする必要があるから",
               "is_correct": false
             },
             {
@@ -900,8 +896,12 @@
               "is_correct": false
             },
             {
-              "text": "骨の内部には血管が通れないため空洞にする必要があるから",
+              "text": "骨髄を作るスペースが必要だから",
               "is_correct": false
+            },
+            {
+              "text": "中空のパイプは中実の棒より同じ重さで曲げに強いから",
+              "is_correct": true
             }
           ],
           "reference_text_ids": [
@@ -951,15 +951,15 @@
               "is_correct": true
             },
             {
-              "text": "緻密骨が厚くなりすぎて脊柱が曲がりやすくなるから",
-              "is_correct": false
-            },
-            {
               "text": "椎間板が骨粗鬆症で硬くなり脊柱が固まるから",
               "is_correct": false
             },
             {
               "text": "背中の筋肉が衰えて姿勢を維持できなくなるだけで骨は関係ないから",
+              "is_correct": false
+            },
+            {
+              "text": "緻密骨が厚くなりすぎて脊柱が曲がりやすくなるから",
               "is_correct": false
             }
           ],
@@ -999,7 +999,7 @@
               "is_correct": true
             },
             {
-              "text": "骨髄",
+              "text": "骨内膜",
               "is_correct": false
             },
             {
@@ -1007,7 +1007,7 @@
               "is_correct": false
             },
             {
-              "text": "骨内膜",
+              "text": "骨髄",
               "is_correct": false
             }
           ],
@@ -1027,11 +1027,11 @@
           },
           "choices": [
             {
-              "text": "赤色骨髄",
-              "is_correct": true
+              "text": "黄色骨髄",
+              "is_correct": false
             },
             {
-              "text": "黄色骨髄",
+              "text": "海綿骨",
               "is_correct": false
             },
             {
@@ -1039,8 +1039,8 @@
               "is_correct": false
             },
             {
-              "text": "海綿骨",
-              "is_correct": false
+              "text": "赤色骨髄",
+              "is_correct": true
             }
           ],
           "reference_text_ids": [
@@ -1056,19 +1056,19 @@
           "source": "Gray's Anatomy / OpenStax Anatomy and Physiology 6.3",
           "choices": [
             {
-              "text": "骨の損傷を痛みで知らせ、その部位を保護する警告機能を果たす",
-              "is_correct": true
-            },
-            {
-              "text": "神経が骨の成長速度をコントロールしている",
-              "is_correct": false
-            },
-            {
               "text": "神経を通じて骨の内部温度を調節している",
               "is_correct": false
             },
             {
               "text": "神経が筋の収縮を骨に直接伝えている",
+              "is_correct": false
+            },
+            {
+              "text": "骨の損傷を痛みで知らせ、その部位を保護する警告機能を果たす",
+              "is_correct": true
+            },
+            {
+              "text": "神経が骨の成長速度をコントロールしている",
               "is_correct": false
             }
           ],
@@ -1085,15 +1085,15 @@
           "source": "OpenStax Anatomy and Physiology 6.3",
           "choices": [
             {
+              "text": "成人の骨は硬くなりすぎて赤色骨髄が入れなくなるから",
+              "is_correct": false
+            },
+            {
               "text": "成長が止まると造血需要が減り、不要な部位の赤色骨髄が脂肪（黄色骨髄）に置き換わるから",
               "is_correct": true
             },
             {
               "text": "加齢で骨の内部温度が下がり、赤色骨髄が生存できなくなるから",
-              "is_correct": false
-            },
-            {
-              "text": "成人の骨は硬くなりすぎて赤色骨髄が入れなくなるから",
               "is_correct": false
             },
             {
@@ -1156,19 +1156,19 @@
           "source": "Gray's Anatomy / OpenStax Anatomy and Physiology 6.5",
           "choices": [
             {
-              "text": "骨膜（内層の骨芽細胞が仮骨形成を開始する）",
-              "is_correct": true
-            },
-            {
               "text": "赤色骨髄（造血細胞が修復細胞に変わる）",
               "is_correct": false
             },
             {
-              "text": "海綿骨（骨梁が折れた部分を埋める）",
+              "text": "緻密骨（ハバース系が再生を開始する）",
               "is_correct": false
             },
             {
-              "text": "緻密骨（ハバース系が再生を開始する）",
+              "text": "骨膜（内層の骨芽細胞が仮骨形成を開始する）",
+              "is_correct": true
+            },
+            {
+              "text": "海綿骨（骨梁が折れた部分を埋める）",
               "is_correct": false
             }
           ],
@@ -1185,11 +1185,7 @@
           "source": "Gray's Anatomy / Clinical Hematology",
           "choices": [
             {
-              "text": "成人でも赤色骨髄が豊富で、体表面に近く穿刺しやすいから",
-              "is_correct": true
-            },
-            {
-              "text": "胸骨の骨髄は他の骨より細胞の種類が多いから",
+              "text": "胸骨は骨膜がないため穿刺の痛みが少ないから",
               "is_correct": false
             },
             {
@@ -1197,8 +1193,12 @@
               "is_correct": false
             },
             {
-              "text": "胸骨は骨膜がないため穿刺の痛みが少ないから",
+              "text": "胸骨の骨髄は他の骨より細胞の種類が多いから",
               "is_correct": false
+            },
+            {
+              "text": "成人でも赤色骨髄が豊富で、体表面に近く穿刺しやすいから",
+              "is_correct": true
             }
           ],
           "reference_text_ids": [
@@ -1214,19 +1214,19 @@
           "source": "OpenStax Anatomy and Physiology 6.3 / Clinical Hematology",
           "choices": [
             {
-              "text": "黄色骨髄が赤色骨髄に再変換され、予備の造血工場が稼働する",
-              "is_correct": true
-            },
-            {
               "text": "骨膜から直接血液細胞が産生される",
               "is_correct": false
             },
             {
-              "text": "既存の赤血球が分裂して数を増やす",
+              "text": "緻密骨が溶けて骨髄の空間が広がり造血が増える",
               "is_correct": false
             },
             {
-              "text": "緻密骨が溶けて骨髄の空間が広がり造血が増える",
+              "text": "黄色骨髄が赤色骨髄に再変換され、予備の造血工場が稼働する",
+              "is_correct": true
+            },
+            {
+              "text": "既存の赤血球が分裂して数を増やす",
               "is_correct": false
             }
           ],
@@ -1261,19 +1261,19 @@
           "source": "OpenStax Anatomy and Physiology 6.4",
           "choices": [
             {
-              "text": "骨端板（成長板）",
-              "is_correct": true
+              "text": "関節軟骨",
+              "is_correct": false
             },
             {
               "text": "骨膜",
               "is_correct": false
             },
             {
-              "text": "骨髄腔",
-              "is_correct": false
+              "text": "骨端板（成長板）",
+              "is_correct": true
             },
             {
-              "text": "関節軟骨",
+              "text": "骨髄腔",
               "is_correct": false
             }
           ],
@@ -1322,19 +1322,19 @@
           "source": "OpenStax Anatomy and Physiology 6.4",
           "choices": [
             {
-              "text": "軟骨はX線を透過するため、骨の間に暗い線として映るから",
-              "is_correct": true
-            },
-            {
-              "text": "骨端板は特殊な金属を含んでいるため光って見えるから",
-              "is_correct": false
-            },
-            {
               "text": "骨端板の周囲に空気が入っているためコントラストがつくから",
               "is_correct": false
             },
             {
+              "text": "軟骨はX線を透過するため、骨の間に暗い線として映るから",
+              "is_correct": true
+            },
+            {
               "text": "骨端板の血管が造影剤なしでもX線に映るから",
+              "is_correct": false
+            },
+            {
+              "text": "骨端板は特殊な金属を含んでいるため光って見えるから",
               "is_correct": false
             }
           ],
@@ -1355,7 +1355,7 @@
               "is_correct": true
             },
             {
-              "text": "骨が硬くなりすぎて柔軟性を失う",
+              "text": "骨が大きくなりすぎて関節が動かなくなる",
               "is_correct": false
             },
             {
@@ -1363,7 +1363,7 @@
               "is_correct": false
             },
             {
-              "text": "骨が大きくなりすぎて関節が動かなくなる",
+              "text": "骨が硬くなりすぎて柔軟性を失う",
               "is_correct": false
             }
           ],
@@ -1451,19 +1451,19 @@
           "source": "Gray's Anatomy / Salter-Harris Classification",
           "choices": [
             {
-              "text": "骨の成長が部分的に止まり、変形や左右の長さの差が生じる可能性がある",
-              "is_correct": true
-            },
-            {
               "text": "骨端板が消失して骨が短くなり二度と伸びなくなる",
               "is_correct": false
             },
             {
-              "text": "骨折部位から感染が広がり骨髄炎が必ず起こる",
+              "text": "骨端板が過剰に再生して骨が異常に長くなる",
               "is_correct": false
             },
             {
-              "text": "骨端板が過剰に再生して骨が異常に長くなる",
+              "text": "骨の成長が部分的に止まり、変形や左右の長さの差が生じる可能性がある",
+              "is_correct": true
+            },
+            {
+              "text": "骨折部位から感染が広がり骨髄炎が必ず起こる",
               "is_correct": false
             }
           ],
@@ -1480,16 +1480,16 @@
           "source": "OpenStax Anatomy and Physiology 6.6 / Wolff's Law",
           "choices": [
             {
-              "text": "運動による力学的ストレスが骨形成を促進し、骨密度が増加するから",
-              "is_correct": true
-            },
-            {
               "text": "運動で体温が上がると骨の代謝が活発になり硬くなるから",
               "is_correct": false
             },
             {
               "text": "運動で血流が増えるとカルシウムが骨に自然に沈着するから",
               "is_correct": false
+            },
+            {
+              "text": "運動による力学的ストレスが骨形成を促進し、骨密度が増加するから",
+              "is_correct": true
             },
             {
               "text": "運動すると破骨細胞が死滅して骨吸収が完全に止まるから",
@@ -1531,10 +1531,6 @@
           "source": "OpenStax Anatomy and Physiology 6.6 / Lu et al., 2016, Topics in Geriatric Rehabilitation, doi:10.1097/TGR.0000000000000085",
           "choices": [
             {
-              "text": "荷重によるストレスが骨形成を促進し、骨密度の維持・増加につながる",
-              "is_correct": true
-            },
-            {
               "text": "片脚に負荷がかかりすぎるため骨が弱くなる",
               "is_correct": false
             },
@@ -1545,6 +1541,10 @@
             {
               "text": "支持脚の骨髄で造血が活性化される",
               "is_correct": false
+            },
+            {
+              "text": "荷重によるストレスが骨形成を促進し、骨密度の維持・増加につながる",
+              "is_correct": true
             }
           ],
           "reference_text_ids": [
@@ -1564,12 +1564,12 @@
           },
           "choices": [
             {
-              "text": "アライメント",
-              "is_correct": true
-            },
-            {
               "text": "プラーナヤーマ",
               "is_correct": false
+            },
+            {
+              "text": "アライメント",
+              "is_correct": true
             },
             {
               "text": "バンダ",
@@ -1597,11 +1597,11 @@
               "is_correct": true
             },
             {
-              "text": "膝が前に出ると脛骨が骨折する危険があるから",
+              "text": "見た目のフォームを美しくするため",
               "is_correct": false
             },
             {
-              "text": "見た目のフォームを美しくするため",
+              "text": "膝が前に出ると脛骨が骨折する危険があるから",
               "is_correct": false
             },
             {
@@ -1622,19 +1622,19 @@
           "source": "Hardy & Cooper, 2009, J Endocrinol, doi:10.1677/JOE-08-0568 / OpenStax Anatomy and Physiology 6.6",
           "choices": [
             {
-              "text": "コルチゾールの持続的上昇が骨芽細胞を抑制し、骨吸収を促進するから",
-              "is_correct": true
-            },
-            {
               "text": "ストレスで食欲が落ちてカルシウム摂取が減るだけ",
               "is_correct": false
             },
             {
-              "text": "ストレスで体温が上がり骨のコラーゲンが変性するから",
-              "is_correct": false
+              "text": "コルチゾールの持続的上昇が骨芽細胞を抑制し、骨吸収を促進するから",
+              "is_correct": true
             },
             {
               "text": "ストレスで筋緊張が増すと骨が圧迫されて薄くなるから",
+              "is_correct": false
+            },
+            {
+              "text": "ストレスで体温が上がり骨のコラーゲンが変性するから",
               "is_correct": false
             }
           ],
@@ -1695,8 +1695,8 @@
           "source": "OpenStax Anatomy and Physiology 6.1, 6.6 / Fishman, 2009, Topics in Geriatric Rehabilitation, doi:10.1097/TGR.0b013e3181b02dd6",
           "choices": [
             {
-              "text": "手足を通じて四肢の長骨と手首・足首の短骨の両方に荷重がかかるから",
-              "is_correct": true
+              "text": "手首に全体重がかかることで短骨が長骨に変わるから",
+              "is_correct": false
             },
             {
               "text": "逆さまの体勢により骨に通常と逆方向の力がかかるから",
@@ -1707,8 +1707,8 @@
               "is_correct": false
             },
             {
-              "text": "手首に全体重がかかることで短骨が長骨に変わるから",
-              "is_correct": false
+              "text": "手足を通じて四肢の長骨と手首・足首の短骨の両方に荷重がかかるから",
+              "is_correct": true
             }
           ],
           "reference_text_ids": [
@@ -1726,19 +1726,19 @@
           "source": "OpenStax Anatomy and Physiology 6.6 / Lu et al., 2016, Topics in Geriatric Rehabilitation, doi:10.1097/TGR.0000000000000085 / Hardy & Cooper, 2009, J Endocrinol, doi:10.1677/JOE-08-0568",
           "choices": [
             {
-              "text": "荷重ポーズで骨形成を促進し、安全なアライメントで骨折リスク部位を保護する",
-              "is_correct": true
+              "text": "リストラティブヨガだけを行いストレスを完全に除去する",
+              "is_correct": false
             },
             {
               "text": "柔軟性を高めるポーズを中心にして関節の可動域を広げる",
               "is_correct": false
             },
             {
-              "text": "激しいヴィンヤサで心拍数を上げてカルシウムの吸収を促す",
-              "is_correct": false
+              "text": "荷重ポーズで骨形成を促進し、安全なアライメントで骨折リスク部位を保護する",
+              "is_correct": true
             },
             {
-              "text": "リストラティブヨガだけを行いストレスを完全に除去する",
+              "text": "激しいヴィンヤサで心拍数を上げてカルシウムの吸収を促す",
               "is_correct": false
             }
           ],
@@ -1757,16 +1757,16 @@
           "source": "Mehling et al., 2012, PLOS ONE, doi:10.1371/journal.pone.0048230 / OpenStax Psychology 2e, Ch.5 / OpenStax Anatomy and Physiology 6.3",
           "choices": [
             {
-              "text": "内受容感覚を活性化し、身体への気づきを深めることで情動調節とアライメントの自己修正の両方を促す",
-              "is_correct": true
+              "text": "骨を意識すると骨芽細胞が直接活性化されて骨が強くなる",
+              "is_correct": false
             },
             {
               "text": "骨膜の神経を刺激して痛みの閾値を上げるためのトレーニングである",
               "is_correct": false
             },
             {
-              "text": "骨を意識すると骨芽細胞が直接活性化されて骨が強くなる",
-              "is_correct": false
+              "text": "内受容感覚を活性化し、身体への気づきを深めることで情動調節とアライメントの自己修正の両方を促す",
+              "is_correct": true
             },
             {
               "text": "リラクゼーション効果を高めるための比喩的な表現にすぎない",
@@ -1805,8 +1805,8 @@
           "source": "OpenStax Anatomy and Physiology 6.5",
           "choices": [
             {
-              "text": "骨折部に血腫（血の塊）が形成される",
-              "is_correct": true
+              "text": "破骨細胞が折れた骨の断面を滑らかにする",
+              "is_correct": false
             },
             {
               "text": "骨芽細胞がすぐに新しい骨を形成し始める",
@@ -1817,8 +1817,8 @@
               "is_correct": false
             },
             {
-              "text": "破骨細胞が折れた骨の断面を滑らかにする",
-              "is_correct": false
+              "text": "骨折部に血腫（血の塊）が形成される",
+              "is_correct": true
             }
           ],
           "reference_text_ids": [
@@ -1837,19 +1837,19 @@
           },
           "choices": [
             {
-              "text": "骨粗鬆症",
-              "is_correct": true
+              "text": "骨肉腫",
+              "is_correct": false
             },
             {
-              "text": "骨軟化症",
-              "is_correct": false
+              "text": "骨粗鬆症",
+              "is_correct": true
             },
             {
               "text": "骨髄炎",
               "is_correct": false
             },
             {
-              "text": "骨肉腫",
+              "text": "骨軟化症",
               "is_correct": false
             }
           ],
@@ -1866,19 +1866,19 @@
           "source": "OpenStax Anatomy and Physiology 6.5",
           "choices": [
             {
-              "text": "修復に必要な細胞を呼び寄せ、仮骨形成の足場を提供する",
-              "is_correct": true
-            },
-            {
               "text": "骨折部を冷却して炎症を抑制する",
               "is_correct": false
             },
             {
-              "text": "折れた骨の断端を接着する糊のような働きをする",
-              "is_correct": false
+              "text": "修復に必要な細胞を呼び寄せ、仮骨形成の足場を提供する",
+              "is_correct": true
             },
             {
               "text": "細菌の侵入を物理的にブロックする防壁となる",
+              "is_correct": false
+            },
+            {
+              "text": "折れた骨の断端を接着する糊のような働きをする",
               "is_correct": false
             }
           ],
@@ -1895,19 +1895,19 @@
           "source": "OpenStax Anatomy and Physiology 6.5",
           "choices": [
             {
-              "text": "仮骨が繰り返し破壊され、骨が癒合しない偽関節になるリスクがある",
-              "is_correct": true
-            },
-            {
-              "text": "固定しなくても治癒速度は変わらないが痛みが長引く",
-              "is_correct": false
-            },
-            {
               "text": "骨が異常に太く再生して元の形に戻らなくなる",
               "is_correct": false
             },
             {
+              "text": "仮骨が繰り返し破壊され、骨が癒合しない偽関節になるリスクがある",
+              "is_correct": true
+            },
+            {
               "text": "骨ではなく筋肉に置き換わってしまう",
+              "is_correct": false
+            },
+            {
+              "text": "固定しなくても治癒速度は変わらないが痛みが長引く",
               "is_correct": false
             }
           ],
@@ -1965,8 +1965,8 @@
           "source": "OpenStax Anatomy and Physiology 6.6",
           "choices": [
             {
-              "text": "海綿骨の骨梁が薄く少なくなり、緻密骨も薄くなることで骨全体が脆弱になる",
-              "is_correct": true
+              "text": "骨膜が消失して外からの保護がなくなる",
+              "is_correct": false
             },
             {
               "text": "骨のカルシウムが別のミネラルに置き換わり硬さが失われる",
@@ -1977,8 +1977,8 @@
               "is_correct": false
             },
             {
-              "text": "骨膜が消失して外からの保護がなくなる",
-              "is_correct": false
+              "text": "海綿骨の骨梁が薄く少なくなり、緻密骨も薄くなることで骨全体が脆弱になる",
+              "is_correct": true
             }
           ],
           "reference_text_ids": [
@@ -1996,16 +1996,16 @@
           "source": "OpenStax Anatomy and Physiology 6.5, 6.6",
           "choices": [
             {
-              "text": "長期臥床による合併症（肺炎・血栓・筋萎縮）のリスクが高く、生命予後に直結するから",
-              "is_correct": true
-            },
-            {
               "text": "大腿骨は最も硬い骨なので、折れるときに周囲の神経を大きく損傷するから",
               "is_correct": false
             },
             {
               "text": "大腿骨頸部には骨髄が多く、骨折で大量出血するから",
               "is_correct": false
+            },
+            {
+              "text": "長期臥床による合併症（肺炎・血栓・筋萎縮）のリスクが高く、生命予後に直結するから",
+              "is_correct": true
             },
             {
               "text": "高齢者は痛みを感じにくいため骨折に気づかず悪化するから",
@@ -2026,6 +2026,10 @@
           "source": "OpenStax Anatomy and Physiology 6.6 / Hardy & Cooper, 2009, J Endocrinol, doi:10.1677/JOE-08-0568",
           "choices": [
             {
+              "text": "骨密度は遺伝で決まるので生活習慣では変えられない",
+              "is_correct": false
+            },
+            {
               "text": "荷重運動で骨形成を促進し、カルシウム・ビタミンDを十分に摂り、ストレス管理と禁煙も行う",
               "is_correct": true
             },
@@ -2035,10 +2039,6 @@
             },
             {
               "text": "水泳やサイクリングなど関節に負荷がかからない運動が最も効果的",
-              "is_correct": false
-            },
-            {
-              "text": "骨密度は遺伝で決まるので生活習慣では変えられない",
               "is_correct": false
             }
           ],
@@ -2075,10 +2075,6 @@
           "source": "OpenStax Anatomy and Physiology 7.3",
           "choices": [
             {
-              "text": "S字状の弯曲（4つのカーブが交互に並ぶ）",
-              "is_correct": true
-            },
-            {
               "text": "まっすぐな一直線（ストレート）",
               "is_correct": false
             },
@@ -2089,6 +2085,10 @@
             {
               "text": "螺旋状にねじれている",
               "is_correct": false
+            },
+            {
+              "text": "S字状の弯曲（4つのカーブが交互に並ぶ）",
+              "is_correct": true
             }
           ],
           "reference_text_ids": [
@@ -2107,8 +2107,8 @@
           },
           "choices": [
             {
-              "text": "髄核",
-              "is_correct": true
+              "text": "関節軟骨",
+              "is_correct": false
             },
             {
               "text": "線維輪",
@@ -2119,8 +2119,8 @@
               "is_correct": false
             },
             {
-              "text": "関節軟骨",
-              "is_correct": false
+              "text": "髄核",
+              "is_correct": true
             }
           ],
           "reference_text_ids": [
@@ -2136,11 +2136,11 @@
           "source": "OpenStax Anatomy and Physiology 7.3",
           "choices": [
             {
-              "text": "衝撃をバネのように分散し、重心を支持基底面の上に保って直立姿勢を効率的に維持する",
-              "is_correct": true
+              "text": "脊髄をより多くの骨で囲むことで保護を強化する",
+              "is_correct": false
             },
             {
-              "text": "脊髄をより多くの骨で囲むことで保護を強化する",
+              "text": "内臓を収納するスペースを脊柱の前方に確保する",
               "is_correct": false
             },
             {
@@ -2148,8 +2148,8 @@
               "is_correct": false
             },
             {
-              "text": "内臓を収納するスペースを脊柱の前方に確保する",
-              "is_correct": false
+              "text": "衝撃をバネのように分散し、重心を支持基底面の上に保って直立姿勢を効率的に維持する",
+              "is_correct": true
             }
           ],
           "reference_text_ids": [
@@ -2169,7 +2169,7 @@
               "is_correct": true
             },
             {
-              "text": "椎間板が左右にずれて脊柱が側弯する",
+              "text": "椎間板が完全に潰れて隣接する椎骨が直接こすれ合う",
               "is_correct": false
             },
             {
@@ -2177,7 +2177,7 @@
               "is_correct": false
             },
             {
-              "text": "椎間板が完全に潰れて隣接する椎骨が直接こすれ合う",
+              "text": "椎間板が左右にずれて脊柱が側弯する",
               "is_correct": false
             }
           ],
@@ -2239,15 +2239,15 @@
               "is_correct": true
             },
             {
-              "text": "一次弯曲は加齢で消失するが二次弯曲は生涯維持される",
-              "is_correct": false
-            },
-            {
               "text": "一次弯曲は骨の形状で、二次弯曲は筋肉の緊張で作られる",
               "is_correct": false
             },
             {
               "text": "一次弯曲は男性に特徴的で二次弯曲は女性に特徴的",
+              "is_correct": false
+            },
+            {
+              "text": "一次弯曲は加齢で消失するが二次弯曲は生涯維持される",
               "is_correct": false
             }
           ],
@@ -2264,19 +2264,19 @@
           "source": "OpenStax Anatomy and Physiology 7.3, 9.1",
           "choices": [
             {
-              "text": "腰椎の正常な前弯が失われ、椎間板の後方に持続的な圧力がかかり、背部の筋も疲労している",
-              "is_correct": true
+              "text": "前かがみで腰椎の前弯が過度に増大し、椎骨同士がぶつかっている",
+              "is_correct": false
             },
             {
-              "text": "椅子に座ると脊柱が伸びすぎて椎骨間が広がり、神経が引っ張られている",
-              "is_correct": false
+              "text": "腰椎の正常な前弯が失われ、椎間板の後方に持続的な圧力がかかり、背部の筋も疲労している",
+              "is_correct": true
             },
             {
               "text": "座位では重力がかからないので骨密度が低下し、骨自体が痛みを発している",
               "is_correct": false
             },
             {
-              "text": "前かがみで腰椎の前弯が過度に増大し、椎骨同士がぶつかっている",
+              "text": "椅子に座ると脊柱が伸びすぎて椎骨間が広がり、神経が引っ張られている",
               "is_correct": false
             }
           ],
@@ -2298,15 +2298,15 @@
               "is_correct": true
             },
             {
+              "text": "腰をかばう歩き方により足の筋肉が疲労してしびれが出ている",
+              "is_correct": false
+            },
+            {
               "text": "椎間板の破片が血流に乗って足まで運ばれ、血管を詰まらせている",
               "is_correct": false
             },
             {
               "text": "腰の痛みが脳に伝わるとき、脳が誤って足の信号と混同している",
-              "is_correct": false
-            },
-            {
-              "text": "腰をかばう歩き方により足の筋肉が疲労してしびれが出ている",
               "is_correct": false
             }
           ],
@@ -2374,10 +2374,6 @@
           },
           "choices": [
             {
-              "text": "棘突起",
-              "is_correct": true
-            },
-            {
               "text": "横突起",
               "is_correct": false
             },
@@ -2388,6 +2384,10 @@
             {
               "text": "椎弓根",
               "is_correct": false
+            },
+            {
+              "text": "棘突起",
+              "is_correct": true
             }
           ],
           "reference_text_ids": [
@@ -2403,20 +2403,20 @@
           "source": "OpenStax Anatomy and Physiology 7.3",
           "choices": [
             {
-              "text": "前方の椎体で体重を支え、後方の椎弓で脊髄を保護するという2つの機能を同時に果たすため",
-              "is_correct": true
-            },
-            {
-              "text": "2つに分かれていることで椎骨自体の重さを軽くするため",
-              "is_correct": false
-            },
-            {
               "text": "椎体と椎弓の間に血管を通すため",
               "is_correct": false
             },
             {
               "text": "成長期に椎体と椎弓が別々に発育する名残で機能的意味はない",
               "is_correct": false
+            },
+            {
+              "text": "2つに分かれていることで椎骨自体の重さを軽くするため",
+              "is_correct": false
+            },
+            {
+              "text": "前方の椎体で体重を支え、後方の椎弓で脊髄を保護するという2つの機能を同時に果たすため",
+              "is_correct": true
             }
           ],
           "reference_text_ids": [
@@ -2432,19 +2432,19 @@
           "source": "OpenStax Anatomy and Physiology 7.3",
           "choices": [
             {
-              "text": "脊柱の下部ほど支える体重が増えるため、より大きな荷重面積が必要だから",
-              "is_correct": true
+              "text": "腰椎は運動量が多いため、筋の付着面積を広くする必要があるから",
+              "is_correct": false
             },
             {
-              "text": "腰椎は椎間板がないため、椎体自体がクッションの役割を果たすから",
-              "is_correct": false
+              "text": "脊柱の下部ほど支える体重が増えるため、より大きな荷重面積が必要だから",
+              "is_correct": true
             },
             {
               "text": "腰椎には大きな血管が通るため、それを収容するスペースが必要だから",
               "is_correct": false
             },
             {
-              "text": "腰椎は運動量が多いため、筋の付着面積を広くする必要があるから",
+              "text": "腰椎は椎間板がないため、椎体自体がクッションの役割を果たすから",
               "is_correct": false
             }
           ],
@@ -2503,10 +2503,6 @@
           "source": "OpenStax Anatomy and Physiology 7.3, 7.4",
           "choices": [
             {
-              "text": "肋骨と関節しており、胸郭を形成しているため動きが制限される",
-              "is_correct": true
-            },
-            {
               "text": "胸椎は他の部位より椎間板が薄いため柔軟性が低い",
               "is_correct": false
             },
@@ -2517,6 +2513,10 @@
             {
               "text": "脊髄が胸椎の部分で最も太いため、動くと損傷のリスクがある",
               "is_correct": false
+            },
+            {
+              "text": "肋骨と関節しており、胸郭を形成しているため動きが制限される",
+              "is_correct": true
             }
           ],
           "reference_text_ids": [
@@ -2533,11 +2533,7 @@
           "source": "OpenStax Anatomy and Physiology 7.3, 9.1",
           "choices": [
             {
-              "text": "腰を丸めると椎間板に不均等な圧力がかかり、膝を曲げて腰を保つと荷重が脚の筋に分散される",
-              "is_correct": true
-            },
-            {
-              "text": "持ち上げ方に関係なく、重さが同じなら腰椎への負担も同じ",
+              "text": "腰を丸めた方が脊柱の筋が弛緩してリラックスするので負担が少ない",
               "is_correct": false
             },
             {
@@ -2545,7 +2541,11 @@
               "is_correct": false
             },
             {
-              "text": "腰を丸めた方が脊柱の筋が弛緩してリラックスするので負担が少ない",
+              "text": "腰を丸めると椎間板に不均等な圧力がかかり、膝を曲げて腰を保つと荷重が脚の筋に分散される",
+              "is_correct": true
+            },
+            {
+              "text": "持ち上げ方に関係なく、重さが同じなら腰椎への負担も同じ",
               "is_correct": false
             }
           ],
@@ -2563,19 +2563,19 @@
           "source": "OpenStax Anatomy and Physiology 7.3",
           "choices": [
             {
-              "text": "直立時は腰椎伸展で脊柱管が狭まり神経を圧迫するが、前屈すると脊柱管が広がり圧迫が緩和されるから",
-              "is_correct": true
-            },
-            {
               "text": "歩行で椎間板が振動により圧縮され、座ると元に戻るから",
               "is_correct": false
             },
             {
-              "text": "歩行時に棘突起が筋肉を刺激して痛みが出るが、座ると接触がなくなるから",
+              "text": "立位では重力で脊髄が引き伸ばされ、座位では弛緩するから",
               "is_correct": false
             },
             {
-              "text": "立位では重力で脊髄が引き伸ばされ、座位では弛緩するから",
+              "text": "直立時は腰椎伸展で脊柱管が狭まり神経を圧迫するが、前屈すると脊柱管が広がり圧迫が緩和されるから",
+              "is_correct": true
+            },
+            {
+              "text": "歩行時に棘突起が筋肉を刺激して痛みが出るが、座ると接触がなくなるから",
               "is_correct": false
             }
           ],
@@ -2623,11 +2623,11 @@
               "is_correct": false
             },
             {
-              "text": "椎間板が徐々に薄くなり柔軟性が高まる",
+              "text": "髄核が硬化して椎間板の強度が上がる",
               "is_correct": false
             },
             {
-              "text": "髄核が硬化して椎間板の強度が上がる",
+              "text": "椎間板が徐々に薄くなり柔軟性が高まる",
               "is_correct": false
             }
           ],
@@ -2648,19 +2648,19 @@
           },
           "choices": [
             {
-              "text": "回旋",
-              "is_correct": true
+              "text": "振動",
+              "is_correct": false
             },
             {
-              "text": "牽引",
-              "is_correct": false
+              "text": "回旋",
+              "is_correct": true
             },
             {
               "text": "圧縮",
               "is_correct": false
             },
             {
-              "text": "振動",
+              "text": "牽引",
               "is_correct": false
             }
           ],
@@ -2678,16 +2678,16 @@
           "source": "OpenStax Anatomy and Physiology 7.3, 9.1 / Kaminoff & Matthews, Yoga Anatomy, 2011",
           "choices": [
             {
-              "text": "椎間板の前方が伸張し後方が圧縮され、髄核は前方に移動する傾向がある",
-              "is_correct": true
+              "text": "椎間板の後方が伸張し、髄核がさらに後方に押し出される",
+              "is_correct": false
             },
             {
               "text": "椎間板全体が均等に圧縮され、椎骨が上下に近づく",
               "is_correct": false
             },
             {
-              "text": "椎間板の後方が伸張し、髄核がさらに後方に押し出される",
-              "is_correct": false
+              "text": "椎間板の前方が伸張し後方が圧縮され、髄核は前方に移動する傾向がある",
+              "is_correct": true
             },
             {
               "text": "椎間板への力はゼロになり、完全にリラックスした状態になる",
@@ -2708,16 +2708,16 @@
           "source": "OpenStax Anatomy and Physiology 7.3, 9.1 / Sherman et al., 2011, Arch Intern Med, doi:10.1001/archinternmed.2011.524",
           "choices": [
             {
-              "text": "腰椎を丸めると椎間板後方に不均等な圧力がかかり、ヘルニアのリスクが高まるから",
-              "is_correct": true
-            },
-            {
               "text": "腰を丸めると脊髄が引っ張られて損傷するから",
               "is_correct": false
             },
             {
               "text": "腰椎の棘突起が皮膚を突き破る危険があるから",
               "is_correct": false
+            },
+            {
+              "text": "腰椎を丸めると椎間板後方に不均等な圧力がかかり、ヘルニアのリスクが高まるから",
+              "is_correct": true
             },
             {
               "text": "股関節から折ると見た目のフォームが美しくなるだけで解剖学的理由はない",
@@ -2780,8 +2780,8 @@
           "source": "Sherman et al., 2011, Arch Intern Med, doi:10.1001/archinternmed.2011.524 / Tekur et al., 2012, Complement Ther Med, doi:10.1016/j.ctim.2011.12.009 / Villemure et al., 2015, Front Hum Neurosci, doi:10.3389/fnhum.2015.00281",
           "choices": [
             {
-              "text": "呼吸法・瞑想を含む包括的アプローチにより、物理的改善に加え痛みの認知・不安・脳の可塑性にも作用するから",
-              "is_correct": true
+              "text": "ヨガは宗教的な側面があり精神的な癒し効果が科学的に測定できないから",
+              "is_correct": false
             },
             {
               "text": "ヨガの方がストレッチングより筋力が大幅に向上するから",
@@ -2792,8 +2792,8 @@
               "is_correct": false
             },
             {
-              "text": "ヨガは宗教的な側面があり精神的な癒し効果が科学的に測定できないから",
-              "is_correct": false
+              "text": "呼吸法・瞑想を含む包括的アプローチにより、物理的改善に加え痛みの認知・不安・脳の可塑性にも作用するから",
+              "is_correct": true
             }
           ],
           "reference_text_ids": [
@@ -2814,15 +2814,15 @@
               "is_correct": true
             },
             {
+              "text": "腰痛は筋力不足が原因なので、プランクとチャトランガを繰り返す",
+              "is_correct": false
+            },
+            {
               "text": "腰痛があるときは脊柱を一切動かさず、座位瞑想だけ行う",
               "is_correct": false
             },
             {
               "text": "痛みを乗り越えるために深い前屈を積極的に練習させる",
-              "is_correct": false
-            },
-            {
-              "text": "腰痛は筋力不足が原因なので、プランクとチャトランガを繰り返す",
               "is_correct": false
             }
           ],
@@ -2841,12 +2841,12 @@
           "source": "OpenStax Anatomy and Physiology 7.3 / Cramer et al., 2013, Clin J Pain, doi:10.1097/AJP.0b013e31825e1492",
           "choices": [
             {
-              "text": "ヘルニアでは伸展が髄核を前方に戻し有効だが、狭窄症では伸展で脊柱管がさらに狭まり悪化するから",
-              "is_correct": true
-            },
-            {
               "text": "ヘルニアは若い人、狭窄症は高齢者なので、年齢による体力差が適否を決めるから",
               "is_correct": false
+            },
+            {
+              "text": "ヘルニアでは伸展が髄核を前方に戻し有効だが、狭窄症では伸展で脊柱管がさらに狭まり悪化するから",
+              "is_correct": true
             },
             {
               "text": "どちらの疾患でもコブラは禁忌であり、指導すべきでない",
@@ -2890,20 +2890,20 @@
           "source": "OpenStax Anatomy and Physiology 7.4",
           "choices": [
             {
-              "text": "胸骨・肋骨（12対）・胸椎（12個）",
-              "is_correct": true
+              "text": "胸骨・鎖骨（2本）・胸椎（12個）",
+              "is_correct": false
             },
             {
               "text": "胸骨・肋骨（12対）・腰椎（5個）",
               "is_correct": false
             },
             {
-              "text": "胸骨・鎖骨（2本）・胸椎（12個）",
+              "text": "肋骨（12対）・肩甲骨（2枚）・胸椎（12個）",
               "is_correct": false
             },
             {
-              "text": "肋骨（12対）・肩甲骨（2枚）・胸椎（12個）",
-              "is_correct": false
+              "text": "胸骨・肋骨（12対）・胸椎（12個）",
+              "is_correct": true
             }
           ],
           "reference_text_ids": [
@@ -2922,19 +2922,19 @@
           },
           "choices": [
             {
-              "text": "真肋",
-              "is_correct": true
-            },
-            {
               "text": "仮肋",
               "is_correct": false
             },
             {
-              "text": "浮遊肋",
+              "text": "偽肋",
               "is_correct": false
             },
             {
-              "text": "偽肋",
+              "text": "真肋",
+              "is_correct": true
+            },
+            {
+              "text": "浮遊肋",
               "is_correct": false
             }
           ],
@@ -2951,19 +2951,19 @@
           "source": "OpenStax Anatomy and Physiology 7.4",
           "choices": [
             {
-              "text": "呼吸時に胸郭が拡張・収縮するための柔軟性を確保するため",
-              "is_correct": true
-            },
-            {
-              "text": "将来的に骨化するための成長予備領域として残されているため",
-              "is_correct": false
-            },
-            {
               "text": "肋軟骨の方が骨より衝撃吸収に優れ、心臓への直接的な衝撃を緩和するため",
               "is_correct": false
             },
             {
               "text": "軟骨は骨より軽いため、胸郭の総重量を抑えるため",
+              "is_correct": false
+            },
+            {
+              "text": "呼吸時に胸郭が拡張・収縮するための柔軟性を確保するため",
+              "is_correct": true
+            },
+            {
+              "text": "将来的に骨化するための成長予備領域として残されているため",
               "is_correct": false
             }
           ],
@@ -2980,19 +2980,19 @@
           "source": "OpenStax Anatomy and Physiology 7.4, 23.3",
           "choices": [
             {
-              "text": "肋骨が胸椎との関節を軸に上方に回転し、胸郭の前後・左右径が拡大して胸腔が広がる",
-              "is_correct": true
-            },
-            {
-              "text": "肋骨が上下にスライドして胸郭の上下径が変化する",
-              "is_correct": false
-            },
-            {
               "text": "肋骨が内側に倒れて胸郭が狭くなり、圧力で空気が押し出される",
               "is_correct": false
             },
             {
+              "text": "肋骨が胸椎との関節を軸に上方に回転し、胸郭の前後・左右径が拡大して胸腔が広がる",
+              "is_correct": true
+            },
+            {
               "text": "胸骨が前方に突出して胸腔のスペースを作る",
+              "is_correct": false
+            },
+            {
+              "text": "肋骨が上下にスライドして胸郭の上下径が変化する",
               "is_correct": false
             }
           ],
@@ -3050,6 +3050,10 @@
           "source": "OpenStax Anatomy and Physiology 7.4, 6.3",
           "choices": [
             {
+              "text": "扁平骨は柔軟性が高く、呼吸時にたわむことで胸郭の拡張を助ける",
+              "is_correct": false
+            },
+            {
               "text": "薄く広い形状で前面の保護、肋軟骨の付着面、内部の造血という3つの機能を同時に果たす",
               "is_correct": true
             },
@@ -3059,10 +3063,6 @@
             },
             {
               "text": "胸骨が扁平であることに機能的意味はなく、発生学上の偶然",
-              "is_correct": false
-            },
-            {
-              "text": "扁平骨は柔軟性が高く、呼吸時にたわむことで胸郭の拡張を助ける",
               "is_correct": false
             }
           ],
@@ -3080,20 +3080,20 @@
           "source": "OpenStax Anatomy and Physiology 7.4",
           "choices": [
             {
-              "text": "肋骨の外側弯曲部が折れやすく、骨片が肺を損傷して気胸を起こすリスクがある",
-              "is_correct": true
-            },
-            {
-              "text": "浮遊肋が最も折れやすく、腹腔の臓器を損傷する",
-              "is_correct": false
-            },
-            {
               "text": "胸椎が最も損傷しやすく、脊髄損傷のリスクが最大",
               "is_correct": false
             },
             {
               "text": "肋軟骨が断裂して肋骨が胸骨から完全に外れる",
               "is_correct": false
+            },
+            {
+              "text": "浮遊肋が最も折れやすく、腹腔の臓器を損傷する",
+              "is_correct": false
+            },
+            {
+              "text": "肋骨の外側弯曲部が折れやすく、骨片が肺を損傷して気胸を起こすリスクがある",
+              "is_correct": true
             }
           ],
           "reference_text_ids": [
@@ -3109,11 +3109,11 @@
           "source": "OpenStax Anatomy and Physiology 7.3, 7.4, 23.3",
           "choices": [
             {
-              "text": "胸椎圧迫骨折による円背が肋骨の挙上と横隔膜の下降を制限し、胸腔が十分に拡張できなくなるから",
-              "is_correct": true
+              "text": "背中が丸くなると肋骨が外に開きすぎて、吸気時に戻れなくなるから",
+              "is_correct": false
             },
             {
-              "text": "背中が丸くなると肋骨が外に開きすぎて、吸気時に戻れなくなるから",
+              "text": "円背で胸骨が内側に押し込まれ、心臓を圧迫して呼吸が苦しくなるから",
               "is_correct": false
             },
             {
@@ -3121,8 +3121,8 @@
               "is_correct": false
             },
             {
-              "text": "円背で胸骨が内側に押し込まれ、心臓を圧迫して呼吸が苦しくなるから",
-              "is_correct": false
+              "text": "胸椎圧迫骨折による円背が肋骨の挙上と横隔膜の下降を制限し、胸腔が十分に拡張できなくなるから",
+              "is_correct": true
             }
           ],
           "reference_text_ids": [
@@ -3158,10 +3158,6 @@
           "source": "OpenStax Anatomy and Physiology 8.1",
           "choices": [
             {
-              "text": "鎖骨と肩甲骨",
-              "is_correct": true
-            },
-            {
               "text": "鎖骨と上腕骨",
               "is_correct": false
             },
@@ -3172,6 +3168,10 @@
             {
               "text": "胸骨と肩甲骨",
               "is_correct": false
+            },
+            {
+              "text": "鎖骨と肩甲骨",
+              "is_correct": true
             }
           ],
           "reference_text_ids": [
@@ -3194,11 +3194,11 @@
               "is_correct": true
             },
             {
-              "text": "肩甲骨",
+              "text": "上腕骨",
               "is_correct": false
             },
             {
-              "text": "上腕骨",
+              "text": "肩甲骨",
               "is_correct": false
             },
             {
@@ -3219,19 +3219,19 @@
           "source": "OpenStax Anatomy and Physiology 8.1",
           "choices": [
             {
-              "text": "肩甲骨が胸壁上を自由に動けることで、腕の運動範囲が大幅に広がるため",
-              "is_correct": true
-            },
-            {
-              "text": "胎児の発達過程で骨化が完了しなかった未熟な状態が残っているため",
-              "is_correct": false
-            },
-            {
               "text": "衝撃が直接脊柱に伝わるのを防ぐクッション機能を果たすため",
               "is_correct": false
             },
             {
+              "text": "肩甲骨が胸壁上を自由に動けることで、腕の運動範囲が大幅に広がるため",
+              "is_correct": true
+            },
+            {
               "text": "呼吸時に胸郭の拡張を妨げないようにするため",
+              "is_correct": false
+            },
+            {
+              "text": "胎児の発達過程で骨化が完了しなかった未熟な状態が残っているため",
               "is_correct": false
             }
           ],
@@ -3248,19 +3248,19 @@
           "source": "OpenStax Anatomy and Physiology 8.1",
           "choices": [
             {
-              "text": "肩甲骨を体幹から適切な距離に保持しており、骨折すると肩が落ち込み腕の挙上が困難になる",
-              "is_correct": true
-            },
-            {
-              "text": "鎖骨が突っ張ることで肩関節の脱臼を防いでおり、骨折すると肩が抜けやすくなる",
-              "is_correct": false
-            },
-            {
               "text": "頸部の大血管を鎖骨の下に保護しており、骨折すると出血のリスクがある",
               "is_correct": false
             },
             {
+              "text": "肩甲骨を体幹から適切な距離に保持しており、骨折すると肩が落ち込み腕の挙上が困難になる",
+              "is_correct": true
+            },
+            {
               "text": "呼吸時に第1肋骨の動きを制限しており、骨折すると過呼吸になりやすい",
+              "is_correct": false
+            },
+            {
+              "text": "鎖骨が突っ張ることで肩関節の脱臼を防いでおり、骨折すると肩が抜けやすくなる",
               "is_correct": false
             }
           ],
@@ -3322,11 +3322,11 @@
               "is_correct": true
             },
             {
-              "text": "上肢帯は骨が多く複雑、下肢帯は骨が少なく単純",
+              "text": "上肢帯は筋が多い、下肢帯は靭帯が多い",
               "is_correct": false
             },
             {
-              "text": "上肢帯は筋が多い、下肢帯は靭帯が多い",
+              "text": "上肢帯は骨が多く複雑、下肢帯は骨が少なく単純",
               "is_correct": false
             },
             {
@@ -3351,15 +3351,15 @@
               "is_correct": true
             },
             {
+              "text": "鎖骨には血液供給が乏しく、骨が栄養不足で脆弱であるため",
+              "is_correct": false
+            },
+            {
               "text": "鎖骨は軟骨でできているため骨より折れやすい",
               "is_correct": false
             },
             {
               "text": "鎖骨は成長期に骨端板が残っているため、小児では特に折れやすい",
-              "is_correct": false
-            },
-            {
-              "text": "鎖骨には血液供給が乏しく、骨が栄養不足で脆弱であるため",
               "is_correct": false
             }
           ],
@@ -3377,19 +3377,19 @@
           "source": "OpenStax Anatomy and Physiology 8.1, 11.4",
           "choices": [
             {
-              "text": "肩甲骨が前方に移動して関節のアライメントが崩れ、肩峰下インピンジメントや神経圧迫のリスクが高まる",
-              "is_correct": true
-            },
-            {
-              "text": "鎖骨が徐々に変形してS字カーブが消失し、衝撃吸収能力が低下する",
-              "is_correct": false
-            },
-            {
               "text": "肩甲骨が胸郭に癒着して動かなくなり、腕を挙げられなくなる",
               "is_correct": false
             },
             {
               "text": "見た目が悪くなるだけで、解剖学的な問題は特に起こらない",
+              "is_correct": false
+            },
+            {
+              "text": "肩甲骨が前方に移動して関節のアライメントが崩れ、肩峰下インピンジメントや神経圧迫のリスクが高まる",
+              "is_correct": true
+            },
+            {
+              "text": "鎖骨が徐々に変形してS字カーブが消失し、衝撃吸収能力が低下する",
               "is_correct": false
             }
           ],
@@ -3424,11 +3424,7 @@
           "source": "OpenStax Anatomy and Physiology 8.2",
           "choices": [
             {
-              "text": "橈骨が外側（親指側）、尺骨が内側（小指側）",
-              "is_correct": true
-            },
-            {
-              "text": "橈骨が内側（小指側）、尺骨が外側（親指側）",
+              "text": "橈骨が前面、尺骨が後面",
               "is_correct": false
             },
             {
@@ -3436,7 +3432,11 @@
               "is_correct": false
             },
             {
-              "text": "橈骨が前面、尺骨が後面",
+              "text": "橈骨が外側（親指側）、尺骨が内側（小指側）",
+              "is_correct": true
+            },
+            {
+              "text": "橈骨が内側（小指側）、尺骨が外側（親指側）",
               "is_correct": false
             }
           ],
@@ -3456,19 +3456,19 @@
           },
           "choices": [
             {
-              "text": "肘頭",
-              "is_correct": true
-            },
-            {
               "text": "橈骨頭",
               "is_correct": false
             },
             {
-              "text": "内側上顆",
+              "text": "鉤状突起",
               "is_correct": false
             },
             {
-              "text": "鉤状突起",
+              "text": "肘頭",
+              "is_correct": true
+            },
+            {
+              "text": "内側上顆",
               "is_correct": false
             }
           ],
@@ -3485,12 +3485,12 @@
           "source": "OpenStax Anatomy and Physiology 8.2, 9.5",
           "choices": [
             {
-              "text": "橈骨が尺骨上を回転し、手のひらの向きを変える回内・回外を可能にするため",
-              "is_correct": true
-            },
-            {
               "text": "2本の骨で荷重を分散し、重い物を持つときの強度を確保するため",
               "is_correct": false
+            },
+            {
+              "text": "橈骨が尺骨上を回転し、手のひらの向きを変える回内・回外を可能にするため",
+              "is_correct": true
             },
             {
               "text": "前腕の筋の付着面積を増やして握力を強くするため",
@@ -3514,11 +3514,11 @@
           "source": "OpenStax Anatomy and Physiology 8.2, 9.4",
           "choices": [
             {
-              "text": "上腕骨の滑車と尺骨の滑車切痕（蝶番関節）",
-              "is_correct": true
+              "text": "上腕骨小頭と橈骨頭の関節",
+              "is_correct": false
             },
             {
-              "text": "上腕骨小頭と橈骨頭の関節",
+              "text": "上腕骨と肩甲骨の肩関節",
               "is_correct": false
             },
             {
@@ -3526,8 +3526,8 @@
               "is_correct": false
             },
             {
-              "text": "上腕骨と肩甲骨の肩関節",
-              "is_correct": false
+              "text": "上腕骨の滑車と尺骨の滑車切痕（蝶番関節）",
+              "is_correct": true
             }
           ],
           "reference_text_ids": [
@@ -3584,11 +3584,7 @@
           "source": "OpenStax Anatomy and Physiology 8.2",
           "choices": [
             {
-              "text": "橈骨。肘では尺骨が主役、手首では橈骨が主役という役割分担があり、手の荷重は主に橈骨が受けるから",
-              "is_correct": true
-            },
-            {
-              "text": "尺骨。手首の安定性を確保するため、より太い尺骨が手根骨と関節する",
+              "text": "橈骨。親指側は繊細な動きが必要なため、橈骨が手根骨をより精密に制御する",
               "is_correct": false
             },
             {
@@ -3596,7 +3592,11 @@
               "is_correct": false
             },
             {
-              "text": "橈骨。親指側は繊細な動きが必要なため、橈骨が手根骨をより精密に制御する",
+              "text": "橈骨。肘では尺骨が主役、手首では橈骨が主役という役割分担があり、手の荷重は主に橈骨が受けるから",
+              "is_correct": true
+            },
+            {
+              "text": "尺骨。手首の安定性を確保するため、より太い尺骨が手根骨と関節する",
               "is_correct": false
             }
           ],
@@ -3613,19 +3613,19 @@
           "source": "OpenStax Anatomy and Physiology 8.2, 9.5",
           "choices": [
             {
-              "text": "ドアノブ・鍵・ネジ回し・スプーン操作・筆記など、手のひらの向きを変える全ての日常動作が困難になる",
-              "is_correct": true
-            },
-            {
-              "text": "肘の屈曲・伸展ができなくなり、物を持ち上げられなくなる",
-              "is_correct": false
-            },
-            {
               "text": "握力が低下して物を握れなくなるが、他の動作には影響しない",
               "is_correct": false
             },
             {
+              "text": "ドアノブ・鍵・ネジ回し・スプーン操作・筆記など、手のひらの向きを変える全ての日常動作が困難になる",
+              "is_correct": true
+            },
+            {
               "text": "手首の屈曲・伸展ができなくなり、タイピングができなくなる",
+              "is_correct": false
+            },
+            {
+              "text": "肘の屈曲・伸展ができなくなり、物を持ち上げられなくなる",
               "is_correct": false
             }
           ],
@@ -3642,19 +3642,19 @@
           "source": "OpenStax Anatomy and Physiology 8.2, 6.5, 6.6",
           "choices": [
             {
-              "text": "手関節で橈骨が手根骨と主に関節するため衝撃が橈骨に集中し、遠位端は海綿骨が多く骨粗鬆症で脆弱化しやすいから",
-              "is_correct": true
+              "text": "加齢で橈骨のみカルシウムが減少する特異的な変化が起こるため",
+              "is_correct": false
             },
             {
-              "text": "橈骨は尺骨より細いため構造的に弱く、どこが折れても橈骨になる",
-              "is_correct": false
+              "text": "手関節で橈骨が手根骨と主に関節するため衝撃が橈骨に集中し、遠位端は海綿骨が多く骨粗鬆症で脆弱化しやすいから",
+              "is_correct": true
             },
             {
               "text": "手をつくと回内位になり橈骨に全体重がかかるが、尺骨は接触しないから",
               "is_correct": false
             },
             {
-              "text": "加齢で橈骨のみカルシウムが減少する特異的な変化が起こるため",
+              "text": "橈骨は尺骨より細いため構造的に弱く、どこが折れても橈骨になる",
               "is_correct": false
             }
           ],
@@ -3690,11 +3690,7 @@
           "source": "OpenStax Anatomy and Physiology 8.2",
           "choices": [
             {
-              "text": "27個（手根骨8 + 中手骨5 + 指骨14）",
-              "is_correct": true
-            },
-            {
-              "text": "20個（手根骨5 + 中手骨5 + 指骨10）",
+              "text": "15個（手根骨5 + 中手骨5 + 指骨5）",
               "is_correct": false
             },
             {
@@ -3702,8 +3698,12 @@
               "is_correct": false
             },
             {
-              "text": "15個（手根骨5 + 中手骨5 + 指骨5）",
+              "text": "20個（手根骨5 + 中手骨5 + 指骨10）",
               "is_correct": false
+            },
+            {
+              "text": "27個（手根骨8 + 中手骨5 + 指骨14）",
+              "is_correct": true
             }
           ],
           "reference_text_ids": [
@@ -3722,19 +3722,19 @@
           },
           "choices": [
             {
-              "text": "2",
-              "is_correct": true
+              "text": "4",
+              "is_correct": false
             },
             {
               "text": "3",
               "is_correct": false
             },
             {
-              "text": "1",
-              "is_correct": false
+              "text": "2",
+              "is_correct": true
             },
             {
-              "text": "4",
+              "text": "1",
               "is_correct": false
             }
           ],
@@ -3755,15 +3755,15 @@
               "is_correct": true
             },
             {
-              "text": "骨が多いほど手全体の強度が増し、骨折しにくくなるため",
-              "is_correct": false
-            },
-            {
               "text": "手は発生過程で多くの骨に分かれるが、機能的には1つの大きな骨でも問題ない",
               "is_correct": false
             },
             {
               "text": "骨と骨の間に血管を通すスペースを確保するため",
+              "is_correct": false
+            },
+            {
+              "text": "骨が多いほど手全体の強度が増し、骨折しにくくなるため",
               "is_correct": false
             }
           ],
@@ -3785,7 +3785,7 @@
               "is_correct": true
             },
             {
-              "text": "舟状骨は軟骨でできているためX線に写りにくい",
+              "text": "舟状骨は体の深部にあるためX線が届きにくい",
               "is_correct": false
             },
             {
@@ -3793,7 +3793,7 @@
               "is_correct": false
             },
             {
-              "text": "舟状骨は体の深部にあるためX線が届きにくい",
+              "text": "舟状骨は軟骨でできているためX線に写りにくい",
               "is_correct": false
             }
           ],
@@ -3851,15 +3851,15 @@
           "source": "OpenStax Anatomy and Physiology 6.1, 8.2",
           "choices": [
             {
+              "text": "短骨は最も軽い骨の分類であり、手の重さを最小限にするため",
+              "is_correct": false
+            },
+            {
               "text": "多数の小さな骨が安定性・多方向の可動性・衝撃吸収を同時に実現するため",
               "is_correct": true
             },
             {
               "text": "短骨は造血機能が高く、手の血液供給を助けるため",
-              "is_correct": false
-            },
-            {
-              "text": "短骨は最も軽い骨の分類であり、手の重さを最小限にするため",
               "is_correct": false
             },
             {
@@ -3881,20 +3881,20 @@
           "source": "OpenStax Anatomy and Physiology 8.2",
           "choices": [
             {
-              "text": "舟状骨骨折の可能性があるため固定し、2週間後に再X線検査。放置すると壊死のリスクがある",
-              "is_correct": true
-            },
-            {
-              "text": "X線で異常がないので骨折はない。湿布と安静だけで十分",
-              "is_correct": false
-            },
-            {
               "text": "すぐにMRI検査が必須。それまでは固定不要",
               "is_correct": false
             },
             {
               "text": "靭帯損傷（捻挫）なので、テーピングで対応し運動を再開してよい",
               "is_correct": false
+            },
+            {
+              "text": "X線で異常がないので骨折はない。湿布と安静だけで十分",
+              "is_correct": false
+            },
+            {
+              "text": "舟状骨骨折の可能性があるため固定し、2週間後に再X線検査。放置すると壊死のリスクがある",
+              "is_correct": true
             }
           ],
           "reference_text_ids": [
@@ -3911,11 +3911,11 @@
           "source": "OpenStax Anatomy and Physiology 8.2, 9.4",
           "choices": [
             {
-              "text": "27個の骨による精密な動き、母指の対向、前腕の回内回外、筋と感覚神経の統合が道具使用を可能にする",
-              "is_correct": true
+              "text": "人間の手は他の動物より骨の数が多いため（手だけでも50個以上）器用さが生まれる",
+              "is_correct": false
             },
             {
-              "text": "人間の手は他の動物より骨の数が多いため（手だけでも50個以上）器用さが生まれる",
+              "text": "人間だけが5本の指を持つため、道具の使用が可能になった",
               "is_correct": false
             },
             {
@@ -3923,8 +3923,8 @@
               "is_correct": false
             },
             {
-              "text": "人間だけが5本の指を持つため、道具の使用が可能になった",
-              "is_correct": false
+              "text": "27個の骨による精密な動き、母指の対向、前腕の回内回外、筋と感覚神経の統合が道具使用を可能にする",
+              "is_correct": true
             }
           ],
           "reference_text_ids": [
@@ -3963,19 +3963,19 @@
           "source": "OpenStax Anatomy and Physiology 8.2 / Campo et al., 2018, J Bodywork Mov Ther, doi:10.1016/j.jbmt.2017.05.022",
           "choices": [
             {
-              "text": "指を広げて手のひら全体で押し、手首だけに荷重が集中しないようにする",
-              "is_correct": true
+              "text": "手首への荷重ポーズは全て避けるべき",
+              "is_correct": false
             },
             {
               "text": "手首を完全に反らせて（背屈を最大に）ロックする",
               "is_correct": false
             },
             {
-              "text": "指先だけでマットを押して手のひらを浮かせる",
-              "is_correct": false
+              "text": "指を広げて手のひら全体で押し、手首だけに荷重が集中しないようにする",
+              "is_correct": true
             },
             {
-              "text": "手首への荷重ポーズは全て避けるべき",
+              "text": "指先だけでマットを押して手のひらを浮かせる",
               "is_correct": false
             }
           ],
@@ -3996,20 +3996,20 @@
           },
           "choices": [
             {
-              "text": "バケツ",
-              "is_correct": true
+              "text": "てこ",
+              "is_correct": false
             },
             {
               "text": "ドア",
               "is_correct": false
             },
             {
-              "text": "てこ",
+              "text": "ポンプ",
               "is_correct": false
             },
             {
-              "text": "ポンプ",
-              "is_correct": false
+              "text": "バケツ",
+              "is_correct": true
             }
           ],
           "reference_text_ids": [
@@ -4026,19 +4026,19 @@
           "source": "OpenStax Anatomy and Physiology 8.1, 11.4",
           "choices": [
             {
-              "text": "前鋸筋が弱く、肩甲骨を胸壁に密着させる力が不足している",
-              "is_correct": true
+              "text": "肩甲骨の骨自体が変形している先天的な異常",
+              "is_correct": false
             },
             {
               "text": "鎖骨が過度に挙上して肩甲骨を引き上げている",
               "is_correct": false
             },
             {
-              "text": "肋骨が変形して肩甲骨を押し出している",
-              "is_correct": false
+              "text": "前鋸筋が弱く、肩甲骨を胸壁に密着させる力が不足している",
+              "is_correct": true
             },
             {
-              "text": "肩甲骨の骨自体が変形している先天的な異常",
+              "text": "肋骨が変形して肩甲骨を押し出している",
               "is_correct": false
             }
           ],
@@ -4056,19 +4056,19 @@
           "source": "OpenStax Anatomy and Physiology 7.4, 23.3 / Brown & Gerbarg, 2005, J Altern Complement Med, doi:10.1089/acm.2005.11.189",
           "choices": [
             {
-              "text": "胸式呼吸は肋骨の挙上が主役、腹式呼吸は横隔膜の下降が主役",
-              "is_correct": true
-            },
-            {
               "text": "胸式呼吸は腹筋が主役、腹式呼吸は背筋が主役",
               "is_correct": false
             },
             {
-              "text": "胸式呼吸は吸気専用、腹式呼吸は呼気専用の方法",
-              "is_correct": false
+              "text": "胸式呼吸は肋骨の挙上が主役、腹式呼吸は横隔膜の下降が主役",
+              "is_correct": true
             },
             {
               "text": "解剖学的にはどちらも同じ筋が動いており、意識の違いだけ",
+              "is_correct": false
+            },
+            {
+              "text": "胸式呼吸は吸気専用、腹式呼吸は呼気専用の方法",
               "is_correct": false
             }
           ],
@@ -4129,19 +4129,19 @@
           "source": "Brown & Gerbarg, 2005, J Altern Complement Med, doi:10.1089/acm.2005.11.189 / OpenStax Anatomy and Physiology 15.1",
           "choices": [
             {
-              "text": "ゆっくりとした呼吸が迷走神経（副交感神経）を活性化し、心拍数・血圧・コルチゾールを低下させる",
-              "is_correct": true
-            },
-            {
               "text": "深い呼吸で肺が膨らむとエンドルフィンが分泌されて幸福感が増す",
               "is_correct": false
             },
             {
-              "text": "呼吸法で酸素が大量に脳に送られ、神経細胞が活性化される",
-              "is_correct": false
+              "text": "ゆっくりとした呼吸が迷走神経（副交感神経）を活性化し、心拍数・血圧・コルチゾールを低下させる",
+              "is_correct": true
             },
             {
               "text": "呼吸のリズムが脳波をシータ波に変え、自然に眠くなる",
+              "is_correct": false
+            },
+            {
+              "text": "呼吸法で酸素が大量に脳に送られ、神経細胞が活性化される",
               "is_correct": false
             }
           ],
@@ -4159,19 +4159,19 @@
           "source": "OpenStax Anatomy and Physiology 8.2 / Campo et al., 2018, J Bodywork Mov Ther, doi:10.1016/j.jbmt.2017.05.022",
           "choices": [
             {
-              "text": "握りこぶしやドルフィンポーズで手首の角度をニュートラルに保ち、手根骨への過度な荷重を避ける",
-              "is_correct": true
-            },
-            {
-              "text": "手首を鍛えるためにあえて荷重を増やし、プランクの長時間保持を行う",
-              "is_correct": false
-            },
-            {
               "text": "手首の痛みは筋力不足の証拠なので、チャトランガの反復で強化する",
               "is_correct": false
             },
             {
+              "text": "握りこぶしやドルフィンポーズで手首の角度をニュートラルに保ち、手根骨への過度な荷重を避ける",
+              "is_correct": true
+            },
+            {
               "text": "手首が痛いなら上肢の荷重ポーズは全て完全に避け、立位と座位のみ行う",
+              "is_correct": false
+            },
+            {
+              "text": "手首を鍛えるためにあえて荷重を増やし、プランクの長時間保持を行う",
               "is_correct": false
             }
           ],
@@ -4190,11 +4190,11 @@
           "source": "OpenStax Anatomy and Physiology 7.3, 7.4, 8.1 / Brown & Gerbarg, 2005, J Altern Complement Med, doi:10.1089/acm.2005.11.189",
           "choices": [
             {
-              "text": "胸椎伸展・肩甲骨内転・肋骨挙上・鎖骨の動きが連動して胸腔が拡大し、深い呼吸と姿勢改善が統合的に起こる",
-              "is_correct": true
+              "text": "胸骨が前方に突出して胸郭の形が変わるだけの単純な動き",
+              "is_correct": false
             },
             {
-              "text": "胸骨が前方に突出して胸郭の形が変わるだけの単純な動き",
+              "text": "大胸筋を収縮させて胸板を厚くする筋力トレーニング的な動き",
               "is_correct": false
             },
             {
@@ -4202,8 +4202,8 @@
               "is_correct": false
             },
             {
-              "text": "大胸筋を収縮させて胸板を厚くする筋力トレーニング的な動き",
-              "is_correct": false
+              "text": "胸椎伸展・肩甲骨内転・肋骨挙上・鎖骨の動きが連動して胸腔が拡大し、深い呼吸と姿勢改善が統合的に起こる",
+              "is_correct": true
             }
           ],
           "reference_text_ids": [
@@ -4240,6 +4240,10 @@
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.3",
           "choices": [
             {
+              "text": "左右の恥骨 + 仙骨 + 胸椎",
+              "is_correct": false
+            },
+            {
               "text": "左右の寛骨 + 仙骨 + 尾骨",
               "is_correct": true
             },
@@ -4250,13 +4254,11 @@
             {
               "text": "左右の坐骨 + 腰椎 + 尾骨",
               "is_correct": false
-            },
-            {
-              "text": "左右の恥骨 + 仙骨 + 胸椎",
-              "is_correct": false
             }
           ],
-          "reference_text_ids": ["pelvis-basics"]
+          "reference_text_ids": [
+            "pelvis-basics"
+          ]
         },
         {
           "question_text": "次の文を完成させてください:\n\n寛骨は3つの骨が癒合してできており、そのうち【　　】は骨盤の上部で腰に手を当てたとき触れる大きな翼状の部分である。",
@@ -4266,9 +4268,18 @@
           "explanation": "寛骨は腸骨（Ilium）・坐骨（Ischium）・恥骨（Pubis）の3骨が癒合したものです。腸骨は骨盤の上部を占め、腸骨稜（Iliac Crest）は腰に手を当てたとき触れる部分です。坐骨は座ったとき体重を支える下部の骨、恥骨は前方下部で左右が恥骨結合で連結されます。",
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.3",
           "metadata": {
-            "word_bank": ["腸骨", "坐骨", "恥骨", "仙骨"]
+            "word_bank": [
+              "仙骨",
+              "坐骨",
+              "腸骨",
+              "恥骨"
+            ]
           },
           "choices": [
+            {
+              "text": "恥骨",
+              "is_correct": false
+            },
             {
               "text": "腸骨",
               "is_correct": true
@@ -4278,15 +4289,13 @@
               "is_correct": false
             },
             {
-              "text": "恥骨",
-              "is_correct": false
-            },
-            {
               "text": "仙骨",
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["pelvis-basics"]
+          "reference_text_ids": [
+            "pelvis-basics"
+          ]
         },
         {
           "question_text": "骨盤が環状（リング状）の構造をしている最大の理由は何か？",
@@ -4297,8 +4306,8 @@
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.3",
           "choices": [
             {
-              "text": "上半身の体重を脊柱から左右の下肢へ均等に分散・伝達するため",
-              "is_correct": true
+              "text": "大殿筋が骨盤を一周して付着するスペースを確保するため",
+              "is_correct": false
             },
             {
               "text": "骨盤内臓器を完全に密封して外気から遮断するため",
@@ -4309,11 +4318,13 @@
               "is_correct": false
             },
             {
-              "text": "大殿筋が骨盤を一周して付着するスペースを確保するため",
-              "is_correct": false
+              "text": "上半身の体重を脊柱から左右の下肢へ均等に分散・伝達するため",
+              "is_correct": true
             }
           ],
-          "reference_text_ids": ["pelvis-basics"]
+          "reference_text_ids": [
+            "pelvis-basics"
+          ]
         },
         {
           "question_text": "女性の骨盤が男性と比べて骨盤上口が横に広い楕円形をしている理由として最も適切なのはどれか？",
@@ -4324,23 +4335,25 @@
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.3",
           "choices": [
             {
-              "text": "出産時に胎児が産道を通過するための空間を確保するため",
-              "is_correct": true
-            },
-            {
               "text": "女性は男性より腸が長いので、より大きな腹腔が必要だから",
-              "is_correct": false
-            },
-            {
-              "text": "女性は脂肪が多いため、骨盤内に脂肪を蓄積するスペースが必要だから",
               "is_correct": false
             },
             {
               "text": "女性の方が歩幅が狭いため、横広の骨盤が歩行に適しているから",
               "is_correct": false
+            },
+            {
+              "text": "出産時に胎児が産道を通過するための空間を確保するため",
+              "is_correct": true
+            },
+            {
+              "text": "女性は脂肪が多いため、骨盤内に脂肪を蓄積するスペースが必要だから",
+              "is_correct": false
             }
           ],
-          "reference_text_ids": ["pelvis-basics"]
+          "reference_text_ids": [
+            "pelvis-basics"
+          ]
         },
         {
           "question_text": "寛骨の各部位とその特徴を正しくマッチさせてください",
@@ -4351,10 +4364,22 @@
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.3",
           "metadata": {
             "pairs": [
-              {"left": "腸骨", "right": "骨盤上部の翼状の部分で、腰に手を当てると触れる"},
-              {"left": "坐骨", "right": "座ったとき体重を支える坐骨結節がある"},
-              {"left": "恥骨", "right": "前方下部で左右が恥骨結合により連結される"},
-              {"left": "寛骨臼", "right": "3骨が合流する部位で大腿骨頭と関節する"}
+              {
+                "left": "腸骨",
+                "right": "骨盤上部の翼状の部分で、腰に手を当てると触れる"
+              },
+              {
+                "left": "坐骨",
+                "right": "座ったとき体重を支える坐骨結節がある"
+              },
+              {
+                "left": "恥骨",
+                "right": "前方下部で左右が恥骨結合により連結される"
+              },
+              {
+                "left": "寛骨臼",
+                "right": "3骨が合流する部位で大腿骨頭と関節する"
+              }
             ]
           },
           "choices": [
@@ -4375,7 +4400,9 @@
               "is_correct": true
             }
           ],
-          "reference_text_ids": ["pelvis-basics"]
+          "reference_text_ids": [
+            "pelvis-basics"
+          ]
         },
         {
           "question_text": "仙腸関節は非常に強固な靭帯で結合されているが、妊娠中にこの関節が弛緩する。このメカニズムと目的として最も適切なのはどれか？",
@@ -4386,23 +4413,25 @@
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.3",
           "choices": [
             {
-              "text": "リラキシンの作用で靭帯が弛緩し、出産時の産道拡大を可能にする",
-              "is_correct": true
+              "text": "成長ホルモンの作用で骨端板が再活性化し、骨盤が大きくなる",
+              "is_correct": false
             },
             {
               "text": "エストロゲンの作用で骨が軟化し、骨盤全体が柔らかくなる",
               "is_correct": false
             },
             {
-              "text": "プロゲステロンの作用で仙骨が後方に移動し、腹腔を広げる",
-              "is_correct": false
+              "text": "リラキシンの作用で靭帯が弛緩し、出産時の産道拡大を可能にする",
+              "is_correct": true
             },
             {
-              "text": "成長ホルモンの作用で骨端板が再活性化し、骨盤が大きくなる",
+              "text": "プロゲステロンの作用で仙骨が後方に移動し、腹腔を広げる",
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["pelvis-basics"]
+          "reference_text_ids": [
+            "pelvis-basics"
+          ]
         },
         {
           "question_text": "長時間のデスクワークで「坐骨が痛い」と感じることがある。坐骨結節が座位時に痛みを生じやすい解剖学的理由として最も適切なのはどれか？",
@@ -4417,7 +4446,7 @@
               "is_correct": true
             },
             {
-              "text": "坐骨結節には神経が集中しており、わずかな圧迫でも痛みを感じるから",
+              "text": "坐骨結節は血管が多い部位で、圧迫による血流障害が痛みの原因だから",
               "is_correct": false
             },
             {
@@ -4425,11 +4454,13 @@
               "is_correct": false
             },
             {
-              "text": "坐骨結節は血管が多い部位で、圧迫による血流障害が痛みの原因だから",
+              "text": "坐骨結節には神経が集中しており、わずかな圧迫でも痛みを感じるから",
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["pelvis-basics"]
+          "reference_text_ids": [
+            "pelvis-basics"
+          ]
         },
         {
           "question_text": "骨盤骨折は大きなエネルギーの外傷（交通事故など）で生じることが多く、生命に関わる場合がある。骨盤骨折が特に危険である解剖学的理由として最も適切なのはどれか？",
@@ -4440,12 +4471,12 @@
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.3",
           "choices": [
             {
-              "text": "骨盤内に主要な動静脈があり、骨折片で損傷すると大量出血を起こすから",
-              "is_correct": true
-            },
-            {
               "text": "骨盤は脊髄を含んでいるため、骨折により下半身が麻痺するから",
               "is_correct": false
+            },
+            {
+              "text": "骨盤内に主要な動静脈があり、骨折片で損傷すると大量出血を起こすから",
+              "is_correct": true
             },
             {
               "text": "骨盤骨は血流が乏しく、一度折れるとほぼ治癒しないから",
@@ -4456,7 +4487,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["pelvis-basics"]
+          "reference_text_ids": [
+            "pelvis-basics"
+          ]
         }
       ]
     },
@@ -4485,10 +4518,6 @@
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
           "choices": [
             {
-              "text": "人体で最も長く、最も強い骨である",
-              "is_correct": true
-            },
-            {
               "text": "上肢で最も長い骨である",
               "is_correct": false
             },
@@ -4499,9 +4528,15 @@
             {
               "text": "骨髄腔を持たない",
               "is_correct": false
+            },
+            {
+              "text": "人体で最も長く、最も強い骨である",
+              "is_correct": true
             }
           ],
-          "reference_text_ids": ["femur-patella-basics"]
+          "reference_text_ids": [
+            "femur-patella-basics"
+          ]
         },
         {
           "question_text": "次の文を完成させてください:\n\n膝蓋骨は大腿四頭筋の腱の中に発達した【　　】であり、膝を伸ばすときのてこの支点として機能する。",
@@ -4511,13 +4546,14 @@
           "explanation": "膝蓋骨（Patella）は大腿四頭筋の腱内に存在する人体最大の種子骨（Sesamoid Bone）です。種子骨は腱の中に発達する骨で、腱にかかる摩擦を軽減し力の伝達方向を変えることで運動効率を高めます。膝蓋骨は大腿四頭筋の膝伸展効率を約50%向上させます。",
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
           "metadata": {
-            "word_bank": ["種子骨", "扁平骨", "短骨", "不規則骨"]
+            "word_bank": [
+              "短骨",
+              "不規則骨",
+              "扁平骨",
+              "種子骨"
+            ]
           },
           "choices": [
-            {
-              "text": "種子骨",
-              "is_correct": true
-            },
             {
               "text": "扁平骨",
               "is_correct": false
@@ -4527,11 +4563,17 @@
               "is_correct": false
             },
             {
+              "text": "種子骨",
+              "is_correct": true
+            },
+            {
               "text": "不規則骨",
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["femur-patella-basics"]
+          "reference_text_ids": [
+            "femur-patella-basics"
+          ]
         },
         {
           "question_text": "大腿骨頭と骨幹をつなぐ大腿骨頸が骨幹に対して約125°の角度（頸体角）をなしている理由として最も適切なのはどれか？",
@@ -4541,6 +4583,10 @@
           "explanation": "頸体角（約125°）は股関節から膝へ体重を伝達する際に最適な角度です。この角度により、骨盤の寛骨臼で受けた体重が大腿骨頸を経て骨幹へ効率的に伝わります。角度が大きすぎる（外反股）と股関節が不安定になり、小さすぎる（内反股）と大腿骨頸にかかる剪断力が増大して骨折リスクが上がります。",
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
           "choices": [
+            {
+              "text": "歩行時に脚を前後に振る振り子運動の軸を作るため",
+              "is_correct": false
+            },
             {
               "text": "骨盤から下肢への体重伝達を力学的に最適化するため",
               "is_correct": true
@@ -4552,13 +4598,11 @@
             {
               "text": "大殿筋が付着するスペースを確保するため",
               "is_correct": false
-            },
-            {
-              "text": "歩行時に脚を前後に振る振り子運動の軸を作るため",
-              "is_correct": false
             }
           ],
-          "reference_text_ids": ["femur-patella-basics"]
+          "reference_text_ids": [
+            "femur-patella-basics"
+          ]
         },
         {
           "question_text": "膝蓋骨がなかった場合、膝の伸展運動にどのような影響があると考えられるか？",
@@ -4569,23 +4613,25 @@
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
           "choices": [
             {
-              "text": "てこの支点がなくなり、同じ膝伸展力を得るのにより大きな筋力が必要になる",
-              "is_correct": true
-            },
-            {
               "text": "膝関節が伸展不能になり、脚が曲がったまま固定される",
-              "is_correct": false
-            },
-            {
-              "text": "膝伸展力は変わらないが、膝を曲げる動作ができなくなる",
               "is_correct": false
             },
             {
               "text": "膝関節の安定性がなくなり、歩行時に膝が前後にぐらつく",
               "is_correct": false
+            },
+            {
+              "text": "てこの支点がなくなり、同じ膝伸展力を得るのにより大きな筋力が必要になる",
+              "is_correct": true
+            },
+            {
+              "text": "膝伸展力は変わらないが、膝を曲げる動作ができなくなる",
+              "is_correct": false
             }
           ],
-          "reference_text_ids": ["femur-patella-basics"]
+          "reference_text_ids": [
+            "femur-patella-basics"
+          ]
         },
         {
           "question_text": "大腿骨の各構造とその役割を正しくマッチさせてください",
@@ -4596,10 +4642,22 @@
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
           "metadata": {
             "pairs": [
-              {"left": "大腿骨頭", "right": "球状の構造で寛骨臼と股関節を形成する"},
-              {"left": "大腿骨頸", "right": "頭と骨幹をつなぐ部分で骨折しやすい"},
-              {"left": "大転子", "right": "殿筋群など多くの筋の付着部"},
-              {"left": "内側顆・外側顆", "right": "遠位端で脛骨と膝関節を構成する"}
+              {
+                "left": "大腿骨頭",
+                "right": "球状の構造で寛骨臼と股関節を形成する"
+              },
+              {
+                "left": "大腿骨頸",
+                "right": "頭と骨幹をつなぐ部分で骨折しやすい"
+              },
+              {
+                "left": "大転子",
+                "right": "殿筋群など多くの筋の付着部"
+              },
+              {
+                "left": "内側顆・外側顆",
+                "right": "遠位端で脛骨と膝関節を構成する"
+              }
             ]
           },
           "choices": [
@@ -4620,7 +4678,9 @@
               "is_correct": true
             }
           ],
-          "reference_text_ids": ["femur-patella-basics"]
+          "reference_text_ids": [
+            "femur-patella-basics"
+          ]
         },
         {
           "question_text": "大腿骨の骨幹が前方に緩やかに弯曲している構造的意義として最も適切なのはどれか？",
@@ -4631,11 +4691,7 @@
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
           "choices": [
             {
-              "text": "荷重をカーブに沿って分散し、直線構造より大きな力に耐えるため",
-              "is_correct": true
-            },
-            {
-              "text": "大腿四頭筋が巻き付くスペースを確保するため",
+              "text": "大腿動脈が骨に沿って走行するためのカバーを作るため",
               "is_correct": false
             },
             {
@@ -4643,11 +4699,17 @@
               "is_correct": false
             },
             {
-              "text": "大腿動脈が骨に沿って走行するためのカバーを作るため",
+              "text": "大腿四頭筋が巻き付くスペースを確保するため",
               "is_correct": false
+            },
+            {
+              "text": "荷重をカーブに沿って分散し、直線構造より大きな力に耐えるため",
+              "is_correct": true
             }
           ],
-          "reference_text_ids": ["femur-patella-basics"]
+          "reference_text_ids": [
+            "femur-patella-basics"
+          ]
         },
         {
           "question_text": "高齢者の転倒による大腿骨頸部骨折が「寝たきりの主要原因」とされる理由として最も適切なのはどれか？",
@@ -4658,11 +4720,7 @@
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
           "choices": [
             {
-              "text": "骨折部の血流遮断による骨頭壊死リスクと、長期臥床に伴う全身合併症（肺炎・筋萎縮など）が重なるため",
-              "is_correct": true
-            },
-            {
-              "text": "大腿骨は最大の骨なので骨折の痛みが最も強く、痛みで動けなくなるため",
+              "text": "大腿骨は全身の骨の中で最も治りが遅く、2年以上ギプス固定が必要なため",
               "is_correct": false
             },
             {
@@ -4670,11 +4728,19 @@
               "is_correct": false
             },
             {
-              "text": "大腿骨は全身の骨の中で最も治りが遅く、2年以上ギプス固定が必要なため",
+              "text": "骨折部の血流遮断による骨頭壊死リスクと、長期臥床に伴う全身合併症（肺炎・筋萎縮など）が重なるため",
+              "is_correct": true
+            },
+            {
+              "text": "大腿骨は最大の骨なので骨折の痛みが最も強く、痛みで動けなくなるため",
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["femur-patella-basics", "fracture-healing-basics", "osteoporosis-basics"]
+          "reference_text_ids": [
+            "femur-patella-basics",
+            "fracture-healing-basics",
+            "osteoporosis-basics"
+          ]
         },
         {
           "question_text": "65歳の女性が「膝の前面が痛い」と訴えている。階段を降りるとき特に痛みが増す。膝蓋骨の解剖学的知識から、この症状のメカニズムとして最も適切なのはどれか？",
@@ -4685,23 +4751,25 @@
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
           "choices": [
             {
-              "text": "階段降りで膝が深く曲がり、膝蓋骨と大腿骨の間の圧力が体重の数倍に増大し、摩耗した軟骨に痛みが生じる",
-              "is_correct": true
-            },
-            {
-              "text": "膝蓋骨が腱から外れて脱臼し、大腿骨の前面を直接圧迫している",
-              "is_correct": false
-            },
-            {
               "text": "膝蓋骨の骨折が起きており、骨片が膝関節内で引っかかっている",
               "is_correct": false
             },
             {
+              "text": "階段降りで膝が深く曲がり、膝蓋骨と大腿骨の間の圧力が体重の数倍に増大し、摩耗した軟骨に痛みが生じる",
+              "is_correct": true
+            },
+            {
               "text": "膝蓋骨の裏側に滑液が過剰に溜まり、関節内圧が上昇している",
+              "is_correct": false
+            },
+            {
+              "text": "膝蓋骨が腱から外れて脱臼し、大腿骨の前面を直接圧迫している",
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["femur-patella-basics"]
+          "reference_text_ids": [
+            "femur-patella-basics"
+          ]
         }
       ]
     },
@@ -4734,7 +4802,7 @@
               "is_correct": true
             },
             {
-              "text": "腓骨",
+              "text": "踵骨",
               "is_correct": false
             },
             {
@@ -4742,11 +4810,13 @@
               "is_correct": false
             },
             {
-              "text": "踵骨",
+              "text": "腓骨",
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["leg-foot-bones-basics"]
+          "reference_text_ids": [
+            "leg-foot-bones-basics"
+          ]
         },
         {
           "question_text": "次の文を完成させてください:\n\n足を構成する骨の総数は【　　】個で、手の27個に近い数の骨が集まることで複雑な動きと体重支持を両立している。",
@@ -4756,27 +4826,34 @@
           "explanation": "足は26個の骨で構成されます。内訳は足根骨（Tarsal Bones）7個、中足骨（Metatarsals）5個、趾骨（Phalanges）14個です。手（27個）とほぼ同数の骨があり、歩行・走行・立位での複雑な要求（衝撃吸収、体重分散、推進力）に対応しています。",
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
           "metadata": {
-            "word_bank": ["26", "12", "33", "20"]
+            "word_bank": [
+              "12",
+              "26",
+              "33",
+              "20"
+            ]
           },
           "choices": [
-            {
-              "text": "26",
-              "is_correct": true
-            },
             {
               "text": "12",
               "is_correct": false
             },
             {
-              "text": "33",
+              "text": "20",
               "is_correct": false
             },
             {
-              "text": "20",
+              "text": "26",
+              "is_correct": true
+            },
+            {
+              "text": "33",
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["leg-foot-bones-basics"]
+          "reference_text_ids": [
+            "leg-foot-bones-basics"
+          ]
         },
         {
           "question_text": "脛骨が太く腓骨が細い構造上の理由として最も適切なのはどれか？",
@@ -4787,23 +4864,25 @@
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
           "choices": [
             {
-              "text": "脛骨は体重を支える荷重骨であり、腓骨は体重を支えないため",
-              "is_correct": true
+              "text": "腓骨は成長途中で退化した骨で、本来は脛骨と同じ太さだった",
+              "is_correct": false
             },
             {
               "text": "脛骨の方が多くの筋が付着するため太さが必要である",
               "is_correct": false
             },
             {
-              "text": "腓骨は成長途中で退化した骨で、本来は脛骨と同じ太さだった",
-              "is_correct": false
+              "text": "脛骨は体重を支える荷重骨であり、腓骨は体重を支えないため",
+              "is_correct": true
             },
             {
               "text": "脛骨は骨髄腔が大きく造血機能が高いため太い",
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["leg-foot-bones-basics"]
+          "reference_text_ids": [
+            "leg-foot-bones-basics"
+          ]
         },
         {
           "question_text": "足のアーチが身体にとって重要な理由として最も適切なのはどれか？",
@@ -4814,23 +4893,25 @@
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
           "choices": [
             {
-              "text": "歩行時の衝撃吸収、体重の分散、蹴り出しの推進力を同時に実現するため",
-              "is_correct": true
-            },
-            {
-              "text": "足の血管を保護し、足先への血流を確保するため",
-              "is_correct": false
-            },
-            {
               "text": "足根骨同士の摩擦を減らし、関節の動きをスムーズにするため",
               "is_correct": false
             },
             {
               "text": "靴を履くときに足が靴底にフィットしやすくするため",
               "is_correct": false
+            },
+            {
+              "text": "歩行時の衝撃吸収、体重の分散、蹴り出しの推進力を同時に実現するため",
+              "is_correct": true
+            },
+            {
+              "text": "足の血管を保護し、足先への血流を確保するため",
+              "is_correct": false
             }
           ],
-          "reference_text_ids": ["leg-foot-bones-basics"]
+          "reference_text_ids": [
+            "leg-foot-bones-basics"
+          ]
         },
         {
           "question_text": "下腿と足の骨の構造と役割を正しくマッチさせてください",
@@ -4841,10 +4922,22 @@
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
           "metadata": {
             "pairs": [
-              {"left": "脛骨", "right": "体重を支える荷重骨で、内果が足関節内側を形成"},
-              {"left": "腓骨", "right": "体重を支えない細い骨で、外果が足関節外側を形成"},
-              {"left": "距骨", "right": "脛骨と腓骨の間に嵌まり足関節を構成する"},
-              {"left": "踵骨", "right": "足最大の骨でアキレス腱が付着する"}
+              {
+                "left": "脛骨",
+                "right": "体重を支える荷重骨で、内果が足関節内側を形成"
+              },
+              {
+                "left": "腓骨",
+                "right": "体重を支えない細い骨で、外果が足関節外側を形成"
+              },
+              {
+                "left": "距骨",
+                "right": "脛骨と腓骨の間に嵌まり足関節を構成する"
+              },
+              {
+                "left": "踵骨",
+                "right": "足最大の骨でアキレス腱が付着する"
+              }
             ]
           },
           "choices": [
@@ -4865,7 +4958,9 @@
               "is_correct": true
             }
           ],
-          "reference_text_ids": ["leg-foot-bones-basics"]
+          "reference_text_ids": [
+            "leg-foot-bones-basics"
+          ]
         },
         {
           "question_text": "足関節（足首）の安定性について、「くるぶし」の構造から説明した記述として最も適切なのはどれか？",
@@ -4875,6 +4970,10 @@
           "explanation": "足関節は距骨が脛骨の内果と腓骨の外果に「挟まれた」ほぞ穴構造（Mortise Joint）になっています。外果（腓骨）は内果（脛骨）より下方に位置しているため、足が内側に倒れる（内反する）方向には骨による制限が弱く、逆に外側に倒れる（外反する）方向には外果が壁となり制限します。このため、足首の捻挫は内反方向（足裏が内側を向く）に多く発生します。",
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
           "choices": [
+            {
+              "text": "距骨が足関節から容易に脱臼するため、あらゆる方向に不安定である",
+              "is_correct": false
+            },
             {
               "text": "外果が内果より低い位置にあるため内反方向の制限が弱く、内反捻挫が起きやすい",
               "is_correct": true
@@ -4886,13 +4985,11 @@
             {
               "text": "脛骨と腓骨は足関節で完全に癒合しており、どの方向にも安定している",
               "is_correct": false
-            },
-            {
-              "text": "距骨が足関節から容易に脱臼するため、あらゆる方向に不安定である",
-              "is_correct": false
             }
           ],
-          "reference_text_ids": ["leg-foot-bones-basics"]
+          "reference_text_ids": [
+            "leg-foot-bones-basics"
+          ]
         },
         {
           "question_text": "扁平足（Flat Foot）が足部だけでなく膝や腰の痛みの原因にもなりうる理由として、解剖学的に最も適切なのはどれか？",
@@ -4903,11 +5000,7 @@
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
           "choices": [
             {
-              "text": "アーチ崩壊による衝撃吸収低下と過回内が、脛骨→膝→骨盤→腰椎の連鎖的アライメント異常を引き起こすため",
-              "is_correct": true
-            },
-            {
-              "text": "扁平足では足の血流が悪化し、下肢全体の筋力が低下して膝や腰に負担がかかるため",
+              "text": "足のアーチがないと歩幅が極端に小さくなり、代償として膝と腰を過度に使うため",
               "is_correct": false
             },
             {
@@ -4915,11 +5008,17 @@
               "is_correct": false
             },
             {
-              "text": "足のアーチがないと歩幅が極端に小さくなり、代償として膝と腰を過度に使うため",
+              "text": "アーチ崩壊による衝撃吸収低下と過回内が、脛骨→膝→骨盤→腰椎の連鎖的アライメント異常を引き起こすため",
+              "is_correct": true
+            },
+            {
+              "text": "扁平足では足の血流が悪化し、下肢全体の筋力が低下して膝や腰に負担がかかるため",
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["leg-foot-bones-basics"]
+          "reference_text_ids": [
+            "leg-foot-bones-basics"
+          ]
         },
         {
           "question_text": "マラソンランナーが「すねの内側が痛い」（シンスプリント / 脛骨過労性骨膜炎）と訴えている。この症状の解剖学的メカニズムとして最も適切なのはどれか？",
@@ -4934,11 +5033,11 @@
               "is_correct": true
             },
             {
-              "text": "脛骨の骨髄腔内の圧力が走行で上昇し、骨の内側から外側に向かって痛みが生じるため",
+              "text": "腓骨が荷重の一部を負担できず、脛骨に過剰な圧縮力が集中して骨折するため",
               "is_correct": false
             },
             {
-              "text": "腓骨が荷重の一部を負担できず、脛骨に過剰な圧縮力が集中して骨折するため",
+              "text": "脛骨の骨髄腔内の圧力が走行で上昇し、骨の内側から外側に向かって痛みが生じるため",
               "is_correct": false
             },
             {
@@ -4946,7 +5045,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["leg-foot-bones-basics"]
+          "reference_text_ids": [
+            "leg-foot-bones-basics"
+          ]
         }
       ]
     },
@@ -4979,11 +5080,7 @@
           "source": "Ni et al., 2014, Arch Phys Med Rehabil, doi:10.1016/j.apmr.2014.04.022",
           "choices": [
             {
-              "text": "大腿骨と脛骨の軸がずれ、膝の靭帯にストレスがかかる",
-              "is_correct": true
-            },
-            {
-              "text": "脛骨が外旋して足のアーチが崩壊する",
+              "text": "膝蓋骨が外側に脱臼しやすくなる",
               "is_correct": false
             },
             {
@@ -4991,11 +5088,19 @@
               "is_correct": false
             },
             {
-              "text": "膝蓋骨が外側に脱臼しやすくなる",
+              "text": "脛骨が外旋して足のアーチが崩壊する",
               "is_correct": false
+            },
+            {
+              "text": "大腿骨と脛骨の軸がずれ、膝の靭帯にストレスがかかる",
+              "is_correct": true
             }
           ],
-          "reference_text_ids": ["yoga-lower-limb-grounding", "femur-patella-basics", "leg-foot-bones-basics"]
+          "reference_text_ids": [
+            "yoga-lower-limb-grounding",
+            "femur-patella-basics",
+            "leg-foot-bones-basics"
+          ]
         },
         {
           "question_text": "次の文を完成させてください:\n\nヨガの立位ポーズで足裏全体を意識的にマットに根づかせ、足のアーチを活性化する技法を【　　】と呼ぶ。",
@@ -5005,27 +5110,35 @@
           "explanation": "パダ・バンダ（Pada Bandha）は「足のロック/封印」を意味するサンスクリット語で、足裏の3点（踵、小趾球、母趾球）を均等にマットに押しつけ、足のアーチを持ち上げるように意識する技法です。これにより足の内在筋（足底の小さな筋群）が活性化され、内側縦アーチが安定し、足首から上への安定した力の伝達が可能になります。",
           "source": "Ni et al., 2014, Arch Phys Med Rehabil, doi:10.1016/j.apmr.2014.04.022",
           "metadata": {
-            "word_bank": ["パダ・バンダ（Pada Bandha）", "ムーラ・バンダ（Mula Bandha）", "ウッディヤナ・バンダ（Uddiyana Bandha）", "ハスタ・バンダ（Hasta Bandha）"]
+            "word_bank": [
+              "パダ・バンダ（Pada Bandha）",
+              "ムーラ・バンダ（Mula Bandha）",
+              "ウッディヤナ・バンダ（Uddiyana Bandha）",
+              "ハスタ・バンダ（Hasta Bandha）"
+            ]
           },
           "choices": [
             {
-              "text": "パダ・バンダ（Pada Bandha）",
-              "is_correct": true
+              "text": "ウッディヤナ・バンダ（Uddiyana Bandha）",
+              "is_correct": false
             },
             {
               "text": "ムーラ・バンダ（Mula Bandha）",
               "is_correct": false
             },
             {
-              "text": "ウッディヤナ・バンダ（Uddiyana Bandha）",
+              "text": "ハスタ・バンダ（Hasta Bandha）",
               "is_correct": false
             },
             {
-              "text": "ハスタ・バンダ（Hasta Bandha）",
-              "is_correct": false
+              "text": "パダ・バンダ（Pada Bandha）",
+              "is_correct": true
             }
           ],
-          "reference_text_ids": ["yoga-lower-limb-grounding", "leg-foot-bones-basics"]
+          "reference_text_ids": [
+            "yoga-lower-limb-grounding",
+            "leg-foot-bones-basics"
+          ]
         },
         {
           "question_text": "バッダ・コナーサナ（合蹠のポーズ）で股関節を開くとき、骨格上の制限因子として最も適切なのはどれか？",
@@ -5040,7 +5153,7 @@
               "is_correct": true
             },
             {
-              "text": "膝蓋骨が大腿骨前面で引っかかり、股関節の外旋を制限する",
+              "text": "足のアーチが崩れると股関節の外旋が制限される",
               "is_correct": false
             },
             {
@@ -5048,11 +5161,15 @@
               "is_correct": false
             },
             {
-              "text": "足のアーチが崩れると股関節の外旋が制限される",
+              "text": "膝蓋骨が大腿骨前面で引っかかり、股関節の外旋を制限する",
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["yoga-lower-limb-grounding", "pelvis-basics", "femur-patella-basics"]
+          "reference_text_ids": [
+            "yoga-lower-limb-grounding",
+            "pelvis-basics",
+            "femur-patella-basics"
+          ]
         },
         {
           "question_text": "ヨガの立位バランスポーズ（ヴルクシャーサナなど）が高齢者の転倒予防に有効とされるメカニズムとして最も適切なのはどれか？",
@@ -5063,23 +5180,26 @@
           "source": "Ni et al., 2014, Arch Phys Med Rehabil, doi:10.1016/j.apmr.2014.04.022",
           "choices": [
             {
-              "text": "足のアーチと足関節の固有受容感覚が鍛えられ、バランス能力が向上するため",
-              "is_correct": true
+              "text": "足の骨の数が増えて接地面積が広がり、安定性が増すため",
+              "is_correct": false
             },
             {
               "text": "大腿骨の骨密度が増加し、転倒しても骨折しにくくなるため",
               "is_correct": false
             },
             {
-              "text": "足の骨の数が増えて接地面積が広がり、安定性が増すため",
+              "text": "膝蓋骨のてこの効率が向上し、膝伸展力が強くなるため",
               "is_correct": false
             },
             {
-              "text": "膝蓋骨のてこの効率が向上し、膝伸展力が強くなるため",
-              "is_correct": false
+              "text": "足のアーチと足関節の固有受容感覚が鍛えられ、バランス能力が向上するため",
+              "is_correct": true
             }
           ],
-          "reference_text_ids": ["yoga-lower-limb-grounding", "leg-foot-bones-basics"]
+          "reference_text_ids": [
+            "yoga-lower-limb-grounding",
+            "leg-foot-bones-basics"
+          ]
         },
         {
           "question_text": "下肢のヨガポーズと骨格の関係を正しくマッチさせてください",
@@ -5090,10 +5210,22 @@
           "source": "Motorwala et al., 2016, Int J Yoga, doi:10.4103/0973-6131.171717",
           "metadata": {
             "pairs": [
-              {"left": "戦士のポーズ", "right": "膝が足のつま先と同じ方向を向く（大腿骨−脛骨の軸の整列）"},
-              {"left": "木のポーズ", "right": "足のアーチを活用して片脚バランスを維持する"},
-              {"left": "合蹠のポーズ", "right": "寛骨臼内で大腿骨頭が外旋する（骨格的個人差が大きい）"},
-              {"left": "椅子のポーズ", "right": "膝蓋骨のてこの効率と大腿骨頸の角度が膝への負荷を決める"}
+              {
+                "left": "戦士のポーズ",
+                "right": "膝が足のつま先と同じ方向を向く（大腿骨−脛骨の軸の整列）"
+              },
+              {
+                "left": "木のポーズ",
+                "right": "足のアーチを活用して片脚バランスを維持する"
+              },
+              {
+                "left": "合蹠のポーズ",
+                "right": "寛骨臼内で大腿骨頭が外旋する（骨格的個人差が大きい）"
+              },
+              {
+                "left": "椅子のポーズ",
+                "right": "膝蓋骨のてこの効率と大腿骨頸の角度が膝への負荷を決める"
+              }
             ]
           },
           "choices": [
@@ -5114,7 +5246,12 @@
               "is_correct": true
             }
           ],
-          "reference_text_ids": ["yoga-lower-limb-grounding", "pelvis-basics", "femur-patella-basics", "leg-foot-bones-basics"]
+          "reference_text_ids": [
+            "yoga-lower-limb-grounding",
+            "pelvis-basics",
+            "femur-patella-basics",
+            "leg-foot-bones-basics"
+          ]
         },
         {
           "question_text": "閉経後の女性にヨガの立位荷重ポーズ（戦士のポーズ、木のポーズなど）を勧める根拠として、骨格系の知識から最も適切なのはどれか？",
@@ -5133,15 +5270,19 @@
               "is_correct": false
             },
             {
-              "text": "ヨガのストレッチが骨膜を刺激して骨の成長を再開させるため",
+              "text": "ヨガのポーズが骨髄の造血機能を活性化し全身の骨を強化するため",
               "is_correct": false
             },
             {
-              "text": "ヨガのポーズが骨髄の造血機能を活性化し全身の骨を強化するため",
+              "text": "ヨガのストレッチが骨膜を刺激して骨の成長を再開させるため",
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["yoga-lower-limb-grounding", "osteoporosis-basics", "bone-remodeling-basics"]
+          "reference_text_ids": [
+            "yoga-lower-limb-grounding",
+            "osteoporosis-basics",
+            "bone-remodeling-basics"
+          ]
         },
         {
           "question_text": "「股関節が硬くて開かない」と悩む生徒に対し、ヨガ指導者が解剖学的知識に基づいて行うべき対応として最も適切なのはどれか？",
@@ -5152,12 +5293,12 @@
           "source": "Motorwala et al., 2016, Int J Yoga, doi:10.4103/0973-6131.171717",
           "choices": [
             {
-              "text": "骨格構造（前捻角・寛骨臼の形状）の個人差を説明し、無理に開かず各自の限界を尊重するよう指導する",
-              "is_correct": true
-            },
-            {
               "text": "毎日のストレッチで必ず全員が開脚180度を達成できると励まし、練習量を増やすよう指示する",
               "is_correct": false
+            },
+            {
+              "text": "骨格構造（前捻角・寛骨臼の形状）の個人差を説明し、無理に開かず各自の限界を尊重するよう指導する",
+              "is_correct": true
             },
             {
               "text": "股関節の外旋は膝蓋骨の位置で決まるので、膝のストレッチを重点的に行うよう指導する",
@@ -5168,7 +5309,11 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["yoga-lower-limb-grounding", "pelvis-basics", "femur-patella-basics"]
+          "reference_text_ids": [
+            "yoga-lower-limb-grounding",
+            "pelvis-basics",
+            "femur-patella-basics"
+          ]
         },
         {
           "question_text": "ヨガの指導者養成で「解剖学的に安全な下肢のアライメント」を教える際、骨格系の知識を統合して伝えるべきポイントとして最も重要なのはどれか？",
@@ -5179,12 +5324,12 @@
           "source": "Ni et al., 2014, Arch Phys Med Rehabil, doi:10.1016/j.apmr.2014.04.022",
           "choices": [
             {
-              "text": "足のアーチから骨盤まで運動連鎖でつながっており、足の土台から順に整えることが全身のアライメントに影響する",
-              "is_correct": true
-            },
-            {
               "text": "膝蓋骨の位置さえ正しければ下肢全体のアライメントは自動的に整うので、膝だけに注目すればよい",
               "is_correct": false
+            },
+            {
+              "text": "足のアーチから骨盤まで運動連鎖でつながっており、足の土台から順に整えることが全身のアライメントに影響する",
+              "is_correct": true
             },
             {
               "text": "骨盤の位置を最初に決めれば、重力で下肢全体が自然に正しいアライメントになる",
@@ -5195,7 +5340,12 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["yoga-lower-limb-grounding", "pelvis-basics", "femur-patella-basics", "leg-foot-bones-basics"]
+          "reference_text_ids": [
+            "yoga-lower-limb-grounding",
+            "pelvis-basics",
+            "femur-patella-basics",
+            "leg-foot-bones-basics"
+          ]
         }
       ]
     }
