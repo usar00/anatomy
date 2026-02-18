@@ -117,6 +117,11 @@
       "id": "pectoral-girdle-basics",
       "title": "上肢帯（肩帯）の構造と機能",
       "content": "上肢帯（Pectoral Girdle/Shoulder Girdle）は鎖骨（Clavicle）と肩甲骨（Scapula）からなり、上肢（腕）を体幹に接続する。鎖骨は前方で胸骨と胸鎖関節（Sternoclavicular Joint）を形成し、外側で肩甲骨の肩峰（Acromion）と肩鎖関節（Acromioclavicular Joint）を形成する。鎖骨は上肢帯と体幹を直接骨で結ぶ唯一の骨であり、「つっかえ棒」として肩甲骨を体幹から離れた位置に保持し、上肢の可動域を確保する。肩甲骨は背面で肋骨の上を滑るように動く三角形の扁平骨で、筋のみで体幹に固定されている（骨での連結なし）。この「浮いた」構造が肩甲骨の自由な動きを可能にし、腕の広い運動範囲を実現する。鎖骨はS字に弯曲した細い棒状の骨で、転倒時に手をついた衝撃が伝わる経路上にあるため、人体で最も骨折頻度が高い骨の一つである。"
+    },
+    {
+      "id": "arm-forearm-basics",
+      "title": "上腕と前腕の骨",
+      "content": "上腕（Arm/Brachium）には上腕骨（Humerus）1本が存在する。近位端の上腕骨頭は肩甲骨の関節窩と肩関節を形成し、遠位端は肘関節で尺骨・橈骨と関節する。前腕（Forearm/Antebrachium）には橈骨（Radius）と尺骨（Ulna）の2本の骨がある。尺骨は内側（小指側）に位置し、肘関節では上腕骨滑車と蝶番関節を形成して屈曲・伸展を担う。肘頭（Olecranon）は肘の後方のでっぱり。橈骨は外側（親指側）に位置し、手関節では主に手根骨と関節する。前腕に2本の骨がある最大の理由は回内・回外（Pronation/Supination）を可能にするため。橈骨が尺骨の上を交差するように回転することで、手のひらを上向き（回外）・下向き（回内）に向ける動作が実現する。"
     }
   ],
   "sections": [
@@ -3360,6 +3365,272 @@
           ],
           "reference_text_ids": [
             "pectoral-girdle-basics"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "上腕と前腕の骨",
+      "slug": "arm-forearm-bones",
+      "description": "前腕が2本の骨である理由 — ドアノブを回す回内・回外のしくみ",
+      "sort_order": 12,
+      "concepts": [
+        {
+          "name": "上腕骨・橈骨・尺骨",
+          "description": "上腕骨は1本で肩と肘をつなぐ。前腕の橈骨（親指側）と尺骨（小指側）は回内・回外を可能にする"
+        },
+        {
+          "name": "回内と回外",
+          "description": "橈骨が尺骨の上を交差回転することで手のひらの向きを変える運動。2本の骨があるからこそ可能"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "前腕を構成する2本の骨の名前と位置の組み合わせとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "前腕には2本の骨がある。橈骨（Radius）は外側（親指側/lateral side）に位置し、尺骨（Ulna）は内側（小指側/medial side）に位置する。覚え方として「Radius = 外側のRadio（ラジオ）のダイヤルを親指で回す」という語呂がある。手のひらを上に向けた状態（回外位/解剖学的正位）で見たとき、橈骨は外側、尺骨は内側にある。",
+          "source": "OpenStax Anatomy and Physiology 8.2",
+          "choices": [
+            {
+              "text": "橈骨が外側（親指側）、尺骨が内側（小指側）",
+              "is_correct": true
+            },
+            {
+              "text": "橈骨が内側（小指側）、尺骨が外側（親指側）",
+              "is_correct": false
+            },
+            {
+              "text": "橈骨が上側、尺骨が下側",
+              "is_correct": false
+            },
+            {
+              "text": "橈骨が前面、尺骨が後面",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "arm-forearm-basics"
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "肘の後方で触れることができるとがった骨の突起は、尺骨の肘頭（Olecranon）である。肘頭は上腕骨の肘頭窩にはまり込む構造で、肘を完全に伸ばしたときにロックされる。肘をテーブルについたとき痛みを感じるのは、この肘頭が直接接触するためである。肘頭は尺骨の最も近位の部分であり、上腕三頭筋の付着点でもある。",
+          "source": "OpenStax Anatomy and Physiology 8.2",
+          "metadata": {
+            "template": "肘の後方のとがった出っ張りは尺骨の {{blank}} である"
+          },
+          "choices": [
+            {
+              "text": "肘頭",
+              "is_correct": true
+            },
+            {
+              "text": "橈骨頭",
+              "is_correct": false
+            },
+            {
+              "text": "内側上顆",
+              "is_correct": false
+            },
+            {
+              "text": "鉤状突起",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "arm-forearm-basics"
+          ]
+        },
+        {
+          "question_text": "前腕に2本の骨（橈骨と尺骨）がある最大の機能的理由は何か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "前腕に2本の骨がある最大の理由は、回内・回外（Pronation/Supination）を可能にするためである。回内は手のひらを下に向ける動き、回外は上に向ける動きで、橈骨が尺骨の上を交差するように回転することで実現する。ドアノブを回す、ネジを締める、スプーンを口に運ぶなど、日常の細かい動作に不可欠。もし前腕が1本の骨であれば、肘の屈曲・伸展はできても手のひらの向きを変えることは不可能になる。上腕骨が1本なのは肩関節自体が多軸に動くため回旋が不要だからである。",
+          "source": "OpenStax Anatomy and Physiology 8.2, 9.5",
+          "choices": [
+            {
+              "text": "橈骨が尺骨上を回転し、手のひらの向きを変える回内・回外を可能にするため",
+              "is_correct": true
+            },
+            {
+              "text": "2本の骨で荷重を分散し、重い物を持つときの強度を確保するため",
+              "is_correct": false
+            },
+            {
+              "text": "前腕の筋の付着面積を増やして握力を強くするため",
+              "is_correct": false
+            },
+            {
+              "text": "前腕が曲がりやすいように柔軟性を確保するため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "arm-forearm-basics"
+          ]
+        },
+        {
+          "question_text": "肘関節で主に屈曲・伸展を担っているのはどの骨の組み合わせか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "肘関節の屈曲・伸展は、上腕骨の滑車（Trochlea）と尺骨の滑車切痕（Trochlear Notch）が形成する蝶番関節が主に担う。この関節はドアの蝶番のように一軸のみの動き（屈曲・伸展）を許す。一方、橈骨頭と上腕骨小頭の関節、および近位橈尺関節は回内・回外を担う。つまり肘関節は、蝶番関節（屈伸）と車軸関節（回旋）を組み合わせた複合関節であり、上腕骨と尺骨の蝶番が屈伸の主役である。",
+          "source": "OpenStax Anatomy and Physiology 8.2, 9.4",
+          "choices": [
+            {
+              "text": "上腕骨の滑車と尺骨の滑車切痕（蝶番関節）",
+              "is_correct": true
+            },
+            {
+              "text": "上腕骨小頭と橈骨頭の関節",
+              "is_correct": false
+            },
+            {
+              "text": "橈骨と尺骨の近位橈尺関節",
+              "is_correct": false
+            },
+            {
+              "text": "上腕骨と肩甲骨の肩関節",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "arm-forearm-basics"
+          ]
+        },
+        {
+          "question_text": "上腕と前腕の骨とその主な特徴を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "上腕骨は上肢最大の骨で肩関節と肘関節を結ぶ。橈骨は前腕の親指側にあり、手関節（手首）で手根骨と関節する。尺骨は前腕の小指側にあり、肘関節で蝶番関節の主役を担う。肘頭は尺骨の近位端にある突起で、肘の後方から触れることができる。",
+          "source": "OpenStax Anatomy and Physiology 8.2",
+          "metadata": {
+            "pairs": [
+              {
+                "left": "上腕骨",
+                "right": "上肢最大の骨。肩関節と肘関節を結ぶ"
+              },
+              {
+                "left": "橈骨",
+                "right": "親指側。手首で手根骨と関節。回内・回外で回転"
+              },
+              {
+                "left": "尺骨",
+                "right": "小指側。肘で蝶番関節を形成。屈伸の主役"
+              },
+              {
+                "left": "肘頭",
+                "right": "尺骨の突起。肘後方のでっぱり"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "arm-forearm-basics"
+          ]
+        },
+        {
+          "question_text": "手関節（手首）で主に手根骨と関節しているのは橈骨と尺骨のどちらか？この非対称の理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "手関節で手根骨と直接関節するのは主に橈骨の遠位端である。尺骨の遠位端は手根骨から関節円板（三角線維軟骨複合体/TFCC）で隔てられている。この非対称は、肘と手首で橈骨と尺骨の役割分担が逆転していることを反映する。肘関節では尺骨が主役（屈伸の安定性）、手関節では橈骨が主役（手の荷重伝達）。このため手をついて転倒すると、手からの衝撃は主に橈骨を通って肘に伝わり、橈骨遠位端骨折（Colles骨折/コーレス骨折）が起こりやすい。",
+          "source": "OpenStax Anatomy and Physiology 8.2",
+          "choices": [
+            {
+              "text": "橈骨。肘では尺骨が主役、手首では橈骨が主役という役割分担があり、手の荷重は主に橈骨が受けるから",
+              "is_correct": true
+            },
+            {
+              "text": "尺骨。手首の安定性を確保するため、より太い尺骨が手根骨と関節する",
+              "is_correct": false
+            },
+            {
+              "text": "橈骨と尺骨が均等に手根骨と関節しており、非対称はない",
+              "is_correct": false
+            },
+            {
+              "text": "橈骨。親指側は繊細な動きが必要なため、橈骨が手根骨をより精密に制御する",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "arm-forearm-basics"
+          ]
+        },
+        {
+          "question_text": "ドアノブを回す動作（回内・回外）ができなくなったら、日常生活にどのような支障が出るか？この動作の解剖学的基盤を踏まえて最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "回内・回外は橈骨が尺骨上を回転する動きで、近位橈尺関節と遠位橈尺関節の2つの関節で実現する。この動きが失われると、ドアノブを回す、鍵を回す、ネジを締める、スプーンで食べる、文字を書く、手のひらで物を受け取るといった日常動作が著しく制限される。特に「手のひらの向きを変える」という一見些細な動きが、実は上肢の機能の根幹を支えている。橈骨遠位端骨折（コーレス骨折）の治療で回内・回外の可動域回復が重視されるのはこのためである。前腕が1本の骨であれば、このすべてが不可能になる。",
+          "source": "OpenStax Anatomy and Physiology 8.2, 9.5",
+          "choices": [
+            {
+              "text": "ドアノブ・鍵・ネジ回し・スプーン操作・筆記など、手のひらの向きを変える全ての日常動作が困難になる",
+              "is_correct": true
+            },
+            {
+              "text": "肘の屈曲・伸展ができなくなり、物を持ち上げられなくなる",
+              "is_correct": false
+            },
+            {
+              "text": "握力が低下して物を握れなくなるが、他の動作には影響しない",
+              "is_correct": false
+            },
+            {
+              "text": "手首の屈曲・伸展ができなくなり、タイピングができなくなる",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "arm-forearm-basics"
+          ]
+        },
+        {
+          "question_text": "高齢者が転倒して手をついたとき、橈骨遠位端骨折（コーレス骨折）が頻発する。この骨折が橈骨に集中する解剖学的理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "手をついて転倒すると、衝撃は手根骨→橈骨遠位端という経路で伝わる（手関節で主に橈骨が手根骨と関節しているため）。橈骨遠位端は、①海綿骨が多く緻密骨が薄い（骨端部の構造的特徴）、②骨粗鬆症で特に脆弱化しやすい部位。このため手からの衝撃で「フォークの背」のように遠位骨片が背側に転位する特徴的な骨折（コーレス骨折）が生じる。同じ転倒でも若年者は靭帯損傷（捻挫）になりやすく、高齢者は骨が弱いため骨折になりやすい。これは同じメカニズムでも「弱い鎖の環が切れる」原則を示す。",
+          "source": "OpenStax Anatomy and Physiology 8.2, 6.5, 6.6",
+          "choices": [
+            {
+              "text": "手関節で橈骨が手根骨と主に関節するため衝撃が橈骨に集中し、遠位端は海綿骨が多く骨粗鬆症で脆弱化しやすいから",
+              "is_correct": true
+            },
+            {
+              "text": "橈骨は尺骨より細いため構造的に弱く、どこが折れても橈骨になる",
+              "is_correct": false
+            },
+            {
+              "text": "手をつくと回内位になり橈骨に全体重がかかるが、尺骨は接触しないから",
+              "is_correct": false
+            },
+            {
+              "text": "加齢で橈骨のみカルシウムが減少する特異的な変化が起こるため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "arm-forearm-basics",
+            "osteoporosis-basics"
           ]
         }
       ]
