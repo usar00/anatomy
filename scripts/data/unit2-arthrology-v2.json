@@ -32,6 +32,11 @@
       "id": "yoga-joints-foundation",
       "title": "関節とヨガ — 可動性・安定性・軟骨の健康",
       "content": "ヨガは関節の可動域（ROM: Range of Motion）、安定性、軟骨の健康すべてに関わる実践である。ヨガのポーズでは関節を通常の動作範囲の端まで動かし（end-range motion）、その位置で保持する。これにより関節包や靭帯のコラーゲン線維が穏やかに引き伸ばされ、長期的な柔軟性の改善が期待できる。10週間のヨガ実践がアスリートの柔軟性とバランスを有意に改善したことが報告されている（Polsgrove et al., 2016, International Journal of Yoga, doi:10.4103/0973-6131.171710）。ヨガでは「可動性（Mobility）」と「柔軟性（Flexibility）」を区別することが重要である。柔軟性は受動的な可動域（他の力で動かせる範囲）、可動性は能動的に制御できる可動域（自分の筋力で動かせる範囲）を指す。柔軟性だけが高く可動性が低い状態は関節の不安定性を招き、傷害リスクを高める。ヨガのポーズでは、関節を動かすだけでなく「安定させながら動かす」（スティラ=安定とスーカ=快適さ）ことが本質であり、これは関節包の固有受容器を刺激してバランス能力を向上させる。関節軟骨は無血管であり、滑液による栄養供給はウィーピング潤滑（荷重と除荷の繰り返し）に依存するため、ヨガの穏やかな荷重変化（ポーズの保持と解放）は軟骨の栄養供給を促進する可能性がある。ただし、関節の可動域には骨格構造による個人差（大腿骨頸の前捻角、寛骨臼の深さなど）があり、全員が同じ可動域を達成する必要はない。痛みを伴うストレッチは靭帯や関節唇の損傷リスクを高めるため、「心地よい伸び」を超えない指導が重要である。"
+    },
+    {
+      "id": "ball-hinge-joints-basics",
+      "title": "球関節と蝶番関節の構造・機能比較",
+      "content": "滑膜性関節は関節面の形状により6つのサブタイプに分類される。そのうち最も自由度が高いのが球関節（Ball-and-Socket Joint）、最も制限的なものの一つが蝶番関節（Hinge Joint）である。①球関節は、一方の骨の球状の頭が、もう一方の骨のカップ状の窩にはまり込む構造で、3軸（多軸）の運動が可能。屈曲・伸展、外転・内転、回旋（内旋・外旋）のすべてを行え、これらを組み合わせた分回し運動（Circumduction）もできる。代表例は肩関節（肩甲上腕関節）と股関節。肩関節は関節窩が浅く、人体で最も可動域が広いが、その代償として最も脱臼しやすい。股関節は寛骨臼が深く、強い靭帯で補強されているため、可動域は肩より狭いが安定性は格段に高い。②蝶番関節は、一方の骨の円筒状の凸面（滑車）がもう一方のくぼみにはまる構造で、1軸の運動（屈曲・伸展）のみ可能。ドアの蝶番と同じ原理。代表例は肘関節（腕尺関節）、膝関節、指節間関節（IP関節）。蝶番関節は可動方向が限定される代わりに、側副靭帯によって横方向の動きが強く制限されるため安定性が高い。関節面の形状が運動軸を物理的に決定しており、これが「構造が機能を決める」原則の典型例である。"
     }
   ],
   "sections": [
@@ -1225,6 +1230,224 @@
             }
           ],
           "reference_text_ids": ["yoga-joints-foundation", "synovial-joint-structure-basics"]
+        }
+      ]
+    },
+    {
+      "name": "球関節と蝶番関節",
+      "slug": "ball-hinge-joints",
+      "description": "多軸 vs 一軸 — 肩はなぜ全方向に動き、肘は一方向だけ？",
+      "sort_order": 5,
+      "concepts": [
+        {
+          "name": "球関節",
+          "description": "球状の骨頭がカップ状の窩にはまる多軸関節。肩関節と股関節が代表例"
+        },
+        {
+          "name": "蝶番関節",
+          "description": "滑車状の関節面による一軸関節。肘・膝・指節間関節が代表例"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "球関節（Ball-and-Socket Joint）の代表例として正しい組み合わせはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "球関節は、一方の骨の球状の頭がもう一方のカップ状の窩にはまり込む構造です。代表例は肩関節（肩甲上腕関節）と股関節で、どちらも3軸（多軸）の運動が可能です。肘関節は蝶番関節、橈骨手根関節は楕円関節、環軸関節は車軸関節です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "choices": [
+            {
+              "text": "肘関節と膝関節",
+              "is_correct": false
+            },
+            {
+              "text": "肩関節と股関節",
+              "is_correct": true
+            },
+            {
+              "text": "橈骨手根関節と環軸関節",
+              "is_correct": false
+            },
+            {
+              "text": "指節間関節と足趾間関節",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["ball-hinge-joints-basics"]
+        },
+        {
+          "question_text": "蝶番関節は（　①　）軸の関節で、（　②　）と（　③　）の動きのみ可能である。代表例として肘関節・膝関節・（　④　）関節がある。",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "蝶番関節はドアの蝶番と同じ原理で、1つの軸を中心に屈曲・伸展の動きのみ行えます。代表例は肘関節（腕尺関節）、膝関節、指節間（IP）関節です。回旋や外転・内転はできません。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "choices": [
+            { "text": "1", "is_correct": true },
+            { "text": "屈曲", "is_correct": true },
+            { "text": "伸展", "is_correct": true },
+            { "text": "指節間", "is_correct": true },
+            { "text": "3", "is_correct": false },
+            { "text": "回旋", "is_correct": false }
+          ],
+          "metadata": {
+            "word_bank": ["伸展", "1", "回旋", "屈曲", "3", "指節間"]
+          },
+          "reference_text_ids": ["ball-hinge-joints-basics"]
+        },
+        {
+          "question_text": "球関節が多方向（屈曲・伸展、外転・内転、回旋）に動ける構造的理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "球関節では、球状の骨頭がカップ状の窩にはまっており、球がカップの中で自由に回転できる形状です。球は3次元のあらゆる方向に回転できるため、3軸（多軸）の運動が可能になります。これに対し、蝶番関節は円筒状の凸面がくぼみにはまるため、1軸のみの回転に制限されます。関節面の「形」が「動き」を決める典型例です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "choices": [
+            {
+              "text": "球状の骨頭がカップ状の窩にはまり、球があらゆる方向に回転できる形状だから",
+              "is_correct": true
+            },
+            {
+              "text": "球関節の関節包が他の関節より2倍以上厚く、強い力で多方向に引っ張れるから",
+              "is_correct": false
+            },
+            {
+              "text": "球関節には6本以上の靭帯が放射状に付着し、各方向への運動をガイドするから",
+              "is_correct": false
+            },
+            {
+              "text": "球関節の関節軟骨が他の関節より5倍厚く、厚い軟骨が多方向の滑りを可能にするから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["ball-hinge-joints-basics"]
+        },
+        {
+          "question_text": "蝶番関節が屈曲・伸展以外の動き（横方向のぐらつきなど）を強く制限できる理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "蝶番関節では、円筒状の凸面（滑車）がくぼみにはまる関節面の形状により1軸の動きが決まります。それに加えて、関節の両側に側副靭帯が張っており、横方向の動きを強く制限します。この「関節面の形状 + 側副靭帯」の二重の仕組みにより、蝶番関節は高い安定性を確保しています。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "choices": [
+            {
+              "text": "蝶番関節の滑膜が特殊な構造で、横方向の動きに対してブレーキをかけるため",
+              "is_correct": false
+            },
+            {
+              "text": "蝶番関節では関節腔内の滑液が粘度を変えて不要な動きを抑制するため",
+              "is_correct": false
+            },
+            {
+              "text": "関節面の滑車形状が1軸の動きを規定し、側副靭帯が横方向の動きを制限するため",
+              "is_correct": true
+            },
+            {
+              "text": "蝶番関節は関節包が完全に骨化しており、1方向にしか開かない構造だから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["ball-hinge-joints-basics", "joint-support-structures-basics"]
+        },
+        {
+          "question_text": "以下の関節のタイプと、その運動の特徴を正しく組み合わせなさい。",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "①肩関節は球関節で、3軸の運動（屈曲・伸展、外転・内転、回旋）すべてが可能です。②肘関節（腕尺関節）は蝶番関節で、屈曲・伸展のみ行えます。③股関節は球関節ですが、寛骨臼が深く靭帯も強いため、可動域は肩より制限されます。④膝関節は蝶番関節で、主に屈曲・伸展を行います（わずかな回旋も可能ですが基本は1軸）。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "metadata": {
+            "matching_pairs": [
+              { "left": "肩関節（球関節）", "right": "3軸・最大の可動域" },
+              { "left": "肘関節（蝶番関節）", "right": "1軸・屈曲と伸展のみ" },
+              { "left": "股関節（球関節）", "right": "3軸・安定性が高い" },
+              { "left": "指節間関節（蝶番関節）", "right": "1軸・握る動作の基盤" }
+            ]
+          },
+          "choices": [],
+          "reference_text_ids": ["ball-hinge-joints-basics"]
+        },
+        {
+          "question_text": "肩関節と股関節はどちらも球関節だが、肩関節の方がはるかに脱臼しやすい。この違いをもたらす構造的要因として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "肩関節の関節窩（グレノイド）は非常に浅く、上腕骨頭の約1/3しか覆いません。これにより可動域は最大になりますが、骨による安定性は低く、筋肉（回旋筋腱板）や靭帯に依存します。一方、股関節の寛骨臼は深く大腿骨頭をしっかり包み込み、さらに腸骨大腿靭帯などの強い靭帯で補強されています。この「浅い窩 = 大きな可動域 + 低い安定性」vs「深い窩 = 制限された可動域 + 高い安定性」がトレードオフの典型例です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            {
+              "text": "肩関節は股関節に比べて関節包が完全に欠損しており、骨だけで支えているため",
+              "is_correct": false
+            },
+            {
+              "text": "肩関節は滑液が少なく摩擦が大きいため、無理な動きで簡単に外れるため",
+              "is_correct": false
+            },
+            {
+              "text": "肩も股関節も安定性は同等だが、肩は外力を受けやすい位置にあるだけのため",
+              "is_correct": false
+            },
+            {
+              "text": "肩関節の関節窩が浅く骨頭のわずかしか覆わないのに対し、股関節の寛骨臼は深く骨頭を包み込むため",
+              "is_correct": true
+            }
+          ],
+          "reference_text_ids": ["ball-hinge-joints-basics", "joint-support-structures-basics"]
+        },
+        {
+          "question_text": "スポーツ中に腕を後方に強く引かれ、肩関節が前方に脱臼した。球関節の構造を考えると、このとき関節で起きていることの説明として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "肩関節の前方脱臼は最も頻度が高い脱臼です。腕を外転（横に上げ）・外旋（外側に回す）した状態で後方から力が加わると、上腕骨頭が浅い関節窩の前方縁から飛び出します。このとき、関節唇（ラブラム）の前下方が損傷（バンカート損傷）し、関節包の前方も引き伸ばされるか断裂します。球関節の浅い窩は多方向の動きを可能にしますが、「骨のストッパー」が弱いため、外力で容易に骨頭が窩から離脱します。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            {
+              "text": "蝶番構造のため前方にしか動けず、過度な前方への力で関節面がずれた",
+              "is_correct": false
+            },
+            {
+              "text": "浅い関節窩から上腕骨頭が前方に飛び出し、関節唇や関節包の前方が損傷した",
+              "is_correct": true
+            },
+            {
+              "text": "関節軟骨が一気に剥離し、骨同士の接触面がなくなって脱臼した",
+              "is_correct": false
+            },
+            {
+              "text": "滑液が急激に漏出して関節腔内が陰圧を失い、骨頭が吸引力で外に引き出された",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["ball-hinge-joints-basics", "joint-support-structures-basics"]
+        },
+        {
+          "question_text": "ドアノブを回す動作では、手首の回旋は前腕で行われ、指でノブを握る動作は指の関節で行われる。指の「握る」動作に関わる指節間関節が蝶番関節であることの利点として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "指節間関節は蝶番関節で、屈曲・伸展のみ可能です。握る動作では指を屈曲させて対象物を包み込みますが、このとき横方向のぐらつきがないことが重要です。もし指節間関節が球関節のように多方向に動けると、握力をかけた際に指が横に逸れ、安定した把持ができません。1軸の蝶番関節だからこそ、すべての屈曲力が対象物に効率よく伝わり、強く安定した握りが可能になります。回旋や横方向の動きが必要な場合は、手首（橈骨手根関節）や前腕（近位橈尺関節）の別の関節が担当する — これが関節の役割分担です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4-9.5",
+          "choices": [
+            {
+              "text": "屈曲方向にすべての力が集中し、横方向のぐらつきなく安定した握力を発揮できるため",
+              "is_correct": true
+            },
+            {
+              "text": "蝶番関節は摩擦係数がゼロに近く、指を素早く動かしてすばやく握れるため",
+              "is_correct": false
+            },
+            {
+              "text": "蝶番関節は関節軟骨が不要で軽量のため、27個もの骨を持つ手が重くならないため",
+              "is_correct": false
+            },
+            {
+              "text": "蝶番関節には痛覚センサーが多く、握る力の微調整が可能なため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["ball-hinge-joints-basics"]
         }
       ]
     }
