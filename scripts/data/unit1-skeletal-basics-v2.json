@@ -57,6 +57,21 @@
       "id": "bone-remodeling-basics",
       "title": "骨リモデリング",
       "content": "骨リモデリング（Bone Remodeling）は、骨吸収と骨形成が絶えず繰り返されるプロセス。破骨細胞（Osteoclast）が古い骨を溶かし（骨吸収）、骨芽細胞（Osteoblast）が新しい骨を作る（骨形成）。成人の骨格は約10年で全て入れ替わる。このバランスが崩れ、骨吸収＞骨形成になると骨量が減少し骨粗鬆症に至る。運動や荷重は骨形成を促進し、不使用や加齢は骨吸収を促進する。カルシウム・ビタミンDの摂取も重要。"
+    },
+    {
+      "id": "yoga-weight-bearing",
+      "title": "ヨガと荷重 — 骨を育てるポーズの科学",
+      "content": "ヨガの立位ポーズや支持ポーズは荷重運動（Weight-Bearing Exercise）として機能し、骨にストレスを与えることで骨形成を促進する（ウォルフの法則）。ヴィーラバドラーサナ（戦士のポーズ）II では大腿骨・脛骨・骨盤に体重がかかり、ヴルクシャーサナ（木のポーズ）では片脚に全体重が集中する。研究では、ヨガの定期的な実践が閉経後女性の骨密度低下を抑制することが報告されている（Lu et al., 2016, Topics in Geriatric Rehabilitation; Fishman, 2009, Topics in Geriatric Rehabilitation）。"
+    },
+    {
+      "id": "yoga-alignment-bones",
+      "title": "アライメントと骨 — 安全なポーズの解剖学的基盤",
+      "content": "ヨガのアライメント（骨の配列）は安全で効果的な練習の基盤である。関節に沿った適切な荷重は骨と軟骨を健全に保つが、不適切なアライメントは特定部位に過剰なストレスを集中させ、損傷のリスクを高める。例えば、戦士のポーズIIで前膝が足趾より前に出ると、膝蓋骨と大腿骨の間に過度の圧縮力がかかる。骨の構造を理解することで、なぜ特定のアライメントが推奨されるかを解剖学的に説明できる。"
+    },
+    {
+      "id": "yoga-interoception-stress",
+      "title": "内受容感覚とストレス応答 — ヨガの心理生理学的効果",
+      "content": "ヨガの練習は内受容感覚（Interoception：自分の身体の内部状態を感じる能力）を高める（Mehling et al., 2012, PLOS ONE）。骨や関節への圧力を意識的に感じることは、身体感覚への気づき（Body Awareness）を深める。また、慢性的なストレスはコルチゾールの持続的上昇を引き起こし、骨芽細胞の活性を抑制して骨吸収を促進する（Hardy & Cooper, 2009, Journal of Endocrinology）。ヨガの呼吸法や瞑想はストレス応答を調節し、コルチゾールを低下させることで間接的に骨の健康にも寄与する（Riley & Park, 2015, Journal of Behavioral Medicine）。"
     }
   ],
   "sections": [
@@ -1403,6 +1418,284 @@
           ],
           "reference_text_ids": [
             "bone-remodeling-basics"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "骨格系とヨガ — 荷重と整列が骨を育てる",
+      "slug": "bones-and-yoga",
+      "description": "ヨガのポーズが骨にどう働きかけるか？アライメントの解剖学的根拠と、心身のつながり",
+      "sort_order": 5,
+      "concepts": [
+        {
+          "name": "ヨガと荷重運動",
+          "description": "ヨガの立位・支持ポーズは荷重運動として骨形成を促進する（ウォルフの法則の応用）"
+        },
+        {
+          "name": "アライメントと骨の配列",
+          "description": "骨の構造を理解することで、安全で効果的なポーズのアライメントを解剖学的に説明できる"
+        },
+        {
+          "name": "内受容感覚とストレス応答",
+          "description": "ヨガは身体への気づきを深め、ストレスホルモンを調節することで骨の健康にも寄与する"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "ヴルクシャーサナ（木のポーズ）で片脚立ちをするとき、支持脚の骨にはどのような効果が期待できるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "ヴルクシャーサナでは全体重が片脚に集中し、大腿骨・脛骨・足の骨に大きな荷重がかかる。ウォルフの法則により、繰り返し荷重を受けた骨は骨形成が促進され、骨密度が維持・増加する。ヨガの立位ポーズは荷重運動として機能し、骨粗鬆症の予防に有効であることが研究で示されている（Lu et al., 2016, Topics in Geriatric Rehabilitation）。",
+          "source": "OpenStax Anatomy and Physiology 6.6 / Lu et al., 2016",
+          "choices": [
+            {
+              "text": "荷重によるストレスが骨形成を促進し、骨密度の維持・増加につながる",
+              "is_correct": true
+            },
+            {
+              "text": "片脚に負荷がかかりすぎるため骨が弱くなる",
+              "is_correct": false
+            },
+            {
+              "text": "骨への効果はなく、筋力のみが鍛えられる",
+              "is_correct": false
+            },
+            {
+              "text": "支持脚の骨髄で造血が活性化される",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "yoga-weight-bearing",
+            "bone-remodeling-basics"
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "ヨガのアライメントとは、ポーズにおける骨（関節）の適切な配列のことである。骨の構造に合った配列で荷重をかけることで、関節にかかる力が均等に分散され、特定部位への過剰なストレスを防ぐ。逆にアライメントが崩れると、軟骨・靭帯・骨に不均等な負荷がかかり、損傷のリスクが高まる。",
+          "source": "OpenStax Anatomy and Physiology 6.1",
+          "metadata": {
+            "template": "ヨガにおける骨の適切な配列を {{blank}} という"
+          },
+          "choices": [
+            {
+              "text": "アライメント",
+              "is_correct": true
+            },
+            {
+              "text": "プラーナヤーマ",
+              "is_correct": false
+            },
+            {
+              "text": "バンダ",
+              "is_correct": false
+            },
+            {
+              "text": "ドリシュティ",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "yoga-alignment-bones"
+          ]
+        },
+        {
+          "question_text": "ヴィーラバドラーサナII（戦士のポーズII）で「前膝を足首の真上に保つ」と指導するのはなぜか？骨格系の知識を使って考えてみよう。",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "前膝が足首の真上にあると、体重は脛骨を通じて真下に伝わり、膝関節の荷重が均等に分散される。しかし膝が足趾より前に出ると、大腿骨と脛骨の角度が変わり、膝蓋骨の裏面（膝蓋大腿関節）に過度の圧縮力が集中する。これは膝蓋骨周囲の軟骨摩耗や痛みの原因となりうる。「骨の配列に沿った荷重」がアライメントの解剖学的根拠である。",
+          "source": "OpenStax Anatomy and Physiology 9.4 / Kaminoff & Matthews, Yoga Anatomy, 2011",
+          "choices": [
+            {
+              "text": "膝が前に出ると膝蓋骨裏面に過度の圧縮力が集中し、軟骨を傷めるリスクがあるから",
+              "is_correct": true
+            },
+            {
+              "text": "膝が前に出ると脛骨が骨折する危険があるから",
+              "is_correct": false
+            },
+            {
+              "text": "見た目のフォームを美しくするため",
+              "is_correct": false
+            },
+            {
+              "text": "足首の靭帯が伸びて捻挫しやすくなるから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "yoga-alignment-bones"
+          ]
+        },
+        {
+          "question_text": "慢性的なストレスが骨の健康に悪影響を与えるメカニズムとして最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "慢性ストレスは副腎皮質からコルチゾール（ストレスホルモン）の持続的な分泌を引き起こす。コルチゾールは骨芽細胞の活性を抑制し、破骨細胞の骨吸収を促進する。つまり「骨を作る力が弱まり、壊す力が強まる」状態になり、骨リモデリングのバランスが崩れて骨密度が低下する（Hardy & Cooper, 2009, Journal of Endocrinology）。ヨガの呼吸法や瞑想がコルチゾールを低下させることは、骨の健康にも間接的に寄与する。",
+          "source": "Hardy & Cooper, 2009, Journal of Endocrinology / OpenStax Anatomy and Physiology 6.6",
+          "choices": [
+            {
+              "text": "コルチゾールの持続的上昇が骨芽細胞を抑制し、骨吸収を促進するから",
+              "is_correct": true
+            },
+            {
+              "text": "ストレスで食欲が落ちてカルシウム摂取が減るだけ",
+              "is_correct": false
+            },
+            {
+              "text": "ストレスで体温が上がり骨のコラーゲンが変性するから",
+              "is_correct": false
+            },
+            {
+              "text": "ストレスで筋緊張が増すと骨が圧迫されて薄くなるから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "yoga-interoception-stress",
+            "bone-remodeling-basics"
+          ]
+        },
+        {
+          "question_text": "ヨガの骨への効果と心身のつながりを正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "立位・支持ポーズは荷重運動として骨に力学的ストレスを与え、ウォルフの法則により骨形成を促進する。適切なアライメントは骨の配列に沿った荷重を実現し、関節への過度なストレスを防ぐ。呼吸法・瞑想はコルチゾールを低下させ、骨吸収の促進を抑制する。ポーズ中に骨への圧力を感じることは内受容感覚を高め、身体への気づきを深める。",
+          "source": "OpenStax Anatomy and Physiology / Riley & Park, 2015 / Mehling et al., 2012",
+          "metadata": {
+            "pairs": [
+              {
+                "left": "立位・支持ポーズ",
+                "right": "荷重が骨形成を促進（ウォルフの法則）"
+              },
+              {
+                "left": "アライメント",
+                "right": "骨の配列に沿い関節を保護"
+              },
+              {
+                "left": "呼吸法・瞑想",
+                "right": "コルチゾール低下で骨吸収を抑制"
+              },
+              {
+                "left": "ポーズ中の身体感覚",
+                "right": "内受容感覚を高め気づきを深める"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "yoga-weight-bearing",
+            "yoga-alignment-bones",
+            "yoga-interoception-stress"
+          ]
+        },
+        {
+          "question_text": "アド・ムカ・シュヴァナーサナ（ダウンドッグ）では手と足で体重を支える。このポーズが長骨・短骨の両方に有効な理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "ダウンドッグでは、腕を通じて上腕骨・橈骨・尺骨（長骨）に荷重がかかり、同時に手根骨（短骨）にも体重の一部が分散される。脚側でも大腿骨・脛骨（長骨）と足根骨（短骨）に荷重がかかる。つまり、四肢の長骨と手首・足首の短骨の両方に適度な力学的ストレスを与える全身荷重ポーズである。日常生活では手首に荷重をかける機会が少ないため、手根骨周辺の骨密度維持に特に有効とされる。",
+          "source": "OpenStax Anatomy and Physiology 6.1, 6.6 / Fishman, 2009",
+          "choices": [
+            {
+              "text": "手足を通じて四肢の長骨と手首・足首の短骨の両方に荷重がかかるから",
+              "is_correct": true
+            },
+            {
+              "text": "逆さまの体勢により骨に通常と逆方向の力がかかるから",
+              "is_correct": false
+            },
+            {
+              "text": "重力に逆らうことで骨が伸ばされて強くなるから",
+              "is_correct": false
+            },
+            {
+              "text": "手首に全体重がかかることで短骨が長骨に変わるから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "yoga-weight-bearing",
+            "long-bone-basics",
+            "short-bone-basics"
+          ]
+        },
+        {
+          "question_text": "閉経後の女性の生徒に「骨を強くするヨガ」を指導する場合、解剖学・生理学的に最も重要なポイントはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "閉経後はエストロゲンの急減により破骨細胞の活性が増し、骨吸収が骨形成を大幅に上回る。このため骨密度が年2〜3%ずつ低下する。指導において最も重要なのは、①荷重ポーズ（戦士・木・橋のポーズなど）で骨に力学的ストレスを与え骨形成を促進すること、②安全なアライメントで骨折リスクの高い部位（手首の橈骨遠位端、大腿骨頸部、椎体）を保護すること、③ストレス管理でコルチゾールを抑制すること。単に柔軟性を高めるだけでは骨への効果は限定的である。",
+          "source": "OpenStax Anatomy and Physiology 6.6 / Lu et al., 2016 / Hardy & Cooper, 2009",
+          "choices": [
+            {
+              "text": "荷重ポーズで骨形成を促進し、安全なアライメントで骨折リスク部位を保護する",
+              "is_correct": true
+            },
+            {
+              "text": "柔軟性を高めるポーズを中心にして関節の可動域を広げる",
+              "is_correct": false
+            },
+            {
+              "text": "激しいヴィンヤサで心拍数を上げてカルシウムの吸収を促す",
+              "is_correct": false
+            },
+            {
+              "text": "リストラティブヨガだけを行いストレスを完全に除去する",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "yoga-weight-bearing",
+            "yoga-alignment-bones",
+            "bone-remodeling-basics"
+          ]
+        },
+        {
+          "question_text": "ヨガの指導者が「骨を感じてください」と声かけする意味を、心理学と生理学の知識を使って説明するとどうなるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "「骨を感じる」という声かけは、内受容感覚（Interoception）と固有受容感覚（Proprioception）を活性化する。ポーズ中に骨への荷重や関節の位置を意識的に感じることで、身体感覚への気づき（Body Awareness）が深まる。研究では、ヨガの練習者は非練習者より内受容感覚が優れていることが報告されている（Mehling et al., 2012, PLOS ONE）。心理学的には、この「身体への気づき」は情動調節能力の向上やストレス耐性の強化と関連する。生理学的には、気づきを持った荷重はアライメントの自己修正を促し、骨と関節の安全を守る。つまり「骨を感じる」は心身両面に作用する指導である。",
+          "source": "Mehling et al., 2012, PLOS ONE / OpenStax Psychology 2e, Ch.5 / OpenStax Anatomy and Physiology 6.3",
+          "choices": [
+            {
+              "text": "内受容感覚を活性化し、身体への気づきを深めることで情動調節とアライメントの自己修正の両方を促す",
+              "is_correct": true
+            },
+            {
+              "text": "骨膜の神経を刺激して痛みの閾値を上げるためのトレーニングである",
+              "is_correct": false
+            },
+            {
+              "text": "骨を意識すると骨芽細胞が直接活性化されて骨が強くなる",
+              "is_correct": false
+            },
+            {
+              "text": "リラクゼーション効果を高めるための比喩的な表現にすぎない",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "yoga-interoception-stress",
+            "periosteum-basics"
           ]
         }
       ]
