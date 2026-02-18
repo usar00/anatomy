@@ -147,6 +147,11 @@
       "id": "leg-foot-bones-basics",
       "title": "下腿と足の骨の構造と機能",
       "content": "下腿は脛骨（Tibia）と腓骨（Fibula）の2本の骨で構成される。脛骨は下腿の内側にある太い骨で、大腿骨から体重を受け取り足関節へ伝達する荷重骨（Weight-Bearing Bone）である。近位端の内側顆・外側顆が大腿骨の顆と膝関節を形成し、遠位端の内果（Medial Malleolus）が足関節の内側の突起となる。腓骨は下腿の外側にある細い骨で、体重は支えない。外果（Lateral Malleolus）が足関節の外側の突起となり、足関節の安定性に寄与する。足は26個の骨（足根骨7個 + 中足骨5個 + 趾骨14個）で構成される。足根骨のうち距骨（Talus）は脛骨と腓骨の間に嵌まり足関節を形成し、踵骨（Calcaneus）は踵を構成し最大の足根骨である。足には3つのアーチ（内側縦アーチ、外側縦アーチ、横アーチ）があり、靭帯・腱・骨の配列で維持される。アーチは①衝撃吸収（歩行・走行時）、②体重の分散（踵骨頭と中足骨頭へ）、③歩行時の推進力（バネ効果）の役割を持つ。アーチが崩れた状態が扁平足（Flat Foot/Pes Planus）で、足部痛・膝痛・腰痛の原因となりうる。"
+    },
+    {
+      "id": "yoga-lower-limb-grounding",
+      "title": "下肢とヨガ — 立位ポーズの土台と転倒予防",
+      "content": "ヨガの立位ポーズは下肢の骨格（骨盤・大腿骨・脛骨・足の骨）を全面的に使う。ヴィーラバドラーサナI（戦士のポーズI）では前脚の膝が足首の真上にくるアライメントが重要で、膝が内側に入る（Knee Valgus）と大腿骨と脛骨の軸がずれ、膝関節の内側靭帯やACLにストレスがかかる。ヴルクシャーサナ（木のポーズ）の片脚立ちでは、支持脚の足のアーチ（特に内側縦アーチ）が体重を支えながらバランスを維持し、足趾でマットを掴む動作（Pada Bandha）が固有受容感覚を高める。ヨガの立位バランスポーズが高齢者の転倒予防に有効であることが示されている（Ni et al., 2014, Archives of Physical Medicine and Rehabilitation, doi:10.1016/j.apmr.2014.04.022）。股関節の開き（外旋）はバッダ・コナーサナ（合蹠のポーズ）で練習されるが、解剖学的には大腿骨頭が寛骨臼内で回旋する動きであり、骨盤の形状や大腿骨頸の前捻角には個人差が大きいため、股関節の可動域には生まれつきの骨格的限界がある。無理な開脚は関節唇損傷や恥骨結合炎のリスクとなる。ヨガの荷重ポーズが骨密度維持に寄与する可能性が報告されており（Motorwala et al., 2016, International Journal of Yoga, doi:10.4103/0973-6131.171717）、特に閉経後女性の骨粗鬆症予防に関心が持たれている。"
     }
   ],
   "sections": [
@@ -4942,6 +4947,255 @@
             }
           ],
           "reference_text_ids": ["leg-foot-bones-basics"]
+        }
+      ]
+    },
+    {
+      "name": "下肢とヨガ — 立つ・歩くを支える骨格",
+      "slug": "lower-limb-and-yoga",
+      "description": "立位ポーズの土台は下肢の骨格理解 — 膝のアライメント、足のアーチ、転倒予防",
+      "sort_order": 18,
+      "concepts": [
+        {
+          "name": "立位ポーズの骨格アライメント",
+          "description": "膝の位置、足のアーチ、骨盤の傾きがヨガの立位ポーズの安全性と効果を左右する"
+        },
+        {
+          "name": "股関節の骨格的限界",
+          "description": "大腿骨頸の前捻角や寛骨臼の深さには個人差があり、股関節の可動域は骨格で制限される"
+        },
+        {
+          "name": "ヨガと転倒予防",
+          "description": "ヨガの立位バランスポーズが固有受容感覚と下肢筋力を向上させ、高齢者の転倒予防に寄与する"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "ヴィーラバドラーサナI（戦士のポーズI）で前脚の膝が内側に入る（Knee Valgus）と、下肢の骨格にどのような問題が生じるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "膝が内側に入る（Knee Valgus / ニーイン）と、大腿骨の軸と脛骨の軸がずれます。これにより膝関節の内側靭帯（MCL）や前十字靭帯（ACL）にストレスがかかり、長期的には膝の損傷リスクが高まります。戦士のポーズで「膝を足のつま先の方向に向ける」という指導は、この骨格アライメントを正すためです。",
+          "source": "Ni et al., 2014, Arch Phys Med Rehabil, doi:10.1016/j.apmr.2014.04.022",
+          "choices": [
+            {
+              "text": "大腿骨と脛骨の軸がずれ、膝の靭帯にストレスがかかる",
+              "is_correct": true
+            },
+            {
+              "text": "脛骨が外旋して足のアーチが崩壊する",
+              "is_correct": false
+            },
+            {
+              "text": "大腿骨頸部に過度な剪断力がかかり骨折リスクが生じる",
+              "is_correct": false
+            },
+            {
+              "text": "膝蓋骨が外側に脱臼しやすくなる",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["yoga-lower-limb-grounding", "femur-patella-basics", "leg-foot-bones-basics"]
+        },
+        {
+          "question_text": "次の文を完成させてください:\n\nヨガの立位ポーズで足裏全体を意識的にマットに根づかせ、足のアーチを活性化する技法を【　　】と呼ぶ。",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "パダ・バンダ（Pada Bandha）は「足のロック/封印」を意味するサンスクリット語で、足裏の3点（踵、小趾球、母趾球）を均等にマットに押しつけ、足のアーチを持ち上げるように意識する技法です。これにより足の内在筋（足底の小さな筋群）が活性化され、内側縦アーチが安定し、足首から上への安定した力の伝達が可能になります。",
+          "source": "Ni et al., 2014, Arch Phys Med Rehabil, doi:10.1016/j.apmr.2014.04.022",
+          "metadata": {
+            "word_bank": ["パダ・バンダ（Pada Bandha）", "ムーラ・バンダ（Mula Bandha）", "ウッディヤナ・バンダ（Uddiyana Bandha）", "ハスタ・バンダ（Hasta Bandha）"]
+          },
+          "choices": [
+            {
+              "text": "パダ・バンダ（Pada Bandha）",
+              "is_correct": true
+            },
+            {
+              "text": "ムーラ・バンダ（Mula Bandha）",
+              "is_correct": false
+            },
+            {
+              "text": "ウッディヤナ・バンダ（Uddiyana Bandha）",
+              "is_correct": false
+            },
+            {
+              "text": "ハスタ・バンダ（Hasta Bandha）",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["yoga-lower-limb-grounding", "leg-foot-bones-basics"]
+        },
+        {
+          "question_text": "バッダ・コナーサナ（合蹠のポーズ）で股関節を開くとき、骨格上の制限因子として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "股関節の外旋可動域は、大腿骨頭が寛骨臼内で回旋する動きです。この可動域は①寛骨臼の深さと向き、②大腿骨頸の前捻角（Femoral Anteversion）、③関節唇や靭帯の柔軟性によって決まります。これらは骨格構造として生まれつき個人差が大きく、筋のストレッチだけでは変えられない限界があります。骨格的に「開かない股関節」を無理に開こうとすると、関節唇損傷のリスクがあります。",
+          "source": "Motorwala et al., 2016, Int J Yoga, doi:10.4103/0973-6131.171717",
+          "choices": [
+            {
+              "text": "大腿骨頸の前捻角や寛骨臼の形状には個人差があり、骨格構造で可動域が制限される",
+              "is_correct": true
+            },
+            {
+              "text": "膝蓋骨が大腿骨前面で引っかかり、股関節の外旋を制限する",
+              "is_correct": false
+            },
+            {
+              "text": "脛骨と腓骨が連動して動くため、膝の角度が股関節の開きを制限する",
+              "is_correct": false
+            },
+            {
+              "text": "足のアーチが崩れると股関節の外旋が制限される",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["yoga-lower-limb-grounding", "pelvis-basics", "femur-patella-basics"]
+        },
+        {
+          "question_text": "ヨガの立位バランスポーズ（ヴルクシャーサナなど）が高齢者の転倒予防に有効とされるメカニズムとして最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "片脚立ちのポーズでは、足のアーチの微細な調整、足関節周囲の筋群の持続的な活動、そして足底の固有受容器（足裏の圧力センサー）からのフィードバックが統合されてバランスが維持されます。これを繰り返し練習することで、固有受容感覚（関節の位置や動きを感知する能力）が向上し、日常生活でのバランス能力が改善されます。Ni et al. (2014) はヨガプログラムが高齢者のバランス能力を有意に改善することを報告しています。",
+          "source": "Ni et al., 2014, Arch Phys Med Rehabil, doi:10.1016/j.apmr.2014.04.022",
+          "choices": [
+            {
+              "text": "足のアーチと足関節の固有受容感覚が鍛えられ、バランス能力が向上するため",
+              "is_correct": true
+            },
+            {
+              "text": "大腿骨の骨密度が増加し、転倒しても骨折しにくくなるため",
+              "is_correct": false
+            },
+            {
+              "text": "足の骨の数が増えて接地面積が広がり、安定性が増すため",
+              "is_correct": false
+            },
+            {
+              "text": "膝蓋骨のてこの効率が向上し、膝伸展力が強くなるため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["yoga-lower-limb-grounding", "leg-foot-bones-basics"]
+        },
+        {
+          "question_text": "下肢のヨガポーズと骨格の関係を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "戦士のポーズは膝のアライメント（大腿骨−脛骨軸）が重要です。木のポーズは足のアーチ（26個の骨の配列）を活用したバランス練習です。合蹠のポーズは大腿骨頭の寛骨臼内での外旋で、骨格的個人差が大きい動きです。椅子のポーズ（ウトカターサナ）では大腿骨頸部の角度と膝蓋骨のてこの効率が膝への負荷を決めます。",
+          "source": "Motorwala et al., 2016, Int J Yoga, doi:10.4103/0973-6131.171717",
+          "metadata": {
+            "pairs": [
+              {"left": "戦士のポーズ", "right": "膝が足のつま先と同じ方向を向く（大腿骨−脛骨の軸の整列）"},
+              {"left": "木のポーズ", "right": "足のアーチを活用して片脚バランスを維持する"},
+              {"left": "合蹠のポーズ", "right": "寛骨臼内で大腿骨頭が外旋する（骨格的個人差が大きい）"},
+              {"left": "椅子のポーズ", "right": "膝蓋骨のてこの効率と大腿骨頸の角度が膝への負荷を決める"}
+            ]
+          },
+          "choices": [
+            {
+              "text": "戦士のポーズ → 膝が足のつま先と同じ方向を向く（大腿骨−脛骨の軸の整列）",
+              "is_correct": true
+            },
+            {
+              "text": "木のポーズ → 足のアーチを活用して片脚バランスを維持する",
+              "is_correct": true
+            },
+            {
+              "text": "合蹠のポーズ → 寛骨臼内で大腿骨頭が外旋する（骨格的個人差が大きい）",
+              "is_correct": true
+            },
+            {
+              "text": "椅子のポーズ → 膝蓋骨のてこの効率と大腿骨頸の角度が膝への負荷を決める",
+              "is_correct": true
+            }
+          ],
+          "reference_text_ids": ["yoga-lower-limb-grounding", "pelvis-basics", "femur-patella-basics", "leg-foot-bones-basics"]
+        },
+        {
+          "question_text": "閉経後の女性にヨガの立位荷重ポーズ（戦士のポーズ、木のポーズなど）を勧める根拠として、骨格系の知識から最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "閉経後はエストロゲンの減少により骨吸収が骨形成を上回り、骨密度が急速に低下します（骨粗鬆症）。特に大腿骨頸部と腰椎が影響を受けやすい部位です。ヨガの立位荷重ポーズは下肢と脊柱に適度な荷重をかけ、ウォルフの法則により骨芽細胞の活動を促進して骨密度の維持に寄与する可能性があります。Motorwala et al. (2016) はヨガプログラムが閉経後女性の腰椎骨密度を改善したと報告しています。",
+          "source": "Motorwala et al., 2016, Int J Yoga, doi:10.4103/0973-6131.171717",
+          "choices": [
+            {
+              "text": "立位荷重が大腿骨・脛骨・脊柱にかかりウォルフの法則で骨密度維持に寄与するため",
+              "is_correct": true
+            },
+            {
+              "text": "ヨガの呼吸法がカルシウム吸収を促進し骨を直接強化するため",
+              "is_correct": false
+            },
+            {
+              "text": "ヨガのストレッチが骨膜を刺激して骨の成長を再開させるため",
+              "is_correct": false
+            },
+            {
+              "text": "ヨガのポーズが骨髄の造血機能を活性化し全身の骨を強化するため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["yoga-lower-limb-grounding", "osteoporosis-basics", "bone-remodeling-basics"]
+        },
+        {
+          "question_text": "「股関節が硬くて開かない」と悩む生徒に対し、ヨガ指導者が解剖学的知識に基づいて行うべき対応として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "股関節の可動域には筋の柔軟性だけでなく、骨格構造（大腿骨頸の前捻角、寛骨臼の深さと向き）による制限があり、これは個人差が大きく変えられません。指導者は「全員が同じ可動域を達成すべき」という前提を捨て、個人の骨格的限界を尊重する必要があります。無理な開脚は関節唇損傷や恥骨結合炎のリスクとなります。筋の柔軟性向上は長期的な練習で改善可能ですが、骨に当たる「硬い感覚」を超えてはいけません。",
+          "source": "Motorwala et al., 2016, Int J Yoga, doi:10.4103/0973-6131.171717",
+          "choices": [
+            {
+              "text": "骨格構造（前捻角・寛骨臼の形状）の個人差を説明し、無理に開かず各自の限界を尊重するよう指導する",
+              "is_correct": true
+            },
+            {
+              "text": "毎日のストレッチで必ず全員が開脚180度を達成できると励まし、練習量を増やすよう指示する",
+              "is_correct": false
+            },
+            {
+              "text": "股関節の外旋は膝蓋骨の位置で決まるので、膝のストレッチを重点的に行うよう指導する",
+              "is_correct": false
+            },
+            {
+              "text": "足のアーチを鍛えれば股関節の可動域が広がると説明し、パダ・バンダの練習を増やす",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["yoga-lower-limb-grounding", "pelvis-basics", "femur-patella-basics"]
+        },
+        {
+          "question_text": "ヨガの指導者養成で「解剖学的に安全な下肢のアライメント」を教える際、骨格系の知識を統合して伝えるべきポイントとして最も重要なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "下肢のアライメントは運動連鎖（Kinetic Chain）の考え方で統合的に理解する必要があります。足のアーチ→足関節→脛骨→膝関節→大腿骨→股関節→骨盤は力学的に連続しており、一箇所のずれが全体に波及します。例えば足の過回内（扁平足）→脛骨の内旋→膝のKnee Valgus→骨盤の非対称→腰椎へのストレスという連鎖です。指導者はこの連鎖を理解した上で「足の土台→膝の方向→骨盤の位置」と下から順に整えるアプローチが有効です。",
+          "source": "Ni et al., 2014, Arch Phys Med Rehabil, doi:10.1016/j.apmr.2014.04.022",
+          "choices": [
+            {
+              "text": "足のアーチから骨盤まで運動連鎖でつながっており、足の土台から順に整えることが全身のアライメントに影響する",
+              "is_correct": true
+            },
+            {
+              "text": "膝蓋骨の位置さえ正しければ下肢全体のアライメントは自動的に整うので、膝だけに注目すればよい",
+              "is_correct": false
+            },
+            {
+              "text": "骨盤の位置を最初に決めれば、重力で下肢全体が自然に正しいアライメントになる",
+              "is_correct": false
+            },
+            {
+              "text": "左右の大腿骨の長さは必ず同じなので、左右対称にポーズをとれば安全である",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["yoga-lower-limb-grounding", "pelvis-basics", "femur-patella-basics", "leg-foot-bones-basics"]
         }
       ]
     }
