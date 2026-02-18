@@ -142,6 +142,11 @@
       "id": "femur-patella-basics",
       "title": "大腿骨と膝蓋骨の構造と機能",
       "content": "大腿骨（Femur）は人体最長・最強の骨で、体長の約1/4を占める。近位端には球状の大腿骨頭（Femoral Head）があり寛骨臼と股関節を形成する。大腿骨頭と骨幹をつなぐ大腿骨頸（Femoral Neck）は骨幹の軸に対して約125°の角度（頸体角）をなし、体重を効率的に伝達する。大転子・小転子は筋の付着部。骨幹は前方に緩やかに弯曲し、荷重を分散する。遠位端には内側顆と外側顆があり脛骨と膝関節を形成する。大腿骨頸部は海綿骨が多く骨皮質が薄い部位で、骨粗鬆症による骨密度低下の影響を最も受けやすく、高齢者の転倒による大腿骨頸部骨折は寝たきりの主要原因である。膝蓋骨（Patella）は人体最大の種子骨で、大腿四頭筋の腱内に発達する。膝蓋骨は大腿骨の前面を滑走し、大腿四頭筋のてこの支点として膝伸展の効率を約50%向上させる。膝蓋骨がなければ、同じ膝伸展力を得るのにより大きな筋力が必要になる。"
+    },
+    {
+      "id": "leg-foot-bones-basics",
+      "title": "下腿と足の骨の構造と機能",
+      "content": "下腿は脛骨（Tibia）と腓骨（Fibula）の2本の骨で構成される。脛骨は下腿の内側にある太い骨で、大腿骨から体重を受け取り足関節へ伝達する荷重骨（Weight-Bearing Bone）である。近位端の内側顆・外側顆が大腿骨の顆と膝関節を形成し、遠位端の内果（Medial Malleolus）が足関節の内側の突起となる。腓骨は下腿の外側にある細い骨で、体重は支えない。外果（Lateral Malleolus）が足関節の外側の突起となり、足関節の安定性に寄与する。足は26個の骨（足根骨7個 + 中足骨5個 + 趾骨14個）で構成される。足根骨のうち距骨（Talus）は脛骨と腓骨の間に嵌まり足関節を形成し、踵骨（Calcaneus）は踵を構成し最大の足根骨である。足には3つのアーチ（内側縦アーチ、外側縦アーチ、横アーチ）があり、靭帯・腱・骨の配列で維持される。アーチは①衝撃吸収（歩行・走行時）、②体重の分散（踵骨頭と中足骨頭へ）、③歩行時の推進力（バネ効果）の役割を持つ。アーチが崩れた状態が扁平足（Flat Foot/Pes Planus）で、足部痛・膝痛・腰痛の原因となりうる。"
     }
   ],
   "sections": [
@@ -4692,6 +4697,251 @@
             }
           ],
           "reference_text_ids": ["femur-patella-basics"]
+        }
+      ]
+    },
+    {
+      "name": "下腿と足の骨",
+      "slug": "leg-foot-bones",
+      "description": "脛骨が太く腓骨が細い理由 — 足のアーチが崩れるとどうなる？",
+      "sort_order": 17,
+      "concepts": [
+        {
+          "name": "脛骨と腓骨",
+          "description": "下腿の2本の骨。脛骨は荷重骨で太く、腓骨は非荷重で細い。足関節の安定に両方が必要"
+        },
+        {
+          "name": "足の骨とアーチ",
+          "description": "足は26個の骨で構成され、3つのアーチが衝撃吸収と推進力を生む"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "下腿で体重を支える主要な骨はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "脛骨（Tibia）は下腿の内側にある太い骨で、大腿骨から体重を受け取り足関節へ伝達する荷重骨（Weight-Bearing Bone）です。腓骨（Fibula）は外側の細い骨で体重は支えず、主に筋の付着部と足関節の外側安定に関わります。脛骨が太く腓骨が細いのは、この荷重の違いによるものです。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
+          "choices": [
+            {
+              "text": "脛骨",
+              "is_correct": true
+            },
+            {
+              "text": "腓骨",
+              "is_correct": false
+            },
+            {
+              "text": "距骨",
+              "is_correct": false
+            },
+            {
+              "text": "踵骨",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["leg-foot-bones-basics"]
+        },
+        {
+          "question_text": "次の文を完成させてください:\n\n足を構成する骨の総数は【　　】個で、手の27個に近い数の骨が集まることで複雑な動きと体重支持を両立している。",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "足は26個の骨で構成されます。内訳は足根骨（Tarsal Bones）7個、中足骨（Metatarsals）5個、趾骨（Phalanges）14個です。手（27個）とほぼ同数の骨があり、歩行・走行・立位での複雑な要求（衝撃吸収、体重分散、推進力）に対応しています。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
+          "metadata": {
+            "word_bank": ["26", "12", "33", "20"]
+          },
+          "choices": [
+            {
+              "text": "26",
+              "is_correct": true
+            },
+            {
+              "text": "12",
+              "is_correct": false
+            },
+            {
+              "text": "33",
+              "is_correct": false
+            },
+            {
+              "text": "20",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["leg-foot-bones-basics"]
+        },
+        {
+          "question_text": "脛骨が太く腓骨が細い構造上の理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "脛骨は下肢の荷重骨として大腿骨から全体重を受け取り足関節へ伝達するため、大きな圧縮力に耐える太さが必要です（ウォルフの法則：荷重に応じて骨は太く強くなる）。腓骨は体重を支える必要がないため細いままです。腓骨の主な役割は筋の付着部の提供と、外果として足関節の外側安定性への寄与です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
+          "choices": [
+            {
+              "text": "脛骨は体重を支える荷重骨であり、腓骨は体重を支えないため",
+              "is_correct": true
+            },
+            {
+              "text": "脛骨の方が多くの筋が付着するため太さが必要である",
+              "is_correct": false
+            },
+            {
+              "text": "腓骨は成長途中で退化した骨で、本来は脛骨と同じ太さだった",
+              "is_correct": false
+            },
+            {
+              "text": "脛骨は骨髄腔が大きく造血機能が高いため太い",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["leg-foot-bones-basics"]
+        },
+        {
+          "question_text": "足のアーチが身体にとって重要な理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "足のアーチ（内側縦アーチ、外側縦アーチ、横アーチ）は3つの重要な機能を持ちます。①歩行・走行時の衝撃吸収（バネのように変形して衝撃を和らげる）、②体重の効率的な分散（踵骨と中足骨頭へ）、③歩行時の推進力（蹴り出し時のバネ効果）。これらが合わさって、人間が長距離を効率的に歩行・走行できる仕組みを作っています。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
+          "choices": [
+            {
+              "text": "歩行時の衝撃吸収、体重の分散、蹴り出しの推進力を同時に実現するため",
+              "is_correct": true
+            },
+            {
+              "text": "足の血管を保護し、足先への血流を確保するため",
+              "is_correct": false
+            },
+            {
+              "text": "足根骨同士の摩擦を減らし、関節の動きをスムーズにするため",
+              "is_correct": false
+            },
+            {
+              "text": "靴を履くときに足が靴底にフィットしやすくするため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["leg-foot-bones-basics"]
+        },
+        {
+          "question_text": "下腿と足の骨の構造と役割を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "脛骨は下腿の荷重骨で内果が足関節内側を形成します。腓骨は非荷重の細い骨で外果が足関節外側を形成します。距骨は脛骨・腓骨の間に嵌まり体重を受ける要の骨です。踵骨は足最大の骨でアキレス腱が付着し、足のアーチの後方支点となります。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
+          "metadata": {
+            "pairs": [
+              {"left": "脛骨", "right": "体重を支える荷重骨で、内果が足関節内側を形成"},
+              {"left": "腓骨", "right": "体重を支えない細い骨で、外果が足関節外側を形成"},
+              {"left": "距骨", "right": "脛骨と腓骨の間に嵌まり足関節を構成する"},
+              {"left": "踵骨", "right": "足最大の骨でアキレス腱が付着する"}
+            ]
+          },
+          "choices": [
+            {
+              "text": "脛骨 → 体重を支える荷重骨で、内果が足関節内側を形成",
+              "is_correct": true
+            },
+            {
+              "text": "腓骨 → 体重を支えない細い骨で、外果が足関節外側を形成",
+              "is_correct": true
+            },
+            {
+              "text": "距骨 → 脛骨と腓骨の間に嵌まり足関節を構成する",
+              "is_correct": true
+            },
+            {
+              "text": "踵骨 → 足最大の骨でアキレス腱が付着する",
+              "is_correct": true
+            }
+          ],
+          "reference_text_ids": ["leg-foot-bones-basics"]
+        },
+        {
+          "question_text": "足関節（足首）の安定性について、「くるぶし」の構造から説明した記述として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "足関節は距骨が脛骨の内果と腓骨の外果に「挟まれた」ほぞ穴構造（Mortise Joint）になっています。外果（腓骨）は内果（脛骨）より下方に位置しているため、足が内側に倒れる（内反する）方向には骨による制限が弱く、逆に外側に倒れる（外反する）方向には外果が壁となり制限します。このため、足首の捻挫は内反方向（足裏が内側を向く）に多く発生します。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
+          "choices": [
+            {
+              "text": "外果が内果より低い位置にあるため内反方向の制限が弱く、内反捻挫が起きやすい",
+              "is_correct": true
+            },
+            {
+              "text": "内果の方が大きいため外反方向が不安定で、外反捻挫が多い",
+              "is_correct": false
+            },
+            {
+              "text": "脛骨と腓骨は足関節で完全に癒合しており、どの方向にも安定している",
+              "is_correct": false
+            },
+            {
+              "text": "距骨が足関節から容易に脱臼するため、あらゆる方向に不安定である",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["leg-foot-bones-basics"]
+        },
+        {
+          "question_text": "扁平足（Flat Foot）が足部だけでなく膝や腰の痛みの原因にもなりうる理由として、解剖学的に最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "足のアーチ（特に内側縦アーチ）が崩れると、歩行時の衝撃吸収機能が低下し、衝撃が直接膝・股関節・腰椎に伝わります。さらに扁平足では足が過回内（Over-pronation：足が内側に倒れすぎる）しやすく、これが脛骨の内旋→膝のアライメント異常（膝が内側に入るKnee Valgus）→骨盤の傾斜→腰椎への負担増大という連鎖的なアライメント異常（運動連鎖 / Kinetic Chain）を引き起こします。このため「足の問題が膝や腰に波及する」のです。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
+          "choices": [
+            {
+              "text": "アーチ崩壊による衝撃吸収低下と過回内が、脛骨→膝→骨盤→腰椎の連鎖的アライメント異常を引き起こすため",
+              "is_correct": true
+            },
+            {
+              "text": "扁平足では足の血流が悪化し、下肢全体の筋力が低下して膝や腰に負担がかかるため",
+              "is_correct": false
+            },
+            {
+              "text": "アーチが崩れると足の神経が圧迫され、膝や腰に放散痛（関連痛）が生じるため",
+              "is_correct": false
+            },
+            {
+              "text": "足のアーチがないと歩幅が極端に小さくなり、代償として膝と腰を過度に使うため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["leg-foot-bones-basics"]
+        },
+        {
+          "question_text": "マラソンランナーが「すねの内側が痛い」（シンスプリント / 脛骨過労性骨膜炎）と訴えている。この症状の解剖学的メカニズムとして最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "シンスプリント（Medial Tibial Stress Syndrome）は脛骨の内側面に付着する筋（後脛骨筋、ヒラメ筋、長趾屈筋など）の反復的な牽引力によって、骨膜（periosteum）に炎症が生じる疾患です。脛骨の前内側面は皮下組織が薄く（弁慶の泣き所）、骨膜が直接ストレスを受けやすい構造です。ランニングの繰り返す衝撃と筋の牽引力が骨膜を刺激し、放置すると疲労骨折に進行することもあります。扁平足や過回内は筋の牽引力を増大させるリスク因子です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
+          "choices": [
+            {
+              "text": "脛骨内側に付着する筋の反復的牽引により骨膜に炎症が生じ、皮下組織が薄い部位で痛みが出やすいため",
+              "is_correct": true
+            },
+            {
+              "text": "脛骨の骨髄腔内の圧力が走行で上昇し、骨の内側から外側に向かって痛みが生じるため",
+              "is_correct": false
+            },
+            {
+              "text": "腓骨が荷重の一部を負担できず、脛骨に過剰な圧縮力が集中して骨折するため",
+              "is_correct": false
+            },
+            {
+              "text": "ランニング時に脛骨と腓骨の間の骨間膜が伸びて炎症を起こすため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["leg-foot-bones-basics"]
         }
       ]
     }
