@@ -97,6 +97,16 @@
       "id": "vertebra-structure-basics",
       "title": "椎骨の基本構造",
       "content": "典型的な椎骨（Vertebra）は以下の構造からなる。①椎体（Vertebral Body）：前方にある円柱状の部分で、体重を支える主要な荷重構造。上下の椎体間に椎間板がある。②椎弓（Vertebral Arch）：後方から椎体を囲むアーチ状の骨で、椎弓根（Pedicle）と椎弓板（Lamina）からなる。③椎孔（Vertebral Foramen）：椎体と椎弓に囲まれた空間で、脊髄が通る。全椎骨の椎孔が連なり脊柱管（Vertebral Canal）を形成し、脊髄を保護する。④棘突起（Spinous Process）：後方に突出する突起で、筋と靭帯の付着点。背中を触ると指先に感じる骨のでっぱり。⑤横突起（Transverse Process）：左右に突出する突起で、筋と靭帯の付着点。⑥上下の関節突起（Articular Process）：隣接する椎骨との関節面を持ち、脊柱の動きを制御する。頸椎は小さく可動性が高い、胸椎は肋骨と関節する、腰椎は大きく荷重を支えるなど、部位により特徴が異なる。"
+    },
+    {
+      "id": "yoga-spine-movement",
+      "title": "ヨガと脊柱の動き — 安全な可動性の回復",
+      "content": "ヨガの多くのポーズは脊柱の6方向の動き（屈曲・伸展・左右側屈・左右回旋）を含む。キャット・カウ（Marjaryasana-Bitilasana）は脊柱の屈曲と伸展を交互に行い、椎間板の栄養供給（imbibition：動きによる水分・栄養の出入り）を促進する。前屈（Uttanasana）は脊柱の屈曲で椎間板の後方を伸張し、後屈（Bhujangasana/コブラ）は伸展で前方を伸張する。ねじり（Ardha Matsyendrasana）は椎骨間の回旋を促す。系統的レビューでは、ヨガが慢性腰痛の短期的・長期的な緩和に有効であることが報告されている（Cramer et al., 2013, Clin J Pain, doi:10.1097/AJP.0b013e31825e1492）。また、ヨガは従来のストレッチングと同等以上の効果があることが示されている（Sherman et al., 2011, Arch Intern Med, doi:10.1001/archinternmed.2011.524）。"
+    },
+    {
+      "id": "yoga-spine-neuroscience",
+      "title": "ヨガと脳の可塑性 — 痛みの認知を変える",
+      "content": "ヨガの定期的な実践は脳の構造にも影響を与える。ヨガ実践者は加齢に伴う灰白質の減少が抑制されることが報告されている（Villemure et al., 2015, Front Hum Neurosci, doi:10.3389/fnhum.2015.00281）。また、包括的なヨガプログラム（アーサナ・呼吸法・瞑想の組み合わせ）は、運動療法単独よりも慢性腰痛の痛み・不安・抑うつを改善し、脊柱の可動性も向上させた（Tekur et al., 2012, Complement Ther Med, doi:10.1016/j.ctim.2011.12.009）。これは、ヨガが単なる物理的な運動ではなく、痛みの認知・情動処理にも作用する心身統合的アプローチであることを示唆する。指導者が『痛みのない範囲で』と伝えることは、安全な身体的境界を守るだけでなく、痛みに対する恐怖回避行動を減らす心理的効果もある。"
     }
   ],
   "sections": [
@@ -2527,6 +2537,285 @@
           "reference_text_ids": [
             "vertebra-structure-basics",
             "spinal-curves-basics"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "脊柱とヨガ — 動きが椎間板を育てる",
+      "slug": "spine-and-yoga",
+      "description": "ヨガのポーズと脊柱の解剖学を統合し、安全な指導と腰痛予防の科学を学ぶ",
+      "sort_order": 9,
+      "concepts": [
+        {
+          "name": "脊柱の6方向の動き",
+          "description": "屈曲・伸展・左右側屈・左右回旋の6方向。ヨガのポーズはこれらを組み合わせて脊柱の可動性を維持する"
+        },
+        {
+          "name": "椎間板の栄養と運動",
+          "description": "椎間板は無血管組織であり、動きによる圧縮・弛緩（imbibition）で栄養が供給される"
+        },
+        {
+          "name": "ヨガと痛みの心身統合",
+          "description": "ヨガは脊柱の物理的改善だけでなく、脳の可塑性や痛みの認知にも作用する"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "キャット・カウ（マルジャリアーサナ・ビティラーサナ）で脊柱を丸める→反らせるを繰り返す動きは、椎間板にどのような効果があるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "椎間板は人体最大の無血管組織であり、血管からではなく周囲の組織液の出入り（imbibition）で栄養を得ている。キャット・カウで脊柱の屈曲（丸める）と伸展（反る）を交互に行うと、椎間板に圧縮と弛緩が繰り返し加わり、スポンジが水を吸い込むように栄養と水分が出入りする。このポンプ作用が椎間板の健康を維持し、変性を予防する。朝一番のキャット・カウは、睡眠中に水分を吸って膨らんだ椎間板を穏やかに「目覚めさせる」効果がある。",
+          "source": "OpenStax Anatomy and Physiology 9.1 / Cramer et al., 2013, Clin J Pain, doi:10.1097/AJP.0b013e31825e1492",
+          "choices": [
+            {
+              "text": "圧縮と弛緩の繰り返しで椎間板に栄養と水分が出入りし、健康を維持する",
+              "is_correct": true
+            },
+            {
+              "text": "椎間板内の血流が増加して酸素が供給される",
+              "is_correct": false
+            },
+            {
+              "text": "椎間板が徐々に薄くなり柔軟性が高まる",
+              "is_correct": false
+            },
+            {
+              "text": "髄核が硬化して椎間板の強度が上がる",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "yoga-spine-movement",
+            "disc-herniation-basics"
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "脊柱の動きは6方向に分類される。屈曲（Flexion：前に曲げる）、伸展（Extension：後ろに反る）、左側屈（Left Lateral Flexion）、右側屈（Right Lateral Flexion）、左回旋（Left Rotation）、右回旋（Right Rotation）。ヨガのポーズはこの6方向すべてを含み、バランスの取れた脊柱の可動性を維持することを目指す。キャット・カウは屈曲・伸展、パールシュヴァコーナーサナは側屈、アルダ・マツィエンドラーサナは回旋を主に含む。",
+          "source": "OpenStax Anatomy and Physiology 9.5",
+          "metadata": {
+            "template": "ヨガで脊柱をバランスよく動かすには、屈曲・伸展・側屈・ {{blank}} の6方向を含めるとよい"
+          },
+          "choices": [
+            {
+              "text": "回旋",
+              "is_correct": true
+            },
+            {
+              "text": "牽引",
+              "is_correct": false
+            },
+            {
+              "text": "圧縮",
+              "is_correct": false
+            },
+            {
+              "text": "振動",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "yoga-spine-movement",
+            "spinal-curves-basics"
+          ]
+        },
+        {
+          "question_text": "ブジャンガーサナ（コブラのポーズ）で脊柱を伸展（後屈）させるとき、椎間板と椎骨にはそれぞれどのような力がかかるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "脊柱の伸展（後屈）では、椎間板の前方が開き（伸張）、後方が圧縮される。これは前屈（屈曲）の逆のパターンである。髄核は前方に移動する傾向がある。椎骨レベルでは、後方の関節突起が近づき、棘突起同士が接近する。過度の後屈は棘突起の衝突や椎間関節への過負荷を引き起こす。コブラのポーズは腰椎ヘルニア（後方に突出した髄核）の軽減に用いられることもあるが、これは伸展により髄核を前方に戻す効果を期待するものである。ただし脊柱管狭窄症がある場合は逆に症状を悪化させるため、禁忌となる。",
+          "source": "OpenStax Anatomy and Physiology 7.3, 9.1 / Kaminoff & Matthews, Yoga Anatomy, 2011",
+          "choices": [
+            {
+              "text": "椎間板の前方が伸張し後方が圧縮され、髄核は前方に移動する傾向がある",
+              "is_correct": true
+            },
+            {
+              "text": "椎間板全体が均等に圧縮され、椎骨が上下に近づく",
+              "is_correct": false
+            },
+            {
+              "text": "椎間板の後方が伸張し、髄核がさらに後方に押し出される",
+              "is_correct": false
+            },
+            {
+              "text": "椎間板への力はゼロになり、完全にリラックスした状態になる",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "disc-herniation-basics",
+            "yoga-spine-movement"
+          ]
+        },
+        {
+          "question_text": "ヨガの前屈（ウッターナーサナ）を指導するとき、「腰を丸めず、股関節から折り畳む」と伝える解剖学的理由は何か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "前屈の際に腰椎を強く丸める（腰椎屈曲）と、椎間板の前方に圧縮力、後方に引っ張り力がかかり、髄核が後方に押し出されるリスクが高まる。特に椎間板が変性している人では、ヘルニアを誘発する可能性がある。一方、股関節から折り畳む（Hip Hinge）と、腰椎の生理的な前弯を保ったまま前傾でき、椎間板への不均等な荷重を避けられる。これは日常の持ち上げ動作にも共通する原則であり、ヨガを通じて正しい身体の使い方を身につけることができる。",
+          "source": "OpenStax Anatomy and Physiology 7.3, 9.1 / Sherman et al., 2011, Arch Intern Med, doi:10.1001/archinternmed.2011.524",
+          "choices": [
+            {
+              "text": "腰椎を丸めると椎間板後方に不均等な圧力がかかり、ヘルニアのリスクが高まるから",
+              "is_correct": true
+            },
+            {
+              "text": "腰を丸めると脊髄が引っ張られて損傷するから",
+              "is_correct": false
+            },
+            {
+              "text": "腰椎の棘突起が皮膚を突き破る危険があるから",
+              "is_correct": false
+            },
+            {
+              "text": "股関節から折ると見た目のフォームが美しくなるだけで解剖学的理由はない",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "disc-herniation-basics",
+            "yoga-spine-movement",
+            "spinal-curves-basics"
+          ]
+        },
+        {
+          "question_text": "ヨガのポーズと脊柱の動きの方向を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "キャット（丸める）は脊柱の屈曲、カウ（反らす）は伸展にあたる。ねじりのポーズ（アルダ・マツィエンドラーサナ）は脊柱の回旋を主に含む。側屈のポーズ（パールシュヴァコーナーサナ/体側を伸ばすポーズ）は脊柱の側屈を含む。コブラのポーズは脊柱の伸展（後屈）である。ヨガのシークエンスでは6方向すべてをバランスよく含めることが推奨される。",
+          "source": "OpenStax Anatomy and Physiology 9.5 / Kaminoff & Matthews, Yoga Anatomy, 2011",
+          "metadata": {
+            "pairs": [
+              {
+                "left": "キャット（丸める）",
+                "right": "脊柱の屈曲"
+              },
+              {
+                "left": "コブラ（反る）",
+                "right": "脊柱の伸展"
+              },
+              {
+                "left": "ねじりのポーズ",
+                "right": "脊柱の回旋"
+              },
+              {
+                "left": "体側を伸ばすポーズ",
+                "right": "脊柱の側屈"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "yoga-spine-movement"
+          ]
+        },
+        {
+          "question_text": "ヨガが慢性腰痛に有効であることを示す研究があるが、「ヨガの効果はストレッチングと同程度」という報告もある。それでもヨガが特に推奨される理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "Sherman et al.（2011, Arch Intern Med）のRCTでは、ヨガの腰痛改善効果はストレッチングと同程度であった。しかしTekur et al.（2012, Complement Ther Med）は、アーサナ・呼吸法・瞑想を含む包括的ヨガが運動単独より痛み・不安・抑うつを改善することを示した。さらにVillemure et al.（2015, Front Hum Neurosci）は、ヨガ実践者の灰白質が加齢に伴う減少を示さないことを報告。つまりヨガは物理的な柔軟性改善に加え、呼吸法・瞑想による痛みの認知変容、不安の軽減、脳の神経可塑性への効果という複合的メリットがある。",
+          "source": "Sherman et al., 2011, Arch Intern Med, doi:10.1001/archinternmed.2011.524 / Tekur et al., 2012, Complement Ther Med, doi:10.1016/j.ctim.2011.12.009 / Villemure et al., 2015, Front Hum Neurosci, doi:10.3389/fnhum.2015.00281",
+          "choices": [
+            {
+              "text": "呼吸法・瞑想を含む包括的アプローチにより、物理的改善に加え痛みの認知・不安・脳の可塑性にも作用するから",
+              "is_correct": true
+            },
+            {
+              "text": "ヨガの方がストレッチングより筋力が大幅に向上するから",
+              "is_correct": false
+            },
+            {
+              "text": "ヨガには椎間板を再生させる直接的な効果が証明されているから",
+              "is_correct": false
+            },
+            {
+              "text": "ヨガは宗教的な側面があり精神的な癒し効果が科学的に測定できないから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "yoga-spine-neuroscience",
+            "yoga-spine-movement"
+          ]
+        },
+        {
+          "question_text": "腰痛持ちの生徒がヨガクラスに参加した。脊柱の解剖学に基づいた指導として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "腰痛持ちの生徒への指導には解剖学的根拠が必要。①キャット・カウで穏やかな屈伸から始める：椎間板のポンプ作用で栄養供給を促し、脊柱の可動性を安全に確認する。②前屈は股関節から折り畳み、腰椎の過度な屈曲を避ける：椎間板への不均等な荷重を防ぐ。③後屈は痛みのない範囲で：脊柱管狭窄がある場合は悪化のリスク。④ねじりは穏やかに：胸椎の回旋を促し腰椎への過負荷を避ける。「痛みのない範囲で」は安全の原則であると同時に、恐怖回避行動を減らす心理的効果もある。無理な深い前屈を強制したり、腰痛を無視して進めるのは禁忌である。",
+          "source": "Cramer et al., 2013, Clin J Pain, doi:10.1097/AJP.0b013e31825e1492 / Tekur et al., 2012, Complement Ther Med, doi:10.1016/j.ctim.2011.12.009",
+          "choices": [
+            {
+              "text": "キャット・カウで穏やかに脊柱を動かし始め、前屈は股関節から、後屈・ねじりは痛みのない範囲で行う",
+              "is_correct": true
+            },
+            {
+              "text": "腰痛があるときは脊柱を一切動かさず、座位瞑想だけ行う",
+              "is_correct": false
+            },
+            {
+              "text": "痛みを乗り越えるために深い前屈を積極的に練習させる",
+              "is_correct": false
+            },
+            {
+              "text": "腰痛は筋力不足が原因なので、プランクとチャトランガを繰り返す",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "yoga-spine-movement",
+            "disc-herniation-basics",
+            "spinal-curves-basics"
+          ]
+        },
+        {
+          "question_text": "ヨガの指導者養成で「腰痛のある生徒へのコブラのポーズの指導」について考察せよ。椎間板ヘルニアと脊柱管狭窄症の生徒では、コブラの適否が異なる。その理由を最もよく説明しているのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "コブラのポーズ（脊柱伸展）は、椎間板ヘルニアと脊柱管狭窄症で正反対の効果を持つ。椎間板ヘルニアでは、後方に突出した髄核を伸展により前方に戻す効果が期待でき、症状の緩和に有効なことがある（McKenzie法の原理）。一方、脊柱管狭窄症では、伸展により脊柱管がさらに狭くなり神経圧迫が増大するため、症状が悪化する。脊柱管狭窄症の生徒は屈曲（前かがみ）で楽になる傾向がある。このように同じ「腰痛」でも病態が異なれば適切なポーズが正反対になる。指導者には解剖学的知識に基づく個別対応が求められる。",
+          "source": "OpenStax Anatomy and Physiology 7.3 / Cramer et al., 2013, Clin J Pain, doi:10.1097/AJP.0b013e31825e1492",
+          "choices": [
+            {
+              "text": "ヘルニアでは伸展が髄核を前方に戻し有効だが、狭窄症では伸展で脊柱管がさらに狭まり悪化するから",
+              "is_correct": true
+            },
+            {
+              "text": "ヘルニアは若い人、狭窄症は高齢者なので、年齢による体力差が適否を決めるから",
+              "is_correct": false
+            },
+            {
+              "text": "どちらの疾患でもコブラは禁忌であり、指導すべきでない",
+              "is_correct": false
+            },
+            {
+              "text": "椎間板ヘルニアでは痛みが強すぎてコブラができないだけで、原理的にはどちらにも有効",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "disc-herniation-basics",
+            "vertebra-structure-basics",
+            "yoga-spine-movement"
           ]
         }
       ]
