@@ -1,0 +1,1955 @@
+{
+  "unit": {
+    "name": "筋学の基礎",
+    "slug": "myology-basics",
+    "description": "筋組織と骨格筋の構造・機能を学ぶ",
+    "sort_order": 2
+  },
+  "category": "筋学",
+  "category_slug": "myology",
+  "sections": [
+    {
+      "name": "筋組織の分類と構造",
+      "slug": "muscle-tissue-types",
+      "description": "3種類の筋組織の構造と特徴を学ぶ",
+      "sort_order": 0,
+      "concepts": [
+        {
+          "name": "骨格筋",
+          "description": "横紋を持つ随意筋で、骨に付着して運動を生み出す"
+        },
+        {
+          "name": "心筋",
+          "description": "心臓を構成する横紋のある不随意筋"
+        },
+        {
+          "name": "平滑筋",
+          "description": "内臓や血管壁に存在する横紋のない不随意筋"
+        },
+        {
+          "name": "筋線維",
+          "description": "骨格筋を構成する多核の細長い細胞"
+        },
+        {
+          "name": "サルコメア",
+          "description": "筋原線維の収縮単位でアクチンとミオシンからなる"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "随意的に収縮させることができ、横紋構造を持つ筋組織はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "随意的に収縮させることができ、横紋構造を持つのは「骨格筋（Skeletal Muscle）」である。人体には3種類の筋組織が存在する：①骨格筋 — 横紋（striation）を持ち、体性運動神経の支配を受ける随意筋。骨に付着して関節運動を生み出し、体重の約40-50%を占める。骨格筋の筋線維（筋細胞）は多核で非常に細長い（直径10-100μm、長さ数cm〜数十cm）。②心筋 — 横紋を持つが不随意筋。自律神経と固有の刺激伝導系により自動的に収縮する。細胞間は介在板（intercalated disc）で結合。③平滑筋 — 横紋を持たない不随意筋。内臓壁や血管壁に存在し、蠕動運動や血管収縮を担う。紡錘形の単核細胞。横紋は筋原線維のアクチンフィラメントとミオシンフィラメントが規則的に配列することで生じる（Gray's Anatomy, Part IV: Myology; OpenStax Anatomy and Physiology, 10.1）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/muscle-tissue-three-types.jpg",
+              "role": "explanation",
+              "alt_text": "3種類の筋組織（Skeletal Muscle・Cardiac Muscle・Smooth Muscle）の組織構造を示す図。骨格筋は横紋と多核、心筋は横紋と介在板、平滑筋は紡錘形で横紋なしの特徴が描かれている"
+            }
+          ],
+          "choices": [
+            {
+              "text": "骨格筋",
+              "is_correct": true
+            },
+            {
+              "text": "心筋",
+              "is_correct": false
+            },
+            {
+              "text": "平滑筋",
+              "is_correct": false
+            },
+            {
+              "text": "弾性筋",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "muscle-tissue-three-types"
+          ]
+        },
+        {
+          "question_text": "心筋細胞同士を電気的・機械的に結合する構造を何というか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "心筋細胞同士を結合する構造は「介在板（Intercalated Disc）」である。介在板は心筋に固有の構造で、隣接する心筋細胞の端と端をつなぐ特殊な細胞間結合である。介在板には3種類の結合が含まれる：①デスモソーム（desmosome）— 機械的に細胞同士を固定し、収縮時に細胞がばらばらにならないようにする。②接着結合（fascia adherens）— アクチンフィラメントを固定し、収縮力を隣の細胞に伝達する。③ギャップ結合（gap junction）— イオンが直接通過できる細胞間チャネルで、電気的興奮を瞬時に伝播させる。このギャップ結合により心筋は「機能的合胞体（functional syncytium）」として振る舞い、心房全体・心室全体がほぼ同時に収縮できる。骨格筋は個々の筋線維が独立して神経支配されるため、介在板を持たない（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 10.8）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/muscle-tissue-three-types.jpg",
+              "role": "explanation",
+              "alt_text": "3種類の筋組織（Skeletal Muscle・Cardiac Muscle・Smooth Muscle）の組織構造を示す図。骨格筋は横紋と多核、心筋は横紋と介在板、平滑筋は紡錘形で横紋なしの特徴が描かれている"
+            }
+          ],
+          "choices": [
+            {
+              "text": "介在板",
+              "is_correct": true
+            },
+            {
+              "text": "Z線",
+              "is_correct": false
+            },
+            {
+              "text": "筋形質膜",
+              "is_correct": false
+            },
+            {
+              "text": "筋周膜",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "muscle-tissue-three-types"
+          ]
+        },
+        {
+          "question_text": "消化管の壁に存在し、蠕動運動を担う筋組織はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "消化管の壁に存在し蠕動運動を担うのは「平滑筋（Smooth Muscle）」である。平滑筋は横紋を持たない不随意筋で、自律神経の支配を受ける。平滑筋の筋細胞は紡錘形（両端が尖った細長い形）で、中央に1個の核を持つ単核細胞である（骨格筋は多核、心筋は1-2核）。平滑筋のアクチンとミオシンは骨格筋のように規則的な配列をとらず、細胞内に斜め方向のネットワークを形成するため、横紋が見えない。平滑筋は消化管・血管・気管支・膀胱・子宮などの内臓壁に存在し、管腔の収縮・弛緩を行う。消化管では輪走筋と縦走筋の2層が交互に収縮することで蠕動運動（peristalsis）が生じ、食物を口側から肛門側へ送る。平滑筋の収縮は骨格筋より遅いが、持続的な緊張（トーヌス）を維持できるのが特徴である（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 10.8）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/muscle-tissue-three-types.jpg",
+              "role": "explanation",
+              "alt_text": "3種類の筋組織（Skeletal Muscle・Cardiac Muscle・Smooth Muscle）の組織構造を示す図。骨格筋は横紋と多核、心筋は横紋と介在板、平滑筋は紡錘形で横紋なしの特徴が描かれている"
+            }
+          ],
+          "choices": [
+            {
+              "text": "平滑筋",
+              "is_correct": true
+            },
+            {
+              "text": "骨格筋",
+              "is_correct": false
+            },
+            {
+              "text": "心筋",
+              "is_correct": false
+            },
+            {
+              "text": "横紋筋",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "muscle-tissue-three-types"
+          ]
+        },
+        {
+          "question_text": "筋組織の種類とその特徴を正しく組み合わせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "3種類の筋組織とその特徴の対応：①骨格筋 — 随意筋・横紋あり。体性運動神経の支配を受け、意識的に収縮させることができる唯一の筋組織。骨に付着し関節運動を生み出す。多核の筋線維からなる。②心筋 — 不随意筋・横紋あり。自律神経の修飾を受けるが、洞房結節からの自動的なリズムで収縮する。介在板でつながり機能的合胞体として一斉収縮する。③平滑筋 — 不随意筋・横紋なし。自律神経の支配を受け、内臓壁や血管壁で管腔の収縮・弛緩を行う。アクチン・ミオシンの配列が不規則なため横紋が見えない。紡錘形の単核細胞。横紋の有無と随意性の組み合わせを整理すると、横紋あり＋随意＝骨格筋、横紋あり＋不随意＝心筋、横紋なし＋不随意＝平滑筋、となる（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 10.1, 10.8）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/muscle-tissue-three-types.jpg",
+              "role": "explanation",
+              "alt_text": "3種類の筋組織（Skeletal Muscle・Cardiac Muscle・Smooth Muscle）の組織構造を示す図。骨格筋は横紋と多核、心筋は横紋と介在板、平滑筋は紡錘形で横紋なしの特徴が描かれている"
+            }
+          ],
+          "metadata": {
+            "pairs": [
+              {
+                "left": "骨格筋",
+                "right": "随意筋・横紋あり"
+              },
+              {
+                "left": "心筋",
+                "right": "不随意筋・横紋あり"
+              },
+              {
+                "left": "平滑筋",
+                "right": "不随意筋・横紋なし"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "muscle-tissue-three-types"
+          ]
+        },
+        {
+          "question_text": "骨格筋において、複数の筋線維を束ねる結合組織の層を何というか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "複数の筋線維を束ねる結合組織の層は「筋周膜（Perimysium）」である。骨格筋は3層の結合組織で階層的に組織されている：①筋外膜（epimysium）— 筋全体を包む最外層の結合組織。筋の形態を維持し、周囲の組織との摩擦を軽減する。②筋周膜（perimysium）— 筋線維を10-100本ずつの束（筋束 / fascicle）にまとめる結合組織。血管と神経はこの層を通って筋の内部に入る。③筋内膜（endomysium）— 個々の筋線維を包む薄い結合組織。毛細血管とサテライト細胞（筋の幹細胞）がこの層に存在する。これら3層の結合組織は筋の両端で集合して腱（tendon）を形成し、骨に付着する。覚え方：「外（epi-）→ 周（peri-）→ 内（endo-）」と外から内へ。エピ＝上/外、ペリ＝周り、エンド＝内部（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 10.2）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/muscle-fiber-organization.jpg",
+              "role": "explanation",
+              "alt_text": "骨格筋の筋線維の構造図。Epimysium（筋外膜）、Perimysium（筋周膜）、Endomysium（筋内膜）、Fascicle（筋束）、Muscle fiber（筋線維）、Myofibril（筋原線維）の階層構造が示されている"
+            }
+          ],
+          "choices": [
+            {
+              "text": "筋周膜",
+              "is_correct": true
+            },
+            {
+              "text": "筋外膜",
+              "is_correct": false
+            },
+            {
+              "text": "筋内膜",
+              "is_correct": false
+            },
+            {
+              "text": "筋膜",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "muscle-tissue-three-types"
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "筋原線維の収縮の最小単位は「サルコメア（sarcomere）」である。サルコメアはZ線（Z disc）からZ線までの区間で、長さは安静時で約2.2μmである。サルコメア内には2種類の主要なタンパク質フィラメントが規則的に配列している：①太いフィラメント（thick filament）— ミオシン（myosin）からなり、サルコメアの中央部に位置する。②細いフィラメント（thin filament）— アクチン（actin）からなり、Z線から中央に向かって伸びる。サルコメアには特有の縞模様（帯）がある：A帯 — 太いフィラメントの全長に対応する暗い帯。I帯 — 細いフィラメントのみの明るい帯。H帯 — A帯中央の太いフィラメントのみの部分。M線 — サルコメアの正中を走る線。筋収縮時には細いフィラメントが太いフィラメントの間に滑り込み、I帯とH帯が短縮するがA帯の長さは変わらない（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 10.2）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/muscle-fiber-organization.jpg",
+              "role": "explanation",
+              "alt_text": "骨格筋の筋線維の構造図。Epimysium（筋外膜）、Perimysium（筋周膜）、Endomysium（筋内膜）、Fascicle（筋束）、Muscle fiber（筋線維）、Myofibril（筋原線維）の階層構造が示されている"
+            }
+          ],
+          "metadata": {
+            "template": "筋原線維の収縮の最小単位は {{blank}} である",
+            "word_options": [
+              "サルコメア",
+              "筋節",
+              "筋原線維",
+              "アクチン"
+            ]
+          },
+          "choices": [
+            {
+              "text": "サルコメア",
+              "is_correct": true
+            },
+            {
+              "text": "筋節",
+              "is_correct": false
+            },
+            {
+              "text": "筋原線維",
+              "is_correct": false
+            },
+            {
+              "text": "アクチン",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "muscle-tissue-three-types"
+          ]
+        },
+        {
+          "question_text": "骨格筋の筋線維（筋細胞）の特徴として正しいものはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "骨格筋の筋線維は「多核である」が正しい特徴である。骨格筋の筋線維（muscle fiber）は発生過程で多数の筋芽細胞（myoblast）が融合して形成されるため、1本の筋線維の中に数百個もの核が細胞膜直下（周辺部）に散在している。この多核性は骨格筋に固有の特徴であり、心筋細胞は通常1-2個の核を中央に持ち、平滑筋細胞は1個の核を中央に持つ。筋線維は人体で最も大きな細胞の一つで、直径10-100μm、長さは数mmから30cm以上に達するものもある（縫工筋など）。筋線維の細胞膜は「筋鞘（sarcolemma）」、細胞質は「筋形質（sarcoplasm）」と呼ばれ、接頭辞「sarco-」はギリシャ語で「肉」を意味する。筋形質内には筋原線維（myofibril）が密に詰まっており、これが収縮の実質的な装置である（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 10.2）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/muscle-tissue-three-types.jpg",
+              "role": "explanation",
+              "alt_text": "3種類の筋組織（Skeletal Muscle・Cardiac Muscle・Smooth Muscle）の組織構造を示す図。骨格筋は横紋と多核、心筋は横紋と介在板、平滑筋は紡錘形で横紋なしの特徴が描かれている"
+            }
+          ],
+          "choices": [
+            {
+              "text": "多核である",
+              "is_correct": true
+            },
+            {
+              "text": "単核である",
+              "is_correct": false
+            },
+            {
+              "text": "紡錘形である",
+              "is_correct": false
+            },
+            {
+              "text": "介在板で結合する",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "muscle-tissue-three-types"
+          ]
+        },
+        {
+          "question_text": "サルコメアにおいて、筋収縮時にも長さが変化しない帯を何というか？（アルファベット1文字＋「帯」で回答）",
+          "interaction_type": "free_input",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "筋収縮時にも長さが変化しないのは「A帯（A band）」である。A帯は太いフィラメント（ミオシン）の全長に対応する暗い帯で、「A」はanisotropic（異方性）の略である。筋収縮はスライディング・フィラメント理論（sliding filament theory）で説明され、細いフィラメント（アクチン）が太いフィラメント（ミオシン）の間に滑り込むことで生じる。この際、フィラメント自体の長さは変わらないため、太いフィラメントの全長を示すA帯の幅は不変である。一方、変化する構造は：①I帯（I band）— 細いフィラメントのみの明るい帯。収縮時に短縮する。②H帯（H zone）— A帯中央で太いフィラメントのみの部分。収縮時に短縮する。③サルコメア全体の長さも短縮する。「Aは変わらない、IとHは縮む」と覚える。A帯の長さが不変である事実はスライディング・フィラメント理論の重要な証拠であり、Hugh HuxleyとJean Hansonが1954年に電子顕微鏡で確認した（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 10.2）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/muscle-fiber-organization.jpg",
+              "role": "explanation",
+              "alt_text": "骨格筋の筋線維の構造図。Epimysium（筋外膜）、Perimysium（筋周膜）、Endomysium（筋内膜）、Fascicle（筋束）、Muscle fiber（筋線維）、Myofibril（筋原線維）の階層構造が示されている"
+            }
+          ],
+          "metadata": {
+            "acceptable_answers": [
+              "A帯",
+              "A band",
+              "暗帯"
+            ]
+          },
+          "reference_text_ids": [
+            "muscle-tissue-three-types"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "骨格筋の機能",
+      "slug": "skeletal-muscle-function",
+      "description": "筋収縮の仕組みと筋の役割分類を学ぶ",
+      "sort_order": 1,
+      "concepts": [
+        {
+          "name": "筋収縮の仕組み",
+          "description": "スライディング・フィラメント理論による筋収縮のメカニズム"
+        },
+        {
+          "name": "主動筋・拮抗筋・協力筋",
+          "description": "運動における筋の役割分類"
+        },
+        {
+          "name": "起始と停止",
+          "description": "筋の骨への付着部の分類（動かない側と動く側）"
+        },
+        {
+          "name": "筋の付着",
+          "description": "腱・腱膜による筋と骨の結合様式"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "筋収縮においてアクチンフィラメントがミオシンフィラメントの間に滑り込む理論を何というか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "この理論は「スライディング・フィラメント理論（Sliding Filament Theory）」と呼ばれる。1954年にAndrew HuxleyとRolf Niedergerke、およびHugh HuxleyとJean Hansonの2つのグループが独立に提唱した。この理論によれば、筋収縮時にフィラメント自体が短くなるのではなく、細いフィラメント（アクチン）が太いフィラメント（ミオシン）の間に滑り込むことでサルコメアが短縮する。具体的なメカニズム：①運動神経からアセチルコリンが放出され筋線維が興奮する。②筋小胞体からCa²⁺が放出される。③Ca²⁺がトロポニンに結合し、トロポミオシンが移動してアクチンの結合部位が露出する。④ミオシン頭部がアクチンに結合し、首振り運動（パワーストローク）でアクチンを引き寄せる。⑤ATPが結合するとミオシン頭部が解離し、次のサイクルが始まる。この繰り返しにより、細いフィラメントがサルコメアの中央に向かって引き込まれ、筋全体が短縮する（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 10.3）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/sliding-filament-model.jpg",
+              "role": "explanation",
+              "alt_text": "滑り説（Sliding Filament Model）による筋収縮のメカニズム。Actin（アクチン）とMyosin（ミオシン）フィラメントの滑り運動、サルコメアの短縮が段階的に示されている"
+            }
+          ],
+          "choices": [
+            {
+              "text": "スライディング・フィラメント理論",
+              "is_correct": true
+            },
+            {
+              "text": "興奮収縮連関理論",
+              "is_correct": false
+            },
+            {
+              "text": "全か無かの法則",
+              "is_correct": false
+            },
+            {
+              "text": "クロスブリッジ回転理論",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "skeletal-muscle-contraction"
+          ]
+        },
+        {
+          "question_text": "肘の屈曲において上腕二頭筋が主動筋のとき、反対の作用をする上腕三頭筋は何と呼ばれるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "主動筋の反対の作用をする筋は「拮抗筋（Antagonist）」と呼ばれる。骨格筋は関節をまたいで骨に付着しており、運動時には複数の筋が協調して働く。筋の役割分類：①主動筋（agonist / prime mover）— その運動を主に生み出す筋。肘屈曲では上腕二頭筋が主動筋。②拮抗筋（antagonist）— 主動筋と反対の作用を持つ筋。肘屈曲時の上腕三頭筋。拮抗筋は通常弛緩して主動筋の運動を妨げないが、必要に応じて運動を減速・制御する重要な役割を持つ。③協力筋（synergist）— 主動筋を補助する筋。肘屈曲では腕橈骨筋が協力筋として働く。④固定筋（fixator）— 関節の近位部を安定させ、主動筋が効率よく作用できるようにする筋。主動筋と拮抗筋は必ず対になって存在し（相反神経支配）、これにより滑らかで制御された運動が可能になる（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.1）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/sliding-filament-model.jpg",
+              "role": "explanation",
+              "alt_text": "滑り説（Sliding Filament Model）による筋収縮のメカニズム。Actin（アクチン）とMyosin（ミオシン）フィラメントの滑り運動、サルコメアの短縮が段階的に示されている"
+            }
+          ],
+          "choices": [
+            {
+              "text": "拮抗筋",
+              "is_correct": true
+            },
+            {
+              "text": "協力筋",
+              "is_correct": false
+            },
+            {
+              "text": "固定筋",
+              "is_correct": false
+            },
+            {
+              "text": "共同筋",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "skeletal-muscle-contraction"
+          ]
+        },
+        {
+          "question_text": "筋の付着部のうち、収縮時に動かない側（近位側）を何というか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "筋の付着部のうち、収縮時に動かない固定側を「起始（Origin）」という。骨格筋は通常2つ以上の骨にまたがって付着しており、その付着部は起始と停止に分けられる：①起始（origin）— 筋収縮時に動かない側の付着部。一般に近位（体幹に近い側）に位置し、安定した骨に付着する。②停止（insertion）— 筋収縮時に動く側の付着部。一般に遠位に位置し、筋の収縮により引き寄せられる骨に付着する。例えば上腕二頭筋の起始は肩甲骨（関節上結節と烏口突起）、停止は橈骨粗面である。肘を屈曲するとき肩甲骨は動かず、橈骨が引き寄せられる。ただし、起始と停止の区別は便宜的なもので、動作によっては通常の起始側が動くこともある（例：懸垂時は上腕二頭筋の停止側が固定され、起始側が引き寄せられる）。これを「逆の作用（reverse action）」という（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.1）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/sliding-filament-model.jpg",
+              "role": "explanation",
+              "alt_text": "滑り説（Sliding Filament Model）による筋収縮のメカニズム。Actin（アクチン）とMyosin（ミオシン）フィラメントの滑り運動、サルコメアの短縮が段階的に示されている"
+            }
+          ],
+          "choices": [
+            {
+              "text": "起始",
+              "is_correct": true
+            },
+            {
+              "text": "停止",
+              "is_correct": false
+            },
+            {
+              "text": "付着",
+              "is_correct": false
+            },
+            {
+              "text": "腱膜",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "skeletal-muscle-contraction"
+          ]
+        },
+        {
+          "question_text": "筋の役割分類とその説明を正しく組み合わせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "運動における筋の4つの役割分類：①主動筋（agonist）— 運動を主に生み出す筋。その運動に最も大きな力を発揮する。肘屈曲では上腕二頭筋、膝伸展では大腿四頭筋が主動筋となる。②拮抗筋（antagonist）— 主動筋と反対の作用を持つ筋。通常は弛緩して運動を妨げないが、運動の減速や関節の保護に不可欠。急激な動きを制御する「遠心性収縮」で働く。③協力筋（synergist）— 主動筋を補助する筋。同じ方向の力を加えるか、不要な動きを相殺して効率的な運動を可能にする。④固定筋（fixator）— 関節や骨を安定させ、主動筋が効率よく作用できる土台を提供する筋。例：上腕を持ち上げるとき肩甲骨を固定する前鋸筋や菱形筋。これら4つの役割は動作によって入れ替わることがあり、ある運動で主動筋だった筋が別の運動では拮抗筋になることもある（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.1）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/sliding-filament-model.jpg",
+              "role": "explanation",
+              "alt_text": "滑り説（Sliding Filament Model）による筋収縮のメカニズム。Actin（アクチン）とMyosin（ミオシン）フィラメントの滑り運動、サルコメアの短縮が段階的に示されている"
+            }
+          ],
+          "metadata": {
+            "pairs": [
+              {
+                "left": "主動筋",
+                "right": "運動を主に生み出す"
+              },
+              {
+                "left": "拮抗筋",
+                "right": "主動筋と反対の作用"
+              },
+              {
+                "left": "協力筋",
+                "right": "主動筋を補助する"
+              },
+              {
+                "left": "固定筋",
+                "right": "関節を安定させる"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "skeletal-muscle-contraction"
+          ]
+        },
+        {
+          "question_text": "筋が広い範囲で骨に付着するとき、腱が薄いシート状に広がった構造を何というか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "腱が薄いシート状に広がった構造は「腱膜（Aponeurosis）」と呼ばれる。筋と骨の結合様式には主に2つの形態がある：①腱（tendon）— 筋の結合組織（筋外膜・筋周膜・筋内膜）が集合して形成される、丈夫で紐状または帯状の構造。コラーゲン線維（主にI型）が平行に密に配列しており、筋の収縮力を骨に効率的に伝達する。アキレス腱が最大の腱。②腱膜（aponeurosis）— 腱と同じ組織構成だが、薄く広いシート状に広がった形態をとる。広い範囲で力を分散させる必要がある場所に存在する。代表例は腹壁の腹斜筋群の腱膜（白線を形成）、手掌腱膜、足底腱膜、帽状腱膜（頭蓋を覆う）などである。腱も腱膜もI型コラーゲン線維が主成分で、血流が乏しいため損傷の回復に時間がかかる特徴がある（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.1）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/sliding-filament-model.jpg",
+              "role": "explanation",
+              "alt_text": "滑り説（Sliding Filament Model）による筋収縮のメカニズム。Actin（アクチン）とMyosin（ミオシン）フィラメントの滑り運動、サルコメアの短縮が段階的に示されている"
+            }
+          ],
+          "choices": [
+            {
+              "text": "腱膜",
+              "is_correct": true
+            },
+            {
+              "text": "靭帯",
+              "is_correct": false
+            },
+            {
+              "text": "筋膜",
+              "is_correct": false
+            },
+            {
+              "text": "骨膜",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "skeletal-muscle-contraction"
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "筋収縮の引き金となるイオンは「カルシウムイオン（Ca²⁺）」である。骨格筋の興奮収縮連関（excitation-contraction coupling）の流れ：①運動神経終末からアセチルコリン（ACh）が放出される。②筋鞘（sarcolemma）が脱分極し、活動電位がT管（transverse tubule）を通じて筋線維の深部に伝わる。③T管に隣接する筋小胞体（sarcoplasmic reticulum: SR）の終槽からCa²⁺が放出される。④Ca²⁺がトロポニンC（troponin C）に結合すると、トロポニン複合体の構造変化が起こり、トロポミオシンがアクチン上のミオシン結合部位を露出させる。⑤ミオシン頭部がアクチンに結合しクロスブリッジを形成、パワーストロークにより筋収縮が起こる。⑥Ca²⁺がSRのCa²⁺-ATPaseにより筋小胞体に回収されると、トロポミオシンが元の位置に戻り筋が弛緩する。つまり、Ca²⁺は筋収縮のスイッチ役であり、その濃度変化が収縮と弛緩を制御する（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 10.3）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/motor-end-plate.jpg",
+              "role": "explanation",
+              "alt_text": "神経筋接合部（Motor End Plate）の構造図。Synaptic terminal（シナプス前終末）、Synaptic cleft（シナプス間隙）、Motor end plate（運動終板）、Acetylcholine（アセチルコリン）の放出が示されている"
+            }
+          ],
+          "metadata": {
+            "template": "筋収縮の引き金となるのは筋小胞体から放出される {{blank}} である",
+            "word_options": [
+              "カルシウムイオン",
+              "ナトリウムイオン",
+              "カリウムイオン",
+              "マグネシウムイオン"
+            ]
+          },
+          "choices": [
+            {
+              "text": "カルシウムイオン",
+              "is_correct": true
+            },
+            {
+              "text": "ナトリウムイオン",
+              "is_correct": false
+            },
+            {
+              "text": "カリウムイオン",
+              "is_correct": false
+            },
+            {
+              "text": "マグネシウムイオン",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "skeletal-muscle-contraction"
+          ]
+        },
+        {
+          "question_text": "壁を手で押しているが壁が動かない場合、この筋収縮の種類は何か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "壁を押しても動かない場合の筋収縮は「等尺性収縮（Isometric Contraction）」である。等尺性収縮とは、筋が張力を発生するが筋の長さが変化しない収縮のことで、「iso-」＝等しい、「metric」＝長さを意味する。筋収縮は大きく2種類に分けられる：①等尺性収縮（isometric）— 筋長不変で張力のみ発生。壁を押す、重いものを持ち続ける、姿勢維持など。関節運動は起こらない。②等張性収縮（isotonic）— 張力は一定で筋長が変化する。さらに2つに分けられる：(a) 求心性収縮（concentric）— 筋が短縮しながら力を発揮。ダンベルを持ち上げる動作。(b) 遠心性収縮（eccentric）— 筋が伸張しながら力を発揮。ダンベルをゆっくり下ろす動作。遠心性収縮は筋損傷を起こしやすく、筋肉痛（DOMS: delayed onset muscle soreness）の主因である。日常動作ではこれらの収縮が組み合わさって滑らかな運動が実現される（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 10.4）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/sliding-filament-model.jpg",
+              "role": "explanation",
+              "alt_text": "滑り説（Sliding Filament Model）による筋収縮のメカニズム。Actin（アクチン）とMyosin（ミオシン）フィラメントの滑り運動、サルコメアの短縮が段階的に示されている"
+            }
+          ],
+          "choices": [
+            {
+              "text": "等尺性収縮",
+              "is_correct": true
+            },
+            {
+              "text": "等張性収縮",
+              "is_correct": false
+            },
+            {
+              "text": "求心性収縮",
+              "is_correct": false
+            },
+            {
+              "text": "遠心性収縮",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "skeletal-muscle-contraction"
+          ]
+        },
+        {
+          "question_text": "神経筋接合部で運動神経末端から放出される神経伝達物質を何というか？（日本語で回答）",
+          "interaction_type": "free_input",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "神経筋接合部（neuromuscular junction: NMJ）で放出される神経伝達物質は「アセチルコリン（Acetylcholine: ACh）」である。神経筋接合部は運動神経の末端と骨格筋線維の接触部で、以下の構造からなる：①シナプス前終末（synaptic terminal）— 運動神経の末端が膨らんだ部分。AChを含むシナプス小胞が多数存在。②シナプス間隙（synaptic cleft）— 神経と筋の間の狭い隙間（約50nm）。③運動終板（motor end plate）— 筋線維側のAChを受容する特殊化した領域。ニコチン性ACh受容体が密に分布。活動電位がシナプス前終末に到達すると、Ca²⁺の流入によりシナプス小胞がエキソサイトーシスでAChを放出する。AChが運動終板のニコチン受容体に結合するとNa⁺が流入し終板電位が生じ、筋線維の活動電位を引き起こす。放出されたAChは直ちにアセチルコリンエステラーゼ（AChE）により分解される。重症筋無力症（myasthenia gravis）はACh受容体に対する自己抗体により筋力低下を生じる自己免疫疾患である（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 10.3）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/motor-end-plate.jpg",
+              "role": "explanation",
+              "alt_text": "神経筋接合部（Motor End Plate）の構造図。Synaptic terminal（シナプス前終末）、Synaptic cleft（シナプス間隙）、Motor end plate（運動終板）、Acetylcholine（アセチルコリン）の放出が示されている"
+            }
+          ],
+          "metadata": {
+            "acceptable_answers": [
+              "アセチルコリン",
+              "acetylcholine",
+              "ACh"
+            ]
+          },
+          "reference_text_ids": [
+            "skeletal-muscle-contraction"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "頭頸部の筋",
+      "slug": "head-neck-muscles",
+      "description": "咀嚼・表情・頸部の主要な筋を学ぶ",
+      "sort_order": 2,
+      "concepts": [
+        {
+          "name": "咀嚼筋群",
+          "description": "下顎の運動を担う咬筋・側頭筋・内側翼突筋・外側翼突筋"
+        },
+        {
+          "name": "表情筋群",
+          "description": "顔面の表情を作る皮筋（前頭筋・眼輪筋・口輪筋など）"
+        },
+        {
+          "name": "胸鎖乳突筋",
+          "description": "頸部の側面を走る筋で頭部の回旋・屈曲を担う"
+        },
+        {
+          "name": "僧帽筋",
+          "description": "背部上方の大きな三角形の筋で肩甲骨の運動を担う"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "下顎を挙上して口を閉じる（咬合する）作用を持つ筋群を総称して何というか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "下顎を挙上して口を閉じる筋群は「咀嚼筋群（Muscles of Mastication）」である。咀嚼筋群は下顎骨を動かして咀嚼（食物を噛む動作）を行う4つの筋から構成される：①咬筋（masseter）— 頬骨弓から下顎角に走る強力な筋。下顎の挙上（口を閉じる）の主力。人体で体積あたり最も強い力を発揮する筋の一つ。②側頭筋（temporalis）— 側頭窩から下顎骨の筋突起に走る扇形の筋。下顎の挙上と後退を担う。③内側翼突筋（medial pterygoid）— 翼状突起から下顎角の内面に走り、下顎の挙上を補助。④外側翼突筋（lateral pterygoid）— 翼状突起から下顎骨の関節突起に走り、下顎の前突と側方運動を担う。4筋すべて三叉神経の第3枝（下顎神経 V₃）に支配される。「咀嚼筋は三叉神経」と覚える（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.3）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/muscles-move-lower-jaw.jpg",
+              "role": "explanation",
+              "alt_text": "下顎を動かす筋群の図。Masseter（咬筋）、Temporalis（側頭筋）、Medial pterygoid（内側翼突筋）、Lateral pterygoid（外側翼突筋）の位置と走行が示されている"
+            }
+          ],
+          "choices": [
+            {
+              "text": "咀嚼筋群",
+              "is_correct": true
+            },
+            {
+              "text": "表情筋群",
+              "is_correct": false
+            },
+            {
+              "text": "舌骨上筋群",
+              "is_correct": false
+            },
+            {
+              "text": "頸部屈筋群",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "head-neck-muscles-overview"
+          ]
+        },
+        {
+          "question_text": "表情筋群の特徴として正しいものはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "表情筋群の最大の特徴は「皮膚に停止する（皮筋である）」ことである。表情筋（Muscles of Facial Expression）は骨から起始し、皮膚に停止する特殊な骨格筋であり、収縮すると皮膚を動かして表情を作る。一般の骨格筋は骨から骨に付着するが、表情筋は骨から皮膚に付着する「皮筋（cutaneous muscle）」である点で独特である。主な表情筋：①前頭筋（frontalis）— 額にシワを寄せ眉を上げる。②眼輪筋（orbicularis oculi）— 目を閉じる。③口輪筋（orbicularis oris）— 口を閉じ、すぼめる。④大頬骨筋（zygomaticus major）— 口角を上外方に引き上げる（笑顔）。⑤広頸筋（platysma）— 頸部の皮膚を引き下げる。表情筋はすべて顔面神経（第VII脳神経）に支配される。顔面神経麻痺（Bell's palsy）では片側の表情筋が麻痺し、目を閉じられない、口角が下がるなどの症状を呈する（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.3）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/facial-expression-muscles.jpg",
+              "role": "explanation",
+              "alt_text": "表情筋の前面・側面図。Frontalis（前頭筋）、Orbicularis oculi（眼輪筋）、Orbicularis oris（口輪筋）、Zygomaticus major（大頬骨筋）、Buccinator（頬筋）などが標識されている"
+            }
+          ],
+          "choices": [
+            {
+              "text": "皮膚に停止する（皮筋である）",
+              "is_correct": true
+            },
+            {
+              "text": "三叉神経に支配される",
+              "is_correct": false
+            },
+            {
+              "text": "すべて骨から骨に付着する",
+              "is_correct": false
+            },
+            {
+              "text": "不随意筋である",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "head-neck-muscles-overview"
+          ]
+        },
+        {
+          "question_text": "頸部の側面を斜めに走り、片側の収縮で頭を反対側に回旋させる筋はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "片側の収縮で頭を反対側に回旋させるのは「胸鎖乳突筋（Sternocleidomastoid: SCM）」である。胸鎖乳突筋は頸部で最も目立つ筋で、名前の通り3つの骨に関わる：胸骨（sternum）と鎖骨（clavicle）から起始し、側頭骨の乳様突起（mastoid process）に停止する。作用：①片側の収縮 — 頭を同側に側屈し、反対側に回旋させる（右のSCMが収縮すると頭は左を向く）。②両側の収縮 — 頸部の屈曲（うなずく動作）。③仰向けで頭を持ち上げる際にも働く。胸鎖乳突筋は副神経（第XI脳神経）と頸神経叢（C2-C3）の二重支配を受ける。臨床的に、胸鎖乳突筋の片側の拘縮は「斜頸（torticollis）」を引き起こし、新生児では先天性筋性斜頸として見られることがある。SCMは頸部の解剖学的ランドマークとしても重要で、前頸三角と後頸三角の境界を形成する（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.3）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/neck-muscles-posterior-side.jpg",
+              "role": "explanation",
+              "alt_text": "頸部の筋（後面・側面図）。Sternocleidomastoid（胸鎖乳突筋）、Trapezius（僧帽筋）、Splenius capitis（頭板状筋）などが示されている"
+            }
+          ],
+          "choices": [
+            {
+              "text": "胸鎖乳突筋",
+              "is_correct": true
+            },
+            {
+              "text": "僧帽筋",
+              "is_correct": false
+            },
+            {
+              "text": "広頸筋",
+              "is_correct": false
+            },
+            {
+              "text": "斜角筋",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "head-neck-muscles-overview"
+          ]
+        },
+        {
+          "question_text": "頭頸部の筋群とその支配神経を正しく組み合わせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "頭頸部の主要な筋群と支配神経の対応：①咀嚼筋群 — 三叉神経（V₃ 下顎神経）。咬筋・側頭筋・内側翼突筋・外側翼突筋の4筋すべてが三叉神経の第3枝に支配される。三叉神経は顔面の感覚を伝える太い神経で、第3枝のみが運動線維を含む。②表情筋群 — 顔面神経（VII）。前頭筋・眼輪筋・口輪筋・大頬骨筋など20以上の表情筋すべてが顔面神経に支配される。顔面神経麻痺では表情が作れなくなる。③胸鎖乳突筋 — 副神経（XI）。副神経は脳幹と脊髄の両方から起始する特殊な脳神経で、胸鎖乳突筋と僧帽筋の2筋のみを支配する。覚え方：「咀嚼は三（叉）、表情は七（面）、SCMは十一（副）」— 5, 7, 11と覚える（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.3）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/muscles-move-lower-jaw.jpg",
+              "role": "explanation",
+              "alt_text": "下顎を動かす筋群の図。Masseter（咬筋）、Temporalis（側頭筋）、Medial pterygoid（内側翼突筋）、Lateral pterygoid（外側翼突筋）の位置と走行が示されている"
+            }
+          ],
+          "metadata": {
+            "pairs": [
+              {
+                "left": "咀嚼筋群",
+                "right": "三叉神経（V）"
+              },
+              {
+                "left": "表情筋群",
+                "right": "顔面神経（VII）"
+              },
+              {
+                "left": "胸鎖乳突筋",
+                "right": "副神経（XI）"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "head-neck-muscles-overview"
+          ]
+        },
+        {
+          "question_text": "僧帽筋の上部線維の主な作用はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "僧帽筋（Trapezius）の上部線維の主な作用は「肩甲骨の挙上」である。僧帽筋は背部の最も浅い筋で、後頭骨・項靭帯・全胸椎の棘突起から起始し、鎖骨外側1/3・肩峰・肩甲棘に停止する大きな三角形（左右合わせると菱形）の筋である。僧帽筋は走行方向により3つの部分に分けられ、それぞれ異なる作用を持つ：①上部線維（descending part）— 肩甲骨の挙上（肩をすくめる動作）と上方回旋。②中部線維（transverse part）— 肩甲骨の内転（肩甲骨を脊柱に引き寄せる）。③下部線維（ascending part）— 肩甲骨の下制と上方回旋の補助。僧帽筋は副神経（第XI脳神経）と頸神経叢（C3-C4）に支配される。名前の由来は、左右の僧帽筋を合わせた形がカトリック修道士のフード（trapezium）に似ていることから。肩こりの主要な原因筋でもある（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.3）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/neck-muscles-posterior-side.jpg",
+              "role": "explanation",
+              "alt_text": "頸部の筋（後面・側面図）。Sternocleidomastoid（胸鎖乳突筋）、Trapezius（僧帽筋）、Splenius capitis（頭板状筋）などが示されている"
+            }
+          ],
+          "choices": [
+            {
+              "text": "肩甲骨の挙上",
+              "is_correct": true
+            },
+            {
+              "text": "肩関節の外転",
+              "is_correct": false
+            },
+            {
+              "text": "頸部の回旋",
+              "is_correct": false
+            },
+            {
+              "text": "上腕の屈曲",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "head-neck-muscles-overview"
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "咀嚼筋群の中で最も強力な咬合力を発揮するのは「咬筋（masseter）」である。咬筋は頬骨弓の下面から起始し、下顎枝の外面と下顎角に停止する厚い長方形の筋で、浅層と深層の2層からなる。咬筋は単位面積あたりの力が人体の筋の中で最も大きいとされ、最大咬合力は約70-100kgに達する。咀嚼筋4筋の作用の整理：①咬筋 — 下顎の挙上（最も強力）。②側頭筋（temporalis）— 下顎の挙上と後退。側頭筋は咬筋に次いで強い閉口筋で、後部線維は下顎を後退させる。③内側翼突筋（medial pterygoid）— 下顎の挙上の補助。咬筋とともに「スリング」を形成。④外側翼突筋（lateral pterygoid）— 唯一の開口補助筋。下顎の前突と側方運動を担い、下顎頭を前方に引く。咬筋は歯ぎしり（bruxism）の主役でもあり、過度の緊張は顎関節症の一因となる（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.3）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/muscles-move-lower-jaw.jpg",
+              "role": "explanation",
+              "alt_text": "下顎を動かす筋群の図。Masseter（咬筋）、Temporalis（側頭筋）、Medial pterygoid（内側翼突筋）、Lateral pterygoid（外側翼突筋）の位置と走行が示されている"
+            }
+          ],
+          "metadata": {
+            "template": "咀嚼筋群の中で最も強力な咬合力を発揮するのは {{blank}} である",
+            "word_options": [
+              "咬筋",
+              "側頭筋",
+              "内側翼突筋",
+              "外側翼突筋"
+            ]
+          },
+          "choices": [
+            {
+              "text": "咬筋",
+              "is_correct": true
+            },
+            {
+              "text": "側頭筋",
+              "is_correct": false
+            },
+            {
+              "text": "内側翼突筋",
+              "is_correct": false
+            },
+            {
+              "text": "外側翼突筋",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "head-neck-muscles-overview"
+          ]
+        },
+        {
+          "question_text": "咀嚼筋4筋の中で、唯一開口を補助する作用を持つ筋はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "咀嚼筋4筋の中で唯一開口を補助するのは「外側翼突筋（Lateral Pterygoid）」である。咀嚼筋のうち咬筋・側頭筋・内側翼突筋の3筋は下顎を挙上する閉口筋であるが、外側翼突筋は下顎頭（下顎骨の関節突起）を前方に引く作用を持ち、開口の補助と下顎の前突・側方運動を担う。外側翼突筋は上頭と下頭の2頭からなる：①上頭 — 蝶形骨大翼の側頭下面から起始し、関節円板と関節包に停止。閉口時に関節円板の位置を制御する。②下頭 — 翼状突起外側板から起始し、下顎骨の翼突筋窩に停止。下顎頭を前方に引き、開口・前突・対側への側方運動を行う。ただし、開口の主な力は重力と舌骨上筋群（顎二腹筋・顎舌骨筋など）によるもので、外側翼突筋はその補助的役割を担う。外側翼突筋の機能障害は顎関節症（TMD）の重要な要因である（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.3）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/muscles-move-lower-jaw.jpg",
+              "role": "explanation",
+              "alt_text": "下顎を動かす筋群の図。Masseter（咬筋）、Temporalis（側頭筋）、Medial pterygoid（内側翼突筋）、Lateral pterygoid（外側翼突筋）の位置と走行が示されている"
+            }
+          ],
+          "choices": [
+            {
+              "text": "外側翼突筋",
+              "is_correct": true
+            },
+            {
+              "text": "内側翼突筋",
+              "is_correct": false
+            },
+            {
+              "text": "咬筋",
+              "is_correct": false
+            },
+            {
+              "text": "側頭筋",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "head-neck-muscles-overview"
+          ]
+        },
+        {
+          "question_text": "表情筋を支配する脳神経の名称を答えてください（日本語で回答）",
+          "interaction_type": "free_input",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "表情筋を支配する脳神経は「顔面神経（Facial Nerve, CN VII）」である。顔面神経は第VII脳神経で、橋（pons）から出て側頭骨の中を通り（顔面神経管）、茎乳突孔から頭蓋外に出て耳下腺の中で5つの枝に分かれる：①側頭枝（temporal）— 前頭筋・眼輪筋上部。②頬骨枝（zygomatic）— 眼輪筋下部。③頬枝（buccal）— 頬筋・口輪筋上部・鼻筋。④下顎縁枝（marginal mandibular）— 口角下制筋・下唇下制筋。⑤頸枝（cervical）— 広頸筋。覚え方：「Ten Zebras Bit My Cat（側頭・頬骨・頬・下顎縁・頸）」。顔面神経は運動だけでなく、舌前2/3の味覚、涙腺・顎下腺・舌下腺の分泌も担う混合神経である。Bell麻痺は顔面神経の急性片側性麻痺で、上下の表情筋がともに麻痺する末梢性麻痺であり、額のシワ寄せができなくなる点で中枢性麻痺と鑑別される（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.3）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/facial-expression-muscles.jpg",
+              "role": "explanation",
+              "alt_text": "表情筋の前面・側面図。Frontalis（前頭筋）、Orbicularis oculi（眼輪筋）、Orbicularis oris（口輪筋）、Zygomaticus major（大頬骨筋）、Buccinator（頬筋）などが標識されている"
+            }
+          ],
+          "metadata": {
+            "acceptable_answers": [
+              "顔面神経",
+              "facial nerve",
+              "第VII脳神経",
+              "第7脳神経"
+            ]
+          },
+          "reference_text_ids": [
+            "head-neck-muscles-overview"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "体幹の筋",
+      "slug": "trunk-muscles",
+      "description": "腹壁・背部・呼吸に関わる筋を学ぶ",
+      "sort_order": 3,
+      "concepts": [
+        {
+          "name": "腹直筋",
+          "description": "腹壁の前面を縦走する筋で体幹の屈曲を担う"
+        },
+        {
+          "name": "外腹斜筋",
+          "description": "腹壁の側面で最も浅い筋で体幹の回旋と側屈を担う"
+        },
+        {
+          "name": "内腹斜筋・腹横筋",
+          "description": "腹壁の深層筋で腹圧の維持と体幹の安定に寄与"
+        },
+        {
+          "name": "脊柱起立筋",
+          "description": "脊柱の両側を縦走する筋群で体幹の伸展を担う"
+        },
+        {
+          "name": "横隔膜",
+          "description": "胸腔と腹腔を隔てるドーム状の筋で呼吸の主筋"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "呼吸の主筋であり、胸腔と腹腔を隔てるドーム状の筋はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "胸腔と腹腔を隔てるドーム状の筋は「横隔膜（Diaphragm）」である。横隔膜は呼吸の主筋（primary muscle of respiration）であり、安静時の呼吸運動の約75%を担う。横隔膜は3つの部分から起始する：①胸骨部 — 剣状突起の後面。②肋骨部 — 下位6肋骨（第7-12肋骨）の内面。③腰椎部 — 腰椎の椎体前面（左右の脚 / crus）。これらが中央の腱中心（central tendon）に停止する。吸息時：横隔膜が収縮して平坦化し、胸腔が拡大して肺に空気が引き込まれる。呼息時：横隔膜が弛緩してドーム状に戻り、肺内の空気が押し出される。横隔膜には3つの主要な裂孔がある：①大動脈裂孔（T12）— 大動脈・胸管。②食道裂孔（T10）— 食道・迷走神経。③大静脈孔（T8）— 下大静脈。覚え方：「8・10・12の偶数」。横隔膜は横隔神経（phrenic nerve, C3-C5）に支配される。「C3, 4, 5 keep the diaphragm alive」（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.4）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/diaphragm.jpg",
+              "role": "explanation",
+              "alt_text": "横隔膜（Diaphragm）の下面図。Central tendon（中心腱）、Esophageal hiatus（食道裂孔）、Aortic hiatus（大動脈裂孔）、Vena cava foramen（大静脈孔）が標識されている"
+            }
+          ],
+          "choices": [
+            {
+              "text": "横隔膜",
+              "is_correct": true
+            },
+            {
+              "text": "腹横筋",
+              "is_correct": false
+            },
+            {
+              "text": "外肋間筋",
+              "is_correct": false
+            },
+            {
+              "text": "腹直筋",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "trunk-muscles-overview"
+          ]
+        },
+        {
+          "question_text": "腹壁の前面を縦走し、「シックスパック」として知られる筋はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "「シックスパック」として知られるのは「腹直筋（Rectus Abdominis）」である。腹直筋は腹壁の前面を恥骨から胸郭まで縦走する左右一対の筋で、恥骨結合と恥骨稜から起始し、第5-7肋軟骨と剣状突起に停止する。「rectus」はラテン語で「まっすぐな」を意味し、筋線維が垂直に走行することを表す。腹直筋には3-4本の腱画（tendinous intersection）が水平に走り、筋腹を区切っている。これが「シックスパック」の外見を作る（実際には左右で8つのブロック）。作用：①体幹の屈曲（前屈）— 仰向けからの起き上がり動作の主力。②腹圧の上昇 — 排便・排尿・分娩・嘔吐時に補助。③骨盤の後傾。腹直筋は腹直筋鞘（rectus sheath）に包まれており、左右の鞘の間の白線（linea alba）は腹部手術の正中切開の部位として重要。支配神経は肋間神経（T7-T12）（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.4）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/muscles-of-abdomen.jpg",
+              "role": "explanation",
+              "alt_text": "腹壁の筋の図。Rectus abdominis（腹直筋）、External oblique（外腹斜筋）、Internal oblique（内腹斜筋）、Transversus abdominis（腹横筋）の各層が示されている"
+            }
+          ],
+          "choices": [
+            {
+              "text": "腹直筋",
+              "is_correct": true
+            },
+            {
+              "text": "外腹斜筋",
+              "is_correct": false
+            },
+            {
+              "text": "腹横筋",
+              "is_correct": false
+            },
+            {
+              "text": "内腹斜筋",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "trunk-muscles-overview"
+          ]
+        },
+        {
+          "question_text": "腹壁の側面にある3層の筋のうち、最も浅層に位置するのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "腹壁側面で最も浅層に位置するのは「外腹斜筋（External Oblique）」である。腹壁の側面には3層の扁平な筋が重なっており、浅層から深層へ：①外腹斜筋（external oblique）— 最も浅い層。下位8肋骨（第5-12肋骨）の外面から起始し、線維は前下方に走行して腸骨稜・鼠径靭帯・腹直筋鞘前葉に停止する。線維の走行方向は「ポケットに手を入れる方向」と覚える。②内腹斜筋（internal oblique）— 中間層。胸腰筋膜・腸骨稜・鼠径靭帯から起始し、外腹斜筋と直交する方向（前上方）に走行する。③腹横筋（transversus abdominis）— 最深層。線維は水平に走行し、コルセットのように腹部を締め付けて腹圧を維持する。体幹の安定性（コアスタビリティ）に最も重要な筋とされる。これら3層の筋は前方で腱膜となり、腹直筋鞘を形成して腹直筋を包む。3層の線維方向が異なることで腹壁の強度が高まる（合板の原理）（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.4）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/muscles-of-abdomen.jpg",
+              "role": "explanation",
+              "alt_text": "腹壁の筋の図。Rectus abdominis（腹直筋）、External oblique（外腹斜筋）、Internal oblique（内腹斜筋）、Transversus abdominis（腹横筋）の各層が示されている"
+            }
+          ],
+          "choices": [
+            {
+              "text": "外腹斜筋",
+              "is_correct": true
+            },
+            {
+              "text": "内腹斜筋",
+              "is_correct": false
+            },
+            {
+              "text": "腹横筋",
+              "is_correct": false
+            },
+            {
+              "text": "腹直筋",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "trunk-muscles-overview"
+          ]
+        },
+        {
+          "question_text": "脊柱の両側を仙骨から後頭骨まで縦走し、体幹の伸展（背中を反らす）を担う筋群は何か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "体幹の伸展を担い脊柱の両側を縦走するのは「脊柱起立筋（Erector Spinae）」である。脊柱起立筋は背部の最も大きな筋群で、仙骨・腸骨稜・腰椎棘突起から起始し、脊柱の両側を上行して肋骨・胸椎・頸椎・後頭骨に停止する。脊柱起立筋は3つの筋柱からなる（外側から内側へ）：①腸肋筋（iliocostalis）— 最も外側。肋骨に付着し、主に側屈に関与。②最長筋（longissimus）— 中間。最も大きく、後頭骨まで達する。③棘筋（spinalis）— 最も内側。棘突起間を結ぶ。覚え方：「I Love Spine（腸肋筋・最長筋・棘筋）」。作用：①両側の収縮 — 体幹の伸展（背中を反らす）、直立姿勢の維持。②片側の収縮 — 同側への側屈。脊柱起立筋は重力に抗して姿勢を維持する抗重力筋の代表で、デスクワークでの疲労や腰痛の原因となりやすい（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.4）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/muscles-neck-and-back.jpg",
+              "role": "explanation",
+              "alt_text": "頸部と背部の筋の図。Erector spinae（脊柱起立筋）群、Trapezius（僧帽筋）、Latissimus dorsi（広背筋）などの浅層・深層筋が示されている"
+            }
+          ],
+          "choices": [
+            {
+              "text": "脊柱起立筋",
+              "is_correct": true
+            },
+            {
+              "text": "広背筋",
+              "is_correct": false
+            },
+            {
+              "text": "腹直筋",
+              "is_correct": false
+            },
+            {
+              "text": "僧帽筋",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "trunk-muscles-overview"
+          ]
+        },
+        {
+          "question_text": "体幹の筋とその主な作用を正しく組み合わせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "体幹の主要な筋とその作用の対応：①腹直筋 — 体幹の屈曲。腹壁前面を縦走する筋で、仰向けから起き上がる動作の主力。恥骨から肋軟骨・剣状突起まで走行し、収縮すると体幹を前屈させる。②外腹斜筋 — 体幹の回旋。腹壁側面の最浅層で、片側の収縮により体幹を対側に回旋させる（右の外腹斜筋は体幹を左に回す）。両側収縮では体幹の屈曲と腹圧上昇にも寄与。③脊柱起立筋 — 体幹の伸展。背部を縦走する3つの筋柱（腸肋筋・最長筋・棘筋）からなり、両側収縮で体幹を後方に反らせる。④横隔膜 — 呼吸（吸息）。胸腔と腹腔を隔てるドーム状の筋で、収縮時に下降して胸腔を拡大し吸息を生じさせる。これらの筋が協調することで、体幹の安定性と多方向の運動が実現される（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.4）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/muscles-of-abdomen.jpg",
+              "role": "explanation",
+              "alt_text": "腹壁の筋の図。Rectus abdominis（腹直筋）、External oblique（外腹斜筋）、Internal oblique（内腹斜筋）、Transversus abdominis（腹横筋）の各層が示されている"
+            }
+          ],
+          "metadata": {
+            "pairs": [
+              {
+                "left": "腹直筋",
+                "right": "体幹の屈曲"
+              },
+              {
+                "left": "外腹斜筋",
+                "right": "体幹の回旋"
+              },
+              {
+                "left": "脊柱起立筋",
+                "right": "体幹の伸展"
+              },
+              {
+                "left": "横隔膜",
+                "right": "呼吸（吸息）"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "trunk-muscles-overview"
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "横隔膜を支配する神経は「横隔神経（Phrenic Nerve）」である。横隔神経は頸神経叢から出る神経で、主にC3, C4, C5の前枝から構成される（C4が主要）。有名な覚え方「C3, 4, 5 keep the diaphragm alive」は、横隔神経の起始高位を示す。横隔神経は頸部から胸腔を下行して横隔膜に達する長い経路をとるため、頸部の外傷や手術で損傷される危険がある。片側の横隔神経が損傷されると、その側の横隔膜が麻痺して挙上し（横隔膜弛緩症）、胸部X線で確認できる。両側の損傷は致命的な呼吸不全を引き起こす。高位頸髄損傷（C3以上）で人工呼吸器が必要になるのは、横隔神経の起始レベルより上位で脊髄が損傷されるためである。横隔神経は運動だけでなく、横隔膜の中央部（心膜・腹膜の一部）の感覚も伝え、横隔膜の刺激による肩の関連痛（referred pain）はこの感覚線維を介する（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.4）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/diaphragm.jpg",
+              "role": "explanation",
+              "alt_text": "横隔膜（Diaphragm）の下面図。Central tendon（中心腱）、Esophageal hiatus（食道裂孔）、Aortic hiatus（大動脈裂孔）、Vena cava foramen（大静脈孔）が標識されている"
+            }
+          ],
+          "metadata": {
+            "template": "横隔膜を支配する神経は {{blank}} である",
+            "word_options": [
+              "横隔神経",
+              "迷走神経",
+              "肋間神経",
+              "副神経"
+            ]
+          },
+          "choices": [
+            {
+              "text": "横隔神経",
+              "is_correct": true
+            },
+            {
+              "text": "迷走神経",
+              "is_correct": false
+            },
+            {
+              "text": "肋間神経",
+              "is_correct": false
+            },
+            {
+              "text": "副神経",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "trunk-muscles-overview"
+          ]
+        },
+        {
+          "question_text": "腹壁の筋のうち、最も深層に位置し、線維が水平に走行して「コルセット」のように腹圧を維持する筋はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "最深層で水平に走行する筋は「腹横筋（Transversus Abdominis）」である。腹横筋は腹壁側面の3層構造（外腹斜筋→内腹斜筋→腹横筋）の最も深い層に位置し、線維がほぼ水平に走行する。胸腰筋膜・腸骨稜・鼠径靭帯・下位6肋骨の内面から起始し、腹直筋鞘と白線に停止する。腹横筋はコルセットのように腹部を締め付け、腹腔内圧（腹圧）を維持する最も重要な筋である。近年のリハビリテーション研究では、腹横筋がすべての四肢運動に先行して収縮し（フィードフォワード制御）、脊柱を安定させることが示されている。腰痛患者ではこのフィードフォワード反応が遅延していることが多く、腹横筋の選択的トレーニング（ドローイン運動）が腰痛リハビリの基本となっている。また、腹横筋は咳・くしゃみ・排便・分娩時の強い腹圧上昇にも不可欠。腹横筋の筋力低下は腹壁ヘルニアのリスク因子でもある（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.4）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/muscles-of-abdomen.jpg",
+              "role": "explanation",
+              "alt_text": "腹壁の筋の図。Rectus abdominis（腹直筋）、External oblique（外腹斜筋）、Internal oblique（内腹斜筋）、Transversus abdominis（腹横筋）の各層が示されている"
+            }
+          ],
+          "choices": [
+            {
+              "text": "腹横筋",
+              "is_correct": true
+            },
+            {
+              "text": "内腹斜筋",
+              "is_correct": false
+            },
+            {
+              "text": "外腹斜筋",
+              "is_correct": false
+            },
+            {
+              "text": "腹直筋",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "trunk-muscles-overview"
+          ]
+        },
+        {
+          "question_text": "横隔膜を通過する3つの主要な裂孔のうち、食道と迷走神経が通過するものを何というか？（日本語で回答）",
+          "interaction_type": "free_input",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "食道と迷走神経が通過するのは「食道裂孔（Esophageal Hiatus）」である。横隔膜には3つの主要な裂孔（開口部）があり、それぞれ異なる高さの椎体レベルに位置する：①大動脈裂孔（Aortic Hiatus, T12レベル）— 大動脈・胸管・奇静脈が通過。横隔膜の脚の後方に位置し、横隔膜の収縮の影響を受けない。②食道裂孔（Esophageal Hiatus, T10レベル）— 食道と迷走神経の前幹・後幹が通過。横隔膜の右脚の筋線維で囲まれ、嚥下時以外は食道を締め付けて胃内容の逆流を防ぐ（下部食道括約機構の一部）。食道裂孔ヘルニアはこの裂孔が拡大して胃の一部が胸腔に脱出する病態で、胃食道逆流症（GERD）の原因となる。③大静脈孔（Caval Opening, T8レベル）— 下大静脈と右横隔神経の枝が通過。腱中心を貫通するため、収縮時に拡大して静脈還流を促進する。覚え方：「8・10・12」の偶数で下から上へ（静脈→食道→大動脈）（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.4）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/diaphragm.jpg",
+              "role": "explanation",
+              "alt_text": "横隔膜（Diaphragm）の下面図。Central tendon（中心腱）、Esophageal hiatus（食道裂孔）、Aortic hiatus（大動脈裂孔）、Vena cava foramen（大静脈孔）が標識されている"
+            }
+          ],
+          "metadata": {
+            "acceptable_answers": [
+              "食道裂孔",
+              "esophageal hiatus"
+            ]
+          },
+          "reference_text_ids": [
+            "trunk-muscles-overview"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "上肢の筋",
+      "slug": "upper-limb-muscles",
+      "description": "肩・上腕・前腕の主要な筋を学ぶ",
+      "sort_order": 4,
+      "concepts": [
+        {
+          "name": "三角筋",
+          "description": "肩関節を覆う筋で上腕の外転を主に担う"
+        },
+        {
+          "name": "上腕二頭筋",
+          "description": "上腕前面の筋で肘の屈曲と前腕の回外を担う"
+        },
+        {
+          "name": "上腕三頭筋",
+          "description": "上腕後面の筋で肘の伸展を担う"
+        },
+        {
+          "name": "前腕の屈筋群・伸筋群",
+          "description": "手首と手指の屈曲・伸展を担う前腕の筋群"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "肩関節を覆い、上腕の外転を主に担う筋はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "上腕の外転を主に担うのは「三角筋（Deltoid）」である。三角筋は肩関節を覆う厚い三角形の筋で、肩の丸い輪郭を作る。三角筋は3つの部分から起始する：①前部（鎖骨部）— 鎖骨の外側1/3から起始。上腕の屈曲と内旋を補助。②中部（肩峰部）— 肩峰から起始。上腕の外転の主力。③後部（棘部）— 肩甲棘から起始。上腕の伸展と外旋を補助。3部分とも上腕骨の三角筋粗面に停止する。三角筋の中部線維が上腕の外転（腕を横に持ち上げる）の主動筋であるが、最初の15度は棘上筋（supraspinatus）が担い、三角筋は15度以降で主力となる。三角筋は腋窩神経（axillary nerve, C5-C6）に支配される。腋窩神経は肩関節の前方脱臼や上腕骨外科頸骨折で損傷されやすく、三角筋麻痺による外転障害と肩の扁平化が生じる。筋肉注射の代表的な部位でもある（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.5）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/muscles-move-forearm.jpg",
+              "role": "explanation",
+              "alt_text": "前腕を動かす筋群の図。Biceps brachii（上腕二頭筋）、Triceps brachii（上腕三頭筋）、Brachialis（上腕筋）、前腕の屈筋群・伸筋群が前面・後面から示されている"
+            }
+          ],
+          "choices": [
+            {
+              "text": "三角筋",
+              "is_correct": true
+            },
+            {
+              "text": "僧帽筋",
+              "is_correct": false
+            },
+            {
+              "text": "棘上筋",
+              "is_correct": false
+            },
+            {
+              "text": "広背筋",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "upper-limb-muscles-overview"
+          ]
+        },
+        {
+          "question_text": "上腕二頭筋の主な作用として正しいものはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "上腕二頭筋（Biceps Brachii）の主な作用は「肘の屈曲と前腕の回外」である。上腕二頭筋は上腕前面に位置する紡錘状の筋で、2つの頭（起始部）を持つ：①長頭（long head）— 肩甲骨の関節上結節から起始し、結節間溝を通る。②短頭（short head）— 肩甲骨の烏口突起から起始。両頭は合流して橈骨粗面に停止する。作用：①肘関節の屈曲（前腕を持ち上げる）— 肘屈曲の主動筋の一つだが、実は前腕回外位で最も効率的に働く。②前腕の回外（手のひらを上に向ける）— 上腕二頭筋は最も強力な回外筋であり、「ネジを締める方向に回す」動作の主力。③肩関節の屈曲を補助。上腕二頭筋は筋皮神経（musculocutaneous nerve, C5-C6）に支配される。二頭筋腱反射のテストではC5-C6神経根の機能を評価できる（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.5）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/muscles-move-forearm.jpg",
+              "role": "explanation",
+              "alt_text": "前腕を動かす筋群の図。Biceps brachii（上腕二頭筋）、Triceps brachii（上腕三頭筋）、Brachialis（上腕筋）、前腕の屈筋群・伸筋群が前面・後面から示されている"
+            }
+          ],
+          "choices": [
+            {
+              "text": "肘の屈曲と前腕の回外",
+              "is_correct": true
+            },
+            {
+              "text": "肘の伸展と前腕の回内",
+              "is_correct": false
+            },
+            {
+              "text": "肩の外転と肘の屈曲",
+              "is_correct": false
+            },
+            {
+              "text": "前腕の回内と手首の屈曲",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "upper-limb-muscles-overview"
+          ]
+        },
+        {
+          "question_text": "肘を伸展させる唯一の主動筋はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "肘を伸展させる唯一の主動筋は「上腕三頭筋（Triceps Brachii）」である。上腕三頭筋は上腕後面に位置する大きな筋で、3つの頭を持つ：①長頭（long head）— 肩甲骨の関節下結節から起始。唯一肩関節をまたぐ頭で、肩の伸展と内転も補助する。②外側頭（lateral head）— 上腕骨の後面上部から起始。③内側頭（medial head）— 上腕骨の後面下部から起始。最も深層にあり、日常的な軽い肘伸展で主に使われる。3頭は合流して肘頭（尺骨の近位端）に停止する。上腕三頭筋は肘伸展の唯一の効果的な筋であり、拮抗筋の上腕二頭筋とバランスをとって肘の運動を制御する。橈骨神経（radial nerve, C6-C8）に支配され、三頭筋腱反射のテストではC7神経根の機能を評価する。橈骨神経は上腕骨の中央部後面（橈骨神経溝）を走るため、上腕骨骨幹部骨折で損傷されやすい（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.5）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/muscles-move-forearm.jpg",
+              "role": "explanation",
+              "alt_text": "前腕を動かす筋群の図。Biceps brachii（上腕二頭筋）、Triceps brachii（上腕三頭筋）、Brachialis（上腕筋）、前腕の屈筋群・伸筋群が前面・後面から示されている"
+            }
+          ],
+          "choices": [
+            {
+              "text": "上腕三頭筋",
+              "is_correct": true
+            },
+            {
+              "text": "上腕二頭筋",
+              "is_correct": false
+            },
+            {
+              "text": "腕橈骨筋",
+              "is_correct": false
+            },
+            {
+              "text": "肘筋",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "upper-limb-muscles-overview"
+          ]
+        },
+        {
+          "question_text": "上肢の筋とその主な作用を正しく組み合わせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "上肢の主要な筋とその作用の対応：①三角筋 — 肩の外転。三角筋の中部線維が上腕を横に持ち上げる主動筋。鎖骨・肩峰・肩甲棘から起始し上腕骨の三角筋粗面に停止。②上腕二頭筋 — 肘の屈曲。上腕前面の2頭筋で、肘の屈曲と前腕の回外（手のひらを上に向ける）を担う。筋皮神経支配。③上腕三頭筋 — 肘の伸展。上腕後面の3頭筋で、肘伸展の唯一の主動筋。橈骨神経支配。長頭は肩の伸展も補助。これら3筋は上肢の基本的な運動を担う代表的な筋であり、それぞれの拮抗関係を理解することが重要。三角筋の拮抗筋は広背筋と大胸筋、上腕二頭筋と上腕三頭筋は互いに拮抗筋の関係にある（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.5）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/muscles-move-forearm.jpg",
+              "role": "explanation",
+              "alt_text": "前腕を動かす筋群の図。Biceps brachii（上腕二頭筋）、Triceps brachii（上腕三頭筋）、Brachialis（上腕筋）、前腕の屈筋群・伸筋群が前面・後面から示されている"
+            }
+          ],
+          "metadata": {
+            "pairs": [
+              {
+                "left": "三角筋",
+                "right": "肩の外転"
+              },
+              {
+                "left": "上腕二頭筋",
+                "right": "肘の屈曲"
+              },
+              {
+                "left": "上腕三頭筋",
+                "right": "肘の伸展"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "upper-limb-muscles-overview"
+          ]
+        },
+        {
+          "question_text": "前腕の屈筋群の多くが共通して起始する上腕骨の部位はどこか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "前腕の屈筋群の多くは「上腕骨内側上顆（Medial Epicondyle）」から共通して起始する。前腕の屈筋群は前腕の前面（屈側）に位置し、手首と手指の屈曲を担う筋群である。浅層の4筋（円回内筋・橈側手根屈筋・長掌筋・尺側手根屈筋）と深層の筋（浅指屈筋・深指屈筋・長母指屈筋）からなる。浅層の屈筋群は共通屈筋腱起始（common flexor origin）として上腕骨内側上顆から起始する。一方、前腕の伸筋群の多くは上腕骨外側上顆から起始する。臨床的に重要な疾患：①内側上顆炎（ゴルファー肘 / golfer's elbow）— 屈筋群の共通起始部の炎症。繰り返しの手関節屈曲や前腕回内で生じる。②外側上顆炎（テニス肘 / tennis elbow）— 伸筋群の共通起始部の炎症。繰り返しの手関節背屈で生じる。覚え方：「内側は屈筋でゴルフ、外側は伸筋でテニス」（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.5）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/muscles-move-forearm.jpg",
+              "role": "explanation",
+              "alt_text": "前腕を動かす筋群の図。Biceps brachii（上腕二頭筋）、Triceps brachii（上腕三頭筋）、Brachialis（上腕筋）、前腕の屈筋群・伸筋群が前面・後面から示されている"
+            }
+          ],
+          "choices": [
+            {
+              "text": "上腕骨内側上顆",
+              "is_correct": true
+            },
+            {
+              "text": "上腕骨外側上顆",
+              "is_correct": false
+            },
+            {
+              "text": "肩甲骨烏口突起",
+              "is_correct": false
+            },
+            {
+              "text": "橈骨粗面",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "upper-limb-muscles-overview"
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "肩関節を安定させる4つの筋群は「回旋筋腱板（Rotator Cuff）」と呼ばれる。回旋筋腱板はSITS筋とも呼ばれ、以下の4筋からなる：①棘上筋（Supraspinatus）— 肩甲骨の棘上窩から起始し、上腕骨大結節に停止。外転の開始（0-15度）を担う。回旋筋腱板損傷で最も頻繁に断裂する筋。②棘下筋（Infraspinatus）— 棘下窩から起始し大結節に停止。外旋の主力。③小円筋（Teres Minor）— 肩甲骨の外側縁から起始し大結節に停止。外旋を補助。④肩甲下筋（Subscapularis）— 肩甲下窩（肩甲骨前面）から起始し上腕骨小結節に停止。内旋の主力。覚え方：SITS（棘上・棘下・小円・肩甲下）。4筋の腱が肩関節包に融合して「腱板」を形成し、浅い関節窩にはまる上腕骨頭を動的に安定させる。肩関節は可動域が最大だが安定性が低いため、回旋筋腱板が不可欠（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.5）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/muscles-move-forearm.jpg",
+              "role": "explanation",
+              "alt_text": "前腕を動かす筋群の図。Biceps brachii（上腕二頭筋）、Triceps brachii（上腕三頭筋）、Brachialis（上腕筋）、前腕の屈筋群・伸筋群が前面・後面から示されている"
+            }
+          ],
+          "metadata": {
+            "template": "肩関節を安定させる棘上筋・棘下筋・小円筋・肩甲下筋の4筋群を総称して {{blank}} という",
+            "word_options": [
+              "回旋筋腱板",
+              "三角筋群",
+              "肩甲帯筋群",
+              "僧帽筋群"
+            ]
+          },
+          "choices": [
+            {
+              "text": "回旋筋腱板",
+              "is_correct": true
+            },
+            {
+              "text": "三角筋群",
+              "is_correct": false
+            },
+            {
+              "text": "肩甲帯筋群",
+              "is_correct": false
+            },
+            {
+              "text": "僧帽筋群",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "upper-limb-muscles-overview"
+          ]
+        },
+        {
+          "question_text": "橈骨神経が損傷されると、手首と指が伸展できなくなる。この症状を何というか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "橈骨神経損傷による手首・指の伸展不能は「下垂手（Wrist Drop / Drop Hand）」と呼ばれる。橈骨神経（radial nerve, C5-T1）は上肢の後面の主要な神経で、上腕三頭筋・腕橈骨筋・手関節と指の全伸筋群を支配する。橈骨神経は上腕骨の中央後面にある橈骨神経溝（spiral groove）を走行するため、上腕骨骨幹部骨折で損傷されやすい。損傷されると伸筋群が麻痺し、手首が垂れ下がったまま伸展できなくなる（下垂手）。上肢の他の神経損傷による症状：①正中神経損傷 → 猿手（ape hand）— 母指の対立運動ができない。手根管症候群の原因。②尺骨神経損傷 → 鷲手（claw hand）— 第4-5指のMP関節過伸展とIP関節屈曲。肘部管症候群の原因。覚え方：「下（さ）げるR（radial）、猿M（median）、鷲U（ulnar）」。橈骨神経は「Saturday night palsy（土曜の夜の麻痺）」として知られ、酩酊して腕を椅子の背もたれに長時間圧迫することで生じることがある（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.5）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/muscles-move-forearm.jpg",
+              "role": "explanation",
+              "alt_text": "前腕を動かす筋群の図。Biceps brachii（上腕二頭筋）、Triceps brachii（上腕三頭筋）、Brachialis（上腕筋）、前腕の屈筋群・伸筋群が前面・後面から示されている"
+            }
+          ],
+          "choices": [
+            {
+              "text": "下垂手",
+              "is_correct": true
+            },
+            {
+              "text": "猿手",
+              "is_correct": false
+            },
+            {
+              "text": "鷲手",
+              "is_correct": false
+            },
+            {
+              "text": "祝福手",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "upper-limb-muscles-overview"
+          ]
+        },
+        {
+          "question_text": "上腕二頭筋を支配する神経の名称を答えてください（日本語で回答）",
+          "interaction_type": "free_input",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "上腕二頭筋を支配する神経は「筋皮神経（Musculocutaneous Nerve）」である。筋皮神経は腕神経叢の外側神経束（lateral cord）から分岐し、C5-C7の神経根に由来する。名前の通り「筋（musculo-）」と「皮膚（cutaneous）」の両方を支配する混合神経で：①運動枝 — 上腕前面の3筋（上腕二頭筋・上腕筋・烏口腕筋）を支配。②感覚枝 — 外側前腕皮神経として前腕の外側の皮膚感覚を担う。筋皮神経は烏口突起のすぐ下で外側神経束から分岐し、烏口腕筋を貫通して上腕二頭筋と上腕筋の間を下行する。腕神経叢の損傷パターンの覚え方：①筋皮神経（C5-C7）→ 上腕の屈筋。②橈骨神経（C5-T1）→ 上肢の伸筋。③正中神経（C5-T1）→ 前腕屈筋群の多くと母指球筋。④尺骨神経（C8-T1）→ 手の内在筋の多くと前腕の一部の屈筋（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.5）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/muscles-move-forearm.jpg",
+              "role": "explanation",
+              "alt_text": "前腕を動かす筋群の図。Biceps brachii（上腕二頭筋）、Triceps brachii（上腕三頭筋）、Brachialis（上腕筋）、前腕の屈筋群・伸筋群が前面・後面から示されている"
+            }
+          ],
+          "metadata": {
+            "acceptable_answers": [
+              "筋皮神経",
+              "musculocutaneous nerve"
+            ]
+          },
+          "reference_text_ids": [
+            "upper-limb-muscles-overview"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "下肢の筋",
+      "slug": "lower-limb-muscles",
+      "description": "大腿・下腿・殿部の主要な筋を学ぶ",
+      "sort_order": 5,
+      "concepts": [
+        {
+          "name": "大腿四頭筋",
+          "description": "大腿前面の4つの筋からなる膝伸展の主動筋"
+        },
+        {
+          "name": "ハムストリングス",
+          "description": "大腿後面の3筋からなる膝屈曲・股関節伸展の筋群"
+        },
+        {
+          "name": "大殿筋",
+          "description": "殿部最大の筋で股関節の伸展を担う"
+        },
+        {
+          "name": "下腿三頭筋",
+          "description": "腓腹筋とヒラメ筋からなる足関節の底屈筋群"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "膝を伸展させる主動筋であり、4つの筋から構成される大腿前面の筋群はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "膝伸展の主動筋は「大腿四頭筋（Quadriceps Femoris）」である。大腿四頭筋は大腿前面に位置する人体最大・最強の筋群で、4つの筋から構成される：①大腿直筋（rectus femoris）— 唯一、股関節をまたぐ二関節筋。下前腸骨棘から起始し、膝伸展と股関節屈曲を担う。②外側広筋（vastus lateralis）— 大腿骨の外側から起始する最大の頭。筋肉注射の好発部位。③内側広筋（vastus medialis）— 大腿骨の内側から起始。遠位部の内側広筋斜線維（VMO）は膝蓋骨の安定性に重要。④中間広筋（vastus intermedius）— 大腿骨の前面から起始し、大腿直筋の深層に位置する。4筋は合流して共通の四頭筋腱を形成し、膝蓋骨を経由して膝蓋靭帯として脛骨粗面に停止する。大腿神経（femoral nerve, L2-L4）に支配される。四頭筋の筋力低下は階段昇降困難や膝の不安定性を招く（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.6）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/leg-muscles-foot-toes.jpg",
+              "role": "explanation",
+              "alt_text": "下腿の筋群の図。Gastrocnemius（腓腹筋）、Soleus（ヒラメ筋）、Tibialis anterior（前脛骨筋）、Achilles tendon（アキレス腱）などが前面・後面から示されている"
+            }
+          ],
+          "choices": [
+            {
+              "text": "大腿四頭筋",
+              "is_correct": true
+            },
+            {
+              "text": "ハムストリングス",
+              "is_correct": false
+            },
+            {
+              "text": "大腿筋膜張筋",
+              "is_correct": false
+            },
+            {
+              "text": "内転筋群",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "lower-limb-muscles-overview"
+          ]
+        },
+        {
+          "question_text": "大腿後面に位置し、膝の屈曲と股関節の伸展を担う3つの筋からなる筋群を何というか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "大腿後面の3筋からなる筋群は「ハムストリングス（Hamstrings）」である。ハムストリングスは以下の3筋から構成される：①大腿二頭筋（biceps femoris）— 長頭と短頭の2頭を持つ。長頭は坐骨結節から起始し腓骨頭に停止。短頭は大腿骨粗線から起始。大腿後面の外側に位置。②半腱様筋（semitendinosus）— 坐骨結節から起始し、脛骨の内側面（鵞足）に停止。遠位部が長い腱となるのが名前の由来。③半膜様筋（semimembranosus）— 坐骨結節から起始し、脛骨の内側顆後面に停止。近位部が広い膜状なのが名前の由来。ハムストリングスの共通の作用は膝の屈曲と股関節の伸展（大腿二頭筋短頭を除く）。坐骨神経（sciatic nerve, L4-S3）に支配される。ハムストリングスの肉離れはスポーツ外傷で最も多い筋損傷の一つで、特にスプリント時に多発する（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.6）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/gluteal-muscles.jpg",
+              "role": "explanation",
+              "alt_text": "殿筋群と大腿を動かす筋の図。Gluteus maximus（大殿筋）、Gluteus medius（中殿筋）、Gluteus minimus（小殿筋）、Piriformis（梨状筋）などが示されている"
+            }
+          ],
+          "choices": [
+            {
+              "text": "ハムストリングス",
+              "is_correct": true
+            },
+            {
+              "text": "大腿四頭筋",
+              "is_correct": false
+            },
+            {
+              "text": "内転筋群",
+              "is_correct": false
+            },
+            {
+              "text": "下腿三頭筋",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "lower-limb-muscles-overview"
+          ]
+        },
+        {
+          "question_text": "殿部で最も大きく、階段を昇るときや立ち上がるときに股関節を伸展させる主動筋はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "股関節伸展の主動筋は「大殿筋（Gluteus Maximus）」である。大殿筋は人体で最も大きく最も重い筋の一つで、殿部の形状を作る。腸骨の後面・仙骨・尾骨・胸腰筋膜から広く起始し、腸脛靭帯と大腿骨の殿筋粗面に停止する。作用：①股関節の伸展 — 大殿筋の主な作用。階段昇降・椅子からの立ち上がり・走行時に強力に働く。平地歩行時にはあまり使われない。②股関節の外旋。③腸脛靭帯を介して膝の安定に寄与。大殿筋は下殿神経（inferior gluteal nerve, L5-S2）に支配される。殿筋群には3つの筋がある：①大殿筋（最浅層）— 伸展と外旋。②中殿筋（中間層）— 外転の主力。歩行時の骨盤安定に不可欠。③小殿筋（最深層）— 外転と内旋。中殿筋の麻痺ではトレンデレンブルグ徴候（歩行時に骨盤が健側に傾く）が生じる（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.6）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/gluteal-muscles.jpg",
+              "role": "explanation",
+              "alt_text": "殿筋群と大腿を動かす筋の図。Gluteus maximus（大殿筋）、Gluteus medius（中殿筋）、Gluteus minimus（小殿筋）、Piriformis（梨状筋）などが示されている"
+            }
+          ],
+          "choices": [
+            {
+              "text": "大殿筋",
+              "is_correct": true
+            },
+            {
+              "text": "中殿筋",
+              "is_correct": false
+            },
+            {
+              "text": "大腿二頭筋",
+              "is_correct": false
+            },
+            {
+              "text": "腸腰筋",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "lower-limb-muscles-overview"
+          ]
+        },
+        {
+          "question_text": "下肢の筋群とその主な作用を正しく組み合わせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "下肢の主要な筋群とその作用の対応：①大腿四頭筋 — 膝の伸展。大腿前面の4筋（大腿直筋・外側広筋・内側広筋・中間広筋）からなり、膝蓋靭帯を介して脛骨粗面に停止する。大腿神経支配。②ハムストリングス — 膝の屈曲。大腿後面の3筋（大腿二頭筋・半腱様筋・半膜様筋）で、膝の屈曲と股関節の伸展を担う。坐骨神経支配。③大殿筋 — 股関節の伸展。殿部最大の筋で、階段昇降や走行時に強力に働く。下殿神経支配。④下腿三頭筋 — 足の底屈。腓腹筋とヒラメ筋からなり、アキレス腱を介して踵骨に停止。つま先立ちやジャンプの主力。脛骨神経支配。大腿四頭筋とハムストリングスは互いに拮抗筋の関係にあり、膝の屈曲-伸展を制御する（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.6）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/leg-muscles-foot-toes.jpg",
+              "role": "explanation",
+              "alt_text": "下腿の筋群の図。Gastrocnemius（腓腹筋）、Soleus（ヒラメ筋）、Tibialis anterior（前脛骨筋）、Achilles tendon（アキレス腱）などが前面・後面から示されている"
+            },
+            {
+              "url": "/images/anatomy/gluteal-muscles.jpg",
+              "role": "explanation",
+              "alt_text": "殿筋群と大腿を動かす筋の図。Gluteus maximus（大殿筋）、Gluteus medius（中殿筋）、Gluteus minimus（小殿筋）、Piriformis（梨状筋）などが示されている"
+            }
+          ],
+          "metadata": {
+            "pairs": [
+              {
+                "left": "大腿四頭筋",
+                "right": "膝の伸展"
+              },
+              {
+                "left": "ハムストリングス",
+                "right": "膝の屈曲"
+              },
+              {
+                "left": "大殿筋",
+                "right": "股関節の伸展"
+              },
+              {
+                "left": "下腿三頭筋",
+                "right": "足の底屈"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "lower-limb-muscles-overview"
+          ]
+        },
+        {
+          "question_text": "腓腹筋とヒラメ筋が合流して形成する、人体最大・最強の腱を何というか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "腓腹筋とヒラメ筋が合流して形成する腱は「アキレス腱（Achilles Tendon / Calcaneal Tendon）」である。アキレス腱は人体で最大かつ最強の腱で、長さ約15cm、最大で約900kgの張力に耐えることができる。下腿三頭筋（Triceps Surae）は以下の2筋からなる：①腓腹筋（gastrocnemius）— 浅層にある2頭筋。大腿骨の内側顆と外側顆の後面から起始。膝関節をまたぐ二関節筋で、足の底屈と膝の屈曲を行う。ふくらはぎの膨らみを形成。②ヒラメ筋（soleus）— 腓腹筋の深層。脛骨と腓骨の後面から起始。単関節筋で足の底屈のみを行うが、立位での持続的な底屈（姿勢維持）に重要。名前の由来はラテン語の「舌平目（solea）」に似た形。アキレス腱の名前はギリシャ神話の英雄アキレスに由来し、この部位が唯一の弱点であったとされる。アキレス腱断裂はスポーツ外傷として多く、30-50代の男性に好発する（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.6）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/leg-muscles-foot-toes.jpg",
+              "role": "explanation",
+              "alt_text": "下腿の筋群の図。Gastrocnemius（腓腹筋）、Soleus（ヒラメ筋）、Tibialis anterior（前脛骨筋）、Achilles tendon（アキレス腱）などが前面・後面から示されている"
+            }
+          ],
+          "choices": [
+            {
+              "text": "アキレス腱",
+              "is_correct": true
+            },
+            {
+              "text": "膝蓋靭帯",
+              "is_correct": false
+            },
+            {
+              "text": "腸脛靭帯",
+              "is_correct": false
+            },
+            {
+              "text": "足底腱膜",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "lower-limb-muscles-overview"
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "大腿四頭筋の中で唯一の二関節筋は「大腿直筋（rectus femoris）」である。大腿四頭筋は4筋から構成されるが、外側広筋・内側広筋・中間広筋の3筋は大腿骨から起始して膝関節のみをまたぐ単関節筋である。一方、大腿直筋だけは下前腸骨棘（AIIS）から起始して股関節と膝関節の2つをまたぐ二関節筋であり、膝の伸展に加えて股関節の屈曲も行う。このため、大腿直筋はサッカーのキック動作（股関節屈曲＋膝伸展を同時に行う）で特に重要で、肉離れの好発部位でもある。「rectus」はラテン語で「まっすぐな」を意味し、大腿骨の前面をまっすぐ下行する走行に由来する。臨床的に、Thomasテスト（股関節の屈曲拘縮の検査）で大腿直筋の短縮があると、仰臥位で股関節を伸展した際に膝が曲がる（Elyテスト陽性）所見を示す（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.6）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/gluteal-muscles.jpg",
+              "role": "explanation",
+              "alt_text": "殿筋群と大腿を動かす筋の図。Gluteus maximus（大殿筋）、Gluteus medius（中殿筋）、Gluteus minimus（小殿筋）、Piriformis（梨状筋）などが示されている"
+            }
+          ],
+          "metadata": {
+            "template": "大腿四頭筋の中で唯一の二関節筋は {{blank}} である",
+            "word_options": [
+              "大腿直筋",
+              "外側広筋",
+              "内側広筋",
+              "中間広筋"
+            ]
+          },
+          "choices": [
+            {
+              "text": "大腿直筋",
+              "is_correct": true
+            },
+            {
+              "text": "外側広筋",
+              "is_correct": false
+            },
+            {
+              "text": "内側広筋",
+              "is_correct": false
+            },
+            {
+              "text": "中間広筋",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "lower-limb-muscles-overview"
+          ]
+        },
+        {
+          "question_text": "歩行時に骨盤が水平を保てず健側に傾く「トレンデレンブルグ徴候」は、どの筋の麻痺で生じるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "トレンデレンブルグ徴候は「中殿筋（Gluteus Medius）」の麻痺で生じる。中殿筋は腸骨の外面から起始し、大転子に停止する扇形の筋で、股関節の外転の主動筋である。歩行における中殿筋の役割は極めて重要で、片脚立脚相（一方の足で体重を支える相）において、支持側の中殿筋が収縮して骨盤を水平に保つ。中殿筋が麻痺または筋力低下すると、片脚立脚時に骨盤の遊脚側（足を浮かせている側）が下に傾く — これがトレンデレンブルグ徴候である。両側の中殿筋が障害されると、歩行時に体幹が左右に大きく揺れる「動揺性歩行（waddling gait）」となる。中殿筋は上殿神経（superior gluteal nerve, L4-S1）に支配される。上殿神経は股関節の手術（後方アプローチ）や殿部の筋肉注射の上方偏位で損傷リスクがある。筋注は上外側象限（中殿筋の前上部）に行うのが安全（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.6）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/leg-muscles-foot-toes.jpg",
+              "role": "explanation",
+              "alt_text": "下腿の筋群の図。Gastrocnemius（腓腹筋）、Soleus（ヒラメ筋）、Tibialis anterior（前脛骨筋）、Achilles tendon（アキレス腱）などが前面・後面から示されている"
+            }
+          ],
+          "choices": [
+            {
+              "text": "中殿筋",
+              "is_correct": true
+            },
+            {
+              "text": "大殿筋",
+              "is_correct": false
+            },
+            {
+              "text": "大腿四頭筋",
+              "is_correct": false
+            },
+            {
+              "text": "腸腰筋",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "lower-limb-muscles-overview"
+          ]
+        },
+        {
+          "question_text": "人体で最も太く長い末梢神経で、ハムストリングスや下腿・足の筋を支配するものを何というか？（日本語で回答）",
+          "interaction_type": "free_input",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "人体で最も太く長い末梢神経は「坐骨神経（Sciatic Nerve）」である。坐骨神経は腰仙骨神経叢（L4-S3）から起始し、太さは成人で約2cm（小指ほど）に達する。坐骨神経は大坐骨孔を通り、梨状筋の下から殿部に出て、大腿後面を下行する。大腿後面では、ハムストリングス（大腿二頭筋長頭・半腱様筋・半膜様筋）と大内転筋の一部を支配する。膝窩の上方で坐骨神経は2つの終枝に分かれる：①脛骨神経（tibial nerve）— 下腿後面の筋（下腿三頭筋・後脛骨筋など）と足底の筋を支配。②総腓骨神経（common fibular/peroneal nerve）— 下腿前面と外側の筋（前脛骨筋・長短腓骨筋など）を支配。坐骨神経痛（sciatica）は腰椎椎間板ヘルニアによる神経根圧迫が最多の原因で、殿部から下肢の後面に放散する痛みとしびれを呈する。梨状筋症候群でも坐骨神経が圧迫されることがある（Gray's Anatomy, Part IV; OpenStax Anatomy and Physiology, 11.6）。",
+          "source": "Gray's Anatomy",
+          "images": [
+            {
+              "url": "/images/anatomy/gluteal-muscles.jpg",
+              "role": "explanation",
+              "alt_text": "殿筋群と大腿を動かす筋の図。Gluteus maximus（大殿筋）、Gluteus medius（中殿筋）、Gluteus minimus（小殿筋）、Piriformis（梨状筋）などが示されている"
+            }
+          ],
+          "metadata": {
+            "acceptable_answers": [
+              "坐骨神経",
+              "sciatic nerve"
+            ]
+          },
+          "reference_text_ids": [
+            "lower-limb-muscles-overview"
+          ]
+        }
+      ]
+    }
+  ]
+}

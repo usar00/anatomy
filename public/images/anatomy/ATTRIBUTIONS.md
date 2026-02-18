@@ -89,3 +89,86 @@ All images are either in the **Public Domain** or licensed under **Creative Comm
 - **Author:** Henry Vandyke Carter
 - **Source:** https://commons.wikimedia.org/wiki/File:Gray268.png
 - **License:** Public Domain (Gray's Anatomy, 1918 edition)
+
+## Unit 3: 筋学の基礎 (Myology Basics)
+
+All images below are from **OpenStax Anatomy and Physiology 2e**, licensed under **CC BY 4.0**.
+Original source: https://github.com/openstax/osbooks-anatomy-physiology
+
+### muscle-tissue-three-types.jpg
+- **Title:** 414 Skeletal Smooth Cardiac
+- **Author:** OpenStax College
+- **Source:** https://github.com/openstax/osbooks-anatomy-physiology/blob/main/media/414_Skeletal_Smooth_Cardiac.jpg
+- **License:** CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+
+### muscle-fiber-organization.jpg
+- **Title:** 1002 Organization of Muscle Fiber
+- **Author:** OpenStax College
+- **Source:** https://github.com/openstax/osbooks-anatomy-physiology/blob/main/media/1002_Organization_of_Muscle_Fiber.jpg
+- **License:** CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+
+### sliding-filament-model.jpg
+- **Title:** 1006 Sliding Filament Model of Muscle Contraction
+- **Author:** OpenStax College
+- **Source:** https://github.com/openstax/osbooks-anatomy-physiology/blob/main/media/1006_Sliding_Filament_Model_of_Muscle_Contraction.jpg
+- **License:** CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+
+### motor-end-plate.jpg
+- **Title:** 1009 Motor End Plate and Innervation
+- **Author:** OpenStax College
+- **Source:** https://github.com/openstax/osbooks-anatomy-physiology/blob/main/media/1009_Motor_End_Plate_and_Innervation.jpg
+- **License:** CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+
+### facial-expression-muscles.jpg
+- **Title:** 1106 Front and Side Views of the Muscles of Facial Expressions
+- **Author:** OpenStax College
+- **Source:** https://github.com/openstax/osbooks-anatomy-physiology/blob/main/media/1106_Front_and_Side_Views_of_the_Muscles_of_Facial_Expressions.jpg
+- **License:** CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+
+### muscles-move-lower-jaw.jpg
+- **Title:** 1108 Muscle that Move the Lower Jaw
+- **Author:** OpenStax College
+- **Source:** https://github.com/openstax/osbooks-anatomy-physiology/blob/main/media/1108_Muscle_that_Move_the_Lower_Jaw.jpg
+- **License:** CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+
+### neck-muscles-posterior-side.jpg
+- **Title:** 1111 Posterior and Side Views of the Neck
+- **Author:** OpenStax College
+- **Source:** https://github.com/openstax/osbooks-anatomy-physiology/blob/main/media/1111_Posterior_and_Side_Views_of_the_Neck.jpg
+- **License:** CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+
+### muscles-of-abdomen.jpg
+- **Title:** 1112 Muscles of the Abdomen
+- **Author:** OpenStax College
+- **Source:** https://github.com/openstax/osbooks-anatomy-physiology/blob/main/media/1112_Muscles_of_the_Abdomen.jpg
+- **License:** CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+
+### diaphragm.jpg
+- **Title:** 1113 The Diaphragm
+- **Author:** OpenStax College
+- **Source:** https://github.com/openstax/osbooks-anatomy-physiology/blob/main/media/1113_The_Diaphragm.jpg
+- **License:** CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+
+### muscles-neck-and-back.jpg
+- **Title:** 1117 Muscles of the Neck and Back
+- **Author:** OpenStax College
+- **Source:** https://github.com/openstax/osbooks-anatomy-physiology/blob/main/media/1117_Muscles_of_the_Neck_and_Back.jpg
+- **License:** CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+
+### muscles-move-forearm.jpg
+- **Title:** 1120 Muscles that Move the Forearm
+- **Author:** OpenStax College
+- **Source:** https://github.com/openstax/osbooks-anatomy-physiology/blob/main/media/1120_Muscles_that_Move_the_Forearm.jpg
+- **License:** CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+
+### gluteal-muscles.jpg
+- **Title:** 1122 Gluteal Muscles that Move the Femur
+- **Author:** OpenStax College
+- **Source:** https://github.com/openstax/osbooks-anatomy-physiology/blob/main/media/1122_Gluteal_Muscles_that_Move_the_Femur.jpg
+- **License:** CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+
+### leg-muscles-foot-toes.jpg
+- **Title:** 1123 Muscles of the Leg that Move the Foot and Toes
+- **Author:** OpenStax College
+- **Source:** https://github.com/openstax/osbooks-anatomy-physiology/blob/main/media/1123_Muscles_of_the_Leg_that_Move_the_Foot_and_Toes.jpg
+- **License:** CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
