@@ -1,0 +1,259 @@
+{
+  "unit": {
+    "name": "関節学",
+    "slug": "arthrology-v2",
+    "description": "関節の形が動きを決める — 自由には代償がある",
+    "sort_order": 1
+  },
+  "category": "関節学",
+  "category_slug": "arthrology",
+  "reference_texts": [
+    {
+      "id": "fibrous-joints-basics",
+      "title": "線維性関節の構造と機能",
+      "content": "線維性関節（Fibrous Joint）は、骨と骨が線維性結合組織（主にコラーゲン線維）で直接結合される関節で、関節腔を持たない。可動性はほとんどない（不動関節〜微動関節）。3つのサブタイプがある。①縫合（Suture）：頭蓋骨の骨同士を結合する薄い線維層。新生児では泉門（Fontanelle）として幅広い結合組織が残り、分娩時の産道通過と出生後の脳成長に対応する。成長完了後は大部分が骨化し骨性癒合（Synostosis）となる。②靭帯結合（Syndesmosis）：骨間靭帯や骨間膜で結合される関節。遠位脛腓関節が代表例で、わずかな動き（微動）が可能。前腕の橈骨と尺骨を結ぶ骨間膜も靭帯結合の一種で、前腕の回内・回外を可能にしつつ力を分散する。③釘植（Gomphosis）：歯が歯槽骨にはまり込む特殊な関節で、歯根膜（Periodontal Ligament）のコラーゲン線維で固定される。咬合力の衝撃吸収と、矯正治療時の歯の移動を可能にする。"
+    }
+  ],
+  "sections": [
+    {
+      "name": "線維性関節",
+      "slug": "fibrous-joints",
+      "description": "動かない関節のわけ — 頭蓋骨の縫合は脳を守る設計",
+      "sort_order": 0,
+      "concepts": [
+        {
+          "name": "縫合と泉門",
+          "description": "頭蓋骨の骨同士を結合する線維性関節。新生児の泉門は脳の成長と分娩に対応する設計"
+        },
+        {
+          "name": "靭帯結合と釘植",
+          "description": "骨間膜で結合する靭帯結合（遠位脛腓関節）と、歯を固定する釘植"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "頭蓋骨の骨と骨の間にあるギザギザの接合部（縫合）は、どの種類の関節に分類されるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "頭蓋骨の縫合（Suture）は線維性関節（Fibrous Joint）に分類されます。線維性関節は骨と骨がコラーゲン線維で直接結合される関節で、関節腔や滑膜を持たず、可動性はほとんどありません。縫合の他に、靭帯結合（遠位脛腓関節）や釘植（歯と歯槽骨の結合）も線維性関節に含まれます。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.1",
+          "choices": [
+            {
+              "text": "滑膜性関節",
+              "is_correct": false
+            },
+            {
+              "text": "線維性関節",
+              "is_correct": true
+            },
+            {
+              "text": "軟骨性関節",
+              "is_correct": false
+            },
+            {
+              "text": "弾性関節",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["fibrous-joints-basics"]
+        },
+        {
+          "question_text": "次の文を完成させてください:\n\n新生児の頭蓋骨には骨化が完了していない柔らかい部分があり、これを【　　】と呼ぶ。",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "泉門（Fontanelle）は新生児の頭蓋骨にある骨化が完了していない結合組織の領域です。大泉門（前頭泉門）は最も大きく、生後約18〜24ヶ月で閉鎖します。泉門の存在により、①分娩時に頭蓋骨が重なり合って産道を通過できる、②出生後の急速な脳の成長（出生時約400gから2歳で約1000g）に骨が対応できる、という2つの重要な機能があります。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.1",
+          "metadata": {
+            "word_bank": ["泉門（Fontanelle）", "骨端板（Epiphyseal Plate）", "骨膜（Periosteum）", "関節包（Joint Capsule）"]
+          },
+          "choices": [
+            {
+              "text": "骨端板（Epiphyseal Plate）",
+              "is_correct": false
+            },
+            {
+              "text": "泉門（Fontanelle）",
+              "is_correct": true
+            },
+            {
+              "text": "骨膜（Periosteum）",
+              "is_correct": false
+            },
+            {
+              "text": "関節包（Joint Capsule）",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["fibrous-joints-basics"]
+        },
+        {
+          "question_text": "新生児の頭蓋骨に泉門が存在する理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "泉門は「設計上の未完成」ではなく、重要な機能を持つ構造です。①分娩時に頭蓋骨が変形して狭い産道を通過できる（頭部の圧縮）、②出生後の急速な脳の成長（2年で体積が約3倍）に骨が追従できる。もし新生児の頭蓋骨が成人のように完全に癒合していたら、分娩は極めて困難になり、脳の成長も制限されてしまいます。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.1",
+          "choices": [
+            {
+              "text": "新生児の骨にはカルシウムが不足しているため、物理的に骨化できない",
+              "is_correct": false
+            },
+            {
+              "text": "分娩時の産道通過と出生後の脳の急速な成長に対応するため",
+              "is_correct": true
+            },
+            {
+              "text": "脳に酸素を供給する血管が頭蓋骨を通過するための穴を維持するため",
+              "is_correct": false
+            },
+            {
+              "text": "頭蓋骨の免疫機能が未熟なため、線維組織で補強する必要があるため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["fibrous-joints-basics"]
+        },
+        {
+          "question_text": "成人の頭蓋骨の縫合がほぼ動かない（不動関節）であることは、どのような機能的意義があるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "頭蓋骨の最も重要な機能は脳の保護です。成人では脳の成長が完了しているため、頭蓋骨は硬い一体化した「ヘルメット」のように機能する必要があります。縫合が骨化して不動になることで、外部からの衝撃に対する保護力が最大化されます。もし縫合が可動性を持っていたら、打撲時に骨が動いて脳を損傷するリスクが高まります。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.1",
+          "choices": [
+            {
+              "text": "脳を硬い一体構造で囲み、外部からの衝撃に対する保護を最大化するため",
+              "is_correct": true
+            },
+            {
+              "text": "頭蓋骨の重量を最小限にして首への負担を減らすため",
+              "is_correct": false
+            },
+            {
+              "text": "咀嚼時の力を頭蓋骨全体に伝達するため",
+              "is_correct": false
+            },
+            {
+              "text": "頭蓋骨内の温度を一定に保つ断熱効果のため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["fibrous-joints-basics"]
+        },
+        {
+          "question_text": "線維性関節の3つのサブタイプとその代表例を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "線維性関節には3つのサブタイプがあります。縫合（Suture）は頭蓋骨の接合部で、薄い線維層で結合されほぼ不動です。靭帯結合（Syndesmosis）は骨間膜や靭帯で結合され微動が可能で、遠位脛腓関節や前腕の骨間膜が代表例です。釘植（Gomphosis）は歯が歯槽骨にはまり込む特殊な形式で、歯根膜の線維で固定されます。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.1",
+          "metadata": {
+            "pairs": [
+              {"left": "縫合（Suture）", "right": "頭蓋骨の骨同士の接合部"},
+              {"left": "靭帯結合（Syndesmosis）", "right": "遠位脛腓関節や前腕の骨間膜"},
+              {"left": "釘植（Gomphosis）", "right": "歯と歯槽骨の結合"}
+            ]
+          },
+          "choices": [
+            {
+              "text": "縫合（Suture） → 頭蓋骨の骨同士の接合部",
+              "is_correct": true
+            },
+            {
+              "text": "靭帯結合（Syndesmosis） → 遠位脛腓関節や前腕の骨間膜",
+              "is_correct": true
+            },
+            {
+              "text": "釘植（Gomphosis） → 歯と歯槽骨の結合",
+              "is_correct": true
+            }
+          ],
+          "reference_text_ids": ["fibrous-joints-basics"]
+        },
+        {
+          "question_text": "前腕の橈骨と尺骨を結ぶ骨間膜は靭帯結合（Syndesmosis）に分類される。この骨間膜の機能として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "前腕の骨間膜は橈骨と尺骨をつなぐ線維性結合組織の膜で、靭帯結合に分類されます。この膜は①2本の骨を適度な距離で保持しつつ回内・回外（ドアノブを回す動き）を可能にする、②一方の骨にかかった力を他方に分散する（例：手をついた時の衝撃を橈骨から尺骨にも伝える）、③筋の付着面を提供する（前腕の多くの屈筋・伸筋が骨間膜に付着する）という複数の機能を持ちます。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.1",
+          "choices": [
+            {
+              "text": "橈骨と尺骨を完全に固定して、前腕の回転運動を防止する",
+              "is_correct": false
+            },
+            {
+              "text": "2本の骨の間に滑液を分泌して、骨同士の摩擦を軽減する",
+              "is_correct": false
+            },
+            {
+              "text": "2本の骨を適度に保持しつつ、力の分散と筋の付着面を提供する",
+              "is_correct": true
+            },
+            {
+              "text": "橈骨と尺骨の間で血液を産生する造血組織として機能する",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["fibrous-joints-basics"]
+        },
+        {
+          "question_text": "乳児健診で医師が赤ちゃんの大泉門を触って確認するのはなぜか？解剖学的知識から最も適切な理由はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "大泉門（前頭泉門）は前頭骨と頭頂骨の間にある菱形の泉門で、通常生後18〜24ヶ月で閉鎖します。医師が大泉門を触診する理由は複数あります。①膨隆していれば頭蓋内圧亢進（水頭症、髄膜炎など）が疑われる、②陥没していれば脱水が疑われる、③早期閉鎖（頭蓋骨縫合早期癒合症）は脳の成長を妨げるため要注意。泉門は「脳の健康状態を外から観察できる窓」として極めて有用な臨床指標です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.1",
+          "choices": [
+            {
+              "text": "泉門の膨隆は頭蓋内圧亢進、陥没は脱水を示唆し、脳の状態を外から推定できるため",
+              "is_correct": true
+            },
+            {
+              "text": "泉門の大きさから将来の知能発達を予測できるため",
+              "is_correct": false
+            },
+            {
+              "text": "泉門を通じて脳に直接触れ、腫瘍の有無を確認するため",
+              "is_correct": false
+            },
+            {
+              "text": "泉門の硬さからカルシウム摂取量が十分かどうかを判断するため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["fibrous-joints-basics"]
+        },
+        {
+          "question_text": "歯の矯正治療（ブレース/ワイヤー矯正）で歯を動かすことができるのは、歯と歯槽骨の間の釘植（Gomphosis）のどのような特性によるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "釘植は歯根と歯槽骨の間を歯根膜（Periodontal Ligament）のコラーゲン線維が結合する線維性関節です。矯正治療では持続的な力を歯に加えることで、力がかかる側の歯槽骨で破骨細胞が骨を吸収し、反対側で骨芽細胞が新しい骨を形成します（骨リモデリング）。歯根膜のコラーゲン線維はこの力を骨に伝達しつつ、歯を新しい位置で再固定します。つまり歯根膜が「柔軟な固定装置」として機能するため、完全に骨化した関節と違い力を加えれば少しずつ歯を動かせるのです。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.1",
+          "choices": [
+            {
+              "text": "歯根膜が「完全固定」ではなく力を伝達する柔軟なコラーゲン線維であり、持続的な力で骨リモデリングが起こるため",
+              "is_correct": true
+            },
+            {
+              "text": "歯槽骨が非常に柔らかい海綿骨だけでできており、弱い力でも歯が移動するため",
+              "is_correct": false
+            },
+            {
+              "text": "矯正ワイヤーの力で歯根膜が溶解し、歯が自由に動けるようになるため",
+              "is_correct": false
+            },
+            {
+              "text": "歯根と歯槽骨の間に滑液が存在し、滑って移動するため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["fibrous-joints-basics"]
+        }
+      ]
+    }
+  ]
+}
