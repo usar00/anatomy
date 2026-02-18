@@ -112,6 +112,11 @@
       "id": "thoracic-cage-basics",
       "title": "胸郭の構造と機能",
       "content": "胸郭（Thoracic Cage）は胸骨・12対の肋骨・12個の胸椎で構成される骨性の囲いである。主な機能は①心臓・肺・大血管の保護、②呼吸運動の支持である。胸骨（Sternum）は胸骨柄（Manubrium）・胸骨体（Body）・剣状突起（Xiphoid Process）からなる。肋骨（Ribs）は12対あり、第1〜7肋骨は肋軟骨を介して直接胸骨に付着する真肋（True Ribs）、第8〜10肋骨は第7肋軟骨を介して間接的に胸骨につながる仮肋（False Ribs）、第11〜12肋骨は胸骨に付着しない浮遊肋（Floating Ribs）である。肋骨は後方で胸椎と関節し、肋間筋の収縮により「バケツの取っ手」のように上方に持ち上がることで胸腔を拡大し、吸気を可能にする。"
+    },
+    {
+      "id": "pectoral-girdle-basics",
+      "title": "上肢帯（肩帯）の構造と機能",
+      "content": "上肢帯（Pectoral Girdle/Shoulder Girdle）は鎖骨（Clavicle）と肩甲骨（Scapula）からなり、上肢（腕）を体幹に接続する。鎖骨は前方で胸骨と胸鎖関節（Sternoclavicular Joint）を形成し、外側で肩甲骨の肩峰（Acromion）と肩鎖関節（Acromioclavicular Joint）を形成する。鎖骨は上肢帯と体幹を直接骨で結ぶ唯一の骨であり、「つっかえ棒」として肩甲骨を体幹から離れた位置に保持し、上肢の可動域を確保する。肩甲骨は背面で肋骨の上を滑るように動く三角形の扁平骨で、筋のみで体幹に固定されている（骨での連結なし）。この「浮いた」構造が肩甲骨の自由な動きを可能にし、腕の広い運動範囲を実現する。鎖骨はS字に弯曲した細い棒状の骨で、転倒時に手をついた衝撃が伝わる経路上にあるため、人体で最も骨折頻度が高い骨の一つである。"
     }
   ],
   "sections": [
@@ -3089,6 +3094,272 @@
             "thoracic-cage-basics",
             "spinal-curves-basics",
             "osteoporosis-basics"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "上肢帯",
+      "slug": "pectoral-girdle",
+      "description": "腕の自由度の土台 — 鎖骨はなぜ折れやすい？転倒時のメカニズム",
+      "sort_order": 11,
+      "concepts": [
+        {
+          "name": "鎖骨",
+          "description": "上肢帯と体幹を骨で結ぶ唯一の骨。つっかえ棒として肩甲骨の位置を保持。人体で最も骨折しやすい骨の一つ"
+        },
+        {
+          "name": "肩甲骨",
+          "description": "背面で筋のみにより体幹に固定される三角形の扁平骨。浮いた構造が腕の広い可動域を実現する"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "上肢帯（肩帯）を構成する2つの骨の組み合わせとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "上肢帯（Pectoral Girdle）は鎖骨（Clavicle）と肩甲骨（Scapula）の2つの骨で構成される。鎖骨は前方で胸骨と関節し、肩甲骨は背面に位置する。この2つの骨が上肢（腕）と体幹を接続する役割を果たす。上腕骨は上肢帯ではなく上肢の一部であり、肋骨は胸郭の構成要素である。",
+          "source": "OpenStax Anatomy and Physiology 8.1",
+          "choices": [
+            {
+              "text": "鎖骨と肩甲骨",
+              "is_correct": true
+            },
+            {
+              "text": "鎖骨と上腕骨",
+              "is_correct": false
+            },
+            {
+              "text": "肩甲骨と肋骨",
+              "is_correct": false
+            },
+            {
+              "text": "胸骨と肩甲骨",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "pectoral-girdle-basics"
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "鎖骨は上肢帯と体幹を直接骨で結ぶ唯一の骨であり、内側で胸骨と胸鎖関節を形成する。胸鎖関節は上肢全体の重さを体幹に伝える重要な関節であり、腕を挙げる、回す、引くといった全ての動きの際に鎖骨が関与する。肩甲骨は骨で体幹に結合しておらず、筋のみで保持されている。",
+          "source": "OpenStax Anatomy and Physiology 8.1",
+          "metadata": {
+            "template": "上肢帯で体幹の骨と直接関節するのは {{blank}} だけである"
+          },
+          "choices": [
+            {
+              "text": "鎖骨",
+              "is_correct": true
+            },
+            {
+              "text": "肩甲骨",
+              "is_correct": false
+            },
+            {
+              "text": "上腕骨",
+              "is_correct": false
+            },
+            {
+              "text": "肩峰",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "pectoral-girdle-basics"
+          ]
+        },
+        {
+          "question_text": "肩甲骨が骨で体幹に固定されず、筋だけで「浮いている」構造になっている理由は何か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "肩甲骨は体幹の骨と直接関節せず、僧帽筋・菱形筋・前鋸筋・肩甲挙筋などの筋によって肋骨の上に保持されている。この「浮いた」構造により、肩甲骨は胸壁の上を自由に滑ることができる（上方回旋・下方回旋・挙上・下制・内転・外転）。腕を真上に挙げるとき、上腕骨の動きだけでなく肩甲骨の上方回旋が加わることで、約180度の挙上が可能になる。もし肩甲骨が骨で固定されていたら、腕の挙上は約120度で止まってしまう。可動性を最大化するための設計である。",
+          "source": "OpenStax Anatomy and Physiology 8.1",
+          "choices": [
+            {
+              "text": "肩甲骨が胸壁上を自由に動けることで、腕の運動範囲が大幅に広がるため",
+              "is_correct": true
+            },
+            {
+              "text": "胎児の発達過程で骨化が完了しなかった未熟な状態が残っているため",
+              "is_correct": false
+            },
+            {
+              "text": "衝撃が直接脊柱に伝わるのを防ぐクッション機能を果たすため",
+              "is_correct": false
+            },
+            {
+              "text": "呼吸時に胸郭の拡張を妨げないようにするため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "pectoral-girdle-basics"
+          ]
+        },
+        {
+          "question_text": "鎖骨が「つっかえ棒」と表現されるのはなぜか？この機能が失われるとどうなるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "鎖骨は胸骨（体幹の中心）と肩甲骨の肩峰（肩の外側端）を結ぶ水平な骨で、肩甲骨を体幹から一定の距離に保つ「つっかえ棒（strut）」として機能する。鎖骨がなければ、肩甲骨は筋の張力で内側に引き寄せられ、腕の位置が体幹に近づきすぎてしまう。実際に鎖骨骨折が起きると、骨折側の肩が前方・下方に落ち込み（drooping shoulder）、腕の挙上が困難になる。鎖骨は地味に見えるが、上肢の運動能力全体の土台を支えている。",
+          "source": "OpenStax Anatomy and Physiology 8.1",
+          "choices": [
+            {
+              "text": "肩甲骨を体幹から適切な距離に保持しており、骨折すると肩が落ち込み腕の挙上が困難になる",
+              "is_correct": true
+            },
+            {
+              "text": "鎖骨が突っ張ることで肩関節の脱臼を防いでおり、骨折すると肩が抜けやすくなる",
+              "is_correct": false
+            },
+            {
+              "text": "頸部の大血管を鎖骨の下に保護しており、骨折すると出血のリスクがある",
+              "is_correct": false
+            },
+            {
+              "text": "呼吸時に第1肋骨の動きを制限しており、骨折すると過呼吸になりやすい",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "pectoral-girdle-basics"
+          ]
+        },
+        {
+          "question_text": "鎖骨と肩甲骨の特徴を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "鎖骨は胸骨と肩甲骨を結ぶS字状の骨で、上肢帯で唯一体幹の骨と関節する。肩甲骨は三角形の扁平骨で、筋のみで体幹に固定され、胸壁上を自由に動く。肩甲骨の肩峰（Acromion）は鎖骨と関節し肩の最上部を形成する。肩甲骨の関節窩（Glenoid Cavity）は上腕骨頭と肩関節を形成する浅い凹みで、その浅さが肩関節の広い可動域と脱臼しやすさの両方に関係する。",
+          "source": "OpenStax Anatomy and Physiology 8.1",
+          "metadata": {
+            "pairs": [
+              {
+                "left": "鎖骨",
+                "right": "S字状で体幹と肩甲骨をつなぐ「つっかえ棒」"
+              },
+              {
+                "left": "肩甲骨",
+                "right": "三角形の扁平骨。筋のみで体幹に保持"
+              },
+              {
+                "left": "肩峰",
+                "right": "肩甲骨の突起。鎖骨と関節し肩の頂点を形成"
+              },
+              {
+                "left": "関節窩",
+                "right": "上腕骨頭が入る浅い凹み。肩関節を形成"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "pectoral-girdle-basics"
+          ]
+        },
+        {
+          "question_text": "上肢帯（鎖骨＋肩甲骨）と下肢帯（骨盤）の設計思想の最大の違いは何か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "上肢帯と下肢帯は対照的な設計になっている。上肢帯は可動性を優先し、鎖骨1本のみで体幹に接続し、肩甲骨は筋のみで保持される。これにより腕はあらゆる方向に動く。一方、下肢帯（骨盤）は安定性を優先し、左右の寛骨が仙骨と仙腸関節で強固に結合し、前方で恥骨結合でつながる。体重の支持と歩行時の衝撃伝達に耐える頑丈な構造。つまり上肢帯は「自由な操作」のため、下肢帯は「安定した支持」のためにそれぞれ最適化されている。",
+          "source": "OpenStax Anatomy and Physiology 8.1, 8.3",
+          "choices": [
+            {
+              "text": "上肢帯は可動性を優先（軽い接続）、下肢帯は安定性を優先（強固な接続）",
+              "is_correct": true
+            },
+            {
+              "text": "上肢帯は骨が多く複雑、下肢帯は骨が少なく単純",
+              "is_correct": false
+            },
+            {
+              "text": "上肢帯は筋が多い、下肢帯は靭帯が多い",
+              "is_correct": false
+            },
+            {
+              "text": "上肢帯と下肢帯の設計思想に大きな違いはない",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "pectoral-girdle-basics"
+          ]
+        },
+        {
+          "question_text": "自転車で転倒して手をついた子供が、鎖骨の中央部を骨折した。なぜ鎖骨がこのような転倒で最も折れやすい骨なのか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "転倒時に手をつくと、衝撃は手→前腕→上腕→肩甲骨→鎖骨→胸骨という経路で体幹に伝わる。鎖骨はこの力の伝達経路上の「最も細いボトルネック」であり、S字のカーブの頂点付近（中央1/3）が最も脆弱な部分となる。さらに鎖骨は①皮膚直下に位置し（筋肉の保護が薄い）、②S字の弯曲部に応力が集中しやすく、③横断面が丸い管状構造で曲げに弱い。これらの構造的特徴から、鎖骨は全骨折の約5%を占め、小児では最も頻度の高い骨折部位である。",
+          "source": "OpenStax Anatomy and Physiology 8.1",
+          "choices": [
+            {
+              "text": "手からの衝撃が伝わる経路上の最も細い部分であり、S字カーブの弯曲部に応力が集中するから",
+              "is_correct": true
+            },
+            {
+              "text": "鎖骨は軟骨でできているため骨より折れやすい",
+              "is_correct": false
+            },
+            {
+              "text": "鎖骨は成長期に骨端板が残っているため、小児では特に折れやすい",
+              "is_correct": false
+            },
+            {
+              "text": "鎖骨には血液供給が乏しく、骨が栄養不足で脆弱であるため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "pectoral-girdle-basics",
+            "fracture-healing-basics"
+          ]
+        },
+        {
+          "question_text": "デスクワークで「肩が前に丸まる」（巻き肩）姿勢が続くと、上肢帯にどのような影響があるか？解剖学的に最も的確な説明はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "巻き肩（前方肩甲骨突出/Protracted Scapulae）では、肩甲骨が前方・外方に引き寄せられた状態が持続する。この姿勢では①大胸筋・小胸筋が短縮し、②僧帽筋中部・菱形筋が伸張・弱化する。肩甲骨の位置が変わることで関節窩の向きも変化し、肩関節のアライメントが崩れる。結果として、肩峰下のスペースが狭くなり、腕を挙げるときに回旋筋腱板の腱が肩峰と衝突しやすくなる（肩峰下インピンジメント）。また鎖骨の角度も変わり、鎖骨下を通る神経・血管（腕神経叢・鎖骨下動脈）の圧迫リスクも高まる。上肢帯の骨の位置異常が、筋・関節・神経・血管の連鎖的な問題を引き起こす典型例である。",
+          "source": "OpenStax Anatomy and Physiology 8.1, 11.4",
+          "choices": [
+            {
+              "text": "肩甲骨が前方に移動して関節のアライメントが崩れ、肩峰下インピンジメントや神経圧迫のリスクが高まる",
+              "is_correct": true
+            },
+            {
+              "text": "鎖骨が徐々に変形してS字カーブが消失し、衝撃吸収能力が低下する",
+              "is_correct": false
+            },
+            {
+              "text": "肩甲骨が胸郭に癒着して動かなくなり、腕を挙げられなくなる",
+              "is_correct": false
+            },
+            {
+              "text": "見た目が悪くなるだけで、解剖学的な問題は特に起こらない",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "pectoral-girdle-basics"
           ]
         }
       ]
