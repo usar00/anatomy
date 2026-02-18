@@ -11,6 +11,17 @@ import { createClient } from "@supabase/supabase-js";
 import * as fs from "fs";
 import * as path from "path";
 
+// プロキシ環境ではundiciのProxyAgentを使ってfetchをプロキシ経由にする
+if (process.env.HTTPS_PROXY) {
+  try {
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    const { ProxyAgent, setGlobalDispatcher } = require("undici");
+    setGlobalDispatcher(new ProxyAgent(process.env.HTTPS_PROXY));
+  } catch {
+    // undiciが利用できない場合は無視（直接接続で試行）
+  }
+}
+
 config({ path: ".env.local" });
 
 interface ConceptData {

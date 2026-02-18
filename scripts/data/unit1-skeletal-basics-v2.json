@@ -17,6 +17,16 @@
       "id": "short-bone-basics",
       "title": "短骨の構造と機能",
       "content": "短骨（Short Bone）は、幅と長さと厚さがほぼ等しい立方体に近い骨で、手根骨（8個）と足根骨（7個）が代表例である。表面は薄い緻密骨で覆われ、内部は海綿骨で満たされる。長骨のような骨髄腔は持たない。多数の短骨が靭帯で連結されることで、安定性を保ちつつ多方向への動きを可能にしている。また衝撃を分散・吸収する機能もある。"
+    },
+    {
+      "id": "flat-bone-basics",
+      "title": "扁平骨の構造と機能",
+      "content": "扁平骨（Flat Bone）は、薄く平らな板状の骨で、2層の緻密骨の間に薄い海綿骨層（板間層/diploë）が挟まれたサンドイッチ構造を持つ。頭蓋冠（前頭骨・頭頂骨・後頭骨）、胸骨、肋骨、肩甲骨、寛骨の腸骨翼などが代表例。主な機能は①臓器の保護（脳・心臓・肺）、②筋の広い付着面の提供、③赤色骨髄による造血である。"
+    },
+    {
+      "id": "irregular-sesamoid-basics",
+      "title": "不規則骨と種子骨",
+      "content": "不規則骨（Irregular Bone）は、長骨・短骨・扁平骨のいずれにも当てはまらない複雑な形状の骨。椎骨・蝶形骨・篩骨・舌骨などが含まれる。複雑な形は、保護・支持・筋付着など複数の機能を同時に果たすため。種子骨（Sesamoid Bone）は、腱の中に発達する小さな骨で、膝蓋骨が最大の例。腱にかかる摩擦を軽減し、力の伝達効率を高める。"
     }
   ],
   "sections": [
@@ -290,6 +300,279 @@
           "reference_text_ids": [
             "long-bone-basics",
             "short-bone-basics"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "扁平骨・不規則骨・種子骨",
+      "slug": "flat-irregular-sesamoid",
+      "description": "扁平骨は臓器を守る盾、椎骨の複雑な形にも理由がある、膝蓋骨は腱の中の骨",
+      "sort_order": 1,
+      "concepts": [
+        {
+          "name": "扁平骨",
+          "description": "薄く平らな骨。2層の緻密骨の間に海綿骨が挟まれる（頭蓋骨、胸骨、肩甲骨など）"
+        },
+        {
+          "name": "不規則骨",
+          "description": "複雑な形状の骨。複数の機能を同時に果たす（椎骨、蝶形骨など）"
+        },
+        {
+          "name": "種子骨",
+          "description": "腱の中に発達する小さな骨。摩擦軽減と力の伝達効率向上（膝蓋骨など）"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "頭蓋骨の頭頂骨はどの骨の分類に属するか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "頭頂骨は薄く平らな板状の骨で「扁平骨」に分類される。扁平骨は2層の緻密骨の間に薄い海綿骨層（板間層/diploë）が挟まれたサンドイッチ構造を持つ。頭蓋冠を構成する前頭骨・頭頂骨・後頭骨はいずれも扁平骨であり、脳という重要な臓器を保護する役割を果たしている。",
+          "source": "Gray's Anatomy / OpenStax Anatomy and Physiology 6.1",
+          "images": [
+            {
+              "url": "/images/anatomy/bone-classification-types.png",
+              "role": "explanation",
+              "alt_text": "骨の5つの分類を示す図。Flat Bone（扁平骨）の代表例として頭蓋骨が描かれている"
+            }
+          ],
+          "choices": [
+            {
+              "text": "扁平骨",
+              "is_correct": true
+            },
+            {
+              "text": "不規則骨",
+              "is_correct": false
+            },
+            {
+              "text": "短骨",
+              "is_correct": false
+            },
+            {
+              "text": "長骨",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "flat-bone-basics"
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "膝蓋骨（しつがいこつ）は大腿四頭筋の腱の中に発達した骨で「種子骨」に分類される。種子骨とは腱の中にある小さな骨の総称で、ゴマ（sesame）の種に似ていることからこの名がついた。膝蓋骨は人体最大の種子骨であり、膝を伸ばすときの力の伝達効率を高めている。",
+          "source": "Gray's Anatomy / OpenStax Anatomy and Physiology 6.1",
+          "metadata": {
+            "template": "膝蓋骨は腱の中にある骨で、 {{blank}} に分類される"
+          },
+          "choices": [
+            {
+              "text": "種子骨",
+              "is_correct": true
+            },
+            {
+              "text": "短骨",
+              "is_correct": false
+            },
+            {
+              "text": "扁平骨",
+              "is_correct": false
+            },
+            {
+              "text": "不規則骨",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "irregular-sesamoid-basics"
+          ]
+        },
+        {
+          "question_text": "扁平骨が頭蓋骨や胸骨に多いのはなぜか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "扁平骨は薄く広い板状の形をしており、内臓を覆う「盾」として機能する。頭蓋冠の扁平骨は脳を、胸骨と肋骨は心臓と肺を保護している。さらに扁平骨の広い表面は筋の付着面を提供し、赤色骨髄を含むため造血の場にもなっている。つまり「保護が必要な場所」に扁平骨が存在する。",
+          "source": "OpenStax Anatomy and Physiology 6.1",
+          "choices": [
+            {
+              "text": "薄く広い形が臓器を覆う盾として適しているから",
+              "is_correct": true
+            },
+            {
+              "text": "扁平骨は他の骨より硬い素材でできているから",
+              "is_correct": false
+            },
+            {
+              "text": "扁平骨は軽いので体の中心部に集まるから",
+              "is_correct": false
+            },
+            {
+              "text": "頭蓋骨には関節がないため扁平骨が適するから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "flat-bone-basics"
+          ]
+        },
+        {
+          "question_text": "椎骨が「不規則骨」に分類される理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "椎骨は椎体（体重を支える）、椎弓（脊髄を囲む）、棘突起・横突起（筋や靭帯が付着する）など複数の部分から構成され、単純な形では表現できない。この複雑な形態は「脊髄の保護」「体重の支持」「筋の付着」「隣の椎骨との関節形成」という複数の機能を1つの骨で果たすために進化した結果である。長骨・短骨・扁平骨のどの定義にも当てはまらないため、不規則骨に分類される。",
+          "source": "Gray's Anatomy / OpenStax Anatomy and Physiology 6.1",
+          "choices": [
+            {
+              "text": "保護・支持・筋付着など複数の機能を果たすため複雑な形が必要だから",
+              "is_correct": true
+            },
+            {
+              "text": "椎骨は成長中に形が不規則に変化するから",
+              "is_correct": false
+            },
+            {
+              "text": "椎骨は柔らかい素材でできているため形が定まらないから",
+              "is_correct": false
+            },
+            {
+              "text": "不規則骨は体の中心にある骨の総称だから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "irregular-sesamoid-basics"
+          ]
+        },
+        {
+          "question_text": "骨の分類とその主な機能を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "扁平骨は薄く広い盾のような形で臓器を保護する（例：頭蓋骨→脳、胸骨→心臓）。不規則骨は複雑な形で複数の機能を同時に果たす（例：椎骨→脊髄保護＋体重支持＋筋付着）。種子骨は腱の中にあり、腱にかかる摩擦を軽減して力の伝達効率を高める（例：膝蓋骨→膝伸展の効率化）。",
+          "source": "OpenStax Anatomy and Physiology 6.1",
+          "metadata": {
+            "pairs": [
+              {
+                "left": "扁平骨（頭蓋骨）",
+                "right": "臓器を保護する盾"
+              },
+              {
+                "left": "不規則骨（椎骨）",
+                "right": "保護・支持・筋付着を同時に果たす"
+              },
+              {
+                "left": "種子骨（膝蓋骨）",
+                "right": "腱の摩擦を減らし力の伝達を高める"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "flat-bone-basics",
+            "irregular-sesamoid-basics"
+          ]
+        },
+        {
+          "question_text": "扁平骨は2層の緻密骨の間に海綿骨が挟まれた「サンドイッチ構造」を持つ。この構造の利点として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "扁平骨のサンドイッチ構造では、外側の2層の緻密骨が硬い殻として衝撃に耐え、間の海綿骨（板間層/diploë）が衝撃エネルギーを吸収するクッションの役割を果たす。この設計により、頭蓋骨は外からの打撃に対して「硬さ（耐衝撃性）」と「軽さ」を両立できる。段ボールの構造（波板を平板で挟む）と似た工学的原理である。",
+          "source": "Gray's Anatomy",
+          "choices": [
+            {
+              "text": "硬い外層で衝撃に耐え、中の海綿骨で衝撃を吸収して軽さも確保できる",
+              "is_correct": true
+            },
+            {
+              "text": "海綿骨があると血液を大量に送り込めるため骨が強くなる",
+              "is_correct": false
+            },
+            {
+              "text": "サンドイッチ構造にすることで骨の成長が速くなる",
+              "is_correct": false
+            },
+            {
+              "text": "緻密骨が2層あるため扁平骨は他の骨の2倍の硬さを持つ",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "flat-bone-basics"
+          ]
+        },
+        {
+          "question_text": "ヘルメットなしで自転車で転倒し、頭を地面にぶつけた場合、頭蓋冠の扁平骨はどのように脳を守っているか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "頭蓋冠の扁平骨は、外板（外側の緻密骨）がまず打撃に抵抗し、板間層（海綿骨/diploë）が衝撃エネルギーを分散・吸収し、内板（内側の緻密骨）が最後の防御壁として脳を守る。この三層構造が段階的に衝撃を減衰させることで、外部の強い力が脳に直接伝わることを防いでいる。なお、衝撃が大きすぎると外板が陥没する「陥没骨折」が起こり、脳を損傷する危険がある。",
+          "source": "Gray's Anatomy",
+          "choices": [
+            {
+              "text": "外側の緻密骨が打撃に抵抗し、板間層の海綿骨が衝撃を吸収し、内側の緻密骨が脳を守る",
+              "is_correct": true
+            },
+            {
+              "text": "頭蓋骨全体がバネのようにたわんで衝撃を逃がす",
+              "is_correct": false
+            },
+            {
+              "text": "頭蓋骨の縫合線が開いて衝撃を分散する",
+              "is_correct": false
+            },
+            {
+              "text": "脳脊髄液が衝撃を吸収するため頭蓋骨の構造は関係ない",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "flat-bone-basics"
+          ]
+        },
+        {
+          "question_text": "膝蓋骨（種子骨）がなかったら、膝を伸ばす動作にどのような影響があると考えられるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "膝蓋骨は大腿四頭筋の腱の中にあり、腱を膝関節から少し前方に持ち上げる「滑車」の役割を果たしている。これにより大腿四頭筋のてこの腕（モーメントアーム）が大きくなり、同じ筋力で約50%も大きな膝伸展力を発揮できる。膝蓋骨がなければ、てこの効率が落ち、膝を伸ばすのにより大きな筋力が必要になる。階段を上がる・椅子から立ち上がるなどの日常動作がつらくなるだろう。実際に膝蓋骨摘出後の患者は膝伸展力の低下を経験する。",
+          "source": "Gray's Anatomy / OpenStax Anatomy and Physiology",
+          "choices": [
+            {
+              "text": "てこの効率が落ち、同じ膝伸展力を得るのにより大きな筋力が必要になる",
+              "is_correct": true
+            },
+            {
+              "text": "膝が全く伸ばせなくなる",
+              "is_correct": false
+            },
+            {
+              "text": "膝の可動域が広がり過伸展しやすくなる",
+              "is_correct": false
+            },
+            {
+              "text": "大腿四頭筋の腱が切れやすくなる",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "irregular-sesamoid-basics"
           ]
         }
       ]
