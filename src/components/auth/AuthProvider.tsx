@@ -95,6 +95,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, [supabase.auth]);
 
   const upgradeToGoogle = useCallback(async () => {
+    // linkIdentity はリダイレクトを発生させるため、以降の処理は実行されない。
+    // role の更新はサーバーサイド（auth/callback/route.ts）で安全に行う。
     const { error } = await supabase.auth.linkIdentity({
       provider: "google",
       options: {
@@ -105,15 +107,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       console.error("Upgrade to Google error:", error.message);
       throw error;
     }
-    // After redirect + callback, update the profile role
-    if (user) {
-      await supabase
-        .from("profiles")
-        .update({ role: "free" })
-        .eq("id", user.id);
-      setRole("free");
-    }
-  }, [supabase, user]);
+  }, [supabase]);
 
   const signOut = useCallback(async () => {
     const { error } = await supabase.auth.signOut();
