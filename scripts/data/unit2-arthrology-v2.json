@@ -47,6 +47,11 @@
       "id": "shoulder-joint-basics",
       "title": "肩関節の構造と安定性",
       "content": "肩関節（肩甲上腕関節/Glenohumeral Joint）は人体で最も可動域が広い球関節で、屈曲・伸展、外転・内転、内旋・外旋、分回し運動（Circumduction）のすべてが可能。しかし、その代償として最も脱臼しやすい関節でもある。構造的特徴：①関節窩（Glenoid Cavity）が非常に浅く、上腕骨頭の表面積の約25-30%しか覆わない。これはゴルフのティーの上にボールが乗っているような状態で、骨による安定性が極めて低い。②関節唇（Glenoid Labrum）：関節窩の縁を取り囲む線維軟骨のリングで、関節窩を約50%深くし、上腕骨頭との接触面積を増加させる。吸盤効果により安定性に寄与するが、損傷しやすい（バンカート損傷＝前下方の関節唇損傷）。安定化の仕組み：①静的安定化装置 — 関節包、関節上腕靭帯（上・中・下）、烏口上腕靭帯。②動的安定化装置 — 回旋筋腱板（Rotator Cuff）の4筋：棘上筋（Supraspinatus）、棘下筋（Infraspinatus）、小円筋（Teres Minor）、肩甲下筋（Subscapularis）。これらの筋腱が上腕骨頭を関節窩に押し付け、運動中の安定性を確保する。棘上筋腱は肩峰と上腕骨頭の間を通るため、腕の挙上時に圧迫されやすく、インピンジメント症候群の原因となる。脱臼：肩関節脱臼の約95%は前方脱臼で、腕を外転・外旋位で後方から力が加わった際に発生する。前下方の関節包と関節唇が最も弱いため。一度脱臼すると関節唇や関節包が引き伸ばされ、再脱臼のリスクが高まる（反復性肩関節脱臼）。凍結肩（Frozen Shoulder/五十肩）：関節包が炎症で肥厚・拘縮し、肩の可動域が著しく制限される状態。原因は完全に解明されていないが、糖尿病・甲状腺疾患との関連が報告されている。"
+    },
+    {
+      "id": "elbow-forearm-basics",
+      "title": "肘関節と前腕の回転の構造",
+      "content": "肘関節は1つの関節包の中に3つの関節が含まれる複合関節である。①腕尺関節（Humeroulnar Joint）：上腕骨の滑車と尺骨の滑車切痕が噛み合う蝶番関節。肘の屈曲・伸展を行う主要関節。尺骨の肘頭（Olecranon）が上腕骨の肘頭窩にはまり込むことで過伸展を防ぐ。②腕橈関節（Humeroradial Joint）：上腕骨の小頭と橈骨頭が接する関節。③近位橈尺関節（Proximal Radioulnar Joint）：橈骨頭が輪状靭帯のリング内で回転する車軸関節。前腕の回内（手のひらを下に向ける）・回外（手のひらを上に向ける）を行う。安定化構造：①内側側副靭帯（UCL/MCL）：上腕骨内側上顆から尺骨に至る靭帯で、外反ストレス（肘が外に開く力）に抵抗する。投球動作で強いストレスがかかる。②外側側副靭帯（LCL）：上腕骨外側上顆から尺骨に至る靭帯で、内反ストレスに抵抗する。③輪状靭帯（Annular Ligament）：橈骨頭を取り囲むリング状の靭帯で、回内・回外の軸を安定化する。肘関節は肩関節に比べて安定性が高い。理由は①骨の適合性が高い（滑車と滑車切痕の噛み合い）、②肘頭が過伸展を物理的にブロック、③強い側副靭帯。テニス肘（外側上顆炎）：前腕伸筋群（手首を反らす筋群）の起始部（上腕骨外側上顆）に繰り返しのストレスで微小断裂・炎症が起こる。バックハンドの繰り返しやキーボード操作が原因。ゴルフ肘（内側上顆炎）：前腕屈筋群の起始部（内側上顆）の同様の障害。肘内障（Nursemaid's Elbow）：幼児に多い。手を引っ張られた際に橈骨頭が輪状靭帯から亜脱臼する。幼児は橈骨頭がまだ十分に発達しておらず、輪状靭帯が相対的に緩いため起こりやすい。"
     }
   ],
   "sections": [
@@ -1894,6 +1899,224 @@
             }
           ],
           "reference_text_ids": ["shoulder-joint-basics"]
+        }
+      ]
+    },
+    {
+      "name": "肘関節と前腕の回転",
+      "slug": "elbow-forearm",
+      "description": "蝶番と車軸の組み合わせ — テニス肘はなぜ起こる？",
+      "sort_order": 8,
+      "concepts": [
+        {
+          "name": "肘関節の構造",
+          "description": "1つの関節包に3つの関節。腕尺関節（蝶番）と近位橈尺関節（車軸）の協調"
+        },
+        {
+          "name": "肘の損傷と障害",
+          "description": "テニス肘・ゴルフ肘の外側vs内側上顆炎、肘内障、UCL損傷"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "肘関節の屈曲・伸展を主に行うのは、3つの関節のうちどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "肘関節は1つの関節包に3つの関節が含まれる複合関節です。肘の屈曲・伸展を主に行うのは腕尺関節（Humeroulnar Joint）で、上腕骨の滑車と尺骨の滑車切痕が噛み合う蝶番関節です。近位橈尺関節は前腕の回内・回外を行う車軸関節です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            {
+              "text": "近位橈尺関節（車軸関節）",
+              "is_correct": false
+            },
+            {
+              "text": "腕尺関節（蝶番関節）",
+              "is_correct": true
+            },
+            {
+              "text": "遠位橈尺関節（車軸関節）",
+              "is_correct": false
+            },
+            {
+              "text": "肩鎖関節（平面関節）",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["elbow-forearm-basics"]
+        },
+        {
+          "question_text": "前腕の回内は手のひらを（　①　）に向ける動きで、回外は手のひらを（　②　）に向ける動きである。この動きは（　③　）橈尺関節の（　④　）関節で行われる。",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "回内（Pronation）は手のひらを下に向ける動きで、回外（Supination）は手のひらを上に向ける動きです。この動きは近位橈尺関節で行われ、橈骨頭が輪状靭帯のリング内で回転する車軸関節です。ドアノブを回す、ネジを締めるなどの日常動作に不可欠です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            { "text": "下", "is_correct": true },
+            { "text": "上", "is_correct": true },
+            { "text": "近位", "is_correct": true },
+            { "text": "車軸", "is_correct": true },
+            { "text": "遠位", "is_correct": false },
+            { "text": "蝶番", "is_correct": false }
+          ],
+          "metadata": {
+            "word_bank": ["上", "蝶番", "下", "近位", "遠位", "車軸"]
+          },
+          "reference_text_ids": ["elbow-forearm-basics", "other-synovial-types-basics"]
+        },
+        {
+          "question_text": "蝶番関節（腕尺関節）と車軸関節（近位橈尺関節）が1つの関節包の中に共存している構造的利点として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "肘関節では、腕尺関節（蝶番）で肘の屈曲・伸展を行いながら、同じ関節包内の近位橈尺関節（車軸）で前腕の回内・回外を同時に行えます。これにより、例えばコップを持って口に運ぶ（肘を曲げながら手のひらの向きを変える）動作が1つのスムーズな動きとして実現できます。もし別々の関節包にあれば、2つの動きの協調が難しくなります。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            {
+              "text": "蝶番関節の安定性が車軸関節に伝わり、回内・回外が完全にロックされるため",
+              "is_correct": false
+            },
+            {
+              "text": "1つの関節包で済むため滑液の量が半分で済み、エネルギー効率が良いため",
+              "is_correct": false
+            },
+            {
+              "text": "肘の屈伸と前腕の回旋を同時にスムーズに行え、複合的な動作が可能になるため",
+              "is_correct": true
+            },
+            {
+              "text": "車軸関節の回転力が蝶番関節の屈曲力に変換され、少ない筋力で肘を曲げられるため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["elbow-forearm-basics"]
+        },
+        {
+          "question_text": "テニス肘（外側上顆炎）の解剖学的メカニズムとして最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "テニス肘は、手首を反らす筋群（前腕伸筋群）の起始部である上腕骨外側上顆に、繰り返しのストレスが加わることで微小断裂と炎症が生じる障害です。テニスのバックハンドでは手首を反らす力が反復的に外側上顆に集中します。同様のメカニズムはキーボード操作やドライバーの使用でも起こります。対照的にゴルフ肘は内側上顆（屈筋群の起始部）の障害です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            {
+              "text": "前腕伸筋群の起始部（外側上顆）に繰り返しのストレスで微小断裂・炎症が起こる",
+              "is_correct": true
+            },
+            {
+              "text": "肘関節の関節軟骨が摩耗し、外側の骨同士が直接こすれて痛みが生じる",
+              "is_correct": false
+            },
+            {
+              "text": "外側側副靭帯が断裂して肘が不安定になり、慢性的な炎症が起こる",
+              "is_correct": false
+            },
+            {
+              "text": "近位橈尺関節の輪状靭帯が緩み、橈骨頭が亜脱臼を繰り返す",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["elbow-forearm-basics"]
+        },
+        {
+          "question_text": "以下の肘関節の構成要素と、その機能を正しく組み合わせなさい。",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "①腕尺関節は上腕骨滑車と尺骨の噛み合いで肘の屈曲・伸展を行います。②近位橈尺関節は橈骨頭の回転で前腕の回内・回外を行います。③内側側副靭帯（UCL）は外反ストレス（肘が外に開く力）に抵抗し、投球時に特に重要です。④輪状靭帯は橈骨頭を取り囲んで回内・回外の回転軸を安定化します。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "metadata": {
+            "matching_pairs": [
+              { "left": "腕尺関節", "right": "肘の屈曲・伸展" },
+              { "left": "近位橈尺関節", "right": "前腕の回内・回外" },
+              { "left": "内側側副靭帯（UCL）", "right": "外反ストレスへの抵抗" },
+              { "left": "輪状靭帯", "right": "橈骨頭の回転軸の安定化" }
+            ]
+          },
+          "choices": [],
+          "reference_text_ids": ["elbow-forearm-basics"]
+        },
+        {
+          "question_text": "肘関節は肩関節に比べて脱臼しにくい。肘関節の安定性が高い構造的理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "肘関節は3つの構造的要因で高い安定性を持ちます。①上腕骨滑車と尺骨の滑車切痕の骨の適合性が高い（凸面と凹面がしっかり噛み合う）。②尺骨の肘頭が上腕骨の肘頭窩に入り込み、過伸展を物理的にブロックする。③内側・外側の側副靭帯が横方向のぶれを強く制限する。これに対し肩関節は関節窩が浅く、骨による安定性が最小限であるため脱臼しやすいのです。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            {
+              "text": "肘は球関節で関節窩が深いため、骨頭が外れにくい",
+              "is_correct": false
+            },
+            {
+              "text": "肘は蝶番関節で回旋ができないため、脱臼する方向がそもそも存在しない",
+              "is_correct": false
+            },
+            {
+              "text": "肘の関節軟骨が肩より3倍厚く、衝撃を吸収して脱臼を防ぐ",
+              "is_correct": false
+            },
+            {
+              "text": "骨の適合性が高く、肘頭が過伸展をブロックし、強い側副靭帯が横ぶれを制限するため",
+              "is_correct": true
+            }
+          ],
+          "reference_text_ids": ["elbow-forearm-basics", "shoulder-joint-basics"]
+        },
+        {
+          "question_text": "2歳の子供の手を急に引っ張ったところ、子供が肘を痛がって動かさなくなった。この「肘内障」の解剖学的メカニズムとして最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "肘内障（Nursemaid's Elbow）は、幼児に特有の橈骨頭の亜脱臼です。幼児の橈骨頭はまだ十分に発達しておらず（成人より小さい）、輪状靭帯が相対的に緩いため、手を引っ張る力で橈骨が遠位に引かれると、橈骨頭が輪状靭帯から部分的にすり抜けてしまいます。成人では橈骨頭が十分に大きく、輪状靭帯にしっかりはまっているため通常起こりません。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            {
+              "text": "上腕骨滑車が幼児では軟骨のままで柔らかいため、尺骨がすり抜けて脱臼する",
+              "is_correct": false
+            },
+            {
+              "text": "幼児は橈骨頭が未発達で小さく、輪状靭帯が相対的に緩いため橈骨頭が亜脱臼する",
+              "is_correct": true
+            },
+            {
+              "text": "幼児の内側側副靭帯がまだ形成されておらず、肘全体が外反して脱臼する",
+              "is_correct": false
+            },
+            {
+              "text": "幼児の肘頭がまだ軟骨のため過伸展のストッパーが効かず、肘が反対方向に脱臼する",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["elbow-forearm-basics"]
+        },
+        {
+          "question_text": "野球のピッチャーが投球動作を繰り返した結果、肘の内側側副靭帯（UCL）を損傷した。UCLが投球で特に負荷を受ける解剖学的理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "投球動作のコッキング期（腕を後方に引く段階）から加速期にかけて、肘には強い外反ストレス（肘が外に開く方向の力）がかかります。UCLはこの外反力に抵抗する主要な構造で、毎回の投球でUCLに大きな引張力が集中します。プロのピッチャーの投球速度では、UCLの限界に近い力がかかるとされます。繰り返しの負荷でUCLの線維が微小断裂を起こし、最終的に断裂に至ることがあります（トミー・ジョン手術で靭帯を再建）。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            {
+              "text": "投球時に肘が過度に屈曲し、UCLが骨と骨の間で挟まれて断裂するため",
+              "is_correct": false
+            },
+            {
+              "text": "投球時に前腕が高速で回内し、UCLが捻じれの力で損傷するため",
+              "is_correct": false
+            },
+            {
+              "text": "投球時に肘に強い外反ストレスがかかり、UCLに繰り返し大きな引張力が集中するため",
+              "is_correct": true
+            },
+            {
+              "text": "投球時にボールの重さで肘が過伸展し、UCLが引き伸ばされるため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["elbow-forearm-basics"]
         }
       ]
     }
