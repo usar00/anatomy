@@ -127,6 +127,11 @@
       "id": "hand-bones-basics",
       "title": "手の骨 — 27個の骨が生む器用さ",
       "content": "手（Hand）は27個の骨からなり、手根骨（Carpals）8個・中手骨（Metacarpals）5本・指骨（Phalanges）14本で構成される。手根骨は2列に並ぶ短骨の集合で、近位列は舟状骨（Scaphoid）・月状骨・三角骨・豆状骨、遠位列は大菱形骨・小菱形骨・有頭骨・有鉤骨。多数の小さな骨が靭帯で連結されることで、硬さ（物を握る力）と柔軟性（細かい動き）を両立する。中手骨は手の平の骨格で5本あり、指骨は母指が2本（近位・遠位）、他の4指は各3本（近位・中節・遠位）で計14本。舟状骨は手根骨の中で最も骨折しやすく、血流が遠位から近位に向かう「逆行性血行」のため、骨折時に近位部の血流が途絶え壊死（阻血性壊死）のリスクがある。初期X線で骨折線が見えにくいことから見逃されやすい。"
+    },
+    {
+      "id": "yoga-upper-limb-breathing",
+      "title": "上肢のヨガ — 手首の保護と胸郭呼吸",
+      "content": "ヨガでは多くのポーズ（ダウンドッグ、プランク、チャトランガ）で手首に体重がかかる。手関節の過伸展（背屈90度以上）は手根管（手根骨のアーチ内を通る正中神経と屈筋腱のトンネル）への圧迫を増大させる。手首への負担を軽減するため、①指を広げて手のひら全体で荷重を分散する、②手首の下にブランケットを敷いて角度を緩和する、③握りこぶし（fist）やフォアアームバランスで手首の角度をゼロにする代替法がある。上肢の荷重ポーズは肩甲骨の安定性（前鋸筋の活性化）も重要で、肩甲骨が背面で「翼状突出」するのは筋力不足のサインである。また、ヨガの呼吸法（プラーナヤーマ）は胸郭の肋骨と横隔膜を意識的に動かし、呼吸機能の改善に寄与する。ヨガの呼吸法がストレス・不安・抑うつの軽減に有効であることが報告されている（Brown & Gerbarg, 2005, J Altern Complement Med, doi:10.1089/acm.2005.11.189）。"
     }
   ],
   "sections": [
@@ -3905,6 +3910,287 @@
           "reference_text_ids": [
             "hand-bones-basics",
             "arm-forearm-basics"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "上肢とヨガ — 胸を開き手首を守る",
+      "slug": "upper-limb-and-yoga",
+      "description": "胸郭・肩帯・上肢の知識をヨガの荷重ポーズと呼吸に統合する",
+      "sort_order": 14,
+      "concepts": [
+        {
+          "name": "手首の保護とハスタバンダ",
+          "description": "手のひら全体で荷重を分散し手首への負担を軽減する。指を広げ手根骨のアーチを活用する"
+        },
+        {
+          "name": "肩甲骨の安定化",
+          "description": "プランクやダウンドッグで肩甲骨が翼状突出しないよう前鋸筋を活性化する"
+        },
+        {
+          "name": "呼吸とプラーナヤーマ",
+          "description": "胸郭の構造を理解し、肋骨の動きと横隔膜の連動を意識した呼吸を行う"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "ダウンドッグやプランクで手に体重をかけるとき、手首への負担を軽減する方法として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "手のひら全体で荷重を分散するのが手首保護の基本原則。指を広げ、指先と指の付け根（中手指節関節部）でもマットを押すことで、手首（手根骨）だけに荷重が集中するのを防ぐ。これは「ハスタバンダ（Hasta Bandha/手のロック）」と呼ばれるテクニック。手根骨は短骨の集合であり、適度な荷重は骨密度維持に有効だが、過度の手関節背屈（90度以上）は手根管を圧迫する。",
+          "source": "OpenStax Anatomy and Physiology 8.2 / Campo et al., 2018, J Bodywork Mov Ther, doi:10.1016/j.jbmt.2017.05.022",
+          "choices": [
+            {
+              "text": "指を広げて手のひら全体で押し、手首だけに荷重が集中しないようにする",
+              "is_correct": true
+            },
+            {
+              "text": "手首を完全に反らせて（背屈を最大に）ロックする",
+              "is_correct": false
+            },
+            {
+              "text": "指先だけでマットを押して手のひらを浮かせる",
+              "is_correct": false
+            },
+            {
+              "text": "手首への荷重ポーズは全て避けるべき",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "yoga-upper-limb-breathing",
+            "hand-bones-basics"
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "吸気のとき、肋骨は肋椎関節を軸にして上方に回転し、胸郭が拡大する。この動きが「バケツの取っ手」運動と呼ばれる。ヨガのプラーナヤーマ（呼吸法）では、この肋骨の動きを意識的にコントロールすることで、より深く効率的な呼吸を実現する。胸式呼吸では肋骨の拡張が主役となり、腹式呼吸では横隔膜の下降が主役となる。",
+          "source": "OpenStax Anatomy and Physiology 7.4, 23.3",
+          "metadata": {
+            "template": "吸気時に肋骨が上方に回転して胸郭が広がる動きを {{blank}} の取っ手運動という"
+          },
+          "choices": [
+            {
+              "text": "バケツ",
+              "is_correct": true
+            },
+            {
+              "text": "ドア",
+              "is_correct": false
+            },
+            {
+              "text": "てこ",
+              "is_correct": false
+            },
+            {
+              "text": "ポンプ",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "thoracic-cage-basics",
+            "yoga-upper-limb-breathing"
+          ]
+        },
+        {
+          "question_text": "プランクポーズで肩甲骨が背中から浮き上がる（翼状肩甲/Winging）のは何を示しているか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "翼状肩甲（Winging Scapula）は、肩甲骨の内側縁が肋骨面から浮き上がる状態。プランクやプッシュアップでこれが見られる場合、前鋸筋（Serratus Anterior）の弱さを示唆する。前鋸筋は肋骨の外側面から肩甲骨の内側縁に付着し、肩甲骨を胸壁に密着させる（プロトラクション）役割を果たす。前鋸筋が弱いと肩甲骨が安定せず、肩関節に不安定性が生じ、インピンジメント症候群のリスクが高まる。ヨガの指導では「肩甲骨をマットから離す（プラスポジション）」というキューが前鋸筋の活性化を促す。",
+          "source": "OpenStax Anatomy and Physiology 8.1, 11.4",
+          "choices": [
+            {
+              "text": "前鋸筋が弱く、肩甲骨を胸壁に密着させる力が不足している",
+              "is_correct": true
+            },
+            {
+              "text": "鎖骨が過度に挙上して肩甲骨を引き上げている",
+              "is_correct": false
+            },
+            {
+              "text": "肋骨が変形して肩甲骨を押し出している",
+              "is_correct": false
+            },
+            {
+              "text": "肩甲骨の骨自体が変形している先天的な異常",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "pectoral-girdle-basics",
+            "yoga-upper-limb-breathing"
+          ]
+        },
+        {
+          "question_text": "ヨガの呼吸法（プラーナヤーマ）で「胸式呼吸」と「腹式呼吸」を使い分けるのは、それぞれどの構造が主に動くからか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "胸式呼吸では、肋間筋の収縮により肋骨が上方・外方に回転し、胸郭が拡大する。主に胸郭（肋骨と肋軟骨）の動きが主役。腹式呼吸（横隔膜呼吸）では、横隔膜が収縮して下方に下がり、胸腔の容積が増加する。腹部が前方に膨らむ。ヨガでは両方を意識的に使い分け、「ウジャイ呼吸」では特に胸式の要素を強調し肋骨の動きを最大化する。解剖学的には、胸郭の肋軟骨の弾力性が胸式呼吸を可能にし、横隔膜の広大な面積（約250cm²）が腹式呼吸の効率を担う。",
+          "source": "OpenStax Anatomy and Physiology 7.4, 23.3 / Brown & Gerbarg, 2005, J Altern Complement Med, doi:10.1089/acm.2005.11.189",
+          "choices": [
+            {
+              "text": "胸式呼吸は肋骨の挙上が主役、腹式呼吸は横隔膜の下降が主役",
+              "is_correct": true
+            },
+            {
+              "text": "胸式呼吸は腹筋が主役、腹式呼吸は背筋が主役",
+              "is_correct": false
+            },
+            {
+              "text": "胸式呼吸は吸気専用、腹式呼吸は呼気専用の方法",
+              "is_correct": false
+            },
+            {
+              "text": "解剖学的にはどちらも同じ筋が動いており、意識の違いだけ",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "thoracic-cage-basics",
+            "yoga-upper-limb-breathing"
+          ]
+        },
+        {
+          "question_text": "上肢の荷重ポーズにおける骨格の知識と注意点を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "ダウンドッグでは体重が手と足に分散され、上腕骨・橈骨・尺骨（長骨）と手根骨（短骨）に荷重がかかる。チャトランガでは肘を90度に曲げた状態で体重を支えるため、肩関節と肘関節に大きな負荷がかかる。手首の背屈角度を90度未満に保つことで手根管への圧迫を減らす。プランクでは肩甲骨の安定が重要で、前鋸筋を活性化して翼状肩甲を防ぐ。",
+          "source": "OpenStax Anatomy and Physiology 8.1, 8.2",
+          "metadata": {
+            "pairs": [
+              {
+                "left": "ダウンドッグ",
+                "right": "長骨と短骨の両方に荷重。手首角度に注意"
+              },
+              {
+                "left": "チャトランガ",
+                "right": "肩関節・肘関節に大きな負荷。段階的に練習"
+              },
+              {
+                "left": "プランク",
+                "right": "前鋸筋で肩甲骨を安定。翼状肩甲を防ぐ"
+              },
+              {
+                "left": "手首の保護",
+                "right": "指を広げ手のひら全体で荷重を分散する"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "yoga-upper-limb-breathing",
+            "pectoral-girdle-basics",
+            "hand-bones-basics"
+          ]
+        },
+        {
+          "question_text": "ヨガの呼吸法がストレスや不安を軽減する生理学的メカニズムとして最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "ヨガの呼吸法（特にゆっくりとした呼吸）は、迷走神経（副交感神経の主要な経路）を活性化する。呼気を延長すると迷走神経反射が増強され、心拍数の低下、血圧の低下、コルチゾール分泌の抑制が起こる。Brown & Gerbarg（2005, J Altern Complement Med）は、ヨガの呼吸法が自律神経系のバランスを調節し、ストレス・不安・抑うつの軽減に有効であることを報告している。解剖学的には、胸郭の肋骨の動きと横隔膜の収縮弛緩を意識的にコントロールすることで、自律神経系への入力を調節するメカニズムである。",
+          "source": "Brown & Gerbarg, 2005, J Altern Complement Med, doi:10.1089/acm.2005.11.189 / OpenStax Anatomy and Physiology 15.1",
+          "choices": [
+            {
+              "text": "ゆっくりとした呼吸が迷走神経（副交感神経）を活性化し、心拍数・血圧・コルチゾールを低下させる",
+              "is_correct": true
+            },
+            {
+              "text": "深い呼吸で肺が膨らむとエンドルフィンが分泌されて幸福感が増す",
+              "is_correct": false
+            },
+            {
+              "text": "呼吸法で酸素が大量に脳に送られ、神経細胞が活性化される",
+              "is_correct": false
+            },
+            {
+              "text": "呼吸のリズムが脳波をシータ波に変え、自然に眠くなる",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "yoga-upper-limb-breathing",
+            "yoga-interoception-stress"
+          ]
+        },
+        {
+          "question_text": "手首に痛みがある生徒がダウンドッグを行いたいと言っている。上肢の解剖学に基づいた安全な代替指導として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "手首の痛みの多くは手関節の過伸展（背屈）と手根骨への集中荷重が原因。安全な代替策は、①握りこぶしでダウンドッグ（手首の角度をニュートラルに保つ）、②前腕全体をマットにつけるドルフィンポーズ（手首への荷重ゼロ）、③ウェッジ（くさび型プロップ）で手首の角度を緩和する。痛みを無視して通常のダウンドッグを続けるのは禁忌。手根管症候群（正中神経圧迫）がある場合は特に注意が必要。指導者は手首だけでなく、肩甲骨の安定性も同時に確認し、上肢全体の連鎖で考えることが重要である。",
+          "source": "OpenStax Anatomy and Physiology 8.2 / Campo et al., 2018, J Bodywork Mov Ther, doi:10.1016/j.jbmt.2017.05.022",
+          "choices": [
+            {
+              "text": "握りこぶしやドルフィンポーズで手首の角度をニュートラルに保ち、手根骨への過度な荷重を避ける",
+              "is_correct": true
+            },
+            {
+              "text": "手首を鍛えるためにあえて荷重を増やし、プランクの長時間保持を行う",
+              "is_correct": false
+            },
+            {
+              "text": "手首の痛みは筋力不足の証拠なので、チャトランガの反復で強化する",
+              "is_correct": false
+            },
+            {
+              "text": "手首が痛いなら上肢の荷重ポーズは全て完全に避け、立位と座位のみ行う",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "yoga-upper-limb-breathing",
+            "hand-bones-basics",
+            "arm-forearm-basics"
+          ]
+        },
+        {
+          "question_text": "ヨガの指導者が「胸を開いて呼吸しましょう」と声かけする。この指示は胸郭と肩帯のどのような動きを促しているか？解剖学的に最も包括的な説明はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "「胸を開く」という指導は、複数の解剖学的動きを促す。①胸椎の軽い伸展：前かがみの姿勢を正し、胸郭の前後径を拡大。②肩甲骨の内転（retraction）：巻き肩を正し、大胸筋を伸張。③肋骨の挙上：肋間筋の活性化により胸郭を拡大。④鎖骨の挙上と外転：肩甲骨の動きに連動して鎖骨下のスペースが広がる。これにより胸腔の容積が最大化され、深い呼吸が可能になる。同時に、肩甲骨周囲の姿勢筋（僧帽筋中部・菱形筋）が活性化され、デスクワークで弱化した姿勢の改善にもつながる。一つの声かけが骨格系・呼吸器系・姿勢を統合的に改善する例である。",
+          "source": "OpenStax Anatomy and Physiology 7.3, 7.4, 8.1 / Brown & Gerbarg, 2005, J Altern Complement Med, doi:10.1089/acm.2005.11.189",
+          "choices": [
+            {
+              "text": "胸椎伸展・肩甲骨内転・肋骨挙上・鎖骨の動きが連動して胸腔が拡大し、深い呼吸と姿勢改善が統合的に起こる",
+              "is_correct": true
+            },
+            {
+              "text": "胸骨が前方に突出して胸郭の形が変わるだけの単純な動き",
+              "is_correct": false
+            },
+            {
+              "text": "肋軟骨を引き伸ばして胸郭全体を柔らかくするストレッチ効果",
+              "is_correct": false
+            },
+            {
+              "text": "大胸筋を収縮させて胸板を厚くする筋力トレーニング的な動き",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "thoracic-cage-basics",
+            "pectoral-girdle-basics",
+            "spinal-curves-basics",
+            "yoga-upper-limb-breathing"
           ]
         }
       ]
