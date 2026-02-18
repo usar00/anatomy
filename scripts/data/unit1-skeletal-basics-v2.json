@@ -1,0 +1,298 @@
+{
+  "unit": {
+    "name": "骨格系の基礎",
+    "slug": "skeletal-basics-v2",
+    "description": "骨は生きている — 形にも構造にも理由がある",
+    "sort_order": 0
+  },
+  "category": "骨格系",
+  "category_slug": "skeletal",
+  "reference_texts": [
+    {
+      "id": "long-bone-basics",
+      "title": "長骨の構造と機能",
+      "content": "長骨（Long Bone）は、長さが幅より大きい骨で、主に四肢に存在する。大腿骨・上腕骨・脛骨・腓骨・橈骨・尺骨・指骨などが含まれる。長骨は細長い骨幹（diaphysis）と両端の骨端（epiphysis）から構成され、骨幹内部には骨髄腔がある。長骨はてこの原理で筋の力を増幅し、効率的な運動を可能にする。"
+    },
+    {
+      "id": "short-bone-basics",
+      "title": "短骨の構造と機能",
+      "content": "短骨（Short Bone）は、幅と長さと厚さがほぼ等しい立方体に近い骨で、手根骨（8個）と足根骨（7個）が代表例である。表面は薄い緻密骨で覆われ、内部は海綿骨で満たされる。長骨のような骨髄腔は持たない。多数の短骨が靭帯で連結されることで、安定性を保ちつつ多方向への動きを可能にしている。また衝撃を分散・吸収する機能もある。"
+    }
+  ],
+  "sections": [
+    {
+      "name": "長骨と短骨",
+      "slug": "long-short-bones",
+      "description": "長い骨はてこの原理、短い骨は安定と衝撃吸収 — 形が機能を決める",
+      "sort_order": 0,
+      "concepts": [
+        {
+          "name": "長骨",
+          "description": "長さが幅より大きい骨。骨幹と骨端から構成され、四肢に多く存在する（大腿骨、上腕骨など）"
+        },
+        {
+          "name": "短骨",
+          "description": "幅と長さがほぼ等しい立方体に近い骨。手根骨や足根骨が代表例"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "大腿骨（太ももの骨）はどの骨の分類に属するか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "大腿骨は人体で最も長い骨（成人で約43cm）であり、長さが幅より大きいため「長骨」に分類される。長骨は主に四肢に存在し、細長い骨幹（diaphysis）と両端の骨端（epiphysis）から構成される。大腿骨のほか、上腕骨・脛骨・腓骨・橈骨・尺骨・指骨なども長骨である。",
+          "source": "Gray's Anatomy / OpenStax Anatomy and Physiology 6.1",
+          "images": [
+            {
+              "url": "/images/anatomy/bone-classification-types.png",
+              "role": "explanation",
+              "alt_text": "骨の5つの分類を示す図。Long Bone（長骨）の代表例として大腿骨が描かれている"
+            }
+          ],
+          "choices": [
+            {
+              "text": "長骨",
+              "is_correct": true
+            },
+            {
+              "text": "短骨",
+              "is_correct": false
+            },
+            {
+              "text": "扁平骨",
+              "is_correct": false
+            },
+            {
+              "text": "不規則骨",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "long-bone-basics"
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "手根骨は手首にある8つの小さな骨で、幅と長さと厚さがほぼ等しい立方体に近い形状を持つため「短骨」に分類される。短骨は手首（手根骨8個）と足首（足根骨7個）に存在し、多数の小さな骨が集まることで安定性と多方向への動きを両立している。",
+          "source": "Gray's Anatomy / OpenStax Anatomy and Physiology 6.1",
+          "metadata": {
+            "template": "手根骨（手首の骨）は {{blank}} に分類される"
+          },
+          "choices": [
+            {
+              "text": "短骨",
+              "is_correct": true
+            },
+            {
+              "text": "長骨",
+              "is_correct": false
+            },
+            {
+              "text": "扁平骨",
+              "is_correct": false
+            },
+            {
+              "text": "種子骨",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "short-bone-basics"
+          ]
+        },
+        {
+          "question_text": "長骨が主に腕や脚に存在するのはなぜか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "長骨はてこの原理で機能する。筋が長い骨の一端近くに付着して収縮すると、骨が関節を支点として動き、反対側の端（手や足）が大きく動く。この仕組みにより、筋の小さな収縮が手足の大きな動きに変換される。だから、大きな動きが必要な四肢に長骨が集中している。",
+          "source": "OpenStax Anatomy and Physiology 6.1",
+          "choices": [
+            {
+              "text": "てこの原理で筋の力を大きな動きに変えるため",
+              "is_correct": true
+            },
+            {
+              "text": "四肢は衝撃を吸収する必要があるため",
+              "is_correct": false
+            },
+            {
+              "text": "四肢の骨は内臓を保護する必要がないため",
+              "is_correct": false
+            },
+            {
+              "text": "長骨は他の骨より軽いため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "long-bone-basics"
+          ]
+        },
+        {
+          "question_text": "もし手首が1本の長い骨でできていたら、どうなると考えられるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "実際の手首は8個の短骨（手根骨）が靭帯で連結されており、骨同士が少しずつ動くことで屈曲・伸展・橈屈・尺屈など多方向への滑らかな動きが可能になっている。もし1本の長い骨だったら、関節が1つ減り、手首を曲げたり捻ったりする自由度が大幅に失われる。短骨が複数集まる構造には「安定性を保ちつつ多方向に動ける」という意味がある。",
+          "source": "OpenStax Anatomy and Physiology 6.1",
+          "choices": [
+            {
+              "text": "手首を多方向に動かせなくなる",
+              "is_correct": true
+            },
+            {
+              "text": "手首が折れやすくなる",
+              "is_correct": false
+            },
+            {
+              "text": "手首の衝撃吸収力が高まる",
+              "is_correct": false
+            },
+            {
+              "text": "手全体が軽くなる",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "short-bone-basics"
+          ]
+        },
+        {
+          "question_text": "骨の特徴と、その特徴を持つ理由を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "長骨が細長いのは、てこの原理で筋の力を増幅し大きな動きを生むため。長骨の内部が中空（骨髄腔）なのは、強度を保ちつつ軽くするため — 中実の棒より中空のパイプの方が同じ重さで強い。短骨が小さく複数あるのは、衝撃を分散しつつ多方向への動きを可能にするため。短骨の内部が海綿骨で満たされているのは、着地時などの衝撃を吸収するクッションの役割を果たすため。",
+          "source": "OpenStax Anatomy and Physiology 6.1",
+          "metadata": {
+            "pairs": [
+              {
+                "left": "長骨が細長い",
+                "right": "てこの原理で大きな動きを生む"
+              },
+              {
+                "left": "長骨の内部が中空",
+                "right": "強度を保ちつつ軽くする"
+              },
+              {
+                "left": "短骨が小さく複数ある",
+                "right": "衝撃分散と多方向の動き"
+              },
+              {
+                "left": "短骨の内部が海綿骨",
+                "right": "衝撃を吸収するクッション"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "long-bone-basics",
+            "short-bone-basics"
+          ]
+        },
+        {
+          "question_text": "指の骨（指骨）は小さいが「長骨」に分類される。その理由として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "骨の分類は「大きさ」ではなく「形の比率」で決まる。指骨は小さいが、長さが幅より明らかに大きく、骨幹（diaphysis）と骨端（epiphysis）という長骨の構造を持っている。一方、短骨（手根骨など）は幅・長さ・厚さがほぼ等しい。大きさが似ていても、形の比率と構造が異なれば分類も異なる。",
+          "source": "Gray's Anatomy / OpenStax Anatomy and Physiology 6.1",
+          "choices": [
+            {
+              "text": "小さくても長さが幅より大きく、骨幹と骨端の構造を持つから",
+              "is_correct": true
+            },
+            {
+              "text": "指は手根骨より硬いから",
+              "is_correct": false
+            },
+            {
+              "text": "指の骨には骨髄がないから",
+              "is_correct": false
+            },
+            {
+              "text": "指は四肢の先端にあるから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "long-bone-basics"
+          ]
+        },
+        {
+          "question_text": "野球のバットを振るとき、上腕骨（二の腕の骨）が長骨であることはどのように役立っているか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "バットを振る動作では、肩の関節を支点として上腕骨がてことして働く。筋（三角筋や大胸筋など）が上腕骨の付け根付近を引くと、腕の先端（手）が大きな弧を描いて高速で動く。上腕骨が長骨であるおかげで、筋の小さな収縮が手先の大きく速い動きに変換される。これがてこの原理であり、長骨が四肢に存在する機能的な意味である。",
+          "source": "OpenStax Anatomy and Physiology 6.1",
+          "choices": [
+            {
+              "text": "てことして働き、筋の力を手先の速い動きに変換する",
+              "is_correct": true
+            },
+            {
+              "text": "上腕骨が衝撃を吸収してバットの振動を和らげる",
+              "is_correct": false
+            },
+            {
+              "text": "上腕骨の海綿骨がバネの役割を果たして加速する",
+              "is_correct": false
+            },
+            {
+              "text": "上腕骨が軽いので腕を速く振ることができる",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "long-bone-basics"
+          ]
+        },
+        {
+          "question_text": "高齢者が手をついて転倒したとき、手首の骨折が多い。手根骨（短骨）ではなく橈骨（長骨）の端が折れやすい理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "転倒時に手をつくと、地面からの衝撃は手根骨（短骨）を通じて橈骨の遠位端に伝わる。手根骨は複数の小さな骨が衝撃を分散する構造になっている一方、橈骨の遠位端（手首側の端）は海綿骨が多く緻密骨が薄い部分で、加齢による骨密度低下の影響を受けやすい。そのため、衝撃が集中する橈骨遠位端が骨折しやすい（コレス骨折）。短骨の「衝撃分散」と長骨の「力の伝達」という性質の違いが、骨折パターンに表れている。",
+          "source": "Gray's Anatomy / OpenStax Anatomy and Physiology 6.1",
+          "choices": [
+            {
+              "text": "短骨が衝撃を分散した後、力が集中する橈骨遠位端は骨密度低下の影響を受けやすいから",
+              "is_correct": true
+            },
+            {
+              "text": "手根骨は長骨より硬い素材でできているから",
+              "is_correct": false
+            },
+            {
+              "text": "橈骨は手根骨より小さく弱いから",
+              "is_correct": false
+            },
+            {
+              "text": "転倒時は手根骨に力がかからないから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "long-bone-basics",
+            "short-bone-basics"
+          ]
+        }
+      ]
+    }
+  ]
+}
