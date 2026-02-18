@@ -52,6 +52,11 @@
       "id": "elbow-forearm-basics",
       "title": "肘関節と前腕の回転の構造",
       "content": "肘関節は1つの関節包の中に3つの関節が含まれる複合関節である。①腕尺関節（Humeroulnar Joint）：上腕骨の滑車と尺骨の滑車切痕が噛み合う蝶番関節。肘の屈曲・伸展を行う主要関節。尺骨の肘頭（Olecranon）が上腕骨の肘頭窩にはまり込むことで過伸展を防ぐ。②腕橈関節（Humeroradial Joint）：上腕骨の小頭と橈骨頭が接する関節。③近位橈尺関節（Proximal Radioulnar Joint）：橈骨頭が輪状靭帯のリング内で回転する車軸関節。前腕の回内（手のひらを下に向ける）・回外（手のひらを上に向ける）を行う。安定化構造：①内側側副靭帯（UCL/MCL）：上腕骨内側上顆から尺骨に至る靭帯で、外反ストレス（肘が外に開く力）に抵抗する。投球動作で強いストレスがかかる。②外側側副靭帯（LCL）：上腕骨外側上顆から尺骨に至る靭帯で、内反ストレスに抵抗する。③輪状靭帯（Annular Ligament）：橈骨頭を取り囲むリング状の靭帯で、回内・回外の軸を安定化する。肘関節は肩関節に比べて安定性が高い。理由は①骨の適合性が高い（滑車と滑車切痕の噛み合い）、②肘頭が過伸展を物理的にブロック、③強い側副靭帯。テニス肘（外側上顆炎）：前腕伸筋群（手首を反らす筋群）の起始部（上腕骨外側上顆）に繰り返しのストレスで微小断裂・炎症が起こる。バックハンドの繰り返しやキーボード操作が原因。ゴルフ肘（内側上顆炎）：前腕屈筋群の起始部（内側上顆）の同様の障害。肘内障（Nursemaid's Elbow）：幼児に多い。手を引っ張られた際に橈骨頭が輪状靭帯から亜脱臼する。幼児は橈骨頭がまだ十分に発達しておらず、輪状靭帯が相対的に緩いため起こりやすい。"
+    },
+    {
+      "id": "yoga-upper-limb-joints",
+      "title": "上肢の関節とヨガ — 荷重をかける上肢の解剖学",
+      "content": "ヨガでは上肢に体重をかけるポーズが多く、肩・肘・手首の関節に大きな負荷がかかる。①ダウンドッグ（下向きの犬のポーズ/Adho Mukha Svanasana）：手と足で体重を支え、体をV字にする。肩関節は屈曲位（腕を頭上に上げた状態）で体重の約40-50%を支える。橈骨手根関節（手首）には強い背屈ストレスがかかる。手首の背屈角度は通常70-80度まで可能だが、ダウンドッグではほぼ90度近い背屈が求められることがある。②チャトランガ・ダンダーサナ（四肢で支える杖のポーズ）：プランクから肘を曲げて体を低くする動作で、肩関節と肘関節に大きな負荷がかかる。肘を体に近づけた状態で屈曲すると、回旋筋腱板（特に棘上筋・肩甲下筋）が上腕骨頭を安定させる必要がある。不適切なアライメント（肘が外に開く、肩が前に出る）はインピンジメントリスクを高める。③プランクポーズ：手首に体重の約60-65%がかかり、手根骨と橈骨手根関節に持続的な圧迫力が加わる。手首に問題がある場合は前腕で支える修正（フォアアームプランク）が安全。手首の荷重と手根管症候群：手根管は手首の手のひら側にあるトンネルで、正中神経と屈筋腱が通る。繰り返しの手首背屈＋荷重は手根管内圧を上昇させ、既存の手根管症候群を悪化させる可能性がある。肩関節の外旋の重要性：ダウンドッグやプランクで肩を外旋させると、上腕骨の大結節が肩峰から離れ、棘上筋腱が圧迫されるスペースが広がる。これにより肩のインピンジメントリスクが低減する。「肘の内側を前に向ける」というキューはこの外旋を促すためのものである。"
     }
   ],
   "sections": [
@@ -2117,6 +2122,224 @@
             }
           ],
           "reference_text_ids": ["elbow-forearm-basics"]
+        }
+      ]
+    },
+    {
+      "name": "上肢の関節とヨガ",
+      "slug": "upper-limb-joints-yoga",
+      "description": "手をつくポーズの解剖学 — 肩・肘・手首を守る知識",
+      "sort_order": 9,
+      "concepts": [
+        {
+          "name": "荷重をかける上肢",
+          "description": "ダウンドッグ・プランク・チャトランガで肩・肘・手首にかかる負荷と安全な指導"
+        },
+        {
+          "name": "手首と肩の保護",
+          "description": "手根管症候群リスクの理解、肩の外旋によるインピンジメント予防"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "ダウンドッグ（下向きの犬のポーズ）で体重を支える手首の関節（橈骨手根関節）は、どのタイプの関節か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "橈骨手根関節は楕円関節で、屈曲・伸展（手首の曲げ伸ばし）と橈屈・尺屈（手首を左右に傾ける）の2軸の動きが可能です。ダウンドッグでは手首が強く背屈（伸展）された状態で体重がかかるため、この関節への負荷を理解することが安全な指導に重要です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "choices": [
+            {
+              "text": "球関節 — 多方向に動くため",
+              "is_correct": false
+            },
+            {
+              "text": "蝶番関節 — 屈伸のみのため",
+              "is_correct": false
+            },
+            {
+              "text": "車軸関節 — 手首が回転するため",
+              "is_correct": false
+            },
+            {
+              "text": "楕円関節 — 2軸の動きが可能なため",
+              "is_correct": true
+            }
+          ],
+          "reference_text_ids": ["yoga-upper-limb-joints", "other-synovial-types-basics"]
+        },
+        {
+          "question_text": "チャトランガ・ダンダーサナで肘を曲げて体を低くする際、肩関節を安定させるために（　①　）筋腱板が重要な役割を果たす。特に上腕骨頭を関節窩に押し付ける（　②　）と（　③　）が働く。",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "チャトランガでは肩関節に大きな荷重がかかり、回旋筋腱板（Rotator Cuff）が上腕骨頭を浅い関節窩に安定させます。特に棘上筋（上からの圧迫）と肩甲下筋（前方からの安定化）が重要な役割を果たします。この動的安定化がなければ、浅い関節窩から上腕骨頭が逸脱するリスクがあります。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            { "text": "回旋", "is_correct": true },
+            { "text": "棘上筋", "is_correct": true },
+            { "text": "肩甲下筋", "is_correct": true },
+            { "text": "僧帽", "is_correct": false },
+            { "text": "三角筋", "is_correct": false },
+            { "text": "広背筋", "is_correct": false }
+          ],
+          "metadata": {
+            "word_bank": ["棘上筋", "僧帽", "回旋", "広背筋", "肩甲下筋", "三角筋"]
+          },
+          "reference_text_ids": ["yoga-upper-limb-joints", "shoulder-joint-basics"]
+        },
+        {
+          "question_text": "プランクポーズを長時間保持すると手首に痛みが出る生徒がいる。この痛みの解剖学的原因として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "プランクでは手首が約90度近く背屈した状態で体重の60-65%がかかります。この持続的な背屈＋荷重は橈骨手根関節に圧迫力を集中させ、手根管内圧を上昇させる可能性があります。手根管は手のひら側のトンネルで、正中神経が通っています。圧力上昇は正中神経を圧迫し、手首や指のしびれ・痛みを引き起こします。フォアアームプランク（前腕で支える修正）で手首への荷重を回避できます。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4-9.5",
+          "choices": [
+            {
+              "text": "手首の強い背屈＋体重による圧迫が橈骨手根関節と手根管に集中的な負荷をかけるため",
+              "is_correct": true
+            },
+            {
+              "text": "プランクでは手首の車軸関節が過度に回旋し、輪状靭帯が引き伸ばされるため",
+              "is_correct": false
+            },
+            {
+              "text": "手首の球関節が多方向に同時に負荷を受け、関節唇が損傷するため",
+              "is_correct": false
+            },
+            {
+              "text": "手のひらの皮膚に体重がかかることで表皮の神経終末が刺激され痛みが出るため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["yoga-upper-limb-joints", "other-synovial-types-basics"]
+        },
+        {
+          "question_text": "ダウンドッグやプランクで「肘の内側を前に向けて」とキューイングする指導法がある。この指示が肩関節の保護に役立つ解剖学的理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "「肘の内側を前に向ける」という指示は、上腕の外旋（外側への回転）を促します。肩関節を外旋すると、上腕骨の大結節が肩峰の前方から移動して肩峰との間にスペースができます。このスペースが広がることで、棘上筋の腱が肩峰と上腕骨頭の間で圧迫される（インピンジメント）リスクが低減します。これは肩のインピンジメント症候群の予防に直結する重要な知識です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            {
+              "text": "肘を過伸展させて肘頭ロックを作り、肘関節の安定性を最大にするため",
+              "is_correct": false
+            },
+            {
+              "text": "前腕を回外させて輪状靭帯のテンションを高め、手首を安定させるため",
+              "is_correct": false
+            },
+            {
+              "text": "上腕を外旋させ、肩峰下のスペースを広げて棘上筋腱のインピンジメントを予防するため",
+              "is_correct": true
+            },
+            {
+              "text": "内側側副靭帯（UCL）の負担を軽減し、テニス肘を予防するため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["yoga-upper-limb-joints", "shoulder-joint-basics"]
+        },
+        {
+          "question_text": "以下のヨガポーズと、そのポーズで主に負荷がかかる関節・構造を正しく組み合わせなさい。",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "①ダウンドッグでは手首が強く背屈され、橈骨手根関節に体重がかかります。②チャトランガでは肘を曲げた状態で体を支えるため、肩の回旋筋腱板に大きな安定化要求があります。③プランクでは手首に体重の60-65%が持続的にかかり、手根管への圧迫が生じます。④アップドッグ（上向きの犬のポーズ）では胸を開いて肩を後方に引くため、肩関節が伸展位で負荷を受けます。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4-9.5",
+          "metadata": {
+            "matching_pairs": [
+              { "left": "ダウンドッグ", "right": "橈骨手根関節の背屈" },
+              { "left": "チャトランガ", "right": "回旋筋腱板の安定化要求" },
+              { "left": "プランク", "right": "手根管への持続的圧迫" },
+              { "left": "アップドッグ", "right": "肩関節の伸展位の負荷" }
+            ]
+          },
+          "choices": [],
+          "reference_text_ids": ["yoga-upper-limb-joints", "shoulder-joint-basics"]
+        },
+        {
+          "question_text": "ヨガの「テーブルトップポーズ」（四つ這い）で、手のひらを内側に向けるか外側に向けるかで、前腕の近位橈尺関節の状態が変わる。手のひらを床につけた通常の四つ這いで、前腕はどの状態か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "手のひらを下（床）に向けた状態は前腕の「回内（Pronation）」です。近位橈尺関節（車軸関節）で橈骨が尺骨の上を交差するように回転しています。手のひらを上に向けた状態が「回外（Supination）」で、橈骨と尺骨が平行になります。ヨガで手をつくポーズの多くでは前腕は回内位であり、手首の解剖学的な軸がわずかにずれた状態で荷重がかかっていることを理解することが重要です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            {
+              "text": "回外（手のひらが上を向く状態）",
+              "is_correct": false
+            },
+            {
+              "text": "回内（橈骨が尺骨の上を交差した状態）",
+              "is_correct": true
+            },
+            {
+              "text": "中間位（橈骨と尺骨が完全に平行な状態）",
+              "is_correct": false
+            },
+            {
+              "text": "過回外（通常の可動域を超えて外旋した状態）",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["yoga-upper-limb-joints", "elbow-forearm-basics"]
+        },
+        {
+          "question_text": "ヨガ指導者がチャトランガを指導する際、「肘を体の横に沿わせて、脇を締めて」と伝える。この指示が肩関節の安全に重要な理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "チャトランガで肘が外に開く（肩関節が外転する）と、上腕骨の大結節が肩峰に近づき、棘上筋腱が圧迫されるインピンジメントリスクが高まります。さらに肘が開いた状態で体を下げると、肩関節の前方構造（関節包の前方、関節上腕靭帯）に過度のストレスがかかり、前方脱臼のリスクも高まります。肘を体に沿わせる（肩の外転を最小限にする）と、肩峰下のスペースが確保され、関節包への前方ストレスも軽減されます。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            {
+              "text": "肘を締めると肘関節の内側側副靭帯（UCL）が弛緩し、肘への負荷がゼロになるため",
+              "is_correct": false
+            },
+            {
+              "text": "肘を締めると手首の背屈角度が自動的に減少し、手根管への圧迫が軽減されるため",
+              "is_correct": false
+            },
+            {
+              "text": "肘を締めると三角筋の負荷が最大になり、回旋筋腱板が休息できるため",
+              "is_correct": false
+            },
+            {
+              "text": "肩の外転を最小限にすることで肩峰下インピンジメントと前方への関節包ストレスを軽減するため",
+              "is_correct": true
+            }
+          ],
+          "reference_text_ids": ["yoga-upper-limb-joints", "shoulder-joint-basics"]
+        },
+        {
+          "question_text": "手首に慢性的な痛みがある生徒がヨガクラスに参加している。ダウンドッグやプランクで手首が辛いと訴えた場合、関節の解剖学に基づく最も適切な指導はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "手首に慢性的な痛みがある場合、橈骨手根関節や手根管に既存の問題がある可能性があります。ダウンドッグやプランクでは手首に強い背屈＋荷重がかかるため、症状を悪化させるリスクがあります。最も適切な対応は：①フォアアームプランク/フォアアームダウンドッグ（前腕で支える修正）で手首への荷重を完全に回避、②フィスト（拳をつく）で手首を中間位にする修正。「痛みを我慢する」「手首を鍛える」アプローチは症状を悪化させる可能性が高く、医療的な評価を勧めることも重要です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4-9.5",
+          "choices": [
+            {
+              "text": "前腕で支えるフォアアームバージョンに修正し、手首への背屈＋荷重を回避する。改善しなければ医療的評価を勧める",
+              "is_correct": true
+            },
+            {
+              "text": "手首のストレッチを十分に行ってからポーズを行えば問題ないので、ウォーミングアップを徹底する",
+              "is_correct": false
+            },
+            {
+              "text": "手首の関節軟骨を鍛えるために、痛みがあってもプランクの時間を徐々に延ばして耐久性をつける",
+              "is_correct": false
+            },
+            {
+              "text": "手首サポーターを装着すれば荷重が均等に分散されるので、通常通りのポーズで問題ない",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["yoga-upper-limb-joints"]
         }
       ]
     }
