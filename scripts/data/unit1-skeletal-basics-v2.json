@@ -71,7 +71,17 @@
     {
       "id": "yoga-interoception-stress",
       "title": "内受容感覚とストレス応答 — ヨガの心理生理学的効果",
-      "content": "ヨガの練習は内受容感覚（Interoception：自分の身体の内部状態を感じる能力）を高める（Mehling et al., 2012, PLOS ONE）。骨や関節への圧力を意識的に感じることは、身体感覚への気づき（Body Awareness）を深める。また、慢性的なストレスはコルチゾールの持続的上昇を引き起こし、骨芽細胞の活性を抑制して骨吸収を促進する（Hardy & Cooper, 2009, Journal of Endocrinology）。ヨガの呼吸法や瞑想はストレス応答を調節し、コルチゾールを低下させることで間接的に骨の健康にも寄与する（Riley & Park, 2015, Journal of Behavioral Medicine）。"
+      "content": "ヨガの練習は内受容感覚（Interoception：自分の身体の内部状態を感じる能力）を高める（Mehling et al., 2012, PLOS ONE, doi:10.1371/journal.pone.0048230）。骨や関節への圧力を意識的に感じることは、身体感覚への気づき（Body Awareness）を深める。また、慢性的なストレスはコルチゾールの持続的上昇を引き起こし、骨芽細胞の活性を抑制して骨吸収を促進する（Hardy & Cooper, 2009, J Endocrinol, doi:10.1677/JOE-08-0568）。ヨガの呼吸法や瞑想はストレス応答を調節し、コルチゾールを低下させることで間接的に骨の健康にも寄与する（Riley & Park, 2015, Health Psychology Review, doi:10.1080/17437199.2014.981778）。"
+    },
+    {
+      "id": "fracture-healing-basics",
+      "title": "骨折治癒の4段階",
+      "content": "骨折の治癒は4つの段階を経る。①血腫形成期（Hematoma Formation）：骨折により骨内部と骨膜の血管が断裂し、骨折部に血腫（血の塊）が形成される。この血腫が治癒の足場となる。②線維軟骨性仮骨期（Fibrocartilaginous Callus）：数日〜2週間で、線維芽細胞とコラーゲン線維が血腫に侵入し、軟骨細胞が線維軟骨を形成する。骨折部を橋渡しする柔らかい仮骨（soft callus）ができる。③骨性仮骨期（Bony Callus）：骨芽細胞が線維軟骨を海綿骨に置換する。硬い仮骨（hard callus）が形成され、骨折部が安定する。6〜8週間かかる。④骨リモデリング期（Bone Remodeling）：破骨細胞が余分な仮骨を除去し、骨芽細胞が緻密骨で置換する。元の形状に近づく。数ヶ月〜数年かかる。骨膜の骨芽細胞が治癒の中心的役割を果たす。"
+    },
+    {
+      "id": "osteoporosis-basics",
+      "title": "骨粗鬆症 — 骨リモデリングの不均衡",
+      "content": "骨粗鬆症（Osteoporosis）は、骨吸収が骨形成を上回り続けた結果、骨密度が低下し骨折リスクが著しく高まる疾患。海綿骨の骨梁が薄く少なくなり、緻密骨も薄くなる。主なリスク因子は、①閉経（エストロゲン減少により破骨細胞の活性が増加）、②加齢（骨芽細胞の活性低下）、③運動不足（荷重刺激の欠如）、④カルシウム・ビタミンD不足、⑤喫煙・過度の飲酒、⑥長期コルチコステロイド使用。好発骨折部位は、大腿骨頸部（股関節）、椎体（圧迫骨折）、橈骨遠位端（Colles骨折/コーレス骨折）。特に大腿骨頸部骨折は高齢者の寝たきり・死亡リスクを大幅に上昇させる。予防は荷重運動、十分なカルシウム・ビタミンD摂取、禁煙が重要。"
     }
   ],
   "sections": [
@@ -1448,7 +1458,7 @@
           "question_type": "text_only",
           "difficulty": "easy",
           "explanation": "ヴルクシャーサナでは全体重が片脚に集中し、大腿骨・脛骨・足の骨に大きな荷重がかかる。ウォルフの法則により、繰り返し荷重を受けた骨は骨形成が促進され、骨密度が維持・増加する。ヨガの立位ポーズは荷重運動として機能し、骨粗鬆症の予防に有効であることが研究で示されている（Lu et al., 2016, Topics in Geriatric Rehabilitation）。",
-          "source": "OpenStax Anatomy and Physiology 6.6 / Lu et al., 2016",
+          "source": "OpenStax Anatomy and Physiology 6.6 / Lu et al., 2016, Topics in Geriatric Rehabilitation, doi:10.1097/TGR.0000000000000085",
           "choices": [
             {
               "text": "荷重によるストレスが骨形成を促進し、骨密度の維持・増加につながる",
@@ -1539,7 +1549,7 @@
           "question_type": "text_only",
           "difficulty": "medium",
           "explanation": "慢性ストレスは副腎皮質からコルチゾール（ストレスホルモン）の持続的な分泌を引き起こす。コルチゾールは骨芽細胞の活性を抑制し、破骨細胞の骨吸収を促進する。つまり「骨を作る力が弱まり、壊す力が強まる」状態になり、骨リモデリングのバランスが崩れて骨密度が低下する（Hardy & Cooper, 2009, Journal of Endocrinology）。ヨガの呼吸法や瞑想がコルチゾールを低下させることは、骨の健康にも間接的に寄与する。",
-          "source": "Hardy & Cooper, 2009, Journal of Endocrinology / OpenStax Anatomy and Physiology 6.6",
+          "source": "Hardy & Cooper, 2009, J Endocrinol, doi:10.1677/JOE-08-0568 / OpenStax Anatomy and Physiology 6.6",
           "choices": [
             {
               "text": "コルチゾールの持続的上昇が骨芽細胞を抑制し、骨吸収を促進するから",
@@ -1569,7 +1579,7 @@
           "question_type": "text_only",
           "difficulty": "medium",
           "explanation": "立位・支持ポーズは荷重運動として骨に力学的ストレスを与え、ウォルフの法則により骨形成を促進する。適切なアライメントは骨の配列に沿った荷重を実現し、関節への過度なストレスを防ぐ。呼吸法・瞑想はコルチゾールを低下させ、骨吸収の促進を抑制する。ポーズ中に骨への圧力を感じることは内受容感覚を高め、身体への気づきを深める。",
-          "source": "OpenStax Anatomy and Physiology / Riley & Park, 2015 / Mehling et al., 2012",
+          "source": "OpenStax Anatomy and Physiology / Riley & Park, 2015, Health Psychol Rev, doi:10.1080/17437199.2014.981778 / Mehling et al., 2012, PLOS ONE, doi:10.1371/journal.pone.0048230",
           "metadata": {
             "pairs": [
               {
@@ -1612,7 +1622,7 @@
           "question_type": "text_only",
           "difficulty": "medium",
           "explanation": "ダウンドッグでは、腕を通じて上腕骨・橈骨・尺骨（長骨）に荷重がかかり、同時に手根骨（短骨）にも体重の一部が分散される。脚側でも大腿骨・脛骨（長骨）と足根骨（短骨）に荷重がかかる。つまり、四肢の長骨と手首・足首の短骨の両方に適度な力学的ストレスを与える全身荷重ポーズである。日常生活では手首に荷重をかける機会が少ないため、手根骨周辺の骨密度維持に特に有効とされる。",
-          "source": "OpenStax Anatomy and Physiology 6.1, 6.6 / Fishman, 2009",
+          "source": "OpenStax Anatomy and Physiology 6.1, 6.6 / Fishman, 2009, Topics in Geriatric Rehabilitation, doi:10.1097/TGR.0b013e3181b02dd6",
           "choices": [
             {
               "text": "手足を通じて四肢の長骨と手首・足首の短骨の両方に荷重がかかるから",
@@ -1643,7 +1653,7 @@
           "question_type": "text_only",
           "difficulty": "hard",
           "explanation": "閉経後はエストロゲンの急減により破骨細胞の活性が増し、骨吸収が骨形成を大幅に上回る。このため骨密度が年2〜3%ずつ低下する。指導において最も重要なのは、①荷重ポーズ（戦士・木・橋のポーズなど）で骨に力学的ストレスを与え骨形成を促進すること、②安全なアライメントで骨折リスクの高い部位（手首の橈骨遠位端、大腿骨頸部、椎体）を保護すること、③ストレス管理でコルチゾールを抑制すること。単に柔軟性を高めるだけでは骨への効果は限定的である。",
-          "source": "OpenStax Anatomy and Physiology 6.6 / Lu et al., 2016 / Hardy & Cooper, 2009",
+          "source": "OpenStax Anatomy and Physiology 6.6 / Lu et al., 2016, Topics in Geriatric Rehabilitation, doi:10.1097/TGR.0000000000000085 / Hardy & Cooper, 2009, J Endocrinol, doi:10.1677/JOE-08-0568",
           "choices": [
             {
               "text": "荷重ポーズで骨形成を促進し、安全なアライメントで骨折リスク部位を保護する",
@@ -1674,7 +1684,7 @@
           "question_type": "text_only",
           "difficulty": "hard",
           "explanation": "「骨を感じる」という声かけは、内受容感覚（Interoception）と固有受容感覚（Proprioception）を活性化する。ポーズ中に骨への荷重や関節の位置を意識的に感じることで、身体感覚への気づき（Body Awareness）が深まる。研究では、ヨガの練習者は非練習者より内受容感覚が優れていることが報告されている（Mehling et al., 2012, PLOS ONE）。心理学的には、この「身体への気づき」は情動調節能力の向上やストレス耐性の強化と関連する。生理学的には、気づきを持った荷重はアライメントの自己修正を促し、骨と関節の安全を守る。つまり「骨を感じる」は心身両面に作用する指導である。",
-          "source": "Mehling et al., 2012, PLOS ONE / OpenStax Psychology 2e, Ch.5 / OpenStax Anatomy and Physiology 6.3",
+          "source": "Mehling et al., 2012, PLOS ONE, doi:10.1371/journal.pone.0048230 / OpenStax Psychology 2e, Ch.5 / OpenStax Anatomy and Physiology 6.3",
           "choices": [
             {
               "text": "内受容感覚を活性化し、身体への気づきを深めることで情動調節とアライメントの自己修正の両方を促す",
@@ -1696,6 +1706,276 @@
           "reference_text_ids": [
             "yoga-interoception-stress",
             "periosteum-basics"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "骨折と修復",
+      "slug": "fracture-repair",
+      "description": "骨折はどう治る？高齢者の骨折はなぜ危険？ — 治癒のしくみと予防を学ぶ",
+      "sort_order": 6,
+      "concepts": [
+        {
+          "name": "骨折治癒",
+          "description": "骨折は血腫形成→線維軟骨性仮骨→骨性仮骨→リモデリングの4段階を経て修復される"
+        },
+        {
+          "name": "骨粗鬆症",
+          "description": "骨吸収が骨形成を上回り骨密度が低下する疾患。閉経・加齢・運動不足が主なリスク因子"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "骨折が起きた直後、骨折部位でまず最初に起こる現象はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "骨折が起きると、骨内部と骨膜の血管が断裂し、骨折部位に血液が漏出して血腫（Hematoma）が形成される。これが骨折治癒の第1段階であり、この血腫が後に続く修復プロセスの足場（scaffold）となる。血腫内に免疫細胞が集まり、壊死組織の除去と成長因子の放出が始まる。",
+          "source": "OpenStax Anatomy and Physiology 6.5",
+          "choices": [
+            {
+              "text": "骨折部に血腫（血の塊）が形成される",
+              "is_correct": true
+            },
+            {
+              "text": "骨芽細胞がすぐに新しい骨を形成し始める",
+              "is_correct": false
+            },
+            {
+              "text": "軟骨細胞が骨折部を覆う",
+              "is_correct": false
+            },
+            {
+              "text": "破骨細胞が折れた骨の断面を滑らかにする",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "fracture-healing-basics"
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "骨粗鬆症（Osteoporosis）は、骨吸収が骨形成を上回り続けることで骨密度が低下し、骨折しやすくなる疾患である。特に閉経後の女性はエストロゲンの減少により破骨細胞の活性が増し、急速に骨密度が低下する。日本では約1,300万人が罹患していると推定されている。",
+          "source": "OpenStax Anatomy and Physiology 6.6",
+          "metadata": {
+            "template": "骨吸収が骨形成を上回り骨密度が低下する疾患を {{blank}} という"
+          },
+          "choices": [
+            {
+              "text": "骨粗鬆症",
+              "is_correct": true
+            },
+            {
+              "text": "骨軟化症",
+              "is_correct": false
+            },
+            {
+              "text": "骨髄炎",
+              "is_correct": false
+            },
+            {
+              "text": "骨肉腫",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "osteoporosis-basics"
+          ]
+        },
+        {
+          "question_text": "骨折治癒の第1段階で血腫が形成されることには、どのような意味があるのか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "骨折部の血腫は単なる出血の結果ではなく、治癒に不可欠な役割を果たす。血腫内に免疫細胞（マクロファージなど）が集まり壊死組織を除去するとともに、成長因子や炎症性サイトカインが放出され、幹細胞や線維芽細胞を呼び寄せる。つまり血腫は、修復に必要な細胞を集め、仮骨形成の足場を提供する「生物学的な作業場」である。実験的に血腫を除去すると治癒が遅延することが知られている。",
+          "source": "OpenStax Anatomy and Physiology 6.5",
+          "choices": [
+            {
+              "text": "修復に必要な細胞を呼び寄せ、仮骨形成の足場を提供する",
+              "is_correct": true
+            },
+            {
+              "text": "骨折部を冷却して炎症を抑制する",
+              "is_correct": false
+            },
+            {
+              "text": "折れた骨の断端を接着する糊のような働きをする",
+              "is_correct": false
+            },
+            {
+              "text": "細菌の侵入を物理的にブロックする防壁となる",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "fracture-healing-basics"
+          ]
+        },
+        {
+          "question_text": "骨折した部位を適切に固定（ギプスなど）しないとどうなるか？治癒の観点から最も正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "骨折治癒の第2〜3段階では、まず線維軟骨性仮骨（soft callus）、次に骨性仮骨（hard callus）が形成される。この過程で骨折部が動くと、仮骨が繰り返し破壊され、正常な骨化が妨げられる。結果として線維組織のみが形成される偽関節（Nonunion/Pseudoarthrosis）となり、骨が癒合しない状態になる。適切な固定は仮骨を保護し、骨芽細胞が安定した環境で骨を形成できるようにするために必要である。",
+          "source": "OpenStax Anatomy and Physiology 6.5",
+          "choices": [
+            {
+              "text": "仮骨が繰り返し破壊され、骨が癒合しない偽関節になるリスクがある",
+              "is_correct": true
+            },
+            {
+              "text": "固定しなくても治癒速度は変わらないが痛みが長引く",
+              "is_correct": false
+            },
+            {
+              "text": "骨が異常に太く再生して元の形に戻らなくなる",
+              "is_correct": false
+            },
+            {
+              "text": "骨ではなく筋肉に置き換わってしまう",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "fracture-healing-basics"
+          ]
+        },
+        {
+          "question_text": "骨折治癒の4段階を正しい順序でマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "骨折治癒は4つの段階を順に経る。①血腫形成期：血管が断裂し血の塊ができる（数時間〜数日）。②線維軟骨性仮骨期：線維芽細胞と軟骨細胞が柔らかい仮骨を作る（1〜2週間）。③骨性仮骨期：骨芽細胞が軟骨を海綿骨に置換し硬い仮骨ができる（6〜8週間）。④骨リモデリング期：緻密骨で置換され元の形状に近づく（数ヶ月〜数年）。この過程には骨膜の骨芽細胞が中心的役割を果たす。",
+          "source": "OpenStax Anatomy and Physiology 6.5",
+          "metadata": {
+            "pairs": [
+              {
+                "left": "第1段階",
+                "right": "血腫が形成され修復の足場ができる"
+              },
+              {
+                "left": "第2段階",
+                "right": "線維軟骨性の柔らかい仮骨が形成される"
+              },
+              {
+                "left": "第3段階",
+                "right": "骨芽細胞が海綿骨を作り硬い仮骨になる"
+              },
+              {
+                "left": "第4段階",
+                "right": "緻密骨に置換され元の形状に近づく"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "fracture-healing-basics"
+          ]
+        },
+        {
+          "question_text": "骨粗鬆症で骨が脆くなるのは、正常な骨と比べてどのような変化が起きているからか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "正常な骨では、破骨細胞による骨吸収と骨芽細胞による骨形成がバランスを保っている。骨粗鬆症では、このバランスが崩れて骨吸収＞骨形成の状態が続く。特に海綿骨の骨梁が薄く・少なくなり、骨梁間の空間が広がる。また緻密骨も薄くなる。結果として骨全体が「スカスカ」になり、わずかな外力（咳やつまずき）でも骨折する脆弱性骨折が起こりやすくなる。骨の成分（カルシウムやコラーゲン）自体は正常であり、量が減少することが問題である。",
+          "source": "OpenStax Anatomy and Physiology 6.6",
+          "choices": [
+            {
+              "text": "海綿骨の骨梁が薄く少なくなり、緻密骨も薄くなることで骨全体が脆弱になる",
+              "is_correct": true
+            },
+            {
+              "text": "骨のカルシウムが別のミネラルに置き換わり硬さが失われる",
+              "is_correct": false
+            },
+            {
+              "text": "骨髄が増えすぎて骨の内部から圧迫される",
+              "is_correct": false
+            },
+            {
+              "text": "骨膜が消失して外からの保護がなくなる",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "osteoporosis-basics",
+            "spongy-bone-basics",
+            "compact-bone-basics"
+          ]
+        },
+        {
+          "question_text": "70歳の女性が自宅で転倒し、大腿骨頸部（股関節のつけ根）を骨折した。この骨折が特に危険とされる理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "大腿骨頸部骨折は高齢者にとって最も深刻な骨折の一つである。その理由は、①歩行不能となり長期臥床を強いられる、②臥床による合併症（肺炎・深部静脈血栓症・褥瘡・筋萎縮）のリスクが高い、③大腿骨頸部は血流が乏しく治癒しにくい（骨頭壊死のリスク）、④手術が必要となることが多いが高齢者の手術リスクは高い。日本では大腿骨頸部骨折後1年以内の死亡率は約10%と報告されている。骨粗鬆症による骨密度低下が根本原因であり、転倒予防と骨密度維持が極めて重要である。",
+          "source": "OpenStax Anatomy and Physiology 6.5, 6.6",
+          "choices": [
+            {
+              "text": "長期臥床による合併症（肺炎・血栓・筋萎縮）のリスクが高く、生命予後に直結するから",
+              "is_correct": true
+            },
+            {
+              "text": "大腿骨は最も硬い骨なので、折れるときに周囲の神経を大きく損傷するから",
+              "is_correct": false
+            },
+            {
+              "text": "大腿骨頸部には骨髄が多く、骨折で大量出血するから",
+              "is_correct": false
+            },
+            {
+              "text": "高齢者は痛みを感じにくいため骨折に気づかず悪化するから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "osteoporosis-basics",
+            "fracture-healing-basics"
+          ]
+        },
+        {
+          "question_text": "「骨を強くするために何ができますか？」と生徒に聞かれた。解剖学・生理学に基づいた回答として最も包括的なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "骨の強さを維持・向上させるには、骨リモデリングのバランス（骨形成≧骨吸収）を保つことが鍵である。そのためには①荷重運動：ウォルフの法則により、骨に力学的ストレスを与えると骨芽細胞が活性化し骨形成が促進される（ヨガの立位ポーズ、ウォーキング、ジョギングなど）。②カルシウム・ビタミンD摂取：骨の石灰化に必要なカルシウムと、その腸管吸収を促進するビタミンD。③ストレス管理：慢性ストレスによるコルチゾール上昇は骨芽細胞を抑制する。④禁煙：喫煙は骨芽細胞の活性を低下させ、エストロゲン代謝にも悪影響を与える。単一の要素ではなく、運動・栄養・生活習慣の総合的なアプローチが必要である。",
+          "source": "OpenStax Anatomy and Physiology 6.6 / Hardy & Cooper, 2009, J Endocrinol, doi:10.1677/JOE-08-0568",
+          "choices": [
+            {
+              "text": "荷重運動で骨形成を促進し、カルシウム・ビタミンDを十分に摂り、ストレス管理と禁煙も行う",
+              "is_correct": true
+            },
+            {
+              "text": "カルシウムのサプリメントを大量に摂ればそれだけで十分",
+              "is_correct": false
+            },
+            {
+              "text": "水泳やサイクリングなど関節に負荷がかからない運動が最も効果的",
+              "is_correct": false
+            },
+            {
+              "text": "骨密度は遺伝で決まるので生活習慣では変えられない",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "osteoporosis-basics",
+            "bone-remodeling-basics",
+            "yoga-weight-bearing"
           ]
         }
       ]
