@@ -37,6 +37,11 @@
       "id": "ball-hinge-joints-basics",
       "title": "球関節と蝶番関節の構造・機能比較",
       "content": "滑膜性関節は関節面の形状により6つのサブタイプに分類される。そのうち最も自由度が高いのが球関節（Ball-and-Socket Joint）、最も制限的なものの一つが蝶番関節（Hinge Joint）である。①球関節は、一方の骨の球状の頭が、もう一方の骨のカップ状の窩にはまり込む構造で、3軸（多軸）の運動が可能。屈曲・伸展、外転・内転、回旋（内旋・外旋）のすべてを行え、これらを組み合わせた分回し運動（Circumduction）もできる。代表例は肩関節（肩甲上腕関節）と股関節。肩関節は関節窩が浅く、人体で最も可動域が広いが、その代償として最も脱臼しやすい。股関節は寛骨臼が深く、強い靭帯で補強されているため、可動域は肩より狭いが安定性は格段に高い。②蝶番関節は、一方の骨の円筒状の凸面（滑車）がもう一方のくぼみにはまる構造で、1軸の運動（屈曲・伸展）のみ可能。ドアの蝶番と同じ原理。代表例は肘関節（腕尺関節）、膝関節、指節間関節（IP関節）。蝶番関節は可動方向が限定される代わりに、側副靭帯によって横方向の動きが強く制限されるため安定性が高い。関節面の形状が運動軸を物理的に決定しており、これが「構造が機能を決める」原則の典型例である。"
+    },
+    {
+      "id": "other-synovial-types-basics",
+      "title": "車軸・鞍・楕円・平面関節の構造と機能",
+      "content": "滑膜性関節の6タイプのうち、球関節・蝶番関節以外の4タイプを解説する。①車軸関節（Pivot Joint）：一方の骨の円柱状の突起がもう一方のリング状構造の中で回転する1軸関節。代表例は環軸関節（C1環椎とC2軸椎の間）で、頭部の左右回旋（首を横に振る「いいえ」の動き）を可能にする。軸椎の歯突起（Dens）が環椎の前弓のリングにはまり込む。もう一つの代表例は近位橈尺関節で、橈骨頭が回転して前腕の回内（手のひらを下に向ける）・回外（手のひらを上に向ける）を行う。②鞍関節（Saddle Joint）：両方の関節面が鞍（サドル）のように凹凸の組み合わせになっている2軸関節。代表例は母指の手根中手関節（CM関節/第1CMJ）で、屈曲・伸展、外転・内転に加えて「対立（Opposition）」運動が可能。対立とは母指を他の指の先端に合わせる動きで、精密な把持（つまむ、握る）の基盤。この能力が人間を道具使用の名手にした。③楕円関節（Condyloid/Ellipsoid Joint）：楕円形の凸面が楕円形の凹面にはまる2軸関節。屈曲・伸展と外転・内転が可能だが、回旋はできない（球関節との違い）。代表例は橈骨手根関節（手首の関節）と中手指節関節（MP関節/指の付け根）。④平面関節（Plane/Gliding Joint）：ほぼ平坦な関節面同士が滑る関節で、多方向への滑り運動が可能だが可動域は小さい。椎間関節（椎骨の上下関節突起間）、肩鎖関節、手根間関節が代表例。個々の動きは小さいが、複数の平面関節が連動することで大きな動きを生み出す（脊柱の動きなど）。"
     }
   ],
   "sections": [
@@ -1448,6 +1453,224 @@
             }
           ],
           "reference_text_ids": ["ball-hinge-joints-basics"]
+        }
+      ]
+    },
+    {
+      "name": "車軸・鞍・楕円・平面関節",
+      "slug": "other-synovial-types",
+      "description": "首を回す車軸関節 — 親指の鞍関節が人間を道具使用の名手にした",
+      "sort_order": 6,
+      "concepts": [
+        {
+          "name": "車軸関節と鞍関節",
+          "description": "回旋に特化した車軸関節（環軸・近位橈尺）と対立運動を可能にする鞍関節（母指CM関節）"
+        },
+        {
+          "name": "楕円関節と平面関節",
+          "description": "2軸で回旋なしの楕円関節（手首・MP関節）と滑り運動の平面関節（椎間関節）"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "首を横に振って「いいえ」と示す動作を可能にする関節のタイプと場所はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "首の左右回旋は、第1頸椎（環椎/C1）と第2頸椎（軸椎/C2）の間の環軸関節で行われます。軸椎の歯突起が環椎の前弓のリングにはまり込み、その周りを回転する車軸関節です。ちなみに首を縦に振る「はい」の動きは環椎後頭関節（楕円関節）で行われます。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "choices": [
+            {
+              "text": "蝶番関節 — 第5頸椎と第6頸椎の間",
+              "is_correct": false
+            },
+            {
+              "text": "球関節 — 第7頸椎と第1胸椎の間",
+              "is_correct": false
+            },
+            {
+              "text": "平面関節 — 第3頸椎と第4頸椎の間",
+              "is_correct": false
+            },
+            {
+              "text": "車軸関節 — 環椎（C1）と軸椎（C2）の間",
+              "is_correct": true
+            }
+          ],
+          "reference_text_ids": ["other-synovial-types-basics"]
+        },
+        {
+          "question_text": "母指（親指）のCM関節は（　①　）関節に分類され、屈曲・伸展と外転・内転に加えて（　②　）運動が可能である。この運動は母指を他の指先に合わせる動きで、精密な（　③　）の基盤となる。",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "母指のCM関節（第1手根中手関節）は鞍関節で、2軸の運動が可能です。特に「対立（Opposition）」運動 — 母指を他の指先に合わせるつまみ動作 — は鞍関節の形状だからこそ可能です。この精密な把持能力が人間の道具使用を可能にしました。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "choices": [
+            { "text": "鞍", "is_correct": true },
+            { "text": "対立", "is_correct": true },
+            { "text": "把持", "is_correct": true },
+            { "text": "車軸", "is_correct": false },
+            { "text": "回旋", "is_correct": false },
+            { "text": "跳躍", "is_correct": false }
+          ],
+          "metadata": {
+            "word_bank": ["対立", "車軸", "鞍", "跳躍", "把持", "回旋"]
+          },
+          "reference_text_ids": ["other-synovial-types-basics"]
+        },
+        {
+          "question_text": "鞍関節（母指CM関節）が人間にとって特に重要である理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "鞍関節の形状（互いに直交する凹凸面）により、母指は他の指と向かい合わせになる「対立」運動が可能です。この対立運動こそが、物を精密につまんだり、道具を握ったりする能力の基盤です。他の霊長類にも対立運動はありますが、人間の母指CM関節は最も発達しており、精密な道具操作（箸を使う、ペンを持つ、ボタンを留めるなど）を可能にしています。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "choices": [
+            {
+              "text": "母指を他の指に対向させる対立運動を可能にし、精密な把持と道具使用の基盤となるため",
+              "is_correct": true
+            },
+            {
+              "text": "鞍関節は痛覚受容器が集中しており、物に触れた時の繊細な感覚を提供するため",
+              "is_correct": false
+            },
+            {
+              "text": "鞍関節は3軸すべての動きが可能で、球関節と同等の自由度を持つため",
+              "is_correct": false
+            },
+            {
+              "text": "鞍関節は他の関節より関節軟骨が3倍厚く、一生涯摩耗しない耐久性を持つため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["other-synovial-types-basics"]
+        },
+        {
+          "question_text": "楕円関節と球関節はどちらも2軸以上の運動が可能だが、楕円関節にできなくて球関節にできる運動がある。それはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "楕円関節は楕円形の凸面が楕円形の凹面にはまる構造で、屈曲・伸展と外転・内転の2軸の運動が可能です。しかし、楕円形は長軸と短軸があるため、軸を中心にした回旋（内旋・外旋）はできません。球関節は完全な球状なので、あらゆる軸の回転が可能で、回旋もできます。これが楕円関節（2軸）と球関節（3軸/多軸）の決定的な違いです。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "choices": [
+            {
+              "text": "屈曲・伸展",
+              "is_correct": false
+            },
+            {
+              "text": "外転・内転",
+              "is_correct": false
+            },
+            {
+              "text": "回旋（内旋・外旋）",
+              "is_correct": true
+            },
+            {
+              "text": "分回し運動（Circumduction）",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["other-synovial-types-basics", "ball-hinge-joints-basics"]
+        },
+        {
+          "question_text": "以下の関節タイプと、その代表的な場所・動きを正しく組み合わせなさい。",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "①車軸関節は環軸関節に代表され、首の回旋（横に振る動き）を担います。②鞍関節は母指CM関節に代表され、対立運動（つまむ動き）を可能にします。③楕円関節は橈骨手根関節に代表され、手首の屈曲・伸展と橈屈・尺屈を行います。④平面関節は椎間関節に代表され、隣接する椎骨間の小さな滑り運動を担い、積み重なると脊柱の大きな動きになります。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "metadata": {
+            "matching_pairs": [
+              { "left": "車軸関節", "right": "環軸関節 — 首の回旋" },
+              { "left": "鞍関節", "right": "母指CM関節 — 対立運動" },
+              { "left": "楕円関節", "right": "橈骨手根関節 — 手首の動き" },
+              { "left": "平面関節", "right": "椎間関節 — 小さな滑り運動" }
+            ]
+          },
+          "choices": [],
+          "reference_text_ids": ["other-synovial-types-basics"]
+        },
+        {
+          "question_text": "脊柱の椎間関節が平面関節である利点として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "椎間関節は上下の椎骨の関節突起間にある平面関節で、個々の関節の可動域はごくわずか（数度程度）です。しかし、脊柱全体で24個の可動椎骨があり、それぞれの椎間関節の小さな動きが積み重なることで、前屈・後屈・側屈・回旋といった大きな動きが実現します。同時に、各関節面でのずれは小さいため、脊髄を収める脊柱管の連続性が保たれ、脊髄の保護が確保されます。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "choices": [
+            {
+              "text": "平面関節は摩擦がゼロで椎骨が自由にずれるため、脊柱の可動域が極大になる",
+              "is_correct": false
+            },
+            {
+              "text": "各関節の動きは小さいが積み重なって大きな動きを生み出し、かつ脊髄の保護も維持できる",
+              "is_correct": true
+            },
+            {
+              "text": "平面関節は完全に不動であるため、脊柱を剛直な柱として機能させる",
+              "is_correct": false
+            },
+            {
+              "text": "平面関節は3軸の運動が可能で、球関節と同じ自由度を各椎骨に与える",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["other-synovial-types-basics"]
+        },
+        {
+          "question_text": "60代の女性が「最近、瓶のフタを開けるとき親指の付け根が痛い」と訴えている。母指CM関節の変形性関節症（母指CM関節症）が疑われる場合、この関節が特に変形性関節症を起こしやすい理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "母指CM関節は鞍関節で、対立運動を含む多方向の動きが可能です。日常生活でつまむ・握る・開ける動作のたびに母指CM関節には大きな力がかかり、特にピンチ動作（つまみ）では母指先端にかかる力の数倍の荷重がCM関節に集中します。さらに鞍関節は2方向に動けるため、繰り返しの多方向負荷が関節軟骨をさまざまな角度から摩耗させます。加齢とともに関節軟骨の修復が追いつかなくなり、変形性関節症に至ります。この関節症は特に閉経後の女性に多く見られます。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.6",
+          "choices": [
+            {
+              "text": "鞍関節は滑液を産生する能力がなく、常に乾いた状態で摩耗が進むから",
+              "is_correct": false
+            },
+            {
+              "text": "母指CM関節は骨膜に覆われておらず、損傷の修復機構がないから",
+              "is_correct": false
+            },
+            {
+              "text": "母指CM関節は蝶番関節で可動域が狭いため、同じ面が繰り返し摩耗するから",
+              "is_correct": false
+            },
+            {
+              "text": "日常動作で多方向の大きな荷重が繰り返しかかり、鞍関節の軟骨がさまざまな角度から摩耗するため",
+              "is_correct": true
+            }
+          ],
+          "reference_text_ids": ["other-synovial-types-basics", "synovial-joint-structure-basics"]
+        },
+        {
+          "question_text": "交通事故で頸椎に強い衝撃を受け、環軸関節の歯突起が骨折した場合に最も懸念される重篤な合併症はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "環軸関節は軸椎の歯突起が環椎のリング内で回転する車軸関節です。歯突起が骨折すると、環椎が軸椎の上で不安定になり、環椎が前方にずれる（亜脱臼）リスクが生じます。環椎のリングの直後には延髄と上位頸髄が通っています。環椎の亜脱臼はこの部位を圧迫し、呼吸中枢や心臓中枢がある延髄の損傷を引き起こす可能性があり、最悪の場合は呼吸停止・心停止に至ります。このため歯突起骨折は頸椎外傷の中でも特に危険とされます。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "choices": [
+            {
+              "text": "環椎が不安定になり、直後を通る延髄・上位頸髄が圧迫されて呼吸停止の危険がある",
+              "is_correct": true
+            },
+            {
+              "text": "歯突起の骨片が食道に刺さり、嚥下障害と出血を引き起こす",
+              "is_correct": false
+            },
+            {
+              "text": "首の回旋ができなくなるだけで、脊髄への影響はないが生活の質が低下する",
+              "is_correct": false
+            },
+            {
+              "text": "椎骨動脈が完全に閉塞し、上肢の血流が途絶えて両腕が壊死する",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["other-synovial-types-basics"]
         }
       ]
     }
