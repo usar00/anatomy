@@ -132,6 +132,11 @@
       "id": "yoga-upper-limb-breathing",
       "title": "上肢のヨガ — 手首の保護と胸郭呼吸",
       "content": "ヨガでは多くのポーズ（ダウンドッグ、プランク、チャトランガ）で手首に体重がかかる。手関節の過伸展（背屈90度以上）は手根管（手根骨のアーチ内を通る正中神経と屈筋腱のトンネル）への圧迫を増大させる。手首への負担を軽減するため、①指を広げて手のひら全体で荷重を分散する、②手首の下にブランケットを敷いて角度を緩和する、③握りこぶし（fist）やフォアアームバランスで手首の角度をゼロにする代替法がある。上肢の荷重ポーズは肩甲骨の安定性（前鋸筋の活性化）も重要で、肩甲骨が背面で「翼状突出」するのは筋力不足のサインである。また、ヨガの呼吸法（プラーナヤーマ）は胸郭の肋骨と横隔膜を意識的に動かし、呼吸機能の改善に寄与する。ヨガの呼吸法がストレス・不安・抑うつの軽減に有効であることが報告されている（Brown & Gerbarg, 2005, J Altern Complement Med, doi:10.1089/acm.2005.11.189）。"
+    },
+    {
+      "id": "pelvis-basics",
+      "title": "骨盤の構造と機能",
+      "content": "骨盤（Pelvis）は左右の寛骨（Hip Bone/Coxal Bone）、仙骨（Sacrum）、尾骨（Coccyx）で構成される環状の骨格構造。寛骨は腸骨（Ilium）・坐骨（Ischium）・恥骨（Pubis）の3骨が癒合したもので、外側面に寛骨臼（Acetabulum）があり大腿骨頭と股関節を形成する。骨盤の主な機能は①上半身の体重を脊柱から仙腸関節を経て下肢に伝達すること、②膀胱・直腸・生殖器（子宮・卵巣）の保護、③強大な筋群（大殿筋・腸腰筋・骨盤底筋群）の付着部の提供。男女差が顕著で、女性骨盤は産道確保のため骨盤上口が横に広い楕円形（男性は縦長のハート形）、恥骨下角が広い（女性約80-85°、男性約50-60°）、仙骨が幅広く後方にカーブ、腸骨翼がより外方に広がるなどの特徴がある。仙腸関節は強固な靭帯で結合されわずかな可動性しかないが、妊娠中はリラキシンの作用で弛緩し産道を広げる。"
     }
   ],
   "sections": [
@@ -4192,6 +4197,251 @@
             "spinal-curves-basics",
             "yoga-upper-limb-breathing"
           ]
+        }
+      ]
+    },
+    {
+      "name": "骨盤",
+      "slug": "pelvis",
+      "description": "上半身の重さを下肢に伝える器 — 男女差がある理由",
+      "sort_order": 15,
+      "concepts": [
+        {
+          "name": "寛骨",
+          "description": "腸骨・坐骨・恥骨の3骨が癒合した骨。外側面に寛骨臼があり股関節を形成する"
+        },
+        {
+          "name": "仙骨と骨盤の男女差",
+          "description": "脊柱の基部で左右の寛骨をつなぐ。骨盤は産道確保のため男女で形状が異なる"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "骨盤を構成する骨の組み合わせとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "骨盤は左右の寛骨（Hip Bone）、仙骨（Sacrum）、尾骨（Coccyx）で構成される環状の骨格構造です。寛骨はさらに腸骨・坐骨・恥骨の3骨が癒合したもので、骨盤全体で上半身の体重を下肢に伝達する重要な役割を担います。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.3",
+          "choices": [
+            {
+              "text": "左右の寛骨 + 仙骨 + 尾骨",
+              "is_correct": true
+            },
+            {
+              "text": "左右の腸骨 + 胸骨 + 仙骨",
+              "is_correct": false
+            },
+            {
+              "text": "左右の坐骨 + 腰椎 + 尾骨",
+              "is_correct": false
+            },
+            {
+              "text": "左右の恥骨 + 仙骨 + 胸椎",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["pelvis-basics"]
+        },
+        {
+          "question_text": "次の文を完成させてください:\n\n寛骨は3つの骨が癒合してできており、そのうち【　　】は骨盤の上部で腰に手を当てたとき触れる大きな翼状の部分である。",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "寛骨は腸骨（Ilium）・坐骨（Ischium）・恥骨（Pubis）の3骨が癒合したものです。腸骨は骨盤の上部を占め、腸骨稜（Iliac Crest）は腰に手を当てたとき触れる部分です。坐骨は座ったとき体重を支える下部の骨、恥骨は前方下部で左右が恥骨結合で連結されます。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.3",
+          "metadata": {
+            "word_bank": ["腸骨", "坐骨", "恥骨", "仙骨"]
+          },
+          "choices": [
+            {
+              "text": "腸骨",
+              "is_correct": true
+            },
+            {
+              "text": "坐骨",
+              "is_correct": false
+            },
+            {
+              "text": "恥骨",
+              "is_correct": false
+            },
+            {
+              "text": "仙骨",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["pelvis-basics"]
+        },
+        {
+          "question_text": "骨盤が環状（リング状）の構造をしている最大の理由は何か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "骨盤がリング状であるのは、上半身の全体重を脊柱→仙骨→仙腸関節→寛骨→大腿骨へと効率的に伝達するためです。アーチやリング構造は力を均等に分散する工学的に優れた設計です。開いた構造では、特定の部位に応力が集中して骨折リスクが高まります。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.3",
+          "choices": [
+            {
+              "text": "上半身の体重を脊柱から左右の下肢へ均等に分散・伝達するため",
+              "is_correct": true
+            },
+            {
+              "text": "骨盤内臓器を完全に密封して外気から遮断するため",
+              "is_correct": false
+            },
+            {
+              "text": "脊柱を下から支えて直立時のバランスをとるためだけ",
+              "is_correct": false
+            },
+            {
+              "text": "大殿筋が骨盤を一周して付着するスペースを確保するため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["pelvis-basics"]
+        },
+        {
+          "question_text": "女性の骨盤が男性と比べて骨盤上口が横に広い楕円形をしている理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "女性の骨盤は出産時に胎児が産道を通過するため、骨盤上口（Pelvic Inlet）が横に広い楕円形になっています。男性の骨盤上口はハート形（縦長）で狭いのは、出産の必要がなく、筋の付着と力の伝達に有利な形状だからです。この男女差は思春期のホルモン（エストロゲン）の影響で顕著になります。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.3",
+          "choices": [
+            {
+              "text": "出産時に胎児が産道を通過するための空間を確保するため",
+              "is_correct": true
+            },
+            {
+              "text": "女性は男性より腸が長いので、より大きな腹腔が必要だから",
+              "is_correct": false
+            },
+            {
+              "text": "女性は脂肪が多いため、骨盤内に脂肪を蓄積するスペースが必要だから",
+              "is_correct": false
+            },
+            {
+              "text": "女性の方が歩幅が狭いため、横広の骨盤が歩行に適しているから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["pelvis-basics"]
+        },
+        {
+          "question_text": "寛骨の各部位とその特徴を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "寛骨は3つの骨が癒合してできています。腸骨は上部の大きな翼で腸骨稜が触診でき、坐骨は下後部で座位時に体重を支える坐骨結節があります。恥骨は前下部で左右が恥骨結合で連結されます。寛骨臼は3骨が合流する外側面にあり、大腿骨頭と股関節を形成します。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.3",
+          "metadata": {
+            "pairs": [
+              {"left": "腸骨", "right": "骨盤上部の翼状の部分で、腰に手を当てると触れる"},
+              {"left": "坐骨", "right": "座ったとき体重を支える坐骨結節がある"},
+              {"left": "恥骨", "right": "前方下部で左右が恥骨結合により連結される"},
+              {"left": "寛骨臼", "right": "3骨が合流する部位で大腿骨頭と関節する"}
+            ]
+          },
+          "choices": [
+            {
+              "text": "腸骨 → 骨盤上部の翼状の部分で、腰に手を当てると触れる",
+              "is_correct": true
+            },
+            {
+              "text": "坐骨 → 座ったとき体重を支える坐骨結節がある",
+              "is_correct": true
+            },
+            {
+              "text": "恥骨 → 前方下部で左右が恥骨結合により連結される",
+              "is_correct": true
+            },
+            {
+              "text": "寛骨臼 → 3骨が合流する部位で大腿骨頭と関節する",
+              "is_correct": true
+            }
+          ],
+          "reference_text_ids": ["pelvis-basics"]
+        },
+        {
+          "question_text": "仙腸関節は非常に強固な靭帯で結合されているが、妊娠中にこの関節が弛緩する。このメカニズムと目的として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "妊娠中、卵巣と胎盤から分泌されるリラキシンというホルモンが靭帯のコラーゲン結合を弛緩させます。これにより仙腸関節と恥骨結合がわずかに広がり、出産時に産道が拡大します。この弛緩は出産に必要な適応ですが、妊娠中の腰痛・骨盤帯痛の原因にもなります。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.3",
+          "choices": [
+            {
+              "text": "リラキシンの作用で靭帯が弛緩し、出産時の産道拡大を可能にする",
+              "is_correct": true
+            },
+            {
+              "text": "エストロゲンの作用で骨が軟化し、骨盤全体が柔らかくなる",
+              "is_correct": false
+            },
+            {
+              "text": "プロゲステロンの作用で仙骨が後方に移動し、腹腔を広げる",
+              "is_correct": false
+            },
+            {
+              "text": "成長ホルモンの作用で骨端板が再活性化し、骨盤が大きくなる",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["pelvis-basics"]
+        },
+        {
+          "question_text": "長時間のデスクワークで「坐骨が痛い」と感じることがある。坐骨結節が座位時に痛みを生じやすい解剖学的理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "坐骨結節（Ischial Tuberosity）は坐骨の下端にある突起で、座位時に体重を直接支える部位です。硬い椅子に長時間座ると、坐骨結節とその上の軟部組織（大殿筋下部、坐骨滑液包）が圧迫されます。坐骨結節は皮下組織が薄い部位なので圧が直接骨に伝わりやすく、滑液包炎を起こすこともあります。骨盤を後傾させた「猫背座り」は坐骨結節でなく仙骨に荷重が移り、仙骨部痛や姿勢不良を助長します。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.3",
+          "choices": [
+            {
+              "text": "坐骨結節は座位で体重を直接受ける部位で、上の軟部組織が薄く圧が骨に伝わりやすいから",
+              "is_correct": true
+            },
+            {
+              "text": "坐骨結節には神経が集中しており、わずかな圧迫でも痛みを感じるから",
+              "is_correct": false
+            },
+            {
+              "text": "坐骨は骨盤で最も脆弱な骨で、体重がかかると微小骨折を起こすから",
+              "is_correct": false
+            },
+            {
+              "text": "坐骨結節は血管が多い部位で、圧迫による血流障害が痛みの原因だから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["pelvis-basics"]
+        },
+        {
+          "question_text": "骨盤骨折は大きなエネルギーの外傷（交通事故など）で生じることが多く、生命に関わる場合がある。骨盤骨折が特に危険である解剖学的理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "骨盤は環状構造のため、一箇所が折れると別の箇所も損傷する可能性が高くなります（プレッツェルの輪を折るイメージ）。骨盤内には腸骨内動脈・静脈などの主要血管が走っており、骨折片による血管損傷は大量出血（後腹膜出血）を引き起こし、出血性ショックで生命に関わります。また膀胱・尿道・直腸などの骨盤内臓器の損傷も合併しやすく、多発外傷の中でも重篤な部類に入ります。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.3",
+          "choices": [
+            {
+              "text": "骨盤内に主要な動静脈があり、骨折片で損傷すると大量出血を起こすから",
+              "is_correct": true
+            },
+            {
+              "text": "骨盤は脊髄を含んでいるため、骨折により下半身が麻痺するから",
+              "is_correct": false
+            },
+            {
+              "text": "骨盤骨は血流が乏しく、一度折れるとほぼ治癒しないから",
+              "is_correct": false
+            },
+            {
+              "text": "骨盤骨折では仙腸関節が脱臼して二度と歩けなくなるから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["pelvis-basics"]
         }
       ]
     }
