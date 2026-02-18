@@ -62,6 +62,11 @@
       "id": "wrist-hand-joints-basics",
       "title": "手関節と手の関節の構造",
       "content": "手には27個の骨があり、複数のタイプの関節が協調して精密な動きを実現する。①橈骨手根関節（Radiocarpal Joint）：橈骨遠位端と近位列手根骨（舟状骨・月状骨・三角骨）の間の楕円関節。屈曲・伸展と橈屈・尺屈の2軸運動が可能。手首の動きの主役。②手根中手関節（CM関節/Carpometacarpal Joint）：第1CM関節（母指）は鞍関節で対立運動が可能。第2-5CM関節は平面関節で、可動性はほとんどない。③中手指節関節（MP関節/Metacarpophalangeal Joint）：楕円関節で、屈曲・伸展と外転・内転（指を開く・閉じる）の2軸運動が可能。「指の付け根」の関節。④指節間関節（IP関節/Interphalangeal Joint）：近位指節間関節（PIP）と遠位指節間関節（DIP）があり、いずれも蝶番関節。屈曲・伸展のみ。母指はIP関節が1つのみ。手根管（Carpal Tunnel）：手首の手のひら側にあるトンネル状の空間で、底面と側面は手根骨（舟状骨・大菱形骨・有鉤骨・豆状骨）、屋根は屈筋支帯（横手根靭帯/Flexor Retinaculum）で構成される。この狭い空間を正中神経と9本の屈筋腱（浅指屈筋4本＋深指屈筋4本＋長母指屈筋1本）が通過する。手根管症候群（Carpal Tunnel Syndrome/CTS）：手根管内圧の上昇により正中神経が圧迫される。母指・示指・中指・環指の橈側半分のしびれと痛み、母指対立筋の筋力低下（物がつかみにくい）が特徴的症状。デスクワーク・キーボード操作・マウス操作などの手首の反復的な屈伸動作がリスク因子。妊娠中の浮腫やリウマチによる滑膜炎も原因となる。"
+    },
+    {
+      "id": "hip-joint-basics",
+      "title": "股関節の構造と安定性",
+      "content": "股関節（Hip Joint/Coxal Joint）は大腿骨頭と寛骨の寛骨臼（Acetabulum）で構成される球関節で、肩関節と同じく3軸（多軸）の運動が可能だが、安定性は格段に高い。構造的特徴：①寛骨臼は深いカップ状で、大腿骨頭の2/3以上を覆う（肩関節の関節窩は25-30%のみ）。さらに寛骨臼唇（Acetabular Labrum）が縁を取り囲み、カップをさらに深くして「吸盤効果」で大腿骨頭を安定させる。②大腿骨頭靭帯（Ligamentum Teres）：大腿骨頭から寛骨臼の底に至る靭帯で、内部に大腿骨頭動脈を含み骨頭への血流を供給する。安定性への寄与は小さい。靭帯による安定化：①腸骨大腿靭帯（Y靭帯/Iliofemoral Ligament）：人体最強の靭帯の一つ。関節包の前面を強化し、股関節の過伸展を防ぐ。直立姿勢を靭帯の張力だけで維持できるため筋のエネルギー消費を軽減する。②恥骨大腿靭帯（Pubofemoral Ligament）：前下方から外転と伸展を制限。③坐骨大腿靭帯（Ischiofemoral Ligament）：後方から内旋を制限。可動性と安定性のトレードオフ：肩関節は関節窩が浅く可動域最大だが脱臼しやすい。股関節は寛骨臼が深く靭帯が強いため脱臼は稀だが、可動域は肩より狭い。これは体重を支えながら二足歩行するために安定性が優先された進化的適応である。変形性股関節症（股関節OA）：関節軟骨の摩耗により大腿骨頭と寛骨臼の骨同士が接触し、痛み・可動域制限・歩行障害が生じる。日本では臼蓋形成不全（寛骨臼が浅い先天的構造異常）が原因として多く、欧米では加齢や肥満が主因。進行すると人工股関節置換術（THR/THA）が必要になる。"
     }
   ],
   "sections": [
@@ -2563,6 +2568,224 @@
             }
           ],
           "reference_text_ids": ["wrist-hand-joints-basics", "other-synovial-types-basics"]
+        }
+      ]
+    },
+    {
+      "name": "股関節",
+      "slug": "hip-joint",
+      "description": "安定性の王者 — 深いソケットと強い靭帯が二足歩行を支える",
+      "sort_order": 11,
+      "concepts": [
+        {
+          "name": "股関節の構造と安定性",
+          "description": "深い寛骨臼と寛骨臼唇。腸骨大腿靭帯（人体最強）による直立姿勢の維持"
+        },
+        {
+          "name": "股関節の障害",
+          "description": "変形性股関節症と臼蓋形成不全。可動性と安定性のトレードオフ"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "股関節と肩関節はどちらも球関節だが、股関節の方が安定性が高い。その最大の構造的要因はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "股関節の寛骨臼（Acetabulum）は深いカップ状で、大腿骨頭の2/3以上を覆います。これに加えて寛骨臼唇がさらに縁を深くしています。一方、肩関節の関節窩は浅く、上腕骨頭の25-30%しか覆いません。この「ソケットの深さの違い」が安定性の最大の差を生み出しています。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            {
+              "text": "股関節には関節軟骨がなく、骨同士が直接噛み合うため",
+              "is_correct": false
+            },
+            {
+              "text": "股関節の滑液は肩関節より粘度が高く、接着剤のように骨頭を固定するため",
+              "is_correct": false
+            },
+            {
+              "text": "寛骨臼が深く大腿骨頭の2/3以上を覆い、さらに寛骨臼唇が縁を深くしているため",
+              "is_correct": true
+            },
+            {
+              "text": "股関節の骨は肩関節の骨より密度が3倍高く、物理的に外れにくいため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["hip-joint-basics", "shoulder-joint-basics"]
+        },
+        {
+          "question_text": "股関節を安定させる3つの靭帯のうち、人体最強の靭帯の一つで、直立姿勢の維持に重要なのは（　①　）靭帯で、関節の（　②　）を防ぐ。この靭帯のおかげで、立っているとき（　③　）のエネルギー消費が軽減される。",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "腸骨大腿靭帯（Y靭帯）は人体最強の靭帯の一つで、股関節の前面を覆い過伸展を防ぎます。直立姿勢では体重が股関節の軸より前方にかかるため、過伸展方向の力がかかりますが、腸骨大腿靭帯がこれを靭帯の張力だけで支えます。そのため筋肉を常に収縮させる必要がなく、エネルギー消費が軽減されます。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            { "text": "腸骨大腿", "is_correct": true },
+            { "text": "過伸展", "is_correct": true },
+            { "text": "筋", "is_correct": true },
+            { "text": "坐骨大腿", "is_correct": false },
+            { "text": "過屈曲", "is_correct": false },
+            { "text": "骨", "is_correct": false }
+          ],
+          "metadata": {
+            "word_bank": ["過伸展", "坐骨大腿", "筋", "腸骨大腿", "骨", "過屈曲"]
+          },
+          "reference_text_ids": ["hip-joint-basics"]
+        },
+        {
+          "question_text": "股関節が肩関節より可動域が狭い根本的な理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "股関節と肩関節はどちらも球関節ですが、股関節は寛骨臼が深く大腿骨頭を包み込み、腸骨大腿靭帯など強い靭帯で補強されています。深いソケットと強い靭帯は安定性を高めますが、骨頭が動ける範囲（可動域）を物理的に制限します。これは二足歩行で体重を支えるために安定性を優先した進化的適応であり、「可動性と安定性のトレードオフ」の典型例です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            {
+              "text": "股関節の関節軟骨が厚く摩擦が大きいため動きが制限される",
+              "is_correct": false
+            },
+            {
+              "text": "深い寛骨臼と強い靭帯が安定性を高める代わりに骨頭の動きを物理的に制限するため",
+              "is_correct": true
+            },
+            {
+              "text": "股関節周囲の筋肉が常に収縮して関節を固定しているため",
+              "is_correct": false
+            },
+            {
+              "text": "大腿骨頭が上腕骨頭より小さいため、可動範囲が狭くなる",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["hip-joint-basics", "ball-hinge-joints-basics"]
+        },
+        {
+          "question_text": "腸骨大腿靭帯が直立姿勢の省エネルギーに貢献するメカニズムとして最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "直立姿勢では体の重心線が股関節の回転軸よりわずかに前方を通るため、股関節は過伸展方向に引っ張られます。腸骨大腿靭帯はこの力に受動的に（靭帯自体の張力で）抵抗するため、股関節の伸筋群（大殿筋など）を常に収縮させる必要がありません。靭帯は収縮しないのでATP（エネルギー）を消費しません。これにより長時間の直立がエネルギー効率よく維持できます。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            {
+              "text": "靭帯が弾性エネルギーを蓄えて筋収縮の代わりに関節を動かすため",
+              "is_correct": false
+            },
+            {
+              "text": "靭帯が熱を産生して筋を温め、少ない筋力で動けるようにするため",
+              "is_correct": false
+            },
+            {
+              "text": "靭帯が股関節を過度に屈曲させることで、大腿四頭筋の負担を減らすため",
+              "is_correct": false
+            },
+            {
+              "text": "靭帯の受動的な張力で過伸展を防ぎ、筋を持続的に収縮させずに直立位を保てるため",
+              "is_correct": true
+            }
+          ],
+          "reference_text_ids": ["hip-joint-basics"]
+        },
+        {
+          "question_text": "以下の股関節の構造と、その役割を正しく組み合わせなさい。",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "①寛骨臼は深いカップ状で大腿骨頭を包み込み、骨による安定性の主役です。②寛骨臼唇は線維軟骨のリングで、ソケットの縁を深くして吸盤効果で安定化します。③腸骨大腿靭帯は前方の最強靭帯で過伸展を防ぎます。④大腿骨頭靭帯は安定性より血流供給が主な役割です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "metadata": {
+            "matching_pairs": [
+              { "left": "寛骨臼", "right": "深いカップで骨頭を包む" },
+              { "left": "寛骨臼唇", "right": "縁を深くし吸盤効果で安定化" },
+              { "left": "腸骨大腿靭帯", "right": "過伸展を防ぎ直立姿勢を維持" },
+              { "left": "大腿骨頭靭帯", "right": "骨頭への血流を供給" }
+            ]
+          },
+          "choices": [],
+          "reference_text_ids": ["hip-joint-basics"]
+        },
+        {
+          "question_text": "日本における変形性股関節症（股関節OA）の原因として最も多いものはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "日本では変形性股関節症の約80%が臼蓋形成不全（寛骨臼が先天的に浅い構造異常）に起因するとされています。寛骨臼が浅いと大腿骨頭の被覆面積が小さくなり、限られた接触面に荷重が集中して関節軟骨の摩耗が加速します。これは特に女性に多く見られます。一方、欧米では加齢や肥満による一次性OAが主因です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.6",
+          "choices": [
+            {
+              "text": "加齢による関節軟骨の自然な摩耗",
+              "is_correct": false
+            },
+            {
+              "text": "臼蓋形成不全（寛骨臼が先天的に浅い構造異常）",
+              "is_correct": true
+            },
+            {
+              "text": "スポーツによる反復的な衝撃",
+              "is_correct": false
+            },
+            {
+              "text": "関節リウマチによる滑膜の炎症",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["hip-joint-basics"]
+        },
+        {
+          "question_text": "変形性股関節症が進行して人工股関節置換術（THR）を受けた患者が「脱臼しやすいポジションを避けてください」と医師から指示された。人工股関節が脱臼しやすい解剖学的理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "人工股関節では、天然の寛骨臼唇（吸盤効果）が失われ、周囲の靭帯も手術時に切開されるため、天然の関節より安定化構造が少なくなります。特に深い屈曲＋内転＋内旋（しゃがんで足を組むような姿勢）は後方脱臼のリスクが高く、過度な伸展＋外旋は前方脱臼のリスクがあります。筋力回復（特に外転筋群と外旋筋群）が安定性の鍵となります。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.6",
+          "choices": [
+            {
+              "text": "人工関節の材質が骨より滑りやすく、あらゆる方向に脱臼しやすいため",
+              "is_correct": false
+            },
+            {
+              "text": "手術で寛骨臼唇と靭帯が損傷・切開され、天然の安定化構造が減少するため",
+              "is_correct": true
+            },
+            {
+              "text": "人工関節は球関節ではなく蝶番関節として設計されるため、1軸以外に動くと外れるため",
+              "is_correct": false
+            },
+            {
+              "text": "術後は滑液が産生されなくなり、摩擦で関節が固着してから急に外れるため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["hip-joint-basics", "joint-support-structures-basics"]
+        },
+        {
+          "question_text": "高齢者が転倒して大腿骨頸部骨折を起こした場合、大腿骨頭への血流が問題となることがある。大腿骨頭靭帯の解剖学的役割を考慮すると、この問題の説明として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "大腿骨頭への血流は、①大腿骨頸を通る栄養血管（主な血流源）と②大腿骨頭靭帯内の大腿骨頭動脈の2つのルートで供給されます。大腿骨頸部が骨折すると①の血管が断裂し、骨頭への主な血流が途絶えます。大腿骨頭靭帯内の動脈だけでは十分な血流を維持できないことが多く、骨頭が壊死する（大腿骨頭壊死症）リスクがあります。この場合、人工骨頭置換術が必要になります。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            {
+              "text": "骨折で寛骨臼が崩壊し、寛骨臼唇が大腿骨頭の血管を絞扼するため",
+              "is_correct": false
+            },
+            {
+              "text": "骨折の衝撃で股関節の滑膜が断裂し、滑液が漏出して軟骨が栄養不足になるため",
+              "is_correct": false
+            },
+            {
+              "text": "大腿骨頸部骨折で主要な栄養血管が断裂し、大腿骨頭靭帯の動脈だけでは血流が不足して骨頭壊死のリスクがあるため",
+              "is_correct": true
+            },
+            {
+              "text": "腸骨大腿靭帯が骨折で断裂し、靭帯内の血管から出血が続いて骨頭が圧迫壊死するため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["hip-joint-basics"]
         }
       ]
     }
