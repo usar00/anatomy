@@ -12,6 +12,11 @@
       "id": "fibrous-joints-basics",
       "title": "線維性関節の構造と機能",
       "content": "線維性関節（Fibrous Joint）は、骨と骨が線維性結合組織（主にコラーゲン線維）で直接結合される関節で、関節腔を持たない。可動性はほとんどない（不動関節〜微動関節）。3つのサブタイプがある。①縫合（Suture）：頭蓋骨の骨同士を結合する薄い線維層。新生児では泉門（Fontanelle）として幅広い結合組織が残り、分娩時の産道通過と出生後の脳成長に対応する。成長完了後は大部分が骨化し骨性癒合（Synostosis）となる。②靭帯結合（Syndesmosis）：骨間靭帯や骨間膜で結合される関節。遠位脛腓関節が代表例で、わずかな動き（微動）が可能。前腕の橈骨と尺骨を結ぶ骨間膜も靭帯結合の一種で、前腕の回内・回外を可能にしつつ力を分散する。③釘植（Gomphosis）：歯が歯槽骨にはまり込む特殊な関節で、歯根膜（Periodontal Ligament）のコラーゲン線維で固定される。咬合力の衝撃吸収と、矯正治療時の歯の移動を可能にする。"
+    },
+    {
+      "id": "cartilaginous-joints-basics",
+      "title": "軟骨性関節の構造と機能",
+      "content": "軟骨性関節（Cartilaginous Joint）は、骨と骨が軟骨で結合される関節で、関節腔を持たない。2つのサブタイプがある。①軟骨結合（Synchondrosis）：硝子軟骨で骨を結合する。代表例は長骨の骨端板（Epiphyseal Plate）で、成長期には軟骨の増殖により骨が伸長し、成長完了後は骨化して骨端線（Epiphyseal Line）となる。第1肋骨と胸骨の間の肋軟骨結合も軟骨結合で、不動関節である。②線維軟骨結合（Symphysis）：線維軟骨の円盤（ディスク）で骨を結合する。代表例は椎間板（Intervertebral Disc）と恥骨結合（Pubic Symphysis）。椎間板は髄核と線維輪からなり、脊柱の荷重吸収とわずかな動きを可能にする。恥骨結合は左右の恥骨を線維軟骨のディスクで結合し、通常はほぼ不動だが、妊娠中はリラキシンの作用で弛緩し出産時に骨盤出口を広げる。線維軟骨結合は半関節（Amphiarthrosis）に分類され、個々の関節の動きはわずかでも、積み重なると大きな可動域となる（脊柱全体の前屈・後屈・側屈・回旋）。"
     }
   ],
   "sections": [
@@ -252,6 +257,251 @@
             }
           ],
           "reference_text_ids": ["fibrous-joints-basics"]
+        }
+      ]
+    },
+    {
+      "name": "軟骨性関節",
+      "slug": "cartilaginous-joints",
+      "description": "わずかに動く関節 — 椎間板と恥骨結合の巧みな設計",
+      "sort_order": 1,
+      "concepts": [
+        {
+          "name": "軟骨結合",
+          "description": "硝子軟骨で骨を結合する不動関節。骨端板や第1肋軟骨結合が代表例"
+        },
+        {
+          "name": "線維軟骨結合",
+          "description": "線維軟骨のディスクで骨を結合する半関節。椎間板と恥骨結合が代表例"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "椎間板（椎骨と椎骨の間のクッション）は、どの種類の関節に分類されるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "椎間板は線維軟骨のディスクで隣接する椎体を結合しており、軟骨性関節の一種である線維軟骨結合（Symphysis）に分類されます。関節腔や滑膜は持たず、線維軟骨が直接骨を結合します。個々の椎間板の可動性はわずか（半関節）ですが、24個の椎間板の動きが積み重なることで、脊柱全体として大きな可動域が生まれます。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.1",
+          "choices": [
+            {
+              "text": "軟骨性関節（線維軟骨結合）",
+              "is_correct": true
+            },
+            {
+              "text": "滑膜性関節",
+              "is_correct": false
+            },
+            {
+              "text": "線維性関節（靭帯結合）",
+              "is_correct": false
+            },
+            {
+              "text": "線維性関節（縫合）",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["cartilaginous-joints-basics"]
+        },
+        {
+          "question_text": "次の文を完成させてください:\n\n子供の長骨の骨端板は軟骨結合の一種であり、成長が完了すると骨化して【　　】となる。",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "骨端板（Epiphyseal Plate）は長骨の骨端と骨幹の間にある硝子軟骨の層で、軟骨結合（Synchondrosis）に分類されます。成長期には軟骨細胞の増殖により骨が伸長します。思春期の終わりにホルモンの影響で軟骨が骨に置き換わり（骨化）、骨端線（Epiphyseal Line）として痕跡が残ります。骨端線は不動関節（骨性癒合）の一例です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.1",
+          "metadata": {
+            "word_bank": ["泉門", "骨端線（Epiphyseal Line）", "骨膜", "関節唇"]
+          },
+          "choices": [
+            {
+              "text": "泉門",
+              "is_correct": false
+            },
+            {
+              "text": "骨膜",
+              "is_correct": false
+            },
+            {
+              "text": "骨端線（Epiphyseal Line）",
+              "is_correct": true
+            },
+            {
+              "text": "関節唇",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["cartilaginous-joints-basics"]
+        },
+        {
+          "question_text": "椎間板の各部がわずかしか動かないのに、脊柱全体として大きく前屈・後屈できるのはなぜか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "脊柱には約24個の椎間板があり、個々の椎間板はわずかな動き（半関節）しか許しませんが、それぞれの微小な動きが積み重なることで、脊柱全体として前屈約90°、後屈約30°、側屈約30°といった大きな可動域が実現されます。これは「マイクロモーション（微小運動）の累積効果」と呼ばれ、柔軟性と安定性を両立する巧みな設計です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.1",
+          "choices": [
+            {
+              "text": "脊柱全体に1つの大きな関節があり、そこで大きく曲がるから",
+              "is_correct": false
+            },
+            {
+              "text": "24個の椎間板それぞれのわずかな動きが積み重なり、全体で大きな可動域になるため",
+              "is_correct": true
+            },
+            {
+              "text": "前屈時に椎間板が圧縮されて消失し、椎骨同士が直接滑るため",
+              "is_correct": false
+            },
+            {
+              "text": "脊柱には滑膜性関節が隠されており、その関節で曲がるため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["cartilaginous-joints-basics"]
+        },
+        {
+          "question_text": "恥骨結合が通常はほぼ不動なのに、出産時にわずかに広がることができるのはなぜか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "恥骨結合は左右の恥骨を線維軟骨のディスクで結合する線維軟骨結合で、通常はほぼ不動です。しかし妊娠中にリラキシンというホルモンが分泌されると、線維軟骨と周囲の靭帯のコラーゲン結合が弛緩し、わずかに可動性が増します。これにより出産時に骨盤出口が数mm〜1cm程度広がり、胎児の頭部が通過しやすくなります。この弛緩は出産後に元に戻りますが、過度の弛緩は恥骨結合離開（恥骨痛）の原因になります。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.1",
+          "choices": [
+            {
+              "text": "出産時のアドレナリンで線維軟骨が瞬間的に溶解するため",
+              "is_correct": false
+            },
+            {
+              "text": "恥骨結合には小さな滑膜性関節が隠されており、必要時に可動性が現れるため",
+              "is_correct": false
+            },
+            {
+              "text": "妊娠中のリラキシンが線維軟骨と靭帯を弛緩させ、わずかな可動性が生まれるため",
+              "is_correct": true
+            },
+            {
+              "text": "胎児の体重で恥骨が少しずつ離開し、物理的に押し広げられるため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["cartilaginous-joints-basics"]
+        },
+        {
+          "question_text": "軟骨性関節の2つのサブタイプとその特徴を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "軟骨性関節には2つのサブタイプがあります。軟骨結合（Synchondrosis）は硝子軟骨で骨を結合し、不動関節です（骨端板、第1肋軟骨結合）。成長後に骨化して骨性癒合になることが多いです。線維軟骨結合（Symphysis）は線維軟骨のディスクで骨を結合し、わずかな動きが可能な半関節です（椎間板、恥骨結合）。荷重吸収とクッション機能に優れています。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.1",
+          "metadata": {
+            "pairs": [
+              {"left": "軟骨結合（Synchondrosis）", "right": "硝子軟骨で結合する不動関節（例：骨端板）"},
+              {"left": "線維軟骨結合（Symphysis）", "right": "線維軟骨ディスクで結合する半関節（例：椎間板）"},
+              {"left": "軟骨結合の特徴", "right": "成長完了後に骨化して骨性癒合になることが多い"},
+              {"left": "線維軟骨結合の特徴", "right": "荷重吸収に優れ、わずかな動きが積み重なると大きな可動域になる"}
+            ]
+          },
+          "choices": [
+            {
+              "text": "軟骨結合（Synchondrosis） → 硝子軟骨で結合する不動関節（例：骨端板）",
+              "is_correct": true
+            },
+            {
+              "text": "線維軟骨結合（Symphysis） → 線維軟骨ディスクで結合する半関節（例：椎間板）",
+              "is_correct": true
+            },
+            {
+              "text": "軟骨結合の特徴 → 成長完了後に骨化して骨性癒合になることが多い",
+              "is_correct": true
+            },
+            {
+              "text": "線維軟骨結合の特徴 → 荷重吸収に優れ、わずかな動きが積み重なると大きな可動域になる",
+              "is_correct": true
+            }
+          ],
+          "reference_text_ids": ["cartilaginous-joints-basics"]
+        },
+        {
+          "question_text": "線維軟骨結合（椎間板や恥骨結合）が「線維軟骨」でできていることの構造的利点として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "線維軟骨は硝子軟骨よりコラーゲン線維が豊富で、圧縮力と引張力の両方に強い組織です。椎間板では上下の椎体からの圧縮荷重（体重）を吸収しつつ、椎体同士をしっかり結合します。恥骨結合でも骨盤の環状構造を維持しつつ衝撃を吸収します。硝子軟骨は滑らかで関節面には適していますが、高い荷重には耐えにくいため、荷重を受ける関節間の結合には線維軟骨が使われます。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.1",
+          "choices": [
+            {
+              "text": "線維軟骨は滑らかで摩擦係数が低いため、骨同士が滑りやすくなる",
+              "is_correct": false
+            },
+            {
+              "text": "線維軟骨は血管が豊富で、損傷した場合の自己修復力が高い",
+              "is_correct": false
+            },
+            {
+              "text": "コラーゲン線維が豊富で圧縮力と引張力の両方に強く、荷重吸収と結合を両立する",
+              "is_correct": true
+            },
+            {
+              "text": "線維軟骨は神経が豊富で、関節にかかる力を正確にモニタリングできる",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["cartilaginous-joints-basics"]
+        },
+        {
+          "question_text": "第1肋骨と胸骨の結合（第1肋軟骨結合）は軟骨結合で不動だが、第2〜7肋骨と胸骨の結合は滑膜性関節である。この違いが呼吸にとって重要な理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "第1肋骨は胸郭の最上部にあり、鎖骨や肩の安定性に関わるため不動の軟骨結合で固定されています。一方、第2〜7肋骨は呼吸時に「バケツの取っ手」のように上下に動いて胸郭の容積を変える必要があるため、可動性のある滑膜性関節（胸肋関節）で胸骨と結合しています。もし全ての肋骨が不動の軟骨結合だったら、胸郭が膨らめず呼吸が大幅に制限されます。第1肋骨の不動性は上部の安定、第2〜7の可動性は呼吸機能という、異なる機能要求に対応した設計です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.1",
+          "choices": [
+            {
+              "text": "全ての肋骨が不動だと胸郭が膨らめないため、第2〜7は可動性を持ち呼吸時の胸郭拡張を可能にしている",
+              "is_correct": true
+            },
+            {
+              "text": "第1肋骨だけが特殊な骨でできており、他の肋骨と異なる材料で胸骨に結合している",
+              "is_correct": false
+            },
+            {
+              "text": "第1肋骨は心臓を直接保護するため不動にする必要があり、他の肋骨は心臓と関係がない",
+              "is_correct": false
+            },
+            {
+              "text": "第2〜7肋骨の滑膜性関節は加齢とともに軟骨結合に変化し、高齢者の呼吸制限の原因となる",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["cartilaginous-joints-basics", "fibrous-joints-basics"]
+        },
+        {
+          "question_text": "妊婦が「恥骨のあたりが痛い」と訴えることがある。この恥骨結合痛（恥骨結合離開）の解剖学的メカニズムとして最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "恥骨結合は左右の恥骨を線維軟骨ディスクで結合する半関節です。妊娠中にリラキシンの作用で靭帯と線維軟骨が弛緩すると、恥骨結合の間隔が通常の4-5mmから10mm以上に広がることがあります（恥骨結合離開）。この過度の弛緩は歩行時や寝返り時に恥骨結合部に剪断力が加わり痛みを生じます。さらに片脚立ちや階段昇降では骨盤の非対称な荷重が恥骨結合にかかり、症状が悪化します。この状態は胎児の成長と出産準備のための必要な変化が「行きすぎた」ものです。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.1",
+          "choices": [
+            {
+              "text": "恥骨結合の線維軟骨自体が炎症を起こし、膨張して痛みを生じる",
+              "is_correct": false
+            },
+            {
+              "text": "リラキシンによる過度の弛緩で恥骨結合の間隔が広がり、歩行時の剪断力で痛みが生じる",
+              "is_correct": true
+            },
+            {
+              "text": "胎児の頭が恥骨結合を直接圧迫することで、骨膜の痛覚神経が刺激される",
+              "is_correct": false
+            },
+            {
+              "text": "妊娠によるカルシウム不足で恥骨が脆くなり、微小骨折が起きている",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["cartilaginous-joints-basics"]
         }
       ]
     }
