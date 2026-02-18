@@ -82,6 +82,76 @@
       "id": "osteoporosis-basics",
       "title": "骨粗鬆症 — 骨リモデリングの不均衡",
       "content": "骨粗鬆症（Osteoporosis）は、骨吸収が骨形成を上回り続けた結果、骨密度が低下し骨折リスクが著しく高まる疾患。海綿骨の骨梁が薄く少なくなり、緻密骨も薄くなる。主なリスク因子は、①閉経（エストロゲン減少により破骨細胞の活性が増加）、②加齢（骨芽細胞の活性低下）、③運動不足（荷重刺激の欠如）、④カルシウム・ビタミンD不足、⑤喫煙・過度の飲酒、⑥長期コルチコステロイド使用。好発骨折部位は、大腿骨頸部（股関節）、椎体（圧迫骨折）、橈骨遠位端（Colles骨折/コーレス骨折）。特に大腿骨頸部骨折は高齢者の寝たきり・死亡リスクを大幅に上昇させる。予防は荷重運動、十分なカルシウム・ビタミンD摂取、禁煙が重要。"
+    },
+    {
+      "id": "spinal-curves-basics",
+      "title": "脊柱の弯曲 — S字カーブの意味",
+      "content": "成人の脊柱は側方から見るとS字状の4つの弯曲を持つ。頸椎弯曲（Cervical Curvature）は前弯（Lordosis）で7個の頸椎からなり、頭部の重さを支える。胸椎弯曲（Thoracic Curvature）は後弯（Kyphosis）で12個の胸椎からなり、胸腔を形成し心肺を収容する。腰椎弯曲（Lumbar Curvature）は前弯で5個の腰椎からなり、上半身の重さを受け止める。仙骨弯曲（Sacral Curvature）は後弯で仙骨と尾骨からなる。このS字カーブにより、直立姿勢での重心が脊柱の真上に保たれ、歩行時の衝撃が分散される。胸椎弯曲と仙骨弯曲は胎児期からある一次弯曲、頸椎弯曲（首をあげる動作で発達）と腰椎弯曲（歩行開始で発達）は生後に形成される二次弯曲である。"
+    },
+    {
+      "id": "disc-herniation-basics",
+      "title": "椎間板ヘルニア — 構造と発症メカニズム",
+      "content": "椎間板（Intervertebral Disc）は隣接する椎体の間に存在するクッションで、外側の線維輪（Anulus Fibrosus）と内部のゲル状の髄核（Nucleus Pulposus）からなる。椎間板は脊柱への衝撃を吸収し、椎骨間の動きを可能にする。椎間板ヘルニア（Disc Herniation）は、線維輪の断裂により髄核が突出し、近傍の脊髄神経根を圧迫する状態。腰椎（特にL4-L5、L5-S1）に最も多い。前屈位での重量物の持ち上げは、椎間板の前方に圧縮力、後方に引っ張り力がかかり、髄核が後方に押し出されるリスクを高める。症状は腰痛、下肢の放散痛（坐骨神経痛）、しびれなど。"
+    },
+    {
+      "id": "vertebra-structure-basics",
+      "title": "椎骨の基本構造",
+      "content": "典型的な椎骨（Vertebra）は以下の構造からなる。①椎体（Vertebral Body）：前方にある円柱状の部分で、体重を支える主要な荷重構造。上下の椎体間に椎間板がある。②椎弓（Vertebral Arch）：後方から椎体を囲むアーチ状の骨で、椎弓根（Pedicle）と椎弓板（Lamina）からなる。③椎孔（Vertebral Foramen）：椎体と椎弓に囲まれた空間で、脊髄が通る。全椎骨の椎孔が連なり脊柱管（Vertebral Canal）を形成し、脊髄を保護する。④棘突起（Spinous Process）：後方に突出する突起で、筋と靭帯の付着点。背中を触ると指先に感じる骨のでっぱり。⑤横突起（Transverse Process）：左右に突出する突起で、筋と靭帯の付着点。⑥上下の関節突起（Articular Process）：隣接する椎骨との関節面を持ち、脊柱の動きを制御する。頸椎は小さく可動性が高い、胸椎は肋骨と関節する、腰椎は大きく荷重を支えるなど、部位により特徴が異なる。"
+    },
+    {
+      "id": "yoga-spine-movement",
+      "title": "ヨガと脊柱の動き — 安全な可動性の回復",
+      "content": "ヨガの多くのポーズは脊柱の6方向の動き（屈曲・伸展・左右側屈・左右回旋）を含む。キャット・カウ（Marjaryasana-Bitilasana）は脊柱の屈曲と伸展を交互に行い、椎間板の栄養供給（imbibition：動きによる水分・栄養の出入り）を促進する。前屈（Uttanasana）は脊柱の屈曲で椎間板の後方を伸張し、後屈（Bhujangasana/コブラ）は伸展で前方を伸張する。ねじり（Ardha Matsyendrasana）は椎骨間の回旋を促す。系統的レビューでは、ヨガが慢性腰痛の短期的・長期的な緩和に有効であることが報告されている（Cramer et al., 2013, Clin J Pain, doi:10.1097/AJP.0b013e31825e1492）。また、ヨガは従来のストレッチングと同等以上の効果があることが示されている（Sherman et al., 2011, Arch Intern Med, doi:10.1001/archinternmed.2011.524）。"
+    },
+    {
+      "id": "yoga-spine-neuroscience",
+      "title": "ヨガと脳の可塑性 — 痛みの認知を変える",
+      "content": "ヨガの定期的な実践は脳の構造にも影響を与える。ヨガ実践者は加齢に伴う灰白質の減少が抑制されることが報告されている（Villemure et al., 2015, Front Hum Neurosci, doi:10.3389/fnhum.2015.00281）。また、包括的なヨガプログラム（アーサナ・呼吸法・瞑想の組み合わせ）は、運動療法単独よりも慢性腰痛の痛み・不安・抑うつを改善し、脊柱の可動性も向上させた（Tekur et al., 2012, Complement Ther Med, doi:10.1016/j.ctim.2011.12.009）。これは、ヨガが単なる物理的な運動ではなく、痛みの認知・情動処理にも作用する心身統合的アプローチであることを示唆する。指導者が『痛みのない範囲で』と伝えることは、安全な身体的境界を守るだけでなく、痛みに対する恐怖回避行動を減らす心理的効果もある。"
+    },
+    {
+      "id": "thoracic-cage-basics",
+      "title": "胸郭の構造と機能",
+      "content": "胸郭（Thoracic Cage）は胸骨・12対の肋骨・12個の胸椎で構成される骨性の囲いである。主な機能は①心臓・肺・大血管の保護、②呼吸運動の支持である。胸骨（Sternum）は胸骨柄（Manubrium）・胸骨体（Body）・剣状突起（Xiphoid Process）からなる。肋骨（Ribs）は12対あり、第1〜7肋骨は肋軟骨を介して直接胸骨に付着する真肋（True Ribs）、第8〜10肋骨は第7肋軟骨を介して間接的に胸骨につながる仮肋（False Ribs）、第11〜12肋骨は胸骨に付着しない浮遊肋（Floating Ribs）である。肋骨は後方で胸椎と関節し、肋間筋の収縮により「バケツの取っ手」のように上方に持ち上がることで胸腔を拡大し、吸気を可能にする。"
+    },
+    {
+      "id": "pectoral-girdle-basics",
+      "title": "上肢帯（肩帯）の構造と機能",
+      "content": "上肢帯（Pectoral Girdle/Shoulder Girdle）は鎖骨（Clavicle）と肩甲骨（Scapula）からなり、上肢（腕）を体幹に接続する。鎖骨は前方で胸骨と胸鎖関節（Sternoclavicular Joint）を形成し、外側で肩甲骨の肩峰（Acromion）と肩鎖関節（Acromioclavicular Joint）を形成する。鎖骨は上肢帯と体幹を直接骨で結ぶ唯一の骨であり、「つっかえ棒」として肩甲骨を体幹から離れた位置に保持し、上肢の可動域を確保する。肩甲骨は背面で肋骨の上を滑るように動く三角形の扁平骨で、筋のみで体幹に固定されている（骨での連結なし）。この「浮いた」構造が肩甲骨の自由な動きを可能にし、腕の広い運動範囲を実現する。鎖骨はS字に弯曲した細い棒状の骨で、転倒時に手をついた衝撃が伝わる経路上にあるため、人体で最も骨折頻度が高い骨の一つである。"
+    },
+    {
+      "id": "arm-forearm-basics",
+      "title": "上腕と前腕の骨",
+      "content": "上腕（Arm/Brachium）には上腕骨（Humerus）1本が存在する。近位端の上腕骨頭は肩甲骨の関節窩と肩関節を形成し、遠位端は肘関節で尺骨・橈骨と関節する。前腕（Forearm/Antebrachium）には橈骨（Radius）と尺骨（Ulna）の2本の骨がある。尺骨は内側（小指側）に位置し、肘関節では上腕骨滑車と蝶番関節を形成して屈曲・伸展を担う。肘頭（Olecranon）は肘の後方のでっぱり。橈骨は外側（親指側）に位置し、手関節では主に手根骨と関節する。前腕に2本の骨がある最大の理由は回内・回外（Pronation/Supination）を可能にするため。橈骨が尺骨の上を交差するように回転することで、手のひらを上向き（回外）・下向き（回内）に向ける動作が実現する。"
+    },
+    {
+      "id": "hand-bones-basics",
+      "title": "手の骨 — 27個の骨が生む器用さ",
+      "content": "手（Hand）は27個の骨からなり、手根骨（Carpals）8個・中手骨（Metacarpals）5本・指骨（Phalanges）14本で構成される。手根骨は2列に並ぶ短骨の集合で、近位列は舟状骨（Scaphoid）・月状骨・三角骨・豆状骨、遠位列は大菱形骨・小菱形骨・有頭骨・有鉤骨。多数の小さな骨が靭帯で連結されることで、硬さ（物を握る力）と柔軟性（細かい動き）を両立する。中手骨は手の平の骨格で5本あり、指骨は母指が2本（近位・遠位）、他の4指は各3本（近位・中節・遠位）で計14本。舟状骨は手根骨の中で最も骨折しやすく、血流が遠位から近位に向かう「逆行性血行」のため、骨折時に近位部の血流が途絶え壊死（阻血性壊死）のリスクがある。初期X線で骨折線が見えにくいことから見逃されやすい。"
+    },
+    {
+      "id": "yoga-upper-limb-breathing",
+      "title": "上肢のヨガ — 手首の保護と胸郭呼吸",
+      "content": "ヨガでは多くのポーズ（ダウンドッグ、プランク、チャトランガ）で手首に体重がかかる。手関節の過伸展（背屈90度以上）は手根管（手根骨のアーチ内を通る正中神経と屈筋腱のトンネル）への圧迫を増大させる。手首への負担を軽減するため、①指を広げて手のひら全体で荷重を分散する、②手首の下にブランケットを敷いて角度を緩和する、③握りこぶし（fist）やフォアアームバランスで手首の角度をゼロにする代替法がある。上肢の荷重ポーズは肩甲骨の安定性（前鋸筋の活性化）も重要で、肩甲骨が背面で「翼状突出」するのは筋力不足のサインである。また、ヨガの呼吸法（プラーナヤーマ）は胸郭の肋骨と横隔膜を意識的に動かし、呼吸機能の改善に寄与する。ヨガの呼吸法がストレス・不安・抑うつの軽減に有効であることが報告されている（Brown & Gerbarg, 2005, J Altern Complement Med, doi:10.1089/acm.2005.11.189）。"
+    },
+    {
+      "id": "pelvis-basics",
+      "title": "骨盤の構造と機能",
+      "content": "骨盤（Pelvis）は左右の寛骨（Hip Bone/Coxal Bone）、仙骨（Sacrum）、尾骨（Coccyx）で構成される環状の骨格構造。寛骨は腸骨（Ilium）・坐骨（Ischium）・恥骨（Pubis）の3骨が癒合したもので、外側面に寛骨臼（Acetabulum）があり大腿骨頭と股関節を形成する。骨盤の主な機能は①上半身の体重を脊柱から仙腸関節を経て下肢に伝達すること、②膀胱・直腸・生殖器（子宮・卵巣）の保護、③強大な筋群（大殿筋・腸腰筋・骨盤底筋群）の付着部の提供。男女差が顕著で、女性骨盤は産道確保のため骨盤上口が横に広い楕円形（男性は縦長のハート形）、恥骨下角が広い（女性約80-85°、男性約50-60°）、仙骨が幅広く後方にカーブ、腸骨翼がより外方に広がるなどの特徴がある。仙腸関節は強固な靭帯で結合されわずかな可動性しかないが、妊娠中はリラキシンの作用で弛緩し産道を広げる。"
+    },
+    {
+      "id": "femur-patella-basics",
+      "title": "大腿骨と膝蓋骨の構造と機能",
+      "content": "大腿骨（Femur）は人体最長・最強の骨で、体長の約1/4を占める。近位端には球状の大腿骨頭（Femoral Head）があり寛骨臼と股関節を形成する。大腿骨頭と骨幹をつなぐ大腿骨頸（Femoral Neck）は骨幹の軸に対して約125°の角度（頸体角）をなし、体重を効率的に伝達する。大転子・小転子は筋の付着部。骨幹は前方に緩やかに弯曲し、荷重を分散する。遠位端には内側顆と外側顆があり脛骨と膝関節を形成する。大腿骨頸部は海綿骨が多く骨皮質が薄い部位で、骨粗鬆症による骨密度低下の影響を最も受けやすく、高齢者の転倒による大腿骨頸部骨折は寝たきりの主要原因である。膝蓋骨（Patella）は人体最大の種子骨で、大腿四頭筋の腱内に発達する。膝蓋骨は大腿骨の前面を滑走し、大腿四頭筋のてこの支点として膝伸展の効率を約50%向上させる。膝蓋骨がなければ、同じ膝伸展力を得るのにより大きな筋力が必要になる。"
+    },
+    {
+      "id": "leg-foot-bones-basics",
+      "title": "下腿と足の骨の構造と機能",
+      "content": "下腿は脛骨（Tibia）と腓骨（Fibula）の2本の骨で構成される。脛骨は下腿の内側にある太い骨で、大腿骨から体重を受け取り足関節へ伝達する荷重骨（Weight-Bearing Bone）である。近位端の内側顆・外側顆が大腿骨の顆と膝関節を形成し、遠位端の内果（Medial Malleolus）が足関節の内側の突起となる。腓骨は下腿の外側にある細い骨で、体重は支えない。外果（Lateral Malleolus）が足関節の外側の突起となり、足関節の安定性に寄与する。足は26個の骨（足根骨7個 + 中足骨5個 + 趾骨14個）で構成される。足根骨のうち距骨（Talus）は脛骨と腓骨の間に嵌まり足関節を形成し、踵骨（Calcaneus）は踵を構成し最大の足根骨である。足には3つのアーチ（内側縦アーチ、外側縦アーチ、横アーチ）があり、靭帯・腱・骨の配列で維持される。アーチは①衝撃吸収（歩行・走行時）、②体重の分散（踵骨頭と中足骨頭へ）、③歩行時の推進力（バネ効果）の役割を持つ。アーチが崩れた状態が扁平足（Flat Foot/Pes Planus）で、足部痛・膝痛・腰痛の原因となりうる。"
+    },
+    {
+      "id": "yoga-lower-limb-grounding",
+      "title": "下肢とヨガ — 立位ポーズの土台と転倒予防",
+      "content": "ヨガの立位ポーズは下肢の骨格（骨盤・大腿骨・脛骨・足の骨）を全面的に使う。ヴィーラバドラーサナI（戦士のポーズI）では前脚の膝が足首の真上にくるアライメントが重要で、膝が内側に入る（Knee Valgus）と大腿骨と脛骨の軸がずれ、膝関節の内側靭帯やACLにストレスがかかる。ヴルクシャーサナ（木のポーズ）の片脚立ちでは、支持脚の足のアーチ（特に内側縦アーチ）が体重を支えながらバランスを維持し、足趾でマットを掴む動作（Pada Bandha）が固有受容感覚を高める。ヨガの立位バランスポーズが高齢者の転倒予防に有効であることが示されている（Ni et al., 2014, Archives of Physical Medicine and Rehabilitation, doi:10.1016/j.apmr.2014.04.022）。股関節の開き（外旋）はバッダ・コナーサナ（合蹠のポーズ）で練習されるが、解剖学的には大腿骨頭が寛骨臼内で回旋する動きであり、骨盤の形状や大腿骨頸の前捻角には個人差が大きいため、股関節の可動域には生まれつきの骨格的限界がある。無理な開脚は関節唇損傷や恥骨結合炎のリスクとなる。ヨガの荷重ポーズが骨密度維持に寄与する可能性が報告されており（Motorwala et al., 2016, International Journal of Yoga, doi:10.4103/0973-6131.171717）、特に閉経後女性の骨粗鬆症予防に関心が持たれている。"
     }
   ],
   "sections": [
@@ -1977,6 +2047,3155 @@
             "bone-remodeling-basics",
             "yoga-weight-bearing"
           ]
+        }
+      ]
+    },
+    {
+      "name": "脊柱のS字カーブ",
+      "slug": "spinal-curves",
+      "description": "なぜS字？直立二足歩行の代償 — 脊柱の弯曲と椎間板ヘルニアのしくみ",
+      "sort_order": 7,
+      "concepts": [
+        {
+          "name": "脊柱弯曲",
+          "description": "脊柱は4つの弯曲（頸椎前弯・胸椎後弯・腰椎前弯・仙骨後弯）でS字を形成し、直立姿勢と衝撃吸収を実現する"
+        },
+        {
+          "name": "椎間板ヘルニア",
+          "description": "椎間板の線維輪が断裂し髄核が突出して神経根を圧迫する病態。腰椎に好発する"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "成人の脊柱を横から見たとき、全体の形状はどのように表現されるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "成人の脊柱は側面から見るとS字状の弯曲を描く。これは頸椎の前弯、胸椎の後弯、腰椎の前弯、仙骨の後弯という4つのカーブが交互に現れるためである。このS字カーブは直立二足歩行する人間に特徴的な構造であり、重心の安定と衝撃の分散に不可欠である。",
+          "source": "OpenStax Anatomy and Physiology 7.3",
+          "choices": [
+            {
+              "text": "S字状の弯曲（4つのカーブが交互に並ぶ）",
+              "is_correct": true
+            },
+            {
+              "text": "まっすぐな一直線（ストレート）",
+              "is_correct": false
+            },
+            {
+              "text": "C字状に1方向に弯曲",
+              "is_correct": false
+            },
+            {
+              "text": "螺旋状にねじれている",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "spinal-curves-basics"
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "椎間板は隣接する椎体の間に存在するクッションで、外側の線維輪（Anulus Fibrosus）と内部のゲル状の髄核（Nucleus Pulposus）からなる。この構造により、脊柱への衝撃を吸収し、椎骨間のわずかな動きを可能にしている。椎間板は人体の中で最大の無血管組織であり、栄養は周囲から拡散で供給される。",
+          "source": "OpenStax Anatomy and Physiology 7.3, 9.1",
+          "metadata": {
+            "template": "椎間板の内部にあるゲル状の組織を {{blank}} という"
+          },
+          "choices": [
+            {
+              "text": "髄核",
+              "is_correct": true
+            },
+            {
+              "text": "線維輪",
+              "is_correct": false
+            },
+            {
+              "text": "骨端板",
+              "is_correct": false
+            },
+            {
+              "text": "関節軟骨",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "disc-herniation-basics"
+          ]
+        },
+        {
+          "question_text": "脊柱がS字カーブを持つことには、直立二足歩行においてどのような力学的メリットがあるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "脊柱のS字カーブには2つの重要な力学的メリットがある。①バネ効果による衝撃吸収：カーブがあることで歩行・走行時の衝撃が分散される。もし脊柱が一直線であれば、衝撃が直接脳に伝わってしまう。②重心の維持：4つのカーブが互いに相殺しあうことで、頭部の重心が骨盤（支持基底面）の真上に保たれ、最小限の筋力で直立姿勢を維持できる。S字カーブは直立二足歩行という人類特有の移動様式を可能にした重要な適応である。",
+          "source": "OpenStax Anatomy and Physiology 7.3",
+          "choices": [
+            {
+              "text": "衝撃をバネのように分散し、重心を支持基底面の上に保って直立姿勢を効率的に維持する",
+              "is_correct": true
+            },
+            {
+              "text": "脊髄をより多くの骨で囲むことで保護を強化する",
+              "is_correct": false
+            },
+            {
+              "text": "背中の筋肉の付着面積を増やして筋力を強化する",
+              "is_correct": false
+            },
+            {
+              "text": "内臓を収納するスペースを脊柱の前方に確保する",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "spinal-curves-basics"
+          ]
+        },
+        {
+          "question_text": "前かがみの姿勢で重い荷物を持ち上げると、椎間板に何が起こりやすいか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "前屈（前かがみ）の姿勢をとると、椎間板の前方に圧縮力がかかり、後方に引っ張り力がかかる。この状態で重い物を持ち上げると、圧力差がさらに大きくなり、ゲル状の髄核が後方に押し出される。これにより線維輪が断裂し、髄核が突出して後方の脊髄神経根を圧迫する — これが椎間板ヘルニアである。特に腰椎（L4-L5、L5-S1）は最も荷重が大きく、ヘルニアが好発する。膝を曲げて腰を落としてから持ち上げる（スクワットリフト）ことで、椎間板への不均等な圧力を軽減できる。",
+          "source": "OpenStax Anatomy and Physiology 7.3, 9.1",
+          "choices": [
+            {
+              "text": "前方の圧縮で髄核が後方に押し出され、線維輪が断裂して神経を圧迫する（ヘルニア）",
+              "is_correct": true
+            },
+            {
+              "text": "椎間板が左右にずれて脊柱が側弯する",
+              "is_correct": false
+            },
+            {
+              "text": "椎間板内の血管が破裂して出血する",
+              "is_correct": false
+            },
+            {
+              "text": "椎間板が完全に潰れて隣接する椎骨が直接こすれ合う",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "disc-herniation-basics"
+          ]
+        },
+        {
+          "question_text": "脊柱の弯曲の種類と特徴を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "脊柱の4つの弯曲はそれぞれ異なる特徴を持つ。頸椎弯曲（C1-C7）は前弯で、赤ちゃんが首をあげる動作をきっかけに発達する二次弯曲。胸椎弯曲（T1-T12）は後弯で、胎児期からある一次弯曲。胸郭を形成し心肺を収容する。腰椎弯曲（L1-L5）は前弯で、歩行開始をきっかけに発達する二次弯曲。上半身の重さを支える。仙骨弯曲は後弯で、胎児期からある一次弯曲。",
+          "source": "OpenStax Anatomy and Physiology 7.3",
+          "metadata": {
+            "pairs": [
+              {
+                "left": "頸椎弯曲（7個）",
+                "right": "前弯。首をあげる動作で発達する二次弯曲"
+              },
+              {
+                "left": "胸椎弯曲（12個）",
+                "right": "後弯。胎児期からある一次弯曲。胸郭を形成"
+              },
+              {
+                "left": "腰椎弯曲（5個）",
+                "right": "前弯。歩行開始で発達する二次弯曲"
+              },
+              {
+                "left": "仙骨弯曲",
+                "right": "後弯。胎児期からある一次弯曲"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "spinal-curves-basics"
+          ]
+        },
+        {
+          "question_text": "頸椎弯曲と腰椎弯曲は「二次弯曲」と呼ばれる。胸椎弯曲・仙骨弯曲（一次弯曲）との違いは何か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "一次弯曲（Primary Curvature）は胎児期からすでに存在する弯曲で、胸椎の後弯と仙骨の後弯がこれに該当する。胎児は丸まったC字の姿勢をとっており、この後弯が一次弯曲である。二次弯曲（Secondary Curvature）は生後の発達に伴って形成される前弯で、頸椎弯曲（生後3〜4ヶ月、首をあげる動作で発達）と腰椎弯曲（1歳前後、歩行開始で発達）がこれに該当する。二次弯曲は直立二足歩行への適応として後天的に形成される。",
+          "source": "OpenStax Anatomy and Physiology 7.3",
+          "choices": [
+            {
+              "text": "一次弯曲は胎児期から存在し、二次弯曲は生後に首をあげる・歩く動作で発達する",
+              "is_correct": true
+            },
+            {
+              "text": "一次弯曲は加齢で消失するが二次弯曲は生涯維持される",
+              "is_correct": false
+            },
+            {
+              "text": "一次弯曲は骨の形状で、二次弯曲は筋肉の緊張で作られる",
+              "is_correct": false
+            },
+            {
+              "text": "一次弯曲は男性に特徴的で二次弯曲は女性に特徴的",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "spinal-curves-basics"
+          ]
+        },
+        {
+          "question_text": "デスクワークで長時間前かがみの姿勢を続けている人が腰痛を訴えている。脊柱の弯曲と椎間板の知識を使って、何が起きているか最も的確に説明しているのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "デスクワークでの前かがみ姿勢は、腰椎の前弯（正常なS字カーブの一部）を減少または消失させる。この状態では椎間板の前方に持続的な圧縮力がかかり、髄核が後方に押し出される力が長時間加わり続ける。さらに、背部の筋（脊柱起立筋群）が持続的に伸張された状態で疲労し、腰椎を支える能力が低下する。椎間板への不均等な荷重と筋疲労の両方が腰痛の原因となる。適切な腰椎前弯を保つ座位姿勢と、定期的な休憩・ストレッチが予防に重要である。",
+          "source": "OpenStax Anatomy and Physiology 7.3, 9.1",
+          "choices": [
+            {
+              "text": "腰椎の正常な前弯が失われ、椎間板の後方に持続的な圧力がかかり、背部の筋も疲労している",
+              "is_correct": true
+            },
+            {
+              "text": "椅子に座ると脊柱が伸びすぎて椎骨間が広がり、神経が引っ張られている",
+              "is_correct": false
+            },
+            {
+              "text": "座位では重力がかからないので骨密度が低下し、骨自体が痛みを発している",
+              "is_correct": false
+            },
+            {
+              "text": "前かがみで腰椎の前弯が過度に増大し、椎骨同士がぶつかっている",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "spinal-curves-basics",
+            "disc-herniation-basics"
+          ]
+        },
+        {
+          "question_text": "腰椎椎間板ヘルニアの患者が「腰だけでなく、足の裏までしびれる」と訴えている。この症状が起こるメカニズムを最もよく説明しているのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "腰椎椎間板ヘルニアでは、突出した髄核が腰椎の脊髄神経根（特にL4、L5、S1）を圧迫する。これらの神経根は坐骨神経の一部を形成し、殿部から大腿後面を通り、下腿・足部まで走行する。神経根が圧迫されると、その神経が支配する領域全体に痛み・しびれが放散する（坐骨神経痛/Sciatica）。つまり、問題は腰椎にあるが、そこから出る神経が足先まで届いているため、圧迫部位より遠い足裏にまで症状が現れる。これは解剖学における「関連痛（Referred Pain）」の一例でもある。",
+          "source": "OpenStax Anatomy and Physiology 7.3, 13.4",
+          "choices": [
+            {
+              "text": "突出した髄核が腰椎の神経根を圧迫し、その神経が足先まで走行しているため、遠方にも症状が出る",
+              "is_correct": true
+            },
+            {
+              "text": "椎間板の破片が血流に乗って足まで運ばれ、血管を詰まらせている",
+              "is_correct": false
+            },
+            {
+              "text": "腰の痛みが脳に伝わるとき、脳が誤って足の信号と混同している",
+              "is_correct": false
+            },
+            {
+              "text": "腰をかばう歩き方により足の筋肉が疲労してしびれが出ている",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "disc-herniation-basics",
+            "spinal-curves-basics"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "椎骨と椎間板",
+      "slug": "vertebrae-discs",
+      "description": "椎骨はなぜ穴がある？脊髄を守る設計 — 椎骨の構造と部位ごとの特徴",
+      "sort_order": 8,
+      "concepts": [
+        {
+          "name": "椎骨の構造",
+          "description": "椎体・椎弓・椎孔・棘突起・横突起・関節突起からなり、荷重支持と脊髄保護を両立する"
+        },
+        {
+          "name": "椎間板の構造",
+          "description": "線維輪と髄核からなるクッション。衝撃吸収と椎骨間の動きを可能にする"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "椎骨の中央にある穴（椎孔）を通っている最も重要な構造はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "椎孔（Vertebral Foramen）は椎体と椎弓に囲まれた空間で、全椎骨の椎孔が上下に連なって脊柱管（Vertebral Canal）を形成する。この管の中を脊髄（Spinal Cord）が通っている。脊髄は脳と全身をつなぐ神経の束であり、椎骨は脊髄を骨で囲むことで保護するという極めて重要な機能を持つ。",
+          "source": "OpenStax Anatomy and Physiology 7.3",
+          "choices": [
+            {
+              "text": "脊髄（脳と全身をつなぐ神経の束）",
+              "is_correct": true
+            },
+            {
+              "text": "大動脈（心臓から全身に血液を送る血管）",
+              "is_correct": false
+            },
+            {
+              "text": "椎間板（クッションの役割）",
+              "is_correct": false
+            },
+            {
+              "text": "骨髄（血液を作る組織）",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "vertebra-structure-basics"
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "背中の中心線に沿って触れることができる骨のでっぱりは、各椎骨の棘突起（Spinous Process）である。棘突起は椎弓の後方から突出し、筋肉や靭帯の付着点として機能する。体表から触知できるため、臨床的に椎骨の位置を確認するランドマークとしても重要。第7頸椎（C7）の棘突起は特に大きく突出しており「隆椎」と呼ばれ、首を前に曲げると最も目立つ。",
+          "source": "OpenStax Anatomy and Physiology 7.3",
+          "metadata": {
+            "template": "背中の中心線に沿って触れる骨のでっぱりは椎骨の {{blank}} である"
+          },
+          "choices": [
+            {
+              "text": "棘突起",
+              "is_correct": true
+            },
+            {
+              "text": "横突起",
+              "is_correct": false
+            },
+            {
+              "text": "椎体",
+              "is_correct": false
+            },
+            {
+              "text": "椎弓根",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "vertebra-structure-basics"
+          ]
+        },
+        {
+          "question_text": "椎骨が「椎体（前方）」と「椎弓（後方）」に分かれた構造を持つのはなぜか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "椎骨は2つの異なる機能を同時に果たす必要がある。①前方の椎体は体重を支える荷重構造で、円柱状で丈夫に作られている。②後方の椎弓は脊髄を囲んで保護するアーチ構造である。この2つが組み合わさることで「体重を支えながら脊髄を守る」という設計が実現される。もし骨が中実（穴のない塊）であれば脊髄の通り道がなく、逆にリング状だけでは荷重を支えきれない。椎体と椎弓の分業こそが椎骨の機能的デザインの核心である。",
+          "source": "OpenStax Anatomy and Physiology 7.3",
+          "choices": [
+            {
+              "text": "前方の椎体で体重を支え、後方の椎弓で脊髄を保護するという2つの機能を同時に果たすため",
+              "is_correct": true
+            },
+            {
+              "text": "2つに分かれていることで椎骨自体の重さを軽くするため",
+              "is_correct": false
+            },
+            {
+              "text": "椎体と椎弓の間に血管を通すため",
+              "is_correct": false
+            },
+            {
+              "text": "成長期に椎体と椎弓が別々に発育する名残で機能的意味はない",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "vertebra-structure-basics"
+          ]
+        },
+        {
+          "question_text": "腰椎の椎体が頸椎の椎体よりも大きい理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "脊柱の上から下にかけて、支えなければならない体重は増加する。頸椎は頭部（約5kg）のみを支えるが、腰椎は頭部＋上肢＋体幹の全重量を支える。このため、下位の椎骨ほど椎体が大きく頑丈になっている。これはウォルフの法則の応用でもある。大きな椎体は荷重を広い面積に分散し、単位面積あたりの圧力を下げる。腰椎（L1-L5）は脊柱の中で最大の椎体を持ち、最も重い荷重環境に適応している。",
+          "source": "OpenStax Anatomy and Physiology 7.3",
+          "choices": [
+            {
+              "text": "脊柱の下部ほど支える体重が増えるため、より大きな荷重面積が必要だから",
+              "is_correct": true
+            },
+            {
+              "text": "腰椎は椎間板がないため、椎体自体がクッションの役割を果たすから",
+              "is_correct": false
+            },
+            {
+              "text": "腰椎には大きな血管が通るため、それを収容するスペースが必要だから",
+              "is_correct": false
+            },
+            {
+              "text": "腰椎は運動量が多いため、筋の付着面積を広くする必要があるから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "vertebra-structure-basics",
+            "spongy-bone-basics"
+          ]
+        },
+        {
+          "question_text": "椎骨の各構造とその主な機能を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "椎体は前方に位置する円柱状の部分で体重を支える主要な荷重構造。椎孔は椎体と椎弓に囲まれた空間で脊髄の通り道を提供する。棘突起は後方に突出し、筋と靭帯の付着点となる（背中を触ると感じるでっぱり）。横突起は左右に突出し、筋と靭帯の付着点。特に胸椎の横突起は肋骨と関節する。",
+          "source": "OpenStax Anatomy and Physiology 7.3",
+          "metadata": {
+            "pairs": [
+              {
+                "left": "椎体",
+                "right": "体重を支える前方の荷重構造"
+              },
+              {
+                "left": "椎孔",
+                "right": "脊髄が通る保護された空間"
+              },
+              {
+                "left": "棘突起",
+                "right": "後方に突出し筋・靭帯が付着する"
+              },
+              {
+                "left": "横突起",
+                "right": "左右に突出し筋・肋骨が関係する"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "vertebra-structure-basics"
+          ]
+        },
+        {
+          "question_text": "胸椎が頸椎や腰椎に比べて可動性が低い最大の理由は何か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "胸椎（T1-T12）の最大の特徴は、肋骨と関節している点である。12対の肋骨が胸椎と胸骨をつなぎ、胸郭（Thoracic Cage）を形成する。この骨性の囲いは心臓と肺を保護するが、同時に胸椎の動きを制限する。頸椎は肋骨と関節せず小さいため可動性が高く、腰椎は肋骨と関節せず関節突起の向きが屈曲・伸展を許す。胸椎は肋骨との関節により、特に回旋と側屈が制限される。これは「保護のために可動性を犠牲にする」というトレードオフの例である。",
+          "source": "OpenStax Anatomy and Physiology 7.3, 7.4",
+          "choices": [
+            {
+              "text": "肋骨と関節しており、胸郭を形成しているため動きが制限される",
+              "is_correct": true
+            },
+            {
+              "text": "胸椎は他の部位より椎間板が薄いため柔軟性が低い",
+              "is_correct": false
+            },
+            {
+              "text": "胸椎の椎体が最も大きく重いため動かしにくい",
+              "is_correct": false
+            },
+            {
+              "text": "脊髄が胸椎の部分で最も太いため、動くと損傷のリスクがある",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "vertebra-structure-basics",
+            "spinal-curves-basics"
+          ]
+        },
+        {
+          "question_text": "20kgの荷物を腰を丸めて持ち上げた場合と、膝を曲げて腰をまっすぐに保って持ち上げた場合では、腰椎にかかる負担はどう違うか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "腰を丸めて持ち上げると、腰椎の前弯が消失し、椎間板の前方に圧縮力、後方に引っ張り力がかかる不均等な荷重状態になる。さらに、てこの原理により、腰椎にかかる力は持ち上げる物の重さの数倍になる（上半身の重さ＋荷物の重さ × 腕の長さ/背筋の力点距離）。一方、膝を曲げて腰をまっすぐにすると、椎間板への荷重が均等に分散され、脚の大きな筋（大腿四頭筋・殿筋）が主動筋として働くため腰椎への負荷が大幅に軽減される。ヘルニアの予防には持ち上げ姿勢の教育が極めて重要。",
+          "source": "OpenStax Anatomy and Physiology 7.3, 9.1",
+          "choices": [
+            {
+              "text": "腰を丸めると椎間板に不均等な圧力がかかり、膝を曲げて腰を保つと荷重が脚の筋に分散される",
+              "is_correct": true
+            },
+            {
+              "text": "持ち上げ方に関係なく、重さが同じなら腰椎への負担も同じ",
+              "is_correct": false
+            },
+            {
+              "text": "膝を曲げるとかえって腰が反りすぎて棘突起同士がぶつかる",
+              "is_correct": false
+            },
+            {
+              "text": "腰を丸めた方が脊柱の筋が弛緩してリラックスするので負担が少ない",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "disc-herniation-basics",
+            "vertebra-structure-basics"
+          ]
+        },
+        {
+          "question_text": "脊柱管狭窄症の高齢者が「歩いていると足がしびれるが、前かがみになったり座ったりすると楽になる」と訴えている。この現象を椎骨の構造から説明できるのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "脊柱管狭窄症（Spinal Stenosis）は、加齢による椎間板の変性、椎体の骨棘（骨のとげ）形成、靭帯の肥厚などにより脊柱管が狭くなり、脊髄や神経根が圧迫される状態。直立歩行時には腰椎が伸展（反り返り）するため、脊柱管がさらに狭まり、神経圧迫が増大して下肢のしびれ・痛みが出現する（間欠性跛行）。一方、前かがみや座位では腰椎が屈曲し、脊柱管が相対的に広がるため症状が緩和する。このため患者は自然と前かがみ姿勢を好む。椎孔の大きさが姿勢によって変化するという椎骨の構造的特性が症状を理解する鍵となる。",
+          "source": "OpenStax Anatomy and Physiology 7.3",
+          "choices": [
+            {
+              "text": "直立時は腰椎伸展で脊柱管が狭まり神経を圧迫するが、前屈すると脊柱管が広がり圧迫が緩和されるから",
+              "is_correct": true
+            },
+            {
+              "text": "歩行で椎間板が振動により圧縮され、座ると元に戻るから",
+              "is_correct": false
+            },
+            {
+              "text": "歩行時に棘突起が筋肉を刺激して痛みが出るが、座ると接触がなくなるから",
+              "is_correct": false
+            },
+            {
+              "text": "立位では重力で脊髄が引き伸ばされ、座位では弛緩するから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "vertebra-structure-basics",
+            "spinal-curves-basics"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "脊柱とヨガ — 動きが椎間板を育てる",
+      "slug": "spine-and-yoga",
+      "description": "ヨガのポーズと脊柱の解剖学を統合し、安全な指導と腰痛予防の科学を学ぶ",
+      "sort_order": 9,
+      "concepts": [
+        {
+          "name": "脊柱の6方向の動き",
+          "description": "屈曲・伸展・左右側屈・左右回旋の6方向。ヨガのポーズはこれらを組み合わせて脊柱の可動性を維持する"
+        },
+        {
+          "name": "椎間板の栄養と運動",
+          "description": "椎間板は無血管組織であり、動きによる圧縮・弛緩（imbibition）で栄養が供給される"
+        },
+        {
+          "name": "ヨガと痛みの心身統合",
+          "description": "ヨガは脊柱の物理的改善だけでなく、脳の可塑性や痛みの認知にも作用する"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "キャット・カウ（マルジャリアーサナ・ビティラーサナ）で脊柱を丸める→反らせるを繰り返す動きは、椎間板にどのような効果があるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "椎間板は人体最大の無血管組織であり、血管からではなく周囲の組織液の出入り（imbibition）で栄養を得ている。キャット・カウで脊柱の屈曲（丸める）と伸展（反る）を交互に行うと、椎間板に圧縮と弛緩が繰り返し加わり、スポンジが水を吸い込むように栄養と水分が出入りする。このポンプ作用が椎間板の健康を維持し、変性を予防する。朝一番のキャット・カウは、睡眠中に水分を吸って膨らんだ椎間板を穏やかに「目覚めさせる」効果がある。",
+          "source": "OpenStax Anatomy and Physiology 9.1 / Cramer et al., 2013, Clin J Pain, doi:10.1097/AJP.0b013e31825e1492",
+          "choices": [
+            {
+              "text": "圧縮と弛緩の繰り返しで椎間板に栄養と水分が出入りし、健康を維持する",
+              "is_correct": true
+            },
+            {
+              "text": "椎間板内の血流が増加して酸素が供給される",
+              "is_correct": false
+            },
+            {
+              "text": "椎間板が徐々に薄くなり柔軟性が高まる",
+              "is_correct": false
+            },
+            {
+              "text": "髄核が硬化して椎間板の強度が上がる",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "yoga-spine-movement",
+            "disc-herniation-basics"
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "脊柱の動きは6方向に分類される。屈曲（Flexion：前に曲げる）、伸展（Extension：後ろに反る）、左側屈（Left Lateral Flexion）、右側屈（Right Lateral Flexion）、左回旋（Left Rotation）、右回旋（Right Rotation）。ヨガのポーズはこの6方向すべてを含み、バランスの取れた脊柱の可動性を維持することを目指す。キャット・カウは屈曲・伸展、パールシュヴァコーナーサナは側屈、アルダ・マツィエンドラーサナは回旋を主に含む。",
+          "source": "OpenStax Anatomy and Physiology 9.5",
+          "metadata": {
+            "template": "ヨガで脊柱をバランスよく動かすには、屈曲・伸展・側屈・ {{blank}} の6方向を含めるとよい"
+          },
+          "choices": [
+            {
+              "text": "回旋",
+              "is_correct": true
+            },
+            {
+              "text": "牽引",
+              "is_correct": false
+            },
+            {
+              "text": "圧縮",
+              "is_correct": false
+            },
+            {
+              "text": "振動",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "yoga-spine-movement",
+            "spinal-curves-basics"
+          ]
+        },
+        {
+          "question_text": "ブジャンガーサナ（コブラのポーズ）で脊柱を伸展（後屈）させるとき、椎間板と椎骨にはそれぞれどのような力がかかるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "脊柱の伸展（後屈）では、椎間板の前方が開き（伸張）、後方が圧縮される。これは前屈（屈曲）の逆のパターンである。髄核は前方に移動する傾向がある。椎骨レベルでは、後方の関節突起が近づき、棘突起同士が接近する。過度の後屈は棘突起の衝突や椎間関節への過負荷を引き起こす。コブラのポーズは腰椎ヘルニア（後方に突出した髄核）の軽減に用いられることもあるが、これは伸展により髄核を前方に戻す効果を期待するものである。ただし脊柱管狭窄症がある場合は逆に症状を悪化させるため、禁忌となる。",
+          "source": "OpenStax Anatomy and Physiology 7.3, 9.1 / Kaminoff & Matthews, Yoga Anatomy, 2011",
+          "choices": [
+            {
+              "text": "椎間板の前方が伸張し後方が圧縮され、髄核は前方に移動する傾向がある",
+              "is_correct": true
+            },
+            {
+              "text": "椎間板全体が均等に圧縮され、椎骨が上下に近づく",
+              "is_correct": false
+            },
+            {
+              "text": "椎間板の後方が伸張し、髄核がさらに後方に押し出される",
+              "is_correct": false
+            },
+            {
+              "text": "椎間板への力はゼロになり、完全にリラックスした状態になる",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "disc-herniation-basics",
+            "yoga-spine-movement"
+          ]
+        },
+        {
+          "question_text": "ヨガの前屈（ウッターナーサナ）を指導するとき、「腰を丸めず、股関節から折り畳む」と伝える解剖学的理由は何か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "前屈の際に腰椎を強く丸める（腰椎屈曲）と、椎間板の前方に圧縮力、後方に引っ張り力がかかり、髄核が後方に押し出されるリスクが高まる。特に椎間板が変性している人では、ヘルニアを誘発する可能性がある。一方、股関節から折り畳む（Hip Hinge）と、腰椎の生理的な前弯を保ったまま前傾でき、椎間板への不均等な荷重を避けられる。これは日常の持ち上げ動作にも共通する原則であり、ヨガを通じて正しい身体の使い方を身につけることができる。",
+          "source": "OpenStax Anatomy and Physiology 7.3, 9.1 / Sherman et al., 2011, Arch Intern Med, doi:10.1001/archinternmed.2011.524",
+          "choices": [
+            {
+              "text": "腰椎を丸めると椎間板後方に不均等な圧力がかかり、ヘルニアのリスクが高まるから",
+              "is_correct": true
+            },
+            {
+              "text": "腰を丸めると脊髄が引っ張られて損傷するから",
+              "is_correct": false
+            },
+            {
+              "text": "腰椎の棘突起が皮膚を突き破る危険があるから",
+              "is_correct": false
+            },
+            {
+              "text": "股関節から折ると見た目のフォームが美しくなるだけで解剖学的理由はない",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "disc-herniation-basics",
+            "yoga-spine-movement",
+            "spinal-curves-basics"
+          ]
+        },
+        {
+          "question_text": "ヨガのポーズと脊柱の動きの方向を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "キャット（丸める）は脊柱の屈曲、カウ（反らす）は伸展にあたる。ねじりのポーズ（アルダ・マツィエンドラーサナ）は脊柱の回旋を主に含む。側屈のポーズ（パールシュヴァコーナーサナ/体側を伸ばすポーズ）は脊柱の側屈を含む。コブラのポーズは脊柱の伸展（後屈）である。ヨガのシークエンスでは6方向すべてをバランスよく含めることが推奨される。",
+          "source": "OpenStax Anatomy and Physiology 9.5 / Kaminoff & Matthews, Yoga Anatomy, 2011",
+          "metadata": {
+            "pairs": [
+              {
+                "left": "キャット（丸める）",
+                "right": "脊柱の屈曲"
+              },
+              {
+                "left": "コブラ（反る）",
+                "right": "脊柱の伸展"
+              },
+              {
+                "left": "ねじりのポーズ",
+                "right": "脊柱の回旋"
+              },
+              {
+                "left": "体側を伸ばすポーズ",
+                "right": "脊柱の側屈"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "yoga-spine-movement"
+          ]
+        },
+        {
+          "question_text": "ヨガが慢性腰痛に有効であることを示す研究があるが、「ヨガの効果はストレッチングと同程度」という報告もある。それでもヨガが特に推奨される理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "Sherman et al.（2011, Arch Intern Med）のRCTでは、ヨガの腰痛改善効果はストレッチングと同程度であった。しかしTekur et al.（2012, Complement Ther Med）は、アーサナ・呼吸法・瞑想を含む包括的ヨガが運動単独より痛み・不安・抑うつを改善することを示した。さらにVillemure et al.（2015, Front Hum Neurosci）は、ヨガ実践者の灰白質が加齢に伴う減少を示さないことを報告。つまりヨガは物理的な柔軟性改善に加え、呼吸法・瞑想による痛みの認知変容、不安の軽減、脳の神経可塑性への効果という複合的メリットがある。",
+          "source": "Sherman et al., 2011, Arch Intern Med, doi:10.1001/archinternmed.2011.524 / Tekur et al., 2012, Complement Ther Med, doi:10.1016/j.ctim.2011.12.009 / Villemure et al., 2015, Front Hum Neurosci, doi:10.3389/fnhum.2015.00281",
+          "choices": [
+            {
+              "text": "呼吸法・瞑想を含む包括的アプローチにより、物理的改善に加え痛みの認知・不安・脳の可塑性にも作用するから",
+              "is_correct": true
+            },
+            {
+              "text": "ヨガの方がストレッチングより筋力が大幅に向上するから",
+              "is_correct": false
+            },
+            {
+              "text": "ヨガには椎間板を再生させる直接的な効果が証明されているから",
+              "is_correct": false
+            },
+            {
+              "text": "ヨガは宗教的な側面があり精神的な癒し効果が科学的に測定できないから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "yoga-spine-neuroscience",
+            "yoga-spine-movement"
+          ]
+        },
+        {
+          "question_text": "腰痛持ちの生徒がヨガクラスに参加した。脊柱の解剖学に基づいた指導として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "腰痛持ちの生徒への指導には解剖学的根拠が必要。①キャット・カウで穏やかな屈伸から始める：椎間板のポンプ作用で栄養供給を促し、脊柱の可動性を安全に確認する。②前屈は股関節から折り畳み、腰椎の過度な屈曲を避ける：椎間板への不均等な荷重を防ぐ。③後屈は痛みのない範囲で：脊柱管狭窄がある場合は悪化のリスク。④ねじりは穏やかに：胸椎の回旋を促し腰椎への過負荷を避ける。「痛みのない範囲で」は安全の原則であると同時に、恐怖回避行動を減らす心理的効果もある。無理な深い前屈を強制したり、腰痛を無視して進めるのは禁忌である。",
+          "source": "Cramer et al., 2013, Clin J Pain, doi:10.1097/AJP.0b013e31825e1492 / Tekur et al., 2012, Complement Ther Med, doi:10.1016/j.ctim.2011.12.009",
+          "choices": [
+            {
+              "text": "キャット・カウで穏やかに脊柱を動かし始め、前屈は股関節から、後屈・ねじりは痛みのない範囲で行う",
+              "is_correct": true
+            },
+            {
+              "text": "腰痛があるときは脊柱を一切動かさず、座位瞑想だけ行う",
+              "is_correct": false
+            },
+            {
+              "text": "痛みを乗り越えるために深い前屈を積極的に練習させる",
+              "is_correct": false
+            },
+            {
+              "text": "腰痛は筋力不足が原因なので、プランクとチャトランガを繰り返す",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "yoga-spine-movement",
+            "disc-herniation-basics",
+            "spinal-curves-basics"
+          ]
+        },
+        {
+          "question_text": "ヨガの指導者養成で「腰痛のある生徒へのコブラのポーズの指導」について考察せよ。椎間板ヘルニアと脊柱管狭窄症の生徒では、コブラの適否が異なる。その理由を最もよく説明しているのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "コブラのポーズ（脊柱伸展）は、椎間板ヘルニアと脊柱管狭窄症で正反対の効果を持つ。椎間板ヘルニアでは、後方に突出した髄核を伸展により前方に戻す効果が期待でき、症状の緩和に有効なことがある（McKenzie法の原理）。一方、脊柱管狭窄症では、伸展により脊柱管がさらに狭くなり神経圧迫が増大するため、症状が悪化する。脊柱管狭窄症の生徒は屈曲（前かがみ）で楽になる傾向がある。このように同じ「腰痛」でも病態が異なれば適切なポーズが正反対になる。指導者には解剖学的知識に基づく個別対応が求められる。",
+          "source": "OpenStax Anatomy and Physiology 7.3 / Cramer et al., 2013, Clin J Pain, doi:10.1097/AJP.0b013e31825e1492",
+          "choices": [
+            {
+              "text": "ヘルニアでは伸展が髄核を前方に戻し有効だが、狭窄症では伸展で脊柱管がさらに狭まり悪化するから",
+              "is_correct": true
+            },
+            {
+              "text": "ヘルニアは若い人、狭窄症は高齢者なので、年齢による体力差が適否を決めるから",
+              "is_correct": false
+            },
+            {
+              "text": "どちらの疾患でもコブラは禁忌であり、指導すべきでない",
+              "is_correct": false
+            },
+            {
+              "text": "椎間板ヘルニアでは痛みが強すぎてコブラができないだけで、原理的にはどちらにも有効",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "disc-herniation-basics",
+            "vertebra-structure-basics",
+            "yoga-spine-movement"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "胸郭",
+      "slug": "thoracic-cage",
+      "description": "心臓と肺を守りながら呼吸で膨らむ — 硬さと柔軟さの両立",
+      "sort_order": 10,
+      "concepts": [
+        {
+          "name": "肋骨",
+          "description": "12対の骨で胸郭の側面・前面を構成。真肋（1-7）、仮肋（8-10）、浮遊肋（11-12）に分類される"
+        },
+        {
+          "name": "胸骨",
+          "description": "胸郭の前面中央にある扁平骨。胸骨柄・胸骨体・剣状突起の3部からなる"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "胸郭を構成する3種類の骨の組み合わせとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "胸郭（Thoracic Cage）は3種類の骨で構成される。①胸骨（Sternum）：前面中央に位置する1個の扁平骨。②肋骨（Ribs）：12対（左右24本）の弓状の骨で側面と前面を形成。③胸椎（Thoracic Vertebrae）：12個の椎骨で後面を形成。これらが組み合わさって、心臓・肺・大血管を囲む骨性の「かご」を作る。",
+          "source": "OpenStax Anatomy and Physiology 7.4",
+          "choices": [
+            {
+              "text": "胸骨・肋骨（12対）・胸椎（12個）",
+              "is_correct": true
+            },
+            {
+              "text": "胸骨・肋骨（12対）・腰椎（5個）",
+              "is_correct": false
+            },
+            {
+              "text": "胸骨・鎖骨（2本）・胸椎（12個）",
+              "is_correct": false
+            },
+            {
+              "text": "肋骨（12対）・肩甲骨（2枚）・胸椎（12個）",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "thoracic-cage-basics"
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "12対の肋骨のうち、第1〜7肋骨は肋軟骨を介して直接胸骨に付着し「真肋（True Ribs）」と呼ばれる。第8〜10肋骨は第7肋軟骨を介して間接的に胸骨につながり「仮肋（False Ribs）」、第11〜12肋骨は胸骨に全く付着せず「浮遊肋（Floating Ribs）」と呼ばれる。この多様な付着様式が、胸郭の保護機能と呼吸時の可動性を両立させている。",
+          "source": "OpenStax Anatomy and Physiology 7.4",
+          "metadata": {
+            "template": "第1〜7肋骨は肋軟骨で直接胸骨に付く {{blank}} である"
+          },
+          "choices": [
+            {
+              "text": "真肋",
+              "is_correct": true
+            },
+            {
+              "text": "仮肋",
+              "is_correct": false
+            },
+            {
+              "text": "浮遊肋",
+              "is_correct": false
+            },
+            {
+              "text": "偽肋",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "thoracic-cage-basics"
+          ]
+        },
+        {
+          "question_text": "胸郭が完全に硬い骨の箱ではなく、肋軟骨という軟骨部分を含むのはなぜか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "胸郭は心臓と肺を保護する必要があるが、同時に呼吸のために拡張・収縮しなければならない。肋骨の前端は骨ではなく肋軟骨（Costal Cartilage）で胸骨に付着している。この軟骨部分が弾力性を提供し、吸気時に肋骨が「バケツの取っ手」のように上方に持ち上がることを可能にする。もし全てが硬い骨だけで構成されていたら、胸郭は拡張できず、呼吸が著しく制限される。「保護のための硬さ」と「呼吸のための柔軟さ」を両立させる巧みな設計である。",
+          "source": "OpenStax Anatomy and Physiology 7.4",
+          "choices": [
+            {
+              "text": "呼吸時に胸郭が拡張・収縮するための柔軟性を確保するため",
+              "is_correct": true
+            },
+            {
+              "text": "将来的に骨化するための成長予備領域として残されているため",
+              "is_correct": false
+            },
+            {
+              "text": "肋軟骨の方が骨より衝撃吸収に優れ、心臓への直接的な衝撃を緩和するため",
+              "is_correct": false
+            },
+            {
+              "text": "軟骨は骨より軽いため、胸郭の総重量を抑えるため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "thoracic-cage-basics"
+          ]
+        },
+        {
+          "question_text": "吸気時に肋骨が「バケツの取っ手」のように動くとはどういう意味か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "吸気時、肋間筋の収縮により肋骨が上方・外方に持ち上がる。このときの動きが、バケツの取っ手を持ち上げる動きに似ている。バケツの取っ手は、支点（バケツの縁への取り付け部分）を軸にして上方に回転するが、同様に肋骨も後方の胸椎との関節（肋椎関節）を軸として上方に回転する。肋骨が上がると胸郭の前後径と左右径が拡大し、胸腔の容積が増加する。これにより胸腔内圧が低下し、空気が肺に流入する。この運動は肋軟骨の弾力性があってこそ可能である。",
+          "source": "OpenStax Anatomy and Physiology 7.4, 23.3",
+          "choices": [
+            {
+              "text": "肋骨が胸椎との関節を軸に上方に回転し、胸郭の前後・左右径が拡大して胸腔が広がる",
+              "is_correct": true
+            },
+            {
+              "text": "肋骨が上下にスライドして胸郭の上下径が変化する",
+              "is_correct": false
+            },
+            {
+              "text": "肋骨が内側に倒れて胸郭が狭くなり、圧力で空気が押し出される",
+              "is_correct": false
+            },
+            {
+              "text": "胸骨が前方に突出して胸腔のスペースを作る",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "thoracic-cage-basics"
+          ]
+        },
+        {
+          "question_text": "肋骨の分類とその特徴を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "真肋（第1〜7）は肋軟骨を介して直接胸骨に付着する最も安定した肋骨。仮肋（第8〜10）は第7肋軟骨を介して間接的に胸骨につながり、やや可動性が高い。浮遊肋（第11〜12）は胸骨に全く付着せず、後方の胸椎のみと関節する。浮遊肋は最も可動性が高く、下部の内臓（腎臓など）の近くに位置する。胸骨は胸骨柄（上部、鎖骨と関節）・胸骨体（中央、第2〜7肋軟骨と関節）・剣状突起（下端、筋の付着点）の3部からなる。",
+          "source": "OpenStax Anatomy and Physiology 7.4",
+          "metadata": {
+            "pairs": [
+              {
+                "left": "真肋（第1〜7）",
+                "right": "肋軟骨で直接胸骨に付着"
+              },
+              {
+                "left": "仮肋（第8〜10）",
+                "right": "第7肋軟骨を介して間接的に接続"
+              },
+              {
+                "left": "浮遊肋（第11〜12）",
+                "right": "胸骨に付着せず後方の胸椎のみ"
+              },
+              {
+                "left": "胸骨柄",
+                "right": "胸骨の上部で鎖骨と関節する"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "thoracic-cage-basics"
+          ]
+        },
+        {
+          "question_text": "胸骨の形状が「扁平骨」であることは、胸郭の機能とどう関係しているか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "胸骨は扁平骨の代表例であり、2層の緻密骨の間に海綿骨（赤色骨髄を含む）が挟まれた構造を持つ。この形状は①薄く平らなため胸郭前面を広く覆って心臓と大血管を保護するシールドとして機能し、②左右の肋軟骨が付着する広い表面を提供し、③内部の赤色骨髄は成人でも活発に造血を行う場である。特に造血機能は重要で、骨髄穿刺（骨髄液の検査）は胸骨で行われることが多い。保護・付着点・造血という3つの機能を同時に果たす効率的なデザインである。",
+          "source": "OpenStax Anatomy and Physiology 7.4, 6.3",
+          "choices": [
+            {
+              "text": "薄く広い形状で前面の保護、肋軟骨の付着面、内部の造血という3つの機能を同時に果たす",
+              "is_correct": true
+            },
+            {
+              "text": "扁平骨は最も硬い骨の分類であり、衝撃に対する耐性が最大だから",
+              "is_correct": false
+            },
+            {
+              "text": "胸骨が扁平であることに機能的意味はなく、発生学上の偶然",
+              "is_correct": false
+            },
+            {
+              "text": "扁平骨は柔軟性が高く、呼吸時にたわむことで胸郭の拡張を助ける",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "thoracic-cage-basics",
+            "flat-bone-basics"
+          ]
+        },
+        {
+          "question_text": "交通事故でハンドルに胸を打ちつけた場合、胸郭の構造上最も損傷が起こりやすい部位と、その結果懸念される臓器損傷の組み合わせとして最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "ハンドルによる前方からの強い衝撃は、まず胸骨と前方の肋骨に加わる。肋骨骨折は最も多い胸部外傷であり、特に肋骨の外側弯曲部（最も曲がっている部分）が折れやすい。骨折した肋骨の断端が胸腔内に突き刺さると、肺を損傷して気胸（肺に穴が開いて空気が漏れ、肺が虚脱する）を引き起こすリスクがある。また胸骨骨折は直下の心臓に対する心臓挫傷のリスクがある。肋骨骨折は「保護のためにある骨が、骨折により保護対象を傷つけてしまう」という皮肉な状況を生む。",
+          "source": "OpenStax Anatomy and Physiology 7.4",
+          "choices": [
+            {
+              "text": "肋骨の外側弯曲部が折れやすく、骨片が肺を損傷して気胸を起こすリスクがある",
+              "is_correct": true
+            },
+            {
+              "text": "浮遊肋が最も折れやすく、腹腔の臓器を損傷する",
+              "is_correct": false
+            },
+            {
+              "text": "胸椎が最も損傷しやすく、脊髄損傷のリスクが最大",
+              "is_correct": false
+            },
+            {
+              "text": "肋軟骨が断裂して肋骨が胸骨から完全に外れる",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "thoracic-cage-basics"
+          ]
+        },
+        {
+          "question_text": "高齢者が背中が丸くなり（胸椎後弯の増強）、呼吸が浅くなった。胸郭と脊柱の知識を統合して、この関係を最もよく説明しているのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "加齢に伴う骨粗鬆症により胸椎の椎体が圧迫骨折を起こすと、胸椎後弯が増強し（円背/Kyphosis）、いわゆる「背中が丸い」姿勢になる。胸椎の過度な後弯は、①肋骨の挙上を制限する（バケツの取っ手運動が阻害される）、②胸郭の前後径の拡大を制限する、③横隔膜の下降スペースが狭まる、という3つの経路で胸腔の拡張を妨げる。結果として一回換気量が減少し、呼吸が浅く速くなる。骨粗鬆症→椎体圧迫骨折→円背→胸郭制限→呼吸機能低下という連鎖を理解することが、高齢者の身体を理解する鍵となる。",
+          "source": "OpenStax Anatomy and Physiology 7.3, 7.4, 23.3",
+          "choices": [
+            {
+              "text": "胸椎圧迫骨折による円背が肋骨の挙上と横隔膜の下降を制限し、胸腔が十分に拡張できなくなるから",
+              "is_correct": true
+            },
+            {
+              "text": "背中が丸くなると肋骨が外に開きすぎて、吸気時に戻れなくなるから",
+              "is_correct": false
+            },
+            {
+              "text": "高齢者は肋軟骨が完全に骨化して柔軟性がなくなるため（それだけが原因）",
+              "is_correct": false
+            },
+            {
+              "text": "円背で胸骨が内側に押し込まれ、心臓を圧迫して呼吸が苦しくなるから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "thoracic-cage-basics",
+            "spinal-curves-basics",
+            "osteoporosis-basics"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "上肢帯",
+      "slug": "pectoral-girdle",
+      "description": "腕の自由度の土台 — 鎖骨はなぜ折れやすい？転倒時のメカニズム",
+      "sort_order": 11,
+      "concepts": [
+        {
+          "name": "鎖骨",
+          "description": "上肢帯と体幹を骨で結ぶ唯一の骨。つっかえ棒として肩甲骨の位置を保持。人体で最も骨折しやすい骨の一つ"
+        },
+        {
+          "name": "肩甲骨",
+          "description": "背面で筋のみにより体幹に固定される三角形の扁平骨。浮いた構造が腕の広い可動域を実現する"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "上肢帯（肩帯）を構成する2つの骨の組み合わせとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "上肢帯（Pectoral Girdle）は鎖骨（Clavicle）と肩甲骨（Scapula）の2つの骨で構成される。鎖骨は前方で胸骨と関節し、肩甲骨は背面に位置する。この2つの骨が上肢（腕）と体幹を接続する役割を果たす。上腕骨は上肢帯ではなく上肢の一部であり、肋骨は胸郭の構成要素である。",
+          "source": "OpenStax Anatomy and Physiology 8.1",
+          "choices": [
+            {
+              "text": "鎖骨と肩甲骨",
+              "is_correct": true
+            },
+            {
+              "text": "鎖骨と上腕骨",
+              "is_correct": false
+            },
+            {
+              "text": "肩甲骨と肋骨",
+              "is_correct": false
+            },
+            {
+              "text": "胸骨と肩甲骨",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "pectoral-girdle-basics"
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "鎖骨は上肢帯と体幹を直接骨で結ぶ唯一の骨であり、内側で胸骨と胸鎖関節を形成する。胸鎖関節は上肢全体の重さを体幹に伝える重要な関節であり、腕を挙げる、回す、引くといった全ての動きの際に鎖骨が関与する。肩甲骨は骨で体幹に結合しておらず、筋のみで保持されている。",
+          "source": "OpenStax Anatomy and Physiology 8.1",
+          "metadata": {
+            "template": "上肢帯で体幹の骨と直接関節するのは {{blank}} だけである"
+          },
+          "choices": [
+            {
+              "text": "鎖骨",
+              "is_correct": true
+            },
+            {
+              "text": "肩甲骨",
+              "is_correct": false
+            },
+            {
+              "text": "上腕骨",
+              "is_correct": false
+            },
+            {
+              "text": "肩峰",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "pectoral-girdle-basics"
+          ]
+        },
+        {
+          "question_text": "肩甲骨が骨で体幹に固定されず、筋だけで「浮いている」構造になっている理由は何か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "肩甲骨は体幹の骨と直接関節せず、僧帽筋・菱形筋・前鋸筋・肩甲挙筋などの筋によって肋骨の上に保持されている。この「浮いた」構造により、肩甲骨は胸壁の上を自由に滑ることができる（上方回旋・下方回旋・挙上・下制・内転・外転）。腕を真上に挙げるとき、上腕骨の動きだけでなく肩甲骨の上方回旋が加わることで、約180度の挙上が可能になる。もし肩甲骨が骨で固定されていたら、腕の挙上は約120度で止まってしまう。可動性を最大化するための設計である。",
+          "source": "OpenStax Anatomy and Physiology 8.1",
+          "choices": [
+            {
+              "text": "肩甲骨が胸壁上を自由に動けることで、腕の運動範囲が大幅に広がるため",
+              "is_correct": true
+            },
+            {
+              "text": "胎児の発達過程で骨化が完了しなかった未熟な状態が残っているため",
+              "is_correct": false
+            },
+            {
+              "text": "衝撃が直接脊柱に伝わるのを防ぐクッション機能を果たすため",
+              "is_correct": false
+            },
+            {
+              "text": "呼吸時に胸郭の拡張を妨げないようにするため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "pectoral-girdle-basics"
+          ]
+        },
+        {
+          "question_text": "鎖骨が「つっかえ棒」と表現されるのはなぜか？この機能が失われるとどうなるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "鎖骨は胸骨（体幹の中心）と肩甲骨の肩峰（肩の外側端）を結ぶ水平な骨で、肩甲骨を体幹から一定の距離に保つ「つっかえ棒（strut）」として機能する。鎖骨がなければ、肩甲骨は筋の張力で内側に引き寄せられ、腕の位置が体幹に近づきすぎてしまう。実際に鎖骨骨折が起きると、骨折側の肩が前方・下方に落ち込み（drooping shoulder）、腕の挙上が困難になる。鎖骨は地味に見えるが、上肢の運動能力全体の土台を支えている。",
+          "source": "OpenStax Anatomy and Physiology 8.1",
+          "choices": [
+            {
+              "text": "肩甲骨を体幹から適切な距離に保持しており、骨折すると肩が落ち込み腕の挙上が困難になる",
+              "is_correct": true
+            },
+            {
+              "text": "鎖骨が突っ張ることで肩関節の脱臼を防いでおり、骨折すると肩が抜けやすくなる",
+              "is_correct": false
+            },
+            {
+              "text": "頸部の大血管を鎖骨の下に保護しており、骨折すると出血のリスクがある",
+              "is_correct": false
+            },
+            {
+              "text": "呼吸時に第1肋骨の動きを制限しており、骨折すると過呼吸になりやすい",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "pectoral-girdle-basics"
+          ]
+        },
+        {
+          "question_text": "鎖骨と肩甲骨の特徴を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "鎖骨は胸骨と肩甲骨を結ぶS字状の骨で、上肢帯で唯一体幹の骨と関節する。肩甲骨は三角形の扁平骨で、筋のみで体幹に固定され、胸壁上を自由に動く。肩甲骨の肩峰（Acromion）は鎖骨と関節し肩の最上部を形成する。肩甲骨の関節窩（Glenoid Cavity）は上腕骨頭と肩関節を形成する浅い凹みで、その浅さが肩関節の広い可動域と脱臼しやすさの両方に関係する。",
+          "source": "OpenStax Anatomy and Physiology 8.1",
+          "metadata": {
+            "pairs": [
+              {
+                "left": "鎖骨",
+                "right": "S字状で体幹と肩甲骨をつなぐ「つっかえ棒」"
+              },
+              {
+                "left": "肩甲骨",
+                "right": "三角形の扁平骨。筋のみで体幹に保持"
+              },
+              {
+                "left": "肩峰",
+                "right": "肩甲骨の突起。鎖骨と関節し肩の頂点を形成"
+              },
+              {
+                "left": "関節窩",
+                "right": "上腕骨頭が入る浅い凹み。肩関節を形成"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "pectoral-girdle-basics"
+          ]
+        },
+        {
+          "question_text": "上肢帯（鎖骨＋肩甲骨）と下肢帯（骨盤）の設計思想の最大の違いは何か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "上肢帯と下肢帯は対照的な設計になっている。上肢帯は可動性を優先し、鎖骨1本のみで体幹に接続し、肩甲骨は筋のみで保持される。これにより腕はあらゆる方向に動く。一方、下肢帯（骨盤）は安定性を優先し、左右の寛骨が仙骨と仙腸関節で強固に結合し、前方で恥骨結合でつながる。体重の支持と歩行時の衝撃伝達に耐える頑丈な構造。つまり上肢帯は「自由な操作」のため、下肢帯は「安定した支持」のためにそれぞれ最適化されている。",
+          "source": "OpenStax Anatomy and Physiology 8.1, 8.3",
+          "choices": [
+            {
+              "text": "上肢帯は可動性を優先（軽い接続）、下肢帯は安定性を優先（強固な接続）",
+              "is_correct": true
+            },
+            {
+              "text": "上肢帯は骨が多く複雑、下肢帯は骨が少なく単純",
+              "is_correct": false
+            },
+            {
+              "text": "上肢帯は筋が多い、下肢帯は靭帯が多い",
+              "is_correct": false
+            },
+            {
+              "text": "上肢帯と下肢帯の設計思想に大きな違いはない",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "pectoral-girdle-basics"
+          ]
+        },
+        {
+          "question_text": "自転車で転倒して手をついた子供が、鎖骨の中央部を骨折した。なぜ鎖骨がこのような転倒で最も折れやすい骨なのか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "転倒時に手をつくと、衝撃は手→前腕→上腕→肩甲骨→鎖骨→胸骨という経路で体幹に伝わる。鎖骨はこの力の伝達経路上の「最も細いボトルネック」であり、S字のカーブの頂点付近（中央1/3）が最も脆弱な部分となる。さらに鎖骨は①皮膚直下に位置し（筋肉の保護が薄い）、②S字の弯曲部に応力が集中しやすく、③横断面が丸い管状構造で曲げに弱い。これらの構造的特徴から、鎖骨は全骨折の約5%を占め、小児では最も頻度の高い骨折部位である。",
+          "source": "OpenStax Anatomy and Physiology 8.1",
+          "choices": [
+            {
+              "text": "手からの衝撃が伝わる経路上の最も細い部分であり、S字カーブの弯曲部に応力が集中するから",
+              "is_correct": true
+            },
+            {
+              "text": "鎖骨は軟骨でできているため骨より折れやすい",
+              "is_correct": false
+            },
+            {
+              "text": "鎖骨は成長期に骨端板が残っているため、小児では特に折れやすい",
+              "is_correct": false
+            },
+            {
+              "text": "鎖骨には血液供給が乏しく、骨が栄養不足で脆弱であるため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "pectoral-girdle-basics",
+            "fracture-healing-basics"
+          ]
+        },
+        {
+          "question_text": "デスクワークで「肩が前に丸まる」（巻き肩）姿勢が続くと、上肢帯にどのような影響があるか？解剖学的に最も的確な説明はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "巻き肩（前方肩甲骨突出/Protracted Scapulae）では、肩甲骨が前方・外方に引き寄せられた状態が持続する。この姿勢では①大胸筋・小胸筋が短縮し、②僧帽筋中部・菱形筋が伸張・弱化する。肩甲骨の位置が変わることで関節窩の向きも変化し、肩関節のアライメントが崩れる。結果として、肩峰下のスペースが狭くなり、腕を挙げるときに回旋筋腱板の腱が肩峰と衝突しやすくなる（肩峰下インピンジメント）。また鎖骨の角度も変わり、鎖骨下を通る神経・血管（腕神経叢・鎖骨下動脈）の圧迫リスクも高まる。上肢帯の骨の位置異常が、筋・関節・神経・血管の連鎖的な問題を引き起こす典型例である。",
+          "source": "OpenStax Anatomy and Physiology 8.1, 11.4",
+          "choices": [
+            {
+              "text": "肩甲骨が前方に移動して関節のアライメントが崩れ、肩峰下インピンジメントや神経圧迫のリスクが高まる",
+              "is_correct": true
+            },
+            {
+              "text": "鎖骨が徐々に変形してS字カーブが消失し、衝撃吸収能力が低下する",
+              "is_correct": false
+            },
+            {
+              "text": "肩甲骨が胸郭に癒着して動かなくなり、腕を挙げられなくなる",
+              "is_correct": false
+            },
+            {
+              "text": "見た目が悪くなるだけで、解剖学的な問題は特に起こらない",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "pectoral-girdle-basics"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "上腕と前腕の骨",
+      "slug": "arm-forearm-bones",
+      "description": "前腕が2本の骨である理由 — ドアノブを回す回内・回外のしくみ",
+      "sort_order": 12,
+      "concepts": [
+        {
+          "name": "上腕骨・橈骨・尺骨",
+          "description": "上腕骨は1本で肩と肘をつなぐ。前腕の橈骨（親指側）と尺骨（小指側）は回内・回外を可能にする"
+        },
+        {
+          "name": "回内と回外",
+          "description": "橈骨が尺骨の上を交差回転することで手のひらの向きを変える運動。2本の骨があるからこそ可能"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "前腕を構成する2本の骨の名前と位置の組み合わせとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "前腕には2本の骨がある。橈骨（Radius）は外側（親指側/lateral side）に位置し、尺骨（Ulna）は内側（小指側/medial side）に位置する。覚え方として「Radius = 外側のRadio（ラジオ）のダイヤルを親指で回す」という語呂がある。手のひらを上に向けた状態（回外位/解剖学的正位）で見たとき、橈骨は外側、尺骨は内側にある。",
+          "source": "OpenStax Anatomy and Physiology 8.2",
+          "choices": [
+            {
+              "text": "橈骨が外側（親指側）、尺骨が内側（小指側）",
+              "is_correct": true
+            },
+            {
+              "text": "橈骨が内側（小指側）、尺骨が外側（親指側）",
+              "is_correct": false
+            },
+            {
+              "text": "橈骨が上側、尺骨が下側",
+              "is_correct": false
+            },
+            {
+              "text": "橈骨が前面、尺骨が後面",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "arm-forearm-basics"
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "肘の後方で触れることができるとがった骨の突起は、尺骨の肘頭（Olecranon）である。肘頭は上腕骨の肘頭窩にはまり込む構造で、肘を完全に伸ばしたときにロックされる。肘をテーブルについたとき痛みを感じるのは、この肘頭が直接接触するためである。肘頭は尺骨の最も近位の部分であり、上腕三頭筋の付着点でもある。",
+          "source": "OpenStax Anatomy and Physiology 8.2",
+          "metadata": {
+            "template": "肘の後方のとがった出っ張りは尺骨の {{blank}} である"
+          },
+          "choices": [
+            {
+              "text": "肘頭",
+              "is_correct": true
+            },
+            {
+              "text": "橈骨頭",
+              "is_correct": false
+            },
+            {
+              "text": "内側上顆",
+              "is_correct": false
+            },
+            {
+              "text": "鉤状突起",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "arm-forearm-basics"
+          ]
+        },
+        {
+          "question_text": "前腕に2本の骨（橈骨と尺骨）がある最大の機能的理由は何か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "前腕に2本の骨がある最大の理由は、回内・回外（Pronation/Supination）を可能にするためである。回内は手のひらを下に向ける動き、回外は上に向ける動きで、橈骨が尺骨の上を交差するように回転することで実現する。ドアノブを回す、ネジを締める、スプーンを口に運ぶなど、日常の細かい動作に不可欠。もし前腕が1本の骨であれば、肘の屈曲・伸展はできても手のひらの向きを変えることは不可能になる。上腕骨が1本なのは肩関節自体が多軸に動くため回旋が不要だからである。",
+          "source": "OpenStax Anatomy and Physiology 8.2, 9.5",
+          "choices": [
+            {
+              "text": "橈骨が尺骨上を回転し、手のひらの向きを変える回内・回外を可能にするため",
+              "is_correct": true
+            },
+            {
+              "text": "2本の骨で荷重を分散し、重い物を持つときの強度を確保するため",
+              "is_correct": false
+            },
+            {
+              "text": "前腕の筋の付着面積を増やして握力を強くするため",
+              "is_correct": false
+            },
+            {
+              "text": "前腕が曲がりやすいように柔軟性を確保するため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "arm-forearm-basics"
+          ]
+        },
+        {
+          "question_text": "肘関節で主に屈曲・伸展を担っているのはどの骨の組み合わせか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "肘関節の屈曲・伸展は、上腕骨の滑車（Trochlea）と尺骨の滑車切痕（Trochlear Notch）が形成する蝶番関節が主に担う。この関節はドアの蝶番のように一軸のみの動き（屈曲・伸展）を許す。一方、橈骨頭と上腕骨小頭の関節、および近位橈尺関節は回内・回外を担う。つまり肘関節は、蝶番関節（屈伸）と車軸関節（回旋）を組み合わせた複合関節であり、上腕骨と尺骨の蝶番が屈伸の主役である。",
+          "source": "OpenStax Anatomy and Physiology 8.2, 9.4",
+          "choices": [
+            {
+              "text": "上腕骨の滑車と尺骨の滑車切痕（蝶番関節）",
+              "is_correct": true
+            },
+            {
+              "text": "上腕骨小頭と橈骨頭の関節",
+              "is_correct": false
+            },
+            {
+              "text": "橈骨と尺骨の近位橈尺関節",
+              "is_correct": false
+            },
+            {
+              "text": "上腕骨と肩甲骨の肩関節",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "arm-forearm-basics"
+          ]
+        },
+        {
+          "question_text": "上腕と前腕の骨とその主な特徴を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "上腕骨は上肢最大の骨で肩関節と肘関節を結ぶ。橈骨は前腕の親指側にあり、手関節（手首）で手根骨と関節する。尺骨は前腕の小指側にあり、肘関節で蝶番関節の主役を担う。肘頭は尺骨の近位端にある突起で、肘の後方から触れることができる。",
+          "source": "OpenStax Anatomy and Physiology 8.2",
+          "metadata": {
+            "pairs": [
+              {
+                "left": "上腕骨",
+                "right": "上肢最大の骨。肩関節と肘関節を結ぶ"
+              },
+              {
+                "left": "橈骨",
+                "right": "親指側。手首で手根骨と関節。回内・回外で回転"
+              },
+              {
+                "left": "尺骨",
+                "right": "小指側。肘で蝶番関節を形成。屈伸の主役"
+              },
+              {
+                "left": "肘頭",
+                "right": "尺骨の突起。肘後方のでっぱり"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "arm-forearm-basics"
+          ]
+        },
+        {
+          "question_text": "手関節（手首）で主に手根骨と関節しているのは橈骨と尺骨のどちらか？この非対称の理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "手関節で手根骨と直接関節するのは主に橈骨の遠位端である。尺骨の遠位端は手根骨から関節円板（三角線維軟骨複合体/TFCC）で隔てられている。この非対称は、肘と手首で橈骨と尺骨の役割分担が逆転していることを反映する。肘関節では尺骨が主役（屈伸の安定性）、手関節では橈骨が主役（手の荷重伝達）。このため手をついて転倒すると、手からの衝撃は主に橈骨を通って肘に伝わり、橈骨遠位端骨折（Colles骨折/コーレス骨折）が起こりやすい。",
+          "source": "OpenStax Anatomy and Physiology 8.2",
+          "choices": [
+            {
+              "text": "橈骨。肘では尺骨が主役、手首では橈骨が主役という役割分担があり、手の荷重は主に橈骨が受けるから",
+              "is_correct": true
+            },
+            {
+              "text": "尺骨。手首の安定性を確保するため、より太い尺骨が手根骨と関節する",
+              "is_correct": false
+            },
+            {
+              "text": "橈骨と尺骨が均等に手根骨と関節しており、非対称はない",
+              "is_correct": false
+            },
+            {
+              "text": "橈骨。親指側は繊細な動きが必要なため、橈骨が手根骨をより精密に制御する",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "arm-forearm-basics"
+          ]
+        },
+        {
+          "question_text": "ドアノブを回す動作（回内・回外）ができなくなったら、日常生活にどのような支障が出るか？この動作の解剖学的基盤を踏まえて最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "回内・回外は橈骨が尺骨上を回転する動きで、近位橈尺関節と遠位橈尺関節の2つの関節で実現する。この動きが失われると、ドアノブを回す、鍵を回す、ネジを締める、スプーンで食べる、文字を書く、手のひらで物を受け取るといった日常動作が著しく制限される。特に「手のひらの向きを変える」という一見些細な動きが、実は上肢の機能の根幹を支えている。橈骨遠位端骨折（コーレス骨折）の治療で回内・回外の可動域回復が重視されるのはこのためである。前腕が1本の骨であれば、このすべてが不可能になる。",
+          "source": "OpenStax Anatomy and Physiology 8.2, 9.5",
+          "choices": [
+            {
+              "text": "ドアノブ・鍵・ネジ回し・スプーン操作・筆記など、手のひらの向きを変える全ての日常動作が困難になる",
+              "is_correct": true
+            },
+            {
+              "text": "肘の屈曲・伸展ができなくなり、物を持ち上げられなくなる",
+              "is_correct": false
+            },
+            {
+              "text": "握力が低下して物を握れなくなるが、他の動作には影響しない",
+              "is_correct": false
+            },
+            {
+              "text": "手首の屈曲・伸展ができなくなり、タイピングができなくなる",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "arm-forearm-basics"
+          ]
+        },
+        {
+          "question_text": "高齢者が転倒して手をついたとき、橈骨遠位端骨折（コーレス骨折）が頻発する。この骨折が橈骨に集中する解剖学的理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "手をついて転倒すると、衝撃は手根骨→橈骨遠位端という経路で伝わる（手関節で主に橈骨が手根骨と関節しているため）。橈骨遠位端は、①海綿骨が多く緻密骨が薄い（骨端部の構造的特徴）、②骨粗鬆症で特に脆弱化しやすい部位。このため手からの衝撃で「フォークの背」のように遠位骨片が背側に転位する特徴的な骨折（コーレス骨折）が生じる。同じ転倒でも若年者は靭帯損傷（捻挫）になりやすく、高齢者は骨が弱いため骨折になりやすい。これは同じメカニズムでも「弱い鎖の環が切れる」原則を示す。",
+          "source": "OpenStax Anatomy and Physiology 8.2, 6.5, 6.6",
+          "choices": [
+            {
+              "text": "手関節で橈骨が手根骨と主に関節するため衝撃が橈骨に集中し、遠位端は海綿骨が多く骨粗鬆症で脆弱化しやすいから",
+              "is_correct": true
+            },
+            {
+              "text": "橈骨は尺骨より細いため構造的に弱く、どこが折れても橈骨になる",
+              "is_correct": false
+            },
+            {
+              "text": "手をつくと回内位になり橈骨に全体重がかかるが、尺骨は接触しないから",
+              "is_correct": false
+            },
+            {
+              "text": "加齢で橈骨のみカルシウムが減少する特異的な変化が起こるため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "arm-forearm-basics",
+            "osteoporosis-basics"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "手の骨",
+      "slug": "hand-bones",
+      "description": "27個の骨が生む器用さ — 舟状骨骨折はなぜ見逃される？",
+      "sort_order": 13,
+      "concepts": [
+        {
+          "name": "手根骨・中手骨・指骨",
+          "description": "手根骨8個（2列の短骨）、中手骨5本（手のひら）、指骨14本（母指2本、他4指は各3本）で計27個"
+        },
+        {
+          "name": "舟状骨骨折",
+          "description": "手根骨で最も骨折しやすい。逆行性血行のため壊死リスクがあり、初期X線で見逃されやすい"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "手（Hand）を構成する骨の総数は何個か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "手は合計27個の骨で構成される。内訳は手根骨（Carpals）8個、中手骨（Metacarpals）5本、指骨（Phalanges）14本である。この多数の骨が靭帯と筋によって精密に連結されることで、力強い握りから繊細な指先の動きまで幅広い機能を実現している。片手27個、両手で54個の骨があり、全身206個の骨の約26%が手に集中している。",
+          "source": "OpenStax Anatomy and Physiology 8.2",
+          "choices": [
+            {
+              "text": "27個（手根骨8 + 中手骨5 + 指骨14）",
+              "is_correct": true
+            },
+            {
+              "text": "20個（手根骨5 + 中手骨5 + 指骨10）",
+              "is_correct": false
+            },
+            {
+              "text": "30個（手根骨10 + 中手骨5 + 指骨15）",
+              "is_correct": false
+            },
+            {
+              "text": "15個（手根骨5 + 中手骨5 + 指骨5）",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "hand-bones-basics"
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "母指（親指）の指骨は近位指骨と遠位指骨の2本のみで、中節骨がない。他の4指（示指〜小指）は近位指骨・中節骨・遠位指骨の3本ずつ。母指が2本の指骨しか持たないことで、対向（opposition）の動きがしやすくなり、物を「つまむ」「握る」動作が効率的に行える。母指の対向は人間の手の機能の中でも最も重要な動きの一つである。",
+          "source": "OpenStax Anatomy and Physiology 8.2",
+          "metadata": {
+            "template": "母指（親指）の指骨は他の指より1本少なく {{blank}} 本である"
+          },
+          "choices": [
+            {
+              "text": "2",
+              "is_correct": true
+            },
+            {
+              "text": "3",
+              "is_correct": false
+            },
+            {
+              "text": "1",
+              "is_correct": false
+            },
+            {
+              "text": "4",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "hand-bones-basics"
+          ]
+        },
+        {
+          "question_text": "手に27個もの骨がある理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "手に多数の骨が存在する理由は、精密な動きと多様な機能を両立するためである。8個の手根骨（短骨）が互いにわずかに動くことで手首の柔軟性を実現し、5本の中手骨がそれぞれ独立して動くことで手のひらの変形（カップ状に丸めるなど）を可能にし、14本の指骨が多数の関節を作ることで各指が独立して細かく動く。もし手が少数の大きな骨でできていたら、握力は増すかもしれないが、繊細な動き（文字を書く、楽器を弾く、細い物をつまむ）は不可能になる。",
+          "source": "OpenStax Anatomy and Physiology 8.2",
+          "choices": [
+            {
+              "text": "多数の小さな骨が各々わずかに動くことで、力強い握りから繊細な操作まで多様な動きを実現するため",
+              "is_correct": true
+            },
+            {
+              "text": "骨が多いほど手全体の強度が増し、骨折しにくくなるため",
+              "is_correct": false
+            },
+            {
+              "text": "手は発生過程で多くの骨に分かれるが、機能的には1つの大きな骨でも問題ない",
+              "is_correct": false
+            },
+            {
+              "text": "骨と骨の間に血管を通すスペースを確保するため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "hand-bones-basics",
+            "short-bone-basics"
+          ]
+        },
+        {
+          "question_text": "舟状骨骨折が初期のX線検査で見逃されやすい理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "舟状骨（Scaphoid）は手根骨の中で最も骨折しやすい骨であるが、骨折直後のX線写真では骨折線が非常に細く、周囲の骨と重なって見えにくいことが多い。骨折後1〜2週間経過すると骨吸収により骨折線が明瞭化するため、「解剖学的嗅ぎタバコ入れ（Anatomical Snuffbox）」の圧痛がある場合は、初回X線で異常がなくてもギプス固定し、2週間後に再検査するのが標準的な対応。見逃して放置すると、舟状骨の特殊な血行（逆行性血行）のため近位骨片が壊死する阻血性壊死のリスクがある。",
+          "source": "OpenStax Anatomy and Physiology 8.2",
+          "choices": [
+            {
+              "text": "骨折線が非常に細く、周囲の手根骨と重なるため初期X線では判別困難なことが多い",
+              "is_correct": true
+            },
+            {
+              "text": "舟状骨は軟骨でできているためX線に写りにくい",
+              "is_correct": false
+            },
+            {
+              "text": "舟状骨骨折では痛みがほとんどないため検査自体が行われにくい",
+              "is_correct": false
+            },
+            {
+              "text": "舟状骨は体の深部にあるためX線が届きにくい",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "hand-bones-basics"
+          ]
+        },
+        {
+          "question_text": "手の骨の構成を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "手根骨は手首を構成する8個の短骨で、2列（近位列4個・遠位列4個）に配列される。靭帯で連結され、衝撃吸収と多方向の動きを可能にする。中手骨は手のひらの骨格を構成する5本の細長い骨。指骨は指を構成し、母指は2本（近位・遠位）、他の4指は各3本（近位・中節・遠位）で計14本。舟状骨は手根骨近位列の親指側に位置し、転倒時に最も力がかかる位置にある。",
+          "source": "OpenStax Anatomy and Physiology 8.2",
+          "metadata": {
+            "pairs": [
+              {
+                "left": "手根骨（8個）",
+                "right": "手首の短骨。2列に配列。衝撃吸収"
+              },
+              {
+                "left": "中手骨（5本）",
+                "right": "手のひらの骨格。各指に1本"
+              },
+              {
+                "left": "指骨（14本）",
+                "right": "指の骨。母指2本、他4指は各3本"
+              },
+              {
+                "left": "舟状骨",
+                "right": "手根骨で最も骨折しやすい。壊死リスク"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "hand-bones-basics"
+          ]
+        },
+        {
+          "question_text": "手根骨が「短骨」に分類されることの機能的意義として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "手根骨は8個の短骨（Short Bone）からなる。短骨は幅・高さ・厚さがほぼ等しい立方体に近い形状で、表面は薄い緻密骨、内部は海綿骨で満たされる。この構造により、①多数の骨が靭帯で連結されることで安定性を保ちつつ多方向の動きが可能、②衝撃を分散・吸収する機能がある。手根骨は足根骨と同様に、「安定性と可動性と衝撃吸収を同時に実現する」短骨のメリットを活かした構造である。",
+          "source": "OpenStax Anatomy and Physiology 6.1, 8.2",
+          "choices": [
+            {
+              "text": "多数の小さな骨が安定性・多方向の可動性・衝撃吸収を同時に実現するため",
+              "is_correct": true
+            },
+            {
+              "text": "短骨は造血機能が高く、手の血液供給を助けるため",
+              "is_correct": false
+            },
+            {
+              "text": "短骨は最も軽い骨の分類であり、手の重さを最小限にするため",
+              "is_correct": false
+            },
+            {
+              "text": "手根骨が短骨であることに特別な意義はなく、単に小さいから短骨に分類される",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "hand-bones-basics",
+            "short-bone-basics"
+          ]
+        },
+        {
+          "question_text": "転倒して手をついた患者が「手首が痛い」と来院し、X線では異常なしと診断された。しかし解剖学的嗅ぎタバコ入れ（親指を伸ばしたとき手首の親指側にできるくぼみ）に圧痛がある。適切な対応はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "解剖学的嗅ぎタバコ入れ（Anatomical Snuffbox）の底には舟状骨がある。この部位の圧痛は舟状骨骨折を強く示唆する。初期X線で骨折線が見えなくても、舟状骨骨折の可能性がある場合はギプスやスプリントで固定し、2週間後に再X線検査を行うのが標準的プロトコルである。放置すると舟状骨の逆行性血行（遠位から近位へ血液が供給される）のため、骨折により近位部への血流が途絶え、阻血性壊死（Avascular Necrosis）を起こす。壊死した場合、治癒が極めて困難になり手首の機能が著しく低下する。",
+          "source": "OpenStax Anatomy and Physiology 8.2",
+          "choices": [
+            {
+              "text": "舟状骨骨折の可能性があるため固定し、2週間後に再X線検査。放置すると壊死のリスクがある",
+              "is_correct": true
+            },
+            {
+              "text": "X線で異常がないので骨折はない。湿布と安静だけで十分",
+              "is_correct": false
+            },
+            {
+              "text": "すぐにMRI検査が必須。それまでは固定不要",
+              "is_correct": false
+            },
+            {
+              "text": "靭帯損傷（捻挫）なので、テーピングで対応し運動を再開してよい",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "hand-bones-basics",
+            "fracture-healing-basics"
+          ]
+        },
+        {
+          "question_text": "人間の手が道具の使用や精密な作業に長けている解剖学的理由として、最も包括的な説明はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "人間の手の器用さは、複数の解剖学的特徴の組み合わせによる。①27個の骨と多数の関節が精密な動きを可能にする。②母指のCM関節（鞍関節）が対向（Opposition）を実現し、指先同士を合わせる「つまみ動作」を可能にする。③前腕の2本の骨（橈骨・尺骨）による回内・回外が手のひらの向きを自在に変える。④多数の外在筋（前腕に起始）と内在筋（手内部に起始）の協調が力と精度の両方を提供する。⑤豊富な感覚神経が触覚フィードバックを提供する。これらが統合されて、他の霊長類を凌駕する道具使用能力と芸術的表現力を実現している。",
+          "source": "OpenStax Anatomy and Physiology 8.2, 9.4",
+          "choices": [
+            {
+              "text": "27個の骨による精密な動き、母指の対向、前腕の回内回外、筋と感覚神経の統合が道具使用を可能にする",
+              "is_correct": true
+            },
+            {
+              "text": "人間の手は他の動物より骨の数が多いため（手だけでも50個以上）器用さが生まれる",
+              "is_correct": false
+            },
+            {
+              "text": "人間の手の器用さは脳の発達によるものであり、手の骨格自体は他の霊長類と同じ",
+              "is_correct": false
+            },
+            {
+              "text": "人間だけが5本の指を持つため、道具の使用が可能になった",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "hand-bones-basics",
+            "arm-forearm-basics"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "上肢とヨガ — 胸を開き手首を守る",
+      "slug": "upper-limb-and-yoga",
+      "description": "胸郭・肩帯・上肢の知識をヨガの荷重ポーズと呼吸に統合する",
+      "sort_order": 14,
+      "concepts": [
+        {
+          "name": "手首の保護とハスタバンダ",
+          "description": "手のひら全体で荷重を分散し手首への負担を軽減する。指を広げ手根骨のアーチを活用する"
+        },
+        {
+          "name": "肩甲骨の安定化",
+          "description": "プランクやダウンドッグで肩甲骨が翼状突出しないよう前鋸筋を活性化する"
+        },
+        {
+          "name": "呼吸とプラーナヤーマ",
+          "description": "胸郭の構造を理解し、肋骨の動きと横隔膜の連動を意識した呼吸を行う"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "ダウンドッグやプランクで手に体重をかけるとき、手首への負担を軽減する方法として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "手のひら全体で荷重を分散するのが手首保護の基本原則。指を広げ、指先と指の付け根（中手指節関節部）でもマットを押すことで、手首（手根骨）だけに荷重が集中するのを防ぐ。これは「ハスタバンダ（Hasta Bandha/手のロック）」と呼ばれるテクニック。手根骨は短骨の集合であり、適度な荷重は骨密度維持に有効だが、過度の手関節背屈（90度以上）は手根管を圧迫する。",
+          "source": "OpenStax Anatomy and Physiology 8.2 / Campo et al., 2018, J Bodywork Mov Ther, doi:10.1016/j.jbmt.2017.05.022",
+          "choices": [
+            {
+              "text": "指を広げて手のひら全体で押し、手首だけに荷重が集中しないようにする",
+              "is_correct": true
+            },
+            {
+              "text": "手首を完全に反らせて（背屈を最大に）ロックする",
+              "is_correct": false
+            },
+            {
+              "text": "指先だけでマットを押して手のひらを浮かせる",
+              "is_correct": false
+            },
+            {
+              "text": "手首への荷重ポーズは全て避けるべき",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "yoga-upper-limb-breathing",
+            "hand-bones-basics"
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "吸気のとき、肋骨は肋椎関節を軸にして上方に回転し、胸郭が拡大する。この動きが「バケツの取っ手」運動と呼ばれる。ヨガのプラーナヤーマ（呼吸法）では、この肋骨の動きを意識的にコントロールすることで、より深く効率的な呼吸を実現する。胸式呼吸では肋骨の拡張が主役となり、腹式呼吸では横隔膜の下降が主役となる。",
+          "source": "OpenStax Anatomy and Physiology 7.4, 23.3",
+          "metadata": {
+            "template": "吸気時に肋骨が上方に回転して胸郭が広がる動きを {{blank}} の取っ手運動という"
+          },
+          "choices": [
+            {
+              "text": "バケツ",
+              "is_correct": true
+            },
+            {
+              "text": "ドア",
+              "is_correct": false
+            },
+            {
+              "text": "てこ",
+              "is_correct": false
+            },
+            {
+              "text": "ポンプ",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "thoracic-cage-basics",
+            "yoga-upper-limb-breathing"
+          ]
+        },
+        {
+          "question_text": "プランクポーズで肩甲骨が背中から浮き上がる（翼状肩甲/Winging）のは何を示しているか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "翼状肩甲（Winging Scapula）は、肩甲骨の内側縁が肋骨面から浮き上がる状態。プランクやプッシュアップでこれが見られる場合、前鋸筋（Serratus Anterior）の弱さを示唆する。前鋸筋は肋骨の外側面から肩甲骨の内側縁に付着し、肩甲骨を胸壁に密着させる（プロトラクション）役割を果たす。前鋸筋が弱いと肩甲骨が安定せず、肩関節に不安定性が生じ、インピンジメント症候群のリスクが高まる。ヨガの指導では「肩甲骨をマットから離す（プラスポジション）」というキューが前鋸筋の活性化を促す。",
+          "source": "OpenStax Anatomy and Physiology 8.1, 11.4",
+          "choices": [
+            {
+              "text": "前鋸筋が弱く、肩甲骨を胸壁に密着させる力が不足している",
+              "is_correct": true
+            },
+            {
+              "text": "鎖骨が過度に挙上して肩甲骨を引き上げている",
+              "is_correct": false
+            },
+            {
+              "text": "肋骨が変形して肩甲骨を押し出している",
+              "is_correct": false
+            },
+            {
+              "text": "肩甲骨の骨自体が変形している先天的な異常",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "pectoral-girdle-basics",
+            "yoga-upper-limb-breathing"
+          ]
+        },
+        {
+          "question_text": "ヨガの呼吸法（プラーナヤーマ）で「胸式呼吸」と「腹式呼吸」を使い分けるのは、それぞれどの構造が主に動くからか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "胸式呼吸では、肋間筋の収縮により肋骨が上方・外方に回転し、胸郭が拡大する。主に胸郭（肋骨と肋軟骨）の動きが主役。腹式呼吸（横隔膜呼吸）では、横隔膜が収縮して下方に下がり、胸腔の容積が増加する。腹部が前方に膨らむ。ヨガでは両方を意識的に使い分け、「ウジャイ呼吸」では特に胸式の要素を強調し肋骨の動きを最大化する。解剖学的には、胸郭の肋軟骨の弾力性が胸式呼吸を可能にし、横隔膜の広大な面積（約250cm²）が腹式呼吸の効率を担う。",
+          "source": "OpenStax Anatomy and Physiology 7.4, 23.3 / Brown & Gerbarg, 2005, J Altern Complement Med, doi:10.1089/acm.2005.11.189",
+          "choices": [
+            {
+              "text": "胸式呼吸は肋骨の挙上が主役、腹式呼吸は横隔膜の下降が主役",
+              "is_correct": true
+            },
+            {
+              "text": "胸式呼吸は腹筋が主役、腹式呼吸は背筋が主役",
+              "is_correct": false
+            },
+            {
+              "text": "胸式呼吸は吸気専用、腹式呼吸は呼気専用の方法",
+              "is_correct": false
+            },
+            {
+              "text": "解剖学的にはどちらも同じ筋が動いており、意識の違いだけ",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "thoracic-cage-basics",
+            "yoga-upper-limb-breathing"
+          ]
+        },
+        {
+          "question_text": "上肢の荷重ポーズにおける骨格の知識と注意点を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "ダウンドッグでは体重が手と足に分散され、上腕骨・橈骨・尺骨（長骨）と手根骨（短骨）に荷重がかかる。チャトランガでは肘を90度に曲げた状態で体重を支えるため、肩関節と肘関節に大きな負荷がかかる。手首の背屈角度を90度未満に保つことで手根管への圧迫を減らす。プランクでは肩甲骨の安定が重要で、前鋸筋を活性化して翼状肩甲を防ぐ。",
+          "source": "OpenStax Anatomy and Physiology 8.1, 8.2",
+          "metadata": {
+            "pairs": [
+              {
+                "left": "ダウンドッグ",
+                "right": "長骨と短骨の両方に荷重。手首角度に注意"
+              },
+              {
+                "left": "チャトランガ",
+                "right": "肩関節・肘関節に大きな負荷。段階的に練習"
+              },
+              {
+                "left": "プランク",
+                "right": "前鋸筋で肩甲骨を安定。翼状肩甲を防ぐ"
+              },
+              {
+                "left": "手首の保護",
+                "right": "指を広げ手のひら全体で荷重を分散する"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "yoga-upper-limb-breathing",
+            "pectoral-girdle-basics",
+            "hand-bones-basics"
+          ]
+        },
+        {
+          "question_text": "ヨガの呼吸法がストレスや不安を軽減する生理学的メカニズムとして最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "ヨガの呼吸法（特にゆっくりとした呼吸）は、迷走神経（副交感神経の主要な経路）を活性化する。呼気を延長すると迷走神経反射が増強され、心拍数の低下、血圧の低下、コルチゾール分泌の抑制が起こる。Brown & Gerbarg（2005, J Altern Complement Med）は、ヨガの呼吸法が自律神経系のバランスを調節し、ストレス・不安・抑うつの軽減に有効であることを報告している。解剖学的には、胸郭の肋骨の動きと横隔膜の収縮弛緩を意識的にコントロールすることで、自律神経系への入力を調節するメカニズムである。",
+          "source": "Brown & Gerbarg, 2005, J Altern Complement Med, doi:10.1089/acm.2005.11.189 / OpenStax Anatomy and Physiology 15.1",
+          "choices": [
+            {
+              "text": "ゆっくりとした呼吸が迷走神経（副交感神経）を活性化し、心拍数・血圧・コルチゾールを低下させる",
+              "is_correct": true
+            },
+            {
+              "text": "深い呼吸で肺が膨らむとエンドルフィンが分泌されて幸福感が増す",
+              "is_correct": false
+            },
+            {
+              "text": "呼吸法で酸素が大量に脳に送られ、神経細胞が活性化される",
+              "is_correct": false
+            },
+            {
+              "text": "呼吸のリズムが脳波をシータ波に変え、自然に眠くなる",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "yoga-upper-limb-breathing",
+            "yoga-interoception-stress"
+          ]
+        },
+        {
+          "question_text": "手首に痛みがある生徒がダウンドッグを行いたいと言っている。上肢の解剖学に基づいた安全な代替指導として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "手首の痛みの多くは手関節の過伸展（背屈）と手根骨への集中荷重が原因。安全な代替策は、①握りこぶしでダウンドッグ（手首の角度をニュートラルに保つ）、②前腕全体をマットにつけるドルフィンポーズ（手首への荷重ゼロ）、③ウェッジ（くさび型プロップ）で手首の角度を緩和する。痛みを無視して通常のダウンドッグを続けるのは禁忌。手根管症候群（正中神経圧迫）がある場合は特に注意が必要。指導者は手首だけでなく、肩甲骨の安定性も同時に確認し、上肢全体の連鎖で考えることが重要である。",
+          "source": "OpenStax Anatomy and Physiology 8.2 / Campo et al., 2018, J Bodywork Mov Ther, doi:10.1016/j.jbmt.2017.05.022",
+          "choices": [
+            {
+              "text": "握りこぶしやドルフィンポーズで手首の角度をニュートラルに保ち、手根骨への過度な荷重を避ける",
+              "is_correct": true
+            },
+            {
+              "text": "手首を鍛えるためにあえて荷重を増やし、プランクの長時間保持を行う",
+              "is_correct": false
+            },
+            {
+              "text": "手首の痛みは筋力不足の証拠なので、チャトランガの反復で強化する",
+              "is_correct": false
+            },
+            {
+              "text": "手首が痛いなら上肢の荷重ポーズは全て完全に避け、立位と座位のみ行う",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "yoga-upper-limb-breathing",
+            "hand-bones-basics",
+            "arm-forearm-basics"
+          ]
+        },
+        {
+          "question_text": "ヨガの指導者が「胸を開いて呼吸しましょう」と声かけする。この指示は胸郭と肩帯のどのような動きを促しているか？解剖学的に最も包括的な説明はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "「胸を開く」という指導は、複数の解剖学的動きを促す。①胸椎の軽い伸展：前かがみの姿勢を正し、胸郭の前後径を拡大。②肩甲骨の内転（retraction）：巻き肩を正し、大胸筋を伸張。③肋骨の挙上：肋間筋の活性化により胸郭を拡大。④鎖骨の挙上と外転：肩甲骨の動きに連動して鎖骨下のスペースが広がる。これにより胸腔の容積が最大化され、深い呼吸が可能になる。同時に、肩甲骨周囲の姿勢筋（僧帽筋中部・菱形筋）が活性化され、デスクワークで弱化した姿勢の改善にもつながる。一つの声かけが骨格系・呼吸器系・姿勢を統合的に改善する例である。",
+          "source": "OpenStax Anatomy and Physiology 7.3, 7.4, 8.1 / Brown & Gerbarg, 2005, J Altern Complement Med, doi:10.1089/acm.2005.11.189",
+          "choices": [
+            {
+              "text": "胸椎伸展・肩甲骨内転・肋骨挙上・鎖骨の動きが連動して胸腔が拡大し、深い呼吸と姿勢改善が統合的に起こる",
+              "is_correct": true
+            },
+            {
+              "text": "胸骨が前方に突出して胸郭の形が変わるだけの単純な動き",
+              "is_correct": false
+            },
+            {
+              "text": "肋軟骨を引き伸ばして胸郭全体を柔らかくするストレッチ効果",
+              "is_correct": false
+            },
+            {
+              "text": "大胸筋を収縮させて胸板を厚くする筋力トレーニング的な動き",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "thoracic-cage-basics",
+            "pectoral-girdle-basics",
+            "spinal-curves-basics",
+            "yoga-upper-limb-breathing"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "骨盤",
+      "slug": "pelvis",
+      "description": "上半身の重さを下肢に伝える器 — 男女差がある理由",
+      "sort_order": 15,
+      "concepts": [
+        {
+          "name": "寛骨",
+          "description": "腸骨・坐骨・恥骨の3骨が癒合した骨。外側面に寛骨臼があり股関節を形成する"
+        },
+        {
+          "name": "仙骨と骨盤の男女差",
+          "description": "脊柱の基部で左右の寛骨をつなぐ。骨盤は産道確保のため男女で形状が異なる"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "骨盤を構成する骨の組み合わせとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "骨盤は左右の寛骨（Hip Bone）、仙骨（Sacrum）、尾骨（Coccyx）で構成される環状の骨格構造です。寛骨はさらに腸骨・坐骨・恥骨の3骨が癒合したもので、骨盤全体で上半身の体重を下肢に伝達する重要な役割を担います。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.3",
+          "choices": [
+            {
+              "text": "左右の寛骨 + 仙骨 + 尾骨",
+              "is_correct": true
+            },
+            {
+              "text": "左右の腸骨 + 胸骨 + 仙骨",
+              "is_correct": false
+            },
+            {
+              "text": "左右の坐骨 + 腰椎 + 尾骨",
+              "is_correct": false
+            },
+            {
+              "text": "左右の恥骨 + 仙骨 + 胸椎",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["pelvis-basics"]
+        },
+        {
+          "question_text": "次の文を完成させてください:\n\n寛骨は3つの骨が癒合してできており、そのうち【　　】は骨盤の上部で腰に手を当てたとき触れる大きな翼状の部分である。",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "寛骨は腸骨（Ilium）・坐骨（Ischium）・恥骨（Pubis）の3骨が癒合したものです。腸骨は骨盤の上部を占め、腸骨稜（Iliac Crest）は腰に手を当てたとき触れる部分です。坐骨は座ったとき体重を支える下部の骨、恥骨は前方下部で左右が恥骨結合で連結されます。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.3",
+          "metadata": {
+            "word_bank": ["腸骨", "坐骨", "恥骨", "仙骨"]
+          },
+          "choices": [
+            {
+              "text": "腸骨",
+              "is_correct": true
+            },
+            {
+              "text": "坐骨",
+              "is_correct": false
+            },
+            {
+              "text": "恥骨",
+              "is_correct": false
+            },
+            {
+              "text": "仙骨",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["pelvis-basics"]
+        },
+        {
+          "question_text": "骨盤が環状（リング状）の構造をしている最大の理由は何か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "骨盤がリング状であるのは、上半身の全体重を脊柱→仙骨→仙腸関節→寛骨→大腿骨へと効率的に伝達するためです。アーチやリング構造は力を均等に分散する工学的に優れた設計です。開いた構造では、特定の部位に応力が集中して骨折リスクが高まります。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.3",
+          "choices": [
+            {
+              "text": "上半身の体重を脊柱から左右の下肢へ均等に分散・伝達するため",
+              "is_correct": true
+            },
+            {
+              "text": "骨盤内臓器を完全に密封して外気から遮断するため",
+              "is_correct": false
+            },
+            {
+              "text": "脊柱を下から支えて直立時のバランスをとるためだけ",
+              "is_correct": false
+            },
+            {
+              "text": "大殿筋が骨盤を一周して付着するスペースを確保するため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["pelvis-basics"]
+        },
+        {
+          "question_text": "女性の骨盤が男性と比べて骨盤上口が横に広い楕円形をしている理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "女性の骨盤は出産時に胎児が産道を通過するため、骨盤上口（Pelvic Inlet）が横に広い楕円形になっています。男性の骨盤上口はハート形（縦長）で狭いのは、出産の必要がなく、筋の付着と力の伝達に有利な形状だからです。この男女差は思春期のホルモン（エストロゲン）の影響で顕著になります。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.3",
+          "choices": [
+            {
+              "text": "出産時に胎児が産道を通過するための空間を確保するため",
+              "is_correct": true
+            },
+            {
+              "text": "女性は男性より腸が長いので、より大きな腹腔が必要だから",
+              "is_correct": false
+            },
+            {
+              "text": "女性は脂肪が多いため、骨盤内に脂肪を蓄積するスペースが必要だから",
+              "is_correct": false
+            },
+            {
+              "text": "女性の方が歩幅が狭いため、横広の骨盤が歩行に適しているから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["pelvis-basics"]
+        },
+        {
+          "question_text": "寛骨の各部位とその特徴を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "寛骨は3つの骨が癒合してできています。腸骨は上部の大きな翼で腸骨稜が触診でき、坐骨は下後部で座位時に体重を支える坐骨結節があります。恥骨は前下部で左右が恥骨結合で連結されます。寛骨臼は3骨が合流する外側面にあり、大腿骨頭と股関節を形成します。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.3",
+          "metadata": {
+            "pairs": [
+              {"left": "腸骨", "right": "骨盤上部の翼状の部分で、腰に手を当てると触れる"},
+              {"left": "坐骨", "right": "座ったとき体重を支える坐骨結節がある"},
+              {"left": "恥骨", "right": "前方下部で左右が恥骨結合により連結される"},
+              {"left": "寛骨臼", "right": "3骨が合流する部位で大腿骨頭と関節する"}
+            ]
+          },
+          "choices": [
+            {
+              "text": "腸骨 → 骨盤上部の翼状の部分で、腰に手を当てると触れる",
+              "is_correct": true
+            },
+            {
+              "text": "坐骨 → 座ったとき体重を支える坐骨結節がある",
+              "is_correct": true
+            },
+            {
+              "text": "恥骨 → 前方下部で左右が恥骨結合により連結される",
+              "is_correct": true
+            },
+            {
+              "text": "寛骨臼 → 3骨が合流する部位で大腿骨頭と関節する",
+              "is_correct": true
+            }
+          ],
+          "reference_text_ids": ["pelvis-basics"]
+        },
+        {
+          "question_text": "仙腸関節は非常に強固な靭帯で結合されているが、妊娠中にこの関節が弛緩する。このメカニズムと目的として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "妊娠中、卵巣と胎盤から分泌されるリラキシンというホルモンが靭帯のコラーゲン結合を弛緩させます。これにより仙腸関節と恥骨結合がわずかに広がり、出産時に産道が拡大します。この弛緩は出産に必要な適応ですが、妊娠中の腰痛・骨盤帯痛の原因にもなります。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.3",
+          "choices": [
+            {
+              "text": "リラキシンの作用で靭帯が弛緩し、出産時の産道拡大を可能にする",
+              "is_correct": true
+            },
+            {
+              "text": "エストロゲンの作用で骨が軟化し、骨盤全体が柔らかくなる",
+              "is_correct": false
+            },
+            {
+              "text": "プロゲステロンの作用で仙骨が後方に移動し、腹腔を広げる",
+              "is_correct": false
+            },
+            {
+              "text": "成長ホルモンの作用で骨端板が再活性化し、骨盤が大きくなる",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["pelvis-basics"]
+        },
+        {
+          "question_text": "長時間のデスクワークで「坐骨が痛い」と感じることがある。坐骨結節が座位時に痛みを生じやすい解剖学的理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "坐骨結節（Ischial Tuberosity）は坐骨の下端にある突起で、座位時に体重を直接支える部位です。硬い椅子に長時間座ると、坐骨結節とその上の軟部組織（大殿筋下部、坐骨滑液包）が圧迫されます。坐骨結節は皮下組織が薄い部位なので圧が直接骨に伝わりやすく、滑液包炎を起こすこともあります。骨盤を後傾させた「猫背座り」は坐骨結節でなく仙骨に荷重が移り、仙骨部痛や姿勢不良を助長します。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.3",
+          "choices": [
+            {
+              "text": "坐骨結節は座位で体重を直接受ける部位で、上の軟部組織が薄く圧が骨に伝わりやすいから",
+              "is_correct": true
+            },
+            {
+              "text": "坐骨結節には神経が集中しており、わずかな圧迫でも痛みを感じるから",
+              "is_correct": false
+            },
+            {
+              "text": "坐骨は骨盤で最も脆弱な骨で、体重がかかると微小骨折を起こすから",
+              "is_correct": false
+            },
+            {
+              "text": "坐骨結節は血管が多い部位で、圧迫による血流障害が痛みの原因だから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["pelvis-basics"]
+        },
+        {
+          "question_text": "骨盤骨折は大きなエネルギーの外傷（交通事故など）で生じることが多く、生命に関わる場合がある。骨盤骨折が特に危険である解剖学的理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "骨盤は環状構造のため、一箇所が折れると別の箇所も損傷する可能性が高くなります（プレッツェルの輪を折るイメージ）。骨盤内には腸骨内動脈・静脈などの主要血管が走っており、骨折片による血管損傷は大量出血（後腹膜出血）を引き起こし、出血性ショックで生命に関わります。また膀胱・尿道・直腸などの骨盤内臓器の損傷も合併しやすく、多発外傷の中でも重篤な部類に入ります。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.3",
+          "choices": [
+            {
+              "text": "骨盤内に主要な動静脈があり、骨折片で損傷すると大量出血を起こすから",
+              "is_correct": true
+            },
+            {
+              "text": "骨盤は脊髄を含んでいるため、骨折により下半身が麻痺するから",
+              "is_correct": false
+            },
+            {
+              "text": "骨盤骨は血流が乏しく、一度折れるとほぼ治癒しないから",
+              "is_correct": false
+            },
+            {
+              "text": "骨盤骨折では仙腸関節が脱臼して二度と歩けなくなるから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["pelvis-basics"]
+        }
+      ]
+    },
+    {
+      "name": "大腿骨と膝蓋骨",
+      "slug": "femur-patella",
+      "description": "人体最長・最強の骨 — 大腿骨頸部骨折は高齢者の寝たきりの原因",
+      "sort_order": 16,
+      "concepts": [
+        {
+          "name": "大腿骨",
+          "description": "人体最長・最強の骨。大腿骨頭が股関節を形成し、遠位端で膝関節を構成する"
+        },
+        {
+          "name": "膝蓋骨",
+          "description": "人体最大の種子骨。大腿四頭筋のてこの支点として膝伸展の効率を高める"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "大腿骨に関する記述として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "大腿骨（Femur）は人体最長かつ最強の骨で、体長の約1/4を占めます。近位端の大腿骨頭は寛骨臼と股関節を形成し、遠位端の内側顆・外側顆は脛骨と膝関節を形成します。成人男性では約43cm、女性では約40cmに達します。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
+          "choices": [
+            {
+              "text": "人体で最も長く、最も強い骨である",
+              "is_correct": true
+            },
+            {
+              "text": "上肢で最も長い骨である",
+              "is_correct": false
+            },
+            {
+              "text": "扁平骨に分類される",
+              "is_correct": false
+            },
+            {
+              "text": "骨髄腔を持たない",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["femur-patella-basics"]
+        },
+        {
+          "question_text": "次の文を完成させてください:\n\n膝蓋骨は大腿四頭筋の腱の中に発達した【　　】であり、膝を伸ばすときのてこの支点として機能する。",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "膝蓋骨（Patella）は大腿四頭筋の腱内に存在する人体最大の種子骨（Sesamoid Bone）です。種子骨は腱の中に発達する骨で、腱にかかる摩擦を軽減し力の伝達方向を変えることで運動効率を高めます。膝蓋骨は大腿四頭筋の膝伸展効率を約50%向上させます。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
+          "metadata": {
+            "word_bank": ["種子骨", "扁平骨", "短骨", "不規則骨"]
+          },
+          "choices": [
+            {
+              "text": "種子骨",
+              "is_correct": true
+            },
+            {
+              "text": "扁平骨",
+              "is_correct": false
+            },
+            {
+              "text": "短骨",
+              "is_correct": false
+            },
+            {
+              "text": "不規則骨",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["femur-patella-basics"]
+        },
+        {
+          "question_text": "大腿骨頭と骨幹をつなぐ大腿骨頸が骨幹に対して約125°の角度（頸体角）をなしている理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "頸体角（約125°）は股関節から膝へ体重を伝達する際に最適な角度です。この角度により、骨盤の寛骨臼で受けた体重が大腿骨頸を経て骨幹へ効率的に伝わります。角度が大きすぎる（外反股）と股関節が不安定になり、小さすぎる（内反股）と大腿骨頸にかかる剪断力が増大して骨折リスクが上がります。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
+          "choices": [
+            {
+              "text": "骨盤から下肢への体重伝達を力学的に最適化するため",
+              "is_correct": true
+            },
+            {
+              "text": "股関節の可動域を制限して脱臼を防ぐため",
+              "is_correct": false
+            },
+            {
+              "text": "大殿筋が付着するスペースを確保するため",
+              "is_correct": false
+            },
+            {
+              "text": "歩行時に脚を前後に振る振り子運動の軸を作るため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["femur-patella-basics"]
+        },
+        {
+          "question_text": "膝蓋骨がなかった場合、膝の伸展運動にどのような影響があると考えられるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "膝蓋骨は大腿四頭筋のてこの支点（滑車）として機能し、膝伸展の効率を約50%向上させています。膝蓋骨がなければ大腿四頭筋の腱は大腿骨の前面に密着するため、てこのモーメントアーム（力の腕）が短くなり、同じ膝伸展力を得るのにより大きな筋力が必要になります。これは階段の昇降や椅子からの立ち上がりで特に問題になります。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
+          "choices": [
+            {
+              "text": "てこの支点がなくなり、同じ膝伸展力を得るのにより大きな筋力が必要になる",
+              "is_correct": true
+            },
+            {
+              "text": "膝関節が伸展不能になり、脚が曲がったまま固定される",
+              "is_correct": false
+            },
+            {
+              "text": "膝伸展力は変わらないが、膝を曲げる動作ができなくなる",
+              "is_correct": false
+            },
+            {
+              "text": "膝関節の安定性がなくなり、歩行時に膝が前後にぐらつく",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["femur-patella-basics"]
+        },
+        {
+          "question_text": "大腿骨の各構造とその役割を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "大腿骨は多くの構造的特徴を持ちます。大腿骨頭は球状で股関節を形成し、大腿骨頸は頭と骨幹をつなぐ「首」部分です。大転子は大殿筋や外旋筋群など多くの筋の付着部で、触診のランドマークにもなります。内側顆と外側顆は遠位端の膨らみで、脛骨と膝関節を構成します。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
+          "metadata": {
+            "pairs": [
+              {"left": "大腿骨頭", "right": "球状の構造で寛骨臼と股関節を形成する"},
+              {"left": "大腿骨頸", "right": "頭と骨幹をつなぐ部分で骨折しやすい"},
+              {"left": "大転子", "right": "殿筋群など多くの筋の付着部"},
+              {"left": "内側顆・外側顆", "right": "遠位端で脛骨と膝関節を構成する"}
+            ]
+          },
+          "choices": [
+            {
+              "text": "大腿骨頭 → 球状の構造で寛骨臼と股関節を形成する",
+              "is_correct": true
+            },
+            {
+              "text": "大腿骨頸 → 頭と骨幹をつなぐ部分で骨折しやすい",
+              "is_correct": true
+            },
+            {
+              "text": "大転子 → 殿筋群など多くの筋の付着部",
+              "is_correct": true
+            },
+            {
+              "text": "内側顆・外側顆 → 遠位端で脛骨と膝関節を構成する",
+              "is_correct": true
+            }
+          ],
+          "reference_text_ids": ["femur-patella-basics"]
+        },
+        {
+          "question_text": "大腿骨の骨幹が前方に緩やかに弯曲している構造的意義として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "大腿骨の前方弯曲はアーチ構造と同様に、垂直荷重を骨全体に分散させる効果があります。直線的な骨では一点に応力が集中しやすいですが、弯曲があることで荷重がカーブに沿って分散され、より大きな力に耐えられます。これは建築のアーチ構造と同じ原理で、骨が効率的に体重を支える工学的設計です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
+          "choices": [
+            {
+              "text": "荷重をカーブに沿って分散し、直線構造より大きな力に耐えるため",
+              "is_correct": true
+            },
+            {
+              "text": "大腿四頭筋が巻き付くスペースを確保するため",
+              "is_correct": false
+            },
+            {
+              "text": "歩行時に膝を前に振り出しやすくするため",
+              "is_correct": false
+            },
+            {
+              "text": "大腿動脈が骨に沿って走行するためのカバーを作るため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["femur-patella-basics"]
+        },
+        {
+          "question_text": "高齢者の転倒による大腿骨頸部骨折が「寝たきりの主要原因」とされる理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "大腿骨頸部骨折が高齢者にとって深刻なのは、複数の要因が重なるためです。大腿骨頸部は海綿骨が多く骨皮質が薄い構造で、骨粗鬆症の影響を最も受けやすい部位です。骨折すると大腿骨頭への血流（内側大腿回旋動脈）が遮断されやすく、骨頭壊死のリスクがあります。手術後も長期のリハビリが必要で、臥床期間中に筋萎縮・肺炎・褥瘡・深部静脈血栓症などの合併症が生じ、これが寝たきりにつながります。1年以内の死亡率は約20-30%と報告されています。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
+          "choices": [
+            {
+              "text": "骨折部の血流遮断による骨頭壊死リスクと、長期臥床に伴う全身合併症（肺炎・筋萎縮など）が重なるため",
+              "is_correct": true
+            },
+            {
+              "text": "大腿骨は最大の骨なので骨折の痛みが最も強く、痛みで動けなくなるため",
+              "is_correct": false
+            },
+            {
+              "text": "大腿骨頸部には脊髄の神経が通っており、骨折で下肢が永久に麻痺するため",
+              "is_correct": false
+            },
+            {
+              "text": "大腿骨は全身の骨の中で最も治りが遅く、2年以上ギプス固定が必要なため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["femur-patella-basics", "fracture-healing-basics", "osteoporosis-basics"]
+        },
+        {
+          "question_text": "65歳の女性が「膝の前面が痛い」と訴えている。階段を降りるとき特に痛みが増す。膝蓋骨の解剖学的知識から、この症状のメカニズムとして最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "膝蓋骨は大腿骨の前面を滑走しますが、膝屈曲角度が大きくなるほど膝蓋大腿関節（膝蓋骨と大腿骨の接触面）にかかる圧迫力が増大します。階段降り時は膝が深く曲がり、体重を支えながら大腿四頭筋が遠心性収縮するため、膝蓋大腿関節への圧力は体重の3-4倍に達します。加齢による膝蓋大腿関節の軟骨摩耗（変形性膝関節症）があると、この高い圧力が痛みを引き起こします。これが「膝蓋大腿症候群」の典型的パターンです。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
+          "choices": [
+            {
+              "text": "階段降りで膝が深く曲がり、膝蓋骨と大腿骨の間の圧力が体重の数倍に増大し、摩耗した軟骨に痛みが生じる",
+              "is_correct": true
+            },
+            {
+              "text": "膝蓋骨が腱から外れて脱臼し、大腿骨の前面を直接圧迫している",
+              "is_correct": false
+            },
+            {
+              "text": "膝蓋骨の骨折が起きており、骨片が膝関節内で引っかかっている",
+              "is_correct": false
+            },
+            {
+              "text": "膝蓋骨の裏側に滑液が過剰に溜まり、関節内圧が上昇している",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["femur-patella-basics"]
+        }
+      ]
+    },
+    {
+      "name": "下腿と足の骨",
+      "slug": "leg-foot-bones",
+      "description": "脛骨が太く腓骨が細い理由 — 足のアーチが崩れるとどうなる？",
+      "sort_order": 17,
+      "concepts": [
+        {
+          "name": "脛骨と腓骨",
+          "description": "下腿の2本の骨。脛骨は荷重骨で太く、腓骨は非荷重で細い。足関節の安定に両方が必要"
+        },
+        {
+          "name": "足の骨とアーチ",
+          "description": "足は26個の骨で構成され、3つのアーチが衝撃吸収と推進力を生む"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "下腿で体重を支える主要な骨はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "脛骨（Tibia）は下腿の内側にある太い骨で、大腿骨から体重を受け取り足関節へ伝達する荷重骨（Weight-Bearing Bone）です。腓骨（Fibula）は外側の細い骨で体重は支えず、主に筋の付着部と足関節の外側安定に関わります。脛骨が太く腓骨が細いのは、この荷重の違いによるものです。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
+          "choices": [
+            {
+              "text": "脛骨",
+              "is_correct": true
+            },
+            {
+              "text": "腓骨",
+              "is_correct": false
+            },
+            {
+              "text": "距骨",
+              "is_correct": false
+            },
+            {
+              "text": "踵骨",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["leg-foot-bones-basics"]
+        },
+        {
+          "question_text": "次の文を完成させてください:\n\n足を構成する骨の総数は【　　】個で、手の27個に近い数の骨が集まることで複雑な動きと体重支持を両立している。",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "足は26個の骨で構成されます。内訳は足根骨（Tarsal Bones）7個、中足骨（Metatarsals）5個、趾骨（Phalanges）14個です。手（27個）とほぼ同数の骨があり、歩行・走行・立位での複雑な要求（衝撃吸収、体重分散、推進力）に対応しています。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
+          "metadata": {
+            "word_bank": ["26", "12", "33", "20"]
+          },
+          "choices": [
+            {
+              "text": "26",
+              "is_correct": true
+            },
+            {
+              "text": "12",
+              "is_correct": false
+            },
+            {
+              "text": "33",
+              "is_correct": false
+            },
+            {
+              "text": "20",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["leg-foot-bones-basics"]
+        },
+        {
+          "question_text": "脛骨が太く腓骨が細い構造上の理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "脛骨は下肢の荷重骨として大腿骨から全体重を受け取り足関節へ伝達するため、大きな圧縮力に耐える太さが必要です（ウォルフの法則：荷重に応じて骨は太く強くなる）。腓骨は体重を支える必要がないため細いままです。腓骨の主な役割は筋の付着部の提供と、外果として足関節の外側安定性への寄与です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
+          "choices": [
+            {
+              "text": "脛骨は体重を支える荷重骨であり、腓骨は体重を支えないため",
+              "is_correct": true
+            },
+            {
+              "text": "脛骨の方が多くの筋が付着するため太さが必要である",
+              "is_correct": false
+            },
+            {
+              "text": "腓骨は成長途中で退化した骨で、本来は脛骨と同じ太さだった",
+              "is_correct": false
+            },
+            {
+              "text": "脛骨は骨髄腔が大きく造血機能が高いため太い",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["leg-foot-bones-basics"]
+        },
+        {
+          "question_text": "足のアーチが身体にとって重要な理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "足のアーチ（内側縦アーチ、外側縦アーチ、横アーチ）は3つの重要な機能を持ちます。①歩行・走行時の衝撃吸収（バネのように変形して衝撃を和らげる）、②体重の効率的な分散（踵骨と中足骨頭へ）、③歩行時の推進力（蹴り出し時のバネ効果）。これらが合わさって、人間が長距離を効率的に歩行・走行できる仕組みを作っています。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
+          "choices": [
+            {
+              "text": "歩行時の衝撃吸収、体重の分散、蹴り出しの推進力を同時に実現するため",
+              "is_correct": true
+            },
+            {
+              "text": "足の血管を保護し、足先への血流を確保するため",
+              "is_correct": false
+            },
+            {
+              "text": "足根骨同士の摩擦を減らし、関節の動きをスムーズにするため",
+              "is_correct": false
+            },
+            {
+              "text": "靴を履くときに足が靴底にフィットしやすくするため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["leg-foot-bones-basics"]
+        },
+        {
+          "question_text": "下腿と足の骨の構造と役割を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "脛骨は下腿の荷重骨で内果が足関節内側を形成します。腓骨は非荷重の細い骨で外果が足関節外側を形成します。距骨は脛骨・腓骨の間に嵌まり体重を受ける要の骨です。踵骨は足最大の骨でアキレス腱が付着し、足のアーチの後方支点となります。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
+          "metadata": {
+            "pairs": [
+              {"left": "脛骨", "right": "体重を支える荷重骨で、内果が足関節内側を形成"},
+              {"left": "腓骨", "right": "体重を支えない細い骨で、外果が足関節外側を形成"},
+              {"left": "距骨", "right": "脛骨と腓骨の間に嵌まり足関節を構成する"},
+              {"left": "踵骨", "right": "足最大の骨でアキレス腱が付着する"}
+            ]
+          },
+          "choices": [
+            {
+              "text": "脛骨 → 体重を支える荷重骨で、内果が足関節内側を形成",
+              "is_correct": true
+            },
+            {
+              "text": "腓骨 → 体重を支えない細い骨で、外果が足関節外側を形成",
+              "is_correct": true
+            },
+            {
+              "text": "距骨 → 脛骨と腓骨の間に嵌まり足関節を構成する",
+              "is_correct": true
+            },
+            {
+              "text": "踵骨 → 足最大の骨でアキレス腱が付着する",
+              "is_correct": true
+            }
+          ],
+          "reference_text_ids": ["leg-foot-bones-basics"]
+        },
+        {
+          "question_text": "足関節（足首）の安定性について、「くるぶし」の構造から説明した記述として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "足関節は距骨が脛骨の内果と腓骨の外果に「挟まれた」ほぞ穴構造（Mortise Joint）になっています。外果（腓骨）は内果（脛骨）より下方に位置しているため、足が内側に倒れる（内反する）方向には骨による制限が弱く、逆に外側に倒れる（外反する）方向には外果が壁となり制限します。このため、足首の捻挫は内反方向（足裏が内側を向く）に多く発生します。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
+          "choices": [
+            {
+              "text": "外果が内果より低い位置にあるため内反方向の制限が弱く、内反捻挫が起きやすい",
+              "is_correct": true
+            },
+            {
+              "text": "内果の方が大きいため外反方向が不安定で、外反捻挫が多い",
+              "is_correct": false
+            },
+            {
+              "text": "脛骨と腓骨は足関節で完全に癒合しており、どの方向にも安定している",
+              "is_correct": false
+            },
+            {
+              "text": "距骨が足関節から容易に脱臼するため、あらゆる方向に不安定である",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["leg-foot-bones-basics"]
+        },
+        {
+          "question_text": "扁平足（Flat Foot）が足部だけでなく膝や腰の痛みの原因にもなりうる理由として、解剖学的に最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "足のアーチ（特に内側縦アーチ）が崩れると、歩行時の衝撃吸収機能が低下し、衝撃が直接膝・股関節・腰椎に伝わります。さらに扁平足では足が過回内（Over-pronation：足が内側に倒れすぎる）しやすく、これが脛骨の内旋→膝のアライメント異常（膝が内側に入るKnee Valgus）→骨盤の傾斜→腰椎への負担増大という連鎖的なアライメント異常（運動連鎖 / Kinetic Chain）を引き起こします。このため「足の問題が膝や腰に波及する」のです。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
+          "choices": [
+            {
+              "text": "アーチ崩壊による衝撃吸収低下と過回内が、脛骨→膝→骨盤→腰椎の連鎖的アライメント異常を引き起こすため",
+              "is_correct": true
+            },
+            {
+              "text": "扁平足では足の血流が悪化し、下肢全体の筋力が低下して膝や腰に負担がかかるため",
+              "is_correct": false
+            },
+            {
+              "text": "アーチが崩れると足の神経が圧迫され、膝や腰に放散痛（関連痛）が生じるため",
+              "is_correct": false
+            },
+            {
+              "text": "足のアーチがないと歩幅が極端に小さくなり、代償として膝と腰を過度に使うため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["leg-foot-bones-basics"]
+        },
+        {
+          "question_text": "マラソンランナーが「すねの内側が痛い」（シンスプリント / 脛骨過労性骨膜炎）と訴えている。この症状の解剖学的メカニズムとして最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "シンスプリント（Medial Tibial Stress Syndrome）は脛骨の内側面に付着する筋（後脛骨筋、ヒラメ筋、長趾屈筋など）の反復的な牽引力によって、骨膜（periosteum）に炎症が生じる疾患です。脛骨の前内側面は皮下組織が薄く（弁慶の泣き所）、骨膜が直接ストレスを受けやすい構造です。ランニングの繰り返す衝撃と筋の牽引力が骨膜を刺激し、放置すると疲労骨折に進行することもあります。扁平足や過回内は筋の牽引力を増大させるリスク因子です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
+          "choices": [
+            {
+              "text": "脛骨内側に付着する筋の反復的牽引により骨膜に炎症が生じ、皮下組織が薄い部位で痛みが出やすいため",
+              "is_correct": true
+            },
+            {
+              "text": "脛骨の骨髄腔内の圧力が走行で上昇し、骨の内側から外側に向かって痛みが生じるため",
+              "is_correct": false
+            },
+            {
+              "text": "腓骨が荷重の一部を負担できず、脛骨に過剰な圧縮力が集中して骨折するため",
+              "is_correct": false
+            },
+            {
+              "text": "ランニング時に脛骨と腓骨の間の骨間膜が伸びて炎症を起こすため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["leg-foot-bones-basics"]
+        }
+      ]
+    },
+    {
+      "name": "下肢とヨガ — 立つ・歩くを支える骨格",
+      "slug": "lower-limb-and-yoga",
+      "description": "立位ポーズの土台は下肢の骨格理解 — 膝のアライメント、足のアーチ、転倒予防",
+      "sort_order": 18,
+      "concepts": [
+        {
+          "name": "立位ポーズの骨格アライメント",
+          "description": "膝の位置、足のアーチ、骨盤の傾きがヨガの立位ポーズの安全性と効果を左右する"
+        },
+        {
+          "name": "股関節の骨格的限界",
+          "description": "大腿骨頸の前捻角や寛骨臼の深さには個人差があり、股関節の可動域は骨格で制限される"
+        },
+        {
+          "name": "ヨガと転倒予防",
+          "description": "ヨガの立位バランスポーズが固有受容感覚と下肢筋力を向上させ、高齢者の転倒予防に寄与する"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "ヴィーラバドラーサナI（戦士のポーズI）で前脚の膝が内側に入る（Knee Valgus）と、下肢の骨格にどのような問題が生じるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "膝が内側に入る（Knee Valgus / ニーイン）と、大腿骨の軸と脛骨の軸がずれます。これにより膝関節の内側靭帯（MCL）や前十字靭帯（ACL）にストレスがかかり、長期的には膝の損傷リスクが高まります。戦士のポーズで「膝を足のつま先の方向に向ける」という指導は、この骨格アライメントを正すためです。",
+          "source": "Ni et al., 2014, Arch Phys Med Rehabil, doi:10.1016/j.apmr.2014.04.022",
+          "choices": [
+            {
+              "text": "大腿骨と脛骨の軸がずれ、膝の靭帯にストレスがかかる",
+              "is_correct": true
+            },
+            {
+              "text": "脛骨が外旋して足のアーチが崩壊する",
+              "is_correct": false
+            },
+            {
+              "text": "大腿骨頸部に過度な剪断力がかかり骨折リスクが生じる",
+              "is_correct": false
+            },
+            {
+              "text": "膝蓋骨が外側に脱臼しやすくなる",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["yoga-lower-limb-grounding", "femur-patella-basics", "leg-foot-bones-basics"]
+        },
+        {
+          "question_text": "次の文を完成させてください:\n\nヨガの立位ポーズで足裏全体を意識的にマットに根づかせ、足のアーチを活性化する技法を【　　】と呼ぶ。",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "パダ・バンダ（Pada Bandha）は「足のロック/封印」を意味するサンスクリット語で、足裏の3点（踵、小趾球、母趾球）を均等にマットに押しつけ、足のアーチを持ち上げるように意識する技法です。これにより足の内在筋（足底の小さな筋群）が活性化され、内側縦アーチが安定し、足首から上への安定した力の伝達が可能になります。",
+          "source": "Ni et al., 2014, Arch Phys Med Rehabil, doi:10.1016/j.apmr.2014.04.022",
+          "metadata": {
+            "word_bank": ["パダ・バンダ（Pada Bandha）", "ムーラ・バンダ（Mula Bandha）", "ウッディヤナ・バンダ（Uddiyana Bandha）", "ハスタ・バンダ（Hasta Bandha）"]
+          },
+          "choices": [
+            {
+              "text": "パダ・バンダ（Pada Bandha）",
+              "is_correct": true
+            },
+            {
+              "text": "ムーラ・バンダ（Mula Bandha）",
+              "is_correct": false
+            },
+            {
+              "text": "ウッディヤナ・バンダ（Uddiyana Bandha）",
+              "is_correct": false
+            },
+            {
+              "text": "ハスタ・バンダ（Hasta Bandha）",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["yoga-lower-limb-grounding", "leg-foot-bones-basics"]
+        },
+        {
+          "question_text": "バッダ・コナーサナ（合蹠のポーズ）で股関節を開くとき、骨格上の制限因子として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "股関節の外旋可動域は、大腿骨頭が寛骨臼内で回旋する動きです。この可動域は①寛骨臼の深さと向き、②大腿骨頸の前捻角（Femoral Anteversion）、③関節唇や靭帯の柔軟性によって決まります。これらは骨格構造として生まれつき個人差が大きく、筋のストレッチだけでは変えられない限界があります。骨格的に「開かない股関節」を無理に開こうとすると、関節唇損傷のリスクがあります。",
+          "source": "Motorwala et al., 2016, Int J Yoga, doi:10.4103/0973-6131.171717",
+          "choices": [
+            {
+              "text": "大腿骨頸の前捻角や寛骨臼の形状には個人差があり、骨格構造で可動域が制限される",
+              "is_correct": true
+            },
+            {
+              "text": "膝蓋骨が大腿骨前面で引っかかり、股関節の外旋を制限する",
+              "is_correct": false
+            },
+            {
+              "text": "脛骨と腓骨が連動して動くため、膝の角度が股関節の開きを制限する",
+              "is_correct": false
+            },
+            {
+              "text": "足のアーチが崩れると股関節の外旋が制限される",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["yoga-lower-limb-grounding", "pelvis-basics", "femur-patella-basics"]
+        },
+        {
+          "question_text": "ヨガの立位バランスポーズ（ヴルクシャーサナなど）が高齢者の転倒予防に有効とされるメカニズムとして最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "片脚立ちのポーズでは、足のアーチの微細な調整、足関節周囲の筋群の持続的な活動、そして足底の固有受容器（足裏の圧力センサー）からのフィードバックが統合されてバランスが維持されます。これを繰り返し練習することで、固有受容感覚（関節の位置や動きを感知する能力）が向上し、日常生活でのバランス能力が改善されます。Ni et al. (2014) はヨガプログラムが高齢者のバランス能力を有意に改善することを報告しています。",
+          "source": "Ni et al., 2014, Arch Phys Med Rehabil, doi:10.1016/j.apmr.2014.04.022",
+          "choices": [
+            {
+              "text": "足のアーチと足関節の固有受容感覚が鍛えられ、バランス能力が向上するため",
+              "is_correct": true
+            },
+            {
+              "text": "大腿骨の骨密度が増加し、転倒しても骨折しにくくなるため",
+              "is_correct": false
+            },
+            {
+              "text": "足の骨の数が増えて接地面積が広がり、安定性が増すため",
+              "is_correct": false
+            },
+            {
+              "text": "膝蓋骨のてこの効率が向上し、膝伸展力が強くなるため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["yoga-lower-limb-grounding", "leg-foot-bones-basics"]
+        },
+        {
+          "question_text": "下肢のヨガポーズと骨格の関係を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "戦士のポーズは膝のアライメント（大腿骨−脛骨軸）が重要です。木のポーズは足のアーチ（26個の骨の配列）を活用したバランス練習です。合蹠のポーズは大腿骨頭の寛骨臼内での外旋で、骨格的個人差が大きい動きです。椅子のポーズ（ウトカターサナ）では大腿骨頸部の角度と膝蓋骨のてこの効率が膝への負荷を決めます。",
+          "source": "Motorwala et al., 2016, Int J Yoga, doi:10.4103/0973-6131.171717",
+          "metadata": {
+            "pairs": [
+              {"left": "戦士のポーズ", "right": "膝が足のつま先と同じ方向を向く（大腿骨−脛骨の軸の整列）"},
+              {"left": "木のポーズ", "right": "足のアーチを活用して片脚バランスを維持する"},
+              {"left": "合蹠のポーズ", "right": "寛骨臼内で大腿骨頭が外旋する（骨格的個人差が大きい）"},
+              {"left": "椅子のポーズ", "right": "膝蓋骨のてこの効率と大腿骨頸の角度が膝への負荷を決める"}
+            ]
+          },
+          "choices": [
+            {
+              "text": "戦士のポーズ → 膝が足のつま先と同じ方向を向く（大腿骨−脛骨の軸の整列）",
+              "is_correct": true
+            },
+            {
+              "text": "木のポーズ → 足のアーチを活用して片脚バランスを維持する",
+              "is_correct": true
+            },
+            {
+              "text": "合蹠のポーズ → 寛骨臼内で大腿骨頭が外旋する（骨格的個人差が大きい）",
+              "is_correct": true
+            },
+            {
+              "text": "椅子のポーズ → 膝蓋骨のてこの効率と大腿骨頸の角度が膝への負荷を決める",
+              "is_correct": true
+            }
+          ],
+          "reference_text_ids": ["yoga-lower-limb-grounding", "pelvis-basics", "femur-patella-basics", "leg-foot-bones-basics"]
+        },
+        {
+          "question_text": "閉経後の女性にヨガの立位荷重ポーズ（戦士のポーズ、木のポーズなど）を勧める根拠として、骨格系の知識から最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "閉経後はエストロゲンの減少により骨吸収が骨形成を上回り、骨密度が急速に低下します（骨粗鬆症）。特に大腿骨頸部と腰椎が影響を受けやすい部位です。ヨガの立位荷重ポーズは下肢と脊柱に適度な荷重をかけ、ウォルフの法則により骨芽細胞の活動を促進して骨密度の維持に寄与する可能性があります。Motorwala et al. (2016) はヨガプログラムが閉経後女性の腰椎骨密度を改善したと報告しています。",
+          "source": "Motorwala et al., 2016, Int J Yoga, doi:10.4103/0973-6131.171717",
+          "choices": [
+            {
+              "text": "立位荷重が大腿骨・脛骨・脊柱にかかりウォルフの法則で骨密度維持に寄与するため",
+              "is_correct": true
+            },
+            {
+              "text": "ヨガの呼吸法がカルシウム吸収を促進し骨を直接強化するため",
+              "is_correct": false
+            },
+            {
+              "text": "ヨガのストレッチが骨膜を刺激して骨の成長を再開させるため",
+              "is_correct": false
+            },
+            {
+              "text": "ヨガのポーズが骨髄の造血機能を活性化し全身の骨を強化するため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["yoga-lower-limb-grounding", "osteoporosis-basics", "bone-remodeling-basics"]
+        },
+        {
+          "question_text": "「股関節が硬くて開かない」と悩む生徒に対し、ヨガ指導者が解剖学的知識に基づいて行うべき対応として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "股関節の可動域には筋の柔軟性だけでなく、骨格構造（大腿骨頸の前捻角、寛骨臼の深さと向き）による制限があり、これは個人差が大きく変えられません。指導者は「全員が同じ可動域を達成すべき」という前提を捨て、個人の骨格的限界を尊重する必要があります。無理な開脚は関節唇損傷や恥骨結合炎のリスクとなります。筋の柔軟性向上は長期的な練習で改善可能ですが、骨に当たる「硬い感覚」を超えてはいけません。",
+          "source": "Motorwala et al., 2016, Int J Yoga, doi:10.4103/0973-6131.171717",
+          "choices": [
+            {
+              "text": "骨格構造（前捻角・寛骨臼の形状）の個人差を説明し、無理に開かず各自の限界を尊重するよう指導する",
+              "is_correct": true
+            },
+            {
+              "text": "毎日のストレッチで必ず全員が開脚180度を達成できると励まし、練習量を増やすよう指示する",
+              "is_correct": false
+            },
+            {
+              "text": "股関節の外旋は膝蓋骨の位置で決まるので、膝のストレッチを重点的に行うよう指導する",
+              "is_correct": false
+            },
+            {
+              "text": "足のアーチを鍛えれば股関節の可動域が広がると説明し、パダ・バンダの練習を増やす",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["yoga-lower-limb-grounding", "pelvis-basics", "femur-patella-basics"]
+        },
+        {
+          "question_text": "ヨガの指導者養成で「解剖学的に安全な下肢のアライメント」を教える際、骨格系の知識を統合して伝えるべきポイントとして最も重要なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "下肢のアライメントは運動連鎖（Kinetic Chain）の考え方で統合的に理解する必要があります。足のアーチ→足関節→脛骨→膝関節→大腿骨→股関節→骨盤は力学的に連続しており、一箇所のずれが全体に波及します。例えば足の過回内（扁平足）→脛骨の内旋→膝のKnee Valgus→骨盤の非対称→腰椎へのストレスという連鎖です。指導者はこの連鎖を理解した上で「足の土台→膝の方向→骨盤の位置」と下から順に整えるアプローチが有効です。",
+          "source": "Ni et al., 2014, Arch Phys Med Rehabil, doi:10.1016/j.apmr.2014.04.022",
+          "choices": [
+            {
+              "text": "足のアーチから骨盤まで運動連鎖でつながっており、足の土台から順に整えることが全身のアライメントに影響する",
+              "is_correct": true
+            },
+            {
+              "text": "膝蓋骨の位置さえ正しければ下肢全体のアライメントは自動的に整うので、膝だけに注目すればよい",
+              "is_correct": false
+            },
+            {
+              "text": "骨盤の位置を最初に決めれば、重力で下肢全体が自然に正しいアライメントになる",
+              "is_correct": false
+            },
+            {
+              "text": "左右の大腿骨の長さは必ず同じなので、左右対称にポーズをとれば安全である",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["yoga-lower-limb-grounding", "pelvis-basics", "femur-patella-basics", "leg-foot-bones-basics"]
         }
       ]
     }
