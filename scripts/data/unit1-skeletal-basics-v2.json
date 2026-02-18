@@ -107,6 +107,11 @@
       "id": "yoga-spine-neuroscience",
       "title": "ヨガと脳の可塑性 — 痛みの認知を変える",
       "content": "ヨガの定期的な実践は脳の構造にも影響を与える。ヨガ実践者は加齢に伴う灰白質の減少が抑制されることが報告されている（Villemure et al., 2015, Front Hum Neurosci, doi:10.3389/fnhum.2015.00281）。また、包括的なヨガプログラム（アーサナ・呼吸法・瞑想の組み合わせ）は、運動療法単独よりも慢性腰痛の痛み・不安・抑うつを改善し、脊柱の可動性も向上させた（Tekur et al., 2012, Complement Ther Med, doi:10.1016/j.ctim.2011.12.009）。これは、ヨガが単なる物理的な運動ではなく、痛みの認知・情動処理にも作用する心身統合的アプローチであることを示唆する。指導者が『痛みのない範囲で』と伝えることは、安全な身体的境界を守るだけでなく、痛みに対する恐怖回避行動を減らす心理的効果もある。"
+    },
+    {
+      "id": "thoracic-cage-basics",
+      "title": "胸郭の構造と機能",
+      "content": "胸郭（Thoracic Cage）は胸骨・12対の肋骨・12個の胸椎で構成される骨性の囲いである。主な機能は①心臓・肺・大血管の保護、②呼吸運動の支持である。胸骨（Sternum）は胸骨柄（Manubrium）・胸骨体（Body）・剣状突起（Xiphoid Process）からなる。肋骨（Ribs）は12対あり、第1〜7肋骨は肋軟骨を介して直接胸骨に付着する真肋（True Ribs）、第8〜10肋骨は第7肋軟骨を介して間接的に胸骨につながる仮肋（False Ribs）、第11〜12肋骨は胸骨に付着しない浮遊肋（Floating Ribs）である。肋骨は後方で胸椎と関節し、肋間筋の収縮により「バケツの取っ手」のように上方に持ち上がることで胸腔を拡大し、吸気を可能にする。"
     }
   ],
   "sections": [
@@ -2816,6 +2821,274 @@
             "disc-herniation-basics",
             "vertebra-structure-basics",
             "yoga-spine-movement"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "胸郭",
+      "slug": "thoracic-cage",
+      "description": "心臓と肺を守りながら呼吸で膨らむ — 硬さと柔軟さの両立",
+      "sort_order": 10,
+      "concepts": [
+        {
+          "name": "肋骨",
+          "description": "12対の骨で胸郭の側面・前面を構成。真肋（1-7）、仮肋（8-10）、浮遊肋（11-12）に分類される"
+        },
+        {
+          "name": "胸骨",
+          "description": "胸郭の前面中央にある扁平骨。胸骨柄・胸骨体・剣状突起の3部からなる"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "胸郭を構成する3種類の骨の組み合わせとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "胸郭（Thoracic Cage）は3種類の骨で構成される。①胸骨（Sternum）：前面中央に位置する1個の扁平骨。②肋骨（Ribs）：12対（左右24本）の弓状の骨で側面と前面を形成。③胸椎（Thoracic Vertebrae）：12個の椎骨で後面を形成。これらが組み合わさって、心臓・肺・大血管を囲む骨性の「かご」を作る。",
+          "source": "OpenStax Anatomy and Physiology 7.4",
+          "choices": [
+            {
+              "text": "胸骨・肋骨（12対）・胸椎（12個）",
+              "is_correct": true
+            },
+            {
+              "text": "胸骨・肋骨（12対）・腰椎（5個）",
+              "is_correct": false
+            },
+            {
+              "text": "胸骨・鎖骨（2本）・胸椎（12個）",
+              "is_correct": false
+            },
+            {
+              "text": "肋骨（12対）・肩甲骨（2枚）・胸椎（12個）",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "thoracic-cage-basics"
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "12対の肋骨のうち、第1〜7肋骨は肋軟骨を介して直接胸骨に付着し「真肋（True Ribs）」と呼ばれる。第8〜10肋骨は第7肋軟骨を介して間接的に胸骨につながり「仮肋（False Ribs）」、第11〜12肋骨は胸骨に全く付着せず「浮遊肋（Floating Ribs）」と呼ばれる。この多様な付着様式が、胸郭の保護機能と呼吸時の可動性を両立させている。",
+          "source": "OpenStax Anatomy and Physiology 7.4",
+          "metadata": {
+            "template": "第1〜7肋骨は肋軟骨で直接胸骨に付く {{blank}} である"
+          },
+          "choices": [
+            {
+              "text": "真肋",
+              "is_correct": true
+            },
+            {
+              "text": "仮肋",
+              "is_correct": false
+            },
+            {
+              "text": "浮遊肋",
+              "is_correct": false
+            },
+            {
+              "text": "偽肋",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "thoracic-cage-basics"
+          ]
+        },
+        {
+          "question_text": "胸郭が完全に硬い骨の箱ではなく、肋軟骨という軟骨部分を含むのはなぜか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "胸郭は心臓と肺を保護する必要があるが、同時に呼吸のために拡張・収縮しなければならない。肋骨の前端は骨ではなく肋軟骨（Costal Cartilage）で胸骨に付着している。この軟骨部分が弾力性を提供し、吸気時に肋骨が「バケツの取っ手」のように上方に持ち上がることを可能にする。もし全てが硬い骨だけで構成されていたら、胸郭は拡張できず、呼吸が著しく制限される。「保護のための硬さ」と「呼吸のための柔軟さ」を両立させる巧みな設計である。",
+          "source": "OpenStax Anatomy and Physiology 7.4",
+          "choices": [
+            {
+              "text": "呼吸時に胸郭が拡張・収縮するための柔軟性を確保するため",
+              "is_correct": true
+            },
+            {
+              "text": "将来的に骨化するための成長予備領域として残されているため",
+              "is_correct": false
+            },
+            {
+              "text": "肋軟骨の方が骨より衝撃吸収に優れ、心臓への直接的な衝撃を緩和するため",
+              "is_correct": false
+            },
+            {
+              "text": "軟骨は骨より軽いため、胸郭の総重量を抑えるため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "thoracic-cage-basics"
+          ]
+        },
+        {
+          "question_text": "吸気時に肋骨が「バケツの取っ手」のように動くとはどういう意味か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "吸気時、肋間筋の収縮により肋骨が上方・外方に持ち上がる。このときの動きが、バケツの取っ手を持ち上げる動きに似ている。バケツの取っ手は、支点（バケツの縁への取り付け部分）を軸にして上方に回転するが、同様に肋骨も後方の胸椎との関節（肋椎関節）を軸として上方に回転する。肋骨が上がると胸郭の前後径と左右径が拡大し、胸腔の容積が増加する。これにより胸腔内圧が低下し、空気が肺に流入する。この運動は肋軟骨の弾力性があってこそ可能である。",
+          "source": "OpenStax Anatomy and Physiology 7.4, 23.3",
+          "choices": [
+            {
+              "text": "肋骨が胸椎との関節を軸に上方に回転し、胸郭の前後・左右径が拡大して胸腔が広がる",
+              "is_correct": true
+            },
+            {
+              "text": "肋骨が上下にスライドして胸郭の上下径が変化する",
+              "is_correct": false
+            },
+            {
+              "text": "肋骨が内側に倒れて胸郭が狭くなり、圧力で空気が押し出される",
+              "is_correct": false
+            },
+            {
+              "text": "胸骨が前方に突出して胸腔のスペースを作る",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "thoracic-cage-basics"
+          ]
+        },
+        {
+          "question_text": "肋骨の分類とその特徴を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "真肋（第1〜7）は肋軟骨を介して直接胸骨に付着する最も安定した肋骨。仮肋（第8〜10）は第7肋軟骨を介して間接的に胸骨につながり、やや可動性が高い。浮遊肋（第11〜12）は胸骨に全く付着せず、後方の胸椎のみと関節する。浮遊肋は最も可動性が高く、下部の内臓（腎臓など）の近くに位置する。胸骨は胸骨柄（上部、鎖骨と関節）・胸骨体（中央、第2〜7肋軟骨と関節）・剣状突起（下端、筋の付着点）の3部からなる。",
+          "source": "OpenStax Anatomy and Physiology 7.4",
+          "metadata": {
+            "pairs": [
+              {
+                "left": "真肋（第1〜7）",
+                "right": "肋軟骨で直接胸骨に付着"
+              },
+              {
+                "left": "仮肋（第8〜10）",
+                "right": "第7肋軟骨を介して間接的に接続"
+              },
+              {
+                "left": "浮遊肋（第11〜12）",
+                "right": "胸骨に付着せず後方の胸椎のみ"
+              },
+              {
+                "left": "胸骨柄",
+                "right": "胸骨の上部で鎖骨と関節する"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "thoracic-cage-basics"
+          ]
+        },
+        {
+          "question_text": "胸骨の形状が「扁平骨」であることは、胸郭の機能とどう関係しているか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "胸骨は扁平骨の代表例であり、2層の緻密骨の間に海綿骨（赤色骨髄を含む）が挟まれた構造を持つ。この形状は①薄く平らなため胸郭前面を広く覆って心臓と大血管を保護するシールドとして機能し、②左右の肋軟骨が付着する広い表面を提供し、③内部の赤色骨髄は成人でも活発に造血を行う場である。特に造血機能は重要で、骨髄穿刺（骨髄液の検査）は胸骨で行われることが多い。保護・付着点・造血という3つの機能を同時に果たす効率的なデザインである。",
+          "source": "OpenStax Anatomy and Physiology 7.4, 6.3",
+          "choices": [
+            {
+              "text": "薄く広い形状で前面の保護、肋軟骨の付着面、内部の造血という3つの機能を同時に果たす",
+              "is_correct": true
+            },
+            {
+              "text": "扁平骨は最も硬い骨の分類であり、衝撃に対する耐性が最大だから",
+              "is_correct": false
+            },
+            {
+              "text": "胸骨が扁平であることに機能的意味はなく、発生学上の偶然",
+              "is_correct": false
+            },
+            {
+              "text": "扁平骨は柔軟性が高く、呼吸時にたわむことで胸郭の拡張を助ける",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "thoracic-cage-basics",
+            "flat-bone-basics"
+          ]
+        },
+        {
+          "question_text": "交通事故でハンドルに胸を打ちつけた場合、胸郭の構造上最も損傷が起こりやすい部位と、その結果懸念される臓器損傷の組み合わせとして最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "ハンドルによる前方からの強い衝撃は、まず胸骨と前方の肋骨に加わる。肋骨骨折は最も多い胸部外傷であり、特に肋骨の外側弯曲部（最も曲がっている部分）が折れやすい。骨折した肋骨の断端が胸腔内に突き刺さると、肺を損傷して気胸（肺に穴が開いて空気が漏れ、肺が虚脱する）を引き起こすリスクがある。また胸骨骨折は直下の心臓に対する心臓挫傷のリスクがある。肋骨骨折は「保護のためにある骨が、骨折により保護対象を傷つけてしまう」という皮肉な状況を生む。",
+          "source": "OpenStax Anatomy and Physiology 7.4",
+          "choices": [
+            {
+              "text": "肋骨の外側弯曲部が折れやすく、骨片が肺を損傷して気胸を起こすリスクがある",
+              "is_correct": true
+            },
+            {
+              "text": "浮遊肋が最も折れやすく、腹腔の臓器を損傷する",
+              "is_correct": false
+            },
+            {
+              "text": "胸椎が最も損傷しやすく、脊髄損傷のリスクが最大",
+              "is_correct": false
+            },
+            {
+              "text": "肋軟骨が断裂して肋骨が胸骨から完全に外れる",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "thoracic-cage-basics"
+          ]
+        },
+        {
+          "question_text": "高齢者が背中が丸くなり（胸椎後弯の増強）、呼吸が浅くなった。胸郭と脊柱の知識を統合して、この関係を最もよく説明しているのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "加齢に伴う骨粗鬆症により胸椎の椎体が圧迫骨折を起こすと、胸椎後弯が増強し（円背/Kyphosis）、いわゆる「背中が丸い」姿勢になる。胸椎の過度な後弯は、①肋骨の挙上を制限する（バケツの取っ手運動が阻害される）、②胸郭の前後径の拡大を制限する、③横隔膜の下降スペースが狭まる、という3つの経路で胸腔の拡張を妨げる。結果として一回換気量が減少し、呼吸が浅く速くなる。骨粗鬆症→椎体圧迫骨折→円背→胸郭制限→呼吸機能低下という連鎖を理解することが、高齢者の身体を理解する鍵となる。",
+          "source": "OpenStax Anatomy and Physiology 7.3, 7.4, 23.3",
+          "choices": [
+            {
+              "text": "胸椎圧迫骨折による円背が肋骨の挙上と横隔膜の下降を制限し、胸腔が十分に拡張できなくなるから",
+              "is_correct": true
+            },
+            {
+              "text": "背中が丸くなると肋骨が外に開きすぎて、吸気時に戻れなくなるから",
+              "is_correct": false
+            },
+            {
+              "text": "高齢者は肋軟骨が完全に骨化して柔軟性がなくなるため（それだけが原因）",
+              "is_correct": false
+            },
+            {
+              "text": "円背で胸骨が内側に押し込まれ、心臓を圧迫して呼吸が苦しくなるから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "thoracic-cage-basics",
+            "spinal-curves-basics",
+            "osteoporosis-basics"
           ]
         }
       ]
