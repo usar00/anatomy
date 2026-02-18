@@ -27,6 +27,16 @@
       "id": "irregular-sesamoid-basics",
       "title": "不規則骨と種子骨",
       "content": "不規則骨（Irregular Bone）は、長骨・短骨・扁平骨のいずれにも当てはまらない複雑な形状の骨。椎骨・蝶形骨・篩骨・舌骨などが含まれる。複雑な形は、保護・支持・筋付着など複数の機能を同時に果たすため。種子骨（Sesamoid Bone）は、腱の中に発達する小さな骨で、膝蓋骨が最大の例。腱にかかる摩擦を軽減し、力の伝達効率を高める。"
+    },
+    {
+      "id": "compact-bone-basics",
+      "title": "緻密骨の構造と機能",
+      "content": "緻密骨（Compact Bone/Cortical Bone）は骨の外層を構成する硬く緻密な組織。ハバース系（オステオン）と呼ばれる同心円状の層板構造が基本単位。中心のハバース管に血管と神経が通り、周囲の骨層板の中に骨細胞が埋め込まれている。骨の約80%の重量を占め、圧縮力やねじれに対する強度を提供する。長骨の骨幹部では緻密骨が厚く、骨端部では薄い。"
+    },
+    {
+      "id": "spongy-bone-basics",
+      "title": "海綿骨の構造と機能",
+      "content": "海綿骨（Spongy Bone/Cancellous Bone/Trabecular Bone）は骨の内部に存在するスポンジ状の組織。骨梁（trabeculae）というネットワーク構造が特徴で、力がかかる方向に沿って配列される（ウォルフの法則）。骨梁の間の空間には骨髄（赤色骨髄または黄色骨髄）が存在する。緻密骨より軽く、衝撃吸収と力の分散に優れる。長骨の骨端部、椎体、扁平骨の板間層などに存在する。"
     }
   ],
   "sections": [
@@ -573,6 +583,274 @@
           ],
           "reference_text_ids": [
             "irregular-sesamoid-basics"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "緻密骨と海綿骨",
+      "slug": "compact-spongy-bone",
+      "description": "外は硬く中はスポンジ — 強くて軽い工学的設計。なぜ骨は中空なのか？",
+      "sort_order": 2,
+      "concepts": [
+        {
+          "name": "緻密骨",
+          "description": "骨の外層を構成する硬く緻密な組織。ハバース系（オステオン）が基本単位"
+        },
+        {
+          "name": "海綿骨",
+          "description": "骨の内部にあるスポンジ状の組織。骨梁のネットワークで衝撃吸収と力の分散を担う"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "骨の外層を構成する硬い組織はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "緻密骨（Compact Bone）は骨の外層を構成する硬く緻密な組織で、骨の約80%の重量を占める。ハバース系（オステオン）と呼ばれる同心円状の層板構造が基本単位であり、圧縮力やねじれに対する強度を提供する。",
+          "source": "OpenStax Anatomy and Physiology 6.3",
+          "choices": [
+            {
+              "text": "緻密骨",
+              "is_correct": true
+            },
+            {
+              "text": "海綿骨",
+              "is_correct": false
+            },
+            {
+              "text": "骨膜",
+              "is_correct": false
+            },
+            {
+              "text": "骨髄",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "compact-bone-basics"
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "海綿骨は骨の内部にあるスポンジ状の組織で、骨梁（trabeculae）というネットワーク構造が特徴である。骨梁の間の空間には骨髄が存在し、造血の場となる。海綿骨は長骨の骨端部、椎体、扁平骨の板間層などに存在する。",
+          "source": "OpenStax Anatomy and Physiology 6.3",
+          "metadata": {
+            "template": "骨の内部にあるスポンジ状の組織は {{blank}} である"
+          },
+          "choices": [
+            {
+              "text": "海綿骨",
+              "is_correct": true
+            },
+            {
+              "text": "緻密骨",
+              "is_correct": false
+            },
+            {
+              "text": "骨膜",
+              "is_correct": false
+            },
+            {
+              "text": "軟骨",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "spongy-bone-basics"
+          ]
+        },
+        {
+          "question_text": "長骨の骨幹（中央の細い部分）で緻密骨が特に厚いのはなぜか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "骨幹部は体重や筋力による曲げ・ねじれの力が最も集中する場所である。緻密骨は圧縮力やねじれに対する強度が高いため、骨幹部で厚くすることで、少ない素材で最大の強度を確保している。一方、骨端部は関節面が広く力が分散されるため、緻密骨は薄く、内部は海綿骨で衝撃吸収を担っている。",
+          "source": "OpenStax Anatomy and Physiology 6.3",
+          "choices": [
+            {
+              "text": "曲げやねじれの力が集中するため、高い強度が必要だから",
+              "is_correct": true
+            },
+            {
+              "text": "骨幹部には血管が多いため、緻密骨で保護する必要があるから",
+              "is_correct": false
+            },
+            {
+              "text": "骨幹部は成長が遅いため、緻密骨が蓄積しやすいから",
+              "is_correct": false
+            },
+            {
+              "text": "骨幹部には筋が直接付着するため、硬くなければならないから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "compact-bone-basics"
+          ]
+        },
+        {
+          "question_text": "海綿骨の骨梁が力のかかる方向に沿って配列される（ウォルフの法則）のは、どのような利点があるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "ウォルフの法則とは、骨は繰り返しかかる力（ストレス）の方向に沿って骨梁を配列する、という原理である。例えば大腿骨頸部では、体重によるストレスの方向に骨梁がアーチ状に並ぶ。これにより最小限の素材で最大限の強度を実現でき、骨は軽さと強さを両立している。無駄な方向に骨梁を作らないため、効率的な設計といえる。",
+          "source": "Gray's Anatomy / OpenStax Anatomy and Physiology 6.3",
+          "choices": [
+            {
+              "text": "最小限の素材で力に対する最大限の強度を実現できる",
+              "is_correct": true
+            },
+            {
+              "text": "骨梁を一方向に揃えることで骨髄の流れがスムーズになる",
+              "is_correct": false
+            },
+            {
+              "text": "骨梁が同じ方向に並ぶと骨折時にきれいに折れて治りやすい",
+              "is_correct": false
+            },
+            {
+              "text": "力の方向に骨梁が並ぶと新しい骨を作る速度が上がる",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "spongy-bone-basics"
+          ]
+        },
+        {
+          "question_text": "緻密骨と海綿骨の特徴を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "緻密骨は骨の外層にあり、硬く緻密で圧縮やねじれに強い。長骨の骨幹部で特に厚い。海綿骨は骨の内部にあり、骨梁のネットワーク構造でスポンジ状。長骨の骨端部や椎体に多く、衝撃吸収に優れる。緻密骨は骨重量の約80%を占めるが、海綿骨は骨髄を含む空間を持つため造血にも関わる。",
+          "source": "OpenStax Anatomy and Physiology 6.3",
+          "metadata": {
+            "pairs": [
+              {
+                "left": "緻密骨の位置",
+                "right": "骨の外層（骨幹部で特に厚い）"
+              },
+              {
+                "left": "海綿骨の位置",
+                "right": "骨の内部（骨端部や椎体に多い）"
+              },
+              {
+                "left": "緻密骨の強み",
+                "right": "圧縮・ねじれに対する高い強度"
+              },
+              {
+                "left": "海綿骨の強み",
+                "right": "衝撃吸収と軽量化"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "compact-bone-basics",
+            "spongy-bone-basics"
+          ]
+        },
+        {
+          "question_text": "長骨の骨幹が中空のパイプ状（骨髄腔）になっている理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "工学的に、中実の棒と中空のパイプを同じ重さで比べると、パイプの方が曲げやねじれに対して強い。これは素材が中心から離れた外側に配置されるほど、曲げに対する抵抗（断面二次モーメント）が大きくなるためである。長骨の骨幹が中空なのは、この原理を活用して「軽さ」と「強さ」を両立するためである。骨髄腔には脂肪（黄色骨髄）が蓄えられ、エネルギー貯蔵の場にもなっている。",
+          "source": "Gray's Anatomy / OpenStax Anatomy and Physiology 6.3",
+          "choices": [
+            {
+              "text": "中空のパイプは中実の棒より同じ重さで曲げに強いから",
+              "is_correct": true
+            },
+            {
+              "text": "骨髄を作るスペースが必要だから",
+              "is_correct": false
+            },
+            {
+              "text": "中空にすることで骨の成長速度が上がるから",
+              "is_correct": false
+            },
+            {
+              "text": "骨の内部には血管が通れないため空洞にする必要があるから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "compact-bone-basics",
+            "spongy-bone-basics"
+          ]
+        },
+        {
+          "question_text": "宇宙飛行士が長期間の無重力環境から地球に帰還すると骨が弱くなっている。ウォルフの法則に基づくと、海綿骨にどのような変化が起きていると考えられるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "ウォルフの法則によれば、骨は力（ストレス）がかかる方向に骨梁を発達させ、力がかからない方向の骨梁は吸収される。無重力環境では重力による荷重がなくなるため、海綿骨の骨梁が吸収されて薄くなり、密度が低下する。宇宙飛行士は月に約1〜2%の骨密度を失うとされ、特に荷重骨（大腿骨、脊椎）で顕著である。帰還後にリハビリで荷重をかけると、ウォルフの法則に従い骨梁が再び発達する。",
+          "source": "NASA Bone Loss Research / OpenStax Anatomy and Physiology 6.6",
+          "choices": [
+            {
+              "text": "荷重がかからないため骨梁が吸収されて薄くなり、骨密度が低下する",
+              "is_correct": true
+            },
+            {
+              "text": "骨梁の向きがランダムになり、強度のばらつきが大きくなる",
+              "is_correct": false
+            },
+            {
+              "text": "海綿骨が緻密骨に置き換わり、骨全体が硬くもろくなる",
+              "is_correct": false
+            },
+            {
+              "text": "骨梁の間に脂肪が溜まり、骨が重くなる",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "spongy-bone-basics"
+          ]
+        },
+        {
+          "question_text": "骨粗鬆症の高齢者が背中が丸くなる（円背）のはなぜか？緻密骨と海綿骨の知識を使って考えてみよう。",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "椎体は主に海綿骨で構成され、薄い緻密骨の殻で覆われている。骨粗鬆症では骨梁が吸収されて海綿骨がスカスカになり、椎体の強度が著しく低下する。体重や日常動作の負荷に耐えられなくなると、椎体が押しつぶされる「圧迫骨折」が起こる。椎体は前方が薄いため前方がより潰れやすく、複数の椎体で起こると脊柱が前方に丸まり「円背（亀背）」となる。これが高齢者の「背中が丸くなる」メカニズムである。",
+          "source": "Gray's Anatomy / OpenStax Anatomy and Physiology 6.6",
+          "choices": [
+            {
+              "text": "海綿骨の骨梁が減少した椎体が体重で押しつぶされ、前方に潰れるから",
+              "is_correct": true
+            },
+            {
+              "text": "緻密骨が厚くなりすぎて脊柱が曲がりやすくなるから",
+              "is_correct": false
+            },
+            {
+              "text": "椎間板が骨粗鬆症で硬くなり脊柱が固まるから",
+              "is_correct": false
+            },
+            {
+              "text": "背中の筋肉が衰えて姿勢を維持できなくなるだけで骨は関係ないから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "compact-bone-basics",
+            "spongy-bone-basics"
           ]
         }
       ]
