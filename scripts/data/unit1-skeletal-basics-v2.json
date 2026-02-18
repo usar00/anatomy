@@ -37,6 +37,16 @@
       "id": "spongy-bone-basics",
       "title": "海綿骨の構造と機能",
       "content": "海綿骨（Spongy Bone/Cancellous Bone/Trabecular Bone）は骨の内部に存在するスポンジ状の組織。骨梁（trabeculae）というネットワーク構造が特徴で、力がかかる方向に沿って配列される（ウォルフの法則）。骨梁の間の空間には骨髄（赤色骨髄または黄色骨髄）が存在する。緻密骨より軽く、衝撃吸収と力の分散に優れる。長骨の骨端部、椎体、扁平骨の板間層などに存在する。"
+    },
+    {
+      "id": "periosteum-basics",
+      "title": "骨膜の構造と機能",
+      "content": "骨膜（Periosteum）は骨の外表面を覆う結合組織の膜（関節面を除く）。外層（線維層）は保護とコラーゲン線維の付着点を、内層（骨形成層）は骨芽細胞を含み骨の成長と修復を担う。骨膜には豊富な血管・神経・リンパ管が存在し、骨への栄養供給と痛覚の伝達に関わる。骨折時に骨膜の骨芽細胞が活性化し、仮骨形成を開始する。シャーピー線維で骨に強固に付着している。"
+    },
+    {
+      "id": "bone-marrow-basics",
+      "title": "骨髄の種類と機能",
+      "content": "骨髄は骨の内部の空間に存在する組織で、赤色骨髄と黄色骨髄の2種類がある。赤色骨髄（Red Bone Marrow）は造血幹細胞を含み、赤血球・白血球・血小板を産生する。成人では主に扁平骨（胸骨・骨盤）、椎体、長骨の骨端部に存在。黄色骨髄（Yellow Bone Marrow）は主に脂肪細胞から成り、長骨の骨幹内部（骨髄腔）に存在する。エネルギー貯蔵の役割を持ち、大量出血時には赤色骨髄に戻り造血を再開できる。"
     }
   ],
   "sections": [
@@ -851,6 +861,272 @@
           "reference_text_ids": [
             "compact-bone-basics",
             "spongy-bone-basics"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "骨膜と骨髄",
+      "slug": "periosteum-marrow",
+      "description": "骨膜は成長と修復の現場、骨髄は血液の工場 — 骨は臓器でもある",
+      "sort_order": 3,
+      "concepts": [
+        {
+          "name": "骨膜",
+          "description": "骨の外表面を覆う結合組織の膜。骨の成長・修復・栄養供給を担う"
+        },
+        {
+          "name": "骨髄",
+          "description": "骨の内部にある組織。赤色骨髄は造血、黄色骨髄はエネルギー貯蔵を担う"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "骨の外表面を覆い、骨の成長と修復に関わる膜はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "骨膜（Periosteum）は骨の外表面を覆う結合組織の膜で、関節面を除くほぼすべての骨表面に存在する。内層の骨形成層には骨芽細胞が含まれ、骨の成長（太さの増加）と骨折時の修復を担う。また豊富な血管と神経が含まれており、骨への栄養供給と痛覚の伝達にも関わる。",
+          "source": "OpenStax Anatomy and Physiology 6.3",
+          "choices": [
+            {
+              "text": "骨膜",
+              "is_correct": true
+            },
+            {
+              "text": "骨髄",
+              "is_correct": false
+            },
+            {
+              "text": "軟骨膜",
+              "is_correct": false
+            },
+            {
+              "text": "骨内膜",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "periosteum-basics"
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "赤色骨髄は造血幹細胞を含み、赤血球・白血球・血小板の産生（造血）を行う。成人では主に扁平骨（胸骨・骨盤）、椎体、長骨の骨端部に存在する。一方、黄色骨髄は主に脂肪細胞で構成され、長骨の骨幹内部（骨髄腔）に存在する。",
+          "source": "OpenStax Anatomy and Physiology 6.3",
+          "metadata": {
+            "template": "赤血球や白血球を作る造血を行うのは {{blank}} である"
+          },
+          "choices": [
+            {
+              "text": "赤色骨髄",
+              "is_correct": true
+            },
+            {
+              "text": "黄色骨髄",
+              "is_correct": false
+            },
+            {
+              "text": "骨膜",
+              "is_correct": false
+            },
+            {
+              "text": "海綿骨",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "bone-marrow-basics"
+          ]
+        },
+        {
+          "question_text": "骨膜に豊富な神経が存在することは、どのような機能的意味があるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "骨膜には痛覚を伝える神経が豊富に存在する。骨折や打撲で骨膜が刺激されると強い痛みを感じる。この痛みは「骨に問題が起きている」という警告信号であり、損傷部位を動かさないよう促す防御機能である。弁慶の泣き所（脛骨前面）を打つと激痛が走るのは、骨膜が表面に近く直接刺激されるためである。",
+          "source": "Gray's Anatomy / OpenStax Anatomy and Physiology 6.3",
+          "choices": [
+            {
+              "text": "骨の損傷を痛みで知らせ、その部位を保護する警告機能を果たす",
+              "is_correct": true
+            },
+            {
+              "text": "神経が骨の成長速度をコントロールしている",
+              "is_correct": false
+            },
+            {
+              "text": "神経を通じて骨の内部温度を調節している",
+              "is_correct": false
+            },
+            {
+              "text": "神経が筋の収縮を骨に直接伝えている",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "periosteum-basics"
+          ]
+        },
+        {
+          "question_text": "子供の骨では赤色骨髄がほぼすべての骨に存在するが、成人では限られた部位にしか存在しない。この変化はなぜ起こるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "子供は急速に成長するため大量の血液細胞が必要であり、ほぼすべての骨で赤色骨髄が造血を行う。成長が止まると造血の需要が減少し、長骨の骨幹部を中心に赤色骨髄が脂肪細胞に置き換わり黄色骨髄になる。成人で赤色骨髄が残るのは胸骨・骨盤・椎体・肋骨・頭蓋骨など、主に扁平骨と不規則骨の部位である。",
+          "source": "OpenStax Anatomy and Physiology 6.3",
+          "choices": [
+            {
+              "text": "成長が止まると造血需要が減り、不要な部位の赤色骨髄が脂肪（黄色骨髄）に置き換わるから",
+              "is_correct": true
+            },
+            {
+              "text": "加齢で骨の内部温度が下がり、赤色骨髄が生存できなくなるから",
+              "is_correct": false
+            },
+            {
+              "text": "成人の骨は硬くなりすぎて赤色骨髄が入れなくなるから",
+              "is_correct": false
+            },
+            {
+              "text": "成人では造血が骨髄以外の臓器（肝臓・脾臓）に移行するから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "bone-marrow-basics"
+          ]
+        },
+        {
+          "question_text": "骨膜と骨髄の特徴を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "骨膜は骨の外側にある膜で、骨芽細胞による成長と修復を担う。骨膜の血管は骨に栄養を供給し、神経は痛みを伝える。赤色骨髄は骨の内部にあり、血液細胞（赤血球・白血球・血小板）を作る造血工場。黄色骨髄は長骨の骨幹内部にある脂肪組織で、エネルギーを貯蔵する。",
+          "source": "OpenStax Anatomy and Physiology 6.3",
+          "metadata": {
+            "pairs": [
+              {
+                "left": "骨膜",
+                "right": "骨の外側で成長と修復を担う"
+              },
+              {
+                "left": "赤色骨髄",
+                "right": "骨の内部で血液細胞を作る"
+              },
+              {
+                "left": "黄色骨髄",
+                "right": "骨幹内部で脂肪としてエネルギーを貯蔵"
+              },
+              {
+                "left": "骨膜の神経",
+                "right": "骨の損傷を痛みとして伝える"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "periosteum-basics",
+            "bone-marrow-basics"
+          ]
+        },
+        {
+          "question_text": "骨折が治癒するとき、最初に反応して修復を開始するのはどの組織か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "骨折が起こると、まず骨膜の内層（骨形成層）に含まれる骨芽細胞と前駆細胞が活性化される。骨膜はシャーピー線維で骨にしっかり付着しており、骨折部位の近傍で増殖して仮骨（callus）の形成を開始する。同時に骨膜の豊富な血管が修復に必要な栄養と細胞を供給する。このため骨膜が損傷すると骨折の治癒が大幅に遅れることが知られている。",
+          "source": "Gray's Anatomy / OpenStax Anatomy and Physiology 6.5",
+          "choices": [
+            {
+              "text": "骨膜（内層の骨芽細胞が仮骨形成を開始する）",
+              "is_correct": true
+            },
+            {
+              "text": "赤色骨髄（造血細胞が修復細胞に変わる）",
+              "is_correct": false
+            },
+            {
+              "text": "海綿骨（骨梁が折れた部分を埋める）",
+              "is_correct": false
+            },
+            {
+              "text": "緻密骨（ハバース系が再生を開始する）",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "periosteum-basics"
+          ]
+        },
+        {
+          "question_text": "白血病（血液のがん）の検査で、胸骨に針を刺して骨髄液を採取する（骨髄穿刺）ことがある。なぜ胸骨が選ばれるのか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "白血病は造血幹細胞のがんであるため、診断には実際に造血が行われている赤色骨髄の細胞を調べる必要がある。胸骨は成人でも赤色骨髄が豊富に残っている扁平骨であり、体表面に近くアクセスしやすい。また骨が薄いため穿刺が比較的容易で、主要な血管や臓器を傷つけるリスクも低い。同じ理由で腸骨稜（骨盤の上端）も骨髄穿刺のよく使われる部位である。",
+          "source": "Gray's Anatomy / Clinical Hematology",
+          "choices": [
+            {
+              "text": "成人でも赤色骨髄が豊富で、体表面に近く穿刺しやすいから",
+              "is_correct": true
+            },
+            {
+              "text": "胸骨の骨髄は他の骨より細胞の種類が多いから",
+              "is_correct": false
+            },
+            {
+              "text": "胸骨は再生力が強く穿刺後の回復が早いから",
+              "is_correct": false
+            },
+            {
+              "text": "胸骨は骨膜がないため穿刺の痛みが少ないから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "bone-marrow-basics"
+          ]
+        },
+        {
+          "question_text": "大量出血時に、身体はどのようにして血液の産生を増やすか？骨髄の知識を使って考えてみよう。",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "大量出血で血液が失われると、造血の需要が急増する。この緊急時には、長骨の骨幹部にある黄色骨髄（脂肪組織）が赤色骨髄に再変換（reconversion）されて造血を再開する。これは身体の「予備の造血工場」を稼働させるようなもので、普段は休止状態の脂肪組織が造血幹細胞の増殖の場に変わる。この仕組みにより、身体は通常の数倍の速度で血液細胞を産生できる。",
+          "source": "OpenStax Anatomy and Physiology 6.3 / Clinical Hematology",
+          "choices": [
+            {
+              "text": "黄色骨髄が赤色骨髄に再変換され、予備の造血工場が稼働する",
+              "is_correct": true
+            },
+            {
+              "text": "骨膜から直接血液細胞が産生される",
+              "is_correct": false
+            },
+            {
+              "text": "既存の赤血球が分裂して数を増やす",
+              "is_correct": false
+            },
+            {
+              "text": "緻密骨が溶けて骨髄の空間が広がり造血が増える",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "bone-marrow-basics"
           ]
         }
       ]
