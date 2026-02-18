@@ -42,10 +42,15 @@
       "id": "other-synovial-types-basics",
       "title": "車軸・鞍・楕円・平面関節の構造と機能",
       "content": "滑膜性関節の6タイプのうち、球関節・蝶番関節以外の4タイプを解説する。①車軸関節（Pivot Joint）：一方の骨の円柱状の突起がもう一方のリング状構造の中で回転する1軸関節。代表例は環軸関節（C1環椎とC2軸椎の間）で、頭部の左右回旋（首を横に振る「いいえ」の動き）を可能にする。軸椎の歯突起（Dens）が環椎の前弓のリングにはまり込む。もう一つの代表例は近位橈尺関節で、橈骨頭が回転して前腕の回内（手のひらを下に向ける）・回外（手のひらを上に向ける）を行う。②鞍関節（Saddle Joint）：両方の関節面が鞍（サドル）のように凹凸の組み合わせになっている2軸関節。代表例は母指の手根中手関節（CM関節/第1CMJ）で、屈曲・伸展、外転・内転に加えて「対立（Opposition）」運動が可能。対立とは母指を他の指の先端に合わせる動きで、精密な把持（つまむ、握る）の基盤。この能力が人間を道具使用の名手にした。③楕円関節（Condyloid/Ellipsoid Joint）：楕円形の凸面が楕円形の凹面にはまる2軸関節。屈曲・伸展と外転・内転が可能だが、回旋はできない（球関節との違い）。代表例は橈骨手根関節（手首の関節）と中手指節関節（MP関節/指の付け根）。④平面関節（Plane/Gliding Joint）：ほぼ平坦な関節面同士が滑る関節で、多方向への滑り運動が可能だが可動域は小さい。椎間関節（椎骨の上下関節突起間）、肩鎖関節、手根間関節が代表例。個々の動きは小さいが、複数の平面関節が連動することで大きな動きを生み出す（脊柱の動きなど）。"
+    },
+    {
+      "id": "shoulder-joint-basics",
+      "title": "肩関節の構造と安定性",
+      "content": "肩関節（肩甲上腕関節/Glenohumeral Joint）は人体で最も可動域が広い球関節で、屈曲・伸展、外転・内転、内旋・外旋、分回し運動（Circumduction）のすべてが可能。しかし、その代償として最も脱臼しやすい関節でもある。構造的特徴：①関節窩（Glenoid Cavity）が非常に浅く、上腕骨頭の表面積の約25-30%しか覆わない。これはゴルフのティーの上にボールが乗っているような状態で、骨による安定性が極めて低い。②関節唇（Glenoid Labrum）：関節窩の縁を取り囲む線維軟骨のリングで、関節窩を約50%深くし、上腕骨頭との接触面積を増加させる。吸盤効果により安定性に寄与するが、損傷しやすい（バンカート損傷＝前下方の関節唇損傷）。安定化の仕組み：①静的安定化装置 — 関節包、関節上腕靭帯（上・中・下）、烏口上腕靭帯。②動的安定化装置 — 回旋筋腱板（Rotator Cuff）の4筋：棘上筋（Supraspinatus）、棘下筋（Infraspinatus）、小円筋（Teres Minor）、肩甲下筋（Subscapularis）。これらの筋腱が上腕骨頭を関節窩に押し付け、運動中の安定性を確保する。棘上筋腱は肩峰と上腕骨頭の間を通るため、腕の挙上時に圧迫されやすく、インピンジメント症候群の原因となる。脱臼：肩関節脱臼の約95%は前方脱臼で、腕を外転・外旋位で後方から力が加わった際に発生する。前下方の関節包と関節唇が最も弱いため。一度脱臼すると関節唇や関節包が引き伸ばされ、再脱臼のリスクが高まる（反復性肩関節脱臼）。凍結肩（Frozen Shoulder/五十肩）：関節包が炎症で肥厚・拘縮し、肩の可動域が著しく制限される状態。原因は完全に解明されていないが、糖尿病・甲状腺疾患との関連が報告されている。"
     }
   ],
   "sections": [
-    {
+   {
       "name": "線維性関節",
       "slug": "fibrous-joints",
       "description": "動かない関節のわけ — 頭蓋骨の縫合は脳を守る設計",
@@ -1671,6 +1676,224 @@
             }
           ],
           "reference_text_ids": ["other-synovial-types-basics"]
+        }
+      ]
+    },
+    {
+      "name": "肩関節",
+      "slug": "shoulder-joint",
+      "description": "最も自由で最も脱臼しやすい — 可動性と安定性のトレードオフ",
+      "sort_order": 7,
+      "concepts": [
+        {
+          "name": "肩関節の構造",
+          "description": "浅い関節窩と関節唇。ゴルフのティーにボールが乗るような不安定な設計"
+        },
+        {
+          "name": "肩関節の安定化と損傷",
+          "description": "回旋筋腱板による動的安定化。脱臼・インピンジメント・凍結肩のメカニズム"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "肩関節（肩甲上腕関節）が人体で最も可動域が広い理由として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "肩関節は球関節で、関節窩（グレノイド）が非常に浅く上腕骨頭の約25-30%しか覆っていません。このため、上腕骨頭はほぼあらゆる方向に自由に動くことができ、屈曲・伸展、外転・内転、内旋・外旋のすべてが可能です。ただし、骨による安定性が低い代償として、最も脱臼しやすい関節でもあります。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            {
+              "text": "蝶番関節だが靭帯が特殊で多方向に動けるため",
+              "is_correct": false
+            },
+            {
+              "text": "関節包が存在せず、骨が完全に自由に動けるため",
+              "is_correct": false
+            },
+            {
+              "text": "球関節で、関節窩が浅く上腕骨頭を広く覆わないため",
+              "is_correct": true
+            },
+            {
+              "text": "楕円関節で、2軸の動きの合計が最も大きいため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["shoulder-joint-basics", "ball-hinge-joints-basics"]
+        },
+        {
+          "question_text": "肩関節の安定性を高める動的安定化装置である回旋筋腱板（Rotator Cuff）を構成する4つの筋は、棘上筋・（　①　）・小円筋・（　②　）である。これらの筋腱は上腕骨頭を（　③　）に押し付けて安定性を確保する。",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "回旋筋腱板は棘上筋（Supraspinatus）、棘下筋（Infraspinatus）、小円筋（Teres Minor）、肩甲下筋（Subscapularis）の4つの筋から成ります。これらは肩甲骨から起始し、上腕骨頭に付着して、上腕骨頭を関節窩に押し付ける「動的な圧迫力」を生み出します。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            { "text": "棘下筋", "is_correct": true },
+            { "text": "肩甲下筋", "is_correct": true },
+            { "text": "関節窩", "is_correct": true },
+            { "text": "三角筋", "is_correct": false },
+            { "text": "鎖骨", "is_correct": false },
+            { "text": "肩峰", "is_correct": false }
+          ],
+          "metadata": {
+            "word_bank": ["三角筋", "棘下筋", "関節窩", "肩峰", "肩甲下筋", "鎖骨"]
+          },
+          "reference_text_ids": ["shoulder-joint-basics"]
+        },
+        {
+          "question_text": "肩関節の関節窩が上腕骨頭の約25-30%しか覆わないことが、関節の機能にどのような影響を与えるか。最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "関節窩が浅いということは、上腕骨頭に対する「骨のストッパー」がほとんどないことを意味します。このため上腕骨頭はほぼ自由に動くことができ（最大の可動域）、同時に外力で容易に関節窩から外れてしまいます（最も脱臼しやすい）。これが「可動性と安定性のトレードオフ」の教科書的な例です。対照的に股関節の寛骨臼は大腿骨頭の2/3以上を覆い、安定性は高いが可動域は制限されます。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            {
+              "text": "可動域が最大になる一方で骨による安定性が低く、脱臼リスクが最も高くなる",
+              "is_correct": true
+            },
+            {
+              "text": "骨同士の接触面積が小さいため摩擦がなくなり、関節軟骨が不要になる",
+              "is_correct": false
+            },
+            {
+              "text": "関節窩が小さいと上腕骨頭への血流が増加し、骨の成長が促進される",
+              "is_correct": false
+            },
+            {
+              "text": "骨が少ない分だけ肩が軽量化され、腕の素早い動きが可能になるが脱臼リスクは変わらない",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["shoulder-joint-basics"]
+        },
+        {
+          "question_text": "回旋筋腱板が肩関節の安定性に寄与するメカニズムとして最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "回旋筋腱板の4つの筋（棘上筋・棘下筋・小円筋・肩甲下筋）は、肩甲骨の前面と背面から上腕骨頭に付着し、上腕骨頭を四方から関節窩に押し付けます。これは「動的安定化」と呼ばれ、静的構造（靭帯・関節包）だけでは不十分な安定性を、筋の能動的な収縮で補うメカニズムです。腕を動かすとき、回旋筋腱板は主運動を行う前に先行して収縮し、上腕骨頭を関節窩の中心に保持します。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            {
+              "text": "4つの筋が上腕骨を肩甲骨から遠ざけ、関節面の接触を防ぐことで摩耗を減らす",
+              "is_correct": false
+            },
+            {
+              "text": "4つの筋が関節包を肥厚させ、静的な壁として脱臼を防ぐ",
+              "is_correct": false
+            },
+            {
+              "text": "4つの筋が滑液の産生を促進し、関節の潤滑と栄養を改善する",
+              "is_correct": false
+            },
+            {
+              "text": "4つの筋が上腕骨頭を四方から関節窩に押し付け、運動中の安定性を動的に確保する",
+              "is_correct": true
+            }
+          ],
+          "reference_text_ids": ["shoulder-joint-basics"]
+        },
+        {
+          "question_text": "以下の肩関節の構造と、その安定化における役割を正しく組み合わせなさい。",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "①関節唇は線維軟骨のリングで、浅い関節窩を約50%深くして接触面積を増やし、吸盤効果で安定性に寄与します。②回旋筋腱板は4つの筋の腱が上腕骨頭を関節窩に押し付ける動的安定化装置です。③関節上腕靭帯は関節包の一部で、過度な動きを制限する静的安定化装置です。④関節窩自体は浅く、骨による安定性は最小限です — これが可動性の大きさの源です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "metadata": {
+            "matching_pairs": [
+              { "left": "関節唇（ラブラム）", "right": "関節窩を深くし吸盤効果で安定" },
+              { "left": "回旋筋腱板", "right": "骨頭を窩に押し付ける動的安定化" },
+              { "left": "関節上腕靭帯", "right": "過度な動きを制限する静的安定化" },
+              { "left": "関節窩の浅さ", "right": "最大の可動域を実現" }
+            ]
+          },
+          "choices": [],
+          "reference_text_ids": ["shoulder-joint-basics", "joint-support-structures-basics"]
+        },
+        {
+          "question_text": "肩関節脱臼の約95%が前方脱臼である。前方に脱臼しやすい解剖学的理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "肩関節の安定構造は均一ではありません。上方は烏口肩峰アーチ（烏口突起・肩峰・烏口肩峰靭帯）が骨と靭帯のバリアを形成し、後方は棘下筋・小円筋が補強しています。一方、前下方は関節包と関節上腕靭帯のみで保護が薄く、構造的に最も弱い部位です。腕を外転・外旋した状態で上腕骨頭が前方に押され、前下方の弱い部分から飛び出すのが前方脱臼です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            {
+              "text": "肩関節は前方に骨の突起がなく、すべての靭帯が後方にあるため",
+              "is_correct": false
+            },
+            {
+              "text": "前下方の関節包と関節唇が構造的に最も弱く、外転・外旋位で上腕骨頭が前方に押されるため",
+              "is_correct": true
+            },
+            {
+              "text": "腕の筋肉が前方に集中しているため、筋収縮時に常に前方への力がかかっているため",
+              "is_correct": false
+            },
+            {
+              "text": "鎖骨が前方にあり、上腕骨と衝突して前方に弾き出されるため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["shoulder-joint-basics"]
+        },
+        {
+          "question_text": "50歳の女性が「数か月前から肩が徐々に動かなくなり、服を着替えるのも困難」と訴えている。凍結肩（五十肩/Frozen Shoulder）が疑われる場合、この状態で関節に起きている変化として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "凍結肩（Frozen Shoulder/癒着性関節包炎）では、関節包の内層（滑膜）に慢性的な炎症が起こり、関節包全体が肥厚・線維化して拘縮（縮む）します。正常な関節包は腕を挙げたとき下方にたるんで伸びますが、拘縮した関節包は伸びず、すべての方向の可動域が制限されます。回旋筋腱板の損傷や関節軟骨の摩耗とは異なるメカニズムです。糖尿病患者に多い（10-20%に発症）ことが知られています。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            {
+              "text": "回旋筋腱板の4つの筋がすべて断裂し、腕を持ち上げる力がなくなった状態",
+              "is_correct": false
+            },
+            {
+              "text": "関節軟骨が完全に消失し、骨同士が癒着して動かなくなった状態",
+              "is_correct": false
+            },
+            {
+              "text": "関節包が炎症により肥厚・線維化して拘縮し、すべての方向の可動域が制限された状態",
+              "is_correct": true
+            },
+            {
+              "text": "関節唇が剥離して関節腔を塞ぎ、滑液が流出して関節が固まった状態",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["shoulder-joint-basics"]
+        },
+        {
+          "question_text": "野球のピッチャーが「腕を上げるとき肩の上部に痛みがある」と訴えた。肩のインピンジメント症候群が疑われる場合、解剖学的に何が起きている可能性が最も高いか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "インピンジメント症候群では、腕を挙上する際に棘上筋の腱が肩峰と上腕骨頭の間で繰り返し圧迫（インピンジ）されます。棘上筋腱は解剖学的にこの狭い空間を通過するため、腕の挙上動作の繰り返し（特にオーバーヘッドスポーツ）で腱に微小損傷・炎症が蓄積します。進行すると腱の部分断裂や完全断裂に至ることもあります。この「構造的に狭い空間を通る」ことが、棘上筋が回旋筋腱板の中で最も損傷しやすい理由です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            {
+              "text": "腕の挙上時に棘上筋の腱が肩峰と上腕骨頭の間で繰り返し圧迫されている",
+              "is_correct": true
+            },
+            {
+              "text": "関節窩から上腕骨頭が部分的に脱臼し、毎回元に戻っている（亜脱臼）",
+              "is_correct": false
+            },
+            {
+              "text": "三角筋が過度に発達して肩峰を下方に引き、関節包が圧迫されている",
+              "is_correct": false
+            },
+            {
+              "text": "鎖骨と肩甲骨の間（肩鎖関節）の軟骨がすり減って骨同士がこすれている",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["shoulder-joint-basics"]
         }
       ]
     }
