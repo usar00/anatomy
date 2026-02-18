@@ -92,6 +92,11 @@
       "id": "disc-herniation-basics",
       "title": "椎間板ヘルニア — 構造と発症メカニズム",
       "content": "椎間板（Intervertebral Disc）は隣接する椎体の間に存在するクッションで、外側の線維輪（Anulus Fibrosus）と内部のゲル状の髄核（Nucleus Pulposus）からなる。椎間板は脊柱への衝撃を吸収し、椎骨間の動きを可能にする。椎間板ヘルニア（Disc Herniation）は、線維輪の断裂により髄核が突出し、近傍の脊髄神経根を圧迫する状態。腰椎（特にL4-L5、L5-S1）に最も多い。前屈位での重量物の持ち上げは、椎間板の前方に圧縮力、後方に引っ張り力がかかり、髄核が後方に押し出されるリスクを高める。症状は腰痛、下肢の放散痛（坐骨神経痛）、しびれなど。"
+    },
+    {
+      "id": "vertebra-structure-basics",
+      "title": "椎骨の基本構造",
+      "content": "典型的な椎骨（Vertebra）は以下の構造からなる。①椎体（Vertebral Body）：前方にある円柱状の部分で、体重を支える主要な荷重構造。上下の椎体間に椎間板がある。②椎弓（Vertebral Arch）：後方から椎体を囲むアーチ状の骨で、椎弓根（Pedicle）と椎弓板（Lamina）からなる。③椎孔（Vertebral Foramen）：椎体と椎弓に囲まれた空間で、脊髄が通る。全椎骨の椎孔が連なり脊柱管（Vertebral Canal）を形成し、脊髄を保護する。④棘突起（Spinous Process）：後方に突出する突起で、筋と靭帯の付着点。背中を触ると指先に感じる骨のでっぱり。⑤横突起（Transverse Process）：左右に突出する突起で、筋と靭帯の付着点。⑥上下の関節突起（Articular Process）：隣接する椎骨との関節面を持ち、脊柱の動きを制御する。頸椎は小さく可動性が高い、胸椎は肋骨と関節する、腰椎は大きく荷重を支えるなど、部位により特徴が異なる。"
     }
   ],
   "sections": [
@@ -2252,6 +2257,275 @@
           ],
           "reference_text_ids": [
             "disc-herniation-basics",
+            "spinal-curves-basics"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "椎骨と椎間板",
+      "slug": "vertebrae-discs",
+      "description": "椎骨はなぜ穴がある？脊髄を守る設計 — 椎骨の構造と部位ごとの特徴",
+      "sort_order": 8,
+      "concepts": [
+        {
+          "name": "椎骨の構造",
+          "description": "椎体・椎弓・椎孔・棘突起・横突起・関節突起からなり、荷重支持と脊髄保護を両立する"
+        },
+        {
+          "name": "椎間板の構造",
+          "description": "線維輪と髄核からなるクッション。衝撃吸収と椎骨間の動きを可能にする"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "椎骨の中央にある穴（椎孔）を通っている最も重要な構造はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "椎孔（Vertebral Foramen）は椎体と椎弓に囲まれた空間で、全椎骨の椎孔が上下に連なって脊柱管（Vertebral Canal）を形成する。この管の中を脊髄（Spinal Cord）が通っている。脊髄は脳と全身をつなぐ神経の束であり、椎骨は脊髄を骨で囲むことで保護するという極めて重要な機能を持つ。",
+          "source": "OpenStax Anatomy and Physiology 7.3",
+          "choices": [
+            {
+              "text": "脊髄（脳と全身をつなぐ神経の束）",
+              "is_correct": true
+            },
+            {
+              "text": "大動脈（心臓から全身に血液を送る血管）",
+              "is_correct": false
+            },
+            {
+              "text": "椎間板（クッションの役割）",
+              "is_correct": false
+            },
+            {
+              "text": "骨髄（血液を作る組織）",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "vertebra-structure-basics"
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "背中の中心線に沿って触れることができる骨のでっぱりは、各椎骨の棘突起（Spinous Process）である。棘突起は椎弓の後方から突出し、筋肉や靭帯の付着点として機能する。体表から触知できるため、臨床的に椎骨の位置を確認するランドマークとしても重要。第7頸椎（C7）の棘突起は特に大きく突出しており「隆椎」と呼ばれ、首を前に曲げると最も目立つ。",
+          "source": "OpenStax Anatomy and Physiology 7.3",
+          "metadata": {
+            "template": "背中の中心線に沿って触れる骨のでっぱりは椎骨の {{blank}} である"
+          },
+          "choices": [
+            {
+              "text": "棘突起",
+              "is_correct": true
+            },
+            {
+              "text": "横突起",
+              "is_correct": false
+            },
+            {
+              "text": "椎体",
+              "is_correct": false
+            },
+            {
+              "text": "椎弓根",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "vertebra-structure-basics"
+          ]
+        },
+        {
+          "question_text": "椎骨が「椎体（前方）」と「椎弓（後方）」に分かれた構造を持つのはなぜか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "椎骨は2つの異なる機能を同時に果たす必要がある。①前方の椎体は体重を支える荷重構造で、円柱状で丈夫に作られている。②後方の椎弓は脊髄を囲んで保護するアーチ構造である。この2つが組み合わさることで「体重を支えながら脊髄を守る」という設計が実現される。もし骨が中実（穴のない塊）であれば脊髄の通り道がなく、逆にリング状だけでは荷重を支えきれない。椎体と椎弓の分業こそが椎骨の機能的デザインの核心である。",
+          "source": "OpenStax Anatomy and Physiology 7.3",
+          "choices": [
+            {
+              "text": "前方の椎体で体重を支え、後方の椎弓で脊髄を保護するという2つの機能を同時に果たすため",
+              "is_correct": true
+            },
+            {
+              "text": "2つに分かれていることで椎骨自体の重さを軽くするため",
+              "is_correct": false
+            },
+            {
+              "text": "椎体と椎弓の間に血管を通すため",
+              "is_correct": false
+            },
+            {
+              "text": "成長期に椎体と椎弓が別々に発育する名残で機能的意味はない",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "vertebra-structure-basics"
+          ]
+        },
+        {
+          "question_text": "腰椎の椎体が頸椎の椎体よりも大きい理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "脊柱の上から下にかけて、支えなければならない体重は増加する。頸椎は頭部（約5kg）のみを支えるが、腰椎は頭部＋上肢＋体幹の全重量を支える。このため、下位の椎骨ほど椎体が大きく頑丈になっている。これはウォルフの法則の応用でもある。大きな椎体は荷重を広い面積に分散し、単位面積あたりの圧力を下げる。腰椎（L1-L5）は脊柱の中で最大の椎体を持ち、最も重い荷重環境に適応している。",
+          "source": "OpenStax Anatomy and Physiology 7.3",
+          "choices": [
+            {
+              "text": "脊柱の下部ほど支える体重が増えるため、より大きな荷重面積が必要だから",
+              "is_correct": true
+            },
+            {
+              "text": "腰椎は椎間板がないため、椎体自体がクッションの役割を果たすから",
+              "is_correct": false
+            },
+            {
+              "text": "腰椎には大きな血管が通るため、それを収容するスペースが必要だから",
+              "is_correct": false
+            },
+            {
+              "text": "腰椎は運動量が多いため、筋の付着面積を広くする必要があるから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "vertebra-structure-basics",
+            "spongy-bone-basics"
+          ]
+        },
+        {
+          "question_text": "椎骨の各構造とその主な機能を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "椎体は前方に位置する円柱状の部分で体重を支える主要な荷重構造。椎孔は椎体と椎弓に囲まれた空間で脊髄の通り道を提供する。棘突起は後方に突出し、筋と靭帯の付着点となる（背中を触ると感じるでっぱり）。横突起は左右に突出し、筋と靭帯の付着点。特に胸椎の横突起は肋骨と関節する。",
+          "source": "OpenStax Anatomy and Physiology 7.3",
+          "metadata": {
+            "pairs": [
+              {
+                "left": "椎体",
+                "right": "体重を支える前方の荷重構造"
+              },
+              {
+                "left": "椎孔",
+                "right": "脊髄が通る保護された空間"
+              },
+              {
+                "left": "棘突起",
+                "right": "後方に突出し筋・靭帯が付着する"
+              },
+              {
+                "left": "横突起",
+                "right": "左右に突出し筋・肋骨が関係する"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "vertebra-structure-basics"
+          ]
+        },
+        {
+          "question_text": "胸椎が頸椎や腰椎に比べて可動性が低い最大の理由は何か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "胸椎（T1-T12）の最大の特徴は、肋骨と関節している点である。12対の肋骨が胸椎と胸骨をつなぎ、胸郭（Thoracic Cage）を形成する。この骨性の囲いは心臓と肺を保護するが、同時に胸椎の動きを制限する。頸椎は肋骨と関節せず小さいため可動性が高く、腰椎は肋骨と関節せず関節突起の向きが屈曲・伸展を許す。胸椎は肋骨との関節により、特に回旋と側屈が制限される。これは「保護のために可動性を犠牲にする」というトレードオフの例である。",
+          "source": "OpenStax Anatomy and Physiology 7.3, 7.4",
+          "choices": [
+            {
+              "text": "肋骨と関節しており、胸郭を形成しているため動きが制限される",
+              "is_correct": true
+            },
+            {
+              "text": "胸椎は他の部位より椎間板が薄いため柔軟性が低い",
+              "is_correct": false
+            },
+            {
+              "text": "胸椎の椎体が最も大きく重いため動かしにくい",
+              "is_correct": false
+            },
+            {
+              "text": "脊髄が胸椎の部分で最も太いため、動くと損傷のリスクがある",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "vertebra-structure-basics",
+            "spinal-curves-basics"
+          ]
+        },
+        {
+          "question_text": "20kgの荷物を腰を丸めて持ち上げた場合と、膝を曲げて腰をまっすぐに保って持ち上げた場合では、腰椎にかかる負担はどう違うか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "腰を丸めて持ち上げると、腰椎の前弯が消失し、椎間板の前方に圧縮力、後方に引っ張り力がかかる不均等な荷重状態になる。さらに、てこの原理により、腰椎にかかる力は持ち上げる物の重さの数倍になる（上半身の重さ＋荷物の重さ × 腕の長さ/背筋の力点距離）。一方、膝を曲げて腰をまっすぐにすると、椎間板への荷重が均等に分散され、脚の大きな筋（大腿四頭筋・殿筋）が主動筋として働くため腰椎への負荷が大幅に軽減される。ヘルニアの予防には持ち上げ姿勢の教育が極めて重要。",
+          "source": "OpenStax Anatomy and Physiology 7.3, 9.1",
+          "choices": [
+            {
+              "text": "腰を丸めると椎間板に不均等な圧力がかかり、膝を曲げて腰を保つと荷重が脚の筋に分散される",
+              "is_correct": true
+            },
+            {
+              "text": "持ち上げ方に関係なく、重さが同じなら腰椎への負担も同じ",
+              "is_correct": false
+            },
+            {
+              "text": "膝を曲げるとかえって腰が反りすぎて棘突起同士がぶつかる",
+              "is_correct": false
+            },
+            {
+              "text": "腰を丸めた方が脊柱の筋が弛緩してリラックスするので負担が少ない",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "disc-herniation-basics",
+            "vertebra-structure-basics"
+          ]
+        },
+        {
+          "question_text": "脊柱管狭窄症の高齢者が「歩いていると足がしびれるが、前かがみになったり座ったりすると楽になる」と訴えている。この現象を椎骨の構造から説明できるのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "脊柱管狭窄症（Spinal Stenosis）は、加齢による椎間板の変性、椎体の骨棘（骨のとげ）形成、靭帯の肥厚などにより脊柱管が狭くなり、脊髄や神経根が圧迫される状態。直立歩行時には腰椎が伸展（反り返り）するため、脊柱管がさらに狭まり、神経圧迫が増大して下肢のしびれ・痛みが出現する（間欠性跛行）。一方、前かがみや座位では腰椎が屈曲し、脊柱管が相対的に広がるため症状が緩和する。このため患者は自然と前かがみ姿勢を好む。椎孔の大きさが姿勢によって変化するという椎骨の構造的特性が症状を理解する鍵となる。",
+          "source": "OpenStax Anatomy and Physiology 7.3",
+          "choices": [
+            {
+              "text": "直立時は腰椎伸展で脊柱管が狭まり神経を圧迫するが、前屈すると脊柱管が広がり圧迫が緩和されるから",
+              "is_correct": true
+            },
+            {
+              "text": "歩行で椎間板が振動により圧縮され、座ると元に戻るから",
+              "is_correct": false
+            },
+            {
+              "text": "歩行時に棘突起が筋肉を刺激して痛みが出るが、座ると接触がなくなるから",
+              "is_correct": false
+            },
+            {
+              "text": "立位では重力で脊髄が引き伸ばされ、座位では弛緩するから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "vertebra-structure-basics",
             "spinal-curves-basics"
           ]
         }
