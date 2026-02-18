@@ -82,6 +82,16 @@
       "id": "osteoporosis-basics",
       "title": "骨粗鬆症 — 骨リモデリングの不均衡",
       "content": "骨粗鬆症（Osteoporosis）は、骨吸収が骨形成を上回り続けた結果、骨密度が低下し骨折リスクが著しく高まる疾患。海綿骨の骨梁が薄く少なくなり、緻密骨も薄くなる。主なリスク因子は、①閉経（エストロゲン減少により破骨細胞の活性が増加）、②加齢（骨芽細胞の活性低下）、③運動不足（荷重刺激の欠如）、④カルシウム・ビタミンD不足、⑤喫煙・過度の飲酒、⑥長期コルチコステロイド使用。好発骨折部位は、大腿骨頸部（股関節）、椎体（圧迫骨折）、橈骨遠位端（Colles骨折/コーレス骨折）。特に大腿骨頸部骨折は高齢者の寝たきり・死亡リスクを大幅に上昇させる。予防は荷重運動、十分なカルシウム・ビタミンD摂取、禁煙が重要。"
+    },
+    {
+      "id": "spinal-curves-basics",
+      "title": "脊柱の弯曲 — S字カーブの意味",
+      "content": "成人の脊柱は側方から見るとS字状の4つの弯曲を持つ。頸椎弯曲（Cervical Curvature）は前弯（Lordosis）で7個の頸椎からなり、頭部の重さを支える。胸椎弯曲（Thoracic Curvature）は後弯（Kyphosis）で12個の胸椎からなり、胸腔を形成し心肺を収容する。腰椎弯曲（Lumbar Curvature）は前弯で5個の腰椎からなり、上半身の重さを受け止める。仙骨弯曲（Sacral Curvature）は後弯で仙骨と尾骨からなる。このS字カーブにより、直立姿勢での重心が脊柱の真上に保たれ、歩行時の衝撃が分散される。胸椎弯曲と仙骨弯曲は胎児期からある一次弯曲、頸椎弯曲（首をあげる動作で発達）と腰椎弯曲（歩行開始で発達）は生後に形成される二次弯曲である。"
+    },
+    {
+      "id": "disc-herniation-basics",
+      "title": "椎間板ヘルニア — 構造と発症メカニズム",
+      "content": "椎間板（Intervertebral Disc）は隣接する椎体の間に存在するクッションで、外側の線維輪（Anulus Fibrosus）と内部のゲル状の髄核（Nucleus Pulposus）からなる。椎間板は脊柱への衝撃を吸収し、椎骨間の動きを可能にする。椎間板ヘルニア（Disc Herniation）は、線維輪の断裂により髄核が突出し、近傍の脊髄神経根を圧迫する状態。腰椎（特にL4-L5、L5-S1）に最も多い。前屈位での重量物の持ち上げは、椎間板の前方に圧縮力、後方に引っ張り力がかかり、髄核が後方に押し出されるリスクを高める。症状は腰痛、下肢の放散痛（坐骨神経痛）、しびれなど。"
     }
   ],
   "sections": [
@@ -1976,6 +1986,273 @@
             "osteoporosis-basics",
             "bone-remodeling-basics",
             "yoga-weight-bearing"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "脊柱のS字カーブ",
+      "slug": "spinal-curves",
+      "description": "なぜS字？直立二足歩行の代償 — 脊柱の弯曲と椎間板ヘルニアのしくみ",
+      "sort_order": 7,
+      "concepts": [
+        {
+          "name": "脊柱弯曲",
+          "description": "脊柱は4つの弯曲（頸椎前弯・胸椎後弯・腰椎前弯・仙骨後弯）でS字を形成し、直立姿勢と衝撃吸収を実現する"
+        },
+        {
+          "name": "椎間板ヘルニア",
+          "description": "椎間板の線維輪が断裂し髄核が突出して神経根を圧迫する病態。腰椎に好発する"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "成人の脊柱を横から見たとき、全体の形状はどのように表現されるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "成人の脊柱は側面から見るとS字状の弯曲を描く。これは頸椎の前弯、胸椎の後弯、腰椎の前弯、仙骨の後弯という4つのカーブが交互に現れるためである。このS字カーブは直立二足歩行する人間に特徴的な構造であり、重心の安定と衝撃の分散に不可欠である。",
+          "source": "OpenStax Anatomy and Physiology 7.3",
+          "choices": [
+            {
+              "text": "S字状の弯曲（4つのカーブが交互に並ぶ）",
+              "is_correct": true
+            },
+            {
+              "text": "まっすぐな一直線（ストレート）",
+              "is_correct": false
+            },
+            {
+              "text": "C字状に1方向に弯曲",
+              "is_correct": false
+            },
+            {
+              "text": "螺旋状にねじれている",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "spinal-curves-basics"
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "椎間板は隣接する椎体の間に存在するクッションで、外側の線維輪（Anulus Fibrosus）と内部のゲル状の髄核（Nucleus Pulposus）からなる。この構造により、脊柱への衝撃を吸収し、椎骨間のわずかな動きを可能にしている。椎間板は人体の中で最大の無血管組織であり、栄養は周囲から拡散で供給される。",
+          "source": "OpenStax Anatomy and Physiology 7.3, 9.1",
+          "metadata": {
+            "template": "椎間板の内部にあるゲル状の組織を {{blank}} という"
+          },
+          "choices": [
+            {
+              "text": "髄核",
+              "is_correct": true
+            },
+            {
+              "text": "線維輪",
+              "is_correct": false
+            },
+            {
+              "text": "骨端板",
+              "is_correct": false
+            },
+            {
+              "text": "関節軟骨",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "disc-herniation-basics"
+          ]
+        },
+        {
+          "question_text": "脊柱がS字カーブを持つことには、直立二足歩行においてどのような力学的メリットがあるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "脊柱のS字カーブには2つの重要な力学的メリットがある。①バネ効果による衝撃吸収：カーブがあることで歩行・走行時の衝撃が分散される。もし脊柱が一直線であれば、衝撃が直接脳に伝わってしまう。②重心の維持：4つのカーブが互いに相殺しあうことで、頭部の重心が骨盤（支持基底面）の真上に保たれ、最小限の筋力で直立姿勢を維持できる。S字カーブは直立二足歩行という人類特有の移動様式を可能にした重要な適応である。",
+          "source": "OpenStax Anatomy and Physiology 7.3",
+          "choices": [
+            {
+              "text": "衝撃をバネのように分散し、重心を支持基底面の上に保って直立姿勢を効率的に維持する",
+              "is_correct": true
+            },
+            {
+              "text": "脊髄をより多くの骨で囲むことで保護を強化する",
+              "is_correct": false
+            },
+            {
+              "text": "背中の筋肉の付着面積を増やして筋力を強化する",
+              "is_correct": false
+            },
+            {
+              "text": "内臓を収納するスペースを脊柱の前方に確保する",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "spinal-curves-basics"
+          ]
+        },
+        {
+          "question_text": "前かがみの姿勢で重い荷物を持ち上げると、椎間板に何が起こりやすいか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "前屈（前かがみ）の姿勢をとると、椎間板の前方に圧縮力がかかり、後方に引っ張り力がかかる。この状態で重い物を持ち上げると、圧力差がさらに大きくなり、ゲル状の髄核が後方に押し出される。これにより線維輪が断裂し、髄核が突出して後方の脊髄神経根を圧迫する — これが椎間板ヘルニアである。特に腰椎（L4-L5、L5-S1）は最も荷重が大きく、ヘルニアが好発する。膝を曲げて腰を落としてから持ち上げる（スクワットリフト）ことで、椎間板への不均等な圧力を軽減できる。",
+          "source": "OpenStax Anatomy and Physiology 7.3, 9.1",
+          "choices": [
+            {
+              "text": "前方の圧縮で髄核が後方に押し出され、線維輪が断裂して神経を圧迫する（ヘルニア）",
+              "is_correct": true
+            },
+            {
+              "text": "椎間板が左右にずれて脊柱が側弯する",
+              "is_correct": false
+            },
+            {
+              "text": "椎間板内の血管が破裂して出血する",
+              "is_correct": false
+            },
+            {
+              "text": "椎間板が完全に潰れて隣接する椎骨が直接こすれ合う",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "disc-herniation-basics"
+          ]
+        },
+        {
+          "question_text": "脊柱の弯曲の種類と特徴を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "脊柱の4つの弯曲はそれぞれ異なる特徴を持つ。頸椎弯曲（C1-C7）は前弯で、赤ちゃんが首をあげる動作をきっかけに発達する二次弯曲。胸椎弯曲（T1-T12）は後弯で、胎児期からある一次弯曲。胸郭を形成し心肺を収容する。腰椎弯曲（L1-L5）は前弯で、歩行開始をきっかけに発達する二次弯曲。上半身の重さを支える。仙骨弯曲は後弯で、胎児期からある一次弯曲。",
+          "source": "OpenStax Anatomy and Physiology 7.3",
+          "metadata": {
+            "pairs": [
+              {
+                "left": "頸椎弯曲（7個）",
+                "right": "前弯。首をあげる動作で発達する二次弯曲"
+              },
+              {
+                "left": "胸椎弯曲（12個）",
+                "right": "後弯。胎児期からある一次弯曲。胸郭を形成"
+              },
+              {
+                "left": "腰椎弯曲（5個）",
+                "right": "前弯。歩行開始で発達する二次弯曲"
+              },
+              {
+                "left": "仙骨弯曲",
+                "right": "後弯。胎児期からある一次弯曲"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "spinal-curves-basics"
+          ]
+        },
+        {
+          "question_text": "頸椎弯曲と腰椎弯曲は「二次弯曲」と呼ばれる。胸椎弯曲・仙骨弯曲（一次弯曲）との違いは何か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "一次弯曲（Primary Curvature）は胎児期からすでに存在する弯曲で、胸椎の後弯と仙骨の後弯がこれに該当する。胎児は丸まったC字の姿勢をとっており、この後弯が一次弯曲である。二次弯曲（Secondary Curvature）は生後の発達に伴って形成される前弯で、頸椎弯曲（生後3〜4ヶ月、首をあげる動作で発達）と腰椎弯曲（1歳前後、歩行開始で発達）がこれに該当する。二次弯曲は直立二足歩行への適応として後天的に形成される。",
+          "source": "OpenStax Anatomy and Physiology 7.3",
+          "choices": [
+            {
+              "text": "一次弯曲は胎児期から存在し、二次弯曲は生後に首をあげる・歩く動作で発達する",
+              "is_correct": true
+            },
+            {
+              "text": "一次弯曲は加齢で消失するが二次弯曲は生涯維持される",
+              "is_correct": false
+            },
+            {
+              "text": "一次弯曲は骨の形状で、二次弯曲は筋肉の緊張で作られる",
+              "is_correct": false
+            },
+            {
+              "text": "一次弯曲は男性に特徴的で二次弯曲は女性に特徴的",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "spinal-curves-basics"
+          ]
+        },
+        {
+          "question_text": "デスクワークで長時間前かがみの姿勢を続けている人が腰痛を訴えている。脊柱の弯曲と椎間板の知識を使って、何が起きているか最も的確に説明しているのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "デスクワークでの前かがみ姿勢は、腰椎の前弯（正常なS字カーブの一部）を減少または消失させる。この状態では椎間板の前方に持続的な圧縮力がかかり、髄核が後方に押し出される力が長時間加わり続ける。さらに、背部の筋（脊柱起立筋群）が持続的に伸張された状態で疲労し、腰椎を支える能力が低下する。椎間板への不均等な荷重と筋疲労の両方が腰痛の原因となる。適切な腰椎前弯を保つ座位姿勢と、定期的な休憩・ストレッチが予防に重要である。",
+          "source": "OpenStax Anatomy and Physiology 7.3, 9.1",
+          "choices": [
+            {
+              "text": "腰椎の正常な前弯が失われ、椎間板の後方に持続的な圧力がかかり、背部の筋も疲労している",
+              "is_correct": true
+            },
+            {
+              "text": "椅子に座ると脊柱が伸びすぎて椎骨間が広がり、神経が引っ張られている",
+              "is_correct": false
+            },
+            {
+              "text": "座位では重力がかからないので骨密度が低下し、骨自体が痛みを発している",
+              "is_correct": false
+            },
+            {
+              "text": "前かがみで腰椎の前弯が過度に増大し、椎骨同士がぶつかっている",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "spinal-curves-basics",
+            "disc-herniation-basics"
+          ]
+        },
+        {
+          "question_text": "腰椎椎間板ヘルニアの患者が「腰だけでなく、足の裏までしびれる」と訴えている。この症状が起こるメカニズムを最もよく説明しているのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "腰椎椎間板ヘルニアでは、突出した髄核が腰椎の脊髄神経根（特にL4、L5、S1）を圧迫する。これらの神経根は坐骨神経の一部を形成し、殿部から大腿後面を通り、下腿・足部まで走行する。神経根が圧迫されると、その神経が支配する領域全体に痛み・しびれが放散する（坐骨神経痛/Sciatica）。つまり、問題は腰椎にあるが、そこから出る神経が足先まで届いているため、圧迫部位より遠い足裏にまで症状が現れる。これは解剖学における「関連痛（Referred Pain）」の一例でもある。",
+          "source": "OpenStax Anatomy and Physiology 7.3, 13.4",
+          "choices": [
+            {
+              "text": "突出した髄核が腰椎の神経根を圧迫し、その神経が足先まで走行しているため、遠方にも症状が出る",
+              "is_correct": true
+            },
+            {
+              "text": "椎間板の破片が血流に乗って足まで運ばれ、血管を詰まらせている",
+              "is_correct": false
+            },
+            {
+              "text": "腰の痛みが脳に伝わるとき、脳が誤って足の信号と混同している",
+              "is_correct": false
+            },
+            {
+              "text": "腰をかばう歩き方により足の筋肉が疲労してしびれが出ている",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "disc-herniation-basics",
+            "spinal-curves-basics"
           ]
         }
       ]
