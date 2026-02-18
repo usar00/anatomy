@@ -47,6 +47,16 @@
       "id": "bone-marrow-basics",
       "title": "骨髄の種類と機能",
       "content": "骨髄は骨の内部の空間に存在する組織で、赤色骨髄と黄色骨髄の2種類がある。赤色骨髄（Red Bone Marrow）は造血幹細胞を含み、赤血球・白血球・血小板を産生する。成人では主に扁平骨（胸骨・骨盤）、椎体、長骨の骨端部に存在。黄色骨髄（Yellow Bone Marrow）は主に脂肪細胞から成り、長骨の骨幹内部（骨髄腔）に存在する。エネルギー貯蔵の役割を持ち、大量出血時には赤色骨髄に戻り造血を再開できる。"
+    },
+    {
+      "id": "epiphyseal-plate-basics",
+      "title": "骨端板と骨の長さの成長",
+      "content": "骨端板（Epiphyseal Plate/成長板）は長骨の骨端と骨幹の境界にある軟骨の層で、骨の長さの成長を担う。軟骨細胞が増殖・肥大し、骨端側から順に石灰化→骨化されることで骨が長くなる。思春期にはホルモン（成長ホルモン、性ホルモン）の影響で成長が加速する。成長終了後、骨端板は骨端線（Epiphyseal Line）として完全に骨化し、閉鎖する。X線で骨端板の有無を見ることで成長の余地を判断できる。"
+    },
+    {
+      "id": "bone-remodeling-basics",
+      "title": "骨リモデリング",
+      "content": "骨リモデリング（Bone Remodeling）は、骨吸収と骨形成が絶えず繰り返されるプロセス。破骨細胞（Osteoclast）が古い骨を溶かし（骨吸収）、骨芽細胞（Osteoblast）が新しい骨を作る（骨形成）。成人の骨格は約10年で全て入れ替わる。このバランスが崩れ、骨吸収＞骨形成になると骨量が減少し骨粗鬆症に至る。運動や荷重は骨形成を促進し、不使用や加齢は骨吸収を促進する。カルシウム・ビタミンDの摂取も重要。"
     }
   ],
   "sections": [
@@ -1127,6 +1137,272 @@
           ],
           "reference_text_ids": [
             "bone-marrow-basics"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "骨の成長としくみ",
+      "slug": "bone-growth",
+      "description": "子供の骨はなぜ伸びる？大人の骨はなぜ弱くなる？骨端板とリモデリング",
+      "sort_order": 4,
+      "concepts": [
+        {
+          "name": "骨端板",
+          "description": "長骨の骨端と骨幹の境界にある軟骨の層。骨の長さの成長を担い、成長終了後に閉鎖する"
+        },
+        {
+          "name": "骨リモデリング",
+          "description": "破骨細胞が古い骨を溶かし、骨芽細胞が新しい骨を作る、生涯続くプロセス"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "子供の長骨が長くなるのは、骨のどの部位の働きによるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "骨端板（Epiphyseal Plate/成長板）は長骨の骨端と骨幹の境界にある軟骨の層である。この軟骨細胞が増殖し、骨端側から順に石灰化・骨化されることで骨が長くなる。成長終了後（通常18〜25歳頃）、骨端板は完全に骨化して骨端線となり閉鎖する。",
+          "source": "OpenStax Anatomy and Physiology 6.4",
+          "choices": [
+            {
+              "text": "骨端板（成長板）",
+              "is_correct": true
+            },
+            {
+              "text": "骨膜",
+              "is_correct": false
+            },
+            {
+              "text": "骨髄腔",
+              "is_correct": false
+            },
+            {
+              "text": "関節軟骨",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "epiphyseal-plate-basics"
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "骨リモデリングでは、破骨細胞（Osteoclast）が古い骨組織を溶解・吸収し、その後に骨芽細胞（Osteoblast）が新しい骨を形成する。このサイクルが生涯にわたって繰り返され、成人の骨格は約10年で全て入れ替わる。",
+          "source": "OpenStax Anatomy and Physiology 6.5",
+          "metadata": {
+            "template": "古い骨を溶かす細胞は {{blank}} である"
+          },
+          "choices": [
+            {
+              "text": "破骨細胞",
+              "is_correct": true
+            },
+            {
+              "text": "骨芽細胞",
+              "is_correct": false
+            },
+            {
+              "text": "骨細胞",
+              "is_correct": false
+            },
+            {
+              "text": "軟骨細胞",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "bone-remodeling-basics"
+          ]
+        },
+        {
+          "question_text": "成長期の子供のX線写真で骨端板が確認できるのはなぜか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "骨端板は軟骨でできているため、X線を透過する（X線写真では暗く映る）。一方、骨はカルシウムを含むためX線を吸収し白く映る。そのため骨端板は骨端と骨幹の間に暗い線として確認できる。医師はX線で骨端板の有無を見て、まだ成長の余地があるかを判断する。成長完了後は骨端板が骨化して閉鎖するため、X線で見えなくなる。",
+          "source": "OpenStax Anatomy and Physiology 6.4",
+          "choices": [
+            {
+              "text": "軟骨はX線を透過するため、骨の間に暗い線として映るから",
+              "is_correct": true
+            },
+            {
+              "text": "骨端板は特殊な金属を含んでいるため光って見えるから",
+              "is_correct": false
+            },
+            {
+              "text": "骨端板の周囲に空気が入っているためコントラストがつくから",
+              "is_correct": false
+            },
+            {
+              "text": "骨端板の血管が造影剤なしでもX線に映るから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "epiphyseal-plate-basics"
+          ]
+        },
+        {
+          "question_text": "骨リモデリングで骨吸収と骨形成のバランスが崩れ、骨吸収が骨形成を上回ると何が起こるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "骨吸収（破骨細胞が骨を溶かす）が骨形成（骨芽細胞が骨を作る）を上回ると、骨量が徐々に減少する。これが長期間続くと骨密度が低下し、骨粗鬆症（Osteoporosis）に至る。骨粗鬆症では骨がもろくなり、軽い転倒や日常動作でも骨折しやすくなる。閉経後の女性でエストロゲンが急減すると破骨細胞の活性が増し、骨粗鬆症のリスクが高まる。",
+          "source": "OpenStax Anatomy and Physiology 6.6",
+          "choices": [
+            {
+              "text": "骨量が減少し、骨粗鬆症になる",
+              "is_correct": true
+            },
+            {
+              "text": "骨が硬くなりすぎて柔軟性を失う",
+              "is_correct": false
+            },
+            {
+              "text": "骨髄が消失して造血ができなくなる",
+              "is_correct": false
+            },
+            {
+              "text": "骨が大きくなりすぎて関節が動かなくなる",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "bone-remodeling-basics"
+          ]
+        },
+        {
+          "question_text": "骨の成長と維持に関わる細胞の役割を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "骨芽細胞は骨を「作る」細胞で、コラーゲンとカルシウムを沈着させて新しい骨組織を形成する。破骨細胞は骨を「壊す」（吸収する）細胞で、酸と酵素で古い骨を溶解する。骨細胞は骨芽細胞が骨に埋め込まれて変化した細胞で、骨の維持と力学的感知を担う。軟骨細胞は骨端板で増殖し、骨の長さの成長の基盤となる。",
+          "source": "OpenStax Anatomy and Physiology 6.3-6.4",
+          "metadata": {
+            "pairs": [
+              {
+                "left": "骨芽細胞",
+                "right": "新しい骨を作る"
+              },
+              {
+                "left": "破骨細胞",
+                "right": "古い骨を溶かして吸収する"
+              },
+              {
+                "left": "骨細胞",
+                "right": "骨に埋まり維持と力学的感知を担う"
+              },
+              {
+                "left": "軟骨細胞（骨端板）",
+                "right": "増殖して骨の長さの成長の基盤となる"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "epiphyseal-plate-basics",
+            "bone-remodeling-basics"
+          ]
+        },
+        {
+          "question_text": "思春期に身長が急激に伸びるのはなぜか？骨端板の知識を使って考えてみよう。",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "思春期には成長ホルモンと性ホルモン（エストロゲン、テストステロン）の分泌が急増する。成長ホルモンは骨端板の軟骨細胞の増殖を促進し、性ホルモンは初期には成長を加速させる。しかし性ホルモンは同時に骨端板の骨化も促進するため、思春期後半には骨端板が閉鎖して成長が止まる。これが「思春期に急に伸びて、その後止まる」メカニズムである。",
+          "source": "OpenStax Anatomy and Physiology 6.4",
+          "choices": [
+            {
+              "text": "成長ホルモンと性ホルモンの急増が骨端板の軟骨細胞増殖を加速させるから",
+              "is_correct": true
+            },
+            {
+              "text": "思春期に骨膜が厚くなり骨の成長が促進されるから",
+              "is_correct": false
+            },
+            {
+              "text": "骨髄の造血が活発になり骨への栄養供給が増えるから",
+              "is_correct": false
+            },
+            {
+              "text": "思春期にカルシウムの吸収効率が一時的に高まるから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "epiphyseal-plate-basics"
+          ]
+        },
+        {
+          "question_text": "10歳の子供が骨端板付近を骨折した場合、適切に治療しないとどのような問題が起こりうるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "骨端板は成長に必須の軟骨組織であり、ここが損傷すると正常な軟骨細胞の増殖が阻害される。損傷部位が瘢痕組織や骨で置き換わると、その部分の成長が停止または減速する。結果として、骨の一部だけが成長を続け、腕や脚が曲がる（角変形）、左右で長さが異なる（脚長差）などの成長障害が起こりうる。小児の骨端板損傷は整復と経過観察が特に重要とされる。",
+          "source": "Gray's Anatomy / Salter-Harris Classification",
+          "choices": [
+            {
+              "text": "骨の成長が部分的に止まり、変形や左右の長さの差が生じる可能性がある",
+              "is_correct": true
+            },
+            {
+              "text": "骨端板が消失して骨が短くなり二度と伸びなくなる",
+              "is_correct": false
+            },
+            {
+              "text": "骨折部位から感染が広がり骨髄炎が必ず起こる",
+              "is_correct": false
+            },
+            {
+              "text": "骨端板が過剰に再生して骨が異常に長くなる",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "epiphyseal-plate-basics"
+          ]
+        },
+        {
+          "question_text": "運動が骨を強くするのはなぜか？骨リモデリングの知識を使って説明してみよう。",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "運動（特にウォーキング、ジョギング、筋トレなどの荷重運動）は骨に繰り返し力学的ストレスを加える。骨細胞がこのストレスを感知すると、骨芽細胞による骨形成が促進される（ウォルフの法則）。つまり、骨リモデリングのバランスが「骨形成 > 骨吸収」に傾き、骨密度が増加する。逆に、寝たきりや無重力環境では荷重がなくなり「骨吸収 > 骨形成」となって骨が弱くなる。骨粗鬆症予防に運動が推奨されるのはこのためである。",
+          "source": "OpenStax Anatomy and Physiology 6.6 / Wolff's Law",
+          "choices": [
+            {
+              "text": "運動による力学的ストレスが骨形成を促進し、骨密度が増加するから",
+              "is_correct": true
+            },
+            {
+              "text": "運動で体温が上がると骨の代謝が活発になり硬くなるから",
+              "is_correct": false
+            },
+            {
+              "text": "運動で血流が増えるとカルシウムが骨に自然に沈着するから",
+              "is_correct": false
+            },
+            {
+              "text": "運動すると破骨細胞が死滅して骨吸収が完全に止まるから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "bone-remodeling-basics"
           ]
         }
       ]
