@@ -3016,6 +3016,224 @@
           "reference_text_ids": ["knee-joint-basics"]
         }
       ]
+    },
+    {
+      "name": "足関節と足のアーチ",
+      "slug": "ankle-foot",
+      "description": "二足歩行の基盤 — 捻挫しやすい理由と扁平足のメカニズム",
+      "sort_order": 13,
+      "concepts": [
+        {
+          "name": "足関節の構造",
+          "description": "距腿関節の「ほぞ穴」構造と内反捻挫の解剖学的理由。距骨下関節の役割"
+        },
+        {
+          "name": "足のアーチ",
+          "description": "3つのアーチの衝撃吸収と推進力生成。扁平足と足底腱膜炎"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "足関節の背屈（つま先を上げる）と底屈（つま先を下げる）を行う距腿関節は、どのタイプの関節か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "距腿関節は脛骨と腓骨の遠位端が作る「ほぞ穴（Mortise）」に距骨がはまり込む構造で、蝶番関節です。1軸の運動として背屈（つま先を上げる）と底屈（つま先を下げる）を行います。歩行の蹴り出し（底屈）と足の持ち上げ（背屈）に不可欠です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            {
+              "text": "球関節 — 多方向に足首を動かすため",
+              "is_correct": false
+            },
+            {
+              "text": "蝶番関節 — 背屈と底屈の1軸運動のため",
+              "is_correct": true
+            },
+            {
+              "text": "楕円関節 — 背屈・底屈に加えて回旋もできるため",
+              "is_correct": false
+            },
+            {
+              "text": "平面関節 — 小さな滑り運動のみのため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["ankle-foot-basics"]
+        },
+        {
+          "question_text": "足のアーチは3つある。最も高いのは（　①　）アーチで、衝撃を吸収して蹴り出しのバネ効果を生む。アーチは靭帯と筋で支えられ、足の裏の（　②　）腱膜が重要な支持構造である。",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "足の3つのアーチのうち、内側縦アーチが最も高く、衝撃吸収とバネ効果の主役です。足底腱膜（Plantar Fascia）は踵骨から中足骨頭に至る強い線維組織で、アーチの「弓の弦」のように支えています。歩行時にアーチが扁平化すると足底腱膜が引き伸ばされてエネルギーを蓄え、蹴り出し時に弾性反跳で推進力を生みます。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            { "text": "内側縦", "is_correct": true },
+            { "text": "足底", "is_correct": true },
+            { "text": "外側縦", "is_correct": false },
+            { "text": "横", "is_correct": false },
+            { "text": "手掌", "is_correct": false },
+            { "text": "関節", "is_correct": false }
+          ],
+          "metadata": {
+            "word_bank": ["外側縦", "内側縦", "関節", "足底", "横", "手掌"]
+          },
+          "reference_text_ids": ["ankle-foot-basics"]
+        },
+        {
+          "question_text": "足関節の捻挫で内反捻挫（足裏が内側を向く方向の捻挫）が約80%を占める理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "距腿関節では、外果（腓骨遠位端）が内果（脛骨遠位端）より長く下方に位置しています。これにより外側は骨のバリアが強く、外反方向（足裏が外を向く）は骨で強くブロックされます。一方、内側は骨のバリアが低いため内反方向（足裏が内を向く）には制限が弱く、外側の靭帯（前距腓靭帯など）が引き伸ばされやすいのです。これが内反捻挫が圧倒的に多い理由です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            {
+              "text": "足関節の関節包が内側だけ薄いため、内側に弱点があるから",
+              "is_correct": false
+            },
+            {
+              "text": "歩行時に足が常に内反位から着地するため、内反方向のストレスが多いから",
+              "is_correct": false
+            },
+            {
+              "text": "外果が内果より長く下方にあるため、外反は骨でブロックされるが内反方向は制限が弱いから",
+              "is_correct": true
+            },
+            {
+              "text": "内反方向を制限する筋肉が存在しないため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["ankle-foot-basics"]
+        },
+        {
+          "question_text": "足のアーチが歩行時に果たす機能として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "足のアーチは歩行・走行で複合的な機能を持ちます。①着地時にアーチが扁平化して衝撃を吸収（スプリングのように）、②体重を踵骨と中足骨頭に三角形状に分散、③扁平化の際にエネルギーを弾性的に蓄え、蹴り出し時に弾性反跳として推進力を生成。つまりアーチは「衝撃吸収＋エネルギー回収＋推進力」の三役を兼ねるバネ構造です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            {
+              "text": "着地時に衝撃を吸収し、弾性エネルギーを蓄えて蹴り出し時に推進力として返す",
+              "is_correct": true
+            },
+            {
+              "text": "足の温度を一定に保つために血流を調節する断熱構造として機能する",
+              "is_correct": false
+            },
+            {
+              "text": "歩行時に足を地面から浮かせて、足裏全体が地面に接触しないようにする",
+              "is_correct": false
+            },
+            {
+              "text": "足底の感覚受容器を高い位置に保ち、より正確な地面の情報を脳に伝える",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["ankle-foot-basics"]
+        },
+        {
+          "question_text": "以下の足の構造と、その機能を正しく組み合わせなさい。",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "①距腿関節は足首の蝶番関節で、背屈と底屈を行います。②距骨下関節は距骨と踵骨の間で内反・外反を行い、不整地への適応を可能にします。③内側縦アーチは最も高いアーチで衝撃吸収の主役です。④足底腱膜はアーチを下から支える「弓の弦」で、弾性エネルギーの蓄積と放出に関わります。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "metadata": {
+            "matching_pairs": [
+              { "left": "距腿関節", "right": "背屈と底屈（蹴り出しと持ち上げ）" },
+              { "left": "距骨下関節", "right": "内反と外反（不整地への適応）" },
+              { "left": "内側縦アーチ", "right": "衝撃吸収とバネ効果の主役" },
+              { "left": "足底腱膜", "right": "アーチの弓の弦として弾性支持" }
+            ]
+          },
+          "choices": [],
+          "reference_text_ids": ["ankle-foot-basics"]
+        },
+        {
+          "question_text": "扁平足（内側縦アーチの低下）が膝や股関節にまで影響を及ぼすメカニズムとして最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "内側縦アーチが低下すると足部が過回内（Over-pronation：足底が過度に内側を向く）を起こします。過回内は脛骨の内旋を誘発し、膝関節の内旋ストレスを増加させます。さらに脛骨の内旋は大腿骨にも伝わり、股関節のアライメントにも影響します。このように、足のアーチの問題は「運動連鎖」を通じて上方の関節に波及するのです。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            {
+              "text": "アーチの低下で足が長くなり、脚全体の長さが変わって骨盤が傾くため",
+              "is_correct": false
+            },
+            {
+              "text": "足の神経が圧迫されて膝と股関節の感覚が鈍くなり、動きが不安定になるため",
+              "is_correct": false
+            },
+            {
+              "text": "アーチの低下で足裏の血流が減少し、下肢全体の筋力が低下するため",
+              "is_correct": false
+            },
+            {
+              "text": "過回内が脛骨の内旋を誘発し、運動連鎖を通じて膝・股関節のアライメントに影響するため",
+              "is_correct": true
+            }
+          ],
+          "reference_text_ids": ["ankle-foot-basics"]
+        },
+        {
+          "question_text": "ランナーが「朝起きて最初の一歩が特に痛い」と足裏の踵付近の痛みを訴えている。足底腱膜炎が疑われる場合、「最初の一歩が最も痛い」理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "睡眠中は足関節がやや底屈位（つま先が下がった状態）になるため、足底腱膜は弛緩した状態で修復が進みます。しかし、この修復組織はまだ脆弱です。朝起きて最初の一歩で体重がかかると、足底腱膜が急に引き伸ばされて修復途中の組織に微小断裂が生じ、強い痛みが出ます。歩き続けると腱膜が徐々に伸びて（ウォーミングアップ効果）痛みが和らぐことが多いですが、長時間の活動後に再び痛みが強くなります。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            {
+              "text": "睡眠中に足底腱膜が弛緩した状態で修復が進むが、起床時の荷重で修復途中の組織に微小断裂が起きるため",
+              "is_correct": true
+            },
+            {
+              "text": "睡眠中に足のアーチが完全に消失し、朝は扁平足の状態から始まるため",
+              "is_correct": false
+            },
+            {
+              "text": "夜間に踵骨に骨棘が成長し、朝の一歩で骨棘が足底腱膜を突き刺すため",
+              "is_correct": false
+            },
+            {
+              "text": "睡眠中に血流が足裏に集中して浮腫が起こり、足根管内の圧力が上昇するため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["ankle-foot-basics"]
+        },
+        {
+          "question_text": "高齢者が「最近つまずきやすくなった」と訴えている。足関節の解剖学から、加齢によるつまずきリスク増加の要因として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "歩行中に足を前に振り出す際、距腿関節の背屈（つま先を上げる）で足先が地面から離れます。加齢により背屈筋（前脛骨筋）の筋力が低下し、足関節の背屈角度が減少すると、歩行中のつま先のクリアランス（地面からの高さ）が小さくなります。わずか数mmの差でもカーペットの端や小さな段差に引っかかりやすくなり、転倒リスクが高まります。加えて足底の固有受容感覚の低下も地面の変化への反応を遅らせます。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            {
+              "text": "加齢で距腿関節が球関節に変化し、足首が不安定になるため",
+              "is_correct": false
+            },
+            {
+              "text": "加齢で足のアーチが過度に高くなり（ハイアーチ）、歩行が不安定になるため",
+              "is_correct": false
+            },
+            {
+              "text": "背屈筋力の低下と固有受容感覚の減少で、つま先のクリアランスが減少するため",
+              "is_correct": true
+            },
+            {
+              "text": "足底腱膜が骨化して足裏が硬くなり、地面との摩擦が減少するため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["ankle-foot-basics"]
+        }
+      ]
     }
   ]
 }
