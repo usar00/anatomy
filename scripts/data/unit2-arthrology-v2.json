@@ -22,6 +22,11 @@
       "id": "synovial-joint-structure-basics",
       "title": "滑膜性関節の構造と機能",
       "content": "滑膜性関節（Synovial Joint）は最も一般的な関節で、全身の大部分の関節がこのタイプに属する。最大の特徴は関節腔（Joint Cavity）を持つことで、骨端同士が直接結合されず、関節腔内の滑液（Synovial Fluid）を介して動く。基本構造は以下の通り。①関節軟骨（Articular Cartilage）：骨の関節面を覆う硝子軟骨の層（厚さ1-7mm）。血管・神経を持たず、摩擦を極限まで低減する（摩擦係数0.001-0.01、氷上の氷よりも低い）。②関節包（Joint Capsule）：関節を包む二層構造の袋。外層の線維膜（Fibrous Membrane）は緻密結合組織で関節の構造的安定性を提供し、内層の滑膜（Synovial Membrane）は滑液を産生・吸収する。③滑液（Synovial Fluid）：ヒアルロン酸と間質液からなる粘稠な液体。関節軟骨への栄養供給（軟骨は無血管なので滑液が唯一の栄養源）、潤滑、衝撃吸収の3つの機能を持つ。動きによって滑液が軟骨に押し込まれ栄養が行き渡る（ウィーピング潤滑）ため、適度な運動が軟骨の健康維持に不可欠。関節軟骨は無血管のため自己修復能力が極めて低く、一度損傷すると回復が困難（変形性関節症の原因）。"
+    },
+    {
+      "id": "joint-support-structures-basics",
+      "title": "靭帯・半月板・関節唇の構造と機能",
+      "content": "滑膜性関節には、基本構造（関節軟骨・関節包・滑液）に加えて、安定性と機能を高めるアクセサリー構造がある。①靭帯（Ligament）：コラーゲン線維の密な束で、骨と骨を結合して関節の過度な動きを制限する。関節包の外にある（側副靭帯など）場合と、関節腔内にある（前十字靭帯ACL・後十字靭帯PCLなど）場合がある。靭帯は引張力に強いが、弾性が低いため一度伸びると元に戻りにくい（捻挫の後遺症の原因）。靭帯の血流は乏しく、損傷後の自然治癒には時間がかかる（ACLはほとんど自然治癒しない）。②半月板（Meniscus）：線維軟骨でできたC字型のクッションで、膝関節に存在する（内側半月板・外側半月板）。凸面の大腿骨顆と平面に近い脛骨プラトーの間の適合性を高め、荷重を分散し、衝撃を吸収する。半月板の外側1/3は血流があり修復可能（Red Zone）だが、内側2/3は無血管で修復困難（White Zone）。③関節唇（Labrum）：線維軟骨のリング状構造で、肩関節（関節窩唇/Glenoid Labrum）と股関節（寛骨臼唇/Acetabular Labrum）に存在する。浅い関節窩や寛骨臼の縁を深くして関節面の接触面積を増やし、「吸盤効果」で大腿骨頭・上腕骨頭を安定させる。"
     }
   ],
   "sections": [
@@ -752,6 +757,251 @@
             }
           ],
           "reference_text_ids": ["synovial-joint-structure-basics"]
+        }
+      ]
+    },
+    {
+      "name": "靭帯・半月板・関節唇",
+      "slug": "joint-support",
+      "description": "関節を守るサポーター — 靭帯が切れると何が起こる？",
+      "sort_order": 3,
+      "concepts": [
+        {
+          "name": "靭帯",
+          "description": "コラーゲン線維の束で骨と骨を結合し、関節の過度な動きを制限する。弾性が低く損傷後の回復に時間がかかる"
+        },
+        {
+          "name": "半月板と関節唇",
+          "description": "半月板は膝のクッション、関節唇は肩と股関節の安定化リング。ともに線維軟骨製"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "靭帯の主な機能はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "靭帯（Ligament）はコラーゲン線維の密な束で、骨と骨を結合して関節の過度な動きを制限する構造です。腱（Tendon）が「筋と骨」をつなぐのに対し、靭帯は「骨と骨」をつなぎます。靭帯は関節包の外にあるもの（側副靭帯など）と、関節腔内にあるもの（十字靭帯など）があります。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "choices": [
+            {
+              "text": "筋肉と骨を結合して筋の力を骨に伝達する",
+              "is_correct": false
+            },
+            {
+              "text": "骨と骨を結合して関節の過度な動きを制限する",
+              "is_correct": true
+            },
+            {
+              "text": "関節軟骨に栄養を供給する",
+              "is_correct": false
+            },
+            {
+              "text": "関節腔内で滑液を産生する",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["joint-support-structures-basics"]
+        },
+        {
+          "question_text": "次の文を完成させてください:\n\n膝関節にある内側半月板と外側半月板はC字型の【　　】でできたクッションで、大腿骨と脛骨の間の適合性を高め荷重を分散する。",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "半月板は線維軟骨（Fibrocartilage）でできています。線維軟骨はコラーゲン線維が豊富で、圧縮力と引張力の両方に強い組織です。半月板は凸面の大腿骨顆と平面に近い脛骨プラトーの間に挟まり、両者の形状の不一致を補います。これにより接触面積が増大し、荷重が分散されて関節軟骨への負担が軽減されます。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "metadata": {
+            "word_bank": ["線維軟骨", "硝子軟骨", "弾性軟骨", "緻密骨"]
+          },
+          "choices": [
+            {
+              "text": "硝子軟骨",
+              "is_correct": false
+            },
+            {
+              "text": "線維軟骨",
+              "is_correct": true
+            },
+            {
+              "text": "弾性軟骨",
+              "is_correct": false
+            },
+            {
+              "text": "緻密骨",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["joint-support-structures-basics"]
+        },
+        {
+          "question_text": "靭帯が一度伸びると元に戻りにくい理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "靭帯は主にI型コラーゲン線維で構成されており、引張力に強いですが弾性（伸びて戻る性質）が低い組織です。ゴムバンドのようなエラスチン線維はわずかしか含まれません。捻挫で靭帯が過度に引き伸ばされると、コラーゲン線維の微小な断裂が生じ、一度伸びた線維は元の長さに縮む能力が限られます。これが捻挫後に関節が「ゆるくなった」と感じる理由であり、再発しやすくなる原因です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "choices": [
+            {
+              "text": "靭帯の主成分であるコラーゲン線維は引張力に強いが弾性が低く、伸びた線維が元に戻りにくいため",
+              "is_correct": true
+            },
+            {
+              "text": "靭帯には筋細胞が含まれておらず、収縮して元の長さに戻る能力がないため",
+              "is_correct": false
+            },
+            {
+              "text": "靭帯は骨膜と直接連続しており、骨が成長しない限り靭帯も縮まないため",
+              "is_correct": false
+            },
+            {
+              "text": "靭帯内の滑液が枯渇して線維が固まり、弾力を失うため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["joint-support-structures-basics"]
+        },
+        {
+          "question_text": "膝の半月板損傷で「内側の方が外側より治りにくい」理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "半月板は血流の分布により3つのゾーンに分かれます。外側1/3は血管が豊富なRed Zone（赤色帯）で、損傷しても血液由来の修復因子が届くため治癒が期待できます。中間部はRed-White Zone、内側2/3は血管のないWhite Zone（白色帯）で、血液による修復が行われないため自然治癒が困難です。「内側が治りにくい」のは半月板の内縁に近い無血管領域の損傷を指しています。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "choices": [
+            {
+              "text": "内側半月板は外側より薄くて脆いため、損傷が大きくなりやすいから",
+              "is_correct": false
+            },
+            {
+              "text": "半月板の内側2/3は無血管（White Zone）で、修復に必要な血液が届かないため",
+              "is_correct": true
+            },
+            {
+              "text": "内側半月板は膝蓋骨に直接接触するため、動くたびに再損傷するから",
+              "is_correct": false
+            },
+            {
+              "text": "内側半月板には神経が多く、痛みで動かせないため修復が遅れるから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["joint-support-structures-basics"]
+        },
+        {
+          "question_text": "関節のアクセサリー構造とその機能を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "靭帯は骨と骨をつなぎ関節の過度な動きを制限します。半月板は膝関節にある線維軟骨のクッションで荷重を分散します。関節唇は肩・股関節の浅い関節窩の縁を深くして安定性を高めます。滑液包は摩擦を受けやすい部位にある滑液で満たされた袋で、腱と骨の間などの摩擦を軽減します。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "metadata": {
+            "pairs": [
+              {"left": "靭帯", "right": "骨と骨をつなぎ関節の過度な動きを制限する"},
+              {"left": "半月板", "right": "膝関節で大腿骨と脛骨の適合性を高め荷重を分散する"},
+              {"left": "関節唇", "right": "肩・股関節の浅い関節窩を深くして安定性を高める"},
+              {"left": "腱", "right": "筋と骨をつなぎ筋の力を骨に伝達する"}
+            ]
+          },
+          "choices": [
+            {
+              "text": "靭帯 → 骨と骨をつなぎ関節の過度な動きを制限する",
+              "is_correct": true
+            },
+            {
+              "text": "半月板 → 膝関節で大腿骨と脛骨の適合性を高め荷重を分散する",
+              "is_correct": true
+            },
+            {
+              "text": "関節唇 → 肩・股関節の浅い関節窩を深くして安定性を高める",
+              "is_correct": true
+            },
+            {
+              "text": "腱 → 筋と骨をつなぎ筋の力を骨に伝達する",
+              "is_correct": true
+            }
+          ],
+          "reference_text_ids": ["joint-support-structures-basics"]
+        },
+        {
+          "question_text": "肩関節の関節窩唇（Glenoid Labrum）が関節の安定性に重要である理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "肩関節の関節窩（Glenoid Fossa）は非常に浅く、上腕骨頭の約1/3しかカバーしません。これは大きな可動性を確保するための設計ですが、安定性は犠牲になります。関節窩唇は関節窩の縁を取り囲むリング状の線維軟骨で、関節窩を約50%深くし、接触面積を増やします。さらに「吸盤効果」（負圧による吸着）で上腕骨頭を保持します。関節唇が損傷する（SLAP損傷、Bankart損傷など）と肩の不安定性が増し、脱臼のリスクが高まります。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "choices": [
+            {
+              "text": "肩の関節窩は浅いため、関節唇がリング状に縁を深くし吸盤効果で上腕骨頭を安定させるから",
+              "is_correct": true
+            },
+            {
+              "text": "関節唇が滑液を大量に産生して関節腔内の圧力を高め、骨頭を押さえつけるから",
+              "is_correct": false
+            },
+            {
+              "text": "関節唇は硬い骨でできており、上腕骨頭が外れないよう物理的に囲んでいるから",
+              "is_correct": false
+            },
+            {
+              "text": "関節唇内の筋繊維が収縮して上腕骨頭を関節窩に引きつけるから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["joint-support-structures-basics"]
+        },
+        {
+          "question_text": "膝の前十字靭帯（ACL）が断裂した場合、手術が必要になることが多い。ACLが自然治癒しにくい理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "ACLが自然治癒しにくい理由は複合的です。①ACLは関節腔内にあり、滑液に浸されている。滑液中のプラスミンなどの酵素が血餅（かさぶた）の形成を妨げ、通常の組織修復の第一段階（血餅による足場形成）が起こらない。②関節腔内の靭帯は血流が乏しく、修復に必要な幹細胞や成長因子の供給が限られる。③膝は歩行のたびに大きな力がかかり、断裂した靭帯の両端が離れ続けるため接合できない。これらの理由からACL断裂は通常、靭帯再建術（腱を用いた再建）が行われます。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "choices": [
+            {
+              "text": "ACLはコラーゲンではなくエラスチンでできており、エラスチンは再生不能だから",
+              "is_correct": false
+            },
+            {
+              "text": "ACLは関節腔内にあり、滑液が血餅形成を妨げ、血流も乏しいため修復の足場ができないから",
+              "is_correct": true
+            },
+            {
+              "text": "ACLには免疫細胞が集まりやすく、自己免疫反応で修復組織が破壊されるから",
+              "is_correct": false
+            },
+            {
+              "text": "ACL断裂の際に周囲の半月板も必ず損傷するため、複合損傷で治癒不能になるから",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["joint-support-structures-basics", "synovial-joint-structure-basics"]
+        },
+        {
+          "question_text": "足首を「グキッ」と捻った（足関節内反捻挫）後、同じ足首を繰り返し捻挫しやすくなる。この「捻挫癖」の解剖学的メカニズムとして最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "足関節内反捻挫では外側の靭帯（前距腓靭帯が最も損傷しやすい）が引き伸ばされるか断裂します。靭帯のコラーゲン線維は弾性が低いため、一度伸びると元の長さに完全には戻りません。また、靭帯内の固有受容器（関節の位置や動きを感知するセンサー）も損傷し、足首の位置覚が低下します。結果として①靭帯が緩くなり関節の制動力が低下、②固有受容感覚の低下で反射的な筋防御が遅れる、という二重のメカニズムで再捻挫リスクが高まります（慢性足関節不安定症）。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "choices": [
+            {
+              "text": "伸びた靭帯が元に戻らず関節が緩くなり、固有受容器の損傷で反射的筋防御も遅れるため",
+              "is_correct": true
+            },
+            {
+              "text": "捻挫で足の骨が微妙にずれたまま治癒し、関節の形状が変わってしまうため",
+              "is_correct": false
+            },
+            {
+              "text": "一度の捻挫で関節軟骨が完全に剥がれ、骨同士が不安定に動くようになるため",
+              "is_correct": false
+            },
+            {
+              "text": "捻挫の痛みを脳が記憶し、痛みへの恐怖で筋が過度に緊張して逆に不安定になるため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["joint-support-structures-basics"]
         }
       ]
     }
