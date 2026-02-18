@@ -122,6 +122,11 @@
       "id": "arm-forearm-basics",
       "title": "上腕と前腕の骨",
       "content": "上腕（Arm/Brachium）には上腕骨（Humerus）1本が存在する。近位端の上腕骨頭は肩甲骨の関節窩と肩関節を形成し、遠位端は肘関節で尺骨・橈骨と関節する。前腕（Forearm/Antebrachium）には橈骨（Radius）と尺骨（Ulna）の2本の骨がある。尺骨は内側（小指側）に位置し、肘関節では上腕骨滑車と蝶番関節を形成して屈曲・伸展を担う。肘頭（Olecranon）は肘の後方のでっぱり。橈骨は外側（親指側）に位置し、手関節では主に手根骨と関節する。前腕に2本の骨がある最大の理由は回内・回外（Pronation/Supination）を可能にするため。橈骨が尺骨の上を交差するように回転することで、手のひらを上向き（回外）・下向き（回内）に向ける動作が実現する。"
+    },
+    {
+      "id": "hand-bones-basics",
+      "title": "手の骨 — 27個の骨が生む器用さ",
+      "content": "手（Hand）は27個の骨からなり、手根骨（Carpals）8個・中手骨（Metacarpals）5本・指骨（Phalanges）14本で構成される。手根骨は2列に並ぶ短骨の集合で、近位列は舟状骨（Scaphoid）・月状骨・三角骨・豆状骨、遠位列は大菱形骨・小菱形骨・有頭骨・有鉤骨。多数の小さな骨が靭帯で連結されることで、硬さ（物を握る力）と柔軟性（細かい動き）を両立する。中手骨は手の平の骨格で5本あり、指骨は母指が2本（近位・遠位）、他の4指は各3本（近位・中節・遠位）で計14本。舟状骨は手根骨の中で最も骨折しやすく、血流が遠位から近位に向かう「逆行性血行」のため、骨折時に近位部の血流が途絶え壊死（阻血性壊死）のリスクがある。初期X線で骨折線が見えにくいことから見逃されやすい。"
     }
   ],
   "sections": [
@@ -3631,6 +3636,275 @@
           "reference_text_ids": [
             "arm-forearm-basics",
             "osteoporosis-basics"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "手の骨",
+      "slug": "hand-bones",
+      "description": "27個の骨が生む器用さ — 舟状骨骨折はなぜ見逃される？",
+      "sort_order": 13,
+      "concepts": [
+        {
+          "name": "手根骨・中手骨・指骨",
+          "description": "手根骨8個（2列の短骨）、中手骨5本（手のひら）、指骨14本（母指2本、他4指は各3本）で計27個"
+        },
+        {
+          "name": "舟状骨骨折",
+          "description": "手根骨で最も骨折しやすい。逆行性血行のため壊死リスクがあり、初期X線で見逃されやすい"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "手（Hand）を構成する骨の総数は何個か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "手は合計27個の骨で構成される。内訳は手根骨（Carpals）8個、中手骨（Metacarpals）5本、指骨（Phalanges）14本である。この多数の骨が靭帯と筋によって精密に連結されることで、力強い握りから繊細な指先の動きまで幅広い機能を実現している。片手27個、両手で54個の骨があり、全身206個の骨の約26%が手に集中している。",
+          "source": "OpenStax Anatomy and Physiology 8.2",
+          "choices": [
+            {
+              "text": "27個（手根骨8 + 中手骨5 + 指骨14）",
+              "is_correct": true
+            },
+            {
+              "text": "20個（手根骨5 + 中手骨5 + 指骨10）",
+              "is_correct": false
+            },
+            {
+              "text": "30個（手根骨10 + 中手骨5 + 指骨15）",
+              "is_correct": false
+            },
+            {
+              "text": "15個（手根骨5 + 中手骨5 + 指骨5）",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "hand-bones-basics"
+          ]
+        },
+        {
+          "question_text": "次の文を完成させてください:",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "母指（親指）の指骨は近位指骨と遠位指骨の2本のみで、中節骨がない。他の4指（示指〜小指）は近位指骨・中節骨・遠位指骨の3本ずつ。母指が2本の指骨しか持たないことで、対向（opposition）の動きがしやすくなり、物を「つまむ」「握る」動作が効率的に行える。母指の対向は人間の手の機能の中でも最も重要な動きの一つである。",
+          "source": "OpenStax Anatomy and Physiology 8.2",
+          "metadata": {
+            "template": "母指（親指）の指骨は他の指より1本少なく {{blank}} 本である"
+          },
+          "choices": [
+            {
+              "text": "2",
+              "is_correct": true
+            },
+            {
+              "text": "3",
+              "is_correct": false
+            },
+            {
+              "text": "1",
+              "is_correct": false
+            },
+            {
+              "text": "4",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "hand-bones-basics"
+          ]
+        },
+        {
+          "question_text": "手に27個もの骨がある理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "手に多数の骨が存在する理由は、精密な動きと多様な機能を両立するためである。8個の手根骨（短骨）が互いにわずかに動くことで手首の柔軟性を実現し、5本の中手骨がそれぞれ独立して動くことで手のひらの変形（カップ状に丸めるなど）を可能にし、14本の指骨が多数の関節を作ることで各指が独立して細かく動く。もし手が少数の大きな骨でできていたら、握力は増すかもしれないが、繊細な動き（文字を書く、楽器を弾く、細い物をつまむ）は不可能になる。",
+          "source": "OpenStax Anatomy and Physiology 8.2",
+          "choices": [
+            {
+              "text": "多数の小さな骨が各々わずかに動くことで、力強い握りから繊細な操作まで多様な動きを実現するため",
+              "is_correct": true
+            },
+            {
+              "text": "骨が多いほど手全体の強度が増し、骨折しにくくなるため",
+              "is_correct": false
+            },
+            {
+              "text": "手は発生過程で多くの骨に分かれるが、機能的には1つの大きな骨でも問題ない",
+              "is_correct": false
+            },
+            {
+              "text": "骨と骨の間に血管を通すスペースを確保するため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "hand-bones-basics",
+            "short-bone-basics"
+          ]
+        },
+        {
+          "question_text": "舟状骨骨折が初期のX線検査で見逃されやすい理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "舟状骨（Scaphoid）は手根骨の中で最も骨折しやすい骨であるが、骨折直後のX線写真では骨折線が非常に細く、周囲の骨と重なって見えにくいことが多い。骨折後1〜2週間経過すると骨吸収により骨折線が明瞭化するため、「解剖学的嗅ぎタバコ入れ（Anatomical Snuffbox）」の圧痛がある場合は、初回X線で異常がなくてもギプス固定し、2週間後に再検査するのが標準的な対応。見逃して放置すると、舟状骨の特殊な血行（逆行性血行）のため近位骨片が壊死する阻血性壊死のリスクがある。",
+          "source": "OpenStax Anatomy and Physiology 8.2",
+          "choices": [
+            {
+              "text": "骨折線が非常に細く、周囲の手根骨と重なるため初期X線では判別困難なことが多い",
+              "is_correct": true
+            },
+            {
+              "text": "舟状骨は軟骨でできているためX線に写りにくい",
+              "is_correct": false
+            },
+            {
+              "text": "舟状骨骨折では痛みがほとんどないため検査自体が行われにくい",
+              "is_correct": false
+            },
+            {
+              "text": "舟状骨は体の深部にあるためX線が届きにくい",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "hand-bones-basics"
+          ]
+        },
+        {
+          "question_text": "手の骨の構成を正しくマッチさせてください",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "手根骨は手首を構成する8個の短骨で、2列（近位列4個・遠位列4個）に配列される。靭帯で連結され、衝撃吸収と多方向の動きを可能にする。中手骨は手のひらの骨格を構成する5本の細長い骨。指骨は指を構成し、母指は2本（近位・遠位）、他の4指は各3本（近位・中節・遠位）で計14本。舟状骨は手根骨近位列の親指側に位置し、転倒時に最も力がかかる位置にある。",
+          "source": "OpenStax Anatomy and Physiology 8.2",
+          "metadata": {
+            "pairs": [
+              {
+                "left": "手根骨（8個）",
+                "right": "手首の短骨。2列に配列。衝撃吸収"
+              },
+              {
+                "left": "中手骨（5本）",
+                "right": "手のひらの骨格。各指に1本"
+              },
+              {
+                "left": "指骨（14本）",
+                "right": "指の骨。母指2本、他4指は各3本"
+              },
+              {
+                "left": "舟状骨",
+                "right": "手根骨で最も骨折しやすい。壊死リスク"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "text": "正解",
+              "is_correct": true
+            },
+            {
+              "text": "不正解",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "hand-bones-basics"
+          ]
+        },
+        {
+          "question_text": "手根骨が「短骨」に分類されることの機能的意義として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "手根骨は8個の短骨（Short Bone）からなる。短骨は幅・高さ・厚さがほぼ等しい立方体に近い形状で、表面は薄い緻密骨、内部は海綿骨で満たされる。この構造により、①多数の骨が靭帯で連結されることで安定性を保ちつつ多方向の動きが可能、②衝撃を分散・吸収する機能がある。手根骨は足根骨と同様に、「安定性と可動性と衝撃吸収を同時に実現する」短骨のメリットを活かした構造である。",
+          "source": "OpenStax Anatomy and Physiology 6.1, 8.2",
+          "choices": [
+            {
+              "text": "多数の小さな骨が安定性・多方向の可動性・衝撃吸収を同時に実現するため",
+              "is_correct": true
+            },
+            {
+              "text": "短骨は造血機能が高く、手の血液供給を助けるため",
+              "is_correct": false
+            },
+            {
+              "text": "短骨は最も軽い骨の分類であり、手の重さを最小限にするため",
+              "is_correct": false
+            },
+            {
+              "text": "手根骨が短骨であることに特別な意義はなく、単に小さいから短骨に分類される",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "hand-bones-basics",
+            "short-bone-basics"
+          ]
+        },
+        {
+          "question_text": "転倒して手をついた患者が「手首が痛い」と来院し、X線では異常なしと診断された。しかし解剖学的嗅ぎタバコ入れ（親指を伸ばしたとき手首の親指側にできるくぼみ）に圧痛がある。適切な対応はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "解剖学的嗅ぎタバコ入れ（Anatomical Snuffbox）の底には舟状骨がある。この部位の圧痛は舟状骨骨折を強く示唆する。初期X線で骨折線が見えなくても、舟状骨骨折の可能性がある場合はギプスやスプリントで固定し、2週間後に再X線検査を行うのが標準的プロトコルである。放置すると舟状骨の逆行性血行（遠位から近位へ血液が供給される）のため、骨折により近位部への血流が途絶え、阻血性壊死（Avascular Necrosis）を起こす。壊死した場合、治癒が極めて困難になり手首の機能が著しく低下する。",
+          "source": "OpenStax Anatomy and Physiology 8.2",
+          "choices": [
+            {
+              "text": "舟状骨骨折の可能性があるため固定し、2週間後に再X線検査。放置すると壊死のリスクがある",
+              "is_correct": true
+            },
+            {
+              "text": "X線で異常がないので骨折はない。湿布と安静だけで十分",
+              "is_correct": false
+            },
+            {
+              "text": "すぐにMRI検査が必須。それまでは固定不要",
+              "is_correct": false
+            },
+            {
+              "text": "靭帯損傷（捻挫）なので、テーピングで対応し運動を再開してよい",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "hand-bones-basics",
+            "fracture-healing-basics"
+          ]
+        },
+        {
+          "question_text": "人間の手が道具の使用や精密な作業に長けている解剖学的理由として、最も包括的な説明はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "人間の手の器用さは、複数の解剖学的特徴の組み合わせによる。①27個の骨と多数の関節が精密な動きを可能にする。②母指のCM関節（鞍関節）が対向（Opposition）を実現し、指先同士を合わせる「つまみ動作」を可能にする。③前腕の2本の骨（橈骨・尺骨）による回内・回外が手のひらの向きを自在に変える。④多数の外在筋（前腕に起始）と内在筋（手内部に起始）の協調が力と精度の両方を提供する。⑤豊富な感覚神経が触覚フィードバックを提供する。これらが統合されて、他の霊長類を凌駕する道具使用能力と芸術的表現力を実現している。",
+          "source": "OpenStax Anatomy and Physiology 8.2, 9.4",
+          "choices": [
+            {
+              "text": "27個の骨による精密な動き、母指の対向、前腕の回内回外、筋と感覚神経の統合が道具使用を可能にする",
+              "is_correct": true
+            },
+            {
+              "text": "人間の手は他の動物より骨の数が多いため（手だけでも50個以上）器用さが生まれる",
+              "is_correct": false
+            },
+            {
+              "text": "人間の手の器用さは脳の発達によるものであり、手の骨格自体は他の霊長類と同じ",
+              "is_correct": false
+            },
+            {
+              "text": "人間だけが5本の指を持つため、道具の使用が可能になった",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": [
+            "hand-bones-basics",
+            "arm-forearm-basics"
           ]
         }
       ]
