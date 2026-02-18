@@ -229,7 +229,7 @@
           "source": "Gray's Anatomy",
           "images": [],
           "metadata": {
-            "acceptable_answers": [
+            "accepted_answers": [
               "釘植",
               "gomphosis",
               "釘植関節"
@@ -521,7 +521,7 @@
           "source": "Gray's Anatomy",
           "images": [],
           "metadata": {
-            "acceptable_answers": [
+            "accepted_answers": [
               "関節唇",
               "labrum",
               "ラブラム",
@@ -785,7 +785,7 @@
           "source": "Gray's Anatomy",
           "images": [],
           "metadata": {
-            "acceptable_answers": [
+            "accepted_answers": [
               "車軸関節",
               "pivot joint",
               "ピボット関節"
@@ -1051,7 +1051,7 @@
           "source": "Gray's Anatomy",
           "images": [],
           "metadata": {
-            "acceptable_answers": [
+            "accepted_answers": [
               "輪状靭帯",
               "annular ligament",
               "橈骨輪状靭帯"
@@ -1317,7 +1317,7 @@
           "source": "Gray's Anatomy",
           "images": [],
           "metadata": {
-            "acceptable_answers": [
+            "accepted_answers": [
               "前十字靭帯",
               "ACL",
               "anterior cruciate ligament",

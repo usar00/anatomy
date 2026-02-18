@@ -60,7 +60,11 @@ export function QuestionRenderer({
     }
 
     case "free_input": {
-      const fiMeta = meta as unknown as FreeInputMeta;
+      const rawFiMeta = meta as unknown as FreeInputMeta & { acceptable_answers?: string[] };
+      const fiMeta: FreeInputMeta = {
+        ...rawFiMeta,
+        accepted_answers: rawFiMeta.accepted_answers ?? rawFiMeta.acceptable_answers ?? [],
+      };
       return (
         <FreeInput
           meta={fiMeta}
