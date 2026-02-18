@@ -57,6 +57,11 @@
       "id": "yoga-upper-limb-joints",
       "title": "上肢の関節とヨガ — 荷重をかける上肢の解剖学",
       "content": "ヨガでは上肢に体重をかけるポーズが多く、肩・肘・手首の関節に大きな負荷がかかる。①ダウンドッグ（下向きの犬のポーズ/Adho Mukha Svanasana）：手と足で体重を支え、体をV字にする。肩関節は屈曲位（腕を頭上に上げた状態）で体重の約40-50%を支える。橈骨手根関節（手首）には強い背屈ストレスがかかる。手首の背屈角度は通常70-80度まで可能だが、ダウンドッグではほぼ90度近い背屈が求められることがある。②チャトランガ・ダンダーサナ（四肢で支える杖のポーズ）：プランクから肘を曲げて体を低くする動作で、肩関節と肘関節に大きな負荷がかかる。肘を体に近づけた状態で屈曲すると、回旋筋腱板（特に棘上筋・肩甲下筋）が上腕骨頭を安定させる必要がある。不適切なアライメント（肘が外に開く、肩が前に出る）はインピンジメントリスクを高める。③プランクポーズ：手首に体重の約60-65%がかかり、手根骨と橈骨手根関節に持続的な圧迫力が加わる。手首に問題がある場合は前腕で支える修正（フォアアームプランク）が安全。手首の荷重と手根管症候群：手根管は手首の手のひら側にあるトンネルで、正中神経と屈筋腱が通る。繰り返しの手首背屈＋荷重は手根管内圧を上昇させ、既存の手根管症候群を悪化させる可能性がある。肩関節の外旋の重要性：ダウンドッグやプランクで肩を外旋させると、上腕骨の大結節が肩峰から離れ、棘上筋腱が圧迫されるスペースが広がる。これにより肩のインピンジメントリスクが低減する。「肘の内側を前に向ける」というキューはこの外旋を促すためのものである。"
+    },
+    {
+      "id": "wrist-hand-joints-basics",
+      "title": "手関節と手の関節の構造",
+      "content": "手には27個の骨があり、複数のタイプの関節が協調して精密な動きを実現する。①橈骨手根関節（Radiocarpal Joint）：橈骨遠位端と近位列手根骨（舟状骨・月状骨・三角骨）の間の楕円関節。屈曲・伸展と橈屈・尺屈の2軸運動が可能。手首の動きの主役。②手根中手関節（CM関節/Carpometacarpal Joint）：第1CM関節（母指）は鞍関節で対立運動が可能。第2-5CM関節は平面関節で、可動性はほとんどない。③中手指節関節（MP関節/Metacarpophalangeal Joint）：楕円関節で、屈曲・伸展と外転・内転（指を開く・閉じる）の2軸運動が可能。「指の付け根」の関節。④指節間関節（IP関節/Interphalangeal Joint）：近位指節間関節（PIP）と遠位指節間関節（DIP）があり、いずれも蝶番関節。屈曲・伸展のみ。母指はIP関節が1つのみ。手根管（Carpal Tunnel）：手首の手のひら側にあるトンネル状の空間で、底面と側面は手根骨（舟状骨・大菱形骨・有鉤骨・豆状骨）、屋根は屈筋支帯（横手根靭帯/Flexor Retinaculum）で構成される。この狭い空間を正中神経と9本の屈筋腱（浅指屈筋4本＋深指屈筋4本＋長母指屈筋1本）が通過する。手根管症候群（Carpal Tunnel Syndrome/CTS）：手根管内圧の上昇により正中神経が圧迫される。母指・示指・中指・環指の橈側半分のしびれと痛み、母指対立筋の筋力低下（物がつかみにくい）が特徴的症状。デスクワーク・キーボード操作・マウス操作などの手首の反復的な屈伸動作がリスク因子。妊娠中の浮腫やリウマチによる滑膜炎も原因となる。"
     }
   ],
   "sections": [
@@ -2340,6 +2345,224 @@
             }
           ],
           "reference_text_ids": ["yoga-upper-limb-joints"]
+        }
+      ]
+    },
+    {
+      "name": "手関節と手の関節",
+      "slug": "wrist-hand-joints",
+      "description": "27個の骨が生む器用さ — 手根管症候群はデスクワーカーの悩み",
+      "sort_order": 10,
+      "concepts": [
+        {
+          "name": "手の関節の多様性",
+          "description": "橈骨手根関節（楕円）、CM関節（鞍/平面）、MP関節（楕円）、IP関節（蝶番）の協調"
+        },
+        {
+          "name": "手根管と手根管症候群",
+          "description": "手根骨と屈筋支帯が作るトンネル。正中神経の圧迫による症状とリスク因子"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "手首の動き（屈曲・伸展、橈屈・尺屈）を主に行う橈骨手根関節の関節タイプと運動軸の数はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "橈骨手根関節は楕円関節で、楕円形の凸面（近位列手根骨）が楕円形の凹面（橈骨遠位端）にはまる構造です。屈曲・伸展と橈屈・尺屈の2軸の運動が可能ですが、回旋はできません（前腕の回旋は近位橈尺関節の車軸関節で行います）。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "choices": [
+            {
+              "text": "球関節 — 3軸",
+              "is_correct": false
+            },
+            {
+              "text": "楕円関節 — 2軸",
+              "is_correct": true
+            },
+            {
+              "text": "蝶番関節 — 1軸",
+              "is_correct": false
+            },
+            {
+              "text": "車軸関節 — 1軸",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["wrist-hand-joints-basics", "other-synovial-types-basics"]
+        },
+        {
+          "question_text": "手には複数のタイプの関節がある。母指のCM関節は（　①　）関節、指の付け根のMP関節は（　②　）関節、指の中間・先端のIP関節は（　③　）関節である。",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "手の関節は場所によって異なるタイプです。母指CM関節は鞍関節で対立運動が可能。MP関節（指の付け根）は楕円関節で屈伸＋外転・内転の2軸。IP関節（PIPとDIP）は蝶番関節で屈伸のみ。この多様性が手の精密な動きを可能にしています。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "choices": [
+            { "text": "鞍", "is_correct": true },
+            { "text": "楕円", "is_correct": true },
+            { "text": "蝶番", "is_correct": true },
+            { "text": "球", "is_correct": false },
+            { "text": "車軸", "is_correct": false },
+            { "text": "平面", "is_correct": false }
+          ],
+          "metadata": {
+            "word_bank": ["楕円", "球", "蝶番", "車軸", "鞍", "平面"]
+          },
+          "reference_text_ids": ["wrist-hand-joints-basics"]
+        },
+        {
+          "question_text": "手根管（Carpal Tunnel）の構造として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "手根管は手首の手のひら側にあるトンネルです。底面と側面は手根骨（舟状骨、大菱形骨、有鉤骨、豆状骨）で形成され、屋根は屈筋支帯（横手根靭帯）が覆っています。この狭い空間を正中神経と9本の屈筋腱が通過します。骨と靭帯で囲まれた閉鎖空間のため、内容物が腫れると内圧が上がりやすく、正中神経の圧迫（手根管症候群）が起こりやすい構造です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            {
+              "text": "手の甲側にあるトンネルで、伸筋腱と尺骨神経が通る",
+              "is_correct": false
+            },
+            {
+              "text": "前腕の中央にあるトンネルで、橈骨動脈と屈筋腱が通る",
+              "is_correct": false
+            },
+            {
+              "text": "手首の手のひら側にあり、手根骨と屈筋支帯で囲まれたトンネルを正中神経と屈筋腱が通る",
+              "is_correct": true
+            },
+            {
+              "text": "手根骨同士の間にある空間で、手根間靭帯と関節包で囲まれている",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["wrist-hand-joints-basics"]
+        },
+        {
+          "question_text": "MP関節（指の付け根）では指を横に開閉できるが、IP関節（指の中間・先端）ではできない。この違いの構造的理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "MP関節は楕円関節で、楕円形の凸面が楕円形の凹面にはまる構造です。これにより屈曲・伸展（指を曲げ伸ばし）と外転・内転（指を開く・閉じる）の2軸の運動が可能です。一方、IP関節は蝶番関節で、円筒形の凸面がくぼみにはまる構造のため、屈曲・伸展の1軸のみ。側副靭帯が横方向の動きを制限し、指先に力を集中させて安定した把持を可能にしています。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "choices": [
+            {
+              "text": "MP関節は楕円関節で2軸の動きが可能だが、IP関節は蝶番関節で1軸の屈伸のみに限定されるため",
+              "is_correct": true
+            },
+            {
+              "text": "MP関節には筋肉が付着しているがIP関節には筋肉がなく、腱だけで動くため",
+              "is_correct": false
+            },
+            {
+              "text": "IP関節の関節包が骨化しているため物理的に横方向に動けないため",
+              "is_correct": false
+            },
+            {
+              "text": "MP関節は滑液が多く滑りやすいが、IP関節は滑液がなく摩擦で固定されるため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["wrist-hand-joints-basics", "ball-hinge-joints-basics"]
+        },
+        {
+          "question_text": "以下の手の関節と、その関節タイプ・特徴を正しく組み合わせなさい。",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "①橈骨手根関節は楕円関節で、手首の屈伸と橈屈・尺屈を行います。②母指CM関節は鞍関節で、対立運動（つまみ動作）を可能にします。③MP関節は楕円関節で、指の曲げ伸ばしに加え指を開閉できます。④IP関節は蝶番関節で、指の屈伸のみ行い安定した把持を支えます。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "metadata": {
+            "matching_pairs": [
+              { "left": "橈骨手根関節", "right": "楕円関節 — 手首の屈伸と橈尺屈" },
+              { "left": "母指CM関節", "right": "鞍関節 — 対立運動が可能" },
+              { "left": "MP関節（指の付け根）", "right": "楕円関節 — 指の開閉も可能" },
+              { "left": "IP関節（指の中間・先端）", "right": "蝶番関節 — 屈伸のみ" }
+            ]
+          },
+          "choices": [],
+          "reference_text_ids": ["wrist-hand-joints-basics"]
+        },
+        {
+          "question_text": "手には多数の関節タイプが混在するが、遠位（指先側）に行くほど関節の自由度が低くなる傾向がある。この設計の機能的意義として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "手首（楕円：2軸）→ MP関節（楕円：2軸）→ IP関節（蝶番：1軸）と遠位に行くほど自由度が低くなります。手首と指の付け根で大きな動きの方向を決め、指先では屈伸のみに絞ることで力の方向を収束させます。これにより、物をつかむ際に指先がぶれずに対象物にしっかり力を伝えることができます。近位で方向を決め、遠位で力を集中させる — これが手の巧緻性の設計原理です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "choices": [
+            {
+              "text": "遠位の関節は使用頻度が高いため、磨耗を防ぐために動きを制限している",
+              "is_correct": false
+            },
+            {
+              "text": "遠位の骨が小さいため、構造的に多軸の関節面を形成できない",
+              "is_correct": false
+            },
+            {
+              "text": "遠位の関節には神経が少なく、複雑な動きを制御する情報がないため",
+              "is_correct": false
+            },
+            {
+              "text": "近位で動きの方向を決め、遠位で屈伸に絞ることで指先に安定した力を集中できる",
+              "is_correct": true
+            }
+          ],
+          "reference_text_ids": ["wrist-hand-joints-basics"]
+        },
+        {
+          "question_text": "デスクワーカーが「朝起きると手がしびれている。特に親指・人差し指・中指がしびれる」と訴えた。手根管症候群が疑われる場合、しびれが親指・人差し指・中指に限局する解剖学的理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "手根管を通る神経は正中神経です。正中神経は母指（親指）、示指（人差し指）、中指、環指（薬指）の橈側半分の感覚を支配しています。手根管内で正中神経が圧迫されると、この支配領域にしびれや痛みが出ます。小指と環指の尺側は尺骨神経の支配領域で、尺骨神経は手根管を通らない（ギヨン管を通る）ため影響を受けません。このように「どの指がしびれるか」で障害されている神経を推定できます。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            {
+              "text": "手根管を通る橈骨神経がこれらの指だけを支配しているため",
+              "is_correct": false
+            },
+            {
+              "text": "手根管を通る正中神経が母指・示指・中指・環指橈側を支配しているため",
+              "is_correct": true
+            },
+            {
+              "text": "母指・示指・中指のIP関節だけが手根管に靭帯で直接つながっているため",
+              "is_correct": false
+            },
+            {
+              "text": "手根管の正中部に位置する屈筋腱がこれら3本の指にだけ付着するため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["wrist-hand-joints-basics"]
+        },
+        {
+          "question_text": "箸で小さな豆をつまむ動作を関節の種類で分析する。この精密把持に不可欠な関節の組み合わせと、それぞれの役割として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "箸で小さな豆をつまむには、①母指CM関節（鞍関節）の対立運動で母指を示指に向かい合わせ、②MP関節（楕円関節）の外転・内転で箸の開閉角度を微調整し、③IP関節（蝶番関節）の屈曲で箸の先端に精密な力を加えます。橈骨手根関節は手首を安定位に保持する役割です。この動作は手の4種類の関節が協調して初めて可能になる、人間の手の精密さの象徴です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
+          "choices": [
+            {
+              "text": "IP関節（蝶番）のみで完結する — 指の屈伸だけで箸を操作できるため",
+              "is_correct": false
+            },
+            {
+              "text": "橈骨手根関節（楕円）のみ — 手首の動きだけで箸先をコントロールするため",
+              "is_correct": false
+            },
+            {
+              "text": "母指CM関節（鞍：対立）+ MP関節（楕円：開閉角度）+ IP関節（蝶番：先端の力）が協調して精密把持を実現する",
+              "is_correct": true
+            },
+            {
+              "text": "すべての関節が球関節であれば自由度が上がり、より精密なつまみが可能になる",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["wrist-hand-joints-basics", "other-synovial-types-basics"]
         }
       ]
     }
