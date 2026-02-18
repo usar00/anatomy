@@ -27,6 +27,11 @@
       "id": "joint-support-structures-basics",
       "title": "靭帯・半月板・関節唇の構造と機能",
       "content": "滑膜性関節には、基本構造（関節軟骨・関節包・滑液）に加えて、安定性と機能を高めるアクセサリー構造がある。①靭帯（Ligament）：コラーゲン線維の密な束で、骨と骨を結合して関節の過度な動きを制限する。関節包の外にある（側副靭帯など）場合と、関節腔内にある（前十字靭帯ACL・後十字靭帯PCLなど）場合がある。靭帯は引張力に強いが、弾性が低いため一度伸びると元に戻りにくい（捻挫の後遺症の原因）。靭帯の血流は乏しく、損傷後の自然治癒には時間がかかる（ACLはほとんど自然治癒しない）。②半月板（Meniscus）：線維軟骨でできたC字型のクッションで、膝関節に存在する（内側半月板・外側半月板）。凸面の大腿骨顆と平面に近い脛骨プラトーの間の適合性を高め、荷重を分散し、衝撃を吸収する。半月板の外側1/3は血流があり修復可能（Red Zone）だが、内側2/3は無血管で修復困難（White Zone）。③関節唇（Labrum）：線維軟骨のリング状構造で、肩関節（関節窩唇/Glenoid Labrum）と股関節（寛骨臼唇/Acetabular Labrum）に存在する。浅い関節窩や寛骨臼の縁を深くして関節面の接触面積を増やし、「吸盤効果」で大腿骨頭・上腕骨頭を安定させる。"
+    },
+    {
+      "id": "yoga-joints-foundation",
+      "title": "関節とヨガ — 可動性・安定性・軟骨の健康",
+      "content": "ヨガは関節の可動域（ROM: Range of Motion）、安定性、軟骨の健康すべてに関わる実践である。ヨガのポーズでは関節を通常の動作範囲の端まで動かし（end-range motion）、その位置で保持する。これにより関節包や靭帯のコラーゲン線維が穏やかに引き伸ばされ、長期的な柔軟性の改善が期待できる。10週間のヨガ実践がアスリートの柔軟性とバランスを有意に改善したことが報告されている（Polsgrove et al., 2016, International Journal of Yoga, doi:10.4103/0973-6131.171710）。ヨガでは「可動性（Mobility）」と「柔軟性（Flexibility）」を区別することが重要である。柔軟性は受動的な可動域（他の力で動かせる範囲）、可動性は能動的に制御できる可動域（自分の筋力で動かせる範囲）を指す。柔軟性だけが高く可動性が低い状態は関節の不安定性を招き、傷害リスクを高める。ヨガのポーズでは、関節を動かすだけでなく「安定させながら動かす」（スティラ=安定とスーカ=快適さ）ことが本質であり、これは関節包の固有受容器を刺激してバランス能力を向上させる。関節軟骨は無血管であり、滑液による栄養供給はウィーピング潤滑（荷重と除荷の繰り返し）に依存するため、ヨガの穏やかな荷重変化（ポーズの保持と解放）は軟骨の栄養供給を促進する可能性がある。ただし、関節の可動域には骨格構造による個人差（大腿骨頸の前捻角、寛骨臼の深さなど）があり、全員が同じ可動域を達成する必要はない。痛みを伴うストレッチは靭帯や関節唇の損傷リスクを高めるため、「心地よい伸び」を超えない指導が重要である。"
     }
   ],
   "sections": [
@@ -1002,6 +1007,224 @@
             }
           ],
           "reference_text_ids": ["joint-support-structures-basics"]
+        }
+      ]
+    },
+    {
+      "name": "関節とヨガ（基礎編）",
+      "slug": "joints-and-yoga-basics",
+      "description": "可動性と柔軟性の違い — スティラとスーカが関節を守る",
+      "sort_order": 4,
+      "concepts": [
+        {
+          "name": "可動性と柔軟性",
+          "description": "受動的な柔軟性と能動的な可動性の違い。柔軟性だけでは関節の安定性を損なう"
+        },
+        {
+          "name": "ヨガと関節の健康",
+          "description": "ウィーピング潤滑による軟骨栄養、骨格構造の個人差、安全な指導の原則"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "ヨガにおける「可動性（Mobility）」と「柔軟性（Flexibility）」の違いについて、「可動性」の説明として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "「柔軟性」は受動的な可動域（他の力で動かせる範囲）を指し、「可動性」は能動的に制御できる可動域（自分の筋力で動かせる範囲）を指します。ヨガでは関節を動かすだけでなく、自分の筋力でコントロールできる範囲で動くことが重要です。",
+          "source": "Polsgrove MJ, Eggleston BM, Lockyer RJ (2016). Int J Yoga, 9(1):31-36",
+          "choices": [
+            {
+              "text": "外から力を加えたとき、関節がどこまで動くかを示す受動的な指標",
+              "is_correct": false
+            },
+            {
+              "text": "関節を構成する骨の形状によって決まる構造的な限界値",
+              "is_correct": false
+            },
+            {
+              "text": "自分の筋力で能動的に制御できる関節の可動域",
+              "is_correct": true
+            },
+            {
+              "text": "ストレッチ後に一時的に広がる関節の可動域",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["yoga-joints-foundation"]
+        },
+        {
+          "question_text": "関節軟骨は（　①　）であるため、栄養は（　②　）からの供給に依存する。ヨガのポーズで荷重と除荷を繰り返すと、（　③　）潤滑が促進され軟骨に栄養が届きやすくなる。",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "explanation": "関節軟骨には血管がなく（無血管）、栄養は関節腔内の滑液から供給されます。荷重をかけると滑液が軟骨に押し込まれ、荷重を除くと老廃物が排出される — これをウィーピング潤滑（Weeping Lubrication）と呼びます。ヨガのポーズの保持と解放はまさにこの荷重サイクルを生み出します。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.1",
+          "choices": [
+            { "text": "無血管", "is_correct": true },
+            { "text": "滑液", "is_correct": true },
+            { "text": "ウィーピング", "is_correct": true },
+            { "text": "骨髄液", "is_correct": false },
+            { "text": "リンパ", "is_correct": false },
+            { "text": "滑車", "is_correct": false }
+          ],
+          "metadata": {
+            "word_bank": ["ウィーピング", "無血管", "リンパ", "滑液", "骨髄液", "滑車"]
+          },
+          "reference_text_ids": ["yoga-joints-foundation", "synovial-joint-structure-basics"]
+        },
+        {
+          "question_text": "柔軟性は高いが可動性が低い状態（受動的可動域＞能動的可動域）が関節にとってリスクとなる理由として、最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "柔軟性だけが高く可動性が低い状態では、関節が動ける範囲は広いのに、その範囲を筋力でコントロールできません。これは関節の不安定性を意味し、動きの終端（end-range）で靭帯や関節唇に過度な負荷がかかります。筋力でブレーキをかけられないまま可動域の限界に達してしまうため、傷害リスクが高まります。",
+          "source": "Polsgrove MJ et al. (2016). Int J Yoga, 9(1):31-36",
+          "choices": [
+            {
+              "text": "柔軟性が高いと関節軟骨がすり減りやすく、変形性関節症になるため",
+              "is_correct": false
+            },
+            {
+              "text": "筋力でコントロールできない範囲まで関節が動くため、靭帯や関節唇に過度な負荷がかかる",
+              "is_correct": true
+            },
+            {
+              "text": "柔軟性の高い人は滑液の分泌量が少なく、関節の潤滑が不足するため",
+              "is_correct": false
+            },
+            {
+              "text": "可動域が広がると関節包が肥厚し、血流が遮断されるため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["yoga-joints-foundation", "joint-support-structures-basics"]
+        },
+        {
+          "question_text": "ヨガの古典的概念「スティラ（Sthira）とスーカ（Sukha）」は、関節の健康と密接に関わる。この概念が意味するものとして最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "スティラ（安定）とスーカ（快適さ）は、ヨガのポーズにおいて「安定させながら快適に動く」ことを意味します。解剖学的には、関節を安定させる筋の収縮（スティラ）と、無理のない可動域での動き（スーカ）のバランスです。関節の安定性を確保しながら動くことで、固有受容器が刺激されバランス能力が向上し、関節への過度な負荷を防ぎます。",
+          "source": "Polsgrove MJ et al. (2016). Int J Yoga, 9(1):31-36",
+          "choices": [
+            {
+              "text": "呼吸のリズムと心拍数を同期させること",
+              "is_correct": false
+            },
+            {
+              "text": "ストレッチの強度を段階的に上げて限界を超えること",
+              "is_correct": false
+            },
+            {
+              "text": "瞑想による精神の安定と筋の完全弛緩を同時に達成すること",
+              "is_correct": false
+            },
+            {
+              "text": "安定性（筋の制御）と快適さ（無理のない可動域）のバランスを保つこと",
+              "is_correct": true
+            }
+          ],
+          "reference_text_ids": ["yoga-joints-foundation"]
+        },
+        {
+          "question_text": "以下の関節の構造要素と、ヨガでの機能的な役割を正しく組み合わせなさい。",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "①関節包内の固有受容器はバランス感覚に関わります。ヨガのポーズで関節包が引き伸ばされると固有受容器が刺激され、バランス能力が向上します。②滑液はウィーピング潤滑により軟骨に栄養を届けます。ヨガの荷重・除荷サイクルがこれを促進します。③靭帯は関節の過度な動きを制限する「ストッパー」です。ヨガで痛みを感じるのは靭帯に過度な負荷がかかっているサインです。④関節軟骨は摩擦を低減し、スムーズな動きを可能にする表面材料です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.1-9.4",
+          "metadata": {
+            "matching_pairs": [
+              { "left": "関節包の固有受容器", "right": "バランス感覚の向上" },
+              { "left": "滑液", "right": "軟骨への栄養供給" },
+              { "left": "靭帯", "right": "過度な動きの制限" },
+              { "left": "関節軟骨", "right": "摩擦の低減" }
+            ]
+          },
+          "choices": [],
+          "reference_text_ids": ["yoga-joints-foundation", "synovial-joint-structure-basics", "joint-support-structures-basics"]
+        },
+        {
+          "question_text": "ヨガクラスで「開脚の可動域は人によって大きく異なる」と言われる。この個人差の解剖学的要因として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "explanation": "関節の可動域は筋や靭帯の柔軟性だけでなく、骨格構造そのものに大きく影響されます。股関節の場合、大腿骨頸の前捻角（Femoral Anteversion）や寛骨臼（ソケット部分）の深さ・向きは生まれつき個人差があり、これらの骨の形状が可動域の物理的な限界を決めます。筋や靭帯の柔軟性はトレーニングで変えられますが、骨格構造は変えられません。全員が同じポーズの到達点を目指す必要はないのです。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
+          "choices": [
+            {
+              "text": "大腿骨頸の前捻角や寛骨臼の深さなどの骨格構造が個人により異なるため",
+              "is_correct": true
+            },
+            {
+              "text": "滑液の分泌量が人によって10倍以上異なり、潤滑の程度に差があるため",
+              "is_correct": false
+            },
+            {
+              "text": "股関節周囲の靭帯の数が個人により2本から5本まで差があるため",
+              "is_correct": false
+            },
+            {
+              "text": "生後1年以内の運動量で関節軟骨の厚さが決まり、生涯変わらないため",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["yoga-joints-foundation"]
+        },
+        {
+          "question_text": "ヨガ指導者が生徒にアジャスト（ポーズの補正）を行う際、「痛いけど効いている感じがする」と生徒が言った。関節の解剖学に基づき、指導者が取るべき対応として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "関節周囲の痛みは、靭帯・関節唇・関節包が過度に引き伸ばされているサインです。筋のストレッチ感（「伸びている」感覚）と関節の痛みは異なります。靭帯は弾性が低く、一度伸びると元に戻りにくいため、痛みを伴うストレッチは靭帯の弛緩（関節不安定性）や関節唇損傷のリスクを高めます。「効いている感じ」と「組織を損傷している感覚」は紙一重であり、痛みがある場合は即座にアジャストの強度を緩めるか中止すべきです。",
+          "source": "Polsgrove MJ et al. (2016). Int J Yoga, 9(1):31-36",
+          "choices": [
+            {
+              "text": "痛みは筋膜リリースが起きている証拠なので、そのまま30秒以上保持するよう伝える",
+              "is_correct": false
+            },
+            {
+              "text": "痛みは靭帯や関節唇への過負荷のサインなので、即座にアジャストの強度を緩めるか中止する",
+              "is_correct": true
+            },
+            {
+              "text": "関節軟骨が再生しているときの一時的な痛みなので、次回のレッスンまで様子を見るよう伝える",
+              "is_correct": false
+            },
+            {
+              "text": "滑液の分泌が不足している初期段階の痛みなので、ウォーミングアップを追加してから再度行う",
+              "is_correct": false
+            }
+          ],
+          "reference_text_ids": ["yoga-joints-foundation", "joint-support-structures-basics"]
+        },
+        {
+          "question_text": "60歳の生徒が「膝が痛いので正座ができない」と相談してきた。ヨガ指導者がこの生徒への対応を考えるうえで、関節の解剖学的知識に基づく最も適切な理解はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "explanation": "加齢に伴う膝の痛みの主な原因は変形性関節症（OA）です。関節軟骨は無血管で自己修復能力が低く、加齢とともに摩耗します。軟骨がすり減ると骨同士が接触し、痛みや炎症が生じます。ヨガの穏やかな荷重変化（ウィーピング潤滑）は残存する軟骨の栄養供給を促進しますが、深い屈曲（正座）は膝関節への圧迫が大きく、軟骨が薄くなった膝には過負荷です。ポーズを修正（ブロック使用、屈曲角度の制限など）して荷重を軽減しながら、膝関節を穏やかに動かす方針が適切です。",
+          "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.6",
+          "choices": [
+            {
+              "text": "痛みの原因は筋力不足だけなので、大腿四頭筋の筋力トレーニングのみ行えば正座できるようになる",
+              "is_correct": false
+            },
+            {
+              "text": "関節軟骨は再生しないが、正座を繰り返せば軟骨が硬化して痛みが消えるため、毎日練習を勧める",
+              "is_correct": false
+            },
+            {
+              "text": "関節軟骨の摩耗が痛みの原因である可能性が高いため、深い屈曲を避けた修正ポーズで膝を穏やかに動かす",
+              "is_correct": false
+            },
+            {
+              "text": "関節軟骨の摩耗が痛みの原因である可能性が高く、ポーズを修正して荷重を軽減しつつ穏やかな動きで滑液循環を促す",
+              "is_correct": true
+            }
+          ],
+          "reference_text_ids": ["yoga-joints-foundation", "synovial-joint-structure-basics"]
         }
       ]
     }
