@@ -938,6 +938,264 @@
       ]
     },
     {
+      "name": "筋肉のエネルギーと疲労",
+      "slug": "muscle-energy-fatigue",
+      "description": "なぜ太陽礼拝は最初にやる？なぜ翌日に筋肉痛？エネルギーの仕組みを知る",
+      "sort_order": 3,
+      "concepts": [
+        {
+          "name": "筋活動のエネルギー源と疲労・回復",
+          "description": "3つのエネルギー供給系、ウォームアップの意味、DOMS（遅発性筋痛）の仕組みを理解する"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "全力ダッシュの最初の数秒間に主に使われるエネルギー供給系はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            {
+              "text": "有酸素系（酸素を使った持続エネルギー）",
+              "is_correct": false
+            },
+            {
+              "text": "クレアチンリン酸系（筋肉内の予備バッテリー）",
+              "is_correct": true
+            },
+            {
+              "text": "解糖系（糖を分解する短期エネルギー）",
+              "is_correct": false
+            },
+            {
+              "text": "脂肪分解系",
+              "is_correct": false
+            }
+          ],
+          "explanation": "全力ダッシュの最初の数秒間は、筋肉内に少量ストックされたクレアチンリン酸（予備バッテリー）からATPが即座に作られる。スマートフォンの「急速充電」のように、非常に素早いが容量は小さい。約5〜10秒で使い切ってしまうため、その後は解糖系（糖を分解してATPを作る、30秒〜2分）や有酸素系（酸素を使って効率よくATPを作る、それ以上の持続運動）に切り替わる（Standring 2020）。",
+          "source": "Standring 2020",
+          "reference_text_ids": [
+            "muscle-energy-fatigue"
+          ]
+        },
+        {
+          "question_text": "ヨガのゆったりしたフローや長時間のポーズ保持で主に使われるエネルギー供給系はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            {
+              "text": "クレアチンリン酸系",
+              "is_correct": false
+            },
+            {
+              "text": "解糖系",
+              "is_correct": false
+            },
+            {
+              "text": "有酸素系",
+              "is_correct": true
+            },
+            {
+              "text": "エネルギーはほとんど使わない",
+              "is_correct": false
+            }
+          ],
+          "explanation": "有酸素系は酸素を使って糖や脂肪を効率よくATPに変換するシステムで、長時間の低〜中強度の活動に最適。ヨガのゆったりしたフローや長時間のホールドはまさにこの領域。有酸素系は大量のATPを作れるが、その分時間がかかるため、爆発的なパワーには向かない。呼吸で取り込んだ酸素が血液で筋肉に運ばれ、ミトコンドリアでエネルギーに変換される — だからヨガで「呼吸を止めないで」と指導するのは、エネルギー供給を止めないためでもある（Standring 2020）。",
+          "source": "Standring 2020",
+          "reference_text_ids": [
+            "muscle-energy-fatigue"
+          ]
+        },
+        {
+          "question_text": "太陽礼拝をクラスの冒頭に行う科学的な理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            {
+              "text": "精神的な儀式として伝統的に行われるから",
+              "is_correct": false
+            },
+            {
+              "text": "筋温を上げて血流を増やし、筋の柔軟性を高めてケガを予防するから",
+              "is_correct": true
+            },
+            {
+              "text": "最も体力を使うので最初に済ませるため",
+              "is_correct": false
+            },
+            {
+              "text": "クラス全体のリズムを整えるため",
+              "is_correct": false
+            }
+          ],
+          "explanation": "太陽礼拝には科学的に重要なウォームアップ効果がある。①筋温の上昇：全身の大きな動きで筋温が上がると、筋肉の粘り気（粘弾性）が下がって柔らかくなり、ケガのリスクが減る。②血流の増加：血管が拡張し、酸素と栄養が筋肉に行き渡りやすくなる。③関節液の分泌促進：関節を動かすことで滑液（関節液）が軟骨に浸み込み、関節の潤滑が良くなる。冷えた輪ゴムは伸ばすと切れやすいが、温めた輪ゴムはよく伸びる — 筋肉も同じ原理（Kaminoff & Matthews, Yoga Anatomy）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": [
+            "muscle-energy-fatigue"
+          ]
+        },
+        {
+          "question_text": "運動の24〜72時間後に出現する筋肉痛（DOMS）の主な原因はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            {
+              "text": "筋肉内に乳酸が溜まり続けるから",
+              "is_correct": false
+            },
+            {
+              "text": "筋線維の微小な損傷とそれに伴う炎症反応",
+              "is_correct": true
+            },
+            {
+              "text": "関節軟骨がすり減るから",
+              "is_correct": false
+            },
+            {
+              "text": "神経が傷つくから",
+              "is_correct": false
+            }
+          ],
+          "explanation": "DOMS（Delayed Onset Muscle Soreness = 遅発性筋痛）は、運動で筋線維に微小な損傷が生じ、その修復過程の炎症反応が痛みを引き起こす現象。「乳酸が原因」は長年の誤解で、乳酸は運動後1〜2時間で分解される。DOMSは特に筋肉が伸ばされながら力を出す「遠心性収縮」（例：階段を下りる、ゆっくりポーズを解く）で起こりやすい。ヨガの初心者や新しいポーズを導入した後に出やすいが、正常な適応反応であり、修復されると以前より強くなる（超回復）（Standring 2020）。",
+          "source": "Standring 2020",
+          "reference_text_ids": [
+            "muscle-energy-fatigue"
+          ]
+        },
+        {
+          "question_text": "激しい運動中に筋肉が「焼けるような」感覚になる主な原因はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            {
+              "text": "筋温が高すぎて火傷している",
+              "is_correct": false
+            },
+            {
+              "text": "解糖系によるエネルギー産生で代謝産物（水素イオンなど）が蓄積するため",
+              "is_correct": true
+            },
+            {
+              "text": "酸素が完全になくなるため",
+              "is_correct": false
+            },
+            {
+              "text": "筋肉が断裂しかけているため",
+              "is_correct": false
+            }
+          ],
+          "explanation": "激しい運動で酸素の供給が追いつかなくなると、解糖系（糖を素早く分解してATPを作るシステム）が活発になる。このとき副産物として水素イオンなどの代謝産物が筋肉内に蓄積し、筋内のpHが低下する（酸性化）。これが「焼けるような」感覚の正体。かつては「乳酸が原因」と言われたが、現在は水素イオンの蓄積が主因と考えられている。この感覚は一時的で、運動をやめると数分で回復する — DOMSとは別の現象である（McArdle et al., Exercise Physiology）。",
+          "source": "McArdle et al., Exercise Physiology",
+          "reference_text_ids": [
+            "muscle-energy-fatigue"
+          ]
+        },
+        {
+          "question_text": "ヨガの生徒が「昨日のクラスの後、翌日に太ももが筋肉痛になった」と訴えた。最も考えられる原因はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            {
+              "text": "ウォーリアポーズでの大腿四頭筋の遠心性収縮によるDOMS",
+              "is_correct": true
+            },
+            {
+              "text": "プランク保持中の体幹の等尺性収縮によるケガ",
+              "is_correct": false
+            },
+            {
+              "text": "シャヴァーサナでの筋弛緩による冷え",
+              "is_correct": false
+            },
+            {
+              "text": "呼吸法による過換気症候群",
+              "is_correct": false
+            }
+          ],
+          "explanation": "ウォーリアIIやチェアポーズでは、大腿四頭筋が伸ばされながら体重を支える遠心性収縮が長時間続く。遠心性収縮は筋線維への負荷が大きく、DOMSの最大の原因。特にヨガに慣れていない生徒や、新しい立位ポーズを導入した際に起こりやすい。翌日〜2日後の痛みは正常な適応反応なので、「筋肉が強くなるプロセスです」と伝えて安心させ、強度を少し下げた練習を続けるよう助言するのが適切（Kaminoff & Matthews, Yoga Anatomy）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": [
+            "muscle-energy-fatigue"
+          ]
+        },
+        {
+          "question_text": "3つのエネルギー供給系と、それが主に使われる運動を正しく組み合わせなさい。",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "metadata": {
+            "pairs": [
+              {
+                "left": "クレアチンリン酸系（即時）",
+                "right": "全力ダッシュの最初の数秒"
+              },
+              {
+                "left": "解糖系（短期）",
+                "right": "30秒〜2分の激しい運動"
+              },
+              {
+                "left": "有酸素系（持続）",
+                "right": "ヨガフローやマラソン"
+              },
+              {
+                "left": "ウォームアップの効果",
+                "right": "血流増加と筋柔軟性の向上"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "text": "即時系 — 数秒のダッシュ、短期系 — 30秒〜2分、持続系 — ヨガ/マラソン、ウォームアップ — 血流・柔軟性",
+              "is_correct": true
+            },
+            {
+              "text": "その他の組み合わせ",
+              "is_correct": false
+            }
+          ],
+          "explanation": "クレアチンリン酸系は「予備バッテリー」で、全力ダッシュや重量挙げの最初の数秒間を支える。解糖系は「急速充電」で、糖を素早く分解して30秒〜2分程度の激しい運動を支える。有酸素系は「省エネモード」で、酸素と糖・脂肪を使って長時間の運動を効率よく支える。ヨガの大半は有酸素系で賄われるが、パワーヨガの激しいフローでは解糖系も動員される。ウォームアップは筋温上昇→血流増加→柔軟性向上で、これらのエネルギー系が効率よく働く準備を整える（Standring 2020）。",
+          "source": "Standring 2020",
+          "reference_text_ids": [
+            "muscle-energy-fatigue"
+          ]
+        },
+        {
+          "question_text": "筋肉痛（DOMS）の後の「超回復」について正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            {
+              "text": "微小損傷が修復される際に元より強くなるが、十分な回復時間（48-72時間）が必要",
+              "is_correct": true
+            },
+            {
+              "text": "筋肉痛がある間に強い運動をすると超回復が加速する",
+              "is_correct": false
+            },
+            {
+              "text": "超回復は若年者にのみ起こる現象で高齢者には起こらない",
+              "is_correct": false
+            },
+            {
+              "text": "超回復はType II（速筋）でのみ起こる",
+              "is_correct": false
+            }
+          ],
+          "explanation": "超回復とは、運動で生じた筋線維の微小損傷が修復される過程で、筋肉が元のレベルより少し強くなる現象。ただし修復には48〜72時間の回復期間が必要で、この間に十分な休息と栄養（特にタンパク質）を取ることが重要。回復が不十分なまま強い運動を続けると、損傷が蓄積して逆効果（オーバートレーニング）になる。ヨガ指導者として、週に2〜3回のペースで徐々に強度を上げていくプログラムが最も効果的であることを知っておくとよい（McArdle et al., Exercise Physiology）。",
+          "source": "McArdle et al., Exercise Physiology",
+          "reference_text_ids": [
+            "muscle-energy-fatigue"
+          ]
+        }
+      ]
+    },
+    {
       "name": "咀嚼筋",
       "slug": "mastication-muscles",
       "description": "噛む力は自分の体重に匹敵。顎関節症はなぜ起こる？",
