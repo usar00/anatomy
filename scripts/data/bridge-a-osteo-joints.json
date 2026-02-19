@@ -322,6 +322,150 @@
           "reference_text_ids": ["yoga-skeletal-analysis-ref"]
         }
       ]
+    },
+    {
+      "name": "スポーツ動作と骨・関節",
+      "slug": "sports-osteo",
+      "description": "投げる、走る、泳ぐ — スポーツのパフォーマンスを支える骨と関節の設計",
+      "sort_order": 2,
+      "concepts": [
+        {
+          "name": "スポーツ動作の関節力学",
+          "description": "各スポーツ動作がどの関節のどのような特性に依存しているかを分析する"
+        },
+        {
+          "name": "運動時の骨への負荷",
+          "description": "スポーツ動作で骨にかかる力の方向と、それを支える骨の構造を理解する"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "野球の投球動作で肩を大きく振りかぶれるのは、肩関節がどの種類の関節であるためか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "蝶番関節", "is_correct": false },
+            { "text": "球関節", "is_correct": true },
+            { "text": "車軸関節", "is_correct": false },
+            { "text": "平面関節", "is_correct": false }
+          ],
+          "explanation": "肩関節（肩甲上腕関節）は球関節（ball-and-socket joint）に分類される。球関節とは、ボール状の骨頭がカップ状の関節窩にはまる構造の関節で、前後・左右・回旋の3軸すべての方向に動ける。投球ではコッキング（振りかぶり）時の大きな外旋から、加速期の急速な内旋まで、肩関節の広い可動域がフルに使われる。ただし可動域が広い分、関節窩が浅く不安定になりやすいというトレードオフがある（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["sports-osteo-ref"]
+        },
+        {
+          "question_text": "ランニング着地時の衝撃吸収に重要な足の構造はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "膝蓋骨", "is_correct": false },
+            { "text": "足のアーチ（縦アーチ・横アーチ）", "is_correct": true },
+            { "text": "腓骨頭", "is_correct": false },
+            { "text": "大腿骨頸部", "is_correct": false }
+          ],
+          "explanation": "足には内側縦アーチ・外側縦アーチ・横アーチの3つのアーチがある。アーチとは踵骨・距骨・舟状骨・楔状骨・中足骨などの足の骨が弓なり（アーチ状）に配列された構造のこと。このアーチが着地時にたわんで衝撃を吸収し、蹴り出し時にはバネのように反発力を生む。いわば足の「天然のスプリング」である。膝蓋骨は膝の前面にある種子骨で、衝撃吸収とは別の役割（膝伸展のてこ効率向上）を担う（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["sports-osteo-ref"]
+        },
+        {
+          "question_text": "ジャンプの踏み切りで膝を素早く伸ばす際、膝蓋骨が果たしている役割はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "膝関節の可動域を制限して安定させる", "is_correct": false },
+            { "text": "大腿四頭筋のモーメントアーム（てこ）を増大させる", "is_correct": true },
+            { "text": "着地時に脛骨への衝撃を直接吸収する", "is_correct": false },
+            { "text": "膝関節の滑液を分泌する", "is_correct": false }
+          ],
+          "explanation": "膝蓋骨（パテラ）は大腿四頭筋の腱の中に埋まった種子骨で、膝関節の前面に位置する。種子骨とは腱の中に埋もれた骨のことで、腱が骨から離れる距離（モーメントアーム）を増やす「滑車」のような働きをする。膝蓋骨があることで大腿四頭筋の膝伸展力が約30%も増大する。ジャンプの踏み切りで強い膝伸展が必要な場面で、この力学的な増幅効果が大きな役割を果たしている（Gray's Anatomy 42nd ed.; Neumann, Kinesiology）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["sports-osteo-ref"]
+        },
+        {
+          "question_text": "水泳選手に「swimmer's shoulder（水泳肩）」が多い理由と最も関連する、肩関節の構造的特徴はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "関節窩が上腕骨頭の約1/3しか覆っていない", "is_correct": true },
+            { "text": "肩関節に半月板が存在する", "is_correct": false },
+            { "text": "鎖骨が肩関節の動きを直接制限する", "is_correct": false },
+            { "text": "上腕骨が体内で最も長い骨である", "is_correct": false }
+          ],
+          "explanation": "肩関節の関節窩（受け皿）は非常に浅く、上腕骨頭（ボール部分）の約1/3しか覆っていない。この浅さのおかげで肩は人体で最も広い可動域を持ち、水泳のストロークのような大きな回旋運動が可能になる。しかし裏を返せば構造的に不安定で、繰り返しのオーバーヘッド動作で肩峰の下を通る腱（特に棘上筋腱）が挟まれやすく、swimmer's shoulder（インピンジメント症候群）を引き起こす。可動域の広さと安定性は常にトレードオフの関係にある（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["sports-osteo-ref"]
+        },
+        {
+          "question_text": "サッカーでインサイドキック・アウトサイドキック・インステップキックなど多方向の蹴りが可能なのは、股関節がどのような関節であるためか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "蝶番関節であり、強い1軸の動きが可能だから", "is_correct": false },
+            { "text": "楕円関節であり、2軸の動きが可能だから", "is_correct": false },
+            { "text": "球関節であり、3軸の多方向の動きが可能だから", "is_correct": true },
+            { "text": "鞍関節であり、対立運動が可能だから", "is_correct": false }
+          ],
+          "explanation": "股関節は球関節（ball-and-socket joint）であり、屈曲・伸展、内転・外転、内旋・外旋の3軸全方向に動ける。この多方向の自由度があるからこそ、脚を正面に蹴り出す（屈曲）、内側に振る（内転+屈曲）、外側に振る（外転+屈曲）、甲で蹴る（伸展+内旋）など様々な方向のキックが可能になる。もし股関節が膝のような蝶番関節だったら、前後にしか蹴れないだろう（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["sports-osteo-ref"]
+        },
+        {
+          "question_text": "テニスのサーブで、肘関節の伸展と前腕の回内が同時に起こる。この2つの運動に関わる関節の種類を正しく組み合わせたものはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "肘の伸展：蝶番関節 / 前腕の回内：車軸関節", "is_correct": true },
+            { "text": "肘の伸展：車軸関節 / 前腕の回内：蝶番関節", "is_correct": false },
+            { "text": "肘の伸展：球関節 / 前腕の回内：平面関節", "is_correct": false },
+            { "text": "肘の伸展：楕円関節 / 前腕の回内：鞍関節", "is_correct": false }
+          ],
+          "explanation": "肘関節は蝶番関節で屈曲・伸展の1軸運動を行い、テニスサーブでは腕を振り下ろす際に肘を伸展する。同時に、前腕を内側に回す回内運動は橈尺関節（車軸関節）で行われる。ここで大事なのは「肘を伸ばす」と「前腕を回す」は別の関節の運動だということ。肘関節（腕尺関節）は蝶番で前後に動かし、橈尺関節は車軸で回転させる — この2つが同時に作用することでサーブの力強いスイングが生まれる（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["sports-osteo-ref"]
+        },
+        {
+          "question_text": "次のスポーツ動作と、その動作で最も重要な関節の種類を正しく組み合わせなさい。",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "metadata": {
+            "pairs": [
+              { "left": "投球（肩の大きな回旋）", "right": "球関節" },
+              { "left": "自転車のペダリング（膝の屈伸）", "right": "蝶番関節" },
+              { "left": "ドライバーでネジを回す", "right": "車軸関節" },
+              { "left": "ボルダリング（親指の対立把握）", "right": "鞍関節" }
+            ]
+          },
+          "choices": [
+            { "text": "投球 — 球関節、ペダリング — 蝶番関節、ネジ回し — 車軸関節、対立把握 — 鞍関節", "is_correct": true },
+            { "text": "その他の組み合わせ", "is_correct": false }
+          ],
+          "explanation": "投球の大きな回旋は肩関節の球関節（3軸の自由度）が支える。自転車のペダリングは膝関節の蝶番関節（屈曲・伸展の1軸運動）の繰り返し。ドライバーを回す動作は前腕の橈尺関節の車軸関節（1本の軸の周りを回旋）。ボルダリングで岩をつかむ母指の対立把握は母指CM関節の鞍関節（2軸＋対立運動）が可能にする。各動作が求める「動きの方向と自由度」に、関節の構造が対応している（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["sports-osteo-ref"]
+        },
+        {
+          "question_text": "マラソンランナーに中足骨の疲労骨折が起こりやすい理由として、最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "中足骨は海綿骨のみで構成される短骨だから", "is_correct": false },
+            { "text": "中足骨は足のアーチの一部として繰り返し荷重を受ける細い長骨だから", "is_correct": true },
+            { "text": "中足骨には関節軟骨がなく衝撃が直接伝わるから", "is_correct": false },
+            { "text": "中足骨は靭帯で固定されておらず不安定だから", "is_correct": false }
+          ],
+          "explanation": "中足骨は足の甲にある5本の細い長骨で、足のアーチ構造の一部を形成している。長骨とは長さが幅より大きい骨のことで、外側の緻密骨（かたい殻）と内部の海綿骨（スポンジ状の組織）で構成される。ランニングでは着地のたびに体重の2〜3倍の力が足にかかり、中足骨はアーチの一部としてこの繰り返し荷重を受け続ける。細い骨に微小な損傷が蓄積し、修復が追いつかなくなると疲労骨折に至る。特に第2・第3中足骨に好発する（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["sports-osteo-ref"]
+        }
+      ]
     }
   ]
 }
