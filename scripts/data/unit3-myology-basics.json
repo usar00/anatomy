@@ -3589,6 +3589,144 @@
           "reference_text_ids": ["lower-leg-muscles-basics"]
         }
       ]
+    },
+    {
+      "name": "下腿の筋とヨガ",
+      "slug": "yoga-lower-leg",
+      "description": "足は身体の土台 — ダウンドッグの踵からバランスポーズの足指まで",
+      "sort_order": 25,
+      "concepts": [
+        {
+          "name": "ヨガでの下腿の活用",
+          "description": "ダウンドッグの踵・バランスポーズの足関節戦略"
+        },
+        {
+          "name": "足のアーチとパダバンダ",
+          "description": "足内在筋の活性化と足底の意識"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "ダウンドッグで「踵をマットに近づけて」というキューで主に伸張される筋はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "前脛骨筋", "is_correct": false },
+            { "text": "腓腹筋とヒラメ筋（アキレス腱を介して）", "is_correct": true },
+            { "text": "長腓骨筋", "is_correct": false },
+            { "text": "後脛骨筋", "is_correct": false }
+          ],
+          "explanation": "ダウンドッグで踵を下ろす動作は足関節の背屈で、底屈筋である腓腹筋とヒラメ筋がアキレス腱を介して伸張される。踵が浮く場合は腓腹筋の短縮やアキレス腱の硬さが原因。膝を軽く曲げると二関節筋の腓腹筋が弛緩し、踵が下りやすくなる。なぜ「踵を無理に下ろす」より「膝を曲げる」選択肢が有効かというと、腓腹筋の過度な伸張を避けつつハムストリングスと体幹のアライメントを優先できるためである（Kaminoff & Matthews, Yoga Anatomy）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-lower-leg", "lower-leg-muscles-basics"]
+        },
+        {
+          "question_text": "木のポーズ（Vrksasana）でのバランス維持に最も重要な足関節のメカニズムはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "足趾を強く屈曲させてマットをつかむ", "is_correct": false },
+            { "text": "足関節周囲の筋群（前脛骨筋・腓腹筋・腓骨筋群）の微細な共収縮による足関節戦略", "is_correct": true },
+            { "text": "膝関節を完全にロックして棒のように固定する", "is_correct": false },
+            { "text": "股関節のみでバランスを制御する", "is_correct": false }
+          ],
+          "explanation": "片脚立ちのバランスは主に足関節戦略（ankle strategy）で維持される。前脛骨筋と腓腹筋（前後方向）、腓骨筋群と後脛骨筋（内外方向）が微細な共収縮と相互調整を行い、重心を支持基底面内に保つ。足趾を強く屈曲させると逆に足底の感覚入力が阻害される。なぜ足関節戦略が重要かというと、立位での小さな揺れに対して最も省エネルギーで素早い姿勢制御が可能だからである（Kaminoff & Matthews, Yoga Anatomy; Horak & Nashner）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-lower-leg", "lower-leg-muscles-basics"]
+        },
+        {
+          "question_text": "ヨガの「パダバンダ（足のバンダ）」で足趾を広げて接地面を意識する指導の解剖学的効果として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "アキレス腱の弾性を向上させる", "is_correct": false },
+            { "text": "足内在筋が活性化し、足のアーチ機能が向上して下肢全体のアライメントが改善する", "is_correct": true },
+            { "text": "腓腹筋の筋力が直接向上する", "is_correct": false },
+            { "text": "足底筋膜を伸張して柔軟性を高める", "is_correct": false }
+          ],
+          "explanation": "パダバンダは足趾を広げ、母趾球・小趾球・踵の3点で均等に接地する意識。これにより足の内在筋（短母趾屈筋・母趾外転筋・足底方形筋など）が活性化し、足のアーチ（内側縦・外側縦・横アーチ）が動的に支持される。McKeonらの「foot core system」概念と一致し、扁平足や足底筋膜炎の予防に効果的。なぜ足の意識が全身に影響するかというと、足は運動連鎖の起点であり、足のアライメント崩壊は膝のvalgus→股関節の内旋→骨盤の傾斜と連鎖的に波及するためである（McKeon et al., BJSM; Kaminoff & Matthews）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-lower-leg", "lower-leg-muscles-basics"]
+        },
+        {
+          "question_text": "ヨガのウォーリアポーズで「後脚の足の内側アーチを持ち上げて」というキューが活性化する筋はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "長腓骨筋（外反筋）", "is_correct": false },
+            { "text": "後脛骨筋（内側縦アーチの動的支持）", "is_correct": true },
+            { "text": "前脛骨筋（背屈筋）", "is_correct": false },
+            { "text": "腓腹筋（底屈筋）", "is_correct": false }
+          ],
+          "explanation": "「足の内側アーチを持ち上げて」は後脛骨筋の意識的な活性化を促すキュー。後脛骨筋は舟状骨に停止し内側縦アーチの頂点を動的に支持する。ウォーリアポーズの後脚では足底が外側に崩れやすく（回内/pronation）、後脛骨筋を活性化することでアーチを維持し、膝の内側崩壊を防ぐ。なぜこのキューが必要かというと、現代人は靴の中で足の内在筋・後脛骨筋が不活動になりがちで、意識的に活性化しないとアーチが機能しないためである（Kaminoff & Matthews; McKeon et al.）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-lower-leg", "lower-leg-muscles-basics"]
+        },
+        {
+          "question_text": "ヨガのつま先立ちバリエーション（例：ウトカターサナのつま先立ち版）で鍛えられる筋群とその機能的効果の組み合わせとして最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "前脛骨筋 — 足関節の背屈力向上", "is_correct": false },
+            { "text": "腓腹筋・ヒラメ筋 — 足関節の底屈力向上とバランス能力の改善", "is_correct": true },
+            { "text": "長腓骨筋 — 足関節の外反力向上", "is_correct": false },
+            { "text": "後脛骨筋 — 足のアーチ強化のみ", "is_correct": false }
+          ],
+          "explanation": "つま先立ちは腓腹筋とヒラメ筋の求心性収縮で踵を持ち上げ、その位置を保持する等尺性収縮に移行する。同時に足関節周囲の筋群が微調整を行いバランスを維持する。高齢者の転倒予防にも効果的で、底屈筋力とバランス能力の両方が向上する。なぜヨガでこのバリエーションを取り入れるかというと、通常のポーズに加えてfunctional strengthening（機能的筋力強化）の要素を加え、日常動作に直結する足関節の機能を高められるためである（Kaminoff & Matthews; Long）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-lower-leg", "lower-leg-muscles-basics"]
+        },
+        {
+          "question_text": "ヨガの練習でダウンドッグの膝を曲げることがヒラメ筋の選択的ストレッチになる理由はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "膝屈曲でヒラメ筋の起始と停止が離れるため", "is_correct": false },
+            { "text": "膝屈曲で腓腹筋が弛緩し、背屈ストレッチがヒラメ筋に集中するため", "is_correct": true },
+            { "text": "膝屈曲でアキレス腱が伸張されなくなるため", "is_correct": false },
+            { "text": "膝屈曲で前脛骨筋がヒラメ筋を押すため", "is_correct": false }
+          ],
+          "explanation": "腓腹筋は膝関節をまたぐ二関節筋で、膝屈曲位では起始と停止が接近し弛緩する。この状態で足関節を背屈すると、底屈に抗する張力は主にヒラメ筋（単関節筋）が負担する。ダウンドッグで膝を曲げて踵を下ろす動作は、まさにこの原理によるヒラメ筋の選択的ストレッチ。なぜこの使い分けが有用かというと、腓腹筋の柔軟性は十分だがヒラメ筋が硬い場合（膝伸展位で踵が下りない原因がヒラメ筋にある場合）に効果的だからである（Kaminoff & Matthews; Gray's Anatomy 42nd ed.）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-lower-leg", "lower-leg-muscles-basics"]
+        },
+        {
+          "question_text": "ヨガの片脚バランスポーズで、足関節捻挫の既往がある生徒に特に強化を勧めるべき筋群はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "腓腹筋とヒラメ筋", "is_correct": false },
+            { "text": "前脛骨筋と長趾伸筋", "is_correct": false },
+            { "text": "長短腓骨筋（足関節外反筋群、内反捻挫の動的防御）", "is_correct": true },
+            { "text": "長母趾屈筋と長趾屈筋", "is_correct": false }
+          ],
+          "explanation": "足関節内反捻挫後は外側靭帯（前距腓靭帯など）が弛緩し、再発リスクが高い。静的安定装置の代替として腓骨筋群（動的安定装置）の強化が重要。片脚バランスポーズは腓骨筋群の反射的な外反活動を促進し、固有受容感覚の回復にも効果的。ヨガの片脚ポーズは不安定な環境での筋活動を要求するため、理学療法のバランスボード訓練と同様の効果が期待できる。なぜ固有受容感覚の回復が重要かというと、靭帯損傷で関節の位置感覚が低下し、これが再発の主因となるためである（Hertel 2002; Kaminoff & Matthews）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-lower-leg", "lower-leg-muscles-basics"]
+        },
+        {
+          "question_text": "ヨガの逆転ポーズ（肩立ち/サルヴァンガーサナ）で足関節を背屈位（フレックス）に保つことの下腿筋群への効果として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "腓腹筋の求心性収縮でふくらはぎを強化する", "is_correct": false },
+            { "text": "前脛骨筋の等尺性収縮で背屈を維持しつつ、腓腹筋・ヒラメ筋を重力なしで穏やかに伸張する", "is_correct": true },
+            { "text": "アキレス腱に最大負荷をかけて強靭にする", "is_correct": false },
+            { "text": "腓骨筋群を選択的に活性化する", "is_correct": false }
+          ],
+          "explanation": "逆転ポーズでは下肢に重力がかからないため、足関節を背屈位に保つと前脛骨筋が軽い等尺性収縮で背屈を維持しつつ、底屈筋群（腓腹筋・ヒラメ筋）が重力負荷なしで穏やかに伸張される。これはアキレス腱や腓腹筋に炎症がある場合の安全なストレッチオプションとなる。なぜ重力なしが有効かというと、通常の荷重ストレッチでは体重による過度な張力が損傷部位を悪化させるリスクがあるが、逆転位では自重の影響を除外した穏やかな伸張が可能だからである（Kaminoff & Matthews; Long）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-lower-leg", "lower-leg-muscles-basics"]
+        }
+      ]
     }
   ]
 }
