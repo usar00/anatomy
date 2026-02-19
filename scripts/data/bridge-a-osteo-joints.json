@@ -22,6 +22,21 @@
       "id": "sports-osteo-ref",
       "title": "スポーツ動作の骨格・関節分析",
       "content": "スポーツ動作は特定の関節に高い負荷をかけ、その関節の構造的特性が競技パフォーマンスを左右する。①投球動作：肩関節（球関節）は3軸の自由度を持ち、コッキング期に最大外旋（約180°）→加速期に急速な内旋（約7000°/秒）という極端なROMが要求される。球関節であることが投球を可能にするが、その可動域の広さが不安定性と損傷リスクの原因でもある。②ランニング：着地時に距腿関節（蝶番関節）で背屈、膝関節（蝶番関節）で屈曲し、衝撃を吸収する。足の横アーチと縦アーチ（踵骨・距骨・舟状骨・楔状骨・中足骨）が弾性的に変形して衝撃を分散するスプリング機構として機能する。③水泳：肩関節の360°近いROM（屈曲・伸展・回旋の連続）が推進力の鍵。肩甲上腕関節の浅い関節窩と大きな骨頭の不一致（関節窩が骨頭の約1/3しか覆わない）が広いROMを実現するが、swimmer's shoulder（インピンジメント）のリスクとなる。④跳躍：膝関節の急速な伸展が推進力を生む。膝蓋骨（種子骨）は大腿四頭筋のモーメントアームを約30%増大させ、膝伸展力を効率化する。⑤キック動作（サッカー）：股関節（球関節）の屈曲と膝関節の伸展が連動する。股関節が球関節であることで、インサイド・アウトサイド・インステップなど多方向のキックが可能になる（Gray's Anatomy 42nd ed.; Neumann, Kinesiology; Standring 2020）。"
+    },
+    {
+      "id": "clinical-osteo-ref",
+      "title": "骨と関節の臨床ケース — よくある外傷と解剖学的背景",
+      "content": "骨と関節の外傷には解剖学的な「起こりやすさ」の理由がある。①FOOSH損傷（Fall On an OutStretched Hand = 手をついた転倒）：転倒時に手を突くと手関節→前腕→肘→肩へと衝撃が伝わる。橈骨遠位端骨折（コレス骨折/Colles' fracture）は最も多く、橈骨の手首側の端が背側に転位する。高齢者では骨密度低下により起こりやすい。若年者では同じ受傷機転で舟状骨骨折が多い。舟状骨（scaphoid）は手首の親指側にある手根骨で、血液供給が遠位から近位に向かうため、骨折すると近位部が血流不足で壊死（avascular necrosis）するリスクがある。②足関節捻挫：足首を内側に捻る内反捻挫が全捻挫の約85%を占める。外側の靭帯群（前距腓靭帯が最も損傷しやすい）が引き伸ばされて損傷する。前距腓靭帯（ATFL）は距骨と腓骨外果をつなぐ靭帯で、足関節底屈位で最も緩むため、つま先立ちの状態で捻ると損傷しやすい。③膝関節損傷：前十字靭帯（ACL）は大腿骨と脛骨をつなぎ、脛骨の前方へのずれを防ぐ。急な方向転換や着地で損傷しやすい。半月板は大腿骨と脛骨の間にあるC字型の線維軟骨で、荷重分散と衝撃吸収を担う。損傷すると膝のロッキング（引っかかり）やクリック音が出る。④肩関節脱臼：肩関節は浅い関節窩のため全関節中最も脱臼しやすく、約95%が前方脱臼。転倒時に腕を外転・外旋した状態で力が加わると、上腕骨頭が関節窩の前下方から逸脱する。⑤高齢者の大腿骨頸部骨折：大腿骨頸部は骨頭と骨幹を結ぶ細い部分で、骨粗鬆症により脆弱化する。転倒時に大転子部に直接外力がかかると折れやすい。大腿骨頸部は血液供給が限られるため、骨折により骨頭が壊死するリスクがある（Gray's Anatomy 42nd ed.; Standring 2020; Solomon et al., Apley's System of Orthopaedics）。"
+    },
+    {
+      "id": "structure-function-osteo-ref",
+      "title": "構造と機能の対応 — なぜその形なのか",
+      "content": "骨と関節の構造は、果たすべき機能に合わせて「設計」されている。①球関節の可動域が広い理由：肩関節の関節窩（受け皿）は上腕骨頭の約1/3しか覆わず、接触面が小さい。接触面が小さいほど骨頭は自由に動けるが、安定性は低下する。対照的に股関節の関節窩（寛骨臼）は骨頭の約2/3を覆い、可動域は肩より狭いが安定性が高い。この違いは機能の違い — 腕は広い可動域で物を操作する、脚は安定して体重を支える — に対応している。②椎間板が圧縮に強い理由：椎間板の中心にある髄核はゲル状の物質で、約80%が水分。外側を取り囲む線維輪は同心円状に積層したコラーゲン線維で、各層の線維が交互に斜走する。この構造により、軸方向の圧縮力を髄核が均等に分散し、線維輪が側方への膨張を防ぐ。ちょうど水風船をコルセットで巻いたような設計である。③膝蓋骨の力学的意義：膝蓋骨は大腿四頭筋の腱を膝関節の回転軸から前方に離す。物理学的には支点からの距離（モーメントアーム）が大きいほど小さな力で大きな回転力を生み出せる（てこの原理）。膝蓋骨による約30%の力学的利得は、階段昇降や椅子からの立ち上がりに不可欠である。④脊柱のS字カーブ：脊柱は頸椎前弯→胸椎後弯→腰椎前弯→仙椎後弯の4つのカーブを持つ。直線よりもS字カーブの方が軸方向の圧縮力を弾性的に吸収でき、一本の直線的な柱と比較して約10倍の耐荷重性を持つとされる。⑤扁平骨と長骨の機能の違い：扁平骨（頭蓋骨・肋骨・肩甲骨）は薄く広い形状で、臓器の保護や筋の広い付着面を提供する。長骨（大腿骨・上腕骨）は長さが幅より大きく、てことして効率よく力を伝え、骨髄腔で造血を行う。骨の形は果たすべき機能を反映している（Gray's Anatomy 42nd ed.; Standring 2020; Neumann, Kinesiology）。"
+    },
+    {
+      "id": "osteo-comprehensive-ref",
+      "title": "骨格系の横断的理解 — 分類・方向・全体像",
+      "content": "骨格系の全体像を把握するには、分類体系と解剖学的方向の理解が不可欠である。①骨の分類：長骨（long bone, 例：大腿骨・上腕骨）は長さが幅より大きく、骨幹と骨端を持つ。短骨（short bone, 例：手根骨・足根骨）は幅と高さがほぼ等しい立方体状。扁平骨（flat bone, 例：頭蓋骨・胸骨・肩甲骨）は薄く平たい。不規則骨（irregular bone, 例：椎骨・寛骨）は複雑な形状。種子骨（sesamoid bone, 例：膝蓋骨）は腱の中に埋もれている。②関節の分類：線維性関節（動かない〜ほぼ動かない、例：頭蓋縫合）、軟骨性関節（わずかに動く、例：恥骨結合・椎間円板）、滑膜性関節（自由に動く、例：膝・肩・股関節）。滑膜性関節はさらに形態で6つに分かれる：球関節（肩・股）、蝶番関節（肘・膝・指IP）、車軸関節（橈尺・環軸）、楕円関節（橈骨手根）、鞍関節（母指CM）、平面関節（椎間・肩鎖）。③軸骨格と付属肢骨格：軸骨格（axial skeleton）は頭蓋骨・脊柱・胸郭の80個の骨で体軸を構成し、中枢神経と内臓を保護する。付属肢骨格（appendicular skeleton）は上肢帯・上肢・下肢帯・下肢の126個の骨で四肢の運動を担う。④解剖学的方向用語：近位（proximal, 体幹に近い）↔遠位（distal, 体幹から遠い）、浅層（superficial）↔深層（deep）、内側（medial）↔外側（lateral）。⑤肩と股の比較：肩関節は浅い関節窩で可動域優先、股関節は深い関節窩（寛骨臼）で安定性優先。肩は脱臼しやすく、股は骨折しやすい。この違いは上肢（操作性重視）と下肢（荷重支持重視）の機能的要求の違いを反映している（Gray's Anatomy 42nd ed.; Standring 2020）。"
     }
   ],
   "sections": [
@@ -464,6 +479,150 @@
           "explanation": "中足骨は足の甲にある5本の細い長骨で、足のアーチ構造の一部を形成している。長骨とは長さが幅より大きい骨のことで、外側の緻密骨（かたい殻）と内部の海綿骨（スポンジ状の組織）で構成される。ランニングでは着地のたびに体重の2〜3倍の力が足にかかり、中足骨はアーチの一部としてこの繰り返し荷重を受け続ける。細い骨に微小な損傷が蓄積し、修復が追いつかなくなると疲労骨折に至る。特に第2・第3中足骨に好発する（Gray's Anatomy 42nd ed.; Standring 2020）。",
           "source": "Gray's Anatomy 42nd ed.",
           "reference_text_ids": ["sports-osteo-ref"]
+        }
+      ]
+    },
+    {
+      "name": "骨と関節の臨床ケース",
+      "slug": "clinical-osteo",
+      "description": "骨折・脱臼・捻挫 — ケガの「なぜそこで起こるか」を解剖学で読み解く",
+      "sort_order": 3,
+      "concepts": [
+        {
+          "name": "骨折と関節損傷",
+          "description": "よくある骨折・脱臼・靭帯損傷の解剖学的メカニズムを理解する"
+        },
+        {
+          "name": "臨床的評価と解剖学",
+          "description": "臨床症状から損傷部位を推定するための解剖学的知識を身につける"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "転倒して手をついたとき（FOOSH損傷）に最も骨折しやすい前腕の骨はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "尺骨の近位端", "is_correct": false },
+            { "text": "橈骨の遠位端", "is_correct": true },
+            { "text": "上腕骨の骨幹", "is_correct": false },
+            { "text": "尺骨の遠位端", "is_correct": false }
+          ],
+          "explanation": "手をついて転倒した場合（FOOSH = Fall On an OutStretched Hand）、衝撃は手→手関節→前腕へと伝わり、橈骨の遠位端（手首に近い側の端）が骨折しやすい。これをコレス骨折（Colles' fracture）と呼び、骨折部が手の甲側にずれるのが特徴。橈骨は前腕の親指側にある骨で、手関節を構成する主要な骨のため、手からの衝撃を直接受ける。特に骨粗鬆症のある高齢者に多い（Gray's Anatomy 42nd ed.; Solomon et al., Apley's System）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["clinical-osteo-ref"]
+        },
+        {
+          "question_text": "足首を内側に捻る内反捻挫で、最も損傷しやすい靭帯はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "三角靭帯（内側靭帯）", "is_correct": false },
+            { "text": "前距腓靭帯（ATFL）", "is_correct": true },
+            { "text": "後十字靭帯（PCL）", "is_correct": false },
+            { "text": "膝蓋靭帯", "is_correct": false }
+          ],
+          "explanation": "足首を内側に捻る内反捻挫は、全捻挫の約85%を占める最も一般的な捻挫である。このとき外側（外くるぶし側）の靭帯が引き伸ばされて損傷する。中でも前距腓靭帯（ATFL: Anterior TaloFibular Ligament）が最も損傷しやすい。ATFLは距骨（足首の中心にある骨）と腓骨外果（外くるぶし）をつなぐ靭帯で、足関節が底屈位（つま先が下を向いた状態）のときに最も緩むため、つま先立ちの状態で捻ると特に損傷しやすい（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["clinical-osteo-ref"]
+        },
+        {
+          "question_text": "肩関節が人体の全関節の中で最も脱臼しやすい主な理由はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "肩甲骨が胸郭に固定されていないから", "is_correct": false },
+            { "text": "関節窩が浅く、上腕骨頭の約1/3しか覆わないから", "is_correct": true },
+            { "text": "肩に靭帯が一切存在しないから", "is_correct": false },
+            { "text": "上腕骨が体内で最も重い骨だから", "is_correct": false }
+          ],
+          "explanation": "肩関節（肩甲上腕関節）は球関節で、関節窩（受け皿側）が非常に浅く、上腕骨頭（ボール側）の約1/3しか覆っていない。これは3軸の広い可動域を実現するための設計だが、同時に構造的に不安定であることを意味する。比較すると股関節は同じ球関節でも、関節窩（寛骨臼）が骨頭の約2/3を覆うため、脱臼はずっと稀である。可動域の広さと安定性はトレードオフの関係にある（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["clinical-osteo-ref"]
+        },
+        {
+          "question_text": "膝関節で半月板が損傷すると現れやすい症状はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "足首の腫れと外反不安定性", "is_correct": false },
+            { "text": "膝のロッキング（引っかかり感）やクリック音", "is_correct": true },
+            { "text": "股関節の可動域制限", "is_correct": false },
+            { "text": "足趾のしびれと感覚低下", "is_correct": false }
+          ],
+          "explanation": "半月板は膝関節の中にある三日月型（C字型）の線維軟骨で、大腿骨と脛骨の間に内側・外側の2枚がある。荷重を広い面に分散する「ワッシャー」のような役割と、衝撃を吸収するクッションの役割を持つ。半月板が損傷すると、破れた断片が関節内に引っかかり、膝が途中で動かなくなる「ロッキング」や、動かすときの「クリック音」が特徴的な症状として現れる（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["clinical-osteo-ref"]
+        },
+        {
+          "question_text": "若年者がFOOSH損傷（手をついた転倒）で骨折しやすく、骨壊死のリスクが高い手根骨はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "月状骨", "is_correct": false },
+            { "text": "舟状骨", "is_correct": true },
+            { "text": "有頭骨", "is_correct": false },
+            { "text": "豆状骨", "is_correct": false }
+          ],
+          "explanation": "舟状骨（scaphoid）は手根骨（手首を構成する8個の小さな骨）の中で最も骨折しやすい骨で、手首の親指側に位置する。舟状骨骨折のリスクが高い理由は特殊な血液供給パターンにある。舟状骨への血管は遠位（指先側）から近位（腕側）に向かって入るため、骨の中央部や近位部で骨折すると、そこから先への血流が途絶えてしまう。血液が届かなくなった骨は壊死（avascular necrosis）する危険がある。このため舟状骨骨折は早期診断と適切な固定が非常に重要である（Gray's Anatomy 42nd ed.; Solomon et al., Apley's System）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["clinical-osteo-ref"]
+        },
+        {
+          "question_text": "前十字靭帯（ACL）が損傷すると膝関節の安定性はどのように変化するか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "膝の内反・外反が不安定になる", "is_correct": false },
+            { "text": "脛骨が大腿骨に対して前方にずれやすくなる", "is_correct": true },
+            { "text": "膝蓋骨が外側に脱臼しやすくなる", "is_correct": false },
+            { "text": "足関節の背屈が制限される", "is_correct": false }
+          ],
+          "explanation": "前十字靭帯（ACL: Anterior Cruciate Ligament）は膝関節の内部で大腿骨と脛骨を斜めにつなぐ靭帯で、脛骨が前方にスライドするのを防ぐ「ストッパー」の役割を果たす。ACLが断裂すると、脛骨が大腿骨に対して前方に引き出されやすくなり（前方引き出し徴候/anterior drawer sign）、急な方向転換や着地で膝が「抜ける」ような不安定感が生じる。内反・外反の安定性は主に側副靭帯（MCL/LCL）が担っている（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["clinical-osteo-ref"]
+        },
+        {
+          "question_text": "高齢者が転倒して大腿骨の骨折を起こしやすい部位と、その解剖学的理由を正しく組み合わせたものはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "骨幹部 — 長骨の中央は最も細いため", "is_correct": false },
+            { "text": "大腿骨頸部 — 細い構造かつ骨粗鬆症で脆弱化しやすいため", "is_correct": true },
+            { "text": "遠位端 — 膝関節に近く荷重が集中するため", "is_correct": false },
+            { "text": "大転子 — 転倒時に直接衝撃を受けるため", "is_correct": false }
+          ],
+          "explanation": "大腿骨頸部は、大腿骨頭（股関節のボール部分）と骨幹（太ももの太い部分）をつなぐ細い「首」のような部位である。骨粗鬆症（加齢による骨密度低下）により海綿骨（骨の内部のスポンジ状組織）が脆くなると、この細い頸部が特に弱くなる。転倒時に大転子（太ももの外側の出っ張り）に直接外力がかかると、力が頸部に伝わり骨折する。さらに大腿骨頸部の血液供給は限られているため、骨折により骨頭への血流が途絶え、骨頭壊死のリスクもある（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["clinical-osteo-ref"]
+        },
+        {
+          "question_text": "次の外傷と損傷される構造を正しく組み合わせなさい。",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "metadata": {
+            "pairs": [
+              { "left": "足首の内反捻挫", "right": "前距腓靭帯（ATFL）" },
+              { "left": "手をついた転倒（高齢者）", "right": "橈骨遠位端" },
+              { "left": "膝の急な方向転換", "right": "前十字靭帯（ACL）" },
+              { "left": "腕を外に広げた状態での転倒", "right": "肩関節（前方脱臼）" }
+            ]
+          },
+          "choices": [
+            { "text": "内反捻挫 — ATFL、手つき転倒 — 橈骨遠位端、方向転換 — ACL、腕外転転倒 — 肩前方脱臼", "is_correct": true },
+            { "text": "その他の組み合わせ", "is_correct": false }
+          ],
+          "explanation": "各外傷には解剖学的な「起こりやすさ」の理由がある。足首の内反捻挫→外側の前距腓靭帯が引き伸ばされる（底屈位で最も脆弱）。手をついた転倒→衝撃が橈骨遠位端に集中（コレス骨折）。膝の急な方向転換→脛骨が前方にずれる力が前十字靭帯を損傷。腕を外転・外旋した状態での転倒→上腕骨頭が浅い関節窩から前下方に逸脱（肩の前方脱臼）。受傷機転と解剖学的構造の弱点が対応している（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["clinical-osteo-ref"]
         }
       ]
     }
