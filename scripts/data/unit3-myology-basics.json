@@ -1196,6 +1196,274 @@
       ]
     },
     {
+      "name": "主動筋と拮抗筋 — 筋肉はペアで働く",
+      "slug": "agonist-antagonist",
+      "description": "腕を曲げる筋と伸ばす筋は別物。この「ペアの法則」がヨガの指導を変える",
+      "sort_order": 4,
+      "concepts": [
+        {
+          "name": "主動筋・拮抗筋と相反抑制",
+          "description": "筋の4つの役割（主動筋・拮抗筋・協力筋・固定筋）と、相反抑制の仕組みを理解する"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "肘を曲げるとき、上腕二頭筋（力こぶの筋肉）の役割はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            {
+              "text": "拮抗筋",
+              "is_correct": false
+            },
+            {
+              "text": "主動筋",
+              "is_correct": true
+            },
+            {
+              "text": "固定筋",
+              "is_correct": false
+            },
+            {
+              "text": "関係しない",
+              "is_correct": false
+            }
+          ],
+          "explanation": "主動筋（agonist）とは、その動作を主に遂行する筋のこと。肘を曲げる動作の主動筋は上腕二頭筋で、縮むことで前腕を引き上げる。「この動きを一番頑張って作っている筋肉」が主動筋。反対の動き（肘を伸ばす）を担う上腕三頭筋は拮抗筋、動作の土台を安定させる肩の筋は固定筋である（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": [
+            "muscle-coordination-basics"
+          ]
+        },
+        {
+          "question_text": "肘を曲げるとき、上腕三頭筋（二の腕の裏側の筋肉）の役割はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            {
+              "text": "主動筋",
+              "is_correct": false
+            },
+            {
+              "text": "協力筋",
+              "is_correct": false
+            },
+            {
+              "text": "拮抗筋",
+              "is_correct": true
+            },
+            {
+              "text": "固定筋",
+              "is_correct": false
+            }
+          ],
+          "explanation": "拮抗筋（antagonist）とは、主動筋と反対の動きを担う筋のこと。肘を曲げるとき、上腕三頭筋は肘を伸ばす作用を持つ拮抗筋にあたる。拮抗筋は主動筋が動くとき自動的に緩んで邪魔しない（相反抑制）。同時に、動きの終わりで「ブレーキ」としても機能し、関節を守る。主動筋と拮抗筋はいつもペア — 肘を伸ばすときは役割が逆転し、三頭筋が主動筋、二頭筋が拮抗筋になる（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": [
+            "muscle-coordination-basics"
+          ]
+        },
+        {
+          "question_text": "主動筋が縮むと、拮抗筋の緊張が自動的に低下する仕組みを何と呼ぶか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            {
+              "text": "超回復",
+              "is_correct": false
+            },
+            {
+              "text": "相反抑制",
+              "is_correct": true
+            },
+            {
+              "text": "遠心性収縮",
+              "is_correct": false
+            },
+            {
+              "text": "筋肥大",
+              "is_correct": false
+            }
+          ],
+          "explanation": "相反抑制（reciprocal inhibition）とは、主動筋に「縮め」という信号が送られると、脳が自動的に拮抗筋の緊張を下げる神経制御のこと。上腕二頭筋を縮めると、脊髄レベルの反射回路により上腕三頭筋が自然に緩む。もしこの仕組みがなければ、両方の筋が同時に引っ張り合って関節がスムーズに動けない。ヨガ指導では、この相反抑制を意図的に利用してストレッチの効果を高めることができる（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": [
+            "muscle-coordination-basics"
+          ]
+        },
+        {
+          "question_text": "ヨガの前屈（パスチモッターナーサナ）で、大腿四頭筋を軽く収縮させるとハムストリングスが伸びやすくなる。この現象の説明として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            {
+              "text": "大腿四頭筋の収縮でハムストリングスの血流が増えるから",
+              "is_correct": false
+            },
+            {
+              "text": "相反抑制により、大腿四頭筋が縮むとハムストリングスの緊張が自動的に低下するから",
+              "is_correct": true
+            },
+            {
+              "text": "大腿四頭筋が膝を押してテコの原理で伸びるから",
+              "is_correct": false
+            },
+            {
+              "text": "大腿四頭筋の熱でハムストリングスが柔らかくなるから",
+              "is_correct": false
+            }
+          ],
+          "explanation": "前屈でハムストリングスを伸ばしたいとき、その拮抗筋である大腿四頭筋を軽く収縮させると、相反抑制によりハムストリングスの緊張が自動的に低下する。緊張が下がった筋肉はより安全に、より深く伸ばせる。これはヨガ指導で非常に実用的なテクニック。「膝のお皿を上に引き上げるように」というキューは、大腿四頭筋を活性化して相反抑制を利用し、ハムストリングスの伸びを促す指示なのである（Kaminoff & Matthews, Yoga Anatomy）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": [
+            "muscle-coordination-basics"
+          ]
+        },
+        {
+          "question_text": "コップを持ち上げるとき、肩甲骨を安定させて土台を作っている筋の役割はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            {
+              "text": "主動筋",
+              "is_correct": false
+            },
+            {
+              "text": "拮抗筋",
+              "is_correct": false
+            },
+            {
+              "text": "固定筋",
+              "is_correct": true
+            },
+            {
+              "text": "協力筋",
+              "is_correct": false
+            }
+          ],
+          "explanation": "固定筋（fixator/stabilizer）とは、動作の土台を安定させる筋のこと。コップを持ち上げるとき、上腕二頭筋（主動筋）が肘を曲げるが、その力がしっかり発揮されるには肩甲骨がグラグラしていてはいけない。僧帽筋や菱形筋が肩甲骨を固定して安定した土台を作る — これが固定筋の役割。もう一つの協力筋（synergist）は、主動筋を手伝って同じ方向の力を加える筋（肘屈曲なら腕橈骨筋など）。4つの役割が協調して初めて滑らかな動きになる（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": [
+            "muscle-coordination-basics"
+          ]
+        },
+        {
+          "question_text": "膝を伸ばすときの主動筋と拮抗筋の正しい組み合わせはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            {
+              "text": "主動筋：ハムストリングス / 拮抗筋：大腿四頭筋",
+              "is_correct": false
+            },
+            {
+              "text": "主動筋：大腿四頭筋 / 拮抗筋：ハムストリングス",
+              "is_correct": true
+            },
+            {
+              "text": "主動筋：腓腹筋 / 拮抗筋：前脛骨筋",
+              "is_correct": false
+            },
+            {
+              "text": "主動筋：大殿筋 / 拮抗筋：腸腰筋",
+              "is_correct": false
+            }
+          ],
+          "explanation": "膝を伸ばす（膝伸展）の主動筋は大腿四頭筋（太もも前面の4つの筋肉のグループ）で、拮抗筋はハムストリングス（太もも裏側の3つの筋肉のグループ）。大腿四頭筋が縮むと膝が伸び、相反抑制によりハムストリングスの緊張が自動的に低下する。逆に膝を曲げるときは役割が逆転し、ハムストリングスが主動筋、大腿四頭筋が拮抗筋になる。腓腹筋/前脛骨筋は足関節の、大殿筋/腸腰筋は股関節のペア（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": [
+            "muscle-coordination-basics"
+          ]
+        },
+        {
+          "question_text": "次の動作と、その動作の主動筋-拮抗筋のペアを正しく組み合わせなさい。",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "metadata": {
+            "pairs": [
+              {
+                "left": "肘を曲げる",
+                "right": "主動筋：上腕二頭筋"
+              },
+              {
+                "left": "肘を伸ばす",
+                "right": "主動筋：上腕三頭筋"
+              },
+              {
+                "left": "膝を伸ばす",
+                "right": "主動筋：大腿四頭筋"
+              },
+              {
+                "left": "膝を曲げる",
+                "right": "主動筋：ハムストリングス"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "text": "肘曲げ — 二頭筋、肘伸ばし — 三頭筋、膝伸ばし — 四頭筋、膝曲げ — ハムストリングス",
+              "is_correct": true
+            },
+            {
+              "text": "その他の組み合わせ",
+              "is_correct": false
+            }
+          ],
+          "explanation": "動作が変われば主動筋と拮抗筋の役割が入れ替わる。肘を曲げるとき上腕二頭筋が主動筋（三頭筋が拮抗筋）、肘を伸ばすとき上腕三頭筋が主動筋（二頭筋が拮抗筋）。同様に膝を伸ばすとき大腿四頭筋が主動筋（ハムストリングスが拮抗筋）、膝を曲げるときハムストリングスが主動筋（四頭筋が拮抗筋）。このペア関係を理解すると、ヨガの指示で「どの筋肉を使えばいいか」が明確になる（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": [
+            "muscle-coordination-basics"
+          ]
+        },
+        {
+          "question_text": "バランスポーズ（木のポーズ）で足関節の安定を保つとき、通常の相反抑制とは異なる「{{blank}}」が起こっている。",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "metadata": {
+            "sentence_template": "バランスポーズで足関節の安定を保つとき、通常の相反抑制とは異なる「{{blank}}」が起こっている。",
+            "correct_answer": "共収縮（主動筋と拮抗筋が同時に収縮）",
+            "word_options": [
+              "共収縮（主動筋と拮抗筋が同時に収縮）",
+              "完全弛緩（すべての筋がリラックス）",
+              "超回復（筋が修復中）",
+              "遠心性収縮（ブレーキ動作）"
+            ]
+          },
+          "choices": [
+            {
+              "text": "共収縮（主動筋と拮抗筋が同時に収縮）",
+              "is_correct": true
+            },
+            {
+              "text": "完全弛緩（すべての筋がリラックス）",
+              "is_correct": false
+            },
+            {
+              "text": "超回復（筋が修復中）",
+              "is_correct": false
+            },
+            {
+              "text": "遠心性収縮（ブレーキ動作）",
+              "is_correct": false
+            }
+          ],
+          "explanation": "通常は主動筋が縮むと拮抗筋が緩む（相反抑制）が、バランスポーズでは例外が起こる。片脚立ちでは足関節の周りの筋肉（前の前脛骨筋と後ろの腓腹筋、内側の後脛骨筋と外側の腓骨筋）が同時に少しずつ収縮する。これを共収縮（co-contraction）と呼び、関節を四方から締めて安定させる「天然のサポーター」のような役割を果たす。脳が「今は安定性が最優先」と判断したとき、相反抑制を一時的にオーバーライド（上書き）する高度な神経制御である（Kaminoff & Matthews, Yoga Anatomy）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": [
+            "muscle-coordination-basics"
+          ]
+        }
+      ]
+    },
+    {
       "name": "咀嚼筋",
       "slug": "mastication-muscles",
       "description": "噛む力は自分の体重に匹敵。顎関節症はなぜ起こる？",
