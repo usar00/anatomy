@@ -92,6 +92,26 @@
       "id": "muscle-fiber-structure-basics",
       "title": "筋線維の階層構造とサルコメア",
       "content": "骨格筋は精密な階層構造を持つ。最も外側から①筋全体を包む筋外膜（epimysium）、②筋線維の束（筋束/fascicle）を包む筋周膜（perimysium）、③個々の筋線維を包む筋内膜（endomysium）の3層の結合組織膜がある。この階層構造により、筋の収縮力は腱を介して骨に効率的に伝達される。筋線維（筋細胞）の内部には多数の筋原線維（myofibril）が並行に走り、筋原線維はサルコメア（sarcomere）が直列に連結した構造を持つ。サルコメアは筋収縮の最小機能単位で、Z線（Z-disc）からZ線までの区間として定義される。サルコメア内にはアクチンフィラメント（細いフィラメント/thin filament）とミオシンフィラメント（太いフィラメント/thick filament）が規則的に配列する。ミオシンフィラメントが存在する領域がA帯（暗帯/anisotropic band）、アクチンのみの領域がI帯（明帯/isotropic band）で、この交互配列が横紋として観察される。A帯中央のミオシンのみの領域がH帯、H帯中央の連結構造がM線である。横行小管（T-tubule）は筋線維膜の陥入で、活動電位を細胞内部に伝える。筋小胞体（sarcoplasmic reticulum/SR）はCa²⁺を貯蔵し、興奮時にCa²⁺を放出して収縮を開始させる。この精密な構造が規則正しく配列しているからこそ、骨格筋は素早く強力な収縮力を発生できる（Gray's Anatomy 42nd ed.; Standring 2020）。"
+    },
+    {
+      "id": "deltoid-arm-basics",
+      "title": "三角筋と上腕の筋群",
+      "content": "三角筋（Deltoid）は肩関節を覆う三角形の厚い筋で、前部・中部・後部の3部から構成される。前部線維は鎖骨外側1/3から起始し肩関節の屈曲・内旋、中部線維は肩峰から起始し外転、後部線維は肩甲棘から起始し伸展・外旋を担う。停止はすべて上腕骨の三角筋粗面。腋窩神経（C5-C6）支配。三角筋は肩関節の外転0-15°では棘上筋が主動し、15-90°で三角筋が主力となり、90°以上では僧帽筋・前鋸筋による肩甲骨上方回旋が加わる（肩甲上腕リズム）。上腕二頭筋（Biceps Brachii）は長頭（肩甲骨関節上結節）と短頭（烏口突起）の2頭を持ち、橈骨粗面に停止する。主な作用は肘関節屈曲と前腕回外。筋皮神経（C5-C6）支配。上腕三頭筋（Triceps Brachii）は長頭（肩甲骨関節下結節）・外側頭・内側頭の3頭を持ち、肘頭に停止する。肘関節唯一の伸展筋で、橈骨神経（C6-C8）支配。上腕筋（Brachialis）は上腕骨前面から尺骨粗面に走り、純粋な肘屈曲筋である（回外・回内の位置に関係なく作用）。烏口腕筋（Coracobrachialis）は烏口突起から上腕骨内側に走り、肩関節の屈曲・内転を補助する（Gray's Anatomy 42nd ed.; Standring 2020）。"
+    },
+    {
+      "id": "forearm-hand-basics",
+      "title": "前腕と手の筋群",
+      "content": "前腕の筋群は前面（屈筋群）と後面（伸筋群）に大別される。前面は浅層から深層に4層あり、①浅層：円回内筋・橈側手根屈筋・長掌筋・尺側手根屈筋、②第2層：浅指屈筋、③第3層：深指屈筋・長母指屈筋、④最深層：方形回内筋。屈筋群の大部分は内側上顆（共通屈筋起始）から起始し、正中神経または尺骨神経に支配される。後面は①浅層：腕橈骨筋・長橈側手根伸筋・短橈側手根伸筋・総指伸筋・小指伸筋・尺側手根伸筋、②深層：回外筋・長母指外転筋・短母指伸筋・長母指伸筋・示指伸筋。伸筋群は主に外側上顆（共通伸筋起始）から起始し、橈骨神経（後骨間神経）に支配される。手内在筋は母指球筋（短母指外転筋・短母指屈筋・母指対立筋・母指内転筋）、小指球筋（小指外転筋・短小指屈筋・小指対立筋）、虫様筋（4本、MP関節屈曲+IP関節伸展）、骨間筋（掌側4本=内転、背側4本=外転、DAB-PAD法則）で構成される。握力は前腕屈筋群と手内在筋の協調で発生し、平均成人男性で約45kg、女性で約27kg。テニス肘（外側上顆炎）は前腕伸筋の過使用で外側上顆付着部が微小断裂を起こす病態である（Gray's Anatomy 42nd ed.; Standring 2020; Neumann, Kinesiology of the Musculoskeletal System）。"
+    },
+    {
+      "id": "rotator-cuff-basics",
+      "title": "回旋筋腱板の構造と機能",
+      "content": "回旋筋腱板（Rotator Cuff）は肩関節の安定性を担う4つの筋の総称である。①棘上筋（Supraspinatus）：肩甲骨棘上窩から大結節上面に停止。肩関節外転の開始（0-15°）を担い、三角筋の外転作用を補助する。肩峰下を通過するため、インピンジメント（衝突）症候群で最も損傷しやすい。肩甲上神経（C5-C6）支配。②棘下筋（Infraspinatus）：棘下窩から大結節中面に停止。肩関節の外旋の主動筋。投球動作のフォロースルーで減速を担う。肩甲上神経（C5-C6）支配。③小円筋（Teres Minor）：肩甲骨外側縁から大結節下面に停止。棘下筋とともに外旋を担う。腋窩神経（C5-C6）支配。④肩甲下筋（Subscapularis）：肩甲下窩から小結節に停止。肩関節の内旋の主動筋で、4筋中最大の筋。肩甲下神経（C5-C7）支配。回旋筋腱板の重要な役割は、上腕骨頭を関節窩に押し付けて求心位を保つこと（force couple mechanism）。三角筋が上腕骨を挙上しようとすると上方への剪断力が生じるが、回旋筋腱板（特に棘下筋・肩甲下筋）が下方に引く力で相殺し、骨頭が関節窩内に安定する。この力のカップルが破綻すると肩峰下インピンジメントが発生する。腱板断裂は40歳以上の約25%に認められ、棘上筋腱が最も好発する。これは棘上筋腱の血管分布が乏しい領域（critical zone）が存在するためである（Neer, Shoulder Reconstruction; Gray's Anatomy 42nd ed.; Standring 2020）。"
+    },
+    {
+      "id": "yoga-upper-limb",
+      "title": "上肢の筋とヨガの実践",
+      "content": "ヨガのポーズは上肢の筋群を多角的に活用する。①荷重ポーズでの上肢の役割：ダウンドッグ（アドムカシュヴァナーサナ）では三角筋前部・前鋸筋が肩関節屈曲と肩甲骨外転を、上腕三頭筋が肘伸展を維持する。手首に体重がかかるため前腕屈筋群の等尺性収縮が手関節を安定させる。チャトランガでは上腕三頭筋の遠心性収縮で身体を下ろし、大胸筋・三角筋前部が肩関節を安定させる。②回旋筋腱板の活性化：ヨガで「肩を外旋して」というキューは棘下筋・小円筋を活性化し、肩峰下スペースを広げてインピンジメントを予防する。逆に過度な内旋（肩甲下筋優位）は肩峰下衝突のリスクを高める。③手と前腕の意識：ヨガでは「手のひら全体でマットを押す」（ハスタバンダ）という指導が重要。これは手内在筋と前腕筋群を活性化し、手首への負荷を分散させる。指を広げること（背側骨間筋の外転）で支持面が広がり安定性が向上する。④上腕二頭筋と三頭筋のバランス：プランク系ポーズでは三頭筋主体、チンアップ系では二頭筋主体となり、ヨガのフロー全体でバランスよく鍛えられる。⑤指導上の注意：手首痛はヨガ練習者の多い訴え。手首の過伸展を軽減するため、前腕を接地するバリエーション（ドルフィンポーズ）を提案する。回旋筋腱板損傷のリスクがある生徒には、荷重ポーズで肩の外旋を意識させ、肩甲骨の安定化を促す（Kaminoff & Matthews, Yoga Anatomy; Long, The Key Muscles of Yoga）。"
     }
   ],
   "sections": [
@@ -2438,6 +2458,558 @@
           "explanation": "サイドプランクでは重力が体幹を下方に引き（側屈させようとする）、これに抗して上側（特に下側）の腹斜筋群が等尺性収縮で体幹を一直線に保持する。腰方形筋（QL）も協力筋として関与する。このポーズは腹斜筋群と腰方形筋の等尺性筋力を効果的に鍛え、脊柱の側方安定性を向上させる。McGillは腰痛予防の「ビッグ3」エクササイズの一つとしてサイドブリッジ（サイドプランク）を推奨している（McGill, Low Back Disorders）。",
           "source": "McGill, Low Back Disorders",
           "reference_text_ids": ["yoga-core-trunk", "abdominal-muscles-basics"]
+        }
+      ]
+    },
+    {
+      "name": "三角筋と上腕の筋",
+      "slug": "deltoid-arm-muscles",
+      "description": "肩を丸く覆う三角筋の3部構造と、上腕の屈筋・伸筋",
+      "sort_order": 17,
+      "concepts": [
+        {
+          "name": "三角筋の構造と機能",
+          "description": "前部・中部・後部の3部と肩関節運動"
+        },
+        {
+          "name": "上腕の筋群",
+          "description": "上腕二頭筋・三頭筋・上腕筋の作用と支配神経"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "三角筋が前部・中部・後部の3部から構成される機能的意義として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "3部が異なる方向の線維配列を持つことで、肩関節の屈曲・外転・伸展を1つの筋でカバーできる", "is_correct": true },
+            { "text": "3部とも同じ方向に収縮し、外転のみを強力に行うため", "is_correct": false },
+            { "text": "3部はすべて同一の神経に支配され、常に同時に収縮する", "is_correct": false },
+            { "text": "3部構造は美容的な外見のためで、機能的な意味はない", "is_correct": false }
+          ],
+          "explanation": "三角筋は前部（屈曲・内旋）、中部（外転）、後部（伸展・外旋）と異なる線維方向を持ち、1つの筋で肩関節の多軸運動を実現している。すべて腋窩神経（C5-C6）支配だが、部位ごとに独立して活性化できる。なぜ3部なのかというと、肩関節は人体で最も可動域の広い球関節であり、その広い運動範囲をカバーするため1つの筋が3つの機能的サブユニットに分化している（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["deltoid-arm-basics"]
+        },
+        {
+          "question_text": "上腕二頭筋の主な作用の組み合わせとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "肘関節伸展と前腕回内", "is_correct": false },
+            { "text": "肘関節屈曲と前腕回外", "is_correct": true },
+            { "text": "肘関節屈曲と前腕回内", "is_correct": false },
+            { "text": "肩関節外転と肘関節伸展", "is_correct": false }
+          ],
+          "explanation": "上腕二頭筋は橈骨粗面に停止し、肘関節の屈曲と前腕の回外を行う。回外作用は橈骨粗面が橈骨の内側にあるため、収縮時に橈骨を外方に回転させることで生じる。ドアノブを回す動作やコルク抜きを回す動作で強力に働く。筋皮神経（C5-C6）支配。なぜ「二頭」かというと、長頭と短頭の2つの起始を持つためで、長頭は肩関節の安定化にも寄与する（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["deltoid-arm-basics"]
+        },
+        {
+          "question_text": "肩関節の外転運動において、外転0-15°で主に作用する筋はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "三角筋中部", "is_correct": false },
+            { "text": "僧帽筋上部", "is_correct": false },
+            { "text": "棘上筋", "is_correct": true },
+            { "text": "大胸筋鎖骨部", "is_correct": false }
+          ],
+          "explanation": "肩関節外転の初期（0-15°）では棘上筋が主動筋として作用する。これは三角筋の力のベクトルがこの角度では上腕骨を上方に押し付ける剪断力が大きく、効率的に外転できないためである。15°以降は三角筋中部のモーメントアームが有利になり主力となる。90°以上では肩甲骨の上方回旋（僧帽筋・前鋸筋）が加わり、肩甲上腕リズム（2:1）で180°まで挙上できる（Gray's Anatomy 42nd ed.; Neumann, Kinesiology）。",
+          "source": "Neumann, Kinesiology of the Musculoskeletal System",
+          "reference_text_ids": ["deltoid-arm-basics", "rotator-cuff-basics"]
+        },
+        {
+          "question_text": "上腕三頭筋の長頭が肩甲骨関節下結節から起始することの機能的意義はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "肘関節の屈曲を補助する", "is_correct": false },
+            { "text": "肩関節の屈曲に関与する", "is_correct": false },
+            { "text": "肩関節の伸展・内転にも関与でき、二関節筋として機能する", "is_correct": true },
+            { "text": "前腕の回外を補助する", "is_correct": false }
+          ],
+          "explanation": "上腕三頭筋の長頭は肩甲骨関節下結節に起始し肘頭に停止するため、肩関節と肘関節をまたぐ二関節筋である。肘伸展に加え、肩関節の伸展・内転にも補助的に作用する。外側頭・内側頭は上腕骨から起始する単関節筋で肘伸展のみ。長頭のこの特性により、投球動作の加速相（肩伸展+肘伸展）で効率的にパワーを発揮できる。橈骨神経（C6-C8）支配（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["deltoid-arm-basics"]
+        },
+        {
+          "question_text": "上腕筋（Brachialis）が「純粋な肘屈曲筋」と呼ばれる理由として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "二関節筋であり肩関節にも作用するため", "is_correct": false },
+            { "text": "尺骨に停止するため、前腕の回内・回外位に関係なく常に肘屈曲に作用する", "is_correct": true },
+            { "text": "最も収縮速度が速い筋線維で構成されているため", "is_correct": false },
+            { "text": "橈骨に停止し回外も同時に行うため", "is_correct": false }
+          ],
+          "explanation": "上腕筋は上腕骨前面から尺骨粗面に停止する。尺骨は回内・回外運動で回転しない骨（橈骨が回転する）であるため、前腕がどの回旋位にあっても肘屈曲力が変わらない。一方、上腕二頭筋は橈骨に停止するため回外位で屈曲力が最大、回内位で減少する。このため上腕筋は前腕の位置に依存しない「純粋な」肘屈曲筋と呼ばれる。筋皮神経（C5-C6）支配（Gray's Anatomy 42nd ed.; Neumann, Kinesiology）。",
+          "source": "Neumann, Kinesiology of the Musculoskeletal System",
+          "reference_text_ids": ["deltoid-arm-basics"]
+        },
+        {
+          "question_text": "腋窩神経損傷（例：肩関節前方脱臼に伴う）で最も障害される動作はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "肘関節の屈曲", "is_correct": false },
+            { "text": "前腕の回外", "is_correct": false },
+            { "text": "肩関節の外転と上腕外側の感覚", "is_correct": true },
+            { "text": "手関節の背屈", "is_correct": false }
+          ],
+          "explanation": "腋窩神経（C5-C6）は三角筋と小円筋を支配する。肩関節前方脱臼で腋窩神経が四辺形間隙で損傷されると、三角筋の麻痺により肩外転が著しく困難になる。また上腕外側の皮膚感覚（regimental badge area）も消失する。これは臨床上重要な所見で、肩関節脱臼後は必ず腋窩神経の機能をチェックする。なぜ腋窩神経が脆弱かというと、上腕骨外科頸の近くを走行するためである（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["deltoid-arm-basics"]
+        },
+        {
+          "question_text": "肩甲上腕リズム（scapulohumeral rhythm）において、肩関節外転150°の際の肩甲上腕関節と肩甲胸郭関節の運動比率として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "肩甲上腕関節150°：肩甲胸郭関節0°", "is_correct": false },
+            { "text": "肩甲上腕関節100°：肩甲胸郭関節50°", "is_correct": true },
+            { "text": "肩甲上腕関節75°：肩甲胸郭関節75°", "is_correct": false },
+            { "text": "肩甲上腕関節50°：肩甲胸郭関節100°", "is_correct": false }
+          ],
+          "explanation": "肩甲上腕リズムは肩関節外転・屈曲時に肩甲上腕関節と肩甲胸郭関節が約2:1の比率で連動する法則である（Inman, 1944）。150°の外転では肩甲上腕関節が約100°、肩甲骨の上方回旋が約50°。この連動がなければ90°以上の挙上は困難。僧帽筋上部・下部と前鋸筋がforce coupleとして肩甲骨を上方回旋させる。この知識はヨガの指導で「肩甲骨を固定して腕を挙げて」という不適切なキューを避けるために重要である（Neumann, Kinesiology; Inman et al. 1944）。",
+          "source": "Neumann, Kinesiology of the Musculoskeletal System",
+          "reference_text_ids": ["deltoid-arm-basics", "trapezius-shoulder-basics"]
+        },
+        {
+          "question_text": "上腕二頭筋長頭腱が上腕骨の結節間溝（bicipital groove）を通過する臨床的意義として最も重要なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "腱が骨の溝に固定され安定しているため損傷リスクはない", "is_correct": false },
+            { "text": "溝内で腱が機械的に摩擦・圧迫を受けやすく、腱炎・断裂の好発部位となる", "is_correct": true },
+            { "text": "溝内で血液供給が豊富なため治癒が早い", "is_correct": false },
+            { "text": "溝は単なる通過点で臨床的意義は乏しい", "is_correct": false }
+          ],
+          "explanation": "上腕二頭筋長頭腱は関節包内を走行し結節間溝を通過する。溝内で横靭帯に保持されるが、繰り返しの肩関節運動により機械的摩擦を受けやすく、腱炎（bicipital tendinitis）や腱断裂（Popeye sign: 筋腹が遠位に落ち込む変形）の好発部位となる。これは特に投球動作や重量挙げなど肩の反復使用で起こりやすい。なぜ長頭が脆弱かというと、関節包内を走行する特殊な経路により血液供給が乏しい区間が存在するためである（Neer, Shoulder Reconstruction; Gray's Anatomy 42nd ed.）。",
+          "source": "Neer, Shoulder Reconstruction",
+          "reference_text_ids": ["deltoid-arm-basics"]
+        }
+      ]
+    },
+    {
+      "name": "前腕と手の筋",
+      "slug": "forearm-hand-muscles",
+      "description": "握る・つまむを支える精巧な前腕筋群と手内在筋",
+      "sort_order": 18,
+      "concepts": [
+        {
+          "name": "前腕の屈筋群と伸筋群",
+          "description": "内側上顆・外側上顆からの共通起始と層構造"
+        },
+        {
+          "name": "手内在筋と精密把持",
+          "description": "母指球筋・虫様筋・骨間筋による器用な手の動き"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "前腕屈筋群の大部分が上腕骨内側上顆から共通起始する理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "多数の屈筋が1箇所から起始することで、腱の管理が効率的になり協調した屈曲運動が可能になる", "is_correct": true },
+            { "text": "内側上顆が最も大きな骨突起であるため", "is_correct": false },
+            { "text": "屈筋群はすべて同一の神経に支配されているため", "is_correct": false },
+            { "text": "内側上顆には特別な栄養血管が存在するため", "is_correct": false }
+          ],
+          "explanation": "前腕屈筋群（円回内筋・橈側手根屈筋・長掌筋・尺側手根屈筋など）は内側上顆の共通屈筋起始（common flexor origin）から起始する。この設計により、多数の筋が効率的に配置され協調して手関節・手指の屈曲を行える。内側上顆炎（ゴルフ肘）はこの共通起始部の過使用による炎症。なぜ「共通起始」なのかというと、発生学的に前腕屈筋群は共通の筋芽組織から分化するためである（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["forearm-hand-basics"]
+        },
+        {
+          "question_text": "テニス肘（外側上顆炎）の病態として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "前腕屈筋群の内側上顆付着部の炎症", "is_correct": false },
+            { "text": "上腕二頭筋腱の断裂", "is_correct": false },
+            { "text": "前腕伸筋群（特に短橈側手根伸筋）の外側上顆付着部の微小断裂・変性", "is_correct": true },
+            { "text": "手根管内での正中神経の圧迫", "is_correct": false }
+          ],
+          "explanation": "テニス肘（外側上顆炎/lateral epicondylitis）は前腕伸筋群、特に短橈側手根伸筋（ECRB）の外側上顆付着部が反復的な負荷で微小断裂・変性を起こす病態。バックハンドストロークや繰り返しの手首伸展動作で発症する。最近の研究では炎症（-itis）よりも変性（tendinopathy/-osis）が主体と考えられている。なぜECRBが好発するかというと、外側上顆の最も深部に位置し、機械的ストレスを受けやすいためである（Nirschl & Pettrone; Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["forearm-hand-basics"]
+        },
+        {
+          "question_text": "虫様筋（Lumbrical）のユニークな作用として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "MP関節の伸展とIP関節の屈曲", "is_correct": false },
+            { "text": "MP関節の屈曲とIP関節の伸展", "is_correct": true },
+            { "text": "すべての指関節の屈曲", "is_correct": false },
+            { "text": "指の外転と内転", "is_correct": false }
+          ],
+          "explanation": "虫様筋は深指屈筋腱から起始し指背腱膜に停止する特殊な筋で、MP関節を屈曲しながらIP関節を伸展させる。この「intrinsic plus position」はペンを持つ、小さな物をつまむなどの精密動作に不可欠。虫様筋は筋紡錘密度が高く、固有感覚フィードバックのセンサーとしても重要な役割を果たす。なぜこの独特な作用が可能かというと、起始が屈筋腱、停止が伸筋装置という2つの異なるシステムを橋渡しする位置にあるためである（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["forearm-hand-basics"]
+        },
+        {
+          "question_text": "背側骨間筋（Dorsal Interossei）と掌側骨間筋（Palmar Interossei）の作用を覚えるための「DAB-PAD」法則の意味として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "Dorsal=Adduction, Palmar=Abduction, Distal", "is_correct": false },
+            { "text": "Dorsal=ABduction（外転）, Palmar=ADduction（内転）", "is_correct": true },
+            { "text": "Dorsal=Anterior, Bilateral / Palmar=Anterior, Distal", "is_correct": false },
+            { "text": "Dorsal=Addition / Palmar=Deletion（削除）", "is_correct": false }
+          ],
+          "explanation": "DAB-PAD法則は手の骨間筋の作用を覚えるための記憶術。DAB: Dorsal ABduct（背側骨間筋は指を外転=開く）、PAD: Palmar ADduct（掌側骨間筋は指を内転=閉じる）。背側骨間筋は4本で各中手骨間から起始し、掌側骨間筋は3本（中指を除く）で中指に向かって指を寄せる。いずれも深枝の尺骨神経（C8-T1）支配。なぜ背側が外転かというと、背側骨間筋は2頭から起始する大きな筋でモーメントアームが外転方向に有利な配置だからである（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["forearm-hand-basics"]
+        },
+        {
+          "question_text": "母指対立筋（Opponens Pollicis）の作用が人類の手の機能において特に重要な理由はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "握力の大部分を発揮するため", "is_correct": false },
+            { "text": "母指を他の4指と向かい合わせる対立運動を可能にし、精密把持（precision grip）の基盤となるため", "is_correct": true },
+            { "text": "指を素早く伸展させるため", "is_correct": false },
+            { "text": "手首の安定性を維持するため", "is_correct": false }
+          ],
+          "explanation": "母指対立筋は第1中手骨を内側に回旋させ、母指の指腹を他の指と向かい合わせる（対立/opposition）。この動作は人類の精密把持（ペンを持つ、ボタンを留める）の基盤であり、霊長類の中でも特に人類で発達した能力。正中神経（C8-T1）の反回枝が支配する。なぜ対立運動が重要かというと、力強い把持（power grip）に加えて精巧な道具使用を可能にし、人類の文化的発展の基盤となったためである（Napier, Hands; Gray's Anatomy 42nd ed.）。",
+          "source": "Napier, Hands",
+          "reference_text_ids": ["forearm-hand-basics"]
+        },
+        {
+          "question_text": "手根管症候群（Carpal Tunnel Syndrome）で障害される神経と、典型的な初期症状の組み合わせとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "尺骨神経 — 小指・環指のしびれ", "is_correct": false },
+            { "text": "正中神経 — 母指・示指・中指のしびれと夜間痛", "is_correct": true },
+            { "text": "橈骨神経 — 手背のしびれ", "is_correct": false },
+            { "text": "筋皮神経 — 前腕外側のしびれ", "is_correct": false }
+          ],
+          "explanation": "手根管は手根骨と屈筋支帯で囲まれたトンネルで、正中神経と9本の屈筋腱が通過する。正中神経の圧迫により母指・示指・中指・環指橈側のしびれ、特に夜間に増悪する疼痛が特徴的。進行すると母指球筋の萎縮（猿手）が起こる。妊娠・甲状腺機能低下・糖尿病・反復的な手作業が誘因。なぜ夜間に悪化するかというと、就寝時の手関節屈曲位で手根管内圧が上昇し、正中神経の圧迫が増強されるためである（Phalen; Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["forearm-hand-basics"]
+        },
+        {
+          "question_text": "前腕の屈筋群4層の配列において、最深層に位置する筋とその機能として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "浅指屈筋 — PIP関節の屈曲", "is_correct": false },
+            { "text": "深指屈筋 — DIP関節の屈曲", "is_correct": false },
+            { "text": "方形回内筋 — 前腕の回内（遠位での安定した回内）", "is_correct": true },
+            { "text": "長母指屈筋 — 母指IP関節の屈曲", "is_correct": false }
+          ],
+          "explanation": "前腕屈筋群は浅層から①円回内筋・橈側手根屈筋・長掌筋・尺側手根屈筋、②浅指屈筋、③深指屈筋・長母指屈筋、④最深層の方形回内筋の4層構造。方形回内筋は尺骨遠位から橈骨遠位に水平に走り、前腕の回内を担う。円回内筋と方形回内筋の2筋が回内を行うが、方形回内筋は肘関節の角度に依存せず常に作用する純粋な回内筋である。なぜ最深層かというと、橈骨と尺骨の骨間膜に近い位置で最も効率的に回内トルクを発生できるためである（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["forearm-hand-basics"]
+        },
+        {
+          "question_text": "Guyon管（尺骨管）で尺骨神経が圧迫された場合に出現する手の変形として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "猿手（母指球萎縮で母指が対立困難）", "is_correct": false },
+            { "text": "下垂手（手関節と指の伸展不能）", "is_correct": false },
+            { "text": "鷲手（環指・小指のMP過伸展+IP屈曲位）", "is_correct": true },
+            { "text": "祈祷手（手指の屈曲不能）", "is_correct": false }
+          ],
+          "explanation": "Guyon管（豆状骨と有鉤骨鉤の間）での尺骨神経深枝の障害により、骨間筋と第3-4虫様筋が麻痺する。MP関節を屈曲する虫様筋が機能せず長指伸筋の作用が優位になりMP過伸展、IP関節を伸展する骨間筋が機能せず屈筋が優位になりIP屈曲位となる。この変形が鷲手（claw hand）。なぜ環指・小指のみかというと、示指・中指の第1-2虫様筋は正中神経支配のため温存されるからである。自転車のハンドルバー長時間把持（cyclist's palsy）でも起こりうる（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["forearm-hand-basics"]
+        }
+      ]
+    },
+    {
+      "name": "回旋筋腱板",
+      "slug": "rotator-cuff",
+      "description": "肩の安定装置 — 4つの筋が作るforce couple",
+      "sort_order": 19,
+      "concepts": [
+        {
+          "name": "回旋筋腱板の4筋",
+          "description": "棘上筋・棘下筋・小円筋・肩甲下筋の走行と機能"
+        },
+        {
+          "name": "肩関節の安定性メカニズム",
+          "description": "Force coupleとインピンジメント症候群"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "回旋筋腱板を構成する4つの筋の組み合わせとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "棘上筋・棘下筋・大円筋・肩甲下筋", "is_correct": false },
+            { "text": "棘上筋・棘下筋・小円筋・肩甲下筋", "is_correct": true },
+            { "text": "棘上筋・棘下筋・小円筋・三角筋", "is_correct": false },
+            { "text": "棘上筋・大円筋・小円筋・烏口腕筋", "is_correct": false }
+          ],
+          "explanation": "回旋筋腱板（Rotator Cuff/SITS muscles）は棘上筋（Supraspinatus）・棘下筋（Infraspinatus）・小円筋（Teres Minor）・肩甲下筋（Subscapularis）の4筋。SITSの頭文字で覚える。大円筋は回旋筋腱板に含まれない（停止が大結節/小結節ではなく上腕骨小結節稜）。なぜこの4筋が重要かというと、肩関節は関節窩が浅く骨による安定性が乏しいため、これら4筋の腱が関節包と融合して動的安定装置として機能するからである（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["rotator-cuff-basics"]
+        },
+        {
+          "question_text": "回旋筋腱板の中で唯一、肩関節の内旋を担う筋はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "棘上筋", "is_correct": false },
+            { "text": "棘下筋", "is_correct": false },
+            { "text": "小円筋", "is_correct": false },
+            { "text": "肩甲下筋", "is_correct": true }
+          ],
+          "explanation": "肩甲下筋は肩甲骨前面（肩甲下窩）から小結節に停止し、肩関節の内旋を担う。4筋中最大の筋で、前方からの安定性を提供する。残りの3筋は後方から外旋・外転を担う。なぜ肩甲下筋だけが内旋かというと、肩甲骨前面に位置し小結節に停止するため、収縮時に上腕骨を内方に回転させるモーメントを生むからである。肩甲下神経（C5-C7）支配（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["rotator-cuff-basics"]
+        },
+        {
+          "question_text": "回旋筋腱板のforce couple mechanismの説明として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "4筋がすべて同時に最大収縮して肩関節を固定する", "is_correct": false },
+            { "text": "三角筋の上方牽引力を、腱板筋群の下方圧迫力で相殺し上腕骨頭を関節窩に保持する", "is_correct": true },
+            { "text": "回旋筋腱板が単独で肩関節の全運動を担う", "is_correct": false },
+            { "text": "4筋が交互に収縮して関節を振動させる", "is_correct": false }
+          ],
+          "explanation": "肩関節外転時、三角筋は上腕骨を上方に引く力（上方剪断力）を発生する。回旋筋腱板（特に棘下筋・肩甲下筋）は上腕骨頭を関節窩に下方・内方に押し付ける力を発生し、三角筋の上方力と相殺して骨頭を関節窩に求心位で保持する。これがforce couple mechanism。この力のカップルが腱板断裂で破綻すると、三角筋の上方力により骨頭が上方偏位し、肩峰下インピンジメントが発生する（Neer; Gray's Anatomy 42nd ed.）。",
+          "source": "Neer, Shoulder Reconstruction",
+          "reference_text_ids": ["rotator-cuff-basics"]
+        },
+        {
+          "question_text": "棘上筋腱が回旋筋腱板の中で最も損傷しやすい解剖学的理由はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "4筋中最も厚い腱であるため負荷が集中する", "is_correct": false },
+            { "text": "腱内に血管分布が乏しい領域（critical zone）があり、肩峰下を通過する際に機械的圧迫を受ける", "is_correct": true },
+            { "text": "支配神経が最も長い経路を走るため", "is_correct": false },
+            { "text": "停止部が最も骨密度の低い部位にあるため", "is_correct": false }
+          ],
+          "explanation": "棘上筋腱は肩峰と烏口肩峰靭帯の下を通過する際に機械的圧迫を受ける。さらに腱の停止部付近に血管分布が乏しい領域（critical zone/Codmanの血管乏少域）が存在し、修復能力が低い。この2つの要因（機械的ストレス+乏血性）により、棘上筋腱は腱板断裂の最好発部位となる。40歳以上の約25%にMRIで腱板断裂が認められる。なぜ血管が乏しいかというと、骨側と筋腹側からの血管の「分水嶺」にあたるためである（Codman; Neer; Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["rotator-cuff-basics"]
+        },
+        {
+          "question_text": "肩峰下インピンジメント症候群を悪化させる可能性が最も高い動作はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "肘を体側につけたまま外旋する動作", "is_correct": false },
+            { "text": "肩関節内旋位での反復的な外転挙上動作", "is_correct": true },
+            { "text": "前腕の回外動作", "is_correct": false },
+            { "text": "肩甲骨の内転（肩甲骨を寄せる）", "is_correct": false }
+          ],
+          "explanation": "肩関節内旋位での外転では大結節が肩峰下に衝突しやすくなる。これは内旋により大結節が前方に向き、肩峰と烏口肩峰靭帯の下を通過する際のクリアランスが狭くなるため。水泳（クロール）、テニスのサーブ、投球などの反復的なオーバーヘッド動作で発生する。予防には外旋位での挙上（肩甲骨面での外転/scaption）が推奨される。ヨガでも「肩を外旋して腕を挙げる」キューはこの原理に基づく（Neer; Jobe; Gray's Anatomy 42nd ed.）。",
+          "source": "Neer, Shoulder Reconstruction",
+          "reference_text_ids": ["rotator-cuff-basics", "deltoid-arm-basics"]
+        },
+        {
+          "question_text": "棘下筋と小円筋がともに肩関節外旋を担うが、臨床的に両者を区別する意義はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "区別する意義は特になく、同一の筋として扱ってよい", "is_correct": false },
+            { "text": "支配神経が異なるため（棘下筋=肩甲上神経、小円筋=腋窩神経）、神経障害の鑑別に重要", "is_correct": true },
+            { "text": "棘下筋のみが外旋し、小円筋は内旋を担う", "is_correct": false },
+            { "text": "小円筋は回旋筋腱板に含まれないため", "is_correct": false }
+          ],
+          "explanation": "棘下筋は肩甲上神経（C5-C6）、小円筋は腋窩神経（C5-C6）と支配神経が異なる。肩甲上神経の障害（肩甲切痕での圧迫など）では棘下筋のみ萎縮し、小円筋は温存される。逆に腋窩神経障害では三角筋と小円筋が影響を受ける。このため外旋筋力低下の原因が肩甲上神経か腋窩神経かの鑑別に両筋の区別が臨床的に重要となる（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["rotator-cuff-basics"]
+        },
+        {
+          "question_text": "回旋筋腱板の4筋の停止部位の配置を説明した記述として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "4筋すべてが大結節に停止する", "is_correct": false },
+            { "text": "棘上筋・棘下筋・小円筋が大結節に、肩甲下筋のみ小結節に停止する", "is_correct": true },
+            { "text": "4筋すべてが小結節に停止する", "is_correct": false },
+            { "text": "棘上筋・肩甲下筋が大結節に、棘下筋・小円筋が小結節に停止する", "is_correct": false }
+          ],
+          "explanation": "回旋筋腱板の停止：棘上筋→大結節上面、棘下筋→大結節中面、小円筋→大結節下面（後方3筋は大結節に上から順に並ぶ）、肩甲下筋→小結節（前方のみ）。この配置は上腕骨頭を後方・上方・前方から取り囲むように設計されている。結節間溝（大結節と小結節の間）は上腕二頭筋長頭腱が通過する。なぜ肩甲下筋だけ小結節かというと、前方から内旋力を発揮するには小結節（前方）への停止が力学的に有利だからである（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["rotator-cuff-basics"]
+        },
+        {
+          "question_text": "回旋筋腱板修復術後のリハビリテーションで、初期に外旋運動を制限する理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "外旋運動は骨折のリスクを高めるため", "is_correct": false },
+            { "text": "修復した腱に引張ストレスがかかり、再断裂のリスクが高まるため", "is_correct": true },
+            { "text": "外旋は三角筋の機能回復を妨げるため", "is_correct": false },
+            { "text": "外旋により関節包が過度に弛緩するため", "is_correct": false }
+          ],
+          "explanation": "腱板修復術（特に棘上筋・棘下筋）後は、修復した腱の縫合部に過度な引張力をかけないことが重要。外旋は棘下筋腱に、外転は棘上筋腱にそれぞれ張力を加える。腱の治癒（骨-腱付着部のリモデリング）には約12-16週を要するため、段階的に可動域を拡大する。なぜ初期制限が重要かというと、修復直後の腱-骨界面は力学的に最も脆弱で、コラーゲン線維の成熟と骨への再付着が完了するまで保護が必要だからである（Galatz et al.; AAOS Clinical Practice Guidelines）。",
+          "source": "AAOS Clinical Practice Guidelines",
+          "reference_text_ids": ["rotator-cuff-basics"]
+        }
+      ]
+    },
+    {
+      "name": "上肢の筋とヨガ",
+      "slug": "yoga-upper-limb-muscles",
+      "description": "荷重ポーズでの肩・腕・手の使い方を解剖学で理解する",
+      "sort_order": 20,
+      "concepts": [
+        {
+          "name": "ヨガの荷重ポーズと上肢",
+          "description": "ダウンドッグ・チャトランガでの上肢の筋活動"
+        },
+        {
+          "name": "肩の安定化と手首の保護",
+          "description": "回旋筋腱板の活性化とハスタバンダ"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "ダウンドッグ（アドムカシュヴァナーサナ）で「肩を耳から遠ざけて」というキューが促す筋活動として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "僧帽筋上部の収縮による肩甲骨挙上", "is_correct": false },
+            { "text": "僧帽筋下部と前鋸筋の収縮による肩甲骨下制と上方回旋", "is_correct": true },
+            { "text": "三角筋後部の収縮による肩関節伸展", "is_correct": false },
+            { "text": "上腕二頭筋の収縮による肘屈曲", "is_correct": false }
+          ],
+          "explanation": "「肩を耳から遠ざけて」は僧帽筋下部と前鋸筋を活性化し、肩甲骨を下制（下げる）しつつ上方回旋させるキュー。これにより僧帽筋上部の過活動（肩すくみ）を抑制し、肩甲骨を安定させた状態で腕を挙上できる。肩峰下スペースが確保されインピンジメント予防にもなる。なぜこのキューが重要かというと、多くの生徒は荷重時に僧帽筋上部が過活動になり首や肩の緊張を引き起こすためである（Kaminoff & Matthews, Yoga Anatomy; Long, The Key Muscles of Yoga）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-upper-limb", "trapezius-shoulder-basics"]
+        },
+        {
+          "question_text": "チャトランガ・ダンダーサナ（四肢で支える杖のポーズ）で身体を下ろす際の上腕三頭筋の収縮タイプはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "求心性収縮（肘を伸ばす）", "is_correct": false },
+            { "text": "遠心性収縮（重力に抗してブレーキをかけながら肘を曲げる）", "is_correct": true },
+            { "text": "等尺性収縮（肘の角度を保持する）", "is_correct": false },
+            { "text": "収縮せず弛緩している", "is_correct": false }
+          ],
+          "explanation": "チャトランガで身体をゆっくり下ろす際、肘は屈曲するが上腕三頭筋（肘伸展筋）は弛緩せずに遠心性収縮（eccentric contraction）で重力に抗いブレーキをかける。これにより身体が急に落ちることを防ぐ。その後アップドッグで腕を伸ばす際は求心性収縮に切り替わる。なぜ遠心性収縮を理解することが指導に重要かというと、「ゆっくり下ろして」というキューの本質がブレーキ（遠心性収縮）の制御にあることを伝えられるためである（Kaminoff & Matthews, Yoga Anatomy）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-upper-limb", "deltoid-arm-basics"]
+        },
+        {
+          "question_text": "ヨガの荷重ポーズで「指を大きく広げてマットを押す」（ハスタバンダ）の解剖学的効果として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "背側骨間筋の外転活動により支持面積が拡大し、手首への集中荷重を分散させる", "is_correct": true },
+            { "text": "指伸筋の伸展により手関節の過屈曲を防ぐ", "is_correct": false },
+            { "text": "母指球筋の収縮により握力が向上する", "is_correct": false },
+            { "text": "前腕伸筋群の弛緩により手首の可動域が広がる", "is_correct": false }
+          ],
+          "explanation": "指を広げる動作は背側骨間筋（DAB: Dorsal ABduct）を活性化し、支持面積を拡大する。これにより体重が手のひら全体に分散され、手根部への集中荷重が軽減される。同時に手内在筋と前腕筋群の共収縮が手のアーチ構造を活性化し、手首の安定性を向上させる。なぜこれが重要かというと、手首痛はヨガ練習者の最も多い訴えの一つで、適切な手の使い方が予防の鍵だからである（Kaminoff & Matthews, Yoga Anatomy; Long, The Key Muscles of Yoga）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-upper-limb", "forearm-hand-basics"]
+        },
+        {
+          "question_text": "ヨガのプランクポーズで肩関節を外旋させるキューの回旋筋腱板に対する効果はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "肩甲下筋を主に活性化し、関節を前方から安定させる", "is_correct": false },
+            { "text": "棘下筋・小円筋を活性化し、肩峰下スペースを広げてインピンジメントを予防する", "is_correct": true },
+            { "text": "棘上筋を弛緩させ、肩関節の可動域を拡大する", "is_correct": false },
+            { "text": "大円筋を収縮させ、肩甲骨を内転固定する", "is_correct": false }
+          ],
+          "explanation": "肩関節外旋は棘下筋と小円筋の収縮により、大結節を後方に回旋させる。これにより肩峰と大結節のクリアランスが拡大し、棘上筋腱の衝突（インピンジメント）を予防する。プランクやダウンドッグなど肩に荷重がかかるポーズで特に重要。なぜ外旋が保護的かというと、内旋位では大結節が前方を向き肩峰下に衝突しやすいが、外旋位では大結節が後方に退避し通過空間が確保されるためである（Neer; Kaminoff & Matthews, Yoga Anatomy）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-upper-limb", "rotator-cuff-basics"]
+        },
+        {
+          "question_text": "ヨガのクロウポーズ（バカーサナ）で特に強く活動する上肢の筋群の組み合わせとして最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "上腕二頭筋と橈側手根屈筋", "is_correct": false },
+            { "text": "三角筋前部・前鋸筋・手指屈筋群（全体重を腕と手で支持）", "is_correct": true },
+            { "text": "上腕三頭筋と僧帽筋上部", "is_correct": false },
+            { "text": "棘下筋と長母指伸筋", "is_correct": false }
+          ],
+          "explanation": "クロウポーズでは全体重を両手で支持する。三角筋前部が肩関節屈曲位を維持し、前鋸筋が肩甲骨を外転・前方突出させて安定させ（肩甲骨のwinging防止）、手指屈筋群がマットを強く把持して重心を制御する。肘はやや屈曲位で上腕三頭筋も等尺性収縮で関与。なぜ前鋸筋が重要かというと、前鋸筋が弱いと肩甲骨が浮き上がり（翼状肩甲）、力の伝達が非効率になりポーズが維持できないためである（Long, The Key Muscles of Yoga; Kaminoff & Matthews, Yoga Anatomy）。",
+          "source": "Long, The Key Muscles of Yoga",
+          "reference_text_ids": ["yoga-upper-limb", "deltoid-arm-basics"]
+        },
+        {
+          "question_text": "ヨガの練習で手首痛を訴える生徒に対する解剖学に基づいた指導として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "手首の柔軟性を高めるため過伸展ストレッチを増やす", "is_correct": false },
+            { "text": "手首への負荷を完全に避け、荷重ポーズをすべて除外する", "is_correct": false },
+            { "text": "前腕を接地するバリエーション（ドルフィンポーズ等）を提案し、段階的に荷重を増やす", "is_correct": true },
+            { "text": "手首にテーピングを巻いてそのまま練習を続ける", "is_correct": false }
+          ],
+          "explanation": "手首痛の主因は手関節の過伸展（約90°背屈）と集中荷重。ドルフィンポーズ（前腕接地）に変更すると手首への負荷が除去され、同時に肩や体幹のトレーニングは継続できる。段階的にハスタバンダ（指を広げてマットを押す）を導入し手の使い方を改善しながら荷重を増やす。なぜ過伸展ストレッチが不適切かというと、すでに過伸展位で痛みが出ている組織をさらに伸張することは症状を悪化させるためである（Kaminoff & Matthews, Yoga Anatomy）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-upper-limb", "forearm-hand-basics"]
+        },
+        {
+          "question_text": "ヨガのワシのポーズ（ガルダーサナ）の腕の組み方が肩甲骨周囲に与える効果として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "肩甲骨の内転筋（菱形筋・僧帽筋中部）を強化する", "is_correct": false },
+            { "text": "肩甲骨を外転・拳上させ、菱形筋・僧帽筋中下部を伸張し肩甲骨間の可動性を向上させる", "is_correct": true },
+            { "text": "回旋筋腱板の4筋すべてを均等に強化する", "is_correct": false },
+            { "text": "肩関節の外旋可動域を改善する", "is_correct": false }
+          ],
+          "explanation": "ガルダーサナの腕の組み方は肩関節内転・内旋・肘屈曲の複合位で、肩甲骨を最大外転・拳上位に導く。これにより菱形筋、僧帽筋中部・下部が伸張され、肩甲骨間の軟部組織の柔軟性が向上する。デスクワークで短縮しがちな前方の筋（大胸筋・小胸筋）と後方の筋のバランスを整える。なぜこのポーズが肩甲骨間の硬さに効果的かというと、両腕の交差により通常のストレッチでは到達しにくい肩甲骨外転・拳上の最終域を引き出せるためである（Kaminoff & Matthews, Yoga Anatomy; Long, The Key Muscles of Yoga）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-upper-limb", "trapezius-shoulder-basics"]
+        },
+        {
+          "question_text": "ヨガのピンチャマユーラーサナ（前腕倒立）で、回旋筋腱板が果たす役割として最も重要なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "肩関節を完全にロックして一切の動きを防止する", "is_correct": false },
+            { "text": "前腕の回内を維持して接地面を安定させる", "is_correct": false },
+            { "text": "全体重が肩にかかる中で上腕骨頭を関節窩に求心位で保持し、肩関節の安定性を動的に維持する", "is_correct": true },
+            { "text": "肩甲骨を下制して頸部のスペースを確保する", "is_correct": false }
+          ],
+          "explanation": "前腕倒立では全体重が肩関節にかかるため、回旋筋腱板のforce couple mechanismが極めて重要になる。棘上筋・棘下筋・小円筋・肩甲下筋が協調して上腕骨頭を関節窩に押し付け続けることで、荷重下でも肩関節が脱臼や亜脱臼を起こさない。同時に三角筋と前鋸筋が肩の挙上と肩甲骨の安定を担う。なぜ回旋筋腱板の弱い人にこのポーズが危険かというと、全体重による下方への力に対して骨頭を関節窩に保持する能力が不十分だと、肩関節の不安定性や損傷のリスクが高まるためである（Kaminoff & Matthews, Yoga Anatomy; Long, The Key Muscles of Yoga）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-upper-limb", "rotator-cuff-basics"]
         }
       ]
     }
