@@ -173,6 +173,155 @@
           "reference_text_ids": ["daily-movement-osteo-ref"]
         }
       ]
+    },
+    {
+      "name": "ヨガポーズの骨格分析",
+      "slug": "yoga-skeletal-analysis",
+      "description": "おなじみのポーズを「どの骨に荷重がかかり、どの関節が動いているか」で見直す",
+      "sort_order": 1,
+      "concepts": [
+        {
+          "name": "ヨガポーズの関節運動",
+          "description": "各ポーズでどの関節がどの方向に動いているかを分析する"
+        },
+        {
+          "name": "ヨガポーズの骨格負荷",
+          "description": "ポーズ中に体重や力がどの骨を通じて伝わるかを理解する"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "ダウンドッグ（下向きの犬のポーズ）で体重を直接受ける上肢の骨として、最も適切な組み合わせはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "上腕骨と肩甲骨", "is_correct": false },
+            { "text": "手根骨と中手骨", "is_correct": true },
+            { "text": "橈骨と尺骨", "is_correct": false },
+            { "text": "鎖骨と肩甲骨", "is_correct": false }
+          ],
+          "explanation": "ダウンドッグでは手のひらをマットにつくため、体重を直接受けるのはマットに接する手根骨（手首の小さな骨の集まり、8個で構成）と中手骨（手のひらの5本の骨）である。橈骨や尺骨は前腕の骨で荷重を中継するが、マットに直接は触れない。荷重は手根骨→橈骨→上腕骨→肩甲骨→体幹の順に伝わる（Kaminoff & Matthews, Yoga Anatomy）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-skeletal-analysis-ref"]
+        },
+        {
+          "question_text": "ウォーリアII（戦士のポーズII）の前脚の膝関節は、どの種類の関節に分類されるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "球関節", "is_correct": false },
+            { "text": "蝶番関節", "is_correct": true },
+            { "text": "鞍関節", "is_correct": false },
+            { "text": "車軸関節", "is_correct": false }
+          ],
+          "explanation": "膝関節は蝶番関節（hinge joint）に分類される。蝶番関節とは、ドアの蝶番のように1つの軸を中心に屈曲と伸展だけを行う関節のこと。ウォーリアIIでは前脚の膝を約90°屈曲するが、これは蝶番関節が許容する屈曲・伸展の動きそのもの。膝が左右にぶれるのは構造上の想定外であり、靭帯損傷のリスクとなる（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["yoga-skeletal-analysis-ref"]
+        },
+        {
+          "question_text": "ウォーリアII（戦士のポーズII）で前脚の股関節に起こる運動の組み合わせとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "屈曲・内転・内旋", "is_correct": false },
+            { "text": "伸展・外転・外旋", "is_correct": false },
+            { "text": "屈曲・外転・外旋", "is_correct": true },
+            { "text": "屈曲・外転・内旋", "is_correct": false }
+          ],
+          "explanation": "ウォーリアIIの前脚の股関節は、膝を前方に曲げることで屈曲、脚を横に広げることで外転、膝を外側に向けることで外旋という3つの動きが組み合わさった複合位をとる。このような多方向の動きを同時に行えるのは、股関節が球関節（ball-and-socket joint）だからである。球関節は球状の骨頭がカップ状の関節窩にはまる構造で、3軸すべての運動が可能になる（Kaminoff & Matthews, Yoga Anatomy）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-skeletal-analysis-ref"]
+        },
+        {
+          "question_text": "三角のポーズ（トリコーナーサナ）で脊柱に起こる主要な運動はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "屈曲（前屈）", "is_correct": false },
+            { "text": "伸展（後屈）", "is_correct": false },
+            { "text": "側屈", "is_correct": true },
+            { "text": "回旋（ツイスト）", "is_correct": false }
+          ],
+          "explanation": "三角のポーズでは体幹を横に倒すため、脊柱の主要な運動は側屈である。側屈では椎骨と椎骨をつなぐ椎間関節（平面関節）が片側で接近し、反対側で離開する。平面関節とは関節面が平らに近く、滑るような小さな動きだけを許す関節のこと。一つひとつの椎間関節の動きは小さいが、脊柱全体として積み重なることで大きな側屈が実現する（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["yoga-skeletal-analysis-ref"]
+        },
+        {
+          "question_text": "木のポーズ（ヴルクシャーサナ）で片脚立ちをしているとき、支持脚の体重分散に重要な足の構造はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "腓骨の外果", "is_correct": false },
+            { "text": "足のアーチ（縦アーチ・横アーチ）", "is_correct": true },
+            { "text": "膝蓋骨", "is_correct": false },
+            { "text": "脛骨粗面", "is_correct": false }
+          ],
+          "explanation": "足のアーチは踵骨・距骨・舟状骨・楔状骨・中足骨などがアーチ状に配列された構造で、内側縦アーチ・外側縦アーチ・横アーチの3つがある。このアーチ構造が体重を踵と足趾の付け根に分散し、衝撃を吸収するスプリングの役割を果たす。片脚立ちではこの分散機能が特に重要になる。腓骨外果や脛骨粗面は足の上方にある骨の構造であり、直接的な体重分散には関与しない（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["yoga-skeletal-analysis-ref"]
+        },
+        {
+          "question_text": "ダウンドッグで手関節（手首）にかかるストレスの種類として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "過度な屈曲（手首が手のひら側に折れる）", "is_correct": false },
+            { "text": "過度な伸展（手首が手の甲側に反る）", "is_correct": true },
+            { "text": "過度な尺屈（小指側への偏り）", "is_correct": false },
+            { "text": "過度な回旋（手首がねじれる）", "is_correct": false }
+          ],
+          "explanation": "ダウンドッグでは手のひらを床につき、手関節（橈骨手根関節）が大きく伸展（背屈）した状態で体重がかかる。橈骨手根関節とは橈骨（前腕の親指側の骨）の遠位端と手根骨（手首の小さな骨群）の間の関節で、楕円関節に分類される。手のひら全体でマットを押す「ハスタバンダ」の意識は、この伸展ストレスを手のひら全体に分散させ、手首の負担を軽減する工夫である（Kaminoff & Matthews, Yoga Anatomy）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-skeletal-analysis-ref"]
+        },
+        {
+          "question_text": "次のヨガポーズと、そのポーズで最も大きく動く関節の種類を正しく組み合わせなさい。",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "metadata": {
+            "pairs": [
+              { "left": "木のポーズ（挙げた脚の股関節）", "right": "球関節" },
+              { "left": "三角のポーズ（椎間関節）", "right": "平面関節" },
+              { "left": "ダウンドッグ（足関節の背屈）", "right": "蝶番関節" },
+              { "left": "ダウンドッグ（手関節）", "right": "楕円関節" }
+            ]
+          },
+          "choices": [
+            { "text": "木のポーズ — 球関節、三角のポーズ — 平面関節、足関節 — 蝶番関節、手関節 — 楕円関節", "is_correct": true },
+            { "text": "その他の組み合わせ", "is_correct": false }
+          ],
+          "explanation": "股関節は球関節で多軸の自由度を持ち、木のポーズで挙げた脚は屈曲・外転・外旋の複合位をとる。椎間関節は平面関節で関節面同士が滑る微小な動きを許し、三角のポーズの側屈に寄与する。距腿関節（足関節）は蝶番関節で背屈・底屈のみ、橈骨手根関節（手関節）は楕円関節で屈曲・伸展と橈屈・尺屈の2軸運動を行う。各ポーズの動きは、その関節の構造が許す範囲で起こっている（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["yoga-skeletal-analysis-ref"]
+        },
+        {
+          "question_text": "ウォーリアIIで前脚の膝が内側に崩れる（knee valgus）と、膝関節の{{blank}}靭帯にストレスがかかりやすい。",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "metadata": {
+            "sentence_template": "ウォーリアIIで前脚の膝が内側に崩れる（knee valgus）と、膝関節の{{blank}}靭帯にストレスがかかりやすい。",
+            "correct_answer": "内側側副（MCL）",
+            "word_options": ["内側側副（MCL）", "外側側副（LCL）", "前十字（ACL）", "後十字（PCL）"]
+          },
+          "choices": [
+            { "text": "内側側副（MCL）", "is_correct": true },
+            { "text": "外側側副（LCL）", "is_correct": false },
+            { "text": "前十字（ACL）", "is_correct": false },
+            { "text": "後十字（PCL）", "is_correct": false }
+          ],
+          "explanation": "膝が内側に崩れる（外反/valgus）と、膝の内側が引き伸ばされる。この内側を補強しているのが内側側副靭帯（MCL: Medial Collateral Ligament）である。靭帯とは骨と骨をつなぐ強靭な線維組織で、関節の過剰な動きを防ぐ「安全ベルト」のような役割を持つ。ウォーリアIIで「膝を足の中指の方向に向けて」という指示は、このMCLへの過剰なストレスを予防するためのアライメント指導である（Gray's Anatomy 42nd ed.; Kaminoff & Matthews, Yoga Anatomy）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["yoga-skeletal-analysis-ref"]
+        }
+      ]
     }
   ]
 }
