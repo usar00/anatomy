@@ -768,6 +768,155 @@
           "reference_text_ids": ["structure-function-osteo-ref"]
         }
       ]
+    },
+    {
+      "name": "骨格系の横断クイズ",
+      "slug": "osteo-cross-quiz",
+      "description": "骨と関節の知識を総動員 — 分類・比較・全体像を問う総まとめ",
+      "sort_order": 5,
+      "concepts": [
+        {
+          "name": "骨格系の全体像",
+          "description": "軸骨格と付属肢骨格の構成、骨と関節の分類体系を俯瞰する"
+        },
+        {
+          "name": "比較と統合",
+          "description": "異なる関節や骨を比較し、共通点と相違点から理解を深める"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "人体の骨格は大きく2つに分類される。頭蓋骨・脊柱・胸郭からなるグループの名称はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "付属肢骨格", "is_correct": false },
+            { "text": "軸骨格", "is_correct": true },
+            { "text": "内臓骨格", "is_correct": false },
+            { "text": "表層骨格", "is_correct": false }
+          ],
+          "explanation": "人体の骨格は軸骨格（axial skeleton）と付属肢骨格（appendicular skeleton）の2つに大別される。軸骨格とは体の「軸」を構成する骨の集まりで、頭蓋骨・脊柱・胸郭（胸骨+肋骨）の約80個の骨からなる。中枢神経（脳と脊髄）や内臓（心臓・肺）を保護する役割を担う。一方、付属肢骨格は上肢帯・上肢・下肢帯・下肢の約126個の骨で、四肢の運動を担当する（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["osteo-comprehensive-ref"]
+        },
+        {
+          "question_text": "次の骨の分類と具体例を正しく組み合わせなさい。",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "metadata": {
+            "pairs": [
+              { "left": "長骨", "right": "大腿骨" },
+              { "left": "扁平骨", "right": "肩甲骨" },
+              { "left": "短骨", "right": "手根骨" },
+              { "left": "種子骨", "right": "膝蓋骨" }
+            ]
+          },
+          "choices": [
+            { "text": "長骨 — 大腿骨、扁平骨 — 肩甲骨、短骨 — 手根骨、種子骨 — 膝蓋骨", "is_correct": true },
+            { "text": "その他の組み合わせ", "is_correct": false }
+          ],
+          "explanation": "骨はその形態で5つに分類される。長骨は長さが幅より大きい骨（大腿骨・上腕骨・脛骨など）で、てことして力を伝える。扁平骨は薄く平たい骨（肩甲骨・頭蓋骨・胸骨など）で、臓器保護と筋の付着面を提供。短骨はほぼ立方体状の骨（手根骨・足根骨）で、安定性と微細な動きに寄与。種子骨は腱の中に埋もれた骨（膝蓋骨が代表）で、てこの効率を高める。もう1つ不規則骨（椎骨・寛骨など）という複雑な形状の分類もある（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["osteo-comprehensive-ref"]
+        },
+        {
+          "question_text": "滑膜性関節の6つの種類のうち、最も多くの運動軸（自由度）を持つのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "蝶番関節（1軸）", "is_correct": false },
+            { "text": "楕円関節（2軸）", "is_correct": false },
+            { "text": "球関節（3軸）", "is_correct": true },
+            { "text": "平面関節（0軸・滑走のみ）", "is_correct": false }
+          ],
+          "explanation": "滑膜性関節は関節面の形で6つに分類され、運動の自由度が異なる。球関節は3軸（屈曲/伸展・内転/外転・内旋/外旋）の自由度を持ち、最も広い可動域がある（例：肩関節・股関節）。楕円関節と鞍関節は2軸、蝶番関節と車軸関節は1軸。平面関節は明確な軸を持たず滑走のみの微小な動き。「軸の数」が多いほど自由に動けるが、その分安定性が犠牲になるという法則がある（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["osteo-comprehensive-ref"]
+        },
+        {
+          "question_text": "上肢の関節を肩から指先に向かって近位から遠位の順に並べたとき、正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "肩関節 → 肘関節 → 手関節 → MCP関節 → PIP関節", "is_correct": true },
+            { "text": "肘関節 → 肩関節 → 手関節 → PIP関節 → MCP関節", "is_correct": false },
+            { "text": "肩関節 → 手関節 → 肘関節 → MCP関節 → DIP関節", "is_correct": false },
+            { "text": "肩関節 → 肘関節 → MCP関節 → 手関節 → PIP関節", "is_correct": false }
+          ],
+          "explanation": "近位（proximal）とは体幹に近い側、遠位（distal）とは体幹から遠い側を指す解剖学用語。上肢を体幹側からたどると、肩関節（肩甲骨と上腕骨の間）→肘関節（上腕骨と前腕骨の間）→手関節（橈骨と手根骨の間）→MCP関節（中手骨と指骨の間、指の付け根）→PIP関節（近位指骨と中位指骨の間、指の第2関節）→DIP関節（中位と末節の間、指先の関節）の順に並ぶ（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["osteo-comprehensive-ref"]
+        },
+        {
+          "question_text": "関節の3分類（線維性・軟骨性・滑膜性）のうち、最も自由に動く関節はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "線維性関節", "is_correct": false },
+            { "text": "軟骨性関節", "is_correct": false },
+            { "text": "滑膜性関節", "is_correct": true },
+            { "text": "3種類とも同じ可動域を持つ", "is_correct": false }
+          ],
+          "explanation": "関節は骨の結合様式で3つに大別される。線維性関節は骨同士が線維組織で直接つながり、ほとんど動かない（例：頭蓋骨の縫合）。軟骨性関節は軟骨を介して結合し、わずかに動く（例：恥骨結合、椎間板を介した椎体間の結合）。滑膜性関節は関節腔・滑液・関節包を持つ関節で、自由に動く（例：肩・膝・股関節など）。私たちが普段「関節」と呼ぶもののほとんどは滑膜性関節であり、日常動作のほぼ全てを担っている（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["osteo-comprehensive-ref"]
+        },
+        {
+          "question_text": "肩関節と股関節の比較として正しい記述はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "肩は安定性重視、股は可動域重視の設計", "is_correct": false },
+            { "text": "肩は可動域重視で脱臼しやすく、股は安定性重視で骨折しやすい", "is_correct": true },
+            { "text": "両者とも蝶番関節で1軸の運動を行う", "is_correct": false },
+            { "text": "肩は体重を支え、股は物を操作するための関節", "is_correct": false }
+          ],
+          "explanation": "肩関節と股関節はどちらも球関節だが、設計思想が正反対である。肩は浅い関節窩（骨頭の約1/3しか覆わない）で可動域を最大化し、腕の自由な操作を優先する。その代わり脱臼しやすい（全脱臼の約50%が肩）。股は深い寛骨臼（骨頭の約2/3を覆う）で安定性を確保し、体重支持を優先する。脱臼は稀だが、大腿骨頸部という細い部分に力が集中するため骨折のリスクがある。上肢は「操作する」、下肢は「支える」という機能の違いが関節の構造に反映されている（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["osteo-comprehensive-ref"]
+        },
+        {
+          "question_text": "「脛骨は{{blank}}に分類される骨で、下肢の荷重伝達の主経路を担う。」",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "metadata": {
+            "sentence_template": "脛骨は{{blank}}に分類される骨で、下肢の荷重伝達の主経路を担う。",
+            "correct_answer": "長骨",
+            "word_options": ["長骨", "短骨", "扁平骨", "不規則骨"]
+          },
+          "choices": [
+            { "text": "長骨", "is_correct": true },
+            { "text": "短骨", "is_correct": false },
+            { "text": "扁平骨", "is_correct": false },
+            { "text": "不規則骨", "is_correct": false }
+          ],
+          "explanation": "脛骨（すねの骨）は長骨に分類される。長骨の特徴は長さが幅より大きいことで、骨幹（中間の太い管状部分）と両端の骨端（関節面を持つ膨らんだ部分）で構成される。脛骨は下腿で主要な荷重伝達を担い、体重の約90%を受ける。隣の腓骨も長骨だが、より細く、主に筋の付着や足関節の安定に寄与し、荷重伝達への貢献は約10%にとどまる（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["osteo-comprehensive-ref"]
+        },
+        {
+          "question_text": "以下の記述のうち、解剖学的に正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "蝶番関節では屈曲・伸展に加えて回旋も可能である", "is_correct": false },
+            { "text": "頭蓋骨の縫合は滑膜性関節に分類される", "is_correct": false },
+            { "text": "平面関節は関節面同士が滑る微小な動きのみを許容する", "is_correct": true },
+            { "text": "車軸関節は3軸の自由度を持つ", "is_correct": false }
+          ],
+          "explanation": "平面関節（plane joint）は関節面がほぼ平らで、関節面同士が互いに滑るように動く微小な動きだけを許す関節である（例：椎間関節、手根間関節、肩鎖関節）。1つずつの動きは小さいが、脊柱の椎間関節のように積み重なると全体として大きな運動範囲になる。蝶番関節は1軸で屈曲・伸展のみ（回旋はできない）。頭蓋骨の縫合は線維性関節（ほぼ動かない）。車軸関節は1軸で回旋のみ。正確な分類の理解が、骨と関節の知識の土台となる（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["osteo-comprehensive-ref"]
+        }
+      ]
     }
   ]
 }
