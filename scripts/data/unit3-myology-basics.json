@@ -1464,6 +1464,264 @@
       ]
     },
     {
+      "name": "3つの収縮タイプ — 縮む・伸びる・止まる",
+      "slug": "contraction-types",
+      "description": "階段を上るのと下りるのでは筋肉の使い方が違う。その違いが分かると指導が変わる",
+      "sort_order": 5,
+      "concepts": [
+        {
+          "name": "3つの筋収縮タイプ",
+          "description": "求心性（縮む）・遠心性（伸びながら力を出す）・等尺性（止める）の3つの収縮タイプを日常動作で理解する"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "ダンベルを持ち上げるとき、上腕二頭筋が短くなりながら力を出す収縮はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            {
+              "text": "遠心性収縮",
+              "is_correct": false
+            },
+            {
+              "text": "求心性収縮",
+              "is_correct": true
+            },
+            {
+              "text": "等尺性収縮",
+              "is_correct": false
+            },
+            {
+              "text": "共収縮",
+              "is_correct": false
+            }
+          ],
+          "explanation": "求心性収縮（concentric contraction）とは、筋肉が縮みながら力を出す「動かす」動作のこと。ダンベルを持ち上げるとき、上腕二頭筋が短くなって前腕を引き上げる。階段を上る（大腿四頭筋が縮む）、椅子から立ち上がる（大殿筋・四頭筋が縮む）も求心性収縮。「筋肉が頑張って動きを作り出す」イメージ（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": [
+            "contraction-types-basics"
+          ]
+        },
+        {
+          "question_text": "ダンベルをゆっくり下ろすとき、上腕二頭筋に起こっている収縮はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            {
+              "text": "求心性収縮",
+              "is_correct": false
+            },
+            {
+              "text": "等尺性収縮",
+              "is_correct": false
+            },
+            {
+              "text": "遠心性収縮",
+              "is_correct": true
+            },
+            {
+              "text": "筋肉は完全に休んでいる",
+              "is_correct": false
+            }
+          ],
+          "explanation": "遠心性収縮（eccentric contraction）とは、筋肉が伸びながら力を出す「ブレーキをかける」動作のこと。ダンベルをゆっくり下ろすとき、上腕二頭筋は伸ばされているのに力を出し続けて、重力に逆らいながら速度をコントロールしている。もし二頭筋が完全に力を抜いたら、ダンベルは一気にストンと落ちてしまう。「ゆっくり制御する」＝遠心性収縮と覚えるとよい（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": [
+            "contraction-types-basics"
+          ]
+        },
+        {
+          "question_text": "プランクポーズを保持しているとき、体幹の筋肉に起こっている収縮はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            {
+              "text": "求心性収縮",
+              "is_correct": false
+            },
+            {
+              "text": "遠心性収縮",
+              "is_correct": false
+            },
+            {
+              "text": "等尺性収縮",
+              "is_correct": true
+            },
+            {
+              "text": "筋肉は収縮していない",
+              "is_correct": false
+            }
+          ],
+          "explanation": "等尺性収縮（isometric contraction）とは、筋肉の長さが変わらずに力だけを出す「止める・保つ」動作のこと。プランクでは腹筋群や脊柱起立筋が縮んでも伸びてもいないが、しっかり力を出して体幹をまっすぐに保っている。壁を押す動作も等尺性収縮（壁は動かないが腕の筋肉は力を出している）。関節が動かなくても筋肉は働いている — 「止まっている≠休んでいる」（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": [
+            "contraction-types-basics"
+          ]
+        },
+        {
+          "question_text": "階段を下りるとき大腿四頭筋に起こる収縮のタイプと、翌日の筋肉痛（DOMS）の関係として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            {
+              "text": "等尺性収縮が主体で、DOMSは起こりにくい",
+              "is_correct": false
+            },
+            {
+              "text": "遠心性収縮が主体で、DOMSが起こりやすい",
+              "is_correct": true
+            },
+            {
+              "text": "求心性収縮が主体で、DOMSが起こりやすい",
+              "is_correct": false
+            },
+            {
+              "text": "筋肉は使われておらず、DOMSは関節の問題",
+              "is_correct": false
+            }
+          ],
+          "explanation": "階段を下りるとき、大腿四頭筋は伸ばされながら体重を支える遠心性収縮を行っている（膝が曲がるのをブレーキして制御している）。遠心性収縮は3つの収縮タイプの中で筋線維への負荷が最も大きく、DOMS（遅発性筋痛）の主な原因になる。「登山で下りの方が翌日つらい」のはこれが理由。上りは大腿四頭筋の求心性収縮が主体で、遠心性収縮ほど筋線維にダメージを与えない（Standring 2020）。",
+          "source": "Standring 2020",
+          "reference_text_ids": [
+            "contraction-types-basics"
+          ]
+        },
+        {
+          "question_text": "椅子から立ち上がる→立っている→座るという一連の動作で、大腿四頭筋の収縮タイプの順番として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            {
+              "text": "等尺性 → 求心性 → 遠心性",
+              "is_correct": false
+            },
+            {
+              "text": "求心性 → 等尺性 → 遠心性",
+              "is_correct": true
+            },
+            {
+              "text": "遠心性 → 等尺性 → 求心性",
+              "is_correct": false
+            },
+            {
+              "text": "3つとも求心性収縮",
+              "is_correct": false
+            }
+          ],
+          "explanation": "日常動作では3種類の収縮がシームレスに切り替わる。①椅子から立ち上がる＝求心性収縮（大腿四頭筋が縮んで膝を伸ばし、身体を持ち上げる）。②立っている＝等尺性収縮（膝が伸びた状態を保持、筋の長さは変わらない）。③座る＝遠心性収縮（大腿四頭筋が伸びながらブレーキをかけて、重力に逆らいゆっくり腰を下ろす）。ヨガのポーズも同じ — ポーズに入る＝求心性、保持＝等尺性、解く＝遠心性（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": [
+            "contraction-types-basics"
+          ]
+        },
+        {
+          "question_text": "ヨガの指導で「ゆっくり下ろして」というキューは、生徒のどの収縮タイプを促しているか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            {
+              "text": "求心性収縮",
+              "is_correct": false
+            },
+            {
+              "text": "等尺性収縮",
+              "is_correct": false
+            },
+            {
+              "text": "遠心性収縮",
+              "is_correct": true
+            },
+            {
+              "text": "完全な弛緩",
+              "is_correct": false
+            }
+          ],
+          "explanation": "「ゆっくり下ろして」は遠心性収縮の指示。重力に任せてストンと落ちるのではなく、筋肉にブレーキをかけながら制御してゆっくり動く。チャトランガで身体を下ろすとき、上腕三頭筋・大胸筋が遠心性収縮で速度をコントロールしている。同様に「膝を伸ばして」は求心性収縮、「そのまま保持して」は等尺性収縮の指示。収縮タイプを意識すると、指導のキューイングがより正確で安全になる（Kaminoff & Matthews, Yoga Anatomy）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": [
+            "contraction-types-basics"
+          ]
+        },
+        {
+          "question_text": "次の日常動作と収縮タイプを正しく組み合わせなさい。",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "metadata": {
+            "pairs": [
+              {
+                "left": "階段を上る（太もも）",
+                "right": "求心性収縮"
+              },
+              {
+                "left": "階段を下りる（太もも）",
+                "right": "遠心性収縮"
+              },
+              {
+                "left": "重い荷物を持ったまま立つ",
+                "right": "等尺性収縮"
+              },
+              {
+                "left": "チャトランガで身体を下ろす",
+                "right": "遠心性収縮"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "text": "上り — 求心性、下り — 遠心性、荷物保持 — 等尺性、チャトランガ下降 — 遠心性",
+              "is_correct": true
+            },
+            {
+              "text": "その他の組み合わせ",
+              "is_correct": false
+            }
+          ],
+          "explanation": "階段を上る＝大腿四頭筋の求心性収縮（縮んで膝を伸ばし体を持ち上げる）。階段を下りる＝大腿四頭筋の遠心性収縮（伸びながらブレーキ）。重い荷物を持ったまま立つ＝腕と体幹の等尺性収縮（動かないけど力を出している）。チャトランガ下降＝上腕三頭筋・胸筋の遠心性収縮（伸びながらゆっくり下ろす）。「下ろす」「下りる」動作はほぼ遠心性収縮で、DOMSの原因になりやすい（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": [
+            "contraction-types-basics"
+          ]
+        },
+        {
+          "question_text": "遠心性収縮が求心性収縮より大きな力を発揮できる理由として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            {
+              "text": "遠心性収縮では速筋のみが動員されるから",
+              "is_correct": false
+            },
+            {
+              "text": "筋のタンパク質（アクチン・ミオシン）の結合に加え、引き伸ばしへの受動的な抵抗力も加わるから",
+              "is_correct": true
+            },
+            {
+              "text": "遠心性収縮ではATPが不要だから",
+              "is_correct": false
+            },
+            {
+              "text": "遠心性収縮では全ての筋線維が同時に動員されるから",
+              "is_correct": false
+            }
+          ],
+          "explanation": "遠心性収縮では、ミオシンがアクチンを引く力（能動的な力）に加えて、筋肉が引き伸ばされることに対する受動的な抵抗力（弾性成分や結合組織の抵抗）も加わる。このため、同じ筋肉でも遠心性収縮の方が求心性収縮より約20〜60%大きな力を出せる。ヨガ指導では、チャトランガを「下ろす」（遠心性）方が「上げる」（求心性）より筋力的には容易であることを知っておくと、段階的な指導に役立つ。ただし遠心性収縮は筋線維への負荷が大きくDOMSの原因にもなる — 力が出やすい分、ダメージも大きいというトレードオフがある（Standring 2020）。",
+          "source": "Standring 2020",
+          "reference_text_ids": [
+            "contraction-types-basics"
+          ]
+        }
+      ]
+    },
+    {
       "name": "咀嚼筋",
       "slug": "mastication-muscles",
       "description": "噛む力は自分の体重に匹敵。顎関節症はなぜ起こる？",
