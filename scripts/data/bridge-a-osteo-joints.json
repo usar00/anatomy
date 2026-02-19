@@ -625,6 +625,149 @@
           "reference_text_ids": ["clinical-osteo-ref"]
         }
       ]
+    },
+    {
+      "name": "構造と機能の対応",
+      "slug": "structure-function",
+      "description": "なぜその形なのか？ — 骨と関節の「設計思想」を考える",
+      "sort_order": 4,
+      "concepts": [
+        {
+          "name": "関節構造と可動域の関係",
+          "description": "関節面の形状が可動域と安定性のバランスをどう決定するかを理解する"
+        },
+        {
+          "name": "骨の形態と力学的機能",
+          "description": "骨の分類（長骨・短骨・扁平骨など）と力学的な役割の対応を理解する"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "肩関節と股関節はどちらも球関節だが、肩の方が可動域が広い。その構造的な理由はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "肩の方が筋肉が多いから", "is_correct": false },
+            { "text": "肩の関節窩が浅く、骨頭の約1/3しか覆わないから", "is_correct": true },
+            { "text": "肩の骨頭の方が小さいから", "is_correct": false },
+            { "text": "股関節には靭帯がないから", "is_correct": false }
+          ],
+          "explanation": "肩関節と股関節はどちらも球関節（ball-and-socket joint）だが、「受け皿の深さ」が大きく異なる。肩関節の関節窩は浅く、上腕骨頭の約1/3しか覆わない。対して股関節の寛骨臼は深く、大腿骨頭の約2/3を覆う。受け皿が浅いほど骨頭は自由に動ける（可動域が広い）が、抜けやすくもなる（不安定）。肩は「操作性」、股は「安定して体重を支えること」を優先した設計といえる（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["structure-function-osteo-ref"]
+        },
+        {
+          "question_text": "扁平骨（flat bone）の主な機能として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "てこの作用で動きの効率を高める", "is_correct": false },
+            { "text": "臓器の保護と筋の広い付着面の提供", "is_correct": true },
+            { "text": "衝撃を吸収するバネの役割", "is_correct": false },
+            { "text": "関節の可動域を増大させる", "is_correct": false }
+          ],
+          "explanation": "扁平骨とは薄く平たい形状の骨で、頭蓋骨・胸骨・肋骨・肩甲骨などがこれに該当する。扁平骨の主な機能は2つ。1つは「盾」のように臓器を保護すること（頭蓋骨は脳を、肋骨と胸骨は心臓・肺を守る）。もう1つは広い表面積を持つため、筋肉の付着面を提供すること（肩甲骨には17もの筋が付着する）。てこの作用は長骨の役割、衝撃吸収のバネは足のアーチや椎間板の役割である（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["structure-function-osteo-ref"]
+        },
+        {
+          "question_text": "膝蓋骨が存在する力学的な意義として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "膝関節の滑液を産生する", "is_correct": false },
+            { "text": "大腿四頭筋のモーメントアームを増大させ、膝伸展力を高める", "is_correct": true },
+            { "text": "半月板を正しい位置に保持する", "is_correct": false },
+            { "text": "脛骨と大腿骨の直接的な衝突を防ぐ", "is_correct": false }
+          ],
+          "explanation": "膝蓋骨は種子骨（腱の中に埋もれた骨）で、大腿四頭筋の腱の中に位置する。膝蓋骨の力学的な役割は、腱を膝関節の回転軸から前方に引き離すこと。これにより「モーメントアーム」（回転軸からの距離）が大きくなる。てこの原理で、支点からの距離が大きいほど少ない力で大きな回転力を生み出せるため、膝蓋骨があることで膝の伸展力が約30%も増大する。階段を上る、椅子から立つ、ジャンプするなどの動作に不可欠な設計である（Gray's Anatomy 42nd ed.; Neumann, Kinesiology）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["structure-function-osteo-ref"]
+        },
+        {
+          "question_text": "椎間板が軸方向の圧縮力に強い理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "椎間板が純粋な骨組織で構成されているから", "is_correct": false },
+            { "text": "髄核がゲル状で圧力を均等に分散し、線維輪が側方への膨張を防ぐから", "is_correct": true },
+            { "text": "椎間板が厚い関節軟骨で覆われているから", "is_correct": false },
+            { "text": "椎間板内部に滑液が充填されているから", "is_correct": false }
+          ],
+          "explanation": "椎間板は2つの部分で構成されている。中心の髄核（nucleus pulposus）は約80%が水分のゲル状物質で、ウォーターベッドのように上下からの圧縮力を全方向に均等に分散する。外側の線維輪（annulus fibrosus）は同心円状に重なったコラーゲン線維の層で、各層の線維が交互に斜めに走ることで、髄核が側方に膨らもうとする力をしっかり抑える。ちょうど「水風船をコルセットで巻いた」ような巧みな設計になっている。椎間板は骨ではなく線維軟骨と水分の複合構造である（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["structure-function-osteo-ref"]
+        },
+        {
+          "question_text": "脊柱がS字カーブ（生理的弯曲）を持つ力学的な利点はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "脊髄をねじれから保護する", "is_correct": false },
+            { "text": "直線的な柱より軸方向の圧縮力を弾性的に吸収できる", "is_correct": true },
+            { "text": "脊柱の重量を軽減する", "is_correct": false },
+            { "text": "椎間板を不要にする", "is_correct": false }
+          ],
+          "explanation": "脊柱は頸椎前弯（前にカーブ）→胸椎後弯（後ろにカーブ）→腰椎前弯→仙椎後弯の4つのカーブでS字を描いている。このS字カーブはバネやスプリングのように機能し、上下からの圧縮力を弾性的に吸収する。もし脊柱が一直線だったら、衝撃が椎骨に直接伝わってしまう。S字カーブを持つことで、一本の直線的な柱と比較して約10倍の耐荷重性があるとされる。走ったり跳んだりしても脳が激しく揺れないのは、このS字カーブの衝撃吸収機能のおかげである（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["structure-function-osteo-ref"]
+        },
+        {
+          "question_text": "滑液（関節液）の主な機能として、最も包括的な説明はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "関節面の潤滑と、軟骨への栄養供給の両方を担う", "is_correct": true },
+            { "text": "関節を冷却して過熱を防ぐ", "is_correct": false },
+            { "text": "骨膜を保護してカルシウムの流出を防ぐ", "is_correct": false },
+            { "text": "関節内の骨を成長させるホルモンを分泌する", "is_correct": false }
+          ],
+          "explanation": "滑液（synovial fluid）は滑膜性関節の内部を満たす粘り気のある透明な液体で、2つの重要な機能を持つ。1つ目は潤滑。ヒアルロン酸を含む滑液が関節面の間に薄い膜を作り、摩擦を極めて小さくする（氷の上を滑るより低い摩擦係数）。2つ目は栄養供給。関節軟骨には血管が通っていないため、軟骨細胞は滑液から栄養と酸素を受け取る。関節を動かすと滑液が軟骨に押し込まれ（スポンジを絞って水を吸わせるイメージ）、栄養が行き渡る。だから適度な運動は関節の健康に不可欠なのである（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["structure-function-osteo-ref"]
+        },
+        {
+          "question_text": "長骨の骨幹部が中空の管状構造（骨髄腔を持つ）である力学的な利点は、中実の棒と比較して{{blank}}ことである。",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "metadata": {
+            "sentence_template": "長骨の骨幹部が中空の管状構造（骨髄腔を持つ）である力学的な利点は、中実の棒と比較して{{blank}}ことである。",
+            "correct_answer": "軽量でありながら曲げやねじりに対する強度が同等以上である",
+            "word_options": ["軽量でありながら曲げやねじりに対する強度が同等以上である", "軸方向の圧縮に対して10倍の強度がある", "骨膜からの栄養供給効率が高まる", "関節面の摩擦が減少する"]
+          },
+          "choices": [
+            { "text": "軽量でありながら曲げやねじりに対する強度が同等以上である", "is_correct": true },
+            { "text": "軸方向の圧縮に対して10倍の強度がある", "is_correct": false },
+            { "text": "骨膜からの栄養供給効率が高まる", "is_correct": false },
+            { "text": "関節面の摩擦が減少する", "is_correct": false }
+          ],
+          "explanation": "長骨（大腿骨、上腕骨、脛骨など）の骨幹部は、外側が緻密骨（硬くて密度の高い骨組織）の管で、内部は骨髄腔という空洞になっている。工学的にいうと、曲げやねじりに対する強度は材料が中心から離れた外側にあるほど高い。パイプと同じ直径の中実の棒を比較すると、パイプの方が軽いのに曲げ強度は同等以上。この「中空パイプ設計」により、骨格は軽量かつ頑丈に作られている。空いた内部は骨髄が占め、造血（血液の産生）に活用される — 構造と機能の見事な両立である（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["structure-function-osteo-ref"]
+        },
+        {
+          "question_text": "足のアーチ構造が体重を効率的に分散できる理由と、最も関連する建築構造の原理はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "直線梁の原理 — 直線的に力を伝える", "is_correct": false },
+            { "text": "アーチ橋の原理 — 圧縮力に変換して両端に伝える", "is_correct": true },
+            { "text": "トラス構造の原理 — 三角形で力を分散する", "is_correct": false },
+            { "text": "懸垂構造の原理 — ケーブルで吊るして力を分散する", "is_correct": false }
+          ],
+          "explanation": "足のアーチは、建築のアーチ橋と同じ力学的原理で機能する。上から加わる荷重（体重）をアーチの曲線に沿って圧縮力に変換し、両端（踵と足趾の付け根）へと分散する。平らな梁（はり）に比べ、アーチは上からの荷重に対して格段に強い。足のアーチは内側縦・外側縦・横の3つがあり、踵骨・距骨・舟状骨・楔状骨・中足骨が「石造アーチの石」のように噛み合い、靭帯や足底腱膜がそれを結び止める「タイロッド（引張材）」の役割を果たす。このアーチが崩れると扁平足（偏平足）となり、荷重分散能力が低下する（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["structure-function-osteo-ref"]
+        }
+      ]
     }
   ]
 }
