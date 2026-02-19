@@ -52,7 +52,7 @@
             { "text": "肘関節 — 蝶番関節", "is_correct": false },
             { "text": "肩関節 — 球関節", "is_correct": false }
           ],
-          "explanation": "ドアノブを回す動作は前腕の回内・回外運動であり、近位および遠位の橈尺関節で行われる。橈尺関節は車軸関節（pivot joint）に分類され、橈骨が尺骨の周りを回旋する。手関節は手首の屈曲・伸展、肘関節は肘の屈曲・伸展を担い、回旋運動には関与しない（Gray's Anatomy 42nd ed.）。",
+          "explanation": "ドアノブを回す動作は前腕の回内・回外運動であり、近位および遠位の橈尺関節で行われる。橈尺関節は車軸関節（pivot joint）に分類される。車軸関節とは、一方の骨が「軸」となり、もう一方がその周りをクルッと回る構造のこと。前腕では尺骨（小指側の骨）が軸となり、橈骨（親指側の骨）がその周りを回旋する。手関節は手首の屈曲・伸展、肘関節は肘の屈曲・伸展を担うもので、回旋運動には関与しない（Gray's Anatomy 42nd ed.）。",
           "source": "Gray's Anatomy 42nd ed.",
           "reference_text_ids": ["daily-movement-osteo-ref"]
         },
@@ -67,7 +67,7 @@
             { "text": "C2-C3椎間関節", "is_correct": false },
             { "text": "顎関節（TMJ）", "is_correct": false }
           ],
-          "explanation": "うなずき運動（頭部の屈曲・伸展）は主に環椎後頭関節（atlantooccipital joint）で行われる。後頭骨の後頭顆が環椎（C1）の上関節窩に適合する顆状関節である。一方、首を横に振る回旋運動は環軸関節（C1-C2間の車軸関節）で行われる（Gray's Anatomy 42nd ed.）。",
+          "explanation": "うなずき運動（頭部の屈曲・伸展）は主に環椎後頭関節（atlantooccipital joint）で行われる。環椎後頭関節とは、頭蓋骨の底にある後頭骨と、首の一番上の椎骨である環椎（C1/atlas）の間の関節のこと。顆状関節に分類され、主に前後の「うなずき」を行う。紛らわしいが、首を横に振る「いいえ」の動きは別の関節 — 環軸関節（C1-C2間の車軸関節）で行われる。C2（軸椎/axis）の歯突起を軸にC1が回旋する仕組みである（Gray's Anatomy 42nd ed.）。",
           "source": "Gray's Anatomy 42nd ed.",
           "reference_text_ids": ["daily-movement-osteo-ref"]
         },
@@ -82,7 +82,7 @@
             { "text": "鞍関節", "is_correct": true },
             { "text": "平面関節", "is_correct": false }
           ],
-          "explanation": "母指のCM関節（第1手根中手関節）は鞍関節（saddle joint）に分類される。互いに直交する凹凸面が噛み合う構造により、屈曲・伸展、内転・外転、そしてこれらを組み合わせた対立運動が可能になる。この対立運動がペットボトルの蓋を掴む精密把握（precision grip）の基盤である（Gray's Anatomy 42nd ed.）。",
+          "explanation": "母指のCM関節（第1手根中手関節）は鞍関節（saddle joint）に分類される。鞍関節とは、馬の鞍（サドル）のように互いに直交する凹凸面が噛み合う構造の関節で、2軸の動き（屈曲・伸展と内転・外転）が可能。さらにこの2軸を組み合わせた「対立運動」— 親指を他の指に向かって回すように動かすこと — ができるのが鞍関節の特徴である。この対立運動こそがペットボトルの蓋を掴む精密把握（precision grip）の基盤であり、ヒトの手の器用さの源でもある（Gray's Anatomy 42nd ed.）。",
           "source": "Gray's Anatomy 42nd ed.",
           "reference_text_ids": ["daily-movement-osteo-ref"]
         },
@@ -97,7 +97,7 @@
             { "text": "回旋のみ", "is_correct": false },
             { "text": "屈曲・伸展と回旋", "is_correct": false }
           ],
-          "explanation": "PIP関節（近位指節間関節）は蝶番関節（hinge joint）に分類され、屈曲と伸展のみが可能である。一方、MCP関節（中手指節関節）は顆状関節で、屈曲・伸展に加え外転・内転も可能。タイピングではPIP/DIP関節の高速な屈曲・伸展が繰り返される（Gray's Anatomy 42nd ed.）。",
+          "explanation": "PIP関節（近位指節間関節）は蝶番関節（hinge joint）に分類される。蝶番関節とはドアの蝶番のように、1つの軸で屈曲と伸展だけを行うシンプルな関節のこと。一方、指の付け根にあるMCP関節（中手指節関節）は顆状関節で、屈曲・伸展に加え指を左右に広げる外転・内転も可能。同じ「指の関節」でも、付け根と中間では関節の種類と動きの自由度が異なる。タイピングではPIP/DIP関節の高速な屈曲・伸展が繰り返される（Gray's Anatomy 42nd ed.）。",
           "source": "Gray's Anatomy 42nd ed.",
           "reference_text_ids": ["daily-movement-osteo-ref"]
         },
@@ -112,7 +112,7 @@
             { "text": "外反 — 車軸関節", "is_correct": false },
             { "text": "回旋 — 球関節", "is_correct": false }
           ],
-          "explanation": "歩行の蹴り出し（push-off）では足関節（距腿関節）で底屈が起こる。距腿関節は距骨滑車が脛骨・腓骨の果間関節面に嵌まる蝶番関節で、背屈と底屈の1軸運動を行う。内反・外反は距骨下関節で起こり、距腿関節の運動ではない（Gray's Anatomy 42nd ed.）。",
+          "explanation": "歩行の蹴り出し（push-off）では足関節（距腿関節）で底屈が起こる。底屈とは足先を下に向ける動き（つま先立ちの方向）で、逆に足先を上に引き上げる動きが背屈である。距腿関節はくるぶし（内果・外果）の間に距骨がはまり込む蝶番関節で、この背屈と底屈の1軸運動だけを行う。足首を内側に捻る内反や外側に捻る外反は、距骨の下にある距骨下関節で起こる別の動きである（Gray's Anatomy 42nd ed.）。",
           "source": "Gray's Anatomy 42nd ed.",
           "reference_text_ids": ["daily-movement-osteo-ref"]
         },
@@ -133,7 +133,7 @@
             { "text": "首を横に振る — 車軸関節、ドアを押し開ける — 蝶番関節、腕を回して投げる — 球関節、親指で物を掴む — 鞍関節", "is_correct": true },
             { "text": "その他の組み合わせ", "is_correct": false }
           ],
-          "explanation": "首の回旋は環軸関節（車軸関節）、肘の屈曲・伸展は蝶番関節、肩の多軸運動は球関節、母指CM関節の対立運動は鞍関節で行われる。関節の形態が許容する運動の方向と自由度を決定しており、日常動作はこれらの関節特性を組み合わせて実現される（Gray's Anatomy 42nd ed.）。",
+          "explanation": "首を横に振る回旋は環軸関節で行われ、これはC2の歯突起を軸にC1が回る車軸関節。ドアを押し開ける肘の屈曲・伸展は蝶番関節（1軸でドアの蝶番のように動く）。腕を大きく回して投げる動作は肩関節の球関節ならではの3軸の自由度で実現される。親指で物を掴む対立運動は母指CM関節の鞍関節による2軸＋複合運動。このように関節の形態が「どの方向にどれだけ動けるか」を決定しており、日常動作はこれらの関節特性の組み合わせで成り立っている（Gray's Anatomy 42nd ed.）。",
           "source": "Gray's Anatomy 42nd ed.",
           "reference_text_ids": ["daily-movement-osteo-ref"]
         },
@@ -148,7 +148,7 @@
             { "text": "寛骨 → 大腿骨 → 腓骨 → 踵骨", "is_correct": false },
             { "text": "大腿骨 → 膝蓋骨 → 脛骨 → 舟状骨", "is_correct": false }
           ],
-          "explanation": "立ち上がり動作の荷重は、寛骨臼→大腿骨→脛骨→距骨→踵骨・足部へと伝達される。主要な荷重経路は脛骨であり、腓骨は荷重の約10%しか負担しない。膝蓋骨は種子骨として大腿四頭筋のてこ効率を高めるが、直接的な荷重伝達経路には含まれない（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "explanation": "立ち上がり動作の荷重は、骨盤の寛骨臼（股関節のカップ部分）→大腿骨（太ももの骨）→脛骨（すねの骨）→距骨（足首の中心の骨）→踵骨（かかとの骨）と足部へと伝達される。下腿には脛骨と腓骨の2本があるが、荷重の約90%は太い脛骨が担い、細い腓骨は主に筋の付着部や足関節の安定に寄与する。膝蓋骨（膝の「おさら」）は種子骨として大腿四頭筋のてこ効率を高める役割だが、荷重伝達経路には含まれない（Gray's Anatomy 42nd ed.; Standring 2020）。",
           "source": "Gray's Anatomy 42nd ed.",
           "reference_text_ids": ["daily-movement-osteo-ref"]
         },
@@ -168,7 +168,7 @@
             { "text": "手根間関節", "is_correct": false },
             { "text": "中手指節関節", "is_correct": false }
           ],
-          "explanation": "握った荷物の荷重は指→MCP関節→手根骨→手関節（橈骨手根関節）→前腕骨→肘関節→上腕骨→肩関節→体幹へと伝達される。主要な荷重伝達経路上の関節としては手関節が肘と肩の間に位置する。橈尺関節は回旋の軸であり、荷重伝達の主経路ではない（Gray's Anatomy 42nd ed.）。",
+          "explanation": "握った荷物の荷重は、指→MCP関節（指の付け根）→手根骨（手首の小さな骨群）→手関節（橈骨手根関節）→前腕の骨（橈骨・尺骨）→肘関節→上腕骨→肩関節→体幹へと伝わる。この経路上で肘と肩の間に位置する主要な関節が手関節（橈骨手根関節）である。橈尺関節は前腕を回す（回内・回外）ための軸であり、ぶら下がる荷重の主な伝達経路ではない。手根間関節は手根骨同士の小さな関節で、可動性は限られている（Gray's Anatomy 42nd ed.）。",
           "source": "Gray's Anatomy 42nd ed.",
           "reference_text_ids": ["daily-movement-osteo-ref"]
         }
