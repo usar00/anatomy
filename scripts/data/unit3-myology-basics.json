@@ -424,6 +424,262 @@
       ]
     },
     {
+      "name": "筋肉が力を生むしくみ",
+      "slug": "muscle-force-generation",
+      "description": "筋肉は「引く」ことしかできない。だからペアで働く。そのシンプルな原理",
+      "sort_order": 1,
+      "concepts": [
+        {
+          "name": "筋収縮の基本原理",
+          "description": "筋肉が縮む仕組み（タンパク質の滑り）と、「引く」しかできないという根本的な性質を理解する"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "骨格筋が力を発揮するとき、筋肉の内部で起こっていることとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            {
+              "text": "筋肉の中の水分が膨張する",
+              "is_correct": false
+            },
+            {
+              "text": "2種類のタンパク質（アクチンとミオシン）が滑り合って筋全体が短くなる",
+              "is_correct": true
+            },
+            {
+              "text": "筋肉の中の骨が曲がる",
+              "is_correct": false
+            },
+            {
+              "text": "筋肉の温度が急上昇して膨張する",
+              "is_correct": false
+            }
+          ],
+          "explanation": "骨格筋の中には、アクチン（細い糸状のタンパク質）とミオシン（太い糸状のタンパク質）という2種類のタンパク質が整然と並んでいる。脳から「縮め」という信号が届くと、ミオシンがアクチンを手繰り寄せるように引き込み、筋全体が短くなる。ちょうど両手で綱引きの縄を手繰り寄せるイメージ。この「滑り合い」が筋収縮の本質であり、滑り説（sliding filament theory）と呼ばれる（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": [
+            "muscle-force-generation"
+          ]
+        },
+        {
+          "question_text": "骨格筋の根本的な性質として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            {
+              "text": "縮むことも伸びることも自力でできる",
+              "is_correct": false
+            },
+            {
+              "text": "縮む（引く）ことしかできず、自力で押すことはできない",
+              "is_correct": true
+            },
+            {
+              "text": "押す力の方が引く力より強い",
+              "is_correct": false
+            },
+            {
+              "text": "関節を固定することはできない",
+              "is_correct": false
+            }
+          ],
+          "explanation": "骨格筋の最も根本的な性質は「引く（縮む）ことしかできない」ということ。筋肉は自分で伸びることも、押すこともできない。だから腕を曲げるには上腕二頭筋が縮み、腕を伸ばすには別の筋肉（上腕三頭筋）が縮む必要がある。この性質があるから、筋肉は必ずペア（主動筋と拮抗筋）で働く。これはこの後の学習で最も大切な概念の一つ（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": [
+            "muscle-force-generation"
+          ]
+        },
+        {
+          "question_text": "筋収縮に必要なエネルギー源として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            {
+              "text": "カルシウム",
+              "is_correct": false
+            },
+            {
+              "text": "コラーゲン",
+              "is_correct": false
+            },
+            {
+              "text": "ATP（アデノシン三リン酸）",
+              "is_correct": true
+            },
+            {
+              "text": "ヘモグロビン",
+              "is_correct": false
+            }
+          ],
+          "explanation": "筋肉が縮むには ATP（アデノシン三リン酸）というエネルギー分子が必要。ATPは「筋肉の燃料」のようなもので、ミオシンがアクチンを引っ張るたびに1つのATPが消費される。ATPがなくなると筋肉は動かなくなる。食事で摂った栄養素（糖や脂肪）が体内で分解されてATPが作られる。カルシウムは収縮の「スイッチ」を入れる引き金役で、エネルギー源そのものではない（Standring 2020）。",
+          "source": "Standring 2020",
+          "reference_text_ids": [
+            "muscle-force-generation"
+          ]
+        },
+        {
+          "question_text": "「筋肉は引くことしかできない」という性質から導かれる結論として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            {
+              "text": "1つの筋肉で関節を両方向に動かせる",
+              "is_correct": false
+            },
+            {
+              "text": "関節を両方向に動かすには、反対の作用を持つ筋肉のペアが必要",
+              "is_correct": true
+            },
+            {
+              "text": "筋肉は骨から離れた位置に付着する方が効率的",
+              "is_correct": false
+            },
+            {
+              "text": "筋肉が多いほど関節は不安定になる",
+              "is_correct": false
+            }
+          ],
+          "explanation": "筋肉は縮むことしかできないので、肘を「曲げる」筋肉と「伸ばす」筋肉は別々に必要。肘の場合、上腕二頭筋（前面）が縮むと肘が曲がり、上腕三頭筋（後面）が縮むと肘が伸びる。この「反対の動きを担う筋肉のペア」を主動筋と拮抗筋と呼ぶ。関節が動くためには必ずこのペアが存在する。一方が縮むとき、もう一方は緩んで邪魔しない — この自動調整が相反抑制（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": [
+            "muscle-force-generation"
+          ]
+        },
+        {
+          "question_text": "脳から骨格筋に「縮め」という信号が伝わる正しい経路はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            {
+              "text": "脳 → 血管 → 筋肉",
+              "is_correct": false
+            },
+            {
+              "text": "脳 → 脊髄 → 運動神経 → 筋肉",
+              "is_correct": true
+            },
+            {
+              "text": "脳 → 骨 → 腱 → 筋肉",
+              "is_correct": false
+            },
+            {
+              "text": "脳 → ホルモン分泌 → 筋肉",
+              "is_correct": false
+            }
+          ],
+          "explanation": "骨格筋への指令は「脳→脊髄→運動神経→筋肉」という電気信号の経路で伝わる。例えばヨガで「右腕を上げよう」と思うと、脳の運動野から信号が発信され、脊髄を経由して運動神経を通り、三角筋に到達する。信号が届くとカルシウムイオン（Ca²⁺）が放出され、これが引き金となってアクチンとミオシンの滑り合い（収縮）が始まる。血管は栄養と酸素の運搬経路、ホルモンは平滑筋などの不随意筋の調節に関わる別の仕組みである（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": [
+            "muscle-force-generation"
+          ]
+        },
+        {
+          "question_text": "筋肉が弛緩（リラックス）するときに起こることとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            {
+              "text": "アクチンとミオシンが破壊される",
+              "is_correct": false
+            },
+            {
+              "text": "カルシウムが回収され、アクチンとミオシンの結合が解除される",
+              "is_correct": true
+            },
+            {
+              "text": "筋肉が自力で伸びる",
+              "is_correct": false
+            },
+            {
+              "text": "ATPが大量に消費される",
+              "is_correct": false
+            }
+          ],
+          "explanation": "筋肉が緩む（弛緩する）ときは、収縮を始めた引き金のカルシウムイオンが回収されてしまう。カルシウムがなくなると、アクチンとミオシンの結合が解除され、筋肉は力を出さなくなる。ここで大事なのは「筋肉が自力で伸びているわけではない」ということ。弛緩した筋肉は重力や反対側の筋肉（拮抗筋）の力によって受動的に引き伸ばされる。シャヴァーサナ（屍のポーズ）での全身の弛緩は、まさにこのカルシウム回収による筋の「オフ」状態である（Standring 2020）。",
+          "source": "Standring 2020",
+          "reference_text_ids": [
+            "muscle-force-generation"
+          ]
+        },
+        {
+          "question_text": "筋収縮の流れを正しい順番に並べなさい：脳からの信号 → {{blank}} → アクチンとミオシンが滑り合う → 筋が短くなる",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "metadata": {
+            "sentence_template": "筋収縮の流れ：脳からの信号 → {{blank}} → アクチンとミオシンが滑り合う → 筋が短くなる",
+            "correct_answer": "カルシウムイオン（Ca²⁺）が放出される",
+            "word_options": [
+              "カルシウムイオン（Ca²⁺）が放出される",
+              "ATPが分解される",
+              "コラーゲンが合成される",
+              "ヘモグロビンが酸素を運ぶ"
+            ]
+          },
+          "choices": [
+            {
+              "text": "カルシウムイオン（Ca²⁺）が放出される",
+              "is_correct": true
+            },
+            {
+              "text": "ATPが分解される",
+              "is_correct": false
+            },
+            {
+              "text": "コラーゲンが合成される",
+              "is_correct": false
+            },
+            {
+              "text": "ヘモグロビンが酸素を運ぶ",
+              "is_correct": false
+            }
+          ],
+          "explanation": "筋収縮の流れは：脳からの信号が運動神経を通じて筋肉に届く → カルシウムイオン（Ca²⁺）が放出される（これがスイッチ） → アクチンとミオシンが滑り合う（これが力の発生） → 筋全体が短くなる。カルシウムは「収縮のスイッチ」、ATPは「動かすための燃料」と覚えるとよい。ATPは滑り合いのプロセス中に消費されるもので、最初のきっかけではない。コラーゲンは腱の材料、ヘモグロビンは赤血球で酸素を運ぶタンパク質で、直接の収縮メカニズムではない（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": [
+            "muscle-force-generation"
+          ]
+        },
+        {
+          "question_text": "筋肉が力を出し続けるために必要な条件の組み合わせとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            {
+              "text": "神経からの持続的な信号 + ATPの供給",
+              "is_correct": true
+            },
+            {
+              "text": "カルシウムの完全な除去 + コラーゲンの産生",
+              "is_correct": false
+            },
+            {
+              "text": "血液中の酸素のみ",
+              "is_correct": false
+            },
+            {
+              "text": "骨からのミネラル放出 + 体温の低下",
+              "is_correct": false
+            }
+          ],
+          "explanation": "筋肉が力を出し続けるには2つの条件が必要。①神経からの持続的な信号：信号が続く限りカルシウムが放出され続け、収縮が維持される。信号が止まればカルシウムが回収されて筋は緩む。②ATPの供給：ミオシンがアクチンを引くたびにATPを消費するので、新しいATPが補給され続けなければならない。ヨガのプランクを長時間保持すると腕が震えてくるのは、ATPの供給が消費に追いつかなくなり、一部の筋線維が疲労してくるためである（Standring 2020）。",
+          "source": "Standring 2020",
+          "reference_text_ids": [
+            "muscle-force-generation"
+          ]
+        }
+      ]
+    },
+    {
       "name": "咀嚼筋",
       "slug": "mastication-muscles",
       "description": "噛む力は自分の体重に匹敵。顎関節症はなぜ起こる？",
