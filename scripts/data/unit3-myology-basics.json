@@ -3313,6 +3313,144 @@
           "reference_text_ids": ["thigh-muscles-basics"]
         }
       ]
+    },
+    {
+      "name": "殿筋・大腿とヨガ",
+      "slug": "yoga-glute-thigh",
+      "description": "ウォーリアから鳩のポーズまで — 下肢の筋を解剖学で理解する",
+      "sort_order": 23,
+      "concepts": [
+        {
+          "name": "ヨガの立位・座位ポーズと下肢",
+          "description": "ウォーリア・チェア・ブリッジでの殿筋・大腿筋の活動"
+        },
+        {
+          "name": "ストレッチと相反抑制の活用",
+          "description": "前屈・鳩のポーズでのハムストリングス・外旋筋の伸張"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "ウォーリアII（ヴィーラバドラーサナII）で前脚の膝が90°屈曲位を保持する際、主に等尺性収縮する筋はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "ハムストリングス", "is_correct": false },
+            { "text": "大腿四頭筋", "is_correct": true },
+            { "text": "腓腹筋", "is_correct": false },
+            { "text": "大殿筋", "is_correct": false }
+          ],
+          "explanation": "ウォーリアIIの前脚は膝90°屈曲位で体重を支持する。この際、大腿四頭筋が等尺性収縮（アイソメトリック）で膝の角度を保持し、身体が下方に崩れるのを防ぐ。同時に大殿筋が股関節を安定させ、中殿筋が骨盤の側方安定性を維持する。なぜ等尺性収縮かというと、関節角度を変えずに保持するため筋長は変化せず、一定の張力を持続的に発揮する必要があるためである（Kaminoff & Matthews, Yoga Anatomy; Long, The Key Muscles of Yoga）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-glute-thigh", "thigh-muscles-basics"]
+        },
+        {
+          "question_text": "ヨガのブリッジポーズ（セツバンダーサナ）で骨盤を持ち上げる主動筋として最も重要なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "腹直筋", "is_correct": false },
+            { "text": "大腿四頭筋", "is_correct": false },
+            { "text": "大殿筋とハムストリングス", "is_correct": true },
+            { "text": "腸腰筋", "is_correct": false }
+          ],
+          "explanation": "ブリッジポーズでは仰臥位から骨盤を持ち上げる際、大殿筋とハムストリングスが求心性収縮で股関節を伸展させる。大殿筋の活性化を意識する指導が重要で、「お尻を締めて持ち上げて」というキューが効果的。ハムストリングスのみに頼ると腰椎の過伸展リスクが高まる。なぜ大殿筋の意識が重要かというと、殿筋健忘症の人はハムストリングスで代償しやすく、大殿筋を意図的に活性化させることで正しい運動パターンを再学習できるためである（Kaminoff & Matthews, Yoga Anatomy; McGill）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-glute-thigh", "gluteal-muscles-basics"]
+        },
+        {
+          "question_text": "パスチモッターナーサナ（座位前屈）で大腿四頭筋を軽く収縮させる指導の解剖学的根拠はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "大腿四頭筋の収縮が膝関節を安定させるため", "is_correct": false },
+            { "text": "相反抑制により拮抗筋のハムストリングスが反射的に弛緩し、より安全に前屈が深まるため", "is_correct": true },
+            { "text": "大腿四頭筋の収縮が骨盤を後傾させるため", "is_correct": false },
+            { "text": "大腿四頭筋が直接ハムストリングスを伸張するため", "is_correct": false }
+          ],
+          "explanation": "相反抑制（reciprocal inhibition）は、主動筋の収縮信号が脊髄レベルで拮抗筋の抑制性介在ニューロンを活性化し、拮抗筋の緊張を低下させる反射機構。前屈で大腿四頭筋（膝伸展筋）を軽く収縮させると、拮抗筋のハムストリングスが反射的に弛緩しやすくなり、無理なく前屈を深められる。なぜ「軽く」なのかというと、強い収縮は共収縮を引き起こし逆効果になるためである（Kaminoff & Matthews, Yoga Anatomy; Polsgrove et al. 2016）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-glute-thigh", "thigh-muscles-basics"]
+        },
+        {
+          "question_text": "鳩のポーズ（エーカパーダラージャカポターサナ）の前脚で主に伸張される筋群はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "大腿四頭筋と腸腰筋", "is_correct": false },
+            { "text": "ハムストリングスと腓腹筋", "is_correct": false },
+            { "text": "梨状筋と深層外旋筋群", "is_correct": true },
+            { "text": "内転筋群と薄筋", "is_correct": false }
+          ],
+          "explanation": "鳩のポーズの前脚は股関節屈曲+外旋+外転位に置かれ、この位置で梨状筋と深層外旋六筋が最大伸張される。梨状筋症候群の予防や坐骨神経痛の緩和に効果的とされる。後脚側では腸腰筋と大腿直筋が伸張される。なぜこのポーズが外旋筋に効果的かというと、股関節屈曲位では梨状筋の作用が外旋から内旋に変化し（パラドックス）、外旋位に置くことで強い伸張刺激が加わるためである（Kaminoff & Matthews, Yoga Anatomy; Long, The Key Muscles of Yoga）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-glute-thigh", "gluteal-muscles-basics"]
+        },
+        {
+          "question_text": "ウトカターサナ（チェアポーズ）で膝がつま先より前に出ることを過度に制限する指導の問題点として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "大腿四頭筋が全く使われなくなる", "is_correct": false },
+            { "text": "代償的に体幹を過度に前傾させ、腰椎への負荷が増大する", "is_correct": true },
+            { "text": "足関節の可動域が改善されない", "is_correct": false },
+            { "text": "ハムストリングスが過度に伸張される", "is_correct": false }
+          ],
+          "explanation": "「膝をつま先より前に出さない」は一般的なキューだが、過度に制限すると重心を保つために体幹を前傾させざるを得なくなり、脊柱起立筋と腰椎椎間板への負荷が増大する。膝がつま先を越えること自体は必ずしも危険ではなく、個人の足関節背屈可動域や大腿骨の長さに依存する。なぜこのキューが広まったかというと、膝関節への剪断力を減らす意図があったが、腰椎リスクとのトレードオフが見落とされていたためである（Fry et al. 2003; Kaminoff & Matthews, Yoga Anatomy）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-glute-thigh", "thigh-muscles-basics"]
+        },
+        {
+          "question_text": "ヨガの立位ポーズで「膝がつま先と同じ方向を向くように」というキューの解剖学的根拠はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "美しいアライメントを作るための美容的理由", "is_correct": false },
+            { "text": "膝関節の回旋ストレスを最小化し、内側側副靭帯・半月板への負荷を軽減するため", "is_correct": true },
+            { "text": "大腿四頭筋の収縮効率を最大化するため", "is_correct": false },
+            { "text": "足底の接地面積を最大にするため", "is_correct": false }
+          ],
+          "explanation": "膝関節は屈曲位でわずかに回旋が可能だが、大腿骨と脛骨の回旋軸がずれる（膝が内側に入る/knee valgus）と、内側側副靭帯と内側半月板に過度なストレスがかかる。「膝をつま先と同じ方向に」は大腿骨と脛骨の軸を揃え、中殿筋と外旋筋群を活性化して膝のvalgusを防ぐキュー。なぜknee valgusが危険かというと、ACL（前十字靭帯）損傷のリスク因子でもあり、特に荷重位での回旋ストレスは靭帯・半月板の損傷閾値を超えやすいためである（Kaminoff & Matthews, Yoga Anatomy; Hewett et al.）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-glute-thigh", "thigh-muscles-basics"]
+        },
+        {
+          "question_text": "ヨガのハヌマーナーサナ（前後開脚）で前脚のハムストリングスに過度な負荷がかかるリスクを軽減する指導として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "前脚の膝を完全に過伸展させて固定する", "is_correct": false },
+            { "text": "ブロックで骨盤を支持し、前脚の大腿四頭筋を軽く活性化しながら段階的に深める", "is_correct": true },
+            { "text": "一気に最大可動域まで下ろして反動をつける", "is_correct": false },
+            { "text": "後脚の腸腰筋を最大限に収縮させる", "is_correct": false }
+          ],
+          "explanation": "ハヌマーナーサナでは前脚のハムストリングス坐骨結節付着部に強い伸張力がかかり、付着部炎（proximal hamstring tendinopathy）のリスクがある。ブロックで骨盤を支持して体重による過度な伸張を防ぎ、大腿四頭筋の軽い収縮で相反抑制を利用しながら段階的に深める。なぜ坐骨結節付着部が脆弱かというと、腱-骨移行部は血管分布が乏しく、繰り返しの過伸張で微小断裂が蓄積しやすいためである（Kaminoff & Matthews, Yoga Anatomy; Askling et al.）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-glute-thigh", "thigh-muscles-basics"]
+        },
+        {
+          "question_text": "ヨガのトリコーナーサナ（三角のポーズ）で前脚の中殿筋が果たす役割として最も重要なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "股関節を強力に内転させて体幹を下方に引く", "is_correct": false },
+            { "text": "前脚の股関節外転筋として骨盤を水平に保ち、体幹の側屈を制御する", "is_correct": true },
+            { "text": "膝関節を屈曲させてポーズの深さを調整する", "is_correct": false },
+            { "text": "足関節の底屈を維持してバランスを安定させる", "is_correct": false }
+          ],
+          "explanation": "トリコーナーサナでは前脚の中殿筋が骨盤の側方安定性を維持する。体幹を側屈させる際、前脚側の中殿筋が等尺性収縮で骨盤を支持し、重力による過度な側方崩壊を防ぐ。中殿筋が弱いと骨盤が前脚側に落ち込み、腰椎に過度な側屈ストレスがかかる。これは片脚立ち時のトレンデレンブルグ徴候と同じメカニズム。なぜ指導者がこれを理解すべきかというと、ポーズが深くならない原因がハムストリングスの硬さではなく中殿筋の弱さである場合があるためである（Long, The Key Muscles of Yoga; Kaminoff & Matthews）。",
+          "source": "Long, The Key Muscles of Yoga",
+          "reference_text_ids": ["yoga-glute-thigh", "gluteal-muscles-basics"]
+        }
+      ]
     }
   ]
 }
