@@ -1,0 +1,922 @@
+{
+  "unit": {
+    "name": "Bridge A: 骨と関節の応用",
+    "slug": "bridge-a",
+    "description": "学んだ骨と関節の知識を、日常やヨガの場面で使いこなす",
+    "sort_order": 2
+  },
+  "category": "総合演習",
+  "category_slug": "comprehensive",
+  "reference_texts": [
+    {
+      "id": "daily-movement-osteo-ref",
+      "title": "日常動作の関節・骨の分析",
+      "content": "日常のあらゆる動作は、特定の骨と関節の組み合わせで実現されている。①ドアノブを回す：前腕の橈骨が尺骨の周りを回旋する。この運動は近位・遠位の橈尺関節（車軸関節/pivot joint）で起こる回内・回外運動である。②ペットボトルの蓋を開ける：母指のCM関節（第1手根中手関節）は鞍関節（saddle joint）で、屈曲・伸展、内転・外転、さらにこれらを組み合わせた対立運動が可能。母指の対立運動はヒト特有の精密把握（precision grip）の基盤である。③うなずく動作：環椎後頭関節（atlantooccipital joint）は顆状関節で、頭蓋骨の後頭顆が環椎（C1）の上関節窩に適合する。主に屈曲・伸展（うなずき）を行う。④首を横に振る：環軸関節（atlantoaxial joint）は軸椎（C2）の歯突起を軸とした車軸関節で、頭部の回旋（約50°ずつ、計約100°）を担う。⑤キーボード入力：指のMCP関節（中手指節関節）は顆状関節で屈曲・伸展と外転・内転が可能、PIP/DIP関節は蝶番関節で屈曲・伸展のみ。タイピングはこれらの関節の屈曲・伸展の高速な反復運動である。⑥歩行時の足：距腿関節（足関節）は蝶番関節で背屈・底屈を担い、距骨下関節は内反・外反を担う。踵接地→足底接地→蹴り出しの一連の動作はこれらの関節運動の組み合わせである（Gray's Anatomy 42nd ed.; Neumann, Kinesiology of the Musculoskeletal System）。"
+    },
+    {
+      "id": "yoga-skeletal-analysis-ref",
+      "title": "ヨガポーズの骨格・関節分析",
+      "content": "ヨガポーズを骨格と関節の視点から分析すると、各ポーズがどの構造にどのような負荷をかけるかが明確になる。①ダウンドッグ（アドムカシュヴァナーサナ）：上肢では手根骨・中手骨が体重を受け、手関節（橈骨手根関節）は過伸展位になる。肩関節（球関節）は完全屈曲位で上腕骨頭が関節窩の上方に位置する。下肢では距腿関節が背屈し、踵骨がアキレス腱を通じて牽引される。脊柱は軸方向に伸長される。②ウォーリアII（ヴィーラバドラーサナII）：前脚の膝関節（蝶番関節）は約90°屈曲し、脛骨が大腿骨に対して垂直に近い位置。股関節（球関節）は屈曲・外転・外旋の複合位。後脚の股関節は伸展・内旋位。骨盤は正面に開き、仙腸関節に回旋ストレスがかかる。③三角のポーズ（トリコーナーサナ）：脊柱の側屈が主要運動で、椎間関節（平面関節）が片側で接近し反対側で離開する。肋骨と胸椎の肋椎関節も側屈に伴い非対称に動く。④木のポーズ（ヴルクシャーサナ）：支持脚は距腿関節・距骨下関節・膝関節・股関節の全てで荷重を受ける。足のアーチ（縦・横）が体重の分散に重要。挙げた脚の股関節は屈曲・外転・外旋位で、大腿骨頭が関節窩の後下方に位置する（Gray's Anatomy 42nd ed.; Kaminoff & Matthews, Yoga Anatomy）。"
+    },
+    {
+      "id": "sports-osteo-ref",
+      "title": "スポーツ動作の骨格・関節分析",
+      "content": "スポーツ動作は特定の関節に高い負荷をかけ、その関節の構造的特性が競技パフォーマンスを左右する。①投球動作：肩関節（球関節）は3軸の自由度を持ち、コッキング期に最大外旋（約180°）→加速期に急速な内旋（約7000°/秒）という極端なROMが要求される。球関節であることが投球を可能にするが、その可動域の広さが不安定性と損傷リスクの原因でもある。②ランニング：着地時に距腿関節（蝶番関節）で背屈、膝関節（蝶番関節）で屈曲し、衝撃を吸収する。足の横アーチと縦アーチ（踵骨・距骨・舟状骨・楔状骨・中足骨）が弾性的に変形して衝撃を分散するスプリング機構として機能する。③水泳：肩関節の360°近いROM（屈曲・伸展・回旋の連続）が推進力の鍵。肩甲上腕関節の浅い関節窩と大きな骨頭の不一致（関節窩が骨頭の約1/3しか覆わない）が広いROMを実現するが、swimmer's shoulder（インピンジメント）のリスクとなる。④跳躍：膝関節の急速な伸展が推進力を生む。膝蓋骨（種子骨）は大腿四頭筋のモーメントアームを約30%増大させ、膝伸展力を効率化する。⑤キック動作（サッカー）：股関節（球関節）の屈曲と膝関節の伸展が連動する。股関節が球関節であることで、インサイド・アウトサイド・インステップなど多方向のキックが可能になる（Gray's Anatomy 42nd ed.; Neumann, Kinesiology; Standring 2020）。"
+    },
+    {
+      "id": "clinical-osteo-ref",
+      "title": "骨と関節の臨床ケース — よくある外傷と解剖学的背景",
+      "content": "骨と関節の外傷には解剖学的な「起こりやすさ」の理由がある。①FOOSH損傷（Fall On an OutStretched Hand = 手をついた転倒）：転倒時に手を突くと手関節→前腕→肘→肩へと衝撃が伝わる。橈骨遠位端骨折（コレス骨折/Colles' fracture）は最も多く、橈骨の手首側の端が背側に転位する。高齢者では骨密度低下により起こりやすい。若年者では同じ受傷機転で舟状骨骨折が多い。舟状骨（scaphoid）は手首の親指側にある手根骨で、血液供給が遠位から近位に向かうため、骨折すると近位部が血流不足で壊死（avascular necrosis）するリスクがある。②足関節捻挫：足首を内側に捻る内反捻挫が全捻挫の約85%を占める。外側の靭帯群（前距腓靭帯が最も損傷しやすい）が引き伸ばされて損傷する。前距腓靭帯（ATFL）は距骨と腓骨外果をつなぐ靭帯で、足関節底屈位で最も緩むため、つま先立ちの状態で捻ると損傷しやすい。③膝関節損傷：前十字靭帯（ACL）は大腿骨と脛骨をつなぎ、脛骨の前方へのずれを防ぐ。急な方向転換や着地で損傷しやすい。半月板は大腿骨と脛骨の間にあるC字型の線維軟骨で、荷重分散と衝撃吸収を担う。損傷すると膝のロッキング（引っかかり）やクリック音が出る。④肩関節脱臼：肩関節は浅い関節窩のため全関節中最も脱臼しやすく、約95%が前方脱臼。転倒時に腕を外転・外旋した状態で力が加わると、上腕骨頭が関節窩の前下方から逸脱する。⑤高齢者の大腿骨頸部骨折：大腿骨頸部は骨頭と骨幹を結ぶ細い部分で、骨粗鬆症により脆弱化する。転倒時に大転子部に直接外力がかかると折れやすい。大腿骨頸部は血液供給が限られるため、骨折により骨頭が壊死するリスクがある（Gray's Anatomy 42nd ed.; Standring 2020; Solomon et al., Apley's System of Orthopaedics）。"
+    },
+    {
+      "id": "structure-function-osteo-ref",
+      "title": "構造と機能の対応 — なぜその形なのか",
+      "content": "骨と関節の構造は、果たすべき機能に合わせて「設計」されている。①球関節の可動域が広い理由：肩関節の関節窩（受け皿）は上腕骨頭の約1/3しか覆わず、接触面が小さい。接触面が小さいほど骨頭は自由に動けるが、安定性は低下する。対照的に股関節の関節窩（寛骨臼）は骨頭の約2/3を覆い、可動域は肩より狭いが安定性が高い。この違いは機能の違い — 腕は広い可動域で物を操作する、脚は安定して体重を支える — に対応している。②椎間板が圧縮に強い理由：椎間板の中心にある髄核はゲル状の物質で、約80%が水分。外側を取り囲む線維輪は同心円状に積層したコラーゲン線維で、各層の線維が交互に斜走する。この構造により、軸方向の圧縮力を髄核が均等に分散し、線維輪が側方への膨張を防ぐ。ちょうど水風船をコルセットで巻いたような設計である。③膝蓋骨の力学的意義：膝蓋骨は大腿四頭筋の腱を膝関節の回転軸から前方に離す。物理学的には支点からの距離（モーメントアーム）が大きいほど小さな力で大きな回転力を生み出せる（てこの原理）。膝蓋骨による約30%の力学的利得は、階段昇降や椅子からの立ち上がりに不可欠である。④脊柱のS字カーブ：脊柱は頸椎前弯→胸椎後弯→腰椎前弯→仙椎後弯の4つのカーブを持つ。直線よりもS字カーブの方が軸方向の圧縮力を弾性的に吸収でき、一本の直線的な柱と比較して約10倍の耐荷重性を持つとされる。⑤扁平骨と長骨の機能の違い：扁平骨（頭蓋骨・肋骨・肩甲骨）は薄く広い形状で、臓器の保護や筋の広い付着面を提供する。長骨（大腿骨・上腕骨）は長さが幅より大きく、てことして効率よく力を伝え、骨髄腔で造血を行う。骨の形は果たすべき機能を反映している（Gray's Anatomy 42nd ed.; Standring 2020; Neumann, Kinesiology）。"
+    },
+    {
+      "id": "osteo-comprehensive-ref",
+      "title": "骨格系の横断的理解 — 分類・方向・全体像",
+      "content": "骨格系の全体像を把握するには、分類体系と解剖学的方向の理解が不可欠である。①骨の分類：長骨（long bone, 例：大腿骨・上腕骨）は長さが幅より大きく、骨幹と骨端を持つ。短骨（short bone, 例：手根骨・足根骨）は幅と高さがほぼ等しい立方体状。扁平骨（flat bone, 例：頭蓋骨・胸骨・肩甲骨）は薄く平たい。不規則骨（irregular bone, 例：椎骨・寛骨）は複雑な形状。種子骨（sesamoid bone, 例：膝蓋骨）は腱の中に埋もれている。②関節の分類：線維性関節（動かない〜ほぼ動かない、例：頭蓋縫合）、軟骨性関節（わずかに動く、例：恥骨結合・椎間円板）、滑膜性関節（自由に動く、例：膝・肩・股関節）。滑膜性関節はさらに形態で6つに分かれる：球関節（肩・股）、蝶番関節（肘・膝・指IP）、車軸関節（橈尺・環軸）、楕円関節（橈骨手根）、鞍関節（母指CM）、平面関節（椎間・肩鎖）。③軸骨格と付属肢骨格：軸骨格（axial skeleton）は頭蓋骨・脊柱・胸郭の80個の骨で体軸を構成し、中枢神経と内臓を保護する。付属肢骨格（appendicular skeleton）は上肢帯・上肢・下肢帯・下肢の126個の骨で四肢の運動を担う。④解剖学的方向用語：近位（proximal, 体幹に近い）↔遠位（distal, 体幹から遠い）、浅層（superficial）↔深層（deep）、内側（medial）↔外側（lateral）。⑤肩と股の比較：肩関節は浅い関節窩で可動域優先、股関節は深い関節窩（寛骨臼）で安定性優先。肩は脱臼しやすく、股は骨折しやすい。この違いは上肢（操作性重視）と下肢（荷重支持重視）の機能的要求の違いを反映している（Gray's Anatomy 42nd ed.; Standring 2020）。"
+    }
+  ],
+  "sections": [
+    {
+      "name": "日常動作と骨・関節",
+      "slug": "daily-movement-osteo",
+      "description": "ドアを開ける、うなずく、歩く — 何気ない動作を関節と骨で読み解く",
+      "sort_order": 0,
+      "concepts": [
+        {
+          "name": "日常動作の関節分析",
+          "description": "日常の動作がどの関節のどのような運動で成り立つかを理解する"
+        },
+        {
+          "name": "生活動作と骨の役割",
+          "description": "生活動作において骨がてこや支持構造として果たす役割を理解する"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "ドアノブを回す動作で主に使われる関節とその種類の組み合わせとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "橈尺関節 — 車軸関節", "is_correct": true },
+            { "text": "手関節 — 鞍関節", "is_correct": false },
+            { "text": "肘関節 — 蝶番関節", "is_correct": false },
+            { "text": "肩関節 — 球関節", "is_correct": false }
+          ],
+          "explanation": "ドアノブを回す動作は前腕の回内・回外運動であり、近位および遠位の橈尺関節で行われる。橈尺関節は車軸関節（pivot joint）に分類される。車軸関節とは、一方の骨が「軸」となり、もう一方がその周りをクルッと回る構造のこと。前腕では尺骨（小指側の骨）が軸となり、橈骨（親指側の骨）がその周りを回旋する。手関節は手首の屈曲・伸展、肘関節は肘の屈曲・伸展を担うもので、回旋運動には関与しない（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["daily-movement-osteo-ref"]
+        },
+        {
+          "question_text": "うなずく（首を縦に振る）動作が主に起こる関節はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "環軸関節（C1-C2間）", "is_correct": false },
+            { "text": "環椎後頭関節（後頭骨-C1間）", "is_correct": true },
+            { "text": "C2-C3椎間関節", "is_correct": false },
+            { "text": "顎関節（TMJ）", "is_correct": false }
+          ],
+          "explanation": "うなずき運動（頭部の屈曲・伸展）は主に環椎後頭関節（atlantooccipital joint）で行われる。環椎後頭関節とは、頭蓋骨の底にある後頭骨と、首の一番上の椎骨である環椎（C1/atlas）の間の関節のこと。顆状関節に分類され、主に前後の「うなずき」を行う。紛らわしいが、首を横に振る「いいえ」の動きは別の関節 — 環軸関節（C1-C2間の車軸関節）で行われる。C2（軸椎/axis）の歯突起を軸にC1が回旋する仕組みである（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["daily-movement-osteo-ref"]
+        },
+        {
+          "question_text": "ペットボトルの蓋を開けるとき、母指で蓋を掴む動作を可能にする関節の種類はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "蝶番関節", "is_correct": false },
+            { "text": "車軸関節", "is_correct": false },
+            { "text": "鞍関節", "is_correct": true },
+            { "text": "平面関節", "is_correct": false }
+          ],
+          "explanation": "母指のCM関節（第1手根中手関節）は鞍関節（saddle joint）に分類される。鞍関節とは、馬の鞍（サドル）のように互いに直交する凹凸面が噛み合う構造の関節で、2軸の動き（屈曲・伸展と内転・外転）が可能。さらにこの2軸を組み合わせた「対立運動」— 親指を他の指に向かって回すように動かすこと — ができるのが鞍関節の特徴である。この対立運動こそがペットボトルの蓋を掴む精密把握（precision grip）の基盤であり、ヒトの手の器用さの源でもある（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["daily-movement-osteo-ref"]
+        },
+        {
+          "question_text": "キーボードを打つ際、指のPIP関節（近位指節間関節）で可能な運動はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "屈曲・伸展のみ", "is_correct": true },
+            { "text": "屈曲・伸展と外転・内転", "is_correct": false },
+            { "text": "回旋のみ", "is_correct": false },
+            { "text": "屈曲・伸展と回旋", "is_correct": false }
+          ],
+          "explanation": "PIP関節（近位指節間関節）は蝶番関節（hinge joint）に分類される。蝶番関節とはドアの蝶番のように、1つの軸で屈曲と伸展だけを行うシンプルな関節のこと。一方、指の付け根にあるMCP関節（中手指節関節）は顆状関節で、屈曲・伸展に加え指を左右に広げる外転・内転も可能。同じ「指の関節」でも、付け根と中間では関節の種類と動きの自由度が異なる。タイピングではPIP/DIP関節の高速な屈曲・伸展が繰り返される（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["daily-movement-osteo-ref"]
+        },
+        {
+          "question_text": "歩行の蹴り出し時に足関節で起こる運動と、その関節の種類を正しく組み合わせたものはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "背屈 — 顆状関節", "is_correct": false },
+            { "text": "底屈 — 蝶番関節", "is_correct": true },
+            { "text": "外反 — 車軸関節", "is_correct": false },
+            { "text": "回旋 — 球関節", "is_correct": false }
+          ],
+          "explanation": "歩行の蹴り出し（push-off）では足関節（距腿関節）で底屈が起こる。底屈とは足先を下に向ける動き（つま先立ちの方向）で、逆に足先を上に引き上げる動きが背屈である。距腿関節はくるぶし（内果・外果）の間に距骨がはまり込む蝶番関節で、この背屈と底屈の1軸運動だけを行う。足首を内側に捻る内反や外側に捻る外反は、距骨の下にある距骨下関節で起こる別の動きである（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["daily-movement-osteo-ref"]
+        },
+        {
+          "question_text": "次の日常動作と関与する関節の種類を正しく組み合わせなさい。",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "metadata": {
+            "pairs": [
+              { "left": "首を横に振る", "right": "車軸関節" },
+              { "left": "ドアを押し開ける", "right": "蝶番関節" },
+              { "left": "腕を回して投げる", "right": "球関節" },
+              { "left": "親指で物を掴む", "right": "鞍関節" }
+            ]
+          },
+          "choices": [
+            { "text": "首を横に振る — 車軸関節、ドアを押し開ける — 蝶番関節、腕を回して投げる — 球関節、親指で物を掴む — 鞍関節", "is_correct": true },
+            { "text": "その他の組み合わせ", "is_correct": false }
+          ],
+          "explanation": "首を横に振る回旋は環軸関節で行われ、これはC2の歯突起を軸にC1が回る車軸関節。ドアを押し開ける肘の屈曲・伸展は蝶番関節（1軸でドアの蝶番のように動く）。腕を大きく回して投げる動作は肩関節の球関節ならではの3軸の自由度で実現される。親指で物を掴む対立運動は母指CM関節の鞍関節による2軸＋複合運動。このように関節の形態が「どの方向にどれだけ動けるか」を決定しており、日常動作はこれらの関節特性の組み合わせで成り立っている（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["daily-movement-osteo-ref"]
+        },
+        {
+          "question_text": "椅子から立ち上がる際、体重を支える下肢の骨を近位から遠位の順に正しく並べたのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "大腿骨 → 脛骨 → 距骨 → 踵骨", "is_correct": true },
+            { "text": "大腿骨 → 腓骨 → 距骨 → 中足骨", "is_correct": false },
+            { "text": "寛骨 → 大腿骨 → 腓骨 → 踵骨", "is_correct": false },
+            { "text": "大腿骨 → 膝蓋骨 → 脛骨 → 舟状骨", "is_correct": false }
+          ],
+          "explanation": "立ち上がり動作の荷重は、骨盤の寛骨臼（股関節のカップ部分）→大腿骨（太ももの骨）→脛骨（すねの骨）→距骨（足首の中心の骨）→踵骨（かかとの骨）と足部へと伝達される。下腿には脛骨と腓骨の2本があるが、荷重の約90%は太い脛骨が担い、細い腓骨は主に筋の付着部や足関節の安定に寄与する。膝蓋骨（膝の「おさら」）は種子骨として大腿四頭筋のてこ効率を高める役割だが、荷重伝達経路には含まれない（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["daily-movement-osteo-ref"]
+        },
+        {
+          "question_text": "重い買い物袋を手で提げているとき、荷重が伝わる上肢の関節を遠位から近位の順に並べると、{{blank}}→肘関節→肩関節となる。",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "metadata": {
+            "sentence_template": "重い買い物袋を手で提げているとき、荷重が伝わる上肢の関節を遠位から近位の順に並べると、{{blank}}→肘関節→肩関節となる。",
+            "correct_answer": "手関節（橈骨手根関節）",
+            "word_options": ["手関節（橈骨手根関節）", "橈尺関節", "手根間関節", "中手指節関節"]
+          },
+          "choices": [
+            { "text": "手関節（橈骨手根関節）", "is_correct": true },
+            { "text": "橈尺関節", "is_correct": false },
+            { "text": "手根間関節", "is_correct": false },
+            { "text": "中手指節関節", "is_correct": false }
+          ],
+          "explanation": "握った荷物の荷重は、指→MCP関節（指の付け根）→手根骨（手首の小さな骨群）→手関節（橈骨手根関節）→前腕の骨（橈骨・尺骨）→肘関節→上腕骨→肩関節→体幹へと伝わる。この経路上で肘と肩の間に位置する主要な関節が手関節（橈骨手根関節）である。橈尺関節は前腕を回す（回内・回外）ための軸であり、ぶら下がる荷重の主な伝達経路ではない。手根間関節は手根骨同士の小さな関節で、可動性は限られている（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["daily-movement-osteo-ref"]
+        }
+      ]
+    },
+    {
+      "name": "ヨガポーズの骨格分析",
+      "slug": "yoga-skeletal-analysis",
+      "description": "おなじみのポーズを「どの骨に荷重がかかり、どの関節が動いているか」で見直す",
+      "sort_order": 1,
+      "concepts": [
+        {
+          "name": "ヨガポーズの関節運動",
+          "description": "各ポーズでどの関節がどの方向に動いているかを分析する"
+        },
+        {
+          "name": "ヨガポーズの骨格負荷",
+          "description": "ポーズ中に体重や力がどの骨を通じて伝わるかを理解する"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "ダウンドッグ（下向きの犬のポーズ）で体重を直接受ける上肢の骨として、最も適切な組み合わせはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "上腕骨と肩甲骨", "is_correct": false },
+            { "text": "手根骨と中手骨", "is_correct": true },
+            { "text": "橈骨と尺骨", "is_correct": false },
+            { "text": "鎖骨と肩甲骨", "is_correct": false }
+          ],
+          "explanation": "ダウンドッグでは手のひらをマットにつくため、体重を直接受けるのはマットに接する手根骨（手首の小さな骨の集まり、8個で構成）と中手骨（手のひらの5本の骨）である。橈骨や尺骨は前腕の骨で荷重を中継するが、マットに直接は触れない。荷重は手根骨→橈骨→上腕骨→肩甲骨→体幹の順に伝わる（Kaminoff & Matthews, Yoga Anatomy）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-skeletal-analysis-ref"]
+        },
+        {
+          "question_text": "ウォーリアII（戦士のポーズII）の前脚の膝関節は、どの種類の関節に分類されるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "球関節", "is_correct": false },
+            { "text": "蝶番関節", "is_correct": true },
+            { "text": "鞍関節", "is_correct": false },
+            { "text": "車軸関節", "is_correct": false }
+          ],
+          "explanation": "膝関節は蝶番関節（hinge joint）に分類される。蝶番関節とは、ドアの蝶番のように1つの軸を中心に屈曲と伸展だけを行う関節のこと。ウォーリアIIでは前脚の膝を約90°屈曲するが、これは蝶番関節が許容する屈曲・伸展の動きそのもの。膝が左右にぶれるのは構造上の想定外であり、靭帯損傷のリスクとなる（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["yoga-skeletal-analysis-ref"]
+        },
+        {
+          "question_text": "ウォーリアII（戦士のポーズII）で前脚の股関節に起こる運動の組み合わせとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "屈曲・内転・内旋", "is_correct": false },
+            { "text": "伸展・外転・外旋", "is_correct": false },
+            { "text": "屈曲・外転・外旋", "is_correct": true },
+            { "text": "屈曲・外転・内旋", "is_correct": false }
+          ],
+          "explanation": "ウォーリアIIの前脚の股関節は、膝を前方に曲げることで屈曲、脚を横に広げることで外転、膝を外側に向けることで外旋という3つの動きが組み合わさった複合位をとる。このような多方向の動きを同時に行えるのは、股関節が球関節（ball-and-socket joint）だからである。球関節は球状の骨頭がカップ状の関節窩にはまる構造で、3軸すべての運動が可能になる（Kaminoff & Matthews, Yoga Anatomy）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-skeletal-analysis-ref"]
+        },
+        {
+          "question_text": "三角のポーズ（トリコーナーサナ）で脊柱に起こる主要な運動はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "屈曲（前屈）", "is_correct": false },
+            { "text": "伸展（後屈）", "is_correct": false },
+            { "text": "側屈", "is_correct": true },
+            { "text": "回旋（ツイスト）", "is_correct": false }
+          ],
+          "explanation": "三角のポーズでは体幹を横に倒すため、脊柱の主要な運動は側屈である。側屈では椎骨と椎骨をつなぐ椎間関節（平面関節）が片側で接近し、反対側で離開する。平面関節とは関節面が平らに近く、滑るような小さな動きだけを許す関節のこと。一つひとつの椎間関節の動きは小さいが、脊柱全体として積み重なることで大きな側屈が実現する（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["yoga-skeletal-analysis-ref"]
+        },
+        {
+          "question_text": "木のポーズ（ヴルクシャーサナ）で片脚立ちをしているとき、支持脚の体重分散に重要な足の構造はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "腓骨の外果", "is_correct": false },
+            { "text": "足のアーチ（縦アーチ・横アーチ）", "is_correct": true },
+            { "text": "膝蓋骨", "is_correct": false },
+            { "text": "脛骨粗面", "is_correct": false }
+          ],
+          "explanation": "足のアーチは踵骨・距骨・舟状骨・楔状骨・中足骨などがアーチ状に配列された構造で、内側縦アーチ・外側縦アーチ・横アーチの3つがある。このアーチ構造が体重を踵と足趾の付け根に分散し、衝撃を吸収するスプリングの役割を果たす。片脚立ちではこの分散機能が特に重要になる。腓骨外果や脛骨粗面は足の上方にある骨の構造であり、直接的な体重分散には関与しない（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["yoga-skeletal-analysis-ref"]
+        },
+        {
+          "question_text": "ダウンドッグで手関節（手首）にかかるストレスの種類として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "過度な屈曲（手首が手のひら側に折れる）", "is_correct": false },
+            { "text": "過度な伸展（手首が手の甲側に反る）", "is_correct": true },
+            { "text": "過度な尺屈（小指側への偏り）", "is_correct": false },
+            { "text": "過度な回旋（手首がねじれる）", "is_correct": false }
+          ],
+          "explanation": "ダウンドッグでは手のひらを床につき、手関節（橈骨手根関節）が大きく伸展（背屈）した状態で体重がかかる。橈骨手根関節とは橈骨（前腕の親指側の骨）の遠位端と手根骨（手首の小さな骨群）の間の関節で、楕円関節に分類される。手のひら全体でマットを押す「ハスタバンダ」の意識は、この伸展ストレスを手のひら全体に分散させ、手首の負担を軽減する工夫である（Kaminoff & Matthews, Yoga Anatomy）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-skeletal-analysis-ref"]
+        },
+        {
+          "question_text": "次のヨガポーズと、そのポーズで最も大きく動く関節の種類を正しく組み合わせなさい。",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "metadata": {
+            "pairs": [
+              { "left": "木のポーズ（挙げた脚の股関節）", "right": "球関節" },
+              { "left": "三角のポーズ（椎間関節）", "right": "平面関節" },
+              { "left": "ダウンドッグ（足関節の背屈）", "right": "蝶番関節" },
+              { "left": "ダウンドッグ（手関節）", "right": "楕円関節" }
+            ]
+          },
+          "choices": [
+            { "text": "木のポーズ — 球関節、三角のポーズ — 平面関節、足関節 — 蝶番関節、手関節 — 楕円関節", "is_correct": true },
+            { "text": "その他の組み合わせ", "is_correct": false }
+          ],
+          "explanation": "股関節は球関節で多軸の自由度を持ち、木のポーズで挙げた脚は屈曲・外転・外旋の複合位をとる。椎間関節は平面関節で関節面同士が滑る微小な動きを許し、三角のポーズの側屈に寄与する。距腿関節（足関節）は蝶番関節で背屈・底屈のみ、橈骨手根関節（手関節）は楕円関節で屈曲・伸展と橈屈・尺屈の2軸運動を行う。各ポーズの動きは、その関節の構造が許す範囲で起こっている（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["yoga-skeletal-analysis-ref"]
+        },
+        {
+          "question_text": "ウォーリアIIで前脚の膝が内側に崩れる（knee valgus）と、膝関節の{{blank}}靭帯にストレスがかかりやすい。",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "metadata": {
+            "sentence_template": "ウォーリアIIで前脚の膝が内側に崩れる（knee valgus）と、膝関節の{{blank}}靭帯にストレスがかかりやすい。",
+            "correct_answer": "内側側副（MCL）",
+            "word_options": ["内側側副（MCL）", "外側側副（LCL）", "前十字（ACL）", "後十字（PCL）"]
+          },
+          "choices": [
+            { "text": "内側側副（MCL）", "is_correct": true },
+            { "text": "外側側副（LCL）", "is_correct": false },
+            { "text": "前十字（ACL）", "is_correct": false },
+            { "text": "後十字（PCL）", "is_correct": false }
+          ],
+          "explanation": "膝が内側に崩れる（外反/valgus）と、膝の内側が引き伸ばされる。この内側を補強しているのが内側側副靭帯（MCL: Medial Collateral Ligament）である。靭帯とは骨と骨をつなぐ強靭な線維組織で、関節の過剰な動きを防ぐ「安全ベルト」のような役割を持つ。ウォーリアIIで「膝を足の中指の方向に向けて」という指示は、このMCLへの過剰なストレスを予防するためのアライメント指導である（Gray's Anatomy 42nd ed.; Kaminoff & Matthews, Yoga Anatomy）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["yoga-skeletal-analysis-ref"]
+        }
+      ]
+    },
+    {
+      "name": "スポーツ動作と骨・関節",
+      "slug": "sports-osteo",
+      "description": "投げる、走る、泳ぐ — スポーツのパフォーマンスを支える骨と関節の設計",
+      "sort_order": 2,
+      "concepts": [
+        {
+          "name": "スポーツ動作の関節力学",
+          "description": "各スポーツ動作がどの関節のどのような特性に依存しているかを分析する"
+        },
+        {
+          "name": "運動時の骨への負荷",
+          "description": "スポーツ動作で骨にかかる力の方向と、それを支える骨の構造を理解する"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "野球の投球動作で肩を大きく振りかぶれるのは、肩関節がどの種類の関節であるためか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "蝶番関節", "is_correct": false },
+            { "text": "球関節", "is_correct": true },
+            { "text": "車軸関節", "is_correct": false },
+            { "text": "平面関節", "is_correct": false }
+          ],
+          "explanation": "肩関節（肩甲上腕関節）は球関節（ball-and-socket joint）に分類される。球関節とは、ボール状の骨頭がカップ状の関節窩にはまる構造の関節で、前後・左右・回旋の3軸すべての方向に動ける。投球ではコッキング（振りかぶり）時の大きな外旋から、加速期の急速な内旋まで、肩関節の広い可動域がフルに使われる。ただし可動域が広い分、関節窩が浅く不安定になりやすいというトレードオフがある（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["sports-osteo-ref"]
+        },
+        {
+          "question_text": "ランニング着地時の衝撃吸収に重要な足の構造はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "膝蓋骨", "is_correct": false },
+            { "text": "足のアーチ（縦アーチ・横アーチ）", "is_correct": true },
+            { "text": "腓骨頭", "is_correct": false },
+            { "text": "大腿骨頸部", "is_correct": false }
+          ],
+          "explanation": "足には内側縦アーチ・外側縦アーチ・横アーチの3つのアーチがある。アーチとは踵骨・距骨・舟状骨・楔状骨・中足骨などの足の骨が弓なり（アーチ状）に配列された構造のこと。このアーチが着地時にたわんで衝撃を吸収し、蹴り出し時にはバネのように反発力を生む。いわば足の「天然のスプリング」である。膝蓋骨は膝の前面にある種子骨で、衝撃吸収とは別の役割（膝伸展のてこ効率向上）を担う（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["sports-osteo-ref"]
+        },
+        {
+          "question_text": "ジャンプの踏み切りで膝を素早く伸ばす際、膝蓋骨が果たしている役割はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "膝関節の可動域を制限して安定させる", "is_correct": false },
+            { "text": "大腿四頭筋のモーメントアーム（てこ）を増大させる", "is_correct": true },
+            { "text": "着地時に脛骨への衝撃を直接吸収する", "is_correct": false },
+            { "text": "膝関節の滑液を分泌する", "is_correct": false }
+          ],
+          "explanation": "膝蓋骨（パテラ）は大腿四頭筋の腱の中に埋まった種子骨で、膝関節の前面に位置する。種子骨とは腱の中に埋もれた骨のことで、腱が骨から離れる距離（モーメントアーム）を増やす「滑車」のような働きをする。膝蓋骨があることで大腿四頭筋の膝伸展力が約30%も増大する。ジャンプの踏み切りで強い膝伸展が必要な場面で、この力学的な増幅効果が大きな役割を果たしている（Gray's Anatomy 42nd ed.; Neumann, Kinesiology）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["sports-osteo-ref"]
+        },
+        {
+          "question_text": "水泳選手に「swimmer's shoulder（水泳肩）」が多い理由と最も関連する、肩関節の構造的特徴はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "関節窩が上腕骨頭の約1/3しか覆っていない", "is_correct": true },
+            { "text": "肩関節に半月板が存在する", "is_correct": false },
+            { "text": "鎖骨が肩関節の動きを直接制限する", "is_correct": false },
+            { "text": "上腕骨が体内で最も長い骨である", "is_correct": false }
+          ],
+          "explanation": "肩関節の関節窩（受け皿）は非常に浅く、上腕骨頭（ボール部分）の約1/3しか覆っていない。この浅さのおかげで肩は人体で最も広い可動域を持ち、水泳のストロークのような大きな回旋運動が可能になる。しかし裏を返せば構造的に不安定で、繰り返しのオーバーヘッド動作で肩峰の下を通る腱（特に棘上筋腱）が挟まれやすく、swimmer's shoulder（インピンジメント症候群）を引き起こす。可動域の広さと安定性は常にトレードオフの関係にある（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["sports-osteo-ref"]
+        },
+        {
+          "question_text": "サッカーでインサイドキック・アウトサイドキック・インステップキックなど多方向の蹴りが可能なのは、股関節がどのような関節であるためか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "蝶番関節であり、強い1軸の動きが可能だから", "is_correct": false },
+            { "text": "楕円関節であり、2軸の動きが可能だから", "is_correct": false },
+            { "text": "球関節であり、3軸の多方向の動きが可能だから", "is_correct": true },
+            { "text": "鞍関節であり、対立運動が可能だから", "is_correct": false }
+          ],
+          "explanation": "股関節は球関節（ball-and-socket joint）であり、屈曲・伸展、内転・外転、内旋・外旋の3軸全方向に動ける。この多方向の自由度があるからこそ、脚を正面に蹴り出す（屈曲）、内側に振る（内転+屈曲）、外側に振る（外転+屈曲）、甲で蹴る（伸展+内旋）など様々な方向のキックが可能になる。もし股関節が膝のような蝶番関節だったら、前後にしか蹴れないだろう（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["sports-osteo-ref"]
+        },
+        {
+          "question_text": "テニスのサーブで、肘関節の伸展と前腕の回内が同時に起こる。この2つの運動に関わる関節の種類を正しく組み合わせたものはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "肘の伸展：蝶番関節 / 前腕の回内：車軸関節", "is_correct": true },
+            { "text": "肘の伸展：車軸関節 / 前腕の回内：蝶番関節", "is_correct": false },
+            { "text": "肘の伸展：球関節 / 前腕の回内：平面関節", "is_correct": false },
+            { "text": "肘の伸展：楕円関節 / 前腕の回内：鞍関節", "is_correct": false }
+          ],
+          "explanation": "肘関節は蝶番関節で屈曲・伸展の1軸運動を行い、テニスサーブでは腕を振り下ろす際に肘を伸展する。同時に、前腕を内側に回す回内運動は橈尺関節（車軸関節）で行われる。ここで大事なのは「肘を伸ばす」と「前腕を回す」は別の関節の運動だということ。肘関節（腕尺関節）は蝶番で前後に動かし、橈尺関節は車軸で回転させる — この2つが同時に作用することでサーブの力強いスイングが生まれる（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["sports-osteo-ref"]
+        },
+        {
+          "question_text": "次のスポーツ動作と、その動作で最も重要な関節の種類を正しく組み合わせなさい。",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "metadata": {
+            "pairs": [
+              { "left": "投球（肩の大きな回旋）", "right": "球関節" },
+              { "left": "自転車のペダリング（膝の屈伸）", "right": "蝶番関節" },
+              { "left": "ドライバーでネジを回す", "right": "車軸関節" },
+              { "left": "ボルダリング（親指の対立把握）", "right": "鞍関節" }
+            ]
+          },
+          "choices": [
+            { "text": "投球 — 球関節、ペダリング — 蝶番関節、ネジ回し — 車軸関節、対立把握 — 鞍関節", "is_correct": true },
+            { "text": "その他の組み合わせ", "is_correct": false }
+          ],
+          "explanation": "投球の大きな回旋は肩関節の球関節（3軸の自由度）が支える。自転車のペダリングは膝関節の蝶番関節（屈曲・伸展の1軸運動）の繰り返し。ドライバーを回す動作は前腕の橈尺関節の車軸関節（1本の軸の周りを回旋）。ボルダリングで岩をつかむ母指の対立把握は母指CM関節の鞍関節（2軸＋対立運動）が可能にする。各動作が求める「動きの方向と自由度」に、関節の構造が対応している（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["sports-osteo-ref"]
+        },
+        {
+          "question_text": "マラソンランナーに中足骨の疲労骨折が起こりやすい理由として、最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "中足骨は海綿骨のみで構成される短骨だから", "is_correct": false },
+            { "text": "中足骨は足のアーチの一部として繰り返し荷重を受ける細い長骨だから", "is_correct": true },
+            { "text": "中足骨には関節軟骨がなく衝撃が直接伝わるから", "is_correct": false },
+            { "text": "中足骨は靭帯で固定されておらず不安定だから", "is_correct": false }
+          ],
+          "explanation": "中足骨は足の甲にある5本の細い長骨で、足のアーチ構造の一部を形成している。長骨とは長さが幅より大きい骨のことで、外側の緻密骨（かたい殻）と内部の海綿骨（スポンジ状の組織）で構成される。ランニングでは着地のたびに体重の2〜3倍の力が足にかかり、中足骨はアーチの一部としてこの繰り返し荷重を受け続ける。細い骨に微小な損傷が蓄積し、修復が追いつかなくなると疲労骨折に至る。特に第2・第3中足骨に好発する（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["sports-osteo-ref"]
+        }
+      ]
+    },
+    {
+      "name": "骨と関節の臨床ケース",
+      "slug": "clinical-osteo",
+      "description": "骨折・脱臼・捻挫 — ケガの「なぜそこで起こるか」を解剖学で読み解く",
+      "sort_order": 3,
+      "concepts": [
+        {
+          "name": "骨折と関節損傷",
+          "description": "よくある骨折・脱臼・靭帯損傷の解剖学的メカニズムを理解する"
+        },
+        {
+          "name": "臨床的評価と解剖学",
+          "description": "臨床症状から損傷部位を推定するための解剖学的知識を身につける"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "転倒して手をついたとき（FOOSH損傷）に最も骨折しやすい前腕の骨はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "尺骨の近位端", "is_correct": false },
+            { "text": "橈骨の遠位端", "is_correct": true },
+            { "text": "上腕骨の骨幹", "is_correct": false },
+            { "text": "尺骨の遠位端", "is_correct": false }
+          ],
+          "explanation": "手をついて転倒した場合（FOOSH = Fall On an OutStretched Hand）、衝撃は手→手関節→前腕へと伝わり、橈骨の遠位端（手首に近い側の端）が骨折しやすい。これをコレス骨折（Colles' fracture）と呼び、骨折部が手の甲側にずれるのが特徴。橈骨は前腕の親指側にある骨で、手関節を構成する主要な骨のため、手からの衝撃を直接受ける。特に骨粗鬆症のある高齢者に多い（Gray's Anatomy 42nd ed.; Solomon et al., Apley's System）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["clinical-osteo-ref"]
+        },
+        {
+          "question_text": "足首を内側に捻る内反捻挫で、最も損傷しやすい靭帯はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "三角靭帯（内側靭帯）", "is_correct": false },
+            { "text": "前距腓靭帯（ATFL）", "is_correct": true },
+            { "text": "後十字靭帯（PCL）", "is_correct": false },
+            { "text": "膝蓋靭帯", "is_correct": false }
+          ],
+          "explanation": "足首を内側に捻る内反捻挫は、全捻挫の約85%を占める最も一般的な捻挫である。このとき外側（外くるぶし側）の靭帯が引き伸ばされて損傷する。中でも前距腓靭帯（ATFL: Anterior TaloFibular Ligament）が最も損傷しやすい。ATFLは距骨（足首の中心にある骨）と腓骨外果（外くるぶし）をつなぐ靭帯で、足関節が底屈位（つま先が下を向いた状態）のときに最も緩むため、つま先立ちの状態で捻ると特に損傷しやすい（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["clinical-osteo-ref"]
+        },
+        {
+          "question_text": "肩関節が人体の全関節の中で最も脱臼しやすい主な理由はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "肩甲骨が胸郭に固定されていないから", "is_correct": false },
+            { "text": "関節窩が浅く、上腕骨頭の約1/3しか覆わないから", "is_correct": true },
+            { "text": "肩に靭帯が一切存在しないから", "is_correct": false },
+            { "text": "上腕骨が体内で最も重い骨だから", "is_correct": false }
+          ],
+          "explanation": "肩関節（肩甲上腕関節）は球関節で、関節窩（受け皿側）が非常に浅く、上腕骨頭（ボール側）の約1/3しか覆っていない。これは3軸の広い可動域を実現するための設計だが、同時に構造的に不安定であることを意味する。比較すると股関節は同じ球関節でも、関節窩（寛骨臼）が骨頭の約2/3を覆うため、脱臼はずっと稀である。可動域の広さと安定性はトレードオフの関係にある（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["clinical-osteo-ref"]
+        },
+        {
+          "question_text": "膝関節で半月板が損傷すると現れやすい症状はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "足首の腫れと外反不安定性", "is_correct": false },
+            { "text": "膝のロッキング（引っかかり感）やクリック音", "is_correct": true },
+            { "text": "股関節の可動域制限", "is_correct": false },
+            { "text": "足趾のしびれと感覚低下", "is_correct": false }
+          ],
+          "explanation": "半月板は膝関節の中にある三日月型（C字型）の線維軟骨で、大腿骨と脛骨の間に内側・外側の2枚がある。荷重を広い面に分散する「ワッシャー」のような役割と、衝撃を吸収するクッションの役割を持つ。半月板が損傷すると、破れた断片が関節内に引っかかり、膝が途中で動かなくなる「ロッキング」や、動かすときの「クリック音」が特徴的な症状として現れる（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["clinical-osteo-ref"]
+        },
+        {
+          "question_text": "若年者がFOOSH損傷（手をついた転倒）で骨折しやすく、骨壊死のリスクが高い手根骨はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "月状骨", "is_correct": false },
+            { "text": "舟状骨", "is_correct": true },
+            { "text": "有頭骨", "is_correct": false },
+            { "text": "豆状骨", "is_correct": false }
+          ],
+          "explanation": "舟状骨（scaphoid）は手根骨（手首を構成する8個の小さな骨）の中で最も骨折しやすい骨で、手首の親指側に位置する。舟状骨骨折のリスクが高い理由は特殊な血液供給パターンにある。舟状骨への血管は遠位（指先側）から近位（腕側）に向かって入るため、骨の中央部や近位部で骨折すると、そこから先への血流が途絶えてしまう。血液が届かなくなった骨は壊死（avascular necrosis）する危険がある。このため舟状骨骨折は早期診断と適切な固定が非常に重要である（Gray's Anatomy 42nd ed.; Solomon et al., Apley's System）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["clinical-osteo-ref"]
+        },
+        {
+          "question_text": "前十字靭帯（ACL）が損傷すると膝関節の安定性はどのように変化するか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "膝の内反・外反が不安定になる", "is_correct": false },
+            { "text": "脛骨が大腿骨に対して前方にずれやすくなる", "is_correct": true },
+            { "text": "膝蓋骨が外側に脱臼しやすくなる", "is_correct": false },
+            { "text": "足関節の背屈が制限される", "is_correct": false }
+          ],
+          "explanation": "前十字靭帯（ACL: Anterior Cruciate Ligament）は膝関節の内部で大腿骨と脛骨を斜めにつなぐ靭帯で、脛骨が前方にスライドするのを防ぐ「ストッパー」の役割を果たす。ACLが断裂すると、脛骨が大腿骨に対して前方に引き出されやすくなり（前方引き出し徴候/anterior drawer sign）、急な方向転換や着地で膝が「抜ける」ような不安定感が生じる。内反・外反の安定性は主に側副靭帯（MCL/LCL）が担っている（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["clinical-osteo-ref"]
+        },
+        {
+          "question_text": "高齢者が転倒して大腿骨の骨折を起こしやすい部位と、その解剖学的理由を正しく組み合わせたものはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "骨幹部 — 長骨の中央は最も細いため", "is_correct": false },
+            { "text": "大腿骨頸部 — 細い構造かつ骨粗鬆症で脆弱化しやすいため", "is_correct": true },
+            { "text": "遠位端 — 膝関節に近く荷重が集中するため", "is_correct": false },
+            { "text": "大転子 — 転倒時に直接衝撃を受けるため", "is_correct": false }
+          ],
+          "explanation": "大腿骨頸部は、大腿骨頭（股関節のボール部分）と骨幹（太ももの太い部分）をつなぐ細い「首」のような部位である。骨粗鬆症（加齢による骨密度低下）により海綿骨（骨の内部のスポンジ状組織）が脆くなると、この細い頸部が特に弱くなる。転倒時に大転子（太ももの外側の出っ張り）に直接外力がかかると、力が頸部に伝わり骨折する。さらに大腿骨頸部の血液供給は限られているため、骨折により骨頭への血流が途絶え、骨頭壊死のリスクもある（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["clinical-osteo-ref"]
+        },
+        {
+          "question_text": "次の外傷と損傷される構造を正しく組み合わせなさい。",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "metadata": {
+            "pairs": [
+              { "left": "足首の内反捻挫", "right": "前距腓靭帯（ATFL）" },
+              { "left": "手をついた転倒（高齢者）", "right": "橈骨遠位端" },
+              { "left": "膝の急な方向転換", "right": "前十字靭帯（ACL）" },
+              { "left": "腕を外に広げた状態での転倒", "right": "肩関節（前方脱臼）" }
+            ]
+          },
+          "choices": [
+            { "text": "内反捻挫 — ATFL、手つき転倒 — 橈骨遠位端、方向転換 — ACL、腕外転転倒 — 肩前方脱臼", "is_correct": true },
+            { "text": "その他の組み合わせ", "is_correct": false }
+          ],
+          "explanation": "各外傷には解剖学的な「起こりやすさ」の理由がある。足首の内反捻挫→外側の前距腓靭帯が引き伸ばされる（底屈位で最も脆弱）。手をついた転倒→衝撃が橈骨遠位端に集中（コレス骨折）。膝の急な方向転換→脛骨が前方にずれる力が前十字靭帯を損傷。腕を外転・外旋した状態での転倒→上腕骨頭が浅い関節窩から前下方に逸脱（肩の前方脱臼）。受傷機転と解剖学的構造の弱点が対応している（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["clinical-osteo-ref"]
+        }
+      ]
+    },
+    {
+      "name": "構造と機能の対応",
+      "slug": "structure-function",
+      "description": "なぜその形なのか？ — 骨と関節の「設計思想」を考える",
+      "sort_order": 4,
+      "concepts": [
+        {
+          "name": "関節構造と可動域の関係",
+          "description": "関節面の形状が可動域と安定性のバランスをどう決定するかを理解する"
+        },
+        {
+          "name": "骨の形態と力学的機能",
+          "description": "骨の分類（長骨・短骨・扁平骨など）と力学的な役割の対応を理解する"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "肩関節と股関節はどちらも球関節だが、肩の方が可動域が広い。その構造的な理由はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "肩の方が筋肉が多いから", "is_correct": false },
+            { "text": "肩の関節窩が浅く、骨頭の約1/3しか覆わないから", "is_correct": true },
+            { "text": "肩の骨頭の方が小さいから", "is_correct": false },
+            { "text": "股関節には靭帯がないから", "is_correct": false }
+          ],
+          "explanation": "肩関節と股関節はどちらも球関節（ball-and-socket joint）だが、「受け皿の深さ」が大きく異なる。肩関節の関節窩は浅く、上腕骨頭の約1/3しか覆わない。対して股関節の寛骨臼は深く、大腿骨頭の約2/3を覆う。受け皿が浅いほど骨頭は自由に動ける（可動域が広い）が、抜けやすくもなる（不安定）。肩は「操作性」、股は「安定して体重を支えること」を優先した設計といえる（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["structure-function-osteo-ref"]
+        },
+        {
+          "question_text": "扁平骨（flat bone）の主な機能として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "てこの作用で動きの効率を高める", "is_correct": false },
+            { "text": "臓器の保護と筋の広い付着面の提供", "is_correct": true },
+            { "text": "衝撃を吸収するバネの役割", "is_correct": false },
+            { "text": "関節の可動域を増大させる", "is_correct": false }
+          ],
+          "explanation": "扁平骨とは薄く平たい形状の骨で、頭蓋骨・胸骨・肋骨・肩甲骨などがこれに該当する。扁平骨の主な機能は2つ。1つは「盾」のように臓器を保護すること（頭蓋骨は脳を、肋骨と胸骨は心臓・肺を守る）。もう1つは広い表面積を持つため、筋肉の付着面を提供すること（肩甲骨には17もの筋が付着する）。てこの作用は長骨の役割、衝撃吸収のバネは足のアーチや椎間板の役割である（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["structure-function-osteo-ref"]
+        },
+        {
+          "question_text": "膝蓋骨が存在する力学的な意義として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "膝関節の滑液を産生する", "is_correct": false },
+            { "text": "大腿四頭筋のモーメントアームを増大させ、膝伸展力を高める", "is_correct": true },
+            { "text": "半月板を正しい位置に保持する", "is_correct": false },
+            { "text": "脛骨と大腿骨の直接的な衝突を防ぐ", "is_correct": false }
+          ],
+          "explanation": "膝蓋骨は種子骨（腱の中に埋もれた骨）で、大腿四頭筋の腱の中に位置する。膝蓋骨の力学的な役割は、腱を膝関節の回転軸から前方に引き離すこと。これにより「モーメントアーム」（回転軸からの距離）が大きくなる。てこの原理で、支点からの距離が大きいほど少ない力で大きな回転力を生み出せるため、膝蓋骨があることで膝の伸展力が約30%も増大する。階段を上る、椅子から立つ、ジャンプするなどの動作に不可欠な設計である（Gray's Anatomy 42nd ed.; Neumann, Kinesiology）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["structure-function-osteo-ref"]
+        },
+        {
+          "question_text": "椎間板が軸方向の圧縮力に強い理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "椎間板が純粋な骨組織で構成されているから", "is_correct": false },
+            { "text": "髄核がゲル状で圧力を均等に分散し、線維輪が側方への膨張を防ぐから", "is_correct": true },
+            { "text": "椎間板が厚い関節軟骨で覆われているから", "is_correct": false },
+            { "text": "椎間板内部に滑液が充填されているから", "is_correct": false }
+          ],
+          "explanation": "椎間板は2つの部分で構成されている。中心の髄核（nucleus pulposus）は約80%が水分のゲル状物質で、ウォーターベッドのように上下からの圧縮力を全方向に均等に分散する。外側の線維輪（annulus fibrosus）は同心円状に重なったコラーゲン線維の層で、各層の線維が交互に斜めに走ることで、髄核が側方に膨らもうとする力をしっかり抑える。ちょうど「水風船をコルセットで巻いた」ような巧みな設計になっている。椎間板は骨ではなく線維軟骨と水分の複合構造である（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["structure-function-osteo-ref"]
+        },
+        {
+          "question_text": "脊柱がS字カーブ（生理的弯曲）を持つ力学的な利点はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "脊髄をねじれから保護する", "is_correct": false },
+            { "text": "直線的な柱より軸方向の圧縮力を弾性的に吸収できる", "is_correct": true },
+            { "text": "脊柱の重量を軽減する", "is_correct": false },
+            { "text": "椎間板を不要にする", "is_correct": false }
+          ],
+          "explanation": "脊柱は頸椎前弯（前にカーブ）→胸椎後弯（後ろにカーブ）→腰椎前弯→仙椎後弯の4つのカーブでS字を描いている。このS字カーブはバネやスプリングのように機能し、上下からの圧縮力を弾性的に吸収する。もし脊柱が一直線だったら、衝撃が椎骨に直接伝わってしまう。S字カーブを持つことで、一本の直線的な柱と比較して約10倍の耐荷重性があるとされる。走ったり跳んだりしても脳が激しく揺れないのは、このS字カーブの衝撃吸収機能のおかげである（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["structure-function-osteo-ref"]
+        },
+        {
+          "question_text": "滑液（関節液）の主な機能として、最も包括的な説明はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "関節面の潤滑と、軟骨への栄養供給の両方を担う", "is_correct": true },
+            { "text": "関節を冷却して過熱を防ぐ", "is_correct": false },
+            { "text": "骨膜を保護してカルシウムの流出を防ぐ", "is_correct": false },
+            { "text": "関節内の骨を成長させるホルモンを分泌する", "is_correct": false }
+          ],
+          "explanation": "滑液（synovial fluid）は滑膜性関節の内部を満たす粘り気のある透明な液体で、2つの重要な機能を持つ。1つ目は潤滑。ヒアルロン酸を含む滑液が関節面の間に薄い膜を作り、摩擦を極めて小さくする（氷の上を滑るより低い摩擦係数）。2つ目は栄養供給。関節軟骨には血管が通っていないため、軟骨細胞は滑液から栄養と酸素を受け取る。関節を動かすと滑液が軟骨に押し込まれ（スポンジを絞って水を吸わせるイメージ）、栄養が行き渡る。だから適度な運動は関節の健康に不可欠なのである（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["structure-function-osteo-ref"]
+        },
+        {
+          "question_text": "長骨の骨幹部が中空の管状構造（骨髄腔を持つ）である力学的な利点は、中実の棒と比較して{{blank}}ことである。",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "metadata": {
+            "sentence_template": "長骨の骨幹部が中空の管状構造（骨髄腔を持つ）である力学的な利点は、中実の棒と比較して{{blank}}ことである。",
+            "correct_answer": "軽量でありながら曲げやねじりに対する強度が同等以上である",
+            "word_options": ["軽量でありながら曲げやねじりに対する強度が同等以上である", "軸方向の圧縮に対して10倍の強度がある", "骨膜からの栄養供給効率が高まる", "関節面の摩擦が減少する"]
+          },
+          "choices": [
+            { "text": "軽量でありながら曲げやねじりに対する強度が同等以上である", "is_correct": true },
+            { "text": "軸方向の圧縮に対して10倍の強度がある", "is_correct": false },
+            { "text": "骨膜からの栄養供給効率が高まる", "is_correct": false },
+            { "text": "関節面の摩擦が減少する", "is_correct": false }
+          ],
+          "explanation": "長骨（大腿骨、上腕骨、脛骨など）の骨幹部は、外側が緻密骨（硬くて密度の高い骨組織）の管で、内部は骨髄腔という空洞になっている。工学的にいうと、曲げやねじりに対する強度は材料が中心から離れた外側にあるほど高い。パイプと同じ直径の中実の棒を比較すると、パイプの方が軽いのに曲げ強度は同等以上。この「中空パイプ設計」により、骨格は軽量かつ頑丈に作られている。空いた内部は骨髄が占め、造血（血液の産生）に活用される — 構造と機能の見事な両立である（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["structure-function-osteo-ref"]
+        },
+        {
+          "question_text": "足のアーチ構造が体重を効率的に分散できる理由と、最も関連する建築構造の原理はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "直線梁の原理 — 直線的に力を伝える", "is_correct": false },
+            { "text": "アーチ橋の原理 — 圧縮力に変換して両端に伝える", "is_correct": true },
+            { "text": "トラス構造の原理 — 三角形で力を分散する", "is_correct": false },
+            { "text": "懸垂構造の原理 — ケーブルで吊るして力を分散する", "is_correct": false }
+          ],
+          "explanation": "足のアーチは、建築のアーチ橋と同じ力学的原理で機能する。上から加わる荷重（体重）をアーチの曲線に沿って圧縮力に変換し、両端（踵と足趾の付け根）へと分散する。平らな梁（はり）に比べ、アーチは上からの荷重に対して格段に強い。足のアーチは内側縦・外側縦・横の3つがあり、踵骨・距骨・舟状骨・楔状骨・中足骨が「石造アーチの石」のように噛み合い、靭帯や足底腱膜がそれを結び止める「タイロッド（引張材）」の役割を果たす。このアーチが崩れると扁平足（偏平足）となり、荷重分散能力が低下する（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["structure-function-osteo-ref"]
+        }
+      ]
+    },
+    {
+      "name": "骨格系の横断クイズ",
+      "slug": "osteo-cross-quiz",
+      "description": "骨と関節の知識を総動員 — 分類・比較・全体像を問う総まとめ",
+      "sort_order": 5,
+      "concepts": [
+        {
+          "name": "骨格系の全体像",
+          "description": "軸骨格と付属肢骨格の構成、骨と関節の分類体系を俯瞰する"
+        },
+        {
+          "name": "比較と統合",
+          "description": "異なる関節や骨を比較し、共通点と相違点から理解を深める"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "人体の骨格は大きく2つに分類される。頭蓋骨・脊柱・胸郭からなるグループの名称はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "付属肢骨格", "is_correct": false },
+            { "text": "軸骨格", "is_correct": true },
+            { "text": "内臓骨格", "is_correct": false },
+            { "text": "表層骨格", "is_correct": false }
+          ],
+          "explanation": "人体の骨格は軸骨格（axial skeleton）と付属肢骨格（appendicular skeleton）の2つに大別される。軸骨格とは体の「軸」を構成する骨の集まりで、頭蓋骨・脊柱・胸郭（胸骨+肋骨）の約80個の骨からなる。中枢神経（脳と脊髄）や内臓（心臓・肺）を保護する役割を担う。一方、付属肢骨格は上肢帯・上肢・下肢帯・下肢の約126個の骨で、四肢の運動を担当する（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["osteo-comprehensive-ref"]
+        },
+        {
+          "question_text": "次の骨の分類と具体例を正しく組み合わせなさい。",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "metadata": {
+            "pairs": [
+              { "left": "長骨", "right": "大腿骨" },
+              { "left": "扁平骨", "right": "肩甲骨" },
+              { "left": "短骨", "right": "手根骨" },
+              { "left": "種子骨", "right": "膝蓋骨" }
+            ]
+          },
+          "choices": [
+            { "text": "長骨 — 大腿骨、扁平骨 — 肩甲骨、短骨 — 手根骨、種子骨 — 膝蓋骨", "is_correct": true },
+            { "text": "その他の組み合わせ", "is_correct": false }
+          ],
+          "explanation": "骨はその形態で5つに分類される。長骨は長さが幅より大きい骨（大腿骨・上腕骨・脛骨など）で、てことして力を伝える。扁平骨は薄く平たい骨（肩甲骨・頭蓋骨・胸骨など）で、臓器保護と筋の付着面を提供。短骨はほぼ立方体状の骨（手根骨・足根骨）で、安定性と微細な動きに寄与。種子骨は腱の中に埋もれた骨（膝蓋骨が代表）で、てこの効率を高める。もう1つ不規則骨（椎骨・寛骨など）という複雑な形状の分類もある（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["osteo-comprehensive-ref"]
+        },
+        {
+          "question_text": "滑膜性関節の6つの種類のうち、最も多くの運動軸（自由度）を持つのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "蝶番関節（1軸）", "is_correct": false },
+            { "text": "楕円関節（2軸）", "is_correct": false },
+            { "text": "球関節（3軸）", "is_correct": true },
+            { "text": "平面関節（0軸・滑走のみ）", "is_correct": false }
+          ],
+          "explanation": "滑膜性関節は関節面の形で6つに分類され、運動の自由度が異なる。球関節は3軸（屈曲/伸展・内転/外転・内旋/外旋）の自由度を持ち、最も広い可動域がある（例：肩関節・股関節）。楕円関節と鞍関節は2軸、蝶番関節と車軸関節は1軸。平面関節は明確な軸を持たず滑走のみの微小な動き。「軸の数」が多いほど自由に動けるが、その分安定性が犠牲になるという法則がある（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["osteo-comprehensive-ref"]
+        },
+        {
+          "question_text": "上肢の関節を肩から指先に向かって近位から遠位の順に並べたとき、正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "肩関節 → 肘関節 → 手関節 → MCP関節 → PIP関節", "is_correct": true },
+            { "text": "肘関節 → 肩関節 → 手関節 → PIP関節 → MCP関節", "is_correct": false },
+            { "text": "肩関節 → 手関節 → 肘関節 → MCP関節 → DIP関節", "is_correct": false },
+            { "text": "肩関節 → 肘関節 → MCP関節 → 手関節 → PIP関節", "is_correct": false }
+          ],
+          "explanation": "近位（proximal）とは体幹に近い側、遠位（distal）とは体幹から遠い側を指す解剖学用語。上肢を体幹側からたどると、肩関節（肩甲骨と上腕骨の間）→肘関節（上腕骨と前腕骨の間）→手関節（橈骨と手根骨の間）→MCP関節（中手骨と指骨の間、指の付け根）→PIP関節（近位指骨と中位指骨の間、指の第2関節）→DIP関節（中位と末節の間、指先の関節）の順に並ぶ（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["osteo-comprehensive-ref"]
+        },
+        {
+          "question_text": "関節の3分類（線維性・軟骨性・滑膜性）のうち、最も自由に動く関節はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "線維性関節", "is_correct": false },
+            { "text": "軟骨性関節", "is_correct": false },
+            { "text": "滑膜性関節", "is_correct": true },
+            { "text": "3種類とも同じ可動域を持つ", "is_correct": false }
+          ],
+          "explanation": "関節は骨の結合様式で3つに大別される。線維性関節は骨同士が線維組織で直接つながり、ほとんど動かない（例：頭蓋骨の縫合）。軟骨性関節は軟骨を介して結合し、わずかに動く（例：恥骨結合、椎間板を介した椎体間の結合）。滑膜性関節は関節腔・滑液・関節包を持つ関節で、自由に動く（例：肩・膝・股関節など）。私たちが普段「関節」と呼ぶもののほとんどは滑膜性関節であり、日常動作のほぼ全てを担っている（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["osteo-comprehensive-ref"]
+        },
+        {
+          "question_text": "肩関節と股関節の比較として正しい記述はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "肩は安定性重視、股は可動域重視の設計", "is_correct": false },
+            { "text": "肩は可動域重視で脱臼しやすく、股は安定性重視で骨折しやすい", "is_correct": true },
+            { "text": "両者とも蝶番関節で1軸の運動を行う", "is_correct": false },
+            { "text": "肩は体重を支え、股は物を操作するための関節", "is_correct": false }
+          ],
+          "explanation": "肩関節と股関節はどちらも球関節だが、設計思想が正反対である。肩は浅い関節窩（骨頭の約1/3しか覆わない）で可動域を最大化し、腕の自由な操作を優先する。その代わり脱臼しやすい（全脱臼の約50%が肩）。股は深い寛骨臼（骨頭の約2/3を覆う）で安定性を確保し、体重支持を優先する。脱臼は稀だが、大腿骨頸部という細い部分に力が集中するため骨折のリスクがある。上肢は「操作する」、下肢は「支える」という機能の違いが関節の構造に反映されている（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["osteo-comprehensive-ref"]
+        },
+        {
+          "question_text": "「脛骨は{{blank}}に分類される骨で、下肢の荷重伝達の主経路を担う。」",
+          "interaction_type": "word_bank",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "metadata": {
+            "sentence_template": "脛骨は{{blank}}に分類される骨で、下肢の荷重伝達の主経路を担う。",
+            "correct_answer": "長骨",
+            "word_options": ["長骨", "短骨", "扁平骨", "不規則骨"]
+          },
+          "choices": [
+            { "text": "長骨", "is_correct": true },
+            { "text": "短骨", "is_correct": false },
+            { "text": "扁平骨", "is_correct": false },
+            { "text": "不規則骨", "is_correct": false }
+          ],
+          "explanation": "脛骨（すねの骨）は長骨に分類される。長骨の特徴は長さが幅より大きいことで、骨幹（中間の太い管状部分）と両端の骨端（関節面を持つ膨らんだ部分）で構成される。脛骨は下腿で主要な荷重伝達を担い、体重の約90%を受ける。隣の腓骨も長骨だが、より細く、主に筋の付着や足関節の安定に寄与し、荷重伝達への貢献は約10%にとどまる（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["osteo-comprehensive-ref"]
+        },
+        {
+          "question_text": "以下の記述のうち、解剖学的に正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "蝶番関節では屈曲・伸展に加えて回旋も可能である", "is_correct": false },
+            { "text": "頭蓋骨の縫合は滑膜性関節に分類される", "is_correct": false },
+            { "text": "平面関節は関節面同士が滑る微小な動きのみを許容する", "is_correct": true },
+            { "text": "車軸関節は3軸の自由度を持つ", "is_correct": false }
+          ],
+          "explanation": "平面関節（plane joint）は関節面がほぼ平らで、関節面同士が互いに滑るように動く微小な動きだけを許す関節である（例：椎間関節、手根間関節、肩鎖関節）。1つずつの動きは小さいが、脊柱の椎間関節のように積み重なると全体として大きな運動範囲になる。蝶番関節は1軸で屈曲・伸展のみ（回旋はできない）。頭蓋骨の縫合は線維性関節（ほぼ動かない）。車軸関節は1軸で回旋のみ。正確な分類の理解が、骨と関節の知識の土台となる（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["osteo-comprehensive-ref"]
+        }
+      ]
+    }
+  ]
+}
