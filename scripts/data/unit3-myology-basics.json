@@ -388,14 +388,14 @@
           "question_type": "text_only",
           "difficulty": "hard",
           "metadata": {
-            "sentence_template": "ヨガで呼吸をコントロールできるのは、横隔膜が{{blank}}だからである。",
             "correct_answer": "骨格筋（随意筋）",
             "word_options": [
               "骨格筋（随意筋）",
               "心筋（不随意筋）",
               "平滑筋（不随意筋）",
               "靭帯（結合組織）"
-            ]
+            ],
+            "template": "ヨガで呼吸をコントロールできるのは、横隔膜が{{blank}}だからである。"
           },
           "choices": [
             {
@@ -615,14 +615,14 @@
           "question_type": "text_only",
           "difficulty": "hard",
           "metadata": {
-            "sentence_template": "筋収縮の流れ：脳からの信号 → {{blank}} → アクチンとミオシンが滑り合う → 筋が短くなる",
             "correct_answer": "カルシウムイオン（Ca²⁺）が放出される",
             "word_options": [
               "カルシウムイオン（Ca²⁺）が放出される",
               "ATPが分解される",
               "コラーゲンが合成される",
               "ヘモグロビンが酸素を運ぶ"
-            ]
+            ],
+            "template": "筋収縮の流れ：脳からの信号 → {{blank}} → アクチンとミオシンが滑り合う → 筋が短くなる"
           },
           "choices": [
             {
@@ -1428,14 +1428,14 @@
           "question_type": "text_only",
           "difficulty": "hard",
           "metadata": {
-            "sentence_template": "バランスポーズで足関節の安定を保つとき、通常の相反抑制とは異なる「{{blank}}」が起こっている。",
             "correct_answer": "共収縮（主動筋と拮抗筋が同時に収縮）",
             "word_options": [
               "共収縮（主動筋と拮抗筋が同時に収縮）",
               "完全弛緩（すべての筋がリラックス）",
               "超回復（筋が修復中）",
               "遠心性収縮（ブレーキ動作）"
-            ]
+            ],
+            "template": "バランスポーズで足関節の安定を保つとき、通常の相反抑制とは異なる「{{blank}}」が起こっている。"
           },
           "choices": [
             {
