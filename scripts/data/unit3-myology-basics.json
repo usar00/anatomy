@@ -3175,6 +3175,144 @@
           "reference_text_ids": ["gluteal-muscles-basics"]
         }
       ]
+    },
+    {
+      "name": "大腿の筋",
+      "slug": "thigh-muscles",
+      "description": "人体最強の大腿四頭筋と、肉離れしやすいハムストリングス",
+      "sort_order": 22,
+      "concepts": [
+        {
+          "name": "大腿四頭筋とハムストリングス",
+          "description": "前面の伸筋群と後面の屈筋群の拮抗関係"
+        },
+        {
+          "name": "内転筋群と縫工筋",
+          "description": "内側コンパートメントの筋群と鵞足"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "大腿四頭筋の中で唯一の二関節筋はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "外側広筋", "is_correct": false },
+            { "text": "内側広筋", "is_correct": false },
+            { "text": "大腿直筋", "is_correct": true },
+            { "text": "中間広筋", "is_correct": false }
+          ],
+          "explanation": "大腿直筋は下前腸骨棘から起始し膝蓋靭帯を介して脛骨粗面に停止するため、股関節と膝関節をまたぐ二関節筋。膝伸展に加え股関節屈曲にも関与する。他の3筋（外側広筋・内側広筋・中間広筋）は大腿骨から起始する単関節筋で膝伸展のみ。なぜ大腿直筋が二関節筋であることが重要かというと、歩行のスイング期に股関節屈曲と膝伸展を同時に行えるため、脚の振り出し効率が高まるためである（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["thigh-muscles-basics"]
+        },
+        {
+          "question_text": "ハムストリングスが肉離れ（筋挫傷）を起こしやすい状況として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "座位で静かにストレッチしている時", "is_correct": false },
+            { "text": "スプリントのスイング期終盤で、膝伸展を減速させる遠心性収縮時", "is_correct": true },
+            { "text": "ゆっくりとした歩行中", "is_correct": false },
+            { "text": "立位で等尺性収縮している時", "is_correct": false }
+          ],
+          "explanation": "ハムストリングスの肉離れはスプリントのスイング期終盤が最も好発する。この時点でハムストリングスは股関節屈曲+膝伸展という最大伸張位に近い状態で、振り出される下腿を減速させるための遠心性収縮を強いられる。二関節筋に対する二重の伸張負荷が限界を超えると筋線維が断裂する。なぜ遠心性収縮が危険かというと、遠心性収縮は求心性収縮より大きな張力を発生でき、筋線維の機械的限界を超えやすいためである（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["thigh-muscles-basics"]
+        },
+        {
+          "question_text": "膝蓋骨（patella）が大腿四頭筋の機能を向上させるメカニズムとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "膝蓋骨が大腿骨と脛骨の直接摩擦を防ぐため", "is_correct": false },
+            { "text": "膝蓋骨が大腿四頭筋腱のモーメントアームを増大させ、少ない筋力で大きな膝伸展トルクを生む", "is_correct": true },
+            { "text": "膝蓋骨が膝関節の過伸展を物理的にブロックするため", "is_correct": false },
+            { "text": "膝蓋骨が膝関節液の産生を促進するため", "is_correct": false }
+          ],
+          "explanation": "膝蓋骨は種子骨で、大腿四頭筋の腱内に埋まっている。膝蓋骨が存在することで四頭筋腱が膝関節の回転中心から前方に離れ、モーメントアーム（てこの腕）が約30%増大する。結果として、同じ筋力でより大きな膝伸展トルクを発生できる。なぜ種子骨がこの位置にあるかというと、膝伸展は歩行・走行・階段昇降で最も頻繁に必要とされ、力学的効率を高める進化的圧力があったためである（Neumann, Kinesiology; Gray's Anatomy 42nd ed.）。",
+          "source": "Neumann, Kinesiology of the Musculoskeletal System",
+          "reference_text_ids": ["thigh-muscles-basics"]
+        },
+        {
+          "question_text": "鵞足（pes anserinus）を構成する3筋の組み合わせとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "大腿直筋・内側広筋・大内転筋", "is_correct": false },
+            { "text": "縫工筋・薄筋・半腱様筋", "is_correct": true },
+            { "text": "大腿二頭筋・半膜様筋・薄筋", "is_correct": false },
+            { "text": "縫工筋・大腿直筋・半腱様筋", "is_correct": false }
+          ],
+          "explanation": "鵞足は脛骨内側面に扇状に付着する3つの腱の総称で、縫工筋（Sartorius）・薄筋（Gracilis）・半腱様筋（Semitendinosus）で構成される。覚え方は「Say Grace before Tea（SGT）」。3筋はそれぞれ異なるコンパートメント（前面・内側・後面）から集まり、膝関節の内側安定性に寄与する。鵞足炎（pes anserine bursitis）はランナーや肥満者に多い膝内側の痛み。なぜこの3筋が集合するかというと、異なる方向から脛骨内側に収束することで膝の外反・外旋ストレスに対する動的制動として効率的に機能するためである（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["thigh-muscles-basics"]
+        },
+        {
+          "question_text": "大腿神経の障害で最も困難になる動作はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "足関節の底屈（つま先立ち）", "is_correct": false },
+            { "text": "股関節の外転（脚を横に開く）", "is_correct": false },
+            { "text": "膝関節の伸展（椅子からの立ち上がり、階段昇降）", "is_correct": true },
+            { "text": "股関節の内旋", "is_correct": false }
+          ],
+          "explanation": "大腿神経（L2-L4）は大腿四頭筋と縫工筋を支配する。障害されると膝伸展が著しく困難になり、椅子からの立ち上がり、階段昇降（特に下り）が困難になる。膝蓋腱反射も消失する。また大腿前面と下腿内側（伏在神経領域）の感覚が障害される。なぜ階段下りが特に困難かというと、下り階段では大腿四頭筋の遠心性収縮で体重を支えながら膝を屈曲させる必要があるためである（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["thigh-muscles-basics"]
+        },
+        {
+          "question_text": "内転筋群の主な支配神経と、股関節内転以外の重要な臨床的機能はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "大腿神経 — 膝関節の伸展補助", "is_correct": false },
+            { "text": "坐骨神経 — 股関節の外旋", "is_correct": false },
+            { "text": "閉鎖神経 — 歩行時の下肢のアライメント制御と骨盤安定化", "is_correct": true },
+            { "text": "上殿神経 — 股関節の外転補助", "is_correct": false }
+          ],
+          "explanation": "内転筋群（大内転筋・長内転筋・短内転筋・薄筋・恥骨筋）は主に閉鎖神経（L2-L4）に支配される（恥骨筋は大腿神経との二重支配、大内転筋の膝伸展部は坐骨神経支配）。内転以外に、歩行時の立脚期で下肢が外側に流れるのを防ぎ下肢のアライメントを制御する重要な役割がある。なぜ内転筋群が5筋もあるかというと、恥骨から坐骨結節までの広い範囲から大腿骨に対して多方向の安定化力を提供するためである（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["thigh-muscles-basics"]
+        },
+        {
+          "question_text": "ハムストリングスの3筋のうち、外側（腓骨頭）に停止し坐骨神経の総腓骨神経部に支配される短頭を持つ筋はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "半腱様筋", "is_correct": false },
+            { "text": "半膜様筋", "is_correct": false },
+            { "text": "大腿二頭筋", "is_correct": true },
+            { "text": "薄筋", "is_correct": false }
+          ],
+          "explanation": "大腿二頭筋は長頭（坐骨結節起始、脛骨神経部支配）と短頭（大腿骨粗線起始、総腓骨神経部支配）の2頭を持ち、腓骨頭に停止する。ハムストリングスの中で唯一外側に停止し、膝屈曲+外旋を行う（半腱様筋・半膜様筋は内側停止で膝屈曲+内旋）。短頭は大腿骨から起始する単関節筋で、厳密にはハムストリングスの定義（坐骨結節起始の二関節筋）から外れる。なぜ神経支配が2系統かというと、発生学的に長頭と短頭が異なる筋芽組織から分化したためである（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["thigh-muscles-basics"]
+        },
+        {
+          "question_text": "縫工筋（Sartorius）が人体最長の筋である構造的特徴と、その作用の組み合わせとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "上前腸骨棘から脛骨外側顆に走り、膝伸展と股関節内転を行う", "is_correct": false },
+            { "text": "上前腸骨棘から脛骨内側面（鵞足）に斜走し、股関節の屈曲・外転・外旋と膝関節の屈曲を行う", "is_correct": true },
+            { "text": "下前腸骨棘から膝蓋骨に走り、膝伸展と股関節屈曲を行う", "is_correct": false },
+            { "text": "腸骨稜から腓骨頭に走り、膝屈曲と足関節外反を行う", "is_correct": false }
+          ],
+          "explanation": "縫工筋は上前腸骨棘（ASIS）から大腿前面を斜めに横切り、脛骨内側面の鵞足に停止する人体最長の筋（約50-60cm）。股関節の屈曲・外転・外旋と膝関節の屈曲を行う。「Sartorius」はラテン語の「sartor（仕立屋）」に由来し、仕立屋が脚を組んで座る姿勢（股関節屈曲+外転+外旋）を作る筋であることにちなむ。大腿神経（L2-L3）支配。なぜ最長であるかというと、ASISから脛骨内側まで大腿を斜めに横切る長い走行路を取ることで、2つの関節に対して複合的な作用を可能にしているためである（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["thigh-muscles-basics"]
+        }
+      ]
     }
   ]
 }
