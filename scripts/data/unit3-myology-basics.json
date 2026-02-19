@@ -14,6 +14,21 @@
       "content": "人体には3種類の筋組織が存在する。①骨格筋（Skeletal Muscle）：横紋（striation）を持つ随意筋。体性運動神経の支配を受け、自分の意思で収縮・弛緩できる。筋線維（筋細胞）は多核で非常に細長く（直径10-100μm、長さ数cm〜数十cm）、発生過程で多数の筋芽細胞（myoblast）が融合して形成される。体重の約40-50%を占める。②心筋（Cardiac Muscle）：横紋を持つが不随意筋。自律神経と固有の刺激伝導系（洞房結節→房室結節→ヒス束→プルキンエ線維）により自動的に収縮する。心筋細胞は分岐し、細胞間は介在板（intercalated disc）で結合される。介在板にはデスモソーム（機械的結合）とギャップ結合（電気的結合）が含まれ、心臓全体が機能的合胞体として同期収縮する。心筋細胞はミトコンドリアが細胞体積の約30-40%を占め、一生涯休まず収縮し続けるための膨大なATP産生を担う。③平滑筋（Smooth Muscle）：横紋を持たない不随意筋。内臓壁（消化管・膀胱・子宮）、血管壁、気管支壁などに存在。紡錘形の単核細胞で、アクチンとミオシンが不規則に配列するため横紋が見えない。収縮は骨格筋より遅いが持続的で、ラッチ機構（latch mechanism）により少ないATP消費で長時間の張力維持が可能。死後硬直（rigor mortis）は、死後にATP産生が停止し、ミオシンがアクチンから解離できなくなることで全身の骨格筋が硬化する現象である（Gray's Anatomy 42nd ed., Part I: Cells, Tissues and Systems; Standring 2020）。"
     },
     {
+      "id": "muscle-coordination-basics",
+      "title": "筋の協調 — 主動筋・拮抗筋・協力筋・固定筋",
+      "content": "骨格筋は単独では動作を生み出せず、複数の筋が役割分担して協調的に働く。①主動筋（agonist/prime mover）：目的の動作を主に遂行する筋。例えば肘屈曲の主動筋は上腕二頭筋。②拮抗筋（antagonist）：主動筋と反対の作用を持つ筋。肘屈曲時の拮抗筋は上腕三頭筋。拮抗筋は通常、主動筋の動きに合わせて適度に弛緩し、動作の速度と方向を制御する（相反抑制/reciprocal inhibition）。③協力筋（synergist）：主動筋を補助して同じ方向の力を加える筋、または不要な動きを抑制する筋。肘屈曲時の腕橈骨筋が協力筋。④固定筋（fixator/stabilizer）：主動筋の起始部や近位の関節を安定させる筋。肘屈曲時に肩甲骨を安定させる菱形筋・僧帽筋下部が固定筋として機能。なぜ拮抗筋が必要かというと、筋は収縮（引く）ことしかできないため、関節を両方向に動かすには対になる筋が必要である。また拮抗筋は動作の終末での制動（ブレーキ）として働き、関節を保護する。コップを持ち上げる動作では、上腕二頭筋（主動筋）が肘を屈曲し、上腕三頭筋（拮抗筋）が速度を制御し、腕橈骨筋（協力筋）が補助し、僧帽筋・菱形筋（固定筋）が肩甲骨を安定させる。この4つの役割の協調が滑らかで正確な動作を生む（Gray's Anatomy 42nd ed.; Standring 2020）。"
+    },
+    {
+      "id": "contraction-types-basics",
+      "title": "筋収縮の種類 — 等尺性・求心性・遠心性",
+      "content": "筋収縮は筋の長さ変化と力の関係により3つに分類される。①等尺性収縮（isometric contraction）：筋の長さが変わらずに力を発揮する。壁を押す、プランクを保持するなど。関節は動かないが筋は活動しており、姿勢保持に不可欠。②求心性収縮（concentric contraction）：筋が短縮しながら力を発揮する。ダンベルを持ち上げる（上腕二頭筋が短縮）、階段を上る（大腿四頭筋が短縮）など。外部の負荷に打ち勝って動作を遂行する。③遠心性収縮（eccentric contraction）：筋が伸張しながら力を発揮する。ダンベルをゆっくり下ろす（上腕二頭筋が伸張しながら制御）、階段を下りる（大腿四頭筋が伸張しながらブレーキ）など。遠心性収縮は求心性収縮より大きな力を発揮できるが、筋線維への機械的ストレスが大きく、遅発性筋痛（DOMS: Delayed Onset Muscle Soreness）の主因となる。なぜ遠心性収縮で筋痛が起こりやすいかというと、少ない運動単位に大きな機械的負荷が集中し、筋原線維のZ線周辺に微小損傷（microtrauma）が生じるためである。階段を下りた翌日に太ももが痛くなるのはこのメカニズムによる。日常動作では3種類の収縮が連続的に切り替わる。椅子から立ち上がるとき大腿四頭筋は求心性収縮、立位保持中は等尺性収縮、座るときは遠心性収縮を行う（Gray's Anatomy 42nd ed.; Enoka, Neuromechanics of Human Movement）。"
+    },
+    {
+      "id": "yoga-muscle-basics",
+      "title": "筋の構造・収縮とヨガの実践",
+      "content": "ヨガの実践は筋の構造と収縮メカニズムの理解により深まる。①ウォームアップの科学的意義：筋温が上がると筋小胞体からのCa²⁺放出効率が向上し、ATPase活性も高まるため収縮速度と筋出力が上昇する。太陽礼拝（Surya Namaskar）がクラスの冒頭に行われるのは、全身の筋温を上げ筋の粘弾性を改善して怪我を予防するためである。②ストレッチとサルコメア：長期的なストレッチ実践により、サルコメアの直列数が増加（sarcomerogenesis）し、筋-腱複合体の安静時長が伸びることが報告されている。これはヨガの柔軟性向上が単に筋を引き伸ばすだけでなく、構造的適応を伴うことを意味する（Weppler & Magnusson 2010）。③ヨガと筋のエネルギー代謝：ヴィンヤサフローのような連続的な動きは有酸素的代謝（酸化的リン酸化）が主体で、長時間のホールドは等尺性収縮としてクレアチンリン酸系と解糖系を活用する。シャヴァーサナ（屍のポーズ）は筋の完全弛緩を通じて副交感神経を活性化する。④プロップの科学：ブロックやストラップなどのプロップは、筋の収縮負荷や伸張度を調整し、個人の筋の特性に合わせた安全な練習を可能にする。⑤筋の粘弾性：筋は粘弾性体であり、急激な伸張には抵抗し（粘性）、ゆっくりとした伸張には適応する（弾性）。ヨガのゆっくりとした動きとホールドは、この粘弾性特性を利用して安全に可動域を広げる（Polsgrove et al. 2016, doi:10.4103/0973-6131.171710）。"
+    },
+    {
       "id": "muscle-contraction-basics",
       "title": "筋収縮のしくみ — 滑り説とエネルギー",
       "content": "筋収縮は滑り説（sliding filament theory）で説明される。①興奮-収縮連関：運動神経の活動電位が神経筋接合部でアセチルコリン（ACh）を放出→筋線維膜の脱分極→T-tubuleを通じて興奮が内部に伝播→筋小胞体（SR）からCa²⁺が放出。②架橋サイクル：Ca²⁺がトロポニンに結合→トロポミオシンが移動しアクチンのミオシン結合部位が露出→ミオシン頭部がアクチンに結合（架橋形成）→パワーストローク（ADP+Pi放出でミオシン頭部が首振り、アクチンを引き寄せ）→新たなATPがミオシンに結合し架橋解離→ATPが加水分解されミオシン頭部がリセット。このサイクルが繰り返されアクチンがミオシン間に滑り込むことでサルコメアが短縮する。③弛緩：神経刺激の停止→Ca²⁺ポンプ（SERCA）がCa²⁺をSRに回収→トロポミオシンが結合部位を再び覆う→架橋形成が停止し受動的に伸張。④エネルギー供給：筋収縮のATPは①クレアチンリン酸系（即時、数秒間）、②解糖系（短時間高強度、乳酸産生）、③酸化的リン酸化（持続的、ミトコンドリア）の3系統で供給される。運動の種類と強度により主要なエネルギー供給系が切り替わる（Guyton & Hall, Textbook of Medical Physiology; Standring 2020）。"
@@ -436,6 +451,420 @@
           "explanation": "重症筋無力症は自己免疫疾患で、神経筋接合部のアセチルコリン（ACh）受容体に対する自己抗体が産生され、受容体数が減少する。その結果、AChが放出されても十分な筋線維の脱分極が起こらず、筋力低下・易疲労性を来す。反復使用で悪化し休息で回復する特徴がある。この疾患を知ることで、神経筋接合部がなぜ筋収縮の重要なボトルネックになり得るかが理解できる（Harrison's Principles of Internal Medicine; Standring 2020）。",
           "source": "Gray's Anatomy 42nd ed.",
           "reference_text_ids": ["muscle-contraction-basics"]
+        }
+      ]
+    },
+    {
+      "name": "筋の構造・収縮とヨガ",
+      "slug": "yoga-muscle-structure-contraction",
+      "description": "ウォームアップの科学、ストレッチとサルコメア、筋のエネルギー代謝",
+      "sort_order": 3,
+      "concepts": [
+        {
+          "name": "ウォームアップとストレッチの科学",
+          "description": "太陽礼拝の意義、サルコメア適応、筋の粘弾性"
+        },
+        {
+          "name": "ヨガと筋のエネルギー代謝",
+          "description": "ヴィンヤサとホールドで異なるエネルギー供給系"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "ヨガクラスの冒頭に太陽礼拝（Surya Namaskar）を行う科学的理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "瞑想状態に入りやすくするため", "is_correct": false },
+            { "text": "筋温を上げて筋の粘弾性を改善し、Ca²⁺放出効率とATPase活性を高めるため", "is_correct": true },
+            { "text": "心筋を鍛えて心拍数を下げるため", "is_correct": false },
+            { "text": "関節液を分泌させて関節面を保護するため", "is_correct": false }
+          ],
+          "explanation": "太陽礼拝は全身の大筋群を動かして筋温を上昇させるウォームアップである。筋温上昇により筋小胞体からのCa²⁺放出効率が向上し、ATPase活性も高まるため筋の収縮速度と出力が上昇する。同時に筋の粘弾性が改善され（温まると柔らかくなる）、急激な伸張による損傷リスクが低下する（McArdle et al., Exercise Physiology; Polsgrove et al. 2016）。",
+          "source": "Polsgrove et al. 2016, doi:10.4103/0973-6131.171710",
+          "reference_text_ids": ["yoga-muscle-basics"]
+        },
+        {
+          "question_text": "ヨガの長期的な実践で柔軟性が向上するメカニズムとして、近年の研究で示されているのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "関節包が拡張して構造的に緩くなる", "is_correct": false },
+            { "text": "筋線維が細くなって伸びやすくなる", "is_correct": false },
+            { "text": "サルコメアの直列数が増加し筋-腱複合体が構造的に適応する", "is_correct": true },
+            { "text": "骨が軟化して関節の可動域が広がる", "is_correct": false }
+          ],
+          "explanation": "長期的なストレッチにより、筋線維内のサルコメア直列数が増加する現象（sarcomerogenesis）が報告されている。これにより筋-腱複合体の安静時長が伸び、可動域が広がる。単に筋を引き伸ばすだけでなく、構造レベルの適応が起きている。ヨガの継続で「身体が変わる」実感には科学的根拠がある（Weppler & Magnusson 2010; Polsgrove et al. 2016）。",
+          "source": "Weppler & Magnusson 2010",
+          "reference_text_ids": ["yoga-muscle-basics"]
+        },
+        {
+          "question_text": "ヴィンヤサフロー（連続的に動くスタイル）で主に利用されるエネルギー供給系はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "クレアチンリン酸系", "is_correct": false },
+            { "text": "嫌気的解糖系", "is_correct": false },
+            { "text": "酸化的リン酸化（好気的代謝）", "is_correct": true },
+            { "text": "クレアチンリン酸系と解糖系の併用", "is_correct": false }
+          ],
+          "explanation": "ヴィンヤサフローは中等度強度の持続的な有酸素運動に分類され、ミトコンドリアでの酸化的リン酸化が主要なATP供給源となる。脂肪酸とグルコースを燃料とし、長時間持続可能である。一方、長時間のポーズホールドでは局所的な等尺性収縮が続き、クレアチンリン酸系や解糖系も動員される（McArdle et al., Exercise Physiology）。",
+          "source": "McArdle et al., Exercise Physiology",
+          "reference_text_ids": ["yoga-muscle-basics", "muscle-contraction-basics"]
+        },
+        {
+          "question_text": "ヨガのポーズでゆっくり動くことが推奨される理由を、筋の粘弾性の観点から説明したものとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "速い動きは平滑筋を過度に収縮させるため", "is_correct": false },
+            { "text": "筋は粘弾性体であり、急激な伸張には強く抵抗するがゆっくりとした伸張には適応するため", "is_correct": true },
+            { "text": "速い動きは筋原線維を破壊するため", "is_correct": false },
+            { "text": "ゆっくりとした動きでのみATPが産生されるため", "is_correct": false }
+          ],
+          "explanation": "筋は粘弾性体（viscoelastic material）であり、急激な伸張に対しては粘性抵抗が強く働き損傷のリスクが高まる。一方、ゆっくりとした伸張ではクリープ（creep）現象により組織が徐々に適応し、安全に可動域を広げることができる。これがヨガの「ゆっくり、呼吸に合わせて」という指導原則の科学的根拠である（Weppler & Magnusson 2010）。",
+          "source": "Weppler & Magnusson 2010",
+          "reference_text_ids": ["yoga-muscle-basics"]
+        },
+        {
+          "question_text": "シャヴァーサナ（屍のポーズ）で全身の骨格筋を完全に弛緩させることの生理学的意義はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "筋線維の数を増やす（過形成を促す）", "is_correct": false },
+            { "text": "ミオシンフィラメントを再合成する", "is_correct": false },
+            { "text": "筋緊張の低下を通じて副交感神経を活性化し、身体の回復を促進する", "is_correct": true },
+            { "text": "筋小胞体のCa²⁺貯蔵量を増加させる", "is_correct": false }
+          ],
+          "explanation": "シャヴァーサナでの意識的な筋弛緩は、筋紡錘からの求心性信号を減少させ、交感神経活動を抑制して副交感神経優位の状態を作る。これにより心拍数・血圧の低下、消化管活動の促進、ストレスホルモン（コルチゾール）の減少が起こり、身体全体の回復が促進される。筋弛緩と自律神経のつながりを理解することは、ヨガ指導の質を高める（Polsgrove et al. 2016）。",
+          "source": "Polsgrove et al. 2016, doi:10.4103/0973-6131.171710",
+          "reference_text_ids": ["yoga-muscle-basics"]
+        },
+        {
+          "question_text": "戦士のポーズII（Virabhadrasana II）で前脚の大腿四頭筋が行っている収縮と、主なエネルギー供給の組み合わせとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "求心性収縮 — 酸化的リン酸化", "is_correct": false },
+            { "text": "遠心性収縮 — 解糖系", "is_correct": false },
+            { "text": "等尺性収縮 — クレアチンリン酸系と解糖系", "is_correct": true },
+            { "text": "等尺性収縮 — 酸化的リン酸化のみ", "is_correct": false }
+          ],
+          "explanation": "戦士のポーズIIで膝を90度に保持する際、大腿四頭筋は関節角度を変えずに張力を発揮する等尺性収縮（isometric contraction）を行っている。局所的に強い張力が持続するため筋内の血流が制限され、酸素供給が不十分になりやすい。そのためクレアチンリン酸系と嫌気的解糖系が主要なATP供給源となり、ポーズを長く保持すると「脚が震える」のは局所的なエネルギー枯渇と運動単位の疲労のサインである（McArdle et al., Exercise Physiology）。",
+          "source": "McArdle et al., Exercise Physiology",
+          "reference_text_ids": ["yoga-muscle-basics", "muscle-contraction-basics"]
+        },
+        {
+          "question_text": "ブロックやストラップなどのプロップを使用する科学的意義として、筋の収縮メカニズムの観点から最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "プロップにより筋線維の数が増加し筋力が向上する", "is_correct": false },
+            { "text": "プロップは筋小胞体のCa²⁺放出を促進する", "is_correct": false },
+            { "text": "筋の収縮負荷や伸張度を個人に合わせて調整し、最適なサルコメア長での安全な練習を可能にする", "is_correct": true },
+            { "text": "プロップは筋のエネルギー供給系を切り替える", "is_correct": false }
+          ],
+          "explanation": "筋には最も効率よく力を発揮できるサルコメア長（最適長）があり、過度の短縮や伸張では収縮力が低下する（長さ-張力関係）。プロップは筋の伸張度や関節角度を調整することで、個人の筋の特性に合った最適な範囲での練習を可能にする。無理な伸張による筋損傷のリスクを減らしつつ、段階的に可動域を広げることができる。これは「すべての身体にヨガを」というインクルーシブな指導の科学的根拠でもある（Weppler & Magnusson 2010）。",
+          "source": "Weppler & Magnusson 2010",
+          "reference_text_ids": ["yoga-muscle-basics", "muscle-fiber-structure-basics"]
+        },
+        {
+          "question_text": "ヨガの長時間ホールド後に「脚が震える」現象が起こるメカニズムとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "心筋の疲労により血液供給が低下するため", "is_correct": false },
+            { "text": "平滑筋の痙攣が骨格筋に伝播するため", "is_correct": false },
+            { "text": "局所的なATP枯渇と乳酸蓄積により一部の運動単位が疲労し、交代で収縮する不安定な制御が起こるため", "is_correct": true },
+            { "text": "サルコメアが物理的に断裂するため", "is_correct": false }
+          ],
+          "explanation": "等尺性収縮の持続により筋内の血流が制限されると、局所的にATPが枯渇し乳酸が蓄積する。一部の運動単位が疲労すると、新たな運動単位が動員されて交代するが、この交代が不安定になると筋の震え（tremor）として現れる。これは危険な状態ではないが、筋の限界のサインである。指導者として「震えたらポーズを軽減する」という判断の根拠となる（McArdle et al., Exercise Physiology）。",
+          "source": "McArdle et al., Exercise Physiology",
+          "reference_text_ids": ["yoga-muscle-basics", "muscle-contraction-basics"]
+        }
+      ]
+    },
+    {
+      "name": "筋の協調",
+      "slug": "muscle-coordination",
+      "description": "筋は引くことしかできない。なぜ対になる筋が必要？コップを持つ動作の分析",
+      "sort_order": 4,
+      "concepts": [
+        {
+          "name": "主動筋・拮抗筋・協力筋・固定筋",
+          "description": "4つの筋の役割分担と協調的な運動制御"
+        },
+        {
+          "name": "相反抑制と動作分析",
+          "description": "拮抗筋の制御メカニズムと日常動作での筋の協調"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "肘を曲げてコップを持ち上げるとき、上腕二頭筋の役割はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "拮抗筋", "is_correct": false },
+            { "text": "固定筋", "is_correct": false },
+            { "text": "主動筋（agonist）", "is_correct": true },
+            { "text": "協力筋", "is_correct": false }
+          ],
+          "explanation": "肘屈曲の主動筋は上腕二頭筋で、目的の動作を主に遂行する筋である。このとき上腕三頭筋は拮抗筋として速度を制御し、腕橈骨筋は協力筋として補助し、僧帽筋・菱形筋は固定筋として肩甲骨を安定させる。なぜこのような役割分担が必要かというと、筋は「引く」ことしかできないため、滑らかな動作には複数の筋の協調が不可欠だからである（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["muscle-coordination-basics"]
+        },
+        {
+          "question_text": "主動筋の動作に合わせて拮抗筋が適度に弛緩する神経メカニズムを何というか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "共収縮（co-contraction）", "is_correct": false },
+            { "text": "相反抑制（reciprocal inhibition）", "is_correct": true },
+            { "text": "後抑制（post-inhibition）", "is_correct": false },
+            { "text": "側方抑制（lateral inhibition）", "is_correct": false }
+          ],
+          "explanation": "相反抑制は、主動筋が収縮する際に脊髄レベルで拮抗筋の運動ニューロンが抑制される反射機構である。これにより主動筋と拮抗筋が同時に強く収縮する（共収縮）ことを防ぎ、効率的でスムーズな動作が可能になる。ヨガのストレッチでも相反抑制を利用し、伸ばしたい筋の拮抗筋を収縮させることで効果的にストレッチする技法がある（Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["muscle-coordination-basics"]
+        },
+        {
+          "question_text": "肘屈曲運動において、動作中に肩甲骨を安定させる菱形筋や僧帽筋下部の役割はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "主動筋", "is_correct": false },
+            { "text": "拮抗筋", "is_correct": false },
+            { "text": "協力筋", "is_correct": false },
+            { "text": "固定筋（fixator）", "is_correct": true }
+          ],
+          "explanation": "固定筋は主動筋の起始部や近位の関節を安定させる筋である。上腕二頭筋が肘を屈曲するためには、その起始部である肩甲骨が安定していなければ効率よく力を発揮できない。菱形筋や僧帽筋下部が固定筋として肩甲骨を固定することで、上腕二頭筋の収縮力が効率よく肘の動きに変換される。日常動作で「土台の安定」が重要な理由がここにある（Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["muscle-coordination-basics"]
+        },
+        {
+          "question_text": "筋が「引く（収縮する）ことしかできない」という特性から必然的に導かれる身体の設計原理はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "すべての関節は1方向にしか動かない", "is_correct": false },
+            { "text": "関節を両方向に動かすには拮抗する筋のペアが必要である", "is_correct": true },
+            { "text": "筋は骨に直接付着する必要がない", "is_correct": false },
+            { "text": "1つの筋で関節の屈曲と伸展の両方を行える", "is_correct": false }
+          ],
+          "explanation": "筋は能動的に短縮（収縮）することはできるが、自ら伸張する力は生み出せない。そのため関節を屈曲させる筋と伸展させる筋がペアで存在する必要がある（拮抗筋配置）。上腕二頭筋（屈曲）と上腕三頭筋（伸展）、大腿四頭筋（膝伸展）とハムストリングス（膝屈曲）など、全身の関節にこの原理が適用されている。この「対の設計」を理解すると、ヨガのバランスのとれた練習の重要性が分かる（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["muscle-coordination-basics"]
+        },
+        {
+          "question_text": "関節の安定性が特に求められる場面で、主動筋と拮抗筋が同時に収縮する現象を何というか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "相反抑制", "is_correct": false },
+            { "text": "テタヌス", "is_correct": false },
+            { "text": "共収縮（co-contraction）", "is_correct": true },
+            { "text": "伸張反射", "is_correct": false }
+          ],
+          "explanation": "共収縮は主動筋と拮抗筋が同時に収縮し、関節を「固める」現象である。不安定な路面を歩くとき、重い物を持ち上げるとき、怪我のリスクが高い動作時に自動的に起こる。効率は下がるが関節の安定性と保護が優先される。ヨガでバランスポーズ中に全身が「固まる」のも共収縮による関節安定化の一例である（Enoka, Neuromechanics of Human Movement）。",
+          "source": "Enoka, Neuromechanics of Human Movement",
+          "reference_text_ids": ["muscle-coordination-basics"]
+        },
+        {
+          "question_text": "肘屈曲時に腕橈骨筋が上腕二頭筋を補助する役割を何というか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "固定筋", "is_correct": false },
+            { "text": "協力筋（synergist）", "is_correct": true },
+            { "text": "拮抗筋", "is_correct": false },
+            { "text": "安定筋", "is_correct": false }
+          ],
+          "explanation": "協力筋（synergist）は主動筋と同じ方向に力を加えて補助する筋、または主動筋の不要な副次的動作を抑制する筋である。腕橈骨筋は上腕二頭筋の肘屈曲を補助する協力筋として働く。なぜ協力筋が必要かというと、多くの筋は複数の作用を持つため（例：上腕二頭筋は屈曲と回外の両方）、不要な動きを打ち消す筋が必要だからである（Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["muscle-coordination-basics"]
+        },
+        {
+          "question_text": "走行中に急停止する際、膝関節で大腿四頭筋（主動筋として膝伸展を維持）に対してハムストリングスが果たす役割として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "協力筋として膝伸展を補助する", "is_correct": false },
+            { "text": "拮抗筋として膝の過伸展を防ぎ制動する", "is_correct": true },
+            { "text": "固定筋として股関節を安定させる", "is_correct": false },
+            { "text": "主動筋として膝を屈曲させる", "is_correct": false }
+          ],
+          "explanation": "急停止時、大腿四頭筋が膝を伸展して身体を支える一方、ハムストリングスは拮抗筋として膝の過伸展（hyperextension）を防ぐブレーキの役割を果たす。拮抗筋は単に「反対の動き」をするだけでなく、動作の終末で関節を保護する重要な制動機能を持つ。ACL損傷の予防でハムストリングスの強化が重視されるのは、この制動機能により膝の前方不安定性を補う効果があるためである（Enoka, Neuromechanics of Human Movement）。",
+          "source": "Enoka, Neuromechanics of Human Movement",
+          "reference_text_ids": ["muscle-coordination-basics"]
+        },
+        {
+          "question_text": "高齢者が転倒しやすくなる原因を筋の協調の観点から説明したものとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "主動筋の筋力低下のみが原因で、拮抗筋は関係しない", "is_correct": false },
+            { "text": "加齢により拮抗筋が常に過緊張となり関節が動かなくなる", "is_correct": false },
+            { "text": "主動筋・拮抗筋・協力筋・固定筋の協調タイミングが遅延し、姿勢の修正反応が間に合わなくなる", "is_correct": true },
+            { "text": "すべての筋が均等に萎縮するため、バランスは変わらない", "is_correct": false }
+          ],
+          "explanation": "加齢による転倒リスクの増加は、単なる筋力低下だけでなく、筋間の協調タイミングの遅延が大きな要因である。バランスが崩れた際に主動筋の素早い収縮、拮抗筋の適切な弛緩、固定筋による体幹安定化のタイミングが遅れると、姿勢を修正できず転倒に至る。高齢者の運動プログラムやヨガクラスでバランス練習が重視されるのは、この筋間協調能力の維持・改善が転倒予防に直結するためである（Enoka, Neuromechanics of Human Movement; Shumway-Cook & Woollacott 2017）。",
+          "source": "Enoka, Neuromechanics of Human Movement",
+          "reference_text_ids": ["muscle-coordination-basics"]
+        }
+      ]
+    },
+    {
+      "name": "筋収縮の種類",
+      "slug": "contraction-types",
+      "description": "同じ筋、違う使い方。階段を降りるとき大腿四頭筋は何収縮？",
+      "sort_order": 5,
+      "concepts": [
+        {
+          "name": "等尺性・求心性・遠心性収縮",
+          "description": "筋長の変化と力の関係による3つの収縮タイプ"
+        },
+        {
+          "name": "日常動作と収縮タイプの使い分け",
+          "description": "椅子からの立ち上がり、階段昇降での筋収縮の切り替わり"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "階段を下りるとき、大腿四頭筋が行っている収縮の種類はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "求心性収縮", "is_correct": false },
+            { "text": "等尺性収縮", "is_correct": false },
+            { "text": "遠心性収縮", "is_correct": true },
+            { "text": "弛緩（収縮していない）", "is_correct": false }
+          ],
+          "explanation": "階段を下りるとき、大腿四頭筋は膝が曲がる（伸張される）動きを重力に抗してゆっくり制御している。筋が伸張しながら力を発揮するこの収縮を遠心性収縮（eccentric contraction）という。ブレーキの役割を果たしている。もし大腿四頭筋が弛緩すれば、膝が折れて転倒する。遠心性収縮は日常で「下る」「座る」「物を下ろす」といった動作で常に使われている（Gray's Anatomy 42nd ed.; Enoka）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["contraction-types-basics"]
+        },
+        {
+          "question_text": "壁を両手で押しているが壁は動かない。このとき上肢の筋が行っている収縮はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "遠心性収縮", "is_correct": false },
+            { "text": "等尺性収縮", "is_correct": true },
+            { "text": "求心性収縮", "is_correct": false },
+            { "text": "弛緩", "is_correct": false }
+          ],
+          "explanation": "壁を押しても壁が動かない場合、筋は力を発揮しているが関節角度は変わらず筋の長さも変化しない。これが等尺性収縮（isometric contraction）で、「iso（同じ）+ metric（長さ）」の語源通り、筋長が変わらない収縮である。姿勢保持や物を持ち続ける動作でも等尺性収縮が使われている（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["contraction-types-basics"]
+        },
+        {
+          "question_text": "求心性収縮（concentric contraction）の特徴として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "筋が伸張しながら力を発揮する", "is_correct": false },
+            { "text": "筋の長さが変わらずに力を発揮する", "is_correct": false },
+            { "text": "筋が短縮しながら力を発揮し、外部の負荷に打ち勝つ", "is_correct": true },
+            { "text": "筋が完全に弛緩した状態で力を伝える", "is_correct": false }
+          ],
+          "explanation": "求心性収縮は筋が短縮しながら力を発揮する収縮で、外部の負荷（重力や抵抗）に打ち勝って関節を動かす。ダンベルを持ち上げる、階段を上る、椅子から立ち上がるなどの動作で使われる。「concentric（求心性）」は力が中心に向かう＝筋が短くなるイメージで覚えるとよい（Enoka, Neuromechanics of Human Movement）。",
+          "source": "Enoka, Neuromechanics of Human Movement",
+          "reference_text_ids": ["contraction-types-basics"]
+        },
+        {
+          "question_text": "遠心性収縮が求心性収縮と比較して大きな力を発揮できる理由はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "遠心性収縮ではATPの消費量が多いため", "is_correct": false },
+            { "text": "遠心性収縮ではより多くの運動単位が動員されるため", "is_correct": false },
+            { "text": "伸張される筋の弾性要素（タイチン等）と架橋の両方が張力に寄与するため", "is_correct": true },
+            { "text": "遠心性収縮では筋小胞体からCa²⁺がより多く放出されるため", "is_correct": false }
+          ],
+          "explanation": "遠心性収縮では、ミオシン-アクチン架橋の力に加えて、筋の弾性要素（タイチン/titin等の巨大タンパク質や結合組織の弾性）が受動的な張力を生み出し、両方が合算されるため求心性収縮より大きな力を発揮できる。興味深いことに、遠心性収縮は少ない運動単位の動員とATP消費で大きな力を生み出せるため、エネルギー効率が高い（Enoka, Neuromechanics of Human Movement）。",
+          "source": "Enoka, Neuromechanics of Human Movement",
+          "reference_text_ids": ["contraction-types-basics", "muscle-fiber-structure-basics"]
+        },
+        {
+          "question_text": "椅子から立ち上がって立位を保持し、再び座る一連の動作で、大腿四頭筋の収縮タイプの順序として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "等尺性→求心性→遠心性", "is_correct": false },
+            { "text": "遠心性→等尺性→求心性", "is_correct": false },
+            { "text": "求心性→遠心性→等尺性", "is_correct": false },
+            { "text": "求心性→等尺性→遠心性", "is_correct": true }
+          ],
+          "explanation": "①立ち上がる際、大腿四頭筋は膝を伸展するため求心性収縮（短縮）。②立位保持中、膝をまっすぐ保つため等尺性収縮（長さ不変）。③座る際、膝をゆっくり曲げるため遠心性収縮（伸張しながら制御）。この一連の流れは日常で何十回も繰り返される基本動作であり、3種類の収縮が連続的に切り替わる好例である（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["contraction-types-basics"]
+        },
+        {
+          "question_text": "激しい運動の翌日〜2日後に生じる遅発性筋痛（DOMS）の主因となる収縮タイプはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "求心性収縮", "is_correct": false },
+            { "text": "遠心性収縮", "is_correct": true },
+            { "text": "等尺性収縮", "is_correct": false },
+            { "text": "3種類すべてが等しく関与する", "is_correct": false }
+          ],
+          "explanation": "DOMSの主因は遠心性収縮による筋原線維の微小損傷（特にZ線周辺）である。遠心性収縮では少ない運動単位に大きな機械的負荷が集中するため、筋線維への物理的ストレスが大きい。登山後に下り坂で使った筋が特に痛くなるのはこのためである。なぜ当日でなく翌日以降に痛むかというと、微小損傷→炎症反応→痛覚受容器の感作という過程に時間がかかるためである（Proske & Morgan 2001; Enoka）。",
+          "source": "Enoka, Neuromechanics of Human Movement",
+          "reference_text_ids": ["contraction-types-basics"]
+        },
+        {
+          "question_text": "ヨガのチャトランガ・ダンダーサナ（四肢で支える杖のポーズ）で身体をゆっくり下ろす際、上腕三頭筋が行っている収縮はどれか？また、なぜゆっくり下ろすことが重要なのか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "求心性収縮 — 筋力を最大限発揮するため", "is_correct": false },
+            { "text": "等尺性収縮 — 関節を固定して安定させるため", "is_correct": false },
+            { "text": "遠心性収縮 — 重力に抗してブレーキをかけ、肩関節への急激な負荷を防ぐため", "is_correct": true },
+            { "text": "弛緩 — 重力に任せて自然に下りるため", "is_correct": false }
+          ],
+          "explanation": "チャトランガで身体を下ろす際、上腕三頭筋は肘が曲がる動きをゆっくり制御する遠心性収縮を行っている。勢いよく落ちると肩関節に過大な負荷がかかり、回旋筋腱板の損傷リスクが高まる。遠心性収縮によるブレーキ制御がこれを防ぐ。ヨガ指導で「ゆっくりコントロールして下ろしましょう」と伝える科学的根拠は、遠心性収縮による関節保護にある（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["contraction-types-basics", "muscle-coordination-basics"]
+        },
+        {
+          "question_text": "等尺性収縮が長時間続くと筋が疲労しやすい理由として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "等尺性収縮ではATPが使われないため、筋が冷えて効率が落ちる", "is_correct": false },
+            { "text": "持続的な筋緊張が筋内の血管を圧迫し、酸素供給と老廃物除去が制限されるため", "is_correct": true },
+            { "text": "等尺性収縮では遠心性収縮より多くの運動単位が動員されるため", "is_correct": false },
+            { "text": "筋小胞体がCa²⁺を放出し続け、Ca²⁺の枯渇が起こるため", "is_correct": false }
+          ],
+          "explanation": "等尺性収縮では筋内圧が上昇し、血管が圧迫されて血流が制限される（血流閉塞）。最大随意収縮の約60%以上の力で血流がほぼ途絶する。酸素供給が不十分になると好気的代謝ができず、嫌気的解糖に依存して乳酸が蓄積し、pH低下により収縮能力が低下する。ヨガのホールド中に「震えて持てなくなる」のはこのメカニズムによる。動的な収縮では筋のポンプ作用で血流が維持されるため、疲労パターンが異なる（McArdle et al., Exercise Physiology）。",
+          "source": "McArdle et al., Exercise Physiology",
+          "reference_text_ids": ["contraction-types-basics", "muscle-contraction-basics"]
         }
       ]
     }
