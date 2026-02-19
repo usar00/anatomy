@@ -3451,6 +3451,144 @@
           "reference_text_ids": ["yoga-glute-thigh", "gluteal-muscles-basics"]
         }
       ]
+    },
+    {
+      "name": "下腿の筋",
+      "slug": "lower-leg-muscles",
+      "description": "腓腹筋とヒラメ筋の違い、アキレス腱が人体最強の腱である理由",
+      "sort_order": 24,
+      "concepts": [
+        {
+          "name": "後面の底屈筋群",
+          "description": "腓腹筋・ヒラメ筋・アキレス腱の構造と機能"
+        },
+        {
+          "name": "前面・外側の筋群",
+          "description": "前脛骨筋・腓骨筋群と足関節の安定性"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "腓腹筋とヒラメ筋の構造的な違いとして最も重要なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "腓腹筋は大腿骨から起始する二関節筋、ヒラメ筋は脛骨・腓骨から起始する単関節筋", "is_correct": true },
+            { "text": "腓腹筋は単関節筋、ヒラメ筋は二関節筋", "is_correct": false },
+            { "text": "両筋とも同じ起始・停止で機能も同一", "is_correct": false },
+            { "text": "腓腹筋は背屈筋、ヒラメ筋は底屈筋", "is_correct": false }
+          ],
+          "explanation": "腓腹筋は大腿骨内側・外側顆から起始し膝関節をまたぐ二関節筋で、足関節底屈と膝関節屈曲を担う。速筋線維優位でジャンプ・ダッシュに活躍。ヒラメ筋は脛骨・腓骨後面から起始する単関節筋で、足関節底屈のみ。遅筋線維優位で立位姿勢の持続的保持（抗重力筋）に特化。両筋はアキレス腱として踵骨に共通停止する。なぜ2筋に分かれているかというと、瞬発的な運動と持続的な姿勢保持という異なる機能要求に対応するためである（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["lower-leg-muscles-basics"]
+        },
+        {
+          "question_text": "アキレス腱（踵骨腱）が人体最強・最大の腱である機能的理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "手指の精密な動きを制御するため", "is_correct": false },
+            { "text": "歩行・走行・跳躍時に体重の数倍の底屈力を伝達する必要があるため", "is_correct": true },
+            { "text": "足関節の可動域を制限して安定性を高めるため", "is_correct": false },
+            { "text": "下腿の血液循環を促進するポンプ作用のため", "is_correct": false }
+          ],
+          "explanation": "アキレス腱は腓腹筋とヒラメ筋の合流腱で、長さ約15cm、幅約2cm。走行時には体重の6-8倍（約500kg以上）の張力がかかるため、人体最強・最大の腱として進化した。腱のエネルギー貯蔵・放出能力（弾性反跳）は走行効率に不可欠で、これは人類が持久走に適応した証拠の一つ。なぜ断裂しやすいかというと、腱中央部に血管分布が乏しい領域があり、加齢による変性が進むとその部位で断裂するためである（Gray's Anatomy 42nd ed.; Lieberman）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["lower-leg-muscles-basics"]
+        },
+        {
+          "question_text": "前脛骨筋が歩行のスイング期に果たす重要な役割はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "足関節を底屈させて地面を蹴る", "is_correct": false },
+            { "text": "足関節を背屈させてつま先が地面を引きずるのを防ぐ（foot clearance）", "is_correct": true },
+            { "text": "膝関節を伸展させて脚を前方に振り出す", "is_correct": false },
+            { "text": "足関節を外反させて着地衝撃を吸収する", "is_correct": false }
+          ],
+          "explanation": "前脛骨筋は歩行のスイング期（遊脚期）に足関節を背屈させ、つま先が地面に引っかかるのを防ぐ（foot clearance）。深腓骨神経（L4-S1）支配。深腓骨神経麻痺では前脛骨筋が機能せず「下垂足（foot drop）」が出現し、つま先を引きずる歩行（鶏歩/steppage gait）になる。なぜ下垂足が日常生活で大きな障害になるかというと、階段や段差でつまずくリスクが高く、転倒の主因となるためである（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["lower-leg-muscles-basics"]
+        },
+        {
+          "question_text": "長短腓骨筋が足関節の外反を担うことの臨床的意義として最も重要なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "足のアーチを平坦化させる", "is_correct": false },
+            { "text": "内反捻挫に対する動的防御機構として機能し、再発を予防する", "is_correct": true },
+            { "text": "膝関節の側方安定性に寄与する", "is_correct": false },
+            { "text": "アキレス腱の張力を分散させる", "is_correct": false }
+          ],
+          "explanation": "長腓骨筋・短腓骨筋は足関節の外反（回外に対抗）を担い、内反捻挫に対する動的防御機構として重要。足関節内反捻挫は最も頻度の高いスポーツ外傷で、外側靭帯（前距腓靭帯など）の損傷が起こる。腓骨筋群の反射的収縮が足関節の過度な内反を防止する。浅腓骨神経支配。なぜ腓骨筋群の強化が捻挫予防に有効かというと、静的安定装置（靭帯）の損傷後は動的安定装置（腓骨筋群）の強化が再発防止の要となるためである（Gray's Anatomy 42nd ed.; Hertel 2002）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["lower-leg-muscles-basics"]
+        },
+        {
+          "question_text": "後脛骨筋の機能不全が引き起こす代表的な足の変形はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "凹足（ハイアーチ）", "is_correct": false },
+            { "text": "内反足", "is_correct": false },
+            { "text": "成人後天性扁平足（内側縦アーチの崩壊）", "is_correct": true },
+            { "text": "外反母趾", "is_correct": false }
+          ],
+          "explanation": "後脛骨筋は足のアーチ（特に内側縦アーチ）を動的に支持する最も重要な筋。後脛骨筋腱の機能不全（posterior tibial tendon dysfunction/PTTD）では内側縦アーチが崩壊し、成人後天性扁平足が進行する。片脚踵挙げテストで踵の内反が起こらなければPTTDを示唆。なぜ後脛骨筋が重要かというと、舟状骨と楔状骨に停止することで内側縦アーチの頂点を直接支持し、歩行時に足のアーチを動的に維持する唯一の筋だからである（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["lower-leg-muscles-basics"]
+        },
+        {
+          "question_text": "アキレス腱断裂のThompson testの方法と陽性所見の組み合わせとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "踵骨を叩打し痛みの有無を確認する", "is_correct": false },
+            { "text": "腹臥位で腓腹筋を握り、足が底屈しなければ断裂を示唆する", "is_correct": true },
+            { "text": "足関節を最大背屈させて痛みの有無を確認する", "is_correct": false },
+            { "text": "片脚踵挙げができなければ陽性とする", "is_correct": false }
+          ],
+          "explanation": "Thompson test（Simmonds test）は腹臥位で足をベッドから出し、腓腹筋の筋腹を手で握る。正常では握った力がアキレス腱を介して踵骨を引き、足が底屈する。アキレス腱が断裂していると力の伝達が途絶え、足が底屈しない（陽性）。感度約96%の信頼性の高い身体検査法。なぜこのテストが重要かというと、アキレス腱断裂は急性期に見逃されやすく（痛みが比較的軽度な場合がある）、早期診断が治療成績を左右するためである（Thompson & Doherty; Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["lower-leg-muscles-basics"]
+        },
+        {
+          "question_text": "膝屈曲位でのストレッチがヒラメ筋を選択的に伸張できる理由はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "膝屈曲位ではヒラメ筋の筋紡錘が活性化されるため", "is_correct": false },
+            { "text": "膝屈曲位では二関節筋の腓腹筋が弛緩し張力が低下するため、底屈ストレッチがヒラメ筋に集中する", "is_correct": true },
+            { "text": "膝屈曲位ではアキレス腱の弾性が増大するため", "is_correct": false },
+            { "text": "膝屈曲位では前脛骨筋の収縮が強まるため", "is_correct": false }
+          ],
+          "explanation": "腓腹筋は膝関節をまたぐ二関節筋で、膝屈曲位では起始と停止が近づき弛緩する（slack状態）。この状態で足関節を背屈すると、腓腹筋の張力が低いため伸張刺激はヒラメ筋に集中する。逆に膝伸展位でのストレッチは腓腹筋に優先的に負荷がかかる。なぜこの使い分けが臨床で重要かというと、アキレス腱障害のリハビリではヒラメ筋の遠心性トレーニングが特に効果的とされ、膝屈曲位でのエクササイズが推奨されるためである（Alfredson protocol; Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["lower-leg-muscles-basics"]
+        },
+        {
+          "question_text": "下腿の前面・外側・後面の3コンパートメントが骨間膜と筋膜で厳密に区画される臨床的意義として最も重要なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "各筋群の収縮効率を高めるため", "is_correct": false },
+            { "text": "出血や浮腫でコンパートメント内圧が上昇すると血流が途絶し、コンパートメント症候群を引き起こすため", "is_correct": true },
+            { "text": "神経と血管を保護するための単なる構造的区画", "is_correct": false },
+            { "text": "各コンパートメントの温度を独立に調節するため", "is_correct": false }
+          ],
+          "explanation": "下腿の筋膜区画は非伸展性の骨間膜と筋膜で囲まれている。骨折や挫傷による出血・浮腫でコンパートメント内圧が上昇すると、毛細血管の灌流圧を超えて筋・神経への血流が途絶する（コンパートメント症候群）。6時間以内に筋膜切開で減圧しなければ不可逆的な筋壊死と神経障害（Volkmann拘縮に相当）が起こる。特に前面コンパートメントが好発。なぜ下腿で多いかというと、脛骨骨折の頻度が高く、区画が狭いため少量の出血でも内圧が上昇しやすいためである（Gray's Anatomy 42nd ed.; Mubarak & Hargens）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["lower-leg-muscles-basics"]
+        }
+      ]
     }
   ]
 }
