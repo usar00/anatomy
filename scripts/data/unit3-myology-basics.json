@@ -3880,6 +3880,144 @@
           "reference_text_ids": ["yoga-muscle-chains"]
         }
       ]
+    },
+    {
+      "name": "筋のケアとリカバリー",
+      "slug": "yoga-muscle-care",
+      "description": "DOMS・超回復・ストレッチの科学 — シャヴァーサナの解剖学的意義",
+      "sort_order": 27,
+      "concepts": [
+        {
+          "name": "筋損傷と回復のメカニズム",
+          "description": "DOMS・超回復・遠心性収縮の影響"
+        },
+        {
+          "name": "リカバリー手法の科学",
+          "description": "ストレッチ・フォームローリング・呼吸法・シャヴァーサナ"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "遅発性筋痛（DOMS）が特に遠心性収縮後に起こりやすい理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "遠心性収縮では乳酸が最も多く産生されるため", "is_correct": false },
+            { "text": "遠心性収縮では筋線維が伸張されながら力を発揮するため、微視的な筋線維損傷が起こりやすい", "is_correct": true },
+            { "text": "遠心性収縮では血流が完全に遮断されるため", "is_correct": false },
+            { "text": "遠心性収縮は求心性収縮より消費カロリーが多いため", "is_correct": false }
+          ],
+          "explanation": "DOMSは運動の24-72時間後に出現する筋痛で、遠心性収縮（筋が伸張されながら力を発揮）で特に顕著。Z線の崩壊など微視的な筋線維損傷が起こり、炎症反応と修復過程が痛みの原因。ヨガではチャトランガのゆっくりした下降（上腕三頭筋の遠心性収縮）や椅子のポーズからの立ち上がり（大腿四頭筋の遠心性制御）後にDOMSが出やすい。なぜ乳酸説は誤りかというと、乳酸は運動後1時間以内に代謝されるが、DOMSは24-72時間後にピークを迎えるためである（Schoenfeld & Contreras; Proske & Morgan）。",
+          "source": "Schoenfeld & Contreras",
+          "reference_text_ids": ["yoga-muscle-care"]
+        },
+        {
+          "question_text": "超回復（supercompensation）の原理の説明として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "運動後に筋が元の状態に戻るだけで、それ以上の変化は起こらない", "is_correct": false },
+            { "text": "適度な運動ストレスによる微小損傷の修復過程で、筋が元の水準を超えて適応・強化される", "is_correct": true },
+            { "text": "休息なしに連日トレーニングすることで最大の効果が得られる", "is_correct": false },
+            { "text": "超回復はアスリートにのみ起こる特殊な現象である", "is_correct": false }
+          ],
+          "explanation": "超回復は適度な運動ストレス→筋線維の微小損傷→修復過程で元より強くなるという適応メカニズム。ただし回復に48-72時間の休息が必要で、休息不足では過負荷（オーバートレーニング）となり逆効果。ヨガの指導者はこの原理を理解し、毎日の練習でも負荷を変化させる（強度の高い日と回復日の交互配置）ことが重要。なぜ休息が不可欠かというと、筋タンパク質の合成は運動後24-48時間にピークを迎え、この間に適切な栄養と休息がないと合成が追いつかないためである（Schoenfeld & Contreras）。",
+          "source": "Schoenfeld & Contreras",
+          "reference_text_ids": ["yoga-muscle-care"]
+        },
+        {
+          "question_text": "静的ストレッチで可動域（ROM）が即時的に向上するメカニズムとして最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "筋線維が物理的に長くなる（サルコメア数の増加）", "is_correct": false },
+            { "text": "筋紡錘の感度が一時的に低下し、伸張に対する耐性（ストレッチトレランス）が向上する", "is_correct": true },
+            { "text": "筋腱移行部の腱が断裂して弛緩する", "is_correct": false },
+            { "text": "関節包が不可逆的に変形する", "is_correct": false }
+          ],
+          "explanation": "静的ストレッチの即時的効果は主に神経学的メカニズムによる。筋紡錘の感度が一時的に低下し、「もうこれ以上伸ばせない」という感覚閾値（ストレッチトレランス）が上がる。長期的には筋腱複合体の粘弾性改善やサルコメア数の増加（直列方向）が起こりうる。なぜ運動前の過度な静的ストレッチが推奨されないかというと、筋紡錘の感度低下が筋出力を一時的に低下させるため（約5-10%のパフォーマンス低下）である（Behm & Chaouachi; Magnusson et al.）。",
+          "source": "Behm & Chaouachi",
+          "reference_text_ids": ["yoga-muscle-care"]
+        },
+        {
+          "question_text": "ヨガのシャヴァーサナ（屍のポーズ）の筋へのリカバリー効果として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "筋力を直接向上させる", "is_correct": false },
+            { "text": "副交感神経を活性化し、筋の残留緊張を解消してコルチゾールを低下させる", "is_correct": true },
+            { "text": "筋線維の数を増加させる", "is_correct": false },
+            { "text": "乳酸を直接分解する酵素を活性化する", "is_correct": false }
+          ],
+          "explanation": "シャヴァーサナは全身の筋を意識的に弛緩させるポーズで、副交感神経（迷走神経）を活性化する。これによりコルチゾール（ストレスホルモン）が低下し、成長ホルモンの分泌が促進されて筋の修復が促される。プログレッシブ・マスキュラー・リラクゼーション（PMR）と原理が共通し、筋の残留緊張（不必要な持続的収縮）をリセットする。なぜ練習後のシャヴァーサナが重要かというと、活動的なポーズ後に交感神経優位から副交感神経優位へのスイッチングを促し、回復を最大化するためである（Kaminoff & Matthews）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-muscle-care"]
+        },
+        {
+          "question_text": "フォームローリング（筋膜リリース）の効果メカニズムとして現在の研究で最も支持されているのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "筋膜の癒着を物理的に剥がす", "is_correct": false },
+            { "text": "筋膜と筋の間の滑走性改善と、圧刺激による神経系への作用（筋緊張低下と痛覚閾値上昇）", "is_correct": true },
+            { "text": "筋線維を直接伸張して長くする", "is_correct": false },
+            { "text": "骨の位置を矯正して関節可動域を改善する", "is_correct": false }
+          ],
+          "explanation": "フォームローリングの効果は「筋膜の癒着を剥がす」という従来の説明より、筋と筋膜間の滑走性改善（ヒアルロン酸の粘度低下）と、圧受容器への刺激による神経系の応答（筋緊張低下・痛覚閾値上昇）が主要メカニズムと考えられている。副交感神経の活性化も報告されている。なぜ「癒着を剥がす」説が疑問視されるかというと、筋膜を変形させるには人間の手やローラーで加えられる以上の力が必要とする研究結果があるためである（Beardsley & Skarabot; Cheatham et al.）。",
+          "source": "Beardsley & Skarabot",
+          "reference_text_ids": ["yoga-muscle-care"]
+        },
+        {
+          "question_text": "ヨガの呼吸法（プラーナヤーマ）がリカバリーを促進するメカニズムとして最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "呼吸量を増やして酸素供給を最大化する", "is_correct": false },
+            { "text": "延長された呼気が迷走神経を刺激し、副交感神経活性化を通じてHRV改善・コルチゾール低下を促す", "is_correct": true },
+            { "text": "横隔膜の筋力を直接向上させる", "is_correct": false },
+            { "text": "二酸化炭素濃度を極端に低下させてアルカローシスを誘発する", "is_correct": false }
+          ],
+          "explanation": "ヨガの呼吸法、特にゆっくりとした延長呼気（例：吸気4秒・呼気8秒）は迷走神経を刺激し副交感神経を活性化する。これにより心拍変動（HRV）が改善し、コルチゾールが低下、成長ホルモンとテストステロンの分泌が促進されて筋の修復・回復が促される。なぜ呼気の延長が効果的かというと、呼気時に心拍が低下する呼吸性洞性不整脈は迷走神経の活動を反映しており、意図的に呼気を延長することで迷走神経トーンを高められるためである（Brown & Gerbarg; Kaminoff & Matthews）。",
+          "source": "Brown & Gerbarg",
+          "reference_text_ids": ["yoga-muscle-care", "diaphragm-breathing-basics"]
+        },
+        {
+          "question_text": "ヨガの練習でDOMSが出た生徒への適切な指導として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "痛みが完全に消えるまで一切の運動を避ける", "is_correct": false },
+            { "text": "痛みを無視して同じ強度の練習を続ける", "is_correct": false },
+            { "text": "軽い強度のアクティブリカバリー（穏やかなフローやストレッチ）で血流を促進し、回復を促す", "is_correct": true },
+            { "text": "アイシングのみで対処し、動かさない", "is_correct": false }
+          ],
+          "explanation": "DOMSに対するアクティブリカバリー（軽い運動）は、血流増加により炎症物質の除去と栄養素の供給を促進し、痛みの一時的軽減と回復促進に効果的。穏やかなヨガフロー（太陽礼拝のスローバージョンや修復系ポーズ）が適している。完全な安静より軽い活動の方が回復が早い。なぜ同じ強度の練習が不適切かというと、損傷した筋線維にさらに遠心性収縮の負荷をかけると損傷が拡大し、超回復のための修復期間が延長されるためである（Cheung et al.; Dupuy et al.）。",
+          "source": "Cheung et al.",
+          "reference_text_ids": ["yoga-muscle-care"]
+        },
+        {
+          "question_text": "ヨガの「陰ヨガ」で長時間（3-5分）のホールドが結合組織に与える効果として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "筋力を大幅に向上させる", "is_correct": false },
+            { "text": "結合組織（筋膜・靭帯・腱）のクリープ現象により粘弾性が変化し、長期的に柔軟性が向上する", "is_correct": true },
+            { "text": "筋紡錘を完全に不活性化して反射を消失させる", "is_correct": false },
+            { "text": "骨密度を直接向上させる", "is_correct": false }
+          ],
+          "explanation": "陰ヨガの長時間ホールドは、結合組織のクリープ現象（一定の負荷下で時間とともに変形が進行する粘弾性応答）を利用する。短時間のストレッチは主に筋の神経学的応答だが、3-5分のホールドでは筋がリラックスした後に結合組織（筋膜・腱膜・靭帯）に持続的な負荷がかかり、コラーゲン線維の配列変化と水分含量の変化を通じて組織の粘弾性が改善される。なぜ筋を弛緩させることが重要かというと、筋の収縮が結合組織への負荷伝達を阻害するため、意図的に筋を脱力させることで結合組織に直接アプローチできるためである（Schleip; Clark et al.）。",
+          "source": "Schleip, Fascial Fitness",
+          "reference_text_ids": ["yoga-muscle-care"]
+        }
+      ]
     }
   ]
 }
