@@ -4261,19 +4261,14 @@
           ]
         },
         {
-          "question_text": "次の文を完成させてください:\n\n寛骨は3つの骨が癒合してできており、そのうち【　　】は骨盤の上部で腰に手を当てたとき触れる大きな翼状の部分である。",
+          "question_text": "次の文を完成させてください:",
           "interaction_type": "word_bank",
           "question_type": "text_only",
           "difficulty": "easy",
           "explanation": "寛骨は腸骨（Ilium）・坐骨（Ischium）・恥骨（Pubis）の3骨が癒合したものです。腸骨は骨盤の上部を占め、腸骨稜（Iliac Crest）は腰に手を当てたとき触れる部分です。坐骨は座ったとき体重を支える下部の骨、恥骨は前方下部で左右が恥骨結合で連結されます。",
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.3",
           "metadata": {
-            "word_bank": [
-              "仙骨",
-              "坐骨",
-              "腸骨",
-              "恥骨"
-            ]
+            "template": "寛骨は3つの骨が癒合してできており、そのうち{{blank}}は骨盤の上部で腰に手を当てたとき触れる大きな翼状の部分である。"
           },
           "choices": [
             {
@@ -4539,19 +4534,14 @@
           ]
         },
         {
-          "question_text": "次の文を完成させてください:\n\n膝蓋骨は大腿四頭筋の腱の中に発達した【　　】であり、膝を伸ばすときのてこの支点として機能する。",
+          "question_text": "次の文を完成させてください:",
           "interaction_type": "word_bank",
           "question_type": "text_only",
           "difficulty": "easy",
           "explanation": "膝蓋骨（Patella）は大腿四頭筋の腱内に存在する人体最大の種子骨（Sesamoid Bone）です。種子骨は腱の中に発達する骨で、腱にかかる摩擦を軽減し力の伝達方向を変えることで運動効率を高めます。膝蓋骨は大腿四頭筋の膝伸展効率を約50%向上させます。",
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
           "metadata": {
-            "word_bank": [
-              "短骨",
-              "不規則骨",
-              "扁平骨",
-              "種子骨"
-            ]
+            "template": "膝蓋骨は大腿四頭筋の腱の中に発達した{{blank}}であり、膝を伸ばすときのてこの支点として機能する。"
           },
           "choices": [
             {
@@ -4819,19 +4809,14 @@
           ]
         },
         {
-          "question_text": "次の文を完成させてください:\n\n足を構成する骨の総数は【　　】個で、手の27個に近い数の骨が集まることで複雑な動きと体重支持を両立している。",
+          "question_text": "次の文を完成させてください:",
           "interaction_type": "word_bank",
           "question_type": "text_only",
           "difficulty": "easy",
           "explanation": "足は26個の骨で構成されます。内訳は足根骨（Tarsal Bones）7個、中足骨（Metatarsals）5個、趾骨（Phalanges）14個です。手（27個）とほぼ同数の骨があり、歩行・走行・立位での複雑な要求（衝撃吸収、体重分散、推進力）に対応しています。",
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 8.4",
           "metadata": {
-            "word_bank": [
-              "12",
-              "26",
-              "33",
-              "20"
-            ]
+            "template": "足を構成する骨の総数は{{blank}}個で、手の27個に近い数の骨が集まることで複雑な動きと体重支持を両立している。"
           },
           "choices": [
             {
@@ -5103,19 +5088,14 @@
           ]
         },
         {
-          "question_text": "次の文を完成させてください:\n\nヨガの立位ポーズで足裏全体を意識的にマットに根づかせ、足のアーチを活性化する技法を【　　】と呼ぶ。",
+          "question_text": "次の文を完成させてください:",
           "interaction_type": "word_bank",
           "question_type": "text_only",
           "difficulty": "easy",
           "explanation": "パダ・バンダ（Pada Bandha）は「足のロック/封印」を意味するサンスクリット語で、足裏の3点（踵、小趾球、母趾球）を均等にマットに押しつけ、足のアーチを持ち上げるように意識する技法です。これにより足の内在筋（足底の小さな筋群）が活性化され、内側縦アーチが安定し、足首から上への安定した力の伝達が可能になります。",
           "source": "Ni et al., 2014, Arch Phys Med Rehabil, doi:10.1016/j.apmr.2014.04.022",
           "metadata": {
-            "word_bank": [
-              "パダ・バンダ（Pada Bandha）",
-              "ムーラ・バンダ（Mula Bandha）",
-              "ウッディヤナ・バンダ（Uddiyana Bandha）",
-              "ハスタ・バンダ（Hasta Bandha）"
-            ]
+            "template": "ヨガの立位ポーズで足裏全体を意識的にマットに根づかせ、足のアーチを活性化する技法を{{blank}}と呼ぶ。"
           },
           "choices": [
             {

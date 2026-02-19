@@ -90,7 +90,7 @@
     }
   ],
   "sections": [
-   {
+    {
       "name": "線維性関節",
       "slug": "fibrous-joints",
       "description": "動かない関節のわけ — 頭蓋骨の縫合は脳を守る設計",
@@ -131,17 +131,19 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["fibrous-joints-basics"]
+          "reference_text_ids": [
+            "fibrous-joints-basics"
+          ]
         },
         {
-          "question_text": "次の文を完成させてください:\n\n新生児の頭蓋骨には骨化が完了していない柔らかい部分があり、これを【　　】と呼ぶ。",
+          "question_text": "次の文を完成させてください:",
           "interaction_type": "word_bank",
           "question_type": "text_only",
           "difficulty": "easy",
           "explanation": "泉門（Fontanelle）は新生児の頭蓋骨にある骨化が完了していない結合組織の領域です。大泉門（前頭泉門）は最も大きく、生後約18〜24ヶ月で閉鎖します。泉門の存在により、①分娩時に頭蓋骨が重なり合って産道を通過できる、②出生後の急速な脳の成長（出生時約400gから2歳で約1000g）に骨が対応できる、という2つの重要な機能があります。",
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.1",
           "metadata": {
-            "word_bank": ["泉門（Fontanelle）", "骨端板（Epiphyseal Plate）", "骨膜（Periosteum）", "関節包（Joint Capsule）"]
+            "template": "新生児の頭蓋骨には骨化が完了していない柔らかい部分があり、これを{{blank}}と呼ぶ。"
           },
           "choices": [
             {
@@ -161,7 +163,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["fibrous-joints-basics"]
+          "reference_text_ids": [
+            "fibrous-joints-basics"
+          ]
         },
         {
           "question_text": "新生児の頭蓋骨に泉門が存在する理由として最も適切なのはどれか？",
@@ -188,7 +192,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["fibrous-joints-basics"]
+          "reference_text_ids": [
+            "fibrous-joints-basics"
+          ]
         },
         {
           "question_text": "成人の頭蓋骨の縫合がほぼ動かない（不動関節）であることは、どのような機能的意義があるか？",
@@ -215,7 +221,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["fibrous-joints-basics"]
+          "reference_text_ids": [
+            "fibrous-joints-basics"
+          ]
         },
         {
           "question_text": "線維性関節の3つのサブタイプとその代表例を正しくマッチさせてください",
@@ -226,9 +234,18 @@
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.1",
           "metadata": {
             "pairs": [
-              {"left": "縫合（Suture）", "right": "頭蓋骨の骨同士の接合部"},
-              {"left": "靭帯結合（Syndesmosis）", "right": "遠位脛腓関節や前腕の骨間膜"},
-              {"left": "釘植（Gomphosis）", "right": "歯と歯槽骨の結合"}
+              {
+                "left": "縫合（Suture）",
+                "right": "頭蓋骨の骨同士の接合部"
+              },
+              {
+                "left": "靭帯結合（Syndesmosis）",
+                "right": "遠位脛腓関節や前腕の骨間膜"
+              },
+              {
+                "left": "釘植（Gomphosis）",
+                "right": "歯と歯槽骨の結合"
+              }
             ]
           },
           "choices": [
@@ -245,7 +262,9 @@
               "is_correct": true
             }
           ],
-          "reference_text_ids": ["fibrous-joints-basics"]
+          "reference_text_ids": [
+            "fibrous-joints-basics"
+          ]
         },
         {
           "question_text": "前腕の橈骨と尺骨を結ぶ骨間膜は靭帯結合（Syndesmosis）に分類される。この骨間膜の機能として最も適切なのはどれか？",
@@ -272,7 +291,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["fibrous-joints-basics"]
+          "reference_text_ids": [
+            "fibrous-joints-basics"
+          ]
         },
         {
           "question_text": "乳児健診で医師が赤ちゃんの大泉門を触って確認するのはなぜか？解剖学的知識から最も適切な理由はどれか？",
@@ -299,7 +320,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["fibrous-joints-basics"]
+          "reference_text_ids": [
+            "fibrous-joints-basics"
+          ]
         },
         {
           "question_text": "歯の矯正治療（ブレース/ワイヤー矯正）で歯を動かすことができるのは、歯と歯槽骨の間の釘植（Gomphosis）のどのような特性によるか？",
@@ -326,7 +349,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["fibrous-joints-basics"]
+          "reference_text_ids": [
+            "fibrous-joints-basics"
+          ]
         }
       ]
     },
@@ -371,17 +396,19 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["cartilaginous-joints-basics"]
+          "reference_text_ids": [
+            "cartilaginous-joints-basics"
+          ]
         },
         {
-          "question_text": "次の文を完成させてください:\n\n子供の長骨の骨端板は軟骨結合の一種であり、成長が完了すると骨化して【　　】となる。",
+          "question_text": "次の文を完成させてください:",
           "interaction_type": "word_bank",
           "question_type": "text_only",
           "difficulty": "easy",
           "explanation": "骨端板（Epiphyseal Plate）は長骨の骨端と骨幹の間にある硝子軟骨の層で、軟骨結合（Synchondrosis）に分類されます。成長期には軟骨細胞の増殖により骨が伸長します。思春期の終わりにホルモンの影響で軟骨が骨に置き換わり（骨化）、骨端線（Epiphyseal Line）として痕跡が残ります。骨端線は不動関節（骨性癒合）の一例です。",
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.1",
           "metadata": {
-            "word_bank": ["泉門", "骨端線（Epiphyseal Line）", "骨膜", "関節唇"]
+            "template": "子供の長骨の骨端板は軟骨結合の一種であり、成長が完了すると骨化して{{blank}}となる。"
           },
           "choices": [
             {
@@ -401,7 +428,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["cartilaginous-joints-basics"]
+          "reference_text_ids": [
+            "cartilaginous-joints-basics"
+          ]
         },
         {
           "question_text": "椎間板の各部がわずかしか動かないのに、脊柱全体として大きく前屈・後屈できるのはなぜか？",
@@ -428,7 +457,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["cartilaginous-joints-basics"]
+          "reference_text_ids": [
+            "cartilaginous-joints-basics"
+          ]
         },
         {
           "question_text": "恥骨結合が通常はほぼ不動なのに、出産時にわずかに広がることができるのはなぜか？",
@@ -455,7 +486,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["cartilaginous-joints-basics"]
+          "reference_text_ids": [
+            "cartilaginous-joints-basics"
+          ]
         },
         {
           "question_text": "軟骨性関節の2つのサブタイプとその特徴を正しくマッチさせてください",
@@ -466,10 +499,22 @@
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.1",
           "metadata": {
             "pairs": [
-              {"left": "軟骨結合（Synchondrosis）", "right": "硝子軟骨で結合する不動関節（例：骨端板）"},
-              {"left": "線維軟骨結合（Symphysis）", "right": "線維軟骨ディスクで結合する半関節（例：椎間板）"},
-              {"left": "軟骨結合の特徴", "right": "成長完了後に骨化して骨性癒合になることが多い"},
-              {"left": "線維軟骨結合の特徴", "right": "荷重吸収に優れ、わずかな動きが積み重なると大きな可動域になる"}
+              {
+                "left": "軟骨結合（Synchondrosis）",
+                "right": "硝子軟骨で結合する不動関節（例：骨端板）"
+              },
+              {
+                "left": "線維軟骨結合（Symphysis）",
+                "right": "線維軟骨ディスクで結合する半関節（例：椎間板）"
+              },
+              {
+                "left": "軟骨結合の特徴",
+                "right": "成長完了後に骨化して骨性癒合になることが多い"
+              },
+              {
+                "left": "線維軟骨結合の特徴",
+                "right": "荷重吸収に優れ、わずかな動きが積み重なると大きな可動域になる"
+              }
             ]
           },
           "choices": [
@@ -490,7 +535,9 @@
               "is_correct": true
             }
           ],
-          "reference_text_ids": ["cartilaginous-joints-basics"]
+          "reference_text_ids": [
+            "cartilaginous-joints-basics"
+          ]
         },
         {
           "question_text": "線維軟骨結合（椎間板や恥骨結合）が「線維軟骨」でできていることの構造的利点として最も適切なのはどれか？",
@@ -517,7 +564,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["cartilaginous-joints-basics"]
+          "reference_text_ids": [
+            "cartilaginous-joints-basics"
+          ]
         },
         {
           "question_text": "第1肋骨と胸骨の結合（第1肋軟骨結合）は軟骨結合で不動だが、第2〜7肋骨と胸骨の結合は滑膜性関節である。この違いが呼吸にとって重要な理由として最も適切なのはどれか？",
@@ -544,7 +593,10 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["cartilaginous-joints-basics", "fibrous-joints-basics"]
+          "reference_text_ids": [
+            "cartilaginous-joints-basics",
+            "fibrous-joints-basics"
+          ]
         },
         {
           "question_text": "妊婦が「恥骨のあたりが痛い」と訴えることがある。この恥骨結合痛（恥骨結合離開）の解剖学的メカニズムとして最も適切なのはどれか？",
@@ -571,7 +623,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["cartilaginous-joints-basics"]
+          "reference_text_ids": [
+            "cartilaginous-joints-basics"
+          ]
         }
       ]
     },
@@ -616,17 +670,19 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["synovial-joint-structure-basics"]
+          "reference_text_ids": [
+            "synovial-joint-structure-basics"
+          ]
         },
         {
-          "question_text": "次の文を完成させてください:\n\n関節軟骨は血管を持たないため、唯一の栄養源は関節腔内の【　　】である。",
+          "question_text": "次の文を完成させてください:",
           "interaction_type": "word_bank",
           "question_type": "text_only",
           "difficulty": "easy",
           "explanation": "関節軟骨は無血管組織であり、血管からの栄養供給を受けられません。その代わり、関節腔内の滑液（Synovial Fluid）が唯一の栄養源となります。滑液は滑膜から産生され、関節の動きによって軟骨表面に押し込まれる（ウィーピング潤滑）ことで栄養が行き渡ります。このため、適度な運動が軟骨の健康維持に不可欠です。",
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
           "metadata": {
-            "word_bank": ["滑液（Synovial Fluid）", "骨髄液", "リンパ液", "脳脊髄液"]
+            "template": "関節軟骨は血管を持たないため、唯一の栄養源は関節腔内の{{blank}}である。"
           },
           "choices": [
             {
@@ -646,7 +702,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["synovial-joint-structure-basics"]
+          "reference_text_ids": [
+            "synovial-joint-structure-basics"
+          ]
         },
         {
           "question_text": "関節軟骨の摩擦係数（0.001-0.01）が氷上の氷よりも低い理由として最も適切なのはどれか？",
@@ -673,7 +731,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["synovial-joint-structure-basics"]
+          "reference_text_ids": [
+            "synovial-joint-structure-basics"
+          ]
         },
         {
           "question_text": "適度な運動が関節軟骨の健康維持に不可欠である理由として最も適切なのはどれか？",
@@ -700,7 +760,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["synovial-joint-structure-basics"]
+          "reference_text_ids": [
+            "synovial-joint-structure-basics"
+          ]
         },
         {
           "question_text": "滑膜性関節の構成要素とその機能を正しくマッチさせてください",
@@ -711,10 +773,22 @@
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
           "metadata": {
             "pairs": [
-              {"left": "関節軟骨", "right": "骨の関節面を覆い、摩擦を極限まで低減する"},
-              {"left": "滑膜", "right": "関節包の内層で滑液を産生・吸収する"},
-              {"left": "滑液", "right": "潤滑・栄養供給・衝撃吸収を担う粘稠な液体"},
-              {"left": "線維膜", "right": "関節包の外層で構造的安定性を提供する"}
+              {
+                "left": "関節軟骨",
+                "right": "骨の関節面を覆い、摩擦を極限まで低減する"
+              },
+              {
+                "left": "滑膜",
+                "right": "関節包の内層で滑液を産生・吸収する"
+              },
+              {
+                "left": "滑液",
+                "right": "潤滑・栄養供給・衝撃吸収を担う粘稠な液体"
+              },
+              {
+                "left": "線維膜",
+                "right": "関節包の外層で構造的安定性を提供する"
+              }
             ]
           },
           "choices": [
@@ -735,7 +809,9 @@
               "is_correct": true
             }
           ],
-          "reference_text_ids": ["synovial-joint-structure-basics"]
+          "reference_text_ids": [
+            "synovial-joint-structure-basics"
+          ]
         },
         {
           "question_text": "関節包が「二層構造」（外層の線維膜 + 内層の滑膜）になっていることの機能的意義として最も適切なのはどれか？",
@@ -762,7 +838,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["synovial-joint-structure-basics"]
+          "reference_text_ids": [
+            "synovial-joint-structure-basics"
+          ]
         },
         {
           "question_text": "変形性関節症（OA）で関節軟骨が摩耗した場合、自然に修復されにくい理由として最も適切なのはどれか？",
@@ -789,7 +867,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["synovial-joint-structure-basics"]
+          "reference_text_ids": [
+            "synovial-joint-structure-basics"
+          ]
         },
         {
           "question_text": "関節リウマチ（RA）では滑膜に慢性炎症が起こり、最終的に関節が破壊される。このメカニズムとして最も適切なのはどれか？",
@@ -816,7 +896,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["synovial-joint-structure-basics"]
+          "reference_text_ids": [
+            "synovial-joint-structure-basics"
+          ]
         }
       ]
     },
@@ -861,17 +943,19 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["joint-support-structures-basics"]
+          "reference_text_ids": [
+            "joint-support-structures-basics"
+          ]
         },
         {
-          "question_text": "次の文を完成させてください:\n\n膝関節にある内側半月板と外側半月板はC字型の【　　】でできたクッションで、大腿骨と脛骨の間の適合性を高め荷重を分散する。",
+          "question_text": "次の文を完成させてください:",
           "interaction_type": "word_bank",
           "question_type": "text_only",
           "difficulty": "easy",
           "explanation": "半月板は線維軟骨（Fibrocartilage）でできています。線維軟骨はコラーゲン線維が豊富で、圧縮力と引張力の両方に強い組織です。半月板は凸面の大腿骨顆と平面に近い脛骨プラトーの間に挟まり、両者の形状の不一致を補います。これにより接触面積が増大し、荷重が分散されて関節軟骨への負担が軽減されます。",
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
           "metadata": {
-            "word_bank": ["線維軟骨", "硝子軟骨", "弾性軟骨", "緻密骨"]
+            "template": "膝関節にある内側半月板と外側半月板はC字型の{{blank}}でできたクッションで、大腿骨と脛骨の間の適合性を高め荷重を分散する。"
           },
           "choices": [
             {
@@ -891,7 +975,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["joint-support-structures-basics"]
+          "reference_text_ids": [
+            "joint-support-structures-basics"
+          ]
         },
         {
           "question_text": "靭帯が一度伸びると元に戻りにくい理由として最も適切なのはどれか？",
@@ -918,7 +1004,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["joint-support-structures-basics"]
+          "reference_text_ids": [
+            "joint-support-structures-basics"
+          ]
         },
         {
           "question_text": "膝の半月板損傷で「内側の方が外側より治りにくい」理由として最も適切なのはどれか？",
@@ -945,7 +1033,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["joint-support-structures-basics"]
+          "reference_text_ids": [
+            "joint-support-structures-basics"
+          ]
         },
         {
           "question_text": "関節のアクセサリー構造とその機能を正しくマッチさせてください",
@@ -956,10 +1046,22 @@
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
           "metadata": {
             "pairs": [
-              {"left": "靭帯", "right": "骨と骨をつなぎ関節の過度な動きを制限する"},
-              {"left": "半月板", "right": "膝関節で大腿骨と脛骨の適合性を高め荷重を分散する"},
-              {"left": "関節唇", "right": "肩・股関節の浅い関節窩を深くして安定性を高める"},
-              {"left": "腱", "right": "筋と骨をつなぎ筋の力を骨に伝達する"}
+              {
+                "left": "靭帯",
+                "right": "骨と骨をつなぎ関節の過度な動きを制限する"
+              },
+              {
+                "left": "半月板",
+                "right": "膝関節で大腿骨と脛骨の適合性を高め荷重を分散する"
+              },
+              {
+                "left": "関節唇",
+                "right": "肩・股関節の浅い関節窩を深くして安定性を高める"
+              },
+              {
+                "left": "腱",
+                "right": "筋と骨をつなぎ筋の力を骨に伝達する"
+              }
             ]
           },
           "choices": [
@@ -980,7 +1082,9 @@
               "is_correct": true
             }
           ],
-          "reference_text_ids": ["joint-support-structures-basics"]
+          "reference_text_ids": [
+            "joint-support-structures-basics"
+          ]
         },
         {
           "question_text": "肩関節の関節窩唇（Glenoid Labrum）が関節の安定性に重要である理由として最も適切なのはどれか？",
@@ -1007,7 +1111,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["joint-support-structures-basics"]
+          "reference_text_ids": [
+            "joint-support-structures-basics"
+          ]
         },
         {
           "question_text": "膝の前十字靭帯（ACL）が断裂した場合、手術が必要になることが多い。ACLが自然治癒しにくい理由として最も適切なのはどれか？",
@@ -1034,7 +1140,10 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["joint-support-structures-basics", "synovial-joint-structure-basics"]
+          "reference_text_ids": [
+            "joint-support-structures-basics",
+            "synovial-joint-structure-basics"
+          ]
         },
         {
           "question_text": "足首を「グキッ」と捻った（足関節内反捻挫）後、同じ足首を繰り返し捻挫しやすくなる。この「捻挫癖」の解剖学的メカニズムとして最も適切なのはどれか？",
@@ -1061,7 +1170,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["joint-support-structures-basics"]
+          "reference_text_ids": [
+            "joint-support-structures-basics"
+          ]
         }
       ]
     },
@@ -1106,27 +1217,48 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["yoga-joints-foundation"]
+          "reference_text_ids": [
+            "yoga-joints-foundation"
+          ]
         },
         {
           "question_text": "関節軟骨は（　①　）であるため、栄養は（　②　）からの供給に依存する。ヨガのポーズで荷重と除荷を繰り返すと、（　③　）潤滑が促進され軟骨に栄養が届きやすくなる。",
-          "interaction_type": "word_bank",
+          "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "easy",
           "explanation": "関節軟骨には血管がなく（無血管）、栄養は関節腔内の滑液から供給されます。荷重をかけると滑液が軟骨に押し込まれ、荷重を除くと老廃物が排出される — これをウィーピング潤滑（Weeping Lubrication）と呼びます。ヨガのポーズの保持と解放はまさにこの荷重サイクルを生み出します。",
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.1",
           "choices": [
-            { "text": "無血管", "is_correct": true },
-            { "text": "滑液", "is_correct": true },
-            { "text": "ウィーピング", "is_correct": true },
-            { "text": "骨髄液", "is_correct": false },
-            { "text": "リンパ", "is_correct": false },
-            { "text": "滑車", "is_correct": false }
+            {
+              "text": "無血管",
+              "is_correct": true
+            },
+            {
+              "text": "滑液",
+              "is_correct": true
+            },
+            {
+              "text": "ウィーピング",
+              "is_correct": true
+            },
+            {
+              "text": "骨髄液",
+              "is_correct": false
+            },
+            {
+              "text": "リンパ",
+              "is_correct": false
+            },
+            {
+              "text": "滑車",
+              "is_correct": false
+            }
           ],
-          "metadata": {
-            "word_bank": ["ウィーピング", "無血管", "リンパ", "滑液", "骨髄液", "滑車"]
-          },
-          "reference_text_ids": ["yoga-joints-foundation", "synovial-joint-structure-basics"]
+          "metadata": {},
+          "reference_text_ids": [
+            "yoga-joints-foundation",
+            "synovial-joint-structure-basics"
+          ]
         },
         {
           "question_text": "柔軟性は高いが可動性が低い状態（受動的可動域＞能動的可動域）が関節にとってリスクとなる理由として、最も適切なのはどれか？",
@@ -1153,7 +1285,10 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["yoga-joints-foundation", "joint-support-structures-basics"]
+          "reference_text_ids": [
+            "yoga-joints-foundation",
+            "joint-support-structures-basics"
+          ]
         },
         {
           "question_text": "ヨガの古典的概念「スティラ（Sthira）とスーカ（Sukha）」は、関節の健康と密接に関わる。この概念が意味するものとして最も適切なのはどれか？",
@@ -1180,7 +1315,9 @@
               "is_correct": true
             }
           ],
-          "reference_text_ids": ["yoga-joints-foundation"]
+          "reference_text_ids": [
+            "yoga-joints-foundation"
+          ]
         },
         {
           "question_text": "以下の関節の構造要素と、ヨガでの機能的な役割を正しく組み合わせなさい。",
@@ -1191,14 +1328,30 @@
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.1-9.4",
           "metadata": {
             "matching_pairs": [
-              { "left": "関節包の固有受容器", "right": "バランス感覚の向上" },
-              { "left": "滑液", "right": "軟骨への栄養供給" },
-              { "left": "靭帯", "right": "過度な動きの制限" },
-              { "left": "関節軟骨", "right": "摩擦の低減" }
+              {
+                "left": "関節包の固有受容器",
+                "right": "バランス感覚の向上"
+              },
+              {
+                "left": "滑液",
+                "right": "軟骨への栄養供給"
+              },
+              {
+                "left": "靭帯",
+                "right": "過度な動きの制限"
+              },
+              {
+                "left": "関節軟骨",
+                "right": "摩擦の低減"
+              }
             ]
           },
           "choices": [],
-          "reference_text_ids": ["yoga-joints-foundation", "synovial-joint-structure-basics", "joint-support-structures-basics"]
+          "reference_text_ids": [
+            "yoga-joints-foundation",
+            "synovial-joint-structure-basics",
+            "joint-support-structures-basics"
+          ]
         },
         {
           "question_text": "ヨガクラスで「開脚の可動域は人によって大きく異なる」と言われる。この個人差の解剖学的要因として最も適切なのはどれか？",
@@ -1225,7 +1378,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["yoga-joints-foundation"]
+          "reference_text_ids": [
+            "yoga-joints-foundation"
+          ]
         },
         {
           "question_text": "ヨガ指導者が生徒にアジャスト（ポーズの補正）を行う際、「痛いけど効いている感じがする」と生徒が言った。関節の解剖学に基づき、指導者が取るべき対応として最も適切なのはどれか？",
@@ -1252,7 +1407,10 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["yoga-joints-foundation", "joint-support-structures-basics"]
+          "reference_text_ids": [
+            "yoga-joints-foundation",
+            "joint-support-structures-basics"
+          ]
         },
         {
           "question_text": "60歳の生徒が「膝が痛いので正座ができない」と相談してきた。ヨガ指導者がこの生徒への対応を考えるうえで、関節の解剖学的知識に基づく最も適切な理解はどれか？",
@@ -1279,7 +1437,10 @@
               "is_correct": true
             }
           ],
-          "reference_text_ids": ["yoga-joints-foundation", "synovial-joint-structure-basics"]
+          "reference_text_ids": [
+            "yoga-joints-foundation",
+            "synovial-joint-structure-basics"
+          ]
         }
       ]
     },
@@ -1324,27 +1485,47 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["ball-hinge-joints-basics"]
+          "reference_text_ids": [
+            "ball-hinge-joints-basics"
+          ]
         },
         {
           "question_text": "蝶番関節は（　①　）軸の関節で、（　②　）と（　③　）の動きのみ可能である。代表例として肘関節・膝関節・（　④　）関節がある。",
-          "interaction_type": "word_bank",
+          "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "easy",
           "explanation": "蝶番関節はドアの蝶番と同じ原理で、1つの軸を中心に屈曲・伸展の動きのみ行えます。代表例は肘関節（腕尺関節）、膝関節、指節間（IP）関節です。回旋や外転・内転はできません。",
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
           "choices": [
-            { "text": "1", "is_correct": true },
-            { "text": "屈曲", "is_correct": true },
-            { "text": "伸展", "is_correct": true },
-            { "text": "指節間", "is_correct": true },
-            { "text": "3", "is_correct": false },
-            { "text": "回旋", "is_correct": false }
+            {
+              "text": "1",
+              "is_correct": true
+            },
+            {
+              "text": "屈曲",
+              "is_correct": true
+            },
+            {
+              "text": "伸展",
+              "is_correct": true
+            },
+            {
+              "text": "指節間",
+              "is_correct": true
+            },
+            {
+              "text": "3",
+              "is_correct": false
+            },
+            {
+              "text": "回旋",
+              "is_correct": false
+            }
           ],
-          "metadata": {
-            "word_bank": ["伸展", "1", "回旋", "屈曲", "3", "指節間"]
-          },
-          "reference_text_ids": ["ball-hinge-joints-basics"]
+          "metadata": {},
+          "reference_text_ids": [
+            "ball-hinge-joints-basics"
+          ]
         },
         {
           "question_text": "球関節が多方向（屈曲・伸展、外転・内転、回旋）に動ける構造的理由として最も適切なのはどれか？",
@@ -1371,7 +1552,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["ball-hinge-joints-basics"]
+          "reference_text_ids": [
+            "ball-hinge-joints-basics"
+          ]
         },
         {
           "question_text": "蝶番関節が屈曲・伸展以外の動き（横方向のぐらつきなど）を強く制限できる理由として最も適切なのはどれか？",
@@ -1398,7 +1581,10 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["ball-hinge-joints-basics", "joint-support-structures-basics"]
+          "reference_text_ids": [
+            "ball-hinge-joints-basics",
+            "joint-support-structures-basics"
+          ]
         },
         {
           "question_text": "以下の関節のタイプと、その運動の特徴を正しく組み合わせなさい。",
@@ -1409,14 +1595,28 @@
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
           "metadata": {
             "matching_pairs": [
-              { "left": "肩関節（球関節）", "right": "3軸・最大の可動域" },
-              { "left": "肘関節（蝶番関節）", "right": "1軸・屈曲と伸展のみ" },
-              { "left": "股関節（球関節）", "right": "3軸・安定性が高い" },
-              { "left": "指節間関節（蝶番関節）", "right": "1軸・握る動作の基盤" }
+              {
+                "left": "肩関節（球関節）",
+                "right": "3軸・最大の可動域"
+              },
+              {
+                "left": "肘関節（蝶番関節）",
+                "right": "1軸・屈曲と伸展のみ"
+              },
+              {
+                "left": "股関節（球関節）",
+                "right": "3軸・安定性が高い"
+              },
+              {
+                "left": "指節間関節（蝶番関節）",
+                "right": "1軸・握る動作の基盤"
+              }
             ]
           },
           "choices": [],
-          "reference_text_ids": ["ball-hinge-joints-basics"]
+          "reference_text_ids": [
+            "ball-hinge-joints-basics"
+          ]
         },
         {
           "question_text": "肩関節と股関節はどちらも球関節だが、肩関節の方がはるかに脱臼しやすい。この違いをもたらす構造的要因として最も適切なのはどれか？",
@@ -1443,7 +1643,10 @@
               "is_correct": true
             }
           ],
-          "reference_text_ids": ["ball-hinge-joints-basics", "joint-support-structures-basics"]
+          "reference_text_ids": [
+            "ball-hinge-joints-basics",
+            "joint-support-structures-basics"
+          ]
         },
         {
           "question_text": "スポーツ中に腕を後方に強く引かれ、肩関節が前方に脱臼した。球関節の構造を考えると、このとき関節で起きていることの説明として最も適切なのはどれか？",
@@ -1470,7 +1673,10 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["ball-hinge-joints-basics", "joint-support-structures-basics"]
+          "reference_text_ids": [
+            "ball-hinge-joints-basics",
+            "joint-support-structures-basics"
+          ]
         },
         {
           "question_text": "ドアノブを回す動作では、手首の回旋は前腕で行われ、指でノブを握る動作は指の関節で行われる。指の「握る」動作に関わる指節間関節が蝶番関節であることの利点として最も適切なのはどれか？",
@@ -1497,7 +1703,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["ball-hinge-joints-basics"]
+          "reference_text_ids": [
+            "ball-hinge-joints-basics"
+          ]
         }
       ]
     },
@@ -1542,27 +1750,47 @@
               "is_correct": true
             }
           ],
-          "reference_text_ids": ["other-synovial-types-basics"]
+          "reference_text_ids": [
+            "other-synovial-types-basics"
+          ]
         },
         {
           "question_text": "母指（親指）のCM関節は（　①　）関節に分類され、屈曲・伸展と外転・内転に加えて（　②　）運動が可能である。この運動は母指を他の指先に合わせる動きで、精密な（　③　）の基盤となる。",
-          "interaction_type": "word_bank",
+          "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "easy",
           "explanation": "母指のCM関節（第1手根中手関節）は鞍関節で、2軸の運動が可能です。特に「対立（Opposition）」運動 — 母指を他の指先に合わせるつまみ動作 — は鞍関節の形状だからこそ可能です。この精密な把持能力が人間の道具使用を可能にしました。",
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
           "choices": [
-            { "text": "鞍", "is_correct": true },
-            { "text": "対立", "is_correct": true },
-            { "text": "把持", "is_correct": true },
-            { "text": "車軸", "is_correct": false },
-            { "text": "回旋", "is_correct": false },
-            { "text": "跳躍", "is_correct": false }
+            {
+              "text": "鞍",
+              "is_correct": true
+            },
+            {
+              "text": "対立",
+              "is_correct": true
+            },
+            {
+              "text": "把持",
+              "is_correct": true
+            },
+            {
+              "text": "車軸",
+              "is_correct": false
+            },
+            {
+              "text": "回旋",
+              "is_correct": false
+            },
+            {
+              "text": "跳躍",
+              "is_correct": false
+            }
           ],
-          "metadata": {
-            "word_bank": ["対立", "車軸", "鞍", "跳躍", "把持", "回旋"]
-          },
-          "reference_text_ids": ["other-synovial-types-basics"]
+          "metadata": {},
+          "reference_text_ids": [
+            "other-synovial-types-basics"
+          ]
         },
         {
           "question_text": "鞍関節（母指CM関節）が人間にとって特に重要である理由として最も適切なのはどれか？",
@@ -1589,7 +1817,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["other-synovial-types-basics"]
+          "reference_text_ids": [
+            "other-synovial-types-basics"
+          ]
         },
         {
           "question_text": "楕円関節と球関節はどちらも2軸以上の運動が可能だが、楕円関節にできなくて球関節にできる運動がある。それはどれか？",
@@ -1616,7 +1846,10 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["other-synovial-types-basics", "ball-hinge-joints-basics"]
+          "reference_text_ids": [
+            "other-synovial-types-basics",
+            "ball-hinge-joints-basics"
+          ]
         },
         {
           "question_text": "以下の関節タイプと、その代表的な場所・動きを正しく組み合わせなさい。",
@@ -1627,14 +1860,28 @@
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
           "metadata": {
             "matching_pairs": [
-              { "left": "車軸関節", "right": "環軸関節 — 首の回旋" },
-              { "left": "鞍関節", "right": "母指CM関節 — 対立運動" },
-              { "left": "楕円関節", "right": "橈骨手根関節 — 手首の動き" },
-              { "left": "平面関節", "right": "椎間関節 — 小さな滑り運動" }
+              {
+                "left": "車軸関節",
+                "right": "環軸関節 — 首の回旋"
+              },
+              {
+                "left": "鞍関節",
+                "right": "母指CM関節 — 対立運動"
+              },
+              {
+                "left": "楕円関節",
+                "right": "橈骨手根関節 — 手首の動き"
+              },
+              {
+                "left": "平面関節",
+                "right": "椎間関節 — 小さな滑り運動"
+              }
             ]
           },
           "choices": [],
-          "reference_text_ids": ["other-synovial-types-basics"]
+          "reference_text_ids": [
+            "other-synovial-types-basics"
+          ]
         },
         {
           "question_text": "脊柱の椎間関節が平面関節である利点として最も適切なのはどれか？",
@@ -1661,7 +1908,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["other-synovial-types-basics"]
+          "reference_text_ids": [
+            "other-synovial-types-basics"
+          ]
         },
         {
           "question_text": "60代の女性が「最近、瓶のフタを開けるとき親指の付け根が痛い」と訴えている。母指CM関節の変形性関節症（母指CM関節症）が疑われる場合、この関節が特に変形性関節症を起こしやすい理由として最も適切なのはどれか？",
@@ -1688,7 +1937,10 @@
               "is_correct": true
             }
           ],
-          "reference_text_ids": ["other-synovial-types-basics", "synovial-joint-structure-basics"]
+          "reference_text_ids": [
+            "other-synovial-types-basics",
+            "synovial-joint-structure-basics"
+          ]
         },
         {
           "question_text": "交通事故で頸椎に強い衝撃を受け、環軸関節の歯突起が骨折した場合に最も懸念される重篤な合併症はどれか？",
@@ -1715,7 +1967,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["other-synovial-types-basics"]
+          "reference_text_ids": [
+            "other-synovial-types-basics"
+          ]
         }
       ]
     },
@@ -1760,27 +2014,48 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["shoulder-joint-basics", "ball-hinge-joints-basics"]
+          "reference_text_ids": [
+            "shoulder-joint-basics",
+            "ball-hinge-joints-basics"
+          ]
         },
         {
           "question_text": "肩関節の安定性を高める動的安定化装置である回旋筋腱板（Rotator Cuff）を構成する4つの筋は、棘上筋・（　①　）・小円筋・（　②　）である。これらの筋腱は上腕骨頭を（　③　）に押し付けて安定性を確保する。",
-          "interaction_type": "word_bank",
+          "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "easy",
           "explanation": "回旋筋腱板は棘上筋（Supraspinatus）、棘下筋（Infraspinatus）、小円筋（Teres Minor）、肩甲下筋（Subscapularis）の4つの筋から成ります。これらは肩甲骨から起始し、上腕骨頭に付着して、上腕骨頭を関節窩に押し付ける「動的な圧迫力」を生み出します。",
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
           "choices": [
-            { "text": "棘下筋", "is_correct": true },
-            { "text": "肩甲下筋", "is_correct": true },
-            { "text": "関節窩", "is_correct": true },
-            { "text": "三角筋", "is_correct": false },
-            { "text": "鎖骨", "is_correct": false },
-            { "text": "肩峰", "is_correct": false }
+            {
+              "text": "棘下筋",
+              "is_correct": true
+            },
+            {
+              "text": "肩甲下筋",
+              "is_correct": true
+            },
+            {
+              "text": "関節窩",
+              "is_correct": true
+            },
+            {
+              "text": "三角筋",
+              "is_correct": false
+            },
+            {
+              "text": "鎖骨",
+              "is_correct": false
+            },
+            {
+              "text": "肩峰",
+              "is_correct": false
+            }
           ],
-          "metadata": {
-            "word_bank": ["三角筋", "棘下筋", "関節窩", "肩峰", "肩甲下筋", "鎖骨"]
-          },
-          "reference_text_ids": ["shoulder-joint-basics"]
+          "metadata": {},
+          "reference_text_ids": [
+            "shoulder-joint-basics"
+          ]
         },
         {
           "question_text": "肩関節の関節窩が上腕骨頭の約25-30%しか覆わないことが、関節の機能にどのような影響を与えるか。最も適切なのはどれか？",
@@ -1807,7 +2082,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["shoulder-joint-basics"]
+          "reference_text_ids": [
+            "shoulder-joint-basics"
+          ]
         },
         {
           "question_text": "回旋筋腱板が肩関節の安定性に寄与するメカニズムとして最も適切なのはどれか？",
@@ -1834,7 +2111,9 @@
               "is_correct": true
             }
           ],
-          "reference_text_ids": ["shoulder-joint-basics"]
+          "reference_text_ids": [
+            "shoulder-joint-basics"
+          ]
         },
         {
           "question_text": "以下の肩関節の構造と、その安定化における役割を正しく組み合わせなさい。",
@@ -1845,14 +2124,29 @@
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
           "metadata": {
             "matching_pairs": [
-              { "left": "関節唇（ラブラム）", "right": "関節窩を深くし吸盤効果で安定" },
-              { "left": "回旋筋腱板", "right": "骨頭を窩に押し付ける動的安定化" },
-              { "left": "関節上腕靭帯", "right": "過度な動きを制限する静的安定化" },
-              { "left": "関節窩の浅さ", "right": "最大の可動域を実現" }
+              {
+                "left": "関節唇（ラブラム）",
+                "right": "関節窩を深くし吸盤効果で安定"
+              },
+              {
+                "left": "回旋筋腱板",
+                "right": "骨頭を窩に押し付ける動的安定化"
+              },
+              {
+                "left": "関節上腕靭帯",
+                "right": "過度な動きを制限する静的安定化"
+              },
+              {
+                "left": "関節窩の浅さ",
+                "right": "最大の可動域を実現"
+              }
             ]
           },
           "choices": [],
-          "reference_text_ids": ["shoulder-joint-basics", "joint-support-structures-basics"]
+          "reference_text_ids": [
+            "shoulder-joint-basics",
+            "joint-support-structures-basics"
+          ]
         },
         {
           "question_text": "肩関節脱臼の約95%が前方脱臼である。前方に脱臼しやすい解剖学的理由として最も適切なのはどれか？",
@@ -1879,7 +2173,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["shoulder-joint-basics"]
+          "reference_text_ids": [
+            "shoulder-joint-basics"
+          ]
         },
         {
           "question_text": "50歳の女性が「数か月前から肩が徐々に動かなくなり、服を着替えるのも困難」と訴えている。凍結肩（五十肩/Frozen Shoulder）が疑われる場合、この状態で関節に起きている変化として最も適切なのはどれか？",
@@ -1906,7 +2202,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["shoulder-joint-basics"]
+          "reference_text_ids": [
+            "shoulder-joint-basics"
+          ]
         },
         {
           "question_text": "野球のピッチャーが「腕を上げるとき肩の上部に痛みがある」と訴えた。肩のインピンジメント症候群が疑われる場合、解剖学的に何が起きている可能性が最も高いか？",
@@ -1933,7 +2231,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["shoulder-joint-basics"]
+          "reference_text_ids": [
+            "shoulder-joint-basics"
+          ]
         }
       ]
     },
@@ -1978,27 +2278,48 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["elbow-forearm-basics"]
+          "reference_text_ids": [
+            "elbow-forearm-basics"
+          ]
         },
         {
           "question_text": "前腕の回内は手のひらを（　①　）に向ける動きで、回外は手のひらを（　②　）に向ける動きである。この動きは（　③　）橈尺関節の（　④　）関節で行われる。",
-          "interaction_type": "word_bank",
+          "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "easy",
           "explanation": "回内（Pronation）は手のひらを下に向ける動きで、回外（Supination）は手のひらを上に向ける動きです。この動きは近位橈尺関節で行われ、橈骨頭が輪状靭帯のリング内で回転する車軸関節です。ドアノブを回す、ネジを締めるなどの日常動作に不可欠です。",
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
           "choices": [
-            { "text": "下", "is_correct": true },
-            { "text": "上", "is_correct": true },
-            { "text": "近位", "is_correct": true },
-            { "text": "車軸", "is_correct": true },
-            { "text": "遠位", "is_correct": false },
-            { "text": "蝶番", "is_correct": false }
+            {
+              "text": "下",
+              "is_correct": true
+            },
+            {
+              "text": "上",
+              "is_correct": true
+            },
+            {
+              "text": "近位",
+              "is_correct": true
+            },
+            {
+              "text": "車軸",
+              "is_correct": true
+            },
+            {
+              "text": "遠位",
+              "is_correct": false
+            },
+            {
+              "text": "蝶番",
+              "is_correct": false
+            }
           ],
-          "metadata": {
-            "word_bank": ["上", "蝶番", "下", "近位", "遠位", "車軸"]
-          },
-          "reference_text_ids": ["elbow-forearm-basics", "other-synovial-types-basics"]
+          "metadata": {},
+          "reference_text_ids": [
+            "elbow-forearm-basics",
+            "other-synovial-types-basics"
+          ]
         },
         {
           "question_text": "蝶番関節（腕尺関節）と車軸関節（近位橈尺関節）が1つの関節包の中に共存している構造的利点として最も適切なのはどれか？",
@@ -2025,7 +2346,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["elbow-forearm-basics"]
+          "reference_text_ids": [
+            "elbow-forearm-basics"
+          ]
         },
         {
           "question_text": "テニス肘（外側上顆炎）の解剖学的メカニズムとして最も適切なのはどれか？",
@@ -2052,7 +2375,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["elbow-forearm-basics"]
+          "reference_text_ids": [
+            "elbow-forearm-basics"
+          ]
         },
         {
           "question_text": "以下の肘関節の構成要素と、その機能を正しく組み合わせなさい。",
@@ -2063,14 +2388,28 @@
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
           "metadata": {
             "matching_pairs": [
-              { "left": "腕尺関節", "right": "肘の屈曲・伸展" },
-              { "left": "近位橈尺関節", "right": "前腕の回内・回外" },
-              { "left": "内側側副靭帯（UCL）", "right": "外反ストレスへの抵抗" },
-              { "left": "輪状靭帯", "right": "橈骨頭の回転軸の安定化" }
+              {
+                "left": "腕尺関節",
+                "right": "肘の屈曲・伸展"
+              },
+              {
+                "left": "近位橈尺関節",
+                "right": "前腕の回内・回外"
+              },
+              {
+                "left": "内側側副靭帯（UCL）",
+                "right": "外反ストレスへの抵抗"
+              },
+              {
+                "left": "輪状靭帯",
+                "right": "橈骨頭の回転軸の安定化"
+              }
             ]
           },
           "choices": [],
-          "reference_text_ids": ["elbow-forearm-basics"]
+          "reference_text_ids": [
+            "elbow-forearm-basics"
+          ]
         },
         {
           "question_text": "肘関節は肩関節に比べて脱臼しにくい。肘関節の安定性が高い構造的理由として最も適切なのはどれか？",
@@ -2097,7 +2436,10 @@
               "is_correct": true
             }
           ],
-          "reference_text_ids": ["elbow-forearm-basics", "shoulder-joint-basics"]
+          "reference_text_ids": [
+            "elbow-forearm-basics",
+            "shoulder-joint-basics"
+          ]
         },
         {
           "question_text": "2歳の子供の手を急に引っ張ったところ、子供が肘を痛がって動かさなくなった。この「肘内障」の解剖学的メカニズムとして最も適切なのはどれか？",
@@ -2124,7 +2466,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["elbow-forearm-basics"]
+          "reference_text_ids": [
+            "elbow-forearm-basics"
+          ]
         },
         {
           "question_text": "野球のピッチャーが投球動作を繰り返した結果、肘の内側側副靭帯（UCL）を損傷した。UCLが投球で特に負荷を受ける解剖学的理由として最も適切なのはどれか？",
@@ -2151,7 +2495,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["elbow-forearm-basics"]
+          "reference_text_ids": [
+            "elbow-forearm-basics"
+          ]
         }
       ]
     },
@@ -2196,27 +2542,49 @@
               "is_correct": true
             }
           ],
-          "reference_text_ids": ["yoga-upper-limb-joints", "other-synovial-types-basics"]
+          "reference_text_ids": [
+            "yoga-upper-limb-joints",
+            "other-synovial-types-basics"
+          ]
         },
         {
           "question_text": "チャトランガ・ダンダーサナで肘を曲げて体を低くする際、肩関節を安定させるために（　①　）筋腱板が重要な役割を果たす。特に上腕骨頭を関節窩に押し付ける（　②　）と（　③　）が働く。",
-          "interaction_type": "word_bank",
+          "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "easy",
           "explanation": "チャトランガでは肩関節に大きな荷重がかかり、回旋筋腱板（Rotator Cuff）が上腕骨頭を浅い関節窩に安定させます。特に棘上筋（上からの圧迫）と肩甲下筋（前方からの安定化）が重要な役割を果たします。この動的安定化がなければ、浅い関節窩から上腕骨頭が逸脱するリスクがあります。",
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
           "choices": [
-            { "text": "回旋", "is_correct": true },
-            { "text": "棘上筋", "is_correct": true },
-            { "text": "肩甲下筋", "is_correct": true },
-            { "text": "僧帽", "is_correct": false },
-            { "text": "三角筋", "is_correct": false },
-            { "text": "広背筋", "is_correct": false }
+            {
+              "text": "回旋",
+              "is_correct": true
+            },
+            {
+              "text": "棘上筋",
+              "is_correct": true
+            },
+            {
+              "text": "肩甲下筋",
+              "is_correct": true
+            },
+            {
+              "text": "僧帽",
+              "is_correct": false
+            },
+            {
+              "text": "三角筋",
+              "is_correct": false
+            },
+            {
+              "text": "広背筋",
+              "is_correct": false
+            }
           ],
-          "metadata": {
-            "word_bank": ["棘上筋", "僧帽", "回旋", "広背筋", "肩甲下筋", "三角筋"]
-          },
-          "reference_text_ids": ["yoga-upper-limb-joints", "shoulder-joint-basics"]
+          "metadata": {},
+          "reference_text_ids": [
+            "yoga-upper-limb-joints",
+            "shoulder-joint-basics"
+          ]
         },
         {
           "question_text": "プランクポーズを長時間保持すると手首に痛みが出る生徒がいる。この痛みの解剖学的原因として最も適切なのはどれか？",
@@ -2243,7 +2611,10 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["yoga-upper-limb-joints", "other-synovial-types-basics"]
+          "reference_text_ids": [
+            "yoga-upper-limb-joints",
+            "other-synovial-types-basics"
+          ]
         },
         {
           "question_text": "ダウンドッグやプランクで「肘の内側を前に向けて」とキューイングする指導法がある。この指示が肩関節の保護に役立つ解剖学的理由として最も適切なのはどれか？",
@@ -2270,7 +2641,10 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["yoga-upper-limb-joints", "shoulder-joint-basics"]
+          "reference_text_ids": [
+            "yoga-upper-limb-joints",
+            "shoulder-joint-basics"
+          ]
         },
         {
           "question_text": "以下のヨガポーズと、そのポーズで主に負荷がかかる関節・構造を正しく組み合わせなさい。",
@@ -2281,14 +2655,29 @@
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4-9.5",
           "metadata": {
             "matching_pairs": [
-              { "left": "ダウンドッグ", "right": "橈骨手根関節の背屈" },
-              { "left": "チャトランガ", "right": "回旋筋腱板の安定化要求" },
-              { "left": "プランク", "right": "手根管への持続的圧迫" },
-              { "left": "アップドッグ", "right": "肩関節の伸展位の負荷" }
+              {
+                "left": "ダウンドッグ",
+                "right": "橈骨手根関節の背屈"
+              },
+              {
+                "left": "チャトランガ",
+                "right": "回旋筋腱板の安定化要求"
+              },
+              {
+                "left": "プランク",
+                "right": "手根管への持続的圧迫"
+              },
+              {
+                "left": "アップドッグ",
+                "right": "肩関節の伸展位の負荷"
+              }
             ]
           },
           "choices": [],
-          "reference_text_ids": ["yoga-upper-limb-joints", "shoulder-joint-basics"]
+          "reference_text_ids": [
+            "yoga-upper-limb-joints",
+            "shoulder-joint-basics"
+          ]
         },
         {
           "question_text": "ヨガの「テーブルトップポーズ」（四つ這い）で、手のひらを内側に向けるか外側に向けるかで、前腕の近位橈尺関節の状態が変わる。手のひらを床につけた通常の四つ這いで、前腕はどの状態か？",
@@ -2315,7 +2704,10 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["yoga-upper-limb-joints", "elbow-forearm-basics"]
+          "reference_text_ids": [
+            "yoga-upper-limb-joints",
+            "elbow-forearm-basics"
+          ]
         },
         {
           "question_text": "ヨガ指導者がチャトランガを指導する際、「肘を体の横に沿わせて、脇を締めて」と伝える。この指示が肩関節の安全に重要な理由として最も適切なのはどれか？",
@@ -2342,7 +2734,10 @@
               "is_correct": true
             }
           ],
-          "reference_text_ids": ["yoga-upper-limb-joints", "shoulder-joint-basics"]
+          "reference_text_ids": [
+            "yoga-upper-limb-joints",
+            "shoulder-joint-basics"
+          ]
         },
         {
           "question_text": "手首に慢性的な痛みがある生徒がヨガクラスに参加している。ダウンドッグやプランクで手首が辛いと訴えた場合、関節の解剖学に基づく最も適切な指導はどれか？",
@@ -2369,7 +2764,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["yoga-upper-limb-joints"]
+          "reference_text_ids": [
+            "yoga-upper-limb-joints"
+          ]
         }
       ]
     },
@@ -2414,27 +2811,48 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["wrist-hand-joints-basics", "other-synovial-types-basics"]
+          "reference_text_ids": [
+            "wrist-hand-joints-basics",
+            "other-synovial-types-basics"
+          ]
         },
         {
           "question_text": "手には複数のタイプの関節がある。母指のCM関節は（　①　）関節、指の付け根のMP関節は（　②　）関節、指の中間・先端のIP関節は（　③　）関節である。",
-          "interaction_type": "word_bank",
+          "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "easy",
           "explanation": "手の関節は場所によって異なるタイプです。母指CM関節は鞍関節で対立運動が可能。MP関節（指の付け根）は楕円関節で屈伸＋外転・内転の2軸。IP関節（PIPとDIP）は蝶番関節で屈伸のみ。この多様性が手の精密な動きを可能にしています。",
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
           "choices": [
-            { "text": "鞍", "is_correct": true },
-            { "text": "楕円", "is_correct": true },
-            { "text": "蝶番", "is_correct": true },
-            { "text": "球", "is_correct": false },
-            { "text": "車軸", "is_correct": false },
-            { "text": "平面", "is_correct": false }
+            {
+              "text": "鞍",
+              "is_correct": true
+            },
+            {
+              "text": "楕円",
+              "is_correct": true
+            },
+            {
+              "text": "蝶番",
+              "is_correct": true
+            },
+            {
+              "text": "球",
+              "is_correct": false
+            },
+            {
+              "text": "車軸",
+              "is_correct": false
+            },
+            {
+              "text": "平面",
+              "is_correct": false
+            }
           ],
-          "metadata": {
-            "word_bank": ["楕円", "球", "蝶番", "車軸", "鞍", "平面"]
-          },
-          "reference_text_ids": ["wrist-hand-joints-basics"]
+          "metadata": {},
+          "reference_text_ids": [
+            "wrist-hand-joints-basics"
+          ]
         },
         {
           "question_text": "手根管（Carpal Tunnel）の構造として正しいのはどれか？",
@@ -2461,7 +2879,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["wrist-hand-joints-basics"]
+          "reference_text_ids": [
+            "wrist-hand-joints-basics"
+          ]
         },
         {
           "question_text": "MP関節（指の付け根）では指を横に開閉できるが、IP関節（指の中間・先端）ではできない。この違いの構造的理由として最も適切なのはどれか？",
@@ -2488,7 +2908,10 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["wrist-hand-joints-basics", "ball-hinge-joints-basics"]
+          "reference_text_ids": [
+            "wrist-hand-joints-basics",
+            "ball-hinge-joints-basics"
+          ]
         },
         {
           "question_text": "以下の手の関節と、その関節タイプ・特徴を正しく組み合わせなさい。",
@@ -2499,14 +2922,28 @@
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
           "metadata": {
             "matching_pairs": [
-              { "left": "橈骨手根関節", "right": "楕円関節 — 手首の屈伸と橈尺屈" },
-              { "left": "母指CM関節", "right": "鞍関節 — 対立運動が可能" },
-              { "left": "MP関節（指の付け根）", "right": "楕円関節 — 指の開閉も可能" },
-              { "left": "IP関節（指の中間・先端）", "right": "蝶番関節 — 屈伸のみ" }
+              {
+                "left": "橈骨手根関節",
+                "right": "楕円関節 — 手首の屈伸と橈尺屈"
+              },
+              {
+                "left": "母指CM関節",
+                "right": "鞍関節 — 対立運動が可能"
+              },
+              {
+                "left": "MP関節（指の付け根）",
+                "right": "楕円関節 — 指の開閉も可能"
+              },
+              {
+                "left": "IP関節（指の中間・先端）",
+                "right": "蝶番関節 — 屈伸のみ"
+              }
             ]
           },
           "choices": [],
-          "reference_text_ids": ["wrist-hand-joints-basics"]
+          "reference_text_ids": [
+            "wrist-hand-joints-basics"
+          ]
         },
         {
           "question_text": "手には多数の関節タイプが混在するが、遠位（指先側）に行くほど関節の自由度が低くなる傾向がある。この設計の機能的意義として最も適切なのはどれか？",
@@ -2533,7 +2970,9 @@
               "is_correct": true
             }
           ],
-          "reference_text_ids": ["wrist-hand-joints-basics"]
+          "reference_text_ids": [
+            "wrist-hand-joints-basics"
+          ]
         },
         {
           "question_text": "デスクワーカーが「朝起きると手がしびれている。特に親指・人差し指・中指がしびれる」と訴えた。手根管症候群が疑われる場合、しびれが親指・人差し指・中指に限局する解剖学的理由として最も適切なのはどれか？",
@@ -2560,7 +2999,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["wrist-hand-joints-basics"]
+          "reference_text_ids": [
+            "wrist-hand-joints-basics"
+          ]
         },
         {
           "question_text": "箸で小さな豆をつまむ動作を関節の種類で分析する。この精密把持に不可欠な関節の組み合わせと、それぞれの役割として最も適切なのはどれか？",
@@ -2587,7 +3028,10 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["wrist-hand-joints-basics", "other-synovial-types-basics"]
+          "reference_text_ids": [
+            "wrist-hand-joints-basics",
+            "other-synovial-types-basics"
+          ]
         }
       ]
     },
@@ -2632,27 +3076,48 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["hip-joint-basics", "shoulder-joint-basics"]
+          "reference_text_ids": [
+            "hip-joint-basics",
+            "shoulder-joint-basics"
+          ]
         },
         {
           "question_text": "股関節を安定させる3つの靭帯のうち、人体最強の靭帯の一つで、直立姿勢の維持に重要なのは（　①　）靭帯で、関節の（　②　）を防ぐ。この靭帯のおかげで、立っているとき（　③　）のエネルギー消費が軽減される。",
-          "interaction_type": "word_bank",
+          "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "easy",
           "explanation": "腸骨大腿靭帯（Y靭帯）は人体最強の靭帯の一つで、股関節の前面を覆い過伸展を防ぎます。直立姿勢では体重が股関節の軸より前方にかかるため、過伸展方向の力がかかりますが、腸骨大腿靭帯がこれを靭帯の張力だけで支えます。そのため筋肉を常に収縮させる必要がなく、エネルギー消費が軽減されます。",
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
           "choices": [
-            { "text": "腸骨大腿", "is_correct": true },
-            { "text": "過伸展", "is_correct": true },
-            { "text": "筋", "is_correct": true },
-            { "text": "坐骨大腿", "is_correct": false },
-            { "text": "過屈曲", "is_correct": false },
-            { "text": "骨", "is_correct": false }
+            {
+              "text": "腸骨大腿",
+              "is_correct": true
+            },
+            {
+              "text": "過伸展",
+              "is_correct": true
+            },
+            {
+              "text": "筋",
+              "is_correct": true
+            },
+            {
+              "text": "坐骨大腿",
+              "is_correct": false
+            },
+            {
+              "text": "過屈曲",
+              "is_correct": false
+            },
+            {
+              "text": "骨",
+              "is_correct": false
+            }
           ],
-          "metadata": {
-            "word_bank": ["過伸展", "坐骨大腿", "筋", "腸骨大腿", "骨", "過屈曲"]
-          },
-          "reference_text_ids": ["hip-joint-basics"]
+          "metadata": {},
+          "reference_text_ids": [
+            "hip-joint-basics"
+          ]
         },
         {
           "question_text": "股関節が肩関節より可動域が狭い根本的な理由として最も適切なのはどれか？",
@@ -2679,7 +3144,10 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["hip-joint-basics", "ball-hinge-joints-basics"]
+          "reference_text_ids": [
+            "hip-joint-basics",
+            "ball-hinge-joints-basics"
+          ]
         },
         {
           "question_text": "腸骨大腿靭帯が直立姿勢の省エネルギーに貢献するメカニズムとして最も適切なのはどれか？",
@@ -2706,7 +3174,9 @@
               "is_correct": true
             }
           ],
-          "reference_text_ids": ["hip-joint-basics"]
+          "reference_text_ids": [
+            "hip-joint-basics"
+          ]
         },
         {
           "question_text": "以下の股関節の構造と、その役割を正しく組み合わせなさい。",
@@ -2717,14 +3187,28 @@
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
           "metadata": {
             "matching_pairs": [
-              { "left": "寛骨臼", "right": "深いカップで骨頭を包む" },
-              { "left": "寛骨臼唇", "right": "縁を深くし吸盤効果で安定化" },
-              { "left": "腸骨大腿靭帯", "right": "過伸展を防ぎ直立姿勢を維持" },
-              { "left": "大腿骨頭靭帯", "right": "骨頭への血流を供給" }
+              {
+                "left": "寛骨臼",
+                "right": "深いカップで骨頭を包む"
+              },
+              {
+                "left": "寛骨臼唇",
+                "right": "縁を深くし吸盤効果で安定化"
+              },
+              {
+                "left": "腸骨大腿靭帯",
+                "right": "過伸展を防ぎ直立姿勢を維持"
+              },
+              {
+                "left": "大腿骨頭靭帯",
+                "right": "骨頭への血流を供給"
+              }
             ]
           },
           "choices": [],
-          "reference_text_ids": ["hip-joint-basics"]
+          "reference_text_ids": [
+            "hip-joint-basics"
+          ]
         },
         {
           "question_text": "日本における変形性股関節症（股関節OA）の原因として最も多いものはどれか？",
@@ -2751,7 +3235,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["hip-joint-basics"]
+          "reference_text_ids": [
+            "hip-joint-basics"
+          ]
         },
         {
           "question_text": "変形性股関節症が進行して人工股関節置換術（THR）を受けた患者が「脱臼しやすいポジションを避けてください」と医師から指示された。人工股関節が脱臼しやすい解剖学的理由として最も適切なのはどれか？",
@@ -2778,7 +3264,10 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["hip-joint-basics", "joint-support-structures-basics"]
+          "reference_text_ids": [
+            "hip-joint-basics",
+            "joint-support-structures-basics"
+          ]
         },
         {
           "question_text": "高齢者が転倒して大腿骨頸部骨折を起こした場合、大腿骨頭への血流が問題となることがある。大腿骨頭靭帯の解剖学的役割を考慮すると、この問題の説明として最も適切なのはどれか？",
@@ -2805,7 +3294,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["hip-joint-basics"]
+          "reference_text_ids": [
+            "hip-joint-basics"
+          ]
         }
       ]
     },
@@ -2850,27 +3341,47 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["knee-joint-basics"]
+          "reference_text_ids": [
+            "knee-joint-basics"
+          ]
         },
         {
           "question_text": "膝関節の安定性を支える主な靭帯のうち、脛骨の前方移動を防ぐのは（　①　）靭帯で、脛骨の後方移動を防ぐのは（　②　）靭帯である。膝の内側からの外反ストレスに抵抗するのは（　③　）側副靭帯である。",
-          "interaction_type": "word_bank",
+          "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "easy",
           "explanation": "前十字靭帯（ACL）は脛骨が大腿骨に対して前方に移動するのを防ぎます。後十字靭帯（PCL）は後方移動を防ぎます。内側側副靭帯（MCL）は膝の外反（内側に入る力）に抵抗します。これら3つが膝の安定性の主要な静的構造です。",
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
           "choices": [
-            { "text": "前十字", "is_correct": true },
-            { "text": "後十字", "is_correct": true },
-            { "text": "内側", "is_correct": true },
-            { "text": "外側", "is_correct": false },
-            { "text": "輪状", "is_correct": false },
-            { "text": "腸骨大腿", "is_correct": false }
+            {
+              "text": "前十字",
+              "is_correct": true
+            },
+            {
+              "text": "後十字",
+              "is_correct": true
+            },
+            {
+              "text": "内側",
+              "is_correct": true
+            },
+            {
+              "text": "外側",
+              "is_correct": false
+            },
+            {
+              "text": "輪状",
+              "is_correct": false
+            },
+            {
+              "text": "腸骨大腿",
+              "is_correct": false
+            }
           ],
-          "metadata": {
-            "word_bank": ["後十字", "外側", "前十字", "腸骨大腿", "内側", "輪状"]
-          },
-          "reference_text_ids": ["knee-joint-basics"]
+          "metadata": {},
+          "reference_text_ids": [
+            "knee-joint-basics"
+          ]
         },
         {
           "question_text": "内側半月板が外側半月板より損傷しやすい解剖学的理由として最も適切なのはどれか？",
@@ -2897,7 +3408,10 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["knee-joint-basics", "joint-support-structures-basics"]
+          "reference_text_ids": [
+            "knee-joint-basics",
+            "joint-support-structures-basics"
+          ]
         },
         {
           "question_text": "膝蓋骨（お皿の骨）の主な機能として最も適切なのはどれか？",
@@ -2924,7 +3438,9 @@
               "is_correct": true
             }
           ],
-          "reference_text_ids": ["knee-joint-basics"]
+          "reference_text_ids": [
+            "knee-joint-basics"
+          ]
         },
         {
           "question_text": "以下の膝関節の構造と、その安定化における役割を正しく組み合わせなさい。",
@@ -2935,14 +3451,28 @@
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
           "metadata": {
             "matching_pairs": [
-              { "left": "前十字靭帯（ACL）", "right": "脛骨の前方移動と過伸展を防ぐ" },
-              { "left": "後十字靭帯（PCL）", "right": "脛骨の後方移動を防ぐ" },
-              { "left": "半月板", "right": "荷重の分散と衝撃吸収" },
-              { "left": "内側側副靭帯（MCL）", "right": "外反ストレスに抵抗" }
+              {
+                "left": "前十字靭帯（ACL）",
+                "right": "脛骨の前方移動と過伸展を防ぐ"
+              },
+              {
+                "left": "後十字靭帯（PCL）",
+                "right": "脛骨の後方移動を防ぐ"
+              },
+              {
+                "left": "半月板",
+                "right": "荷重の分散と衝撃吸収"
+              },
+              {
+                "left": "内側側副靭帯（MCL）",
+                "right": "外反ストレスに抵抗"
+              }
             ]
           },
           "choices": [],
-          "reference_text_ids": ["knee-joint-basics"]
+          "reference_text_ids": [
+            "knee-joint-basics"
+          ]
         },
         {
           "question_text": "ACL損傷の約70%は相手との接触なく発生する「非接触型」である。非接触型ACL損傷が起こりやすい動作パターンとして最も適切なのはどれか？",
@@ -2969,7 +3499,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["knee-joint-basics"]
+          "reference_text_ids": [
+            "knee-joint-basics"
+          ]
         },
         {
           "question_text": "サッカー中に膝の外側から強くタックルされ、膝が内側に強制的に押された（外反）。この場合に損傷しうる「不幸の三徴（Unhappy Triad）」の構造の組み合わせとして正しいのはどれか？",
@@ -2996,7 +3528,10 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["knee-joint-basics", "joint-support-structures-basics"]
+          "reference_text_ids": [
+            "knee-joint-basics",
+            "joint-support-structures-basics"
+          ]
         },
         {
           "question_text": "女性アスリートが男性に比べてACL損傷リスクが2-8倍高い理由には複数の解剖学的要因がある。そのうち骨格構造に関する要因として最も適切なのはどれか？",
@@ -3023,7 +3558,9 @@
               "is_correct": true
             }
           ],
-          "reference_text_ids": ["knee-joint-basics"]
+          "reference_text_ids": [
+            "knee-joint-basics"
+          ]
         }
       ]
     },
@@ -3068,27 +3605,47 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["ankle-foot-basics"]
+          "reference_text_ids": [
+            "ankle-foot-basics"
+          ]
         },
         {
           "question_text": "足のアーチは3つある。最も高いのは（　①　）アーチで、衝撃を吸収して蹴り出しのバネ効果を生む。アーチは靭帯と筋で支えられ、足の裏の（　②　）腱膜が重要な支持構造である。",
-          "interaction_type": "word_bank",
+          "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "easy",
           "explanation": "足の3つのアーチのうち、内側縦アーチが最も高く、衝撃吸収とバネ効果の主役です。足底腱膜（Plantar Fascia）は踵骨から中足骨頭に至る強い線維組織で、アーチの「弓の弦」のように支えています。歩行時にアーチが扁平化すると足底腱膜が引き伸ばされてエネルギーを蓄え、蹴り出し時に弾性反跳で推進力を生みます。",
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
           "choices": [
-            { "text": "内側縦", "is_correct": true },
-            { "text": "足底", "is_correct": true },
-            { "text": "外側縦", "is_correct": false },
-            { "text": "横", "is_correct": false },
-            { "text": "手掌", "is_correct": false },
-            { "text": "関節", "is_correct": false }
+            {
+              "text": "内側縦",
+              "is_correct": true
+            },
+            {
+              "text": "足底",
+              "is_correct": true
+            },
+            {
+              "text": "外側縦",
+              "is_correct": false
+            },
+            {
+              "text": "横",
+              "is_correct": false
+            },
+            {
+              "text": "手掌",
+              "is_correct": false
+            },
+            {
+              "text": "関節",
+              "is_correct": false
+            }
           ],
-          "metadata": {
-            "word_bank": ["外側縦", "内側縦", "関節", "足底", "横", "手掌"]
-          },
-          "reference_text_ids": ["ankle-foot-basics"]
+          "metadata": {},
+          "reference_text_ids": [
+            "ankle-foot-basics"
+          ]
         },
         {
           "question_text": "足関節の捻挫で内反捻挫（足裏が内側を向く方向の捻挫）が約80%を占める理由として最も適切なのはどれか？",
@@ -3115,7 +3672,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["ankle-foot-basics"]
+          "reference_text_ids": [
+            "ankle-foot-basics"
+          ]
         },
         {
           "question_text": "足のアーチが歩行時に果たす機能として最も適切なのはどれか？",
@@ -3142,7 +3701,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["ankle-foot-basics"]
+          "reference_text_ids": [
+            "ankle-foot-basics"
+          ]
         },
         {
           "question_text": "以下の足の構造と、その機能を正しく組み合わせなさい。",
@@ -3153,14 +3714,28 @@
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
           "metadata": {
             "matching_pairs": [
-              { "left": "距腿関節", "right": "背屈と底屈（蹴り出しと持ち上げ）" },
-              { "left": "距骨下関節", "right": "内反と外反（不整地への適応）" },
-              { "left": "内側縦アーチ", "right": "衝撃吸収とバネ効果の主役" },
-              { "left": "足底腱膜", "right": "アーチの弓の弦として弾性支持" }
+              {
+                "left": "距腿関節",
+                "right": "背屈と底屈（蹴り出しと持ち上げ）"
+              },
+              {
+                "left": "距骨下関節",
+                "right": "内反と外反（不整地への適応）"
+              },
+              {
+                "left": "内側縦アーチ",
+                "right": "衝撃吸収とバネ効果の主役"
+              },
+              {
+                "left": "足底腱膜",
+                "right": "アーチの弓の弦として弾性支持"
+              }
             ]
           },
           "choices": [],
-          "reference_text_ids": ["ankle-foot-basics"]
+          "reference_text_ids": [
+            "ankle-foot-basics"
+          ]
         },
         {
           "question_text": "扁平足（内側縦アーチの低下）が膝や股関節にまで影響を及ぼすメカニズムとして最も適切なのはどれか？",
@@ -3187,7 +3762,9 @@
               "is_correct": true
             }
           ],
-          "reference_text_ids": ["ankle-foot-basics"]
+          "reference_text_ids": [
+            "ankle-foot-basics"
+          ]
         },
         {
           "question_text": "ランナーが「朝起きて最初の一歩が特に痛い」と足裏の踵付近の痛みを訴えている。足底腱膜炎が疑われる場合、「最初の一歩が最も痛い」理由として最も適切なのはどれか？",
@@ -3214,7 +3791,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["ankle-foot-basics"]
+          "reference_text_ids": [
+            "ankle-foot-basics"
+          ]
         },
         {
           "question_text": "高齢者が「最近つまずきやすくなった」と訴えている。足関節の解剖学から、加齢によるつまずきリスク増加の要因として最も適切なのはどれか？",
@@ -3241,7 +3820,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["ankle-foot-basics"]
+          "reference_text_ids": [
+            "ankle-foot-basics"
+          ]
         }
       ]
     },
@@ -3286,27 +3867,49 @@
               "is_correct": true
             }
           ],
-          "reference_text_ids": ["yoga-lower-limb-joints", "knee-joint-basics"]
+          "reference_text_ids": [
+            "yoga-lower-limb-joints",
+            "knee-joint-basics"
+          ]
         },
         {
           "question_text": "ヨガの立木のポーズ（ヴリクシャーサナ）で片脚立ちをする際、支持脚の膝を完全に伸ばしきって（　①　）すると、（　②　）靭帯と関節包後方にストレスがかかる。安全のため膝を（　③　）に保つ指導が重要である。",
-          "interaction_type": "word_bank",
+          "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "easy",
           "explanation": "膝を完全に伸ばしきる（過伸展/ハイパーエクステンション）と、ACLに張力がかかり、関節包の後方も引き伸ばされます。「マイクロベンド」（微屈曲）に保つことで、筋肉が膝を能動的に安定させ、靭帯への過負荷を防ぎます。",
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.5",
           "choices": [
-            { "text": "過伸展", "is_correct": true },
-            { "text": "前十字", "is_correct": true },
-            { "text": "微屈曲（マイクロベンド）", "is_correct": true },
-            { "text": "過屈曲", "is_correct": false },
-            { "text": "内側側副", "is_correct": false },
-            { "text": "完全伸展ロック", "is_correct": false }
+            {
+              "text": "過伸展",
+              "is_correct": true
+            },
+            {
+              "text": "前十字",
+              "is_correct": true
+            },
+            {
+              "text": "微屈曲（マイクロベンド）",
+              "is_correct": true
+            },
+            {
+              "text": "過屈曲",
+              "is_correct": false
+            },
+            {
+              "text": "内側側副",
+              "is_correct": false
+            },
+            {
+              "text": "完全伸展ロック",
+              "is_correct": false
+            }
           ],
-          "metadata": {
-            "word_bank": ["前十字", "過屈曲", "過伸展", "完全伸展ロック", "微屈曲（マイクロベンド）", "内側側副"]
-          },
-          "reference_text_ids": ["yoga-lower-limb-joints", "knee-joint-basics"]
+          "metadata": {},
+          "reference_text_ids": [
+            "yoga-lower-limb-joints",
+            "knee-joint-basics"
+          ]
         },
         {
           "question_text": "蓮華座（パドマーサナ）で股関節の可動域が足りない生徒が無理にポーズを取ろうとした場合、最も損傷リスクが高い関節はどれか？",
@@ -3333,7 +3936,10 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["yoga-lower-limb-joints", "knee-joint-basics"]
+          "reference_text_ids": [
+            "yoga-lower-limb-joints",
+            "knee-joint-basics"
+          ]
         },
         {
           "question_text": "「膝は蝶番関節であり、回旋力をかけてはならない」というヨガの安全原則がある。この原則が特に重要なポーズとして最も適切なのはどれか？",
@@ -3360,7 +3966,9 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["yoga-lower-limb-joints"]
+          "reference_text_ids": [
+            "yoga-lower-limb-joints"
+          ]
         },
         {
           "question_text": "以下のヨガポーズと、そのポーズで最も注意すべき関節の保護ポイントを正しく組み合わせなさい。",
@@ -3371,14 +3979,28 @@
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4-9.5",
           "metadata": {
             "matching_pairs": [
-              { "left": "戦士のポーズII", "right": "膝を足先の方向に向け外反を防ぐ" },
-              { "left": "立木のポーズ", "right": "支持脚の膝の過伸展を防ぐ" },
-              { "left": "蓮華座", "right": "股関節の回旋を膝で代償しない" },
-              { "left": "深いスクワット", "right": "背屈不足は踵下のブロックで補う" }
+              {
+                "left": "戦士のポーズII",
+                "right": "膝を足先の方向に向け外反を防ぐ"
+              },
+              {
+                "left": "立木のポーズ",
+                "right": "支持脚の膝の過伸展を防ぐ"
+              },
+              {
+                "left": "蓮華座",
+                "right": "股関節の回旋を膝で代償しない"
+              },
+              {
+                "left": "深いスクワット",
+                "right": "背屈不足は踵下のブロックで補う"
+              }
             ]
           },
           "choices": [],
-          "reference_text_ids": ["yoga-lower-limb-joints"]
+          "reference_text_ids": [
+            "yoga-lower-limb-joints"
+          ]
         },
         {
           "question_text": "ダウンドッグで踵が床につかない生徒がいる。この「踵が浮く」現象の解剖学的原因として最も適切なのはどれか？",
@@ -3405,7 +4027,10 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["yoga-lower-limb-joints", "ankle-foot-basics"]
+          "reference_text_ids": [
+            "yoga-lower-limb-joints",
+            "ankle-foot-basics"
+          ]
         },
         {
           "question_text": "蓮華座を組む際に「膝ではなく股関節から回す」と指導する。しかし、ある生徒は股関節外旋が十分にできないにもかかわらず蓮華座を完成させた。この生徒の膝で起きている可能性が最も高い現象はどれか？",
@@ -3432,7 +4057,10 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["yoga-lower-limb-joints", "knee-joint-basics"]
+          "reference_text_ids": [
+            "yoga-lower-limb-joints",
+            "knee-joint-basics"
+          ]
         },
         {
           "question_text": "「股関節の可動域は骨格構造に依存する個人差がある」ことを理解しているヨガ指導者が、蓮華座ができない生徒に対して取るべき最も適切な対応はどれか？",
@@ -3459,7 +4087,10 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["yoga-lower-limb-joints", "yoga-joints-foundation"]
+          "reference_text_ids": [
+            "yoga-lower-limb-joints",
+            "yoga-joints-foundation"
+          ]
         }
       ]
     },
@@ -3504,27 +4135,48 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["joints-daily-life-basics"]
+          "reference_text_ids": [
+            "joints-daily-life-basics"
+          ]
         },
         {
           "question_text": "ペットボトルのキャップを開ける動作では、一方の手でボトルを（　①　）し、もう一方の手で前腕の（　②　）を使ってキャップを回す。キャップを回す動きは（　③　）橈尺関節の車軸関節で行われる。",
-          "interaction_type": "word_bank",
+          "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "easy",
           "explanation": "ペットボトルを開けるとき、一方の手はMP関節とIP関節でボトルを把持（握る）し、もう一方の手は前腕の回旋（近位橈尺関節の車軸関節）を使ってキャップを回します。この何気ない動作にも蝶番関節（把持）、車軸関節（回旋）、楕円関節（手首の位置調整）など複数のタイプが協調しています。",
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4",
           "choices": [
-            { "text": "把持", "is_correct": true },
-            { "text": "回旋", "is_correct": true },
-            { "text": "近位", "is_correct": true },
-            { "text": "屈曲", "is_correct": false },
-            { "text": "遠位", "is_correct": false },
-            { "text": "伸展", "is_correct": false }
+            {
+              "text": "把持",
+              "is_correct": true
+            },
+            {
+              "text": "回旋",
+              "is_correct": true
+            },
+            {
+              "text": "近位",
+              "is_correct": true
+            },
+            {
+              "text": "屈曲",
+              "is_correct": false
+            },
+            {
+              "text": "遠位",
+              "is_correct": false
+            },
+            {
+              "text": "伸展",
+              "is_correct": false
+            }
           ],
-          "metadata": {
-            "word_bank": ["回旋", "遠位", "把持", "近位", "屈曲", "伸展"]
-          },
-          "reference_text_ids": ["joints-daily-life-basics", "elbow-forearm-basics"]
+          "metadata": {},
+          "reference_text_ids": [
+            "joints-daily-life-basics",
+            "elbow-forearm-basics"
+          ]
         },
         {
           "question_text": "歩行中の「蹴り出し」動作で最も重要な関節の動きはどれか？",
@@ -3551,7 +4203,10 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["joints-daily-life-basics", "ankle-foot-basics"]
+          "reference_text_ids": [
+            "joints-daily-life-basics",
+            "ankle-foot-basics"
+          ]
         },
         {
           "question_text": "加齢に伴う関節の変化として、誤っているものはどれか？",
@@ -3578,7 +4233,10 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["joints-daily-life-basics", "synovial-joint-structure-basics"]
+          "reference_text_ids": [
+            "joints-daily-life-basics",
+            "synovial-joint-structure-basics"
+          ]
         },
         {
           "question_text": "以下の日常動作と、その動作で主役となる関節タイプを正しく組み合わせなさい。",
@@ -3589,14 +4247,28 @@
           "source": "OpenStax Anatomy and Physiology 2e, Chapter 9.4-9.5",
           "metadata": {
             "matching_pairs": [
-              { "left": "首を横に振る", "right": "環軸関節（車軸関節）" },
-              { "left": "ドアノブを回す", "right": "近位橈尺関節（車軸関節）" },
-              { "left": "箸でつまむ", "right": "母指CM関節（鞍関節）" },
-              { "left": "階段を上る", "right": "膝関節（修正蝶番関節）" }
+              {
+                "left": "首を横に振る",
+                "right": "環軸関節（車軸関節）"
+              },
+              {
+                "left": "ドアノブを回す",
+                "right": "近位橈尺関節（車軸関節）"
+              },
+              {
+                "left": "箸でつまむ",
+                "right": "母指CM関節（鞍関節）"
+              },
+              {
+                "left": "階段を上る",
+                "right": "膝関節（修正蝶番関節）"
+              }
             ]
           },
           "choices": [],
-          "reference_text_ids": ["joints-daily-life-basics"]
+          "reference_text_ids": [
+            "joints-daily-life-basics"
+          ]
         },
         {
           "question_text": "適度な運動が関節の健康維持に重要な理由として最も適切なのはどれか？",
@@ -3623,7 +4295,10 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["joints-daily-life-basics", "synovial-joint-structure-basics"]
+          "reference_text_ids": [
+            "joints-daily-life-basics",
+            "synovial-joint-structure-basics"
+          ]
         },
         {
           "question_text": "75歳の高齢者が「膝が痛くて動きたくない」と訴え、運動を避けるようになった。この「痛い→動かない→さらに悪化」の悪循環で起こる関節の変化として最も適切なのはどれか？",
@@ -3650,7 +4325,10 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["joints-daily-life-basics", "synovial-joint-structure-basics"]
+          "reference_text_ids": [
+            "joints-daily-life-basics",
+            "synovial-joint-structure-basics"
+          ]
         },
         {
           "question_text": "リウマチを持つ60歳の患者が「朝、手がこわばって30分以上動かしにくい」と訴えている。この「朝のこわばり」の関節学的メカニズムとして最も適切なのはどれか？",
@@ -3677,7 +4355,10 @@
               "is_correct": false
             }
           ],
-          "reference_text_ids": ["joints-daily-life-basics", "synovial-joint-structure-basics"]
+          "reference_text_ids": [
+            "joints-daily-life-basics",
+            "synovial-joint-structure-basics"
+          ]
         }
       ]
     }
