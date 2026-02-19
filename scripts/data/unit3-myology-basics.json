@@ -12,6 +12,16 @@
       "id": "three-muscle-types-basics",
       "title": "3つの筋組織の分類と特徴",
       "content": "人体には3種類の筋組織が存在する。①骨格筋（Skeletal Muscle）：横紋（striation）を持つ随意筋。体性運動神経の支配を受け、自分の意思で収縮・弛緩できる。筋線維（筋細胞）は多核で非常に細長く（直径10-100μm、長さ数cm〜数十cm）、発生過程で多数の筋芽細胞（myoblast）が融合して形成される。体重の約40-50%を占める。②心筋（Cardiac Muscle）：横紋を持つが不随意筋。自律神経と固有の刺激伝導系（洞房結節→房室結節→ヒス束→プルキンエ線維）により自動的に収縮する。心筋細胞は分岐し、細胞間は介在板（intercalated disc）で結合される。介在板にはデスモソーム（機械的結合）とギャップ結合（電気的結合）が含まれ、心臓全体が機能的合胞体として同期収縮する。心筋細胞はミトコンドリアが細胞体積の約30-40%を占め、一生涯休まず収縮し続けるための膨大なATP産生を担う。③平滑筋（Smooth Muscle）：横紋を持たない不随意筋。内臓壁（消化管・膀胱・子宮）、血管壁、気管支壁などに存在。紡錘形の単核細胞で、アクチンとミオシンが不規則に配列するため横紋が見えない。収縮は骨格筋より遅いが持続的で、ラッチ機構（latch mechanism）により少ないATP消費で長時間の張力維持が可能。死後硬直（rigor mortis）は、死後にATP産生が停止し、ミオシンがアクチンから解離できなくなることで全身の骨格筋が硬化する現象である（Gray's Anatomy 42nd ed., Part I: Cells, Tissues and Systems; Standring 2020）。"
+    },
+    {
+      "id": "muscle-contraction-basics",
+      "title": "筋収縮のしくみ — 滑り説とエネルギー",
+      "content": "筋収縮は滑り説（sliding filament theory）で説明される。①興奮-収縮連関：運動神経の活動電位が神経筋接合部でアセチルコリン（ACh）を放出→筋線維膜の脱分極→T-tubuleを通じて興奮が内部に伝播→筋小胞体（SR）からCa²⁺が放出。②架橋サイクル：Ca²⁺がトロポニンに結合→トロポミオシンが移動しアクチンのミオシン結合部位が露出→ミオシン頭部がアクチンに結合（架橋形成）→パワーストローク（ADP+Pi放出でミオシン頭部が首振り、アクチンを引き寄せ）→新たなATPがミオシンに結合し架橋解離→ATPが加水分解されミオシン頭部がリセット。このサイクルが繰り返されアクチンがミオシン間に滑り込むことでサルコメアが短縮する。③弛緩：神経刺激の停止→Ca²⁺ポンプ（SERCA）がCa²⁺をSRに回収→トロポミオシンが結合部位を再び覆う→架橋形成が停止し受動的に伸張。④エネルギー供給：筋収縮のATPは①クレアチンリン酸系（即時、数秒間）、②解糖系（短時間高強度、乳酸産生）、③酸化的リン酸化（持続的、ミトコンドリア）の3系統で供給される。運動の種類と強度により主要なエネルギー供給系が切り替わる（Guyton & Hall, Textbook of Medical Physiology; Standring 2020）。"
+    },
+    {
+      "id": "muscle-fiber-structure-basics",
+      "title": "筋線維の階層構造とサルコメア",
+      "content": "骨格筋は精密な階層構造を持つ。最も外側から①筋全体を包む筋外膜（epimysium）、②筋線維の束（筋束/fascicle）を包む筋周膜（perimysium）、③個々の筋線維を包む筋内膜（endomysium）の3層の結合組織膜がある。この階層構造により、筋の収縮力は腱を介して骨に効率的に伝達される。筋線維（筋細胞）の内部には多数の筋原線維（myofibril）が並行に走り、筋原線維はサルコメア（sarcomere）が直列に連結した構造を持つ。サルコメアは筋収縮の最小機能単位で、Z線（Z-disc）からZ線までの区間として定義される。サルコメア内にはアクチンフィラメント（細いフィラメント/thin filament）とミオシンフィラメント（太いフィラメント/thick filament）が規則的に配列する。ミオシンフィラメントが存在する領域がA帯（暗帯/anisotropic band）、アクチンのみの領域がI帯（明帯/isotropic band）で、この交互配列が横紋として観察される。A帯中央のミオシンのみの領域がH帯、H帯中央の連結構造がM線である。横行小管（T-tubule）は筋線維膜の陥入で、活動電位を細胞内部に伝える。筋小胞体（sarcoplasmic reticulum/SR）はCa²⁺を貯蔵し、興奮時にCa²⁺を放出して収縮を開始させる。この精密な構造が規則正しく配列しているからこそ、骨格筋は素早く強力な収縮力を発生できる（Gray's Anatomy 42nd ed.; Standring 2020）。"
     }
   ],
   "sections": [
@@ -150,6 +160,282 @@
           "explanation": "平滑筋のラッチ機構（latch mechanism）では、ミオシン軽鎖が脱リン酸化された後も架橋（cross-bridge）が解離せず維持される。これによりATPの消費を抑えながら長時間にわたり張力を保持できる。血管壁の緊張維持や消化管の持続的収縮に不可欠なメカニズムである。平滑筋にもアクチンとミオシンは存在するが、骨格筋と異なり規則的なサルコメア構造を形成しないため横紋が見えない（Guyton & Hall, Textbook of Medical Physiology; Webb 2003）。",
           "source": "Guyton & Hall, Textbook of Medical Physiology",
           "reference_text_ids": ["three-muscle-types-basics"]
+        }
+      ]
+    },
+    {
+      "name": "筋線維の構造",
+      "slug": "muscle-fiber-structure",
+      "description": "ミクロの精密機械。なぜ縞模様？規則的な配列が強い収縮を生む",
+      "sort_order": 1,
+      "concepts": [
+        {
+          "name": "骨格筋の階層構造",
+          "description": "筋→筋束→筋線維→筋原線維→サルコメアの階層と結合組織膜"
+        },
+        {
+          "name": "サルコメアの微細構造",
+          "description": "Z線・A帯・I帯・H帯・M線とフィラメントの配列"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "骨格筋の収縮における最小の機能単位はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "筋線維（muscle fiber）", "is_correct": false },
+            { "text": "サルコメア（sarcomere）", "is_correct": true },
+            { "text": "筋原線維（myofibril）", "is_correct": false },
+            { "text": "筋束（fascicle）", "is_correct": false }
+          ],
+          "explanation": "サルコメアはZ線からZ線までの区間で、アクチンとミオシンの相互作用による収縮が起こる最小機能単位である。筋原線維はサルコメアが直列に連結したもの、筋線維は多数の筋原線維を含む細胞、筋束は筋線維の集まりであり、いずれもサルコメアより上位の階層構造である（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["muscle-fiber-structure-basics"]
+        },
+        {
+          "question_text": "骨格筋を構成する結合組織のうち、個々の筋線維を包む膜はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "筋外膜（epimysium）", "is_correct": false },
+            { "text": "筋周膜（perimysium）", "is_correct": false },
+            { "text": "筋膜（fascia）", "is_correct": false },
+            { "text": "筋内膜（endomysium）", "is_correct": true }
+          ],
+          "explanation": "筋内膜（endomysium）は個々の筋線維を包む最も内側の結合組織膜である。筋周膜（perimysium）は筋線維の束（筋束）を包み、筋外膜（epimysium）は筋全体を包む。この3層構造は、筋の収縮力を効率的に腱に伝達し、同時に血管・神経の通路を提供する。なぜ3層なのかというと、個々の筋線維の独立した収縮を保ちつつ、力を統合して伝える必要があるためである（Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["muscle-fiber-structure-basics"]
+        },
+        {
+          "question_text": "骨格筋に横紋（striation）が見える理由として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "A帯（暗帯）とI帯（明帯）が規則的に交互配列しているため", "is_correct": true },
+            { "text": "筋内膜が一定間隔で筋線維を仕切っているため", "is_correct": false },
+            { "text": "ミトコンドリアが筋線維内に縞状に分布しているため", "is_correct": false },
+            { "text": "筋小胞体が周期的に膨らみと収縮を繰り返すため", "is_correct": false }
+          ],
+          "explanation": "横紋はサルコメア内のフィラメント配列に由来する。ミオシン（太い）フィラメントが存在するA帯は光を屈折させ暗く見え、アクチン（細い）フィラメントのみのI帯は明るく見える。この明暗が多数のサルコメアで同位置に揃って並ぶため、筋線維全体に縞模様として観察される。この規則的配列こそが、骨格筋の素早く強力な収縮を可能にしている設計上の理由である（OpenStax Anatomy and Physiology, 10.2）。",
+          "source": "OpenStax Anatomy and Physiology",
+          "reference_text_ids": ["muscle-fiber-structure-basics"]
+        },
+        {
+          "question_text": "筋小胞体（sarcoplasmic reticulum）の主な機能はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "ATPを合成する", "is_correct": false },
+            { "text": "活動電位を細胞内部に伝える", "is_correct": false },
+            { "text": "筋線維にタンパク質を供給する", "is_correct": false },
+            { "text": "Ca²⁺の貯蔵と放出により収縮を制御する", "is_correct": true }
+          ],
+          "explanation": "筋小胞体（SR）はCa²⁺を貯蔵する特殊な滑面小胞体で、興奮時にCa²⁺を細胞質に放出して収縮を開始させ、弛緩時にはCa²⁺ポンプで回収する。この仕組みにより、筋収縮のオン・オフが素早く切り替えられる。活動電位を内部に伝えるのは横行小管（T-tubule）、ATPを合成するのはミトコンドリアの機能である（Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["muscle-fiber-structure-basics"]
+        },
+        {
+          "question_text": "サルコメアにおいて、Z線に直接付着しているフィラメントはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "ミオシンフィラメント（太いフィラメント）", "is_correct": false },
+            { "text": "アクチンフィラメント（細いフィラメント）", "is_correct": true },
+            { "text": "トロポミオシン", "is_correct": false },
+            { "text": "エラスチンフィラメント", "is_correct": false }
+          ],
+          "explanation": "アクチンフィラメント（細いフィラメント）はZ線に固定され、サルコメア中央に向かって伸びる。ミオシンフィラメント（太いフィラメント）はM線で連結されA帯の中央に位置する。収縮時にはミオシン頭部がアクチンを引き寄せ、Z線間の距離（サルコメアの長さ）が短くなる。この構造的配置が、力を一方向に効率よく発生させる設計の鍵である（Gray's Anatomy 42nd ed.; Huxley & Hanson 1954）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["muscle-fiber-structure-basics"]
+        },
+        {
+          "question_text": "骨格筋の階層構造（筋→筋束→筋線維→筋原線維→サルコメア）が存在する機能的意義として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "各階層が独立してエネルギーを産生するため", "is_correct": false },
+            { "text": "微小な収縮力を段階的に統合・増幅して大きな力として腱に伝えるため", "is_correct": true },
+            { "text": "損傷時に特定の階層のみを交換・修復するため", "is_correct": false },
+            { "text": "各階層が異なる神経支配を受けて精密に制御するため", "is_correct": false }
+          ],
+          "explanation": "サルコメアレベルの微小な収縮が筋原線維→筋線維→筋束→筋全体へと段階的に統合・増幅され、腱を介して骨を動かす大きな力となる。結合組織膜（筋内膜→筋周膜→筋外膜→腱）が力の伝達経路として機能する。日常で物を持ち上げるとき、数十億のサルコメアの収縮が協調して一つの動作を生み出している（Lieber, Skeletal Muscle Structure, Function, and Plasticity; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["muscle-fiber-structure-basics"]
+        },
+        {
+          "question_text": "筋が収縮する際、サルコメアの各帯域で起こる変化として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "A帯が短くなり、I帯は変化しない", "is_correct": false },
+            { "text": "A帯もI帯も短くなる", "is_correct": false },
+            { "text": "I帯とH帯が狭くなり、A帯の長さは変化しない", "is_correct": true },
+            { "text": "すべての帯域が均等に短くなる", "is_correct": false }
+          ],
+          "explanation": "滑り説（sliding filament theory）によれば、収縮時にアクチンがミオシン間に滑り込む。その結果、アクチンのみのI帯とミオシンのみのH帯は狭くなるが、ミオシンフィラメント自体の長さは変わらないためA帯の長さは不変である。この「フィラメントの長さは変わらず位置関係が変わる」という原理は、Huxley & Hansonの滑り説（1954年）で初めて提唱された。ストレッチの際はこの逆で、I帯とH帯が広がる（Huxley & Niedergerke 1954; Huxley & Hanson 1954）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["muscle-fiber-structure-basics"]
+        },
+        {
+          "question_text": "筋力トレーニングによる筋肥大（hypertrophy）の主なメカニズムとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "筋線維の数が増加する（過形成）", "is_correct": false },
+            { "text": "筋線維内の筋原線維の数と太さが増加する", "is_correct": true },
+            { "text": "結合組織膜が厚くなり筋全体が膨張する", "is_correct": false },
+            { "text": "筋小胞体のCa²⁺貯蔵量が増加して筋が膨らむ", "is_correct": false }
+          ],
+          "explanation": "筋肥大は主に筋線維内の筋原線維の数と太さ（直径）が増加することで起こる。トレーニング刺激により筋線維内のタンパク質合成が促進され、アクチン・ミオシンフィラメントが増える。筋線維の数自体（過形成/hyperplasia）はヒトではほとんど増加しないとされる。ヨガやピラティスの「引き締まった筋肉」も同じ原理で、筋原線維の適度な肥大と筋持久力の向上が組み合わさった結果である（Schoenfeld 2010; ACSM Position Stand on Resistance Training）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["muscle-fiber-structure-basics"]
+        }
+      ]
+    },
+    {
+      "name": "筋収縮のしくみ",
+      "slug": "muscle-contraction",
+      "description": "アクチンとミオシンの握手。なぜATPが切れると硬くなる？",
+      "sort_order": 2,
+      "concepts": [
+        {
+          "name": "興奮-収縮連関と架橋サイクル",
+          "description": "神経信号からCa²⁺放出、ミオシン-アクチンの架橋形成と解離"
+        },
+        {
+          "name": "エネルギー供給システム",
+          "description": "クレアチンリン酸系・解糖系・酸化的リン酸化の3系統"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "筋収縮の開始に直接的な引き金となるイオンはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "ナトリウムイオン（Na⁺）", "is_correct": false },
+            { "text": "カリウムイオン（K⁺）", "is_correct": false },
+            { "text": "カルシウムイオン（Ca²⁺）", "is_correct": true },
+            { "text": "塩化物イオン（Cl⁻）", "is_correct": false }
+          ],
+          "explanation": "筋小胞体から放出されたCa²⁺がトロポニンに結合することで、トロポミオシンが移動しアクチンのミオシン結合部位が露出する。これが筋収縮の直接的な引き金である。Na⁺やK⁺は活動電位の伝導に関わるが、収縮の直接的なトリガーはCa²⁺である。Ca²⁺の濃度が下がれば弛緩するため、この仕組みは収縮のオン・オフスイッチとして機能している（Guyton & Hall, Textbook of Medical Physiology）。",
+          "source": "Guyton & Hall, Textbook of Medical Physiology",
+          "reference_text_ids": ["muscle-contraction-basics"]
+        },
+        {
+          "question_text": "神経筋接合部で運動神経終末から放出される神経伝達物質はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "ノルアドレナリン", "is_correct": false },
+            { "text": "アセチルコリン（ACh）", "is_correct": true },
+            { "text": "セロトニン", "is_correct": false },
+            { "text": "ドーパミン", "is_correct": false }
+          ],
+          "explanation": "運動神経終末からアセチルコリン（ACh）が放出され、筋線維膜の受容体に結合して脱分極を引き起こす。なぜAChなのかというと、速い信号伝達と迅速な分解（アセチルコリンエステラーゼによる）が可能で、筋の精密な制御に適しているためである。重症筋無力症はこのACh受容体に対する自己抗体により筋力低下を来す疾患である（Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["muscle-contraction-basics"]
+        },
+        {
+          "question_text": "架橋サイクルにおいて、ATPの結合がミオシン頭部に果たす役割はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "ミオシン頭部をアクチンに結合させる", "is_correct": false },
+            { "text": "パワーストロークを引き起こす", "is_correct": false },
+            { "text": "ミオシン頭部をアクチンから解離させる", "is_correct": true },
+            { "text": "トロポニンのCa²⁺結合を促進する", "is_correct": false }
+          ],
+          "explanation": "ATPがミオシン頭部に結合すると、ミオシンの立体構造が変化してアクチンとの親和性が低下し、架橋が解離する。その後ATPの加水分解（ATP→ADP+Pi）によりミオシン頭部がリセット（高エネルギー状態に戻る）される。この仕組みがATP枯渇時に架橋が解離できず死後硬直が起こる理由でもある（Guyton & Hall, Textbook of Medical Physiology）。",
+          "source": "Guyton & Hall, Textbook of Medical Physiology",
+          "reference_text_ids": ["muscle-contraction-basics"]
+        },
+        {
+          "question_text": "100m走のスタート直後（最初の数秒間）に主に利用されるエネルギー供給系はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "酸化的リン酸化", "is_correct": false },
+            { "text": "解糖系", "is_correct": false },
+            { "text": "クレアチンリン酸系", "is_correct": true },
+            { "text": "脂肪酸β酸化", "is_correct": false }
+          ],
+          "explanation": "クレアチンリン酸系は最も即時的なATP供給系で、クレアチンリン酸がADPにリン酸基を転移しATPを再合成する。酸素も複雑な化学反応も不要なため瞬時に利用でき、爆発的な運動の最初の数秒間を支える。ただし貯蔵量が少なく約10秒で枯渇する。その後は解糖系→酸化的リン酸化へと主要なエネルギー供給系が切り替わる。ヨガの太陽礼拝のような持続的な動きでは酸化的リン酸化が主体となる（McArdle et al., Exercise Physiology）。",
+          "source": "McArdle et al., Exercise Physiology",
+          "reference_text_ids": ["muscle-contraction-basics"]
+        },
+        {
+          "question_text": "筋弛緩のメカニズムとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "ATPが枯渇してミオシンがアクチンから離れる", "is_correct": false },
+            { "text": "Ca²⁺ポンプ（SERCA）がCa²⁺を筋小胞体に回収しトロポミオシンが結合部位を覆う", "is_correct": true },
+            { "text": "アセチルコリンが持続的に放出され筋線維が弛緩する", "is_correct": false },
+            { "text": "ミオシンフィラメントが分解されて架橋が消失する", "is_correct": false }
+          ],
+          "explanation": "弛緩は能動的なプロセスである。神経刺激が停止するとAChの放出が止まり、Ca²⁺ポンプ（SERCA）がATPを使ってCa²⁺を筋小胞体に回収する。Ca²⁺濃度の低下によりトロポニンからCa²⁺が離れ、トロポミオシンがアクチンの結合部位を覆い、架橋形成が停止する。弛緩にもATPが必要である点は重要で、ATP枯渇時には弛緩できず硬直が起こる（Guyton & Hall, Textbook of Medical Physiology）。",
+          "source": "Guyton & Hall, Textbook of Medical Physiology",
+          "reference_text_ids": ["muscle-contraction-basics"]
+        },
+        {
+          "question_text": "興奮-収縮連関において、横行小管（T-tubule）の役割はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "Ca²⁺を貯蔵する", "is_correct": false },
+            { "text": "ATPを産生する", "is_correct": false },
+            { "text": "活動電位を筋線維の深部まで伝える", "is_correct": true },
+            { "text": "アセチルコリンを分解する", "is_correct": false }
+          ],
+          "explanation": "T-tubuleは筋線維膜（筋鞘）の陥入構造で、細胞表面の活動電位を筋線維の深部にまで素早く伝える。なぜこの構造が必要かというと、筋線維は直径が大きく（10-100μm）、表面の脱分極だけでは内部の筋小胞体に信号が届かないためである。T-tubuleの存在により、筋線維全体がほぼ同時に収縮できる。Ca²⁺貯蔵は筋小胞体の機能である（Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["muscle-contraction-basics"]
+        },
+        {
+          "question_text": "マラソンのような長時間の持続運動で主に利用されるエネルギー供給系と、その燃料の組み合わせとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "クレアチンリン酸系 — クレアチンリン酸", "is_correct": false },
+            { "text": "解糖系 — グリコーゲン", "is_correct": false },
+            { "text": "酸化的リン酸化 — 脂肪酸とグルコース", "is_correct": true },
+            { "text": "解糖系 — 脂肪酸", "is_correct": false }
+          ],
+          "explanation": "長時間の有酸素運動では酸化的リン酸化（ミトコンドリアでの好気的代謝）が主要なATP供給源となる。燃料は脂肪酸（β酸化）とグルコース（クエン酸回路）の両方で、運動強度が低いほど脂肪の利用割合が高い。解糖系は嫌気的条件でグルコース/グリコーゲンを分解するが、乳酸が蓄積し長時間維持できない。ヨガの練習も有酸素的な活動であり、酸化的リン酸化が主体となる（McArdle et al., Exercise Physiology）。",
+          "source": "McArdle et al., Exercise Physiology",
+          "reference_text_ids": ["muscle-contraction-basics"]
+        },
+        {
+          "question_text": "重症筋無力症（myasthenia gravis）で筋力低下が起こるメカニズムとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "運動神経の髄鞘が破壊され信号伝達が遅延する", "is_correct": false },
+            { "text": "筋小胞体のCa²⁺貯蔵能が低下する", "is_correct": false },
+            { "text": "ミオシンフィラメントの構造が変性する", "is_correct": false },
+            { "text": "ACh受容体に対する自己抗体が受容体を減少させ神経筋伝達が障害される", "is_correct": true }
+          ],
+          "explanation": "重症筋無力症は自己免疫疾患で、神経筋接合部のアセチルコリン（ACh）受容体に対する自己抗体が産生され、受容体数が減少する。その結果、AChが放出されても十分な筋線維の脱分極が起こらず、筋力低下・易疲労性を来す。反復使用で悪化し休息で回復する特徴がある。この疾患を知ることで、神経筋接合部がなぜ筋収縮の重要なボトルネックになり得るかが理解できる（Harrison's Principles of Internal Medicine; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["muscle-contraction-basics"]
         }
       ]
     }
