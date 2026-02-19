@@ -680,6 +680,264 @@
       ]
     },
     {
+      "name": "遅筋と速筋 — スタミナとパワーの棲み分け",
+      "slug": "slow-fast-twitch",
+      "description": "なぜマラソン選手は細くてスプリンターはムキムキ？答えは筋線維タイプにある",
+      "sort_order": 2,
+      "concepts": [
+        {
+          "name": "筋線維タイプ（遅筋と速筋）",
+          "description": "Type I（遅筋）とType II（速筋）の違い、トレーニングによる変化、ヨガとの関係を理解する"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "長時間の姿勢維持やゆっくりした動作に適した筋線維タイプはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            {
+              "text": "Type II（速筋線維）",
+              "is_correct": false
+            },
+            {
+              "text": "Type I（遅筋線維）",
+              "is_correct": true
+            },
+            {
+              "text": "心筋線維",
+              "is_correct": false
+            },
+            {
+              "text": "平滑筋線維",
+              "is_correct": false
+            }
+          ],
+          "explanation": "Type I（遅筋線維/slow-twitch）は収縮はゆっくりだが、疲れにくく長時間働ける持久力型の筋線維。酸素を使って効率よくエネルギーを作り続けるため、血液（酸素を運ぶヘモグロビン）やミトコンドリアが豊富で赤みがかった色をしている（「赤筋」とも呼ばれる）。立ち姿勢の維持、ゆっくりした歩行、ヨガのポーズ保持は主にこのType Iが担っている（Standring 2020）。",
+          "source": "Standring 2020",
+          "reference_text_ids": [
+            "slow-fast-twitch"
+          ]
+        },
+        {
+          "question_text": "100m走やジャンプなど瞬発的な動作に適した筋線維タイプはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            {
+              "text": "Type I（遅筋線維）",
+              "is_correct": false
+            },
+            {
+              "text": "Type II（速筋線維）",
+              "is_correct": true
+            },
+            {
+              "text": "どちらも同じように使われる",
+              "is_correct": false
+            },
+            {
+              "text": "瞬発的動作には筋線維タイプは関係ない",
+              "is_correct": false
+            }
+          ],
+          "explanation": "Type II（速筋線維/fast-twitch）は収縮が速く、大きな力を一気に出せる瞬発型の筋線維。短時間で大量のATPを作れるが、すぐに疲労してしまう。ミトコンドリアは少なく白っぽい色（「白筋」とも呼ばれる）。100m走、ジャンプ、重いものを持ち上げるなど、短時間で爆発的な力が必要な場面で活躍する。短距離走の選手は速筋の割合が高い傾向がある（Standring 2020）。",
+          "source": "Standring 2020",
+          "reference_text_ids": [
+            "slow-fast-twitch"
+          ]
+        },
+        {
+          "question_text": "遅筋（Type I）が赤みがかった色をしている主な理由はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            {
+              "text": "アクチンが赤い色素を含むから",
+              "is_correct": false
+            },
+            {
+              "text": "酸素を運ぶ成分が豊富だから",
+              "is_correct": true
+            },
+            {
+              "text": "速筋より細胞が大きいから",
+              "is_correct": false
+            },
+            {
+              "text": "炎症が常に起きているから",
+              "is_correct": false
+            }
+          ],
+          "explanation": "遅筋が赤いのは、酸素を利用する有酸素代謝に特化しているから。酸素を筋肉内に蓄えるミオグロビン（myoglobin、赤い色素タンパク質）と、酸素を使ってエネルギーを作るミトコンドリアが豊富に含まれている。鶏肉で例えると、よく歩き回る「もも肉」は遅筋が多くて赤く、あまり羽ばたかない「ささみ」は速筋が多くて白い。人間の筋肉も同じ原理で色が異なる（McArdle et al., Exercise Physiology）。",
+          "source": "McArdle et al., Exercise Physiology",
+          "reference_text_ids": [
+            "slow-fast-twitch"
+          ]
+        },
+        {
+          "question_text": "ヨガのポーズを30秒以上保持するとき、主に使われる筋線維タイプはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            {
+              "text": "Type II（速筋）が主体",
+              "is_correct": false
+            },
+            {
+              "text": "Type I（遅筋）が主体",
+              "is_correct": true
+            },
+            {
+              "text": "保持時間と筋線維タイプは無関係",
+              "is_correct": false
+            },
+            {
+              "text": "心筋が補助的に使われる",
+              "is_correct": false
+            }
+          ],
+          "explanation": "ヨガのポーズ保持は典型的な持久的活動であり、疲れにくいType I（遅筋線維）が主に動員される。脳は「どれくらいの力が必要か」に応じて使う筋線維を選んでおり、低〜中程度の力で長く保つ場面ではまず遅筋が動員される（サイズの原則）。ウォーリアIIで脚を長時間保持できるのは、大腿四頭筋のType I線維が粘り強く働いてくれているおかげ。もし速筋だけだったら、数秒で力尽きてしまう（Standring 2020; Kaminoff & Matthews, Yoga Anatomy）。",
+          "source": "Standring 2020",
+          "reference_text_ids": [
+            "slow-fast-twitch"
+          ]
+        },
+        {
+          "question_text": "トレーニングによって筋線維タイプの比率はどの程度変化するか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            {
+              "text": "遺伝で完全に決まり、トレーニングでは全く変わらない",
+              "is_correct": false
+            },
+            {
+              "text": "遺伝的な基本比率があるが、トレーニングである程度変化する",
+              "is_correct": true
+            },
+            {
+              "text": "トレーニングで自由に比率を変えられる",
+              "is_correct": false
+            },
+            {
+              "text": "加齢でのみ変化し、運動の影響はない",
+              "is_correct": false
+            }
+          ],
+          "explanation": "筋線維タイプの基本的な比率は遺伝で大きく決まるが、トレーニングにより「ある程度」変化する。持久系のトレーニング（マラソン、ヨガの長時間保持）を続けると、速筋の一部が遅筋に近い性質に変化し、ミトコンドリアが増えて持久力が上がる。逆にパワートレーニングでは速筋が太くなる。ただし変化には限界があり、遅筋主体の人が短距離王者になることも、速筋主体の人がマラソン王者になることも難しい（McArdle et al., Exercise Physiology）。",
+          "source": "McArdle et al., Exercise Physiology",
+          "reference_text_ids": [
+            "slow-fast-twitch"
+          ]
+        },
+        {
+          "question_text": "立ち姿勢を長時間維持するヒラメ筋（ふくらはぎの深層の筋）は、どちらの筋線維タイプが多いと考えられるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            {
+              "text": "Type II（速筋）が多い — 大きな力が必要だから",
+              "is_correct": false
+            },
+            {
+              "text": "Type I（遅筋）が多い — 長時間の姿勢維持が必要だから",
+              "is_correct": true
+            },
+            {
+              "text": "両タイプが全く同じ比率",
+              "is_correct": false
+            },
+            {
+              "text": "筋線維タイプは筋ごとに異ならない",
+              "is_correct": false
+            }
+          ],
+          "explanation": "ヒラメ筋は「抗重力筋」の代表で、立っている間ずっと体重を支え続ける。このような持続的な活動に対応するため、Type I（遅筋）が約80%と非常に高い比率を持つ。一方、同じふくらはぎでもヒラメ筋の表層にある腓腹筋は、跳躍やダッシュなど瞬発的な底屈（つま先立ち）にも使われるため、速筋の割合が比較的高い。体は用途に合わせて各筋肉の線維タイプ比率を最適化している（Standring 2020）。",
+          "source": "Standring 2020",
+          "reference_text_ids": [
+            "slow-fast-twitch"
+          ]
+        },
+        {
+          "question_text": "次の運動と、主に使われる筋線維タイプを正しく組み合わせなさい。",
+          "interaction_type": "matching_pairs",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "metadata": {
+            "pairs": [
+              {
+                "left": "マラソン",
+                "right": "Type I（遅筋）主体"
+              },
+              {
+                "left": "100m走",
+                "right": "Type II（速筋）主体"
+              },
+              {
+                "left": "ヨガの長時間保持",
+                "right": "Type I（遅筋）主体"
+              },
+              {
+                "left": "ウェイトリフティング",
+                "right": "Type II（速筋）主体"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "text": "マラソン/ヨガ保持 — 遅筋主体、100m走/ウェイトリフティング — 速筋主体",
+              "is_correct": true
+            },
+            {
+              "text": "その他の組み合わせ",
+              "is_correct": false
+            }
+          ],
+          "explanation": "マラソンとヨガのポーズ保持は長時間の持久的活動で、疲れにくいType I（遅筋）が主体。100m走とウェイトリフティングは短時間に大きな力を出す瞬発的活動で、素早く強力なType II（速筋）が主体。ヴィンヤサフローのように動的な要素とホールドが混在するヨガでは、実は両方のタイプをバランスよく使っている（Standring 2020）。",
+          "source": "Standring 2020",
+          "reference_text_ids": [
+            "slow-fast-twitch"
+          ]
+        },
+        {
+          "question_text": "加齢に伴う筋肉の変化として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            {
+              "text": "遅筋だけが減少し速筋は維持される",
+              "is_correct": false
+            },
+            {
+              "text": "速筋が優先的に萎縮し、瞬発力やバランス反応が低下する",
+              "is_correct": true
+            },
+            {
+              "text": "両タイプが均等に減少し機能的影響は少ない",
+              "is_correct": false
+            },
+            {
+              "text": "加齢による筋線維の変化は運動では防げない",
+              "is_correct": false
+            }
+          ],
+          "explanation": "加齢（サルコペニア = 加齢性筋萎縮）では速筋（Type II）が優先的に萎縮する。これにより瞬発力が低下し、つまずいたときの素早い立ち直り反応が鈍くなるため、高齢者の転倒リスクが高まる。ヨガは遅筋の維持に加え、動的なポーズ移行で速筋も適度に刺激できるため、高齢者の筋力維持と転倒予防に有効とされる。「運動では防げない」は誤りで、適切な運動は加齢による筋萎縮を大幅に遅らせることが証明されている（McArdle et al., Exercise Physiology; Standring 2020）。",
+          "source": "McArdle et al., Exercise Physiology",
+          "reference_text_ids": [
+            "slow-fast-twitch"
+          ]
+        }
+      ]
+    },
+    {
       "name": "咀嚼筋",
       "slug": "mastication-muscles",
       "description": "噛む力は自分の体重に匹敵。顎関節症はなぜ起こる？",
