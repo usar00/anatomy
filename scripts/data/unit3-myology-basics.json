@@ -4018,6 +4018,144 @@
           "reference_text_ids": ["yoga-muscle-care"]
         }
       ]
+    },
+    {
+      "name": "姿勢と動作の解剖学",
+      "slug": "posture-movement",
+      "description": "筋学の集大成 — 交差症候群を理解してヨガで姿勢を変える",
+      "sort_order": 28,
+      "concepts": [
+        {
+          "name": "理想的な姿勢と抗重力筋",
+          "description": "アライメントの評価と姿勢保持の筋活動"
+        },
+        {
+          "name": "交差症候群とヨガによる改善",
+          "description": "上位・下位交差症候群の原因とヨガのアプローチ"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "理想的な立位姿勢を側面から評価する際、重心線が通過すべきランドマークの配列として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "外耳孔→肩峰→大転子→膝関節前方→外果前方", "is_correct": true },
+            { "text": "後頭部→肩甲骨→仙骨→膝窩→踵", "is_correct": false },
+            { "text": "額→胸骨→恥骨→膝蓋骨→足趾", "is_correct": false },
+            { "text": "頭頂→頸椎→胸椎→腰椎→仙椎", "is_correct": false }
+          ],
+          "explanation": "理想的な立位姿勢では、側面から見て外耳孔→肩峰→大転子→膝関節のやや前方→外果の約2cm前方を重心線が通過する。この配列では各関節に対する重力のモーメントが最小となり、筋活動が最小限で姿勢を保持できる。なぜこのアライメントが重要かというと、重心線から離れた部位ほど大きなモーメントが生じ、筋が過度に働く必要があるためである（Neumann, Kinesiology; Kendall et al., Muscles: Testing and Function）。",
+          "source": "Kendall et al., Muscles: Testing and Function",
+          "reference_text_ids": ["posture-movement-basics"]
+        },
+        {
+          "question_text": "立位姿勢の保持に重要な「抗重力筋」の特徴として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "速筋線維（Type II）優位で瞬発的に強い力を発揮する", "is_correct": false },
+            { "text": "遅筋線維（Type I）優位で持続的な等尺性収縮に適し、身体後面に多い", "is_correct": true },
+            { "text": "前面の筋群のみで構成される", "is_correct": false },
+            { "text": "意識的に収縮させなければ機能しない", "is_correct": false }
+          ],
+          "explanation": "抗重力筋は重力に抗して姿勢を保持する筋群で、遅筋線維（Type I、酸化的、疲労しにくい）が優位。主に身体後面（脊柱起立筋・大殿筋・ハムストリングス・ヒラメ筋）と一部前面（腹筋群・前脛骨筋）に位置する。無意識の姿勢反射により自動的に活動する。なぜ後面に多いかというと、人体の重心はやや前方にあるため、後面の筋が前方への崩壊を防ぐ必要があるためである（Neumann, Kinesiology; Standring 2020）。",
+          "source": "Neumann, Kinesiology of the Musculoskeletal System",
+          "reference_text_ids": ["posture-movement-basics"]
+        },
+        {
+          "question_text": "上位交差症候群（Upper Crossed Syndrome）で短縮する筋群と弱化する筋群の組み合わせとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "短縮：頸部屈筋・下部僧帽筋 / 弱化：上部僧帽筋・大胸筋", "is_correct": false },
+            { "text": "短縮：上部僧帽筋・肩甲挙筋・大胸筋 / 弱化：深部頸屈筋・下部僧帽筋・前鋸筋", "is_correct": true },
+            { "text": "短縮：腹直筋・大殿筋 / 弱化：脊柱起立筋・腸腰筋", "is_correct": false },
+            { "text": "短縮：ハムストリングス・腹斜筋 / 弱化：大腿四頭筋・腸腰筋", "is_correct": false }
+          ],
+          "explanation": "Jandaの上位交差症候群では、上部僧帽筋・肩甲挙筋（後頸部）と大胸筋・小胸筋（前胸部）が短縮し、深部頸屈筋（前頸部）と下部僧帽筋・前鋸筋（背部）が弱化する。結果として頭部前方位（forward head posture）・円背・肩の内旋が生じる。デスクワーク従事者に典型的。なぜ「交差」と呼ぶかというと、短縮した筋群と弱化した筋群がX字型に交差する位置関係にあるためである（Janda, Muscles in Low Back Pain; Page et al.）。",
+          "source": "Janda, Muscles in Low Back Pain",
+          "reference_text_ids": ["posture-movement-basics"]
+        },
+        {
+          "question_text": "下位交差症候群（Lower Crossed Syndrome）の姿勢的特徴として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "骨盤後傾と腰椎後弯（平背）", "is_correct": false },
+            { "text": "骨盤前傾・腰椎前弯増大（反り腰）・殿筋の弱化", "is_correct": true },
+            { "text": "頭部前方位と円背", "is_correct": false },
+            { "text": "膝関節の過伸展と足関節の背屈制限", "is_correct": false }
+          ],
+          "explanation": "下位交差症候群では腸腰筋・脊柱起立筋（腰部）が短縮し、腹筋群・大殿筋が弱化する。結果として骨盤前傾→腰椎前弯増大（反り腰）→大殿筋の不活性化が生じる。長時間の座位で腸腰筋が短縮位に保たれることが主因。なぜ腸腰筋の短縮が骨盤前傾を引き起こすかというと、腸腰筋は腰椎・骨盤から大腿骨に走るため、短縮すると骨盤を前方に引く力が生じるためである（Janda; Neumann, Kinesiology）。",
+          "source": "Janda, Muscles in Low Back Pain",
+          "reference_text_ids": ["posture-movement-basics", "erector-spinae-basics"]
+        },
+        {
+          "question_text": "ヨガが上位交差症候群の改善に効果的とされる解剖学的根拠はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "ヨガは柔軟性のみを向上させるため", "is_correct": false },
+            { "text": "短縮した筋（大胸筋・上部僧帽筋）をストレッチし、弱化した筋（深部頸屈筋・下部僧帽筋）をポーズの保持で強化する、交差症候群の両面にアプローチできるため", "is_correct": true },
+            { "text": "ヨガは瞑想効果のみで姿勢には影響しない", "is_correct": false },
+            { "text": "ヨガのポーズは上半身に作用しないため効果はない", "is_correct": false }
+          ],
+          "explanation": "ヨガは短縮した筋のストレッチ（例：ガルダーサナで大胸筋伸張、魚のポーズで頸部前面伸張）と弱化した筋の強化（例：コブラポーズで下部僧帽筋・菱形筋の求心性収縮、逆のテーブルトップで肩甲骨内転筋強化）を同一のプラクティスで行える。これが「ヨガが姿勢を改善する」とされるエビデンスの解剖学的根拠。なぜ両面が重要かというと、短縮した筋をストレッチするだけでは弱化した筋が活性化されず、姿勢パターンが変わらないためである（Kaminoff & Matthews; Janda）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["posture-movement-basics"]
+        },
+        {
+          "question_text": "歩行サイクルにおいて中殿筋が最も強く活動するタイミングはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "遊脚期初期（脚を前に振り出す時）", "is_correct": false },
+            { "text": "立脚期中期（片脚で体重を支持する時）", "is_correct": true },
+            { "text": "蹴り出し（push-off）の瞬間", "is_correct": false },
+            { "text": "踵接地（heel strike）の瞬間", "is_correct": false }
+          ],
+          "explanation": "歩行の立脚期中期では片脚で全体重を支持する。この時、支持脚側の中殿筋が骨盤の遊脚側への下降を防ぎ、骨盤を水平に保持する。中殿筋の活動は立脚期初期に始まり中期でピークに達する。なぜこのタイミングが最も重要かというと、片脚支持の瞬間に体重の全荷重が支持脚にかかり、骨盤を側方に崩壊させようとする重力モーメントが最大になるためである（Neumann, Kinesiology; Perry & Burnfield, Gait Analysis）。",
+          "source": "Perry & Burnfield, Gait Analysis",
+          "reference_text_ids": ["posture-movement-basics", "gluteal-muscles-basics"]
+        },
+        {
+          "question_text": "ヨガのタダーサナ（山のポーズ）が姿勢評価と改善の両面で使われる理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "最も難しいポーズであり上級者のみが行えるため", "is_correct": false },
+            { "text": "静的な立位姿勢で姿勢のアライメント評価が可能であり、同時に抗重力筋の等尺性トレーニングと身体意識（ボディアウェアネス）の向上が行えるため", "is_correct": true },
+            { "text": "心拍数を最大に上げる有酸素効果があるため", "is_correct": false },
+            { "text": "特定の筋を集中的に鍛えるため", "is_correct": false }
+          ],
+          "explanation": "タダーサナは「ただ立つ」ポーズだが、理想的なアライメント（外耳孔→肩峰→大転子→外果）を意識しながら立つことで姿勢の自己評価が可能。同時に抗重力筋の微細な等尺性収縮で姿勢保持筋を活性化し、ボディアウェアネス（身体感覚の認識）を向上させる。なぜタダーサナが「すべてのポーズの基礎」と言われるかというと、ここで身につけたアライメントの意識が他のすべてのポーズに応用され、日常の姿勢にも転移するためである（Kaminoff & Matthews; Iyengar, Light on Yoga）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["posture-movement-basics"]
+        },
+        {
+          "question_text": "Unit3の筋学の知識を統合して、ヨガ指導者が解剖学的に「安全で効果的な指導」を行うための最も重要な原則はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "すべての生徒に同一のアライメントを強制する", "is_correct": false },
+            { "text": "解剖学的個体差を理解し、各生徒の骨格・筋バランスに応じたバリエーションを提供しながら、筋の協調と安全な負荷を意識する", "is_correct": true },
+            { "text": "痛みを感じるまで無理にポーズを深める", "is_correct": false },
+            { "text": "解剖学の知識は不要で直感的に指導する", "is_correct": false }
+          ],
+          "explanation": "筋学の知識を持つヨガ指導者は、①解剖学的個体差（筋の付着角度、柔軟性、左右差）を理解し、画一的なアライメントを強制しない。②主動筋・拮抗筋・安定筋の協調を意識したキューイングを行う。③遠心性収縮の負荷に注意し、段階的な進行を提供する。④交差症候群など一般的な姿勢パターンを評価し、個別のアプローチを提供する。なぜ個体差の理解が最も重要かというと、骨格構造の違いにより「理想的なポーズ」は人それぞれ異なり、画一的な指導は効果がないばかりか怪我のリスクを高めるためである（Kaminoff & Matthews; Long; Janda）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["posture-movement-basics", "yoga-muscle-chains"]
+        }
+      ]
     }
   ]
 }
