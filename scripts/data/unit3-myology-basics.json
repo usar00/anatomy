@@ -14,6 +14,26 @@
       "content": "人体には3種類の筋組織が存在する。①骨格筋（Skeletal Muscle）：横紋（striation）を持つ随意筋。体性運動神経の支配を受け、自分の意思で収縮・弛緩できる。筋線維（筋細胞）は多核で非常に細長く（直径10-100μm、長さ数cm〜数十cm）、発生過程で多数の筋芽細胞（myoblast）が融合して形成される。体重の約40-50%を占める。②心筋（Cardiac Muscle）：横紋を持つが不随意筋。自律神経と固有の刺激伝導系（洞房結節→房室結節→ヒス束→プルキンエ線維）により自動的に収縮する。心筋細胞は分岐し、細胞間は介在板（intercalated disc）で結合される。介在板にはデスモソーム（機械的結合）とギャップ結合（電気的結合）が含まれ、心臓全体が機能的合胞体として同期収縮する。心筋細胞はミトコンドリアが細胞体積の約30-40%を占め、一生涯休まず収縮し続けるための膨大なATP産生を担う。③平滑筋（Smooth Muscle）：横紋を持たない不随意筋。内臓壁（消化管・膀胱・子宮）、血管壁、気管支壁などに存在。紡錘形の単核細胞で、アクチンとミオシンが不規則に配列するため横紋が見えない。収縮は骨格筋より遅いが持続的で、ラッチ機構（latch mechanism）により少ないATP消費で長時間の張力維持が可能。死後硬直（rigor mortis）は、死後にATP産生が停止し、ミオシンがアクチンから解離できなくなることで全身の骨格筋が硬化する現象である（Gray's Anatomy 42nd ed., Part I: Cells, Tissues and Systems; Standring 2020）。"
     },
     {
+      "id": "yoga-coordination-contraction",
+      "title": "筋の協調・収縮タイプとヨガの実践",
+      "content": "ヨガのポーズは筋の協調と収縮タイプの理解により精度が高まる。①主動筋-拮抗筋のバランス：ヨガでは相反抑制を意図的に利用する。例えばパスチモッターナーサナ（前屈）で大腿四頭筋を軽く収縮させると、相反抑制によりハムストリングス（拮抗筋）が弛緩しやすくなり、より深い前屈が安全に行える。②ヨガと収縮タイプの使い分け：チャトランガで身体を下ろす際は上腕三頭筋の遠心性収縮（ブレーキ）、ウルドゥバ・ムカ・シュヴァーナーサナ（上向きの犬）で腕を伸ばす際は上腕三頭筋の求心性収縮、プランク保持中は体幹筋の等尺性収縮。一つのフロー中で3種類の収縮が流れるように切り替わる。③ヨガにおける共収縮の活用：バランスポーズ（木のポーズ/Vrksasana）では足関節周囲の筋が共収縮して関節を安定させる。これは通常の相反抑制を一時的に上書きし、安定性を優先する神経制御である。④指導への応用：「膝を伸ばして」は大腿四頭筋の求心性収縮、「ゆっくり下ろして」は遠心性収縮、「そのまま保持して」は等尺性収縮を指示している。収縮タイプを理解した指導者は、より正確なキューイングで生徒の安全と効果を高められる（Kaminoff & Matthews, Yoga Anatomy; Polsgrove et al. 2016）。"
+    },
+    {
+      "id": "mastication-muscles-basics",
+      "title": "咀嚼筋の構造と機能",
+      "content": "咀嚼筋は下顎骨を動かして咀嚼（噛む動作）を行う4対の筋群である。①咬筋（Masseter）：頬骨弓から下顎角に走る強力な筋。下顎を挙上（閉口）する主動筋で、咬合力は最大約70kgに達し自分の体重に匹敵する。表層と深層の2層構造。②側頭筋（Temporalis）：側頭窩から下顎骨筋突起に走る扇形の筋。下顎の挙上と後退（引き戻し）を行う。こめかみに手を当てて噛むと収縮を触知できる。③内側翼突筋（Medial Pterygoid）：翼状突起から下顎角内面に走る。咬筋と対になって下顎を挙上する。④外側翼突筋（Lateral Pterygoid）：翼状突起から下顎骨関節突起・関節円板に走る。唯一の開口補助筋（下顎を前方に引く/前突）。顎関節症（TMD: Temporomandibular Disorder）は咀嚼筋の過緊張、関節円板の転位、ストレスによる歯ぎしり（ブラキシズム）などが原因で発症する。症状は顎の痛み・開口障害・クリック音。日本人の約20%が何らかのTMD症状を持つとされる。なぜ顎関節症が多いかというと、ストレスで無意識に咀嚼筋を緊張させる（clenching）習慣が現代人に多いためである（Gray's Anatomy 42nd ed.; Standring 2020; Okeson, Management of TMD）。"
+    },
+    {
+      "id": "facial-muscles-basics",
+      "title": "表情筋の構造と機能",
+      "content": "表情筋は骨から皮膚に付着する（皮筋）という他の骨格筋にない特殊な構造を持つ。骨-骨に付着する通常の骨格筋と異なり、皮膚を直接動かすことで表情を作る。すべて顔面神経（第VII脳神経）の支配を受ける。主な表情筋：①眼輪筋（Orbicularis Oculi）：眼窩周囲のリング状の筋。瞬き（不随意的閉眼）と強い閉眼を行う。角膜の保護と涙液の分配に不可欠。②口輪筋（Orbicularis Oris）：口の周りのリング状の筋。口を閉じる・すぼめる（口笛、キス）。③大頬骨筋（Zygomaticus Major）：頬骨から口角に走る。口角を上外方に引いて笑顔を作る「笑いの筋」。④前頭筋（Frontalis）：前頭部の薄い筋。眉を上げて額にしわを作る「驚きの筋」。⑤皺眉筋（Corrugator Supercilii）：眉を内下方に引いて眉間にしわを作る「怒りの筋」。顔面神経麻痺（Bell's palsy）は顔面神経の障害により片側の表情筋が麻痺する疾患。閉眼不能（兎眼）、口角下垂、食物がこぼれるなどの症状が出る。なぜ表情筋が皮膚に付着するかというと、社会的コミュニケーションにおいて微妙な感情表現を可能にするため、骨を動かすのではなく皮膚を直接動かす設計が進化的に有利だったためである（Gray's Anatomy 42nd ed.; Standring 2020）。"
+    },
+    {
+      "id": "scm-neck-muscles-basics",
+      "title": "胸鎖乳突筋と頸部の筋",
+      "content": "胸鎖乳突筋（SCM: Sternocleidomastoid）は頸部で最も目立つ筋で、胸骨と鎖骨から乳様突起に走る。①片側収縮：頭を同側に側屈し反対側に回旋させる。②両側収縮：頭を前屈する（顎を胸に近づける）。③仰臥位での両側収縮：頭を持ち上げる。副神経（第XI脳神経）と頸神経叢（C2-C3）の二重支配を受ける。スマホ首（ストレートネック/text neck）では頭が前方に突出し、SCMと後頸部の筋に持続的な負荷がかかる。頭部は約5kgの重さがあり、前方に15度傾くだけで頸椎への負荷は約12kgに増大する（Hansraj 2014）。斜角筋群（前・中・後斜角筋）は頸椎横突起から第1-2肋骨に走り、頸部の側屈と吸気時の肋骨挙上（補助呼吸筋）に関与する。前斜角筋と中斜角筋の間を腕神経叢と鎖骨下動脈が通過するため、斜角筋の過緊張は胸郭出口症候群（TOS）の原因となりうる。筋性斜頸（torticollis）はSCMの短縮・線維化により頭が一方に傾く状態で、先天性と後天性がある（Gray's Anatomy 42nd ed.; Standring 2020; Hansraj 2014）。"
+    },
+    {
       "id": "muscle-coordination-basics",
       "title": "筋の協調 — 主動筋・拮抗筋・協力筋・固定筋",
       "content": "骨格筋は単独では動作を生み出せず、複数の筋が役割分担して協調的に働く。①主動筋（agonist/prime mover）：目的の動作を主に遂行する筋。例えば肘屈曲の主動筋は上腕二頭筋。②拮抗筋（antagonist）：主動筋と反対の作用を持つ筋。肘屈曲時の拮抗筋は上腕三頭筋。拮抗筋は通常、主動筋の動きに合わせて適度に弛緩し、動作の速度と方向を制御する（相反抑制/reciprocal inhibition）。③協力筋（synergist）：主動筋を補助して同じ方向の力を加える筋、または不要な動きを抑制する筋。肘屈曲時の腕橈骨筋が協力筋。④固定筋（fixator/stabilizer）：主動筋の起始部や近位の関節を安定させる筋。肘屈曲時に肩甲骨を安定させる菱形筋・僧帽筋下部が固定筋として機能。なぜ拮抗筋が必要かというと、筋は収縮（引く）ことしかできないため、関節を両方向に動かすには対になる筋が必要である。また拮抗筋は動作の終末での制動（ブレーキ）として働き、関節を保護する。コップを持ち上げる動作では、上腕二頭筋（主動筋）が肘を屈曲し、上腕三頭筋（拮抗筋）が速度を制御し、腕橈骨筋（協力筋）が補助し、僧帽筋・菱形筋（固定筋）が肩甲骨を安定させる。この4つの役割の協調が滑らかで正確な動作を生む（Gray's Anatomy 42nd ed.; Standring 2020）。"
@@ -865,6 +885,558 @@
           "explanation": "等尺性収縮では筋内圧が上昇し、血管が圧迫されて血流が制限される（血流閉塞）。最大随意収縮の約60%以上の力で血流がほぼ途絶する。酸素供給が不十分になると好気的代謝ができず、嫌気的解糖に依存して乳酸が蓄積し、pH低下により収縮能力が低下する。ヨガのホールド中に「震えて持てなくなる」のはこのメカニズムによる。動的な収縮では筋のポンプ作用で血流が維持されるため、疲労パターンが異なる（McArdle et al., Exercise Physiology）。",
           "source": "McArdle et al., Exercise Physiology",
           "reference_text_ids": ["contraction-types-basics", "muscle-contraction-basics"]
+        }
+      ]
+    },
+    {
+      "name": "筋の協調・収縮タイプとヨガ",
+      "slug": "yoga-coordination-contraction",
+      "description": "相反抑制でストレッチを深める。フロー中の収縮タイプの切り替わり",
+      "sort_order": 6,
+      "concepts": [
+        {
+          "name": "ヨガにおける主動筋-拮抗筋の活用",
+          "description": "相反抑制を利用したストレッチと共収縮によるバランス保持"
+        },
+        {
+          "name": "ポーズ指導と収縮タイプ",
+          "description": "キューイングと収縮タイプの対応関係"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "パスチモッターナーサナ（座位前屈）でハムストリングスのストレッチを深めるために有効なテクニックはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "ハムストリングスを強く収縮させてから急に弛緩させる", "is_correct": false },
+            { "text": "大腿四頭筋を軽く収縮させ、相反抑制によりハムストリングスの弛緩を促す", "is_correct": true },
+            { "text": "両脚を強く地面に押し付けて固定する", "is_correct": false },
+            { "text": "呼吸を止めて最大限に前屈する", "is_correct": false }
+          ],
+          "explanation": "大腿四頭筋（膝伸展の主動筋）を軽く収縮させると、脊髄レベルの相反抑制により拮抗筋であるハムストリングスの運動ニューロンが抑制され、ハムストリングスが弛緩しやすくなる。これにより安全かつ効果的にストレッチを深められる。このテクニックは筋の神経制御の原理を意図的に活用したものである（Kaminoff & Matthews, Yoga Anatomy）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-coordination-contraction", "muscle-coordination-basics"]
+        },
+        {
+          "question_text": "ヨガの指導で「ゆっくりコントロールして下ろしましょう」という指示は、どの収縮タイプを求めているか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "求心性収縮", "is_correct": false },
+            { "text": "遠心性収縮", "is_correct": true },
+            { "text": "等尺性収縮", "is_correct": false },
+            { "text": "弛緩", "is_correct": false }
+          ],
+          "explanation": "「ゆっくり下ろす」は重力に抗してブレーキをかける動作であり、筋が伸張しながら力を発揮する遠心性収縮を指している。指導者が収縮タイプを理解すると、キューイングがより正確になる。「膝を伸ばして」は求心性、「そのまま保持して」は等尺性に対応する（Kaminoff & Matthews, Yoga Anatomy）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-coordination-contraction", "contraction-types-basics"]
+        },
+        {
+          "question_text": "木のポーズ（Vrksasana）で片足立ちをしている際、支持脚の足関節周囲の筋に起きている現象はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "主動筋のみが収縮し拮抗筋は完全に弛緩している", "is_correct": false },
+            { "text": "すべての筋が弛緩して骨格のみでバランスを取っている", "is_correct": false },
+            { "text": "主動筋と拮抗筋が同時に収縮（共収縮）して関節を安定させている", "is_correct": true },
+            { "text": "筋が交互に収縮と弛緩を高速で繰り返している", "is_correct": false }
+          ],
+          "explanation": "バランスポーズでは通常の相反抑制が一時的に上書きされ、足関節周囲の背屈筋と底屈筋、内反筋と外反筋が同時に収縮する共収縮（co-contraction）が起こる。効率は下がるが関節の安定性が大幅に向上する。バランスポーズが「疲れる」のは、この共収縮により多くの筋が同時に活動するためである（Enoka, Neuromechanics of Human Movement）。",
+          "source": "Enoka, Neuromechanics of Human Movement",
+          "reference_text_ids": ["yoga-coordination-contraction", "muscle-coordination-basics"]
+        },
+        {
+          "question_text": "太陽礼拝のチャトランガ→アップドッグ→ダウンドッグの流れで、上腕三頭筋の収縮タイプの変化として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "求心性→等尺性→遠心性", "is_correct": false },
+            { "text": "等尺性→求心性→等尺性", "is_correct": false },
+            { "text": "遠心性→求心性→等尺性", "is_correct": true },
+            { "text": "遠心性→遠心性→求心性", "is_correct": false }
+          ],
+          "explanation": "①チャトランガ（身体を下ろす）：上腕三頭筋は肘が曲がるのをゆっくり制御する遠心性収縮。②アップドッグ（腕を伸ばして上体を反らす）：肘を伸展する求心性収縮。③ダウンドッグ（保持）：肘を伸展位で維持する等尺性収縮。1つのフロー中で3種類の収縮がシームレスに切り替わる好例である（Kaminoff & Matthews, Yoga Anatomy）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-coordination-contraction", "contraction-types-basics"]
+        },
+        {
+          "question_text": "ヨガの三角のポーズ（Trikonasana）で、体幹を側屈した状態を保持する際に主動筋と固定筋の組み合わせとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "大胸筋（主動筋）と腹直筋（固定筋）", "is_correct": false },
+            { "text": "上側の腹斜筋（主動筋）と下肢の殿筋群（固定筋）", "is_correct": true },
+            { "text": "上腕二頭筋（主動筋）と僧帽筋（固定筋）", "is_correct": false },
+            { "text": "広背筋（主動筋）と脊柱起立筋（固定筋）", "is_correct": false }
+          ],
+          "explanation": "三角のポーズで体幹の側屈を保持する際、上側の外腹斜筋・内腹斜筋が主動筋として体幹を支え、下肢の殿筋群や大腿の筋が固定筋として骨盤・下肢を安定させる。主動筋が効率よく働くためには固定筋による土台の安定が不可欠であり、これが「ポーズは脚から作る」という指導原則の解剖学的根拠である（Kaminoff & Matthews, Yoga Anatomy）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-coordination-contraction", "muscle-coordination-basics"]
+        },
+        {
+          "question_text": "ヨガの練習で「拮抗筋のバランスを意識する」ことが重要な理由はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "拮抗筋を鍛えないと主動筋が萎縮するため", "is_correct": false },
+            { "text": "拮抗筋が弱いと心筋に負担がかかるため", "is_correct": false },
+            { "text": "主動筋-拮抗筋の筋力バランスが崩れると関節のアライメント不良や慢性痛の原因になるため", "is_correct": true },
+            { "text": "拮抗筋は平滑筋であり意識的に訓練しないと動かないため", "is_correct": false }
+          ],
+          "explanation": "主動筋と拮抗筋の筋力・柔軟性バランスが崩れると、関節が一方に引かれてアライメント不良を来し、慢性的な痛みや障害の原因となる。例えば大胸筋（前面）が強く僧帽筋下部（後面）が弱いと肩が前に巻き込まれ（巻き肩）、肩こりや肩関節障害のリスクが高まる。ヨガでは前屈と後屈、屈曲と伸展をバランスよく練習することでこのアンバランスを予防・改善できる（Kaminoff & Matthews, Yoga Anatomy）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-coordination-contraction", "muscle-coordination-basics"]
+        },
+        {
+          "question_text": "ヨガ初心者が戦士のポーズIIを保持する際、経験者と比較して疲労しやすい理由を筋の協調の観点から説明したものとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "初心者は筋線維の数が少ないため", "is_correct": false },
+            { "text": "初心者は必要な筋のみならず不要な筋も過剰に収縮させ（共収縮が多く）、エネルギーを無駄に消費するため", "is_correct": true },
+            { "text": "初心者は遅筋線維の割合が低いため", "is_correct": false },
+            { "text": "初心者は心筋の出力が低く筋への血流が不足するため", "is_correct": false }
+          ],
+          "explanation": "運動学習の初期段階では、必要な筋だけでなく多くの筋が不必要に共収縮し、動きが硬く非効率になる。練習を重ねると脳が必要な筋と不要な筋を区別し、相反抑制が適切に機能して効率的な筋の協調パターンが形成される。ヨガの「練習すると楽になる」は筋力向上だけでなく、神経制御の効率化（筋間協調の改善）による効果が大きい（Bernstein, The Coordination and Regulation of Movements; Enoka）。",
+          "source": "Enoka, Neuromechanics of Human Movement",
+          "reference_text_ids": ["yoga-coordination-contraction", "muscle-coordination-basics"]
+        },
+        {
+          "question_text": "ヨガの後屈ポーズ（ウシュトラーサナ/ラクダのポーズ）で、腰椎を保護するために指導者が「お腹を引き込んで」と伝える際に活性化を促している筋の役割はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "主動筋として脊柱の伸展を行う", "is_correct": false },
+            { "text": "拮抗筋として脊柱起立筋の過剰な収縮を抑制する", "is_correct": false },
+            { "text": "協力筋・固定筋として腹腔内圧を高め腰椎を前方から支持する", "is_correct": true },
+            { "text": "不要な筋として弛緩させるべきである", "is_correct": false }
+          ],
+          "explanation": "後屈ポーズで「お腹を引き込む」ことで腹横筋・腹斜筋群が収縮し、腹腔内圧（IAP）が上昇して腰椎を前方から支持する固定筋として機能する。脊柱起立筋（主動筋）が脊柱を伸展する際、腹筋群の適度な共収縮により腰椎の過度な伸展（過前弯）を防ぎ、椎間板や椎間関節への負荷を分散する。これが後屈で腰を痛めない指導の解剖学的根拠である（Kaminoff & Matthews, Yoga Anatomy; McGill, Low Back Disorders）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["yoga-coordination-contraction", "muscle-coordination-basics"]
+        }
+      ]
+    },
+    {
+      "name": "咀嚼筋",
+      "slug": "mastication-muscles",
+      "description": "噛む力は自分の体重に匹敵。顎関節症はなぜ起こる？",
+      "sort_order": 7,
+      "concepts": [
+        {
+          "name": "咀嚼筋群の構造と機能",
+          "description": "咬筋・側頭筋・内側翼突筋・外側翼突筋の4対"
+        },
+        {
+          "name": "顎関節症のメカニズム",
+          "description": "ストレスと咀嚼筋の過緊張、ブラキシズム"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "下顎を挙上（閉口）する最も強力な咀嚼筋はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "側頭筋", "is_correct": false },
+            { "text": "外側翼突筋", "is_correct": false },
+            { "text": "咬筋（masseter）", "is_correct": true },
+            { "text": "内側翼突筋", "is_correct": false }
+          ],
+          "explanation": "咬筋は頬骨弓から下顎角に走る強力な筋で、下顎の挙上（閉口）の主動筋である。咬合力は最大約70kgに達し、人体で体積あたり最も強い力を発揮する筋の一つである。なぜこれほど強いかというと、食物の咀嚼には硬い食物を粉砕する力が必要であり、短いてこの腕（下顎骨）に大きな力を集中させる設計になっているためである（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["mastication-muscles-basics"]
+        },
+        {
+          "question_text": "こめかみに手を当てて噛みしめると収縮を触知できる咀嚼筋はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "咬筋", "is_correct": false },
+            { "text": "側頭筋（temporalis）", "is_correct": true },
+            { "text": "内側翼突筋", "is_correct": false },
+            { "text": "外側翼突筋", "is_correct": false }
+          ],
+          "explanation": "側頭筋は側頭窩（こめかみの骨）から下顎骨の筋突起に走る扇形の筋で、下顎の挙上と後退を行う。こめかみに手を当てて噛むと収縮を触知でき、緊張性頭痛でこの部位が痛むのは側頭筋の過緊張が一因である。ストレスで無意識に歯を噛みしめる習慣があると、側頭筋と咬筋が持続的に収縮し頭痛や顎関節症の原因となる（Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["mastication-muscles-basics"]
+        },
+        {
+          "question_text": "4対の咀嚼筋のうち、唯一開口を補助する（下顎を前方に引く）筋はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "咬筋", "is_correct": false },
+            { "text": "側頭筋", "is_correct": false },
+            { "text": "内側翼突筋", "is_correct": false },
+            { "text": "外側翼突筋（lateral pterygoid）", "is_correct": true }
+          ],
+          "explanation": "外側翼突筋は翼状突起から下顎骨の関節突起・関節円板に付着し、下顎を前方に引く（前突）ことで開口を補助する唯一の咀嚼筋である。他の3筋（咬筋・側頭筋・内側翼突筋）はすべて閉口筋である。なぜ開口筋が1つしかないかというと、開口自体は重力と舌骨上筋群の補助で達成でき、咀嚼（閉口）に比べて大きな力を必要としないためである（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["mastication-muscles-basics"]
+        },
+        {
+          "question_text": "顎関節症（TMD）の発症に最も関連する現代人の習慣はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "軟らかい食事による咀嚼筋の萎縮", "is_correct": false },
+            { "text": "過度の開口運動によるあくびの頻発", "is_correct": false },
+            { "text": "ストレスによる無意識の歯の噛みしめ（clenching）やブラキシズム", "is_correct": true },
+            { "text": "過剰な歯磨きによる歯根膜の損傷", "is_correct": false }
+          ],
+          "explanation": "ストレスにより無意識に咀嚼筋を緊張させ歯を噛みしめる習慣（clenching）や、夜間の歯ぎしり（ブラキシズム/bruxism）が顎関節症の主因である。持続的な等尺性収縮により咀嚼筋が疲労・過緊張し、顎関節の関節円板の転位や痛みを引き起こす。日本人の約20%が何らかのTMD症状を持つとされ、ストレス社会と密接に関連している（Okeson, Management of TMD）。",
+          "source": "Okeson, Management of TMD",
+          "reference_text_ids": ["mastication-muscles-basics"]
+        },
+        {
+          "question_text": "咀嚼筋はすべてどの脳神経の支配を受けるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "顔面神経（第VII脳神経）", "is_correct": false },
+            { "text": "三叉神経（第V脳神経）の下顎神経枝", "is_correct": true },
+            { "text": "副神経（第XI脳神経）", "is_correct": false },
+            { "text": "舌咽神経（第IX脳神経）", "is_correct": false }
+          ],
+          "explanation": "咀嚼筋4対はすべて三叉神経（第V脳神経）の第3枝である下顎神経（V3）の支配を受ける。なぜ三叉神経なのかというと、三叉神経は顔面の感覚と咀嚼の運動を統合的に制御する神経で、食物の硬さを感知しながら咬合力を調整するフィードバック制御に適しているためである。表情筋は顔面神経（VII）支配であり、混同しやすいので注意（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["mastication-muscles-basics"]
+        },
+        {
+          "question_text": "咀嚼筋の過緊張が原因で生じうる症状として正しいものはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "聴力の完全な消失", "is_correct": false },
+            { "text": "緊張性頭痛と顎の痛み", "is_correct": true },
+            { "text": "嚥下反射の消失", "is_correct": false },
+            { "text": "味覚の完全な喪失", "is_correct": false }
+          ],
+          "explanation": "咀嚼筋（特に側頭筋・咬筋）の持続的な過緊張は、緊張性頭痛（tension-type headache）と顎の痛みの主因の一つである。側頭筋の過緊張はこめかみの頭痛として、咬筋の過緊張は顎の痛みや開口障害として現れる。ヨガの顎のリラクゼーション（ライオンのポーズ/Simhasana）は咀嚼筋の緊張緩和に有効とされる（Okeson, Management of TMD）。",
+          "source": "Okeson, Management of TMD",
+          "reference_text_ids": ["mastication-muscles-basics"]
+        },
+        {
+          "question_text": "ヨガのライオンのポーズ（Simhasana）で大きく口を開け舌を出す動作が、顎関節症の症状緩和に役立つ理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "表情筋を鍛えて顔面神経の伝達速度を高めるため", "is_correct": false },
+            { "text": "過緊張した閉口筋群を最大伸張位にして弛緩を促し、普段の噛みしめ習慣に気づかせるため", "is_correct": true },
+            { "text": "顎関節の関節円板を元の位置に戻す物理的な力が加わるため", "is_correct": false },
+            { "text": "咀嚼筋への血流を遮断して痛覚を麻痺させるため", "is_correct": false }
+          ],
+          "explanation": "ライオンのポーズで最大開口すると、普段閉口で緊張し続けている咬筋・側頭筋・内側翼突筋が最大伸張位に置かれ、ストレッチ効果と伸張反射後の弛緩（post-stretch relaxation）が得られる。同時に、普段無意識に噛みしめている習慣への身体的な気づき（ボディアウェアネス）を促し、日常でのclenching軽減につながる。TMD管理における筋弛緩とセルフアウェアネスの両方の効果がある（Okeson, Management of TMD; Kaminoff & Matthews, Yoga Anatomy）。",
+          "source": "Okeson, Management of TMD",
+          "reference_text_ids": ["mastication-muscles-basics", "yoga-coordination-contraction"]
+        },
+        {
+          "question_text": "咬筋が体積あたりで人体最強クラスの力を発揮できる解剖学的理由として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "咬筋は心筋と同じ自動能を持ち休みなく収縮できるため", "is_correct": false },
+            { "text": "多羽状の筋構造と短いてこの腕により、大きな力を小さな範囲に集中させるため", "is_correct": true },
+            { "text": "咬筋の筋線維は通常の骨格筋より10倍太いため", "is_correct": false },
+            { "text": "三叉神経が他の運動神経より太く大電流を送れるため", "is_correct": false }
+          ],
+          "explanation": "咬筋は多羽状（multipennate）構造を持ち、多数の短い筋線維が斜めに配列することで断面積あたりの筋線維数が多く、大きな力を発揮できる。さらに下顎骨のてこの腕が短いため（関節に近い位置で力が作用）、力が集中する。この「短い線維×羽状配列×短いてこ」の組み合わせが、小さな筋で体重相当の咬合力を生み出す設計上の工夫である（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["mastication-muscles-basics"]
+        }
+      ]
+    },
+    {
+      "name": "表情筋",
+      "slug": "facial-muscles",
+      "description": "骨でなく皮膚に付く特殊な筋。顔面神経麻痺で何が起こる？",
+      "sort_order": 8,
+      "concepts": [
+        {
+          "name": "表情筋の特殊な構造",
+          "description": "皮筋としての特徴と主な表情筋の名称・機能"
+        },
+        {
+          "name": "顔面神経と表情筋障害",
+          "description": "Bell麻痺の症状と表情筋の神経支配"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "表情筋が通常の骨格筋と異なる最大の構造的特徴はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "横紋を持たない", "is_correct": false },
+            { "text": "不随意筋である", "is_correct": false },
+            { "text": "骨から皮膚に付着する（皮筋）", "is_correct": true },
+            { "text": "平滑筋で構成されている", "is_correct": false }
+          ],
+          "explanation": "表情筋は骨から皮膚に付着する特殊な骨格筋（皮筋/cutaneous muscle）である。通常の骨格筋は骨-骨間に付着して関節を動かすが、表情筋は皮膚を直接動かして表情を作る。なぜ皮膚に付着するかというと、社会的コミュニケーションにおいて微妙な感情表現を可能にするために、骨ではなく柔らかい皮膚を動かす設計が進化的に有利だったためである（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["facial-muscles-basics"]
+        },
+        {
+          "question_text": "すべての表情筋を支配する脳神経はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "三叉神経（第V脳神経）", "is_correct": false },
+            { "text": "顔面神経（第VII脳神経）", "is_correct": true },
+            { "text": "副神経（第XI脳神経）", "is_correct": false },
+            { "text": "舌下神経（第XII脳神経）", "is_correct": false }
+          ],
+          "explanation": "表情筋はすべて顔面神経（第VII脳神経）の支配を受ける。咀嚼筋は三叉神経（V）支配であり、「表情＝顔面神経、咀嚼＝三叉神経」と覚えると区別しやすい。顔面神経は茎乳突孔から出て耳下腺内で5つの枝（側頭枝・頬骨枝・頬筋枝・下顎縁枝・頸枝）に分かれ、顔面の各領域の表情筋を支配する（Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["facial-muscles-basics"]
+        },
+        {
+          "question_text": "笑顔を作る際に口角を上外方に引き上げる表情筋はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "口輪筋", "is_correct": false },
+            { "text": "眼輪筋", "is_correct": false },
+            { "text": "大頬骨筋（zygomaticus major）", "is_correct": true },
+            { "text": "皺眉筋", "is_correct": false }
+          ],
+          "explanation": "大頬骨筋は頬骨から口角に走り、口角を上外方に引いて笑顔を作る「笑いの筋」である。社会心理学的に、真の笑顔（デュシェンヌ笑い）は大頬骨筋に加えて眼輪筋の外側部分（目尻のシワ）も収縮する。口輪筋は口を閉じる・すぼめる筋、皺眉筋は眉間にしわを寄せる「怒りの筋」である（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["facial-muscles-basics"]
+        },
+        {
+          "question_text": "顔面神経麻痺（Bell's palsy）で患側に生じる症状として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "咀嚼ができなくなる", "is_correct": false },
+            { "text": "閉眼不能（兎眼）と口角下垂", "is_correct": true },
+            { "text": "舌の動きが麻痺する", "is_correct": false },
+            { "text": "顔面の感覚が完全に消失する", "is_correct": false }
+          ],
+          "explanation": "Bell麻痺では顔面神経の障害により患側の表情筋が麻痺する。閉眼不能（眼輪筋麻痺により兎眼/lagophthalmos）、口角下垂（大頬骨筋・口角挙筋の麻痺）、食物がこぼれる（口輪筋の麻痺）などの症状が出る。咀嚼は三叉神経支配なので影響を受けない。顔面の感覚も三叉神経支配であり保たれる。なぜ突然起こるかというと、ウイルス感染等による顔面神経管内の浮腫・圧迫が主因とされる（Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["facial-muscles-basics"]
+        },
+        {
+          "question_text": "額にしわを作るために眉を上げる動作を行う表情筋はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "皺眉筋", "is_correct": false },
+            { "text": "前頭筋（frontalis）", "is_correct": true },
+            { "text": "眼輪筋", "is_correct": false },
+            { "text": "鼻根筋", "is_correct": false }
+          ],
+          "explanation": "前頭筋は前頭部の薄い筋で、帽状腱膜から眉の皮膚に付着する。収縮すると眉を上げて額に横しわを作る「驚きの筋」である。皺眉筋は眉を内下方に引いて眉間に縦しわを作る「怒りの筋」で、前頭筋とは逆の動きをする。表情筋の名前は「どこにあって何をする筋か」を知ると覚えやすい（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["facial-muscles-basics"]
+        },
+        {
+          "question_text": "眼輪筋の機能として正しいものはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "眼球を動かす", "is_correct": false },
+            { "text": "瞳孔の大きさを調節する", "is_correct": false },
+            { "text": "瞬きと閉眼を行い、角膜の保護と涙液の分配を担う", "is_correct": true },
+            { "text": "涙を産生する", "is_correct": false }
+          ],
+          "explanation": "眼輪筋は眼窩周囲のリング状（括約筋型）の表情筋で、瞬き（不随意的な閉眼）と強い閉眼を行う。瞬きにより涙液を角膜表面に均一に分配し、角膜を乾燥や異物から保護する。なぜ「リング状」なのかというと、括約筋構造が最も効率よく開口部を閉じる設計だからである。Bell麻痺でこの筋が麻痺すると閉眼できず角膜潰瘍のリスクが生じる（Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["facial-muscles-basics"]
+        },
+        {
+          "question_text": "ヨガの練習中に「表情をリラックスさせましょう」という指示が与えられる解剖学的理由として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "表情筋の収縮が呼吸筋の効率を低下させるため", "is_correct": false },
+            { "text": "表情筋の緊張は身体全体の筋緊張と連動しており、顔の弛緩が全身のリラクゼーションを促進するため", "is_correct": true },
+            { "text": "表情筋が収縮すると血圧が急上昇するため", "is_correct": false },
+            { "text": "表情筋の緊張が関節の可動域を制限するため", "is_correct": false }
+          ],
+          "explanation": "表情筋の緊張状態は自律神経系と密接に連動している。眉間のしわ（皺眉筋）や噛みしめ（咬筋の等尺性収縮）は交感神経の興奮と関連し、全身の筋緊張を反映する。逆に、意識的に表情をリラックスさせると、顔面からの求心性信号が変化し、副交感神経優位の状態が促進されて全身の筋緊張が低下する。「顔の力を抜く」ことが全身のリラクゼーションの入口となる生理学的根拠がある（Polsgrove et al. 2016）。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": ["facial-muscles-basics", "yoga-coordination-contraction"]
+        },
+        {
+          "question_text": "Bell麻痺（末梢性顔面神経麻痺）と脳卒中による中枢性顔面麻痺の鑑別点として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "Bell麻痺では額のしわ寄せが可能で、中枢性では不可能", "is_correct": false },
+            { "text": "Bell麻痺では患側の額のしわ寄せも不可能だが、中枢性では額のしわ寄せが保たれる", "is_correct": true },
+            { "text": "Bell麻痺では口角下垂がなく、中枢性では口角が下垂する", "is_correct": false },
+            { "text": "Bell麻痺は両側性で、中枢性は片側性である", "is_correct": false }
+          ],
+          "explanation": "前頭筋は大脳皮質から両側性の支配を受けるため、片側の中枢（大脳）障害では反対側の前頭筋機能が保たれ、額のしわ寄せが可能である。一方、Bell麻痺では末梢の顔面神経幹が障害されるため、前頭筋を含む患側の全表情筋が麻痺し、額のしわ寄せも不可能になる。この違いは救急現場での脳卒中とBell麻痺の鑑別に極めて重要で、なぜ額だけ特別なのかは神経回路の二重支配という設計に由来する（Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["facial-muscles-basics"]
+        }
+      ]
+    },
+    {
+      "name": "胸鎖乳突筋と頸部の筋",
+      "slug": "scm-neck-muscles",
+      "description": "スマホ首で何筋に負担？頭が15度前に傾くだけで頸椎への負荷は約12kgに",
+      "sort_order": 9,
+      "concepts": [
+        {
+          "name": "胸鎖乳突筋の構造と機能",
+          "description": "SCMの作用（側屈・回旋・前屈）と副神経支配"
+        },
+        {
+          "name": "斜角筋群と頸部の臨床問題",
+          "description": "スマホ首・胸郭出口症候群・筋性斜頸"
+        }
+      ],
+      "questions": [
+        {
+          "question_text": "胸鎖乳突筋（SCM）が片側だけ収縮したときの動作として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "頭を後屈する", "is_correct": false },
+            { "text": "頭を同側に側屈し反対側に回旋する", "is_correct": true },
+            { "text": "頭を両側均等に前屈する", "is_correct": false },
+            { "text": "肩を挙上する", "is_correct": false }
+          ],
+          "explanation": "SCMは胸骨と鎖骨から乳様突起に走る。片側収縮では頭を同側に傾け（側屈）、反対側を向く（回旋）。この斜め走行がなぜ2方向の動きを生むかというと、SCMが頸椎の回旋軸と側屈軸の両方を跨ぐように走行しているためである。両側同時収縮では頭を前屈する（Gray's Anatomy 42nd ed.; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["scm-neck-muscles-basics"]
+        },
+        {
+          "question_text": "胸鎖乳突筋を支配する脳神経はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "easy",
+          "choices": [
+            { "text": "顔面神経（第VII脳神経）", "is_correct": false },
+            { "text": "三叉神経（第V脳神経）", "is_correct": false },
+            { "text": "副神経（第XI脳神経）", "is_correct": true },
+            { "text": "舌下神経（第XII脳神経）", "is_correct": false }
+          ],
+          "explanation": "SCMは副神経（第XI脳神経）と頸神経叢（C2-C3）の二重支配を受ける。副神経はSCMと僧帽筋の2つの筋のみを支配する特殊な脳神経である。なぜ脳神経による支配なのかというと、SCMは頭部の迅速な運動（危険回避時の振り向きなど）に関わるため、脊髄を経由せず脳幹から直接制御される設計となっている（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["scm-neck-muscles-basics"]
+        },
+        {
+          "question_text": "スマホ使用時に頭が前方に15度傾くと、頸椎にかかる負荷はおよそ何kgに増大するか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "約5kg（変化なし）", "is_correct": false },
+            { "text": "約8kg", "is_correct": false },
+            { "text": "約12kg", "is_correct": true },
+            { "text": "約25kg", "is_correct": false }
+          ],
+          "explanation": "頭部は約5kgの重さがあるが、前方に傾くとてこの原理により頸椎への負荷が増大する。Hansraj（2014）の研究では、15度の前傾で約12kg、30度で約18kg、60度で約27kgの負荷がかかる。長時間のスマホ使用でこの負荷が後頸部の筋とSCMに持続的にかかることが「スマホ首」やストレートネックの原因である。なぜ少しの角度でこれほど増えるかというと、支点（頸椎）からの距離が大きくなるほどモーメントが増大するためである（Hansraj 2014）。",
+          "source": "Hansraj 2014",
+          "reference_text_ids": ["scm-neck-muscles-basics"]
+        },
+        {
+          "question_text": "斜角筋群の過緊張が引き起こしうる症状（胸郭出口症候群）の原因として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "斜角筋が頸動脈を圧迫して脳への血流が低下する", "is_correct": false },
+            { "text": "前斜角筋と中斜角筋の間で腕神経叢と鎖骨下動脈が圧迫される", "is_correct": true },
+            { "text": "斜角筋が食道を圧迫して嚥下障害を起こす", "is_correct": false },
+            { "text": "斜角筋が横隔膜を引き上げて呼吸困難を起こす", "is_correct": false }
+          ],
+          "explanation": "前斜角筋と中斜角筋の間を腕神経叢と鎖骨下動脈が通過する（斜角筋隙/scalene triangle）。斜角筋の過緊張や肥大でこの隙間が狭くなると、神経・血管が圧迫されて上肢のしびれ・痛み・冷感などの胸郭出口症候群（TOS）の症状が出現する。なぜ斜角筋が過緊張するかというと、デスクワーク時の不良姿勢やストレス時の浅い呼吸で補助呼吸筋として過剰に使われるためである（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["scm-neck-muscles-basics"]
+        },
+        {
+          "question_text": "斜角筋群が「補助呼吸筋」として働く場面はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "安静時の呼気で使用される", "is_correct": false },
+            { "text": "努力性吸気時に第1-2肋骨を挙上する", "is_correct": true },
+            { "text": "呼気時に横隔膜を引き上げる", "is_correct": false },
+            { "text": "嚥下時に喉頭を保護する", "is_correct": false }
+          ],
+          "explanation": "斜角筋群は頸椎横突起から第1-2肋骨に付着し、努力性吸気（運動時や呼吸困難時）に肋骨を引き上げて胸郭を広げる補助呼吸筋として機能する。安静時の呼吸では横隔膜が主役で斜角筋はほとんど使われないが、喘息発作や激しい運動時には積極的に動員される。ヨガで深い呼吸を練習する際にこの筋の役割を知ることは有用である（Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["scm-neck-muscles-basics"]
+        },
+        {
+          "question_text": "筋性斜頸（torticollis）の原因として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            { "text": "僧帽筋の過緊張により肩が挙上する", "is_correct": false },
+            { "text": "SCMの短縮・線維化により頭が同側に傾き反対側に回旋する", "is_correct": true },
+            { "text": "頸椎の骨折により頭が固定される", "is_correct": false },
+            { "text": "斜角筋群の完全断裂により頭を支えられなくなる", "is_correct": false }
+          ],
+          "explanation": "筋性斜頸はSCMの短縮・線維化により、頭が患側に傾き（側屈）反対側を向いた（回旋）状態で固定される。先天性では出生時のSCM内の血腫が線維化を起こし、後天性では外傷や炎症が原因となる。SCMの片側収縮の作用（同側側屈・反対側回旋）をそのまま反映した症状であり、SCMの機能を理解すると症状の成り立ちが明快になる（Gray's Anatomy 42nd ed.）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["scm-neck-muscles-basics"]
+        },
+        {
+          "question_text": "デスクワーカーがストレートネック（スマホ首）を改善するために最も重要な筋のケアの組み合わせはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "咬筋のストレッチと前頭筋の強化", "is_correct": false },
+            { "text": "SCM・斜角筋のストレッチと深頸屈筋群の強化", "is_correct": true },
+            { "text": "後頸部筋のストレッチと僧帽筋上部のさらなる強化", "is_correct": false },
+            { "text": "表情筋の強化と咀嚼筋のストレッチ", "is_correct": false }
+          ],
+          "explanation": "ストレートネックでは前面のSCM・斜角筋が短縮し、深層の深頸屈筋群（頸長筋・頭長筋）が弱化するアンバランスが生じる。改善にはSCM・斜角筋のストレッチで短縮を解消し、深頸屈筋群の強化で頸椎の正常なカーブ（前弯）を回復させることが重要。ヨガのジャーランダラバンダ（顎を引く動作）は深頸屈筋群を活性化するエクササイズの一つである。「短縮した筋を伸ばし、弱化した筋を強化する」が姿勢改善の基本原則である（Hansraj 2014; Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["scm-neck-muscles-basics"]
+        },
+        {
+          "question_text": "交通事故のむち打ち損傷（whiplash）でSCMが損傷されやすい理由として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            { "text": "SCMは頸部で最も薄い筋であるため", "is_correct": false },
+            { "text": "追突時の急激な頸部の過伸展→反動の過屈曲で、SCMが遠心性収縮の限界を超えて伸張されるため", "is_correct": true },
+            { "text": "SCMは副神経支配であり、衝撃で副神経が切断されるため", "is_correct": false },
+            { "text": "SCMの血液供給が乏しく、衝撃に対する耐性が低いため", "is_correct": false }
+          ],
+          "explanation": "追突事故では頸部が急激に過伸展（後方への急激な動き）し、SCMが予測外の急速伸張を受ける。筋の遠心性収縮によるブレーキが追いつかず、筋線維の微小損傷や部分断裂が生じる。その後の反動で過屈曲が起こり、今度は後頸部の筋が同様のダメージを受ける。この「急激な伸張に対するブレーキが間に合わない」というメカニズムは、S6で学んだ遠心性収縮の限界の実例である（Standring 2020）。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": ["scm-neck-muscles-basics", "contraction-types-basics"]
         }
       ]
     }
