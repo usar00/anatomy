@@ -30,8 +30,8 @@
     },
     {
       "id": "yoga-muscle-foundation",
-      "title": "筋の基礎知識とヨガの実践",
-      "content": "筋の基礎知識はヨガ指導の質を大きく高める。①相反抑制の活用：前屈（パスチモッターナーサナ）で大腿四頭筋を軽く使うと、脳が自動的にハムストリングスの緊張を下げる（相反抑制）。拮抗筋を活性化してストレッチの効果を高めるテクニック。②3つの収縮タイプの切り替え：チャトランガで身体を下ろす=遠心性収縮（ブレーキ）、プランク保持=等尺性収縮（止める）、腕を伸ばして押し上げる=求心性収縮（動かす）。一つのフローで3種類が流れるように切り替わる。③ウォームアップの意味：太陽礼拝で筋温を上げると血流が増え、筋肉が柔らかくなりケガのリスクが減る。④DOMSへの対応：新しいポーズの導入後、生徒に筋肉痛が出ることがある。これは遠心性収縮で生じる筋の正常な適応反応であり、心配ないことを伝える。⑤遅筋と速筋の活用：ヨガのホールドは遅筋（持久力）を鍛え、ヴィンヤサの動的な動きは速筋（瞬発力）も刺激する。⑥指導キューの裏にある解剖学：「膝を伸ばして」=求心性収縮の指示、「ゆっくり下ろして」=遠心性収縮の指示、「そのまま保持」=等尺性収縮の指示。収縮タイプを意識した指導者は、より正確で安全なキューイングができる（Kaminoff & Matthews, Yoga Anatomy; Polsgrove et al. 2016）。"
+      "title": "筋の基礎知識とヨガの実践 — 学んだことを指導に活かす",
+      "content": "S0〜S5で学んだ筋の基礎知識を、ヨガ指導の実践に統合する。\n\n【相反抑制のストレッチ活用】\n前屈で大腿四頭筋を軽く使うと、ハムストリングスが自動的に緩む（相反抑制）。「膝のお皿を引き上げて」は相反抑制を活用した科学的キュー。\n\n【3つの収縮タイプの識別】\nチャトランガで体を下ろす＝遠心性（ブレーキ）。プランク保持＝等尺性（止める）。押し上げてアップドッグ＝求心性（動かす）。指導キューの裏にある収縮タイプを意識すると精度が上がる。\n\n【ウォームアップの根拠】\n太陽礼拝で筋温を上げると粘弾性が下がり柔軟性が上がる。血流増加で酸素とエネルギーが行き渡る。\n\n【DOMSへの対応】\n新しいポーズ導入後の筋肉痛は正常な適応反応。遠心性収縮が主な原因。安心させ、アクティブリカバリーを勧める。\n\n【高齢者への配慮】\n速筋の衰えにより瞬発力低下。安全な範囲で動的な動きも入れて転倒予防。遠心性収縮（ポーズを解く動作）を特に丁寧に指導\n（Kaminoff & Matthews, Yoga Anatomy; Polsgrove et al. 2016）。"
     },
     {
       "id": "mastication-muscles-basics",
@@ -86,12 +86,12 @@
     {
       "id": "muscle-coordination-basics",
       "title": "主動筋と拮抗筋 — 筋肉はペアで働く",
-      "content": "筋肉は「縮む」ことしかできないので、関節を両方向に動かすにはペアが必要。これが主動筋と拮抗筋の関係である。①主動筋（agonist）：動きを主に担う筋。肘を曲げるとき、主動筋は上腕二頭筋（力こぶの筋肉）。②拮抗筋（antagonist）：主動筋と反対の動きを担う筋。肘を曲げるときの拮抗筋は上腕三頭筋（二の腕の筋肉）。③相反抑制（reciprocal inhibition）：主動筋が縮むと、脳が自動的に拮抗筋の緊張を下げる仕組み。上腕二頭筋が縮むと上腕三頭筋が自然に緩む。この自動制御がなければ、両方の筋が同時に引っ張り合ってスムーズに動けない。④協力筋（synergist）：主動筋を手伝う筋。肘屈曲では腕橈骨筋が補助。⑤固定筋（fixator）：動作の土台を安定させる筋。肘を曲げるとき、肩甲骨がグラグラしないように僧帽筋が固定する。日常例：コップを持ち上げるとき、上腕二頭筋（主動筋）が肘を曲げ、上腕三頭筋（拮抗筋）が速度を制御し、腕橈骨筋（協力筋）が補助し、僧帽筋（固定筋）が肩を安定させる。この4つの役割の協調が、滑らかで正確な動作を生む（Gray's Anatomy 42nd ed.; Standring 2020）。"
+      "content": "筋肉は「縮む」ことしかできないので、関節を両方向に動かすにはペアが必要。\n\n①主動筋（agonist）：動きを主に担う筋肉。肘を曲げるときの上腕二頭筋。\n②拮抗筋（antagonist）：主動筋と反対の動きを担う筋肉。肘を曲げるときの上腕三頭筋。\n③相反抑制（reciprocal inhibition）：主動筋が縮むと、脳が自動的に拮抗筋の緊張を下げる仕組み。上腕二頭筋が縮むと上腕三頭筋が自然に緩む。この自動制御がなければ両方の筋が引っ張り合ってスムーズに動けない。\n\nヨガでの活用：\n・前屈で大腿四頭筋（主動筋）に力を入れると、ハムストリングス（拮抗筋）が自動的に緩む → ストレッチが深まる\n・「膝のお皿を引き上げて」というキューは、相反抑制を利用した科学的な指導法\n・ただしバランスポーズ（木のポーズ等）では例外的に主動筋と拮抗筋が同時に収縮する「共収縮」が起こる。関節を安定させるためにあえて両方が同時に働く\n（Gray's Anatomy 42nd ed.; Kaminoff & Matthews, Yoga Anatomy）。"
     },
     {
       "id": "contraction-types-basics",
-      "title": "3つの収縮タイプ — 縮む・伸びる・止まる",
-      "content": "筋肉は3つのモードで力を出す。①求心性収縮（concentric）：筋が縮みながら力を出す。ダンベルを持ち上げる、階段を上る、椅子から立ち上がるなど「動かす」動作。②遠心性収縮（eccentric）：筋が伸びながら力を出す。ダンベルをゆっくり下ろす、階段を下りる、椅子に座るなど「ブレーキをかける」動作。重力に逆らいながらゆっくり制御するイメージ。③等尺性収縮（isometric）：筋の長さは変わらず力だけ出す。壁を押す、プランクを保持する、荷物を持ったまま立つなど「止める・保つ」動作。関節は動かないが筋肉はしっかり働いている。遠心性収縮が筋肉痛（DOMS）の主な原因。筋肉に大きな力がかかりやすく、微小なダメージが生じる。登山で「下りの方が翌日痛い」のは、下りが遠心性収縮主体だから。日常では3種類がシームレスに切り替わる。椅子から立つ=求心性、立っている=等尺性、座る=遠心性。ヨガでもポーズに入る=求心性、保持する=等尺性、ポーズを解く=遠心性と、一つのポーズで3種類が連続する（Gray's Anatomy 42nd ed.; Standring 2020）。"
+      "title": "3つの収縮タイプ — 縮む・止まる・ブレーキ",
+      "content": "筋肉は3つのモードで力を出す。\n\n①求心性収縮（concentric）：筋が縮みながら力を出す「動かす」モード。ダンベルを持ち上げる、階段を上る、椅子から立ち上がる。\n②等尺性収縮（isometric）：筋の長さが変わらず力だけ出す「止める・保つ」モード。プランク保持、荷物を持ったまま立つ。関節は動かないが筋肉はしっかり働いている。\n③遠心性収縮（eccentric）：筋が伸びながら力を出す「ブレーキ」モード。ダンベルをゆっくり下ろす、階段を下りる、椅子にゆっくり座る。重力に逆らいながら制御するイメージ。\n\nヨガでは一つのポーズで3種類が流れるように切り替わる：\n・ポーズに入る ＝ 求心性収縮（動かす）\n・ポーズを保持 ＝ 等尺性収縮（止める）\n・ポーズを解く ＝ 遠心性収縮（ブレーキ）\n\n遠心性収縮は筋肉痛（DOMS）の主な原因。筋肉に大きな負荷がかかりやすく、微小ダメージが生じる。登山で「下りの方が翌日痛い」のは下りが遠心性収縮主体だから。\n\n指導キューとの対応：「力を入れて」＝求心性、「そのまま保持」＝等尺性、「ゆっくり下ろして」＝遠心性。収縮タイプを意識すると、より正確で安全なキューイングができる（Gray's Anatomy 42nd ed.; Kaminoff & Matthews, Yoga Anatomy）。"
     },
     {
       "id": "deltoid-arm-basics",
@@ -1274,12 +1274,16 @@
     {
       "name": "主動筋と拮抗筋 — 筋肉はペアで働く",
       "slug": "agonist-antagonist",
-      "description": "腕を曲げる筋と伸ばす筋は別物。この「ペアの法則」がヨガの指導を変える",
+      "description": "ストレッチが深まる「相反抑制」の仕組みを知り、指導キューの質を上げよう",
       "sort_order": 4,
       "concepts": [
         {
-          "name": "主動筋・拮抗筋と相反抑制",
-          "description": "筋の4つの役割（主動筋・拮抗筋・協力筋・固定筋）と、相反抑制の仕組みを理解する"
+          "name": "主動筋・拮抗筋のペアと相反抑制",
+          "description": "筋肉がペアで働く仕組みと、主動筋の収縮で拮抗筋が自動的に緩む相反抑制を理解する"
+        },
+        {
+          "name": "ヨガ指導での相反抑制の活用",
+          "description": "相反抑制を活かしたキューイングと、バランスポーズでの共収縮の例外を理解する"
         }
       ],
       "questions": [
@@ -1290,59 +1294,30 @@
           "difficulty": "easy",
           "choices": [
             {
-              "text": "拮抗筋",
+              "text": "動きにブレーキをかける拮抗筋",
               "is_correct": false
             },
             {
-              "text": "主動筋",
+              "text": "動きを主に担う主動筋",
               "is_correct": true
             },
             {
-              "text": "固定筋",
+              "text": "関節を固定する固定筋",
               "is_correct": false
             },
             {
-              "text": "関係しない",
+              "text": "この動きには関係しない",
               "is_correct": false
             }
           ],
-          "explanation": "主動筋（agonist）とは、その動作を主に遂行する筋のこと。肘を曲げる動作の主動筋は上腕二頭筋で、縮むことで前腕を引き上げる。「この動きを一番頑張って作っている筋肉」が主動筋。反対の動き（肘を伸ばす）を担う上腕三頭筋は拮抗筋、動作の土台を安定させる肩の筋は固定筋である（Gray's Anatomy 42nd ed.）。",
+          "explanation": "主動筋（agonist）は動きを主に担う筋肉。肘を曲げるときは上腕二頭筋が縮んで肘を引き上げる。反対側の上腕三頭筋は拮抗筋（antagonist）として緩み、動きを邪魔しない。",
           "source": "Gray's Anatomy 42nd ed.",
           "reference_text_ids": [
             "muscle-coordination-basics"
           ]
         },
         {
-          "question_text": "肘を曲げるとき、上腕三頭筋（二の腕の裏側の筋肉）の役割はどれか？",
-          "interaction_type": "standard_mcq",
-          "question_type": "text_only",
-          "difficulty": "easy",
-          "choices": [
-            {
-              "text": "主動筋",
-              "is_correct": false
-            },
-            {
-              "text": "協力筋",
-              "is_correct": false
-            },
-            {
-              "text": "拮抗筋",
-              "is_correct": true
-            },
-            {
-              "text": "固定筋",
-              "is_correct": false
-            }
-          ],
-          "explanation": "拮抗筋（antagonist）とは、主動筋と反対の動きを担う筋のこと。肘を曲げるとき、上腕三頭筋は肘を伸ばす作用を持つ拮抗筋にあたる。拮抗筋は主動筋が動くとき自動的に緩んで邪魔しない（相反抑制）。同時に、動きの終わりで「ブレーキ」としても機能し、関節を守る。主動筋と拮抗筋はいつもペア — 肘を伸ばすときは役割が逆転し、三頭筋が主動筋、二頭筋が拮抗筋になる（Gray's Anatomy 42nd ed.）。",
-          "source": "Gray's Anatomy 42nd ed.",
-          "reference_text_ids": [
-            "muscle-coordination-basics"
-          ]
-        },
-        {
-          "question_text": "主動筋が縮むと、拮抗筋の緊張が自動的に低下する仕組みを何と呼ぶか？",
+          "question_text": "主動筋が縮むと、拮抗筋の緊張が自動的に下がる仕組みを何と呼ぶか？",
           "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "easy",
@@ -1356,80 +1331,109 @@
               "is_correct": true
             },
             {
-              "text": "遠心性収縮",
+              "text": "共収縮",
               "is_correct": false
             },
             {
-              "text": "筋肥大",
+              "text": "遠心性収縮",
               "is_correct": false
             }
           ],
-          "explanation": "相反抑制（reciprocal inhibition）とは、主動筋に「縮め」という信号が送られると、脳が自動的に拮抗筋の緊張を下げる神経制御のこと。上腕二頭筋を縮めると、脊髄レベルの反射回路により上腕三頭筋が自然に緩む。もしこの仕組みがなければ、両方の筋が同時に引っ張り合って関節がスムーズに動けない。ヨガ指導では、この相反抑制を意図的に利用してストレッチの効果を高めることができる（Gray's Anatomy 42nd ed.）。",
+          "explanation": "相反抑制（reciprocal inhibition）は、主動筋が縮むと脳が自動的に拮抗筋の緊張を下げる仕組み。上腕二頭筋が縮むと上腕三頭筋が自動的に緩む。この自動制御のおかげでスムーズに動ける。ヨガのストレッチを深めるための重要な原理。",
           "source": "Gray's Anatomy 42nd ed.",
           "reference_text_ids": [
             "muscle-coordination-basics"
           ]
         },
         {
-          "question_text": "ヨガの前屈（パスチモッターナーサナ）で、大腿四頭筋を軽く収縮させるとハムストリングスが伸びやすくなる。この現象の説明として正しいのはどれか？",
+          "question_text": "前屈で「膝のお皿を引き上げて」と指示すると、ハムストリングスが伸ばしやすくなる理由はどれか？",
           "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "medium",
           "choices": [
             {
-              "text": "大腿四頭筋の収縮でハムストリングスの血流が増えるから",
+              "text": "膝蓋骨が物理的にハムストリングスを押すから",
               "is_correct": false
             },
             {
-              "text": "相反抑制により、大腿四頭筋が縮むとハムストリングスの緊張が自動的に低下するから",
+              "text": "大腿四頭筋（主動筋）が縮むことで、ハムストリングス（拮抗筋）が相反抑制で自動的に緩むから",
               "is_correct": true
             },
             {
-              "text": "大腿四頭筋が膝を押してテコの原理で伸びるから",
+              "text": "膝を伸ばすと腱が温まるから",
               "is_correct": false
             },
             {
-              "text": "大腿四頭筋の熱でハムストリングスが柔らかくなるから",
+              "text": "膝蓋骨の位置が変わって関節が柔らかくなるから",
               "is_correct": false
             }
           ],
-          "explanation": "前屈でハムストリングスを伸ばしたいとき、その拮抗筋である大腿四頭筋を軽く収縮させると、相反抑制によりハムストリングスの緊張が自動的に低下する。緊張が下がった筋肉はより安全に、より深く伸ばせる。これはヨガ指導で非常に実用的なテクニック。「膝のお皿を上に引き上げるように」というキューは、大腿四頭筋を活性化して相反抑制を利用し、ハムストリングスの伸びを促す指示なのである（Kaminoff & Matthews, Yoga Anatomy）。",
+          "explanation": "「膝のお皿を引き上げて」は大腿四頭筋を収縮させるキュー。大腿四頭筋（主動筋）が縮むと、脳が相反抑制によりハムストリングス（拮抗筋）の緊張を自動的に下げる。結果としてハムストリングスが伸ばしやすくなる。これは解剖学に基づいた非常に効果的な指導法。",
           "source": "Kaminoff & Matthews, Yoga Anatomy",
           "reference_text_ids": [
             "muscle-coordination-basics"
           ]
         },
         {
-          "question_text": "コップを持ち上げるとき、肩甲骨を安定させて土台を作っている筋の役割はどれか？",
+          "question_text": "もし相反抑制がなかったら、体の動きにどんな問題が起こるか？",
           "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "medium",
           "choices": [
             {
-              "text": "主動筋",
+              "text": "筋肉がもっと速く動けるようになる",
               "is_correct": false
             },
             {
-              "text": "拮抗筋",
-              "is_correct": false
-            },
-            {
-              "text": "固定筋",
+              "text": "主動筋と拮抗筋が同時に引っ張り合い、スムーズに動けなくなる",
               "is_correct": true
             },
             {
-              "text": "協力筋",
+              "text": "関節が柔らかくなりすぎる",
+              "is_correct": false
+            },
+            {
+              "text": "特に問題は起きない",
               "is_correct": false
             }
           ],
-          "explanation": "固定筋（fixator/stabilizer）とは、動作の土台を安定させる筋のこと。コップを持ち上げるとき、上腕二頭筋（主動筋）が肘を曲げるが、その力がしっかり発揮されるには肩甲骨がグラグラしていてはいけない。僧帽筋や菱形筋が肩甲骨を固定して安定した土台を作る — これが固定筋の役割。もう一つの協力筋（synergist）は、主動筋を手伝って同じ方向の力を加える筋（肘屈曲なら腕橈骨筋など）。4つの役割が協調して初めて滑らかな動きになる（Gray's Anatomy 42nd ed.）。",
+          "explanation": "相反抑制がなければ、肘を曲げようとしても上腕三頭筋が同時に引っ張り返してしまい、スムーズな動きが不可能になる。実際に脳卒中などで神経制御が障害されると、この「共収縮」が過剰に起こり、動きがぎこちなくなる。相反抑制は日常動作を支える重要な自動制御。",
           "source": "Gray's Anatomy 42nd ed.",
           "reference_text_ids": [
             "muscle-coordination-basics"
           ]
         },
         {
-          "question_text": "膝を伸ばすときの主動筋と拮抗筋の正しい組み合わせはどれか？",
+          "question_text": "バランスポーズ（木のポーズ等）では、相反抑制の例外として足首の主動筋と拮抗筋が「同時に」働く。この仕組みの名前と目的は？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            {
+              "text": "共収縮 — 関節を安定させて倒れないようにするため",
+              "is_correct": true
+            },
+            {
+              "text": "超回復 — 筋肉を強くするため",
+              "is_correct": false
+            },
+            {
+              "text": "相反抑制 — 片方だけ動かすため",
+              "is_correct": false
+            },
+            {
+              "text": "遠心性収縮 — ゆっくり動くため",
+              "is_correct": false
+            }
+          ],
+          "explanation": "共収縮（co-contraction）は主動筋と拮抗筋が同時に収縮する現象。通常は相反抑制で片方が緩むが、バランスポーズでは関節を安定させるために両方が同時に働く。足首の前後の筋肉が同時に収縮して「ガッチリ固定」し、片脚で立てるようにする。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": [
+            "muscle-coordination-basics"
+          ]
+        },
+        {
+          "question_text": "膝を伸ばす動きの主動筋と拮抗筋の正しい組み合わせはどれか？",
           "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "medium",
@@ -1443,95 +1447,102 @@
               "is_correct": true
             },
             {
-              "text": "主動筋：腓腹筋 / 拮抗筋：前脛骨筋",
+              "text": "主動筋：ふくらはぎ / 拮抗筋：すね",
               "is_correct": false
             },
             {
-              "text": "主動筋：大殿筋 / 拮抗筋：腸腰筋",
+              "text": "主動筋と拮抗筋は動きによって変わらない",
               "is_correct": false
             }
           ],
-          "explanation": "膝を伸ばす（膝伸展）の主動筋は大腿四頭筋（太もも前面の4つの筋肉のグループ）で、拮抗筋はハムストリングス（太もも裏側の3つの筋肉のグループ）。大腿四頭筋が縮むと膝が伸び、相反抑制によりハムストリングスの緊張が自動的に低下する。逆に膝を曲げるときは役割が逆転し、ハムストリングスが主動筋、大腿四頭筋が拮抗筋になる。腓腹筋/前脛骨筋は足関節の、大殿筋/腸腰筋は股関節のペア（Gray's Anatomy 42nd ed.）。",
+          "explanation": "膝を伸ばすとき：大腿四頭筋（太もも前面）が主動筋として縮み、ハムストリングス（太もも裏）が拮抗筋として緩む。膝を曲げるときは逆になる。主動筋と拮抗筋は固定ではなく、動きの方向によって入れ替わる。ヨガの立位ポーズではこの関係を知っておくと指導の質が上がる。",
           "source": "Gray's Anatomy 42nd ed.",
           "reference_text_ids": [
             "muscle-coordination-basics"
           ]
         },
         {
-          "question_text": "次の動作と、その動作の主動筋-拮抗筋のペアを正しく組み合わせなさい。",
-          "interaction_type": "matching_pairs",
+          "question_text": "後屈（コブラポーズ）でもっと背中を反らせたいとき、相反抑制を活用する方法として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "hard",
-          "metadata": {
-            "pairs": [
-              {
-                "left": "肘を曲げる",
-                "right": "主動筋：上腕二頭筋"
-              },
-              {
-                "left": "肘を伸ばす",
-                "right": "主動筋：上腕三頭筋"
-              },
-              {
-                "left": "膝を伸ばす",
-                "right": "主動筋：大腿四頭筋"
-              },
-              {
-                "left": "膝を曲げる",
-                "right": "主動筋：ハムストリングス"
-              }
-            ]
-          },
           "choices": [
             {
-              "text": "肘曲げ — 二頭筋、肘伸ばし — 三頭筋、膝伸ばし — 四頭筋、膝曲げ — ハムストリングス",
+              "text": "腹筋に強く力を入れて背中を無理に反らす",
+              "is_correct": false
+            },
+            {
+              "text": "背筋（脊柱起立筋）をしっかり使うことで、腹筋側が相反抑制で緩み、反りやすくなる",
               "is_correct": true
             },
             {
-              "text": "その他の組み合わせ",
+              "text": "腕の力だけで体を押し上げる",
+              "is_correct": false
+            },
+            {
+              "text": "息を止めて一気に反る",
               "is_correct": false
             }
           ],
-          "explanation": "動作が変われば主動筋と拮抗筋の役割が入れ替わる。肘を曲げるとき上腕二頭筋が主動筋（三頭筋が拮抗筋）、肘を伸ばすとき上腕三頭筋が主動筋（二頭筋が拮抗筋）。同様に膝を伸ばすとき大腿四頭筋が主動筋（ハムストリングスが拮抗筋）、膝を曲げるときハムストリングスが主動筋（四頭筋が拮抗筋）。このペア関係を理解すると、ヨガの指示で「どの筋肉を使えばいいか」が明確になる（Gray's Anatomy 42nd ed.）。",
-          "source": "Gray's Anatomy 42nd ed.",
+          "explanation": "コブラポーズで背筋（脊柱起立筋＝主動筋）をしっかり収縮させると、相反抑制により腹筋（拮抗筋）の緊張が自動的に下がる。結果として体幹前面が伸びやすくなり、後屈が深まる。腕の力だけで無理に押し上げるのは腰椎への負担が大きく危険。背筋を主動筋として意識的に使う指導が安全で効果的。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
           "reference_text_ids": [
             "muscle-coordination-basics"
           ]
         },
         {
-          "question_text": "バランスポーズ（木のポーズ）で足関節の安定を保つとき、通常の相反抑制とは異なる「{{blank}}」が起こっている。",
-          "interaction_type": "word_bank",
+          "question_text": "ウォーリアIIで前膝が震えている生徒がいる。「太もも前面に力を入れて」と指示するのが有効な理由はどれか？",
+          "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "hard",
-          "metadata": {
-            "correct_answer": "共収縮（主動筋と拮抗筋が同時に収縮）",
-            "word_options": [
-              "共収縮（主動筋と拮抗筋が同時に収縮）",
-              "完全弛緩（すべての筋がリラックス）",
-              "超回復（筋が修復中）",
-              "遠心性収縮（ブレーキ動作）"
-            ],
-            "template": "バランスポーズで足関節の安定を保つとき、通常の相反抑制とは異なる「{{blank}}」が起こっている。"
-          },
           "choices": [
             {
-              "text": "共収縮（主動筋と拮抗筋が同時に収縮）",
+              "text": "大腿四頭筋を意識的に収縮させることで膝関節が安定し、震えが減る",
               "is_correct": true
             },
             {
-              "text": "完全弛緩（すべての筋がリラックス）",
+              "text": "力を入れると速筋が活性化して疲れなくなるから",
               "is_correct": false
             },
             {
-              "text": "超回復（筋が修復中）",
+              "text": "太もも前面に力を入れると自動的にポーズが深まるから",
               "is_correct": false
             },
             {
-              "text": "遠心性収縮（ブレーキ動作）",
+              "text": "力を入れることで痛みが消えるから",
               "is_correct": false
             }
           ],
-          "explanation": "通常は主動筋が縮むと拮抗筋が緩む（相反抑制）が、バランスポーズでは例外が起こる。片脚立ちでは足関節の周りの筋肉（前の前脛骨筋と後ろの腓腹筋、内側の後脛骨筋と外側の腓骨筋）が同時に少しずつ収縮する。これを共収縮（co-contraction）と呼び、関節を四方から締めて安定させる「天然のサポーター」のような役割を果たす。脳が「今は安定性が最優先」と判断したとき、相反抑制を一時的にオーバーライド（上書き）する高度な神経制御である（Kaminoff & Matthews, Yoga Anatomy）。",
+          "explanation": "膝が震えるのは大腿四頭筋が疲労して安定した収縮を維持できなくなっている状態。「太もも前面に力を入れて」と意識的に収縮を促すことで、筋の動員を増やして安定化できる。同時に相反抑制でハムストリングスが緩み、膝関節の不安定さが減る。それでも震えが続くならポーズを浅くするよう指導する。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": [
+            "muscle-coordination-basics"
+          ]
+        },
+        {
+          "question_text": "生徒が「ストレッチのとき、伸ばしたい筋肉に力を入れた方がいいのか、抜いた方がいいのか」と質問した。相反抑制の知識を使った回答として最も正確なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            {
+              "text": "伸ばしたい筋肉に力を入れて押し込む",
+              "is_correct": false
+            },
+            {
+              "text": "伸ばしたい筋肉の「反対側」に軽く力を入れると、伸ばしたい筋肉が自動的に緩みやすくなる",
+              "is_correct": true
+            },
+            {
+              "text": "どちらでも効果は同じ",
+              "is_correct": false
+            },
+            {
+              "text": "すべての筋肉の力を完全に抜く",
+              "is_correct": false
+            }
+          ],
+          "explanation": "相反抑制を活用するには、伸ばしたい筋肉の「反対側の筋肉」に軽く力を入れる。例えばハムストリングスを伸ばしたいなら、大腿四頭筋に軽く力を入れる。すると脳が自動的にハムストリングスの緊張を下げ、伸ばしやすくなる。伸ばしたい筋肉自体に力を入れると逆効果。完全脱力でも相反抑制は使えない。",
           "source": "Kaminoff & Matthews, Yoga Anatomy",
           "reference_text_ids": [
             "muscle-coordination-basics"
@@ -1542,255 +1553,276 @@
     {
       "name": "3つの収縮タイプ — 縮む・伸びる・止まる",
       "slug": "contraction-types",
-      "description": "階段を上るのと下りるのでは筋肉の使い方が違う。その違いが分かると指導が変わる",
+      "description": "「動かす」「止める」「ブレーキ」— ヨガの動きを3つの言葉で理解しよう",
       "sort_order": 5,
       "concepts": [
         {
-          "name": "3つの筋収縮タイプ",
-          "description": "求心性（縮む）・遠心性（伸びながら力を出す）・等尺性（止める）の3つの収縮タイプを日常動作で理解する"
+          "name": "3つの筋収縮タイプの基本",
+          "description": "求心性・等尺性・遠心性収縮の違いを日常動作とヨガの実例で理解する"
+        },
+        {
+          "name": "収縮タイプとヨガの指導キュー",
+          "description": "ヨガのポーズの各段階（入る・保持・解く）と収縮タイプの対応を理解する"
         }
       ],
       "questions": [
         {
-          "question_text": "ダンベルを持ち上げるとき、上腕二頭筋が短くなりながら力を出す収縮はどれか？",
+          "question_text": "プランクポーズを保持しているとき、体幹の筋肉に起こっている収縮タイプはどれか？",
           "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "easy",
           "choices": [
             {
-              "text": "遠心性収縮",
+              "text": "求心性収縮（縮みながら力を出す）",
               "is_correct": false
             },
             {
-              "text": "求心性収縮",
+              "text": "等尺性収縮（長さを変えずに力を出す）",
               "is_correct": true
             },
             {
-              "text": "等尺性収縮",
+              "text": "遠心性収縮（伸びながら力を出す）",
               "is_correct": false
             },
             {
-              "text": "共収縮",
+              "text": "筋肉は働いていない",
               "is_correct": false
             }
           ],
-          "explanation": "求心性収縮（concentric contraction）とは、筋肉が縮みながら力を出す「動かす」動作のこと。ダンベルを持ち上げるとき、上腕二頭筋が短くなって前腕を引き上げる。階段を上る（大腿四頭筋が縮む）、椅子から立ち上がる（大殿筋・四頭筋が縮む）も求心性収縮。「筋肉が頑張って動きを作り出す」イメージ（Gray's Anatomy 42nd ed.）。",
+          "explanation": "プランク保持は等尺性収縮の代表例。筋肉の長さは変わらない（関節は動かない）が、重力に対抗してしっかり力を出している。「止める・保つ」モード。ヨガのポーズ保持の多くは等尺性収縮。",
           "source": "Gray's Anatomy 42nd ed.",
           "reference_text_ids": [
             "contraction-types-basics"
           ]
         },
         {
-          "question_text": "ダンベルをゆっくり下ろすとき、上腕二頭筋に起こっている収縮はどれか？",
+          "question_text": "チャトランガで体をゆっくり下ろしていくとき、上腕三頭筋に起こっている収縮タイプはどれか？",
           "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "easy",
           "choices": [
             {
-              "text": "求心性収縮",
+              "text": "求心性収縮 — 筋肉が縮んで腕を曲げている",
               "is_correct": false
             },
             {
-              "text": "等尺性収縮",
-              "is_correct": false
-            },
-            {
-              "text": "遠心性収縮",
+              "text": "遠心性収縮 — 筋肉が伸びながらブレーキをかけている",
               "is_correct": true
             },
             {
-              "text": "筋肉は完全に休んでいる",
+              "text": "等尺性収縮 — 長さを変えずに保持している",
+              "is_correct": false
+            },
+            {
+              "text": "筋肉はリラックスしている",
               "is_correct": false
             }
           ],
-          "explanation": "遠心性収縮（eccentric contraction）とは、筋肉が伸びながら力を出す「ブレーキをかける」動作のこと。ダンベルをゆっくり下ろすとき、上腕二頭筋は伸ばされているのに力を出し続けて、重力に逆らいながら速度をコントロールしている。もし二頭筋が完全に力を抜いたら、ダンベルは一気にストンと落ちてしまう。「ゆっくり制御する」＝遠心性収縮と覚えるとよい（Gray's Anatomy 42nd ed.）。",
-          "source": "Gray's Anatomy 42nd ed.",
-          "reference_text_ids": [
-            "contraction-types-basics"
-          ]
-        },
-        {
-          "question_text": "プランクポーズを保持しているとき、体幹の筋肉に起こっている収縮はどれか？",
-          "interaction_type": "standard_mcq",
-          "question_type": "text_only",
-          "difficulty": "easy",
-          "choices": [
-            {
-              "text": "求心性収縮",
-              "is_correct": false
-            },
-            {
-              "text": "遠心性収縮",
-              "is_correct": false
-            },
-            {
-              "text": "等尺性収縮",
-              "is_correct": true
-            },
-            {
-              "text": "筋肉は収縮していない",
-              "is_correct": false
-            }
-          ],
-          "explanation": "等尺性収縮（isometric contraction）とは、筋肉の長さが変わらずに力だけを出す「止める・保つ」動作のこと。プランクでは腹筋群や脊柱起立筋が縮んでも伸びてもいないが、しっかり力を出して体幹をまっすぐに保っている。壁を押す動作も等尺性収縮（壁は動かないが腕の筋肉は力を出している）。関節が動かなくても筋肉は働いている — 「止まっている≠休んでいる」（Gray's Anatomy 42nd ed.）。",
-          "source": "Gray's Anatomy 42nd ed.",
-          "reference_text_ids": [
-            "contraction-types-basics"
-          ]
-        },
-        {
-          "question_text": "階段を下りるとき大腿四頭筋に起こる収縮のタイプと、翌日の筋肉痛（DOMS）の関係として正しいのはどれか？",
-          "interaction_type": "standard_mcq",
-          "question_type": "text_only",
-          "difficulty": "medium",
-          "choices": [
-            {
-              "text": "等尺性収縮が主体で、DOMSは起こりにくい",
-              "is_correct": false
-            },
-            {
-              "text": "遠心性収縮が主体で、DOMSが起こりやすい",
-              "is_correct": true
-            },
-            {
-              "text": "求心性収縮が主体で、DOMSが起こりやすい",
-              "is_correct": false
-            },
-            {
-              "text": "筋肉は使われておらず、DOMSは関節の問題",
-              "is_correct": false
-            }
-          ],
-          "explanation": "階段を下りるとき、大腿四頭筋は伸ばされながら体重を支える遠心性収縮を行っている（膝が曲がるのをブレーキして制御している）。遠心性収縮は3つの収縮タイプの中で筋線維への負荷が最も大きく、DOMS（遅発性筋痛）の主な原因になる。「登山で下りの方が翌日つらい」のはこれが理由。上りは大腿四頭筋の求心性収縮が主体で、遠心性収縮ほど筋線維にダメージを与えない（Standring 2020）。",
-          "source": "Standring 2020",
-          "reference_text_ids": [
-            "contraction-types-basics"
-          ]
-        },
-        {
-          "question_text": "椅子から立ち上がる→立っている→座るという一連の動作で、大腿四頭筋の収縮タイプの順番として正しいのはどれか？",
-          "interaction_type": "standard_mcq",
-          "question_type": "text_only",
-          "difficulty": "medium",
-          "choices": [
-            {
-              "text": "等尺性 → 求心性 → 遠心性",
-              "is_correct": false
-            },
-            {
-              "text": "求心性 → 等尺性 → 遠心性",
-              "is_correct": true
-            },
-            {
-              "text": "遠心性 → 等尺性 → 求心性",
-              "is_correct": false
-            },
-            {
-              "text": "3つとも求心性収縮",
-              "is_correct": false
-            }
-          ],
-          "explanation": "日常動作では3種類の収縮がシームレスに切り替わる。①椅子から立ち上がる＝求心性収縮（大腿四頭筋が縮んで膝を伸ばし、身体を持ち上げる）。②立っている＝等尺性収縮（膝が伸びた状態を保持、筋の長さは変わらない）。③座る＝遠心性収縮（大腿四頭筋が伸びながらブレーキをかけて、重力に逆らいゆっくり腰を下ろす）。ヨガのポーズも同じ — ポーズに入る＝求心性、保持＝等尺性、解く＝遠心性（Gray's Anatomy 42nd ed.）。",
-          "source": "Gray's Anatomy 42nd ed.",
-          "reference_text_ids": [
-            "contraction-types-basics"
-          ]
-        },
-        {
-          "question_text": "ヨガの指導で「ゆっくり下ろして」というキューは、生徒のどの収縮タイプを促しているか？",
-          "interaction_type": "standard_mcq",
-          "question_type": "text_only",
-          "difficulty": "medium",
-          "choices": [
-            {
-              "text": "求心性収縮",
-              "is_correct": false
-            },
-            {
-              "text": "等尺性収縮",
-              "is_correct": false
-            },
-            {
-              "text": "遠心性収縮",
-              "is_correct": true
-            },
-            {
-              "text": "完全な弛緩",
-              "is_correct": false
-            }
-          ],
-          "explanation": "「ゆっくり下ろして」は遠心性収縮の指示。重力に任せてストンと落ちるのではなく、筋肉にブレーキをかけながら制御してゆっくり動く。チャトランガで身体を下ろすとき、上腕三頭筋・大胸筋が遠心性収縮で速度をコントロールしている。同様に「膝を伸ばして」は求心性収縮、「そのまま保持して」は等尺性収縮の指示。収縮タイプを意識すると、指導のキューイングがより正確で安全になる（Kaminoff & Matthews, Yoga Anatomy）。",
+          "explanation": "チャトランガで体を下ろすとき、上腕三頭筋は伸びながらも力を出し続けて「ブレーキ」をかけている。これが遠心性収縮。力を抜けば体はドスンと床に落ちてしまう。遠心性収縮はコントロールされた動きに不可欠。",
           "source": "Kaminoff & Matthews, Yoga Anatomy",
           "reference_text_ids": [
             "contraction-types-basics"
           ]
         },
         {
-          "question_text": "次の日常動作と収縮タイプを正しく組み合わせなさい。",
-          "interaction_type": "matching_pairs",
+          "question_text": "ヨガのポーズで「入る→保持→解く」の3段階では、筋肉の収縮タイプがどう変化するか？",
+          "interaction_type": "standard_mcq",
           "question_type": "text_only",
-          "difficulty": "hard",
-          "metadata": {
-            "pairs": [
-              {
-                "left": "階段を上る（太もも）",
-                "right": "求心性収縮"
-              },
-              {
-                "left": "階段を下りる（太もも）",
-                "right": "遠心性収縮"
-              },
-              {
-                "left": "重い荷物を持ったまま立つ",
-                "right": "等尺性収縮"
-              },
-              {
-                "left": "チャトランガで身体を下ろす",
-                "right": "遠心性収縮"
-              }
-            ]
-          },
+          "difficulty": "medium",
           "choices": [
             {
-              "text": "上り — 求心性、下り — 遠心性、荷物保持 — 等尺性、チャトランガ下降 — 遠心性",
+              "text": "すべて同じ収縮タイプで行われる",
+              "is_correct": false
+            },
+            {
+              "text": "入る＝求心性、保持＝等尺性、解く＝遠心性と切り替わる",
               "is_correct": true
             },
             {
-              "text": "その他の組み合わせ",
+              "text": "入るときだけ筋肉が使われ、保持と解くときは休んでいる",
+              "is_correct": false
+            },
+            {
+              "text": "解くときだけ筋肉が使われる",
               "is_correct": false
             }
           ],
-          "explanation": "階段を上る＝大腿四頭筋の求心性収縮（縮んで膝を伸ばし体を持ち上げる）。階段を下りる＝大腿四頭筋の遠心性収縮（伸びながらブレーキ）。重い荷物を持ったまま立つ＝腕と体幹の等尺性収縮（動かないけど力を出している）。チャトランガ下降＝上腕三頭筋・胸筋の遠心性収縮（伸びながらゆっくり下ろす）。「下ろす」「下りる」動作はほぼ遠心性収縮で、DOMSの原因になりやすい（Gray's Anatomy 42nd ed.）。",
+          "explanation": "ウォーリアIIを例にすると：膝を曲げてポーズに入る＝大腿四頭筋が求心性収縮（動かす）。そのまま保持＝等尺性収縮（止める）。ゆっくり膝を伸ばしてポーズを解く＝遠心性収縮（ブレーキ）。一つのポーズで3つの収縮タイプが連続して切り替わる。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": [
+            "contraction-types-basics"
+          ]
+        },
+        {
+          "question_text": "登山で「上りより下りの方が翌日の筋肉痛がひどい」のはなぜか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            {
+              "text": "下りの方が体重が重くかかるから",
+              "is_correct": false
+            },
+            {
+              "text": "下りは遠心性収縮が主体で、筋線維への微小ダメージが大きいから",
+              "is_correct": true
+            },
+            {
+              "text": "下りでは速筋だけが使われるから",
+              "is_correct": false
+            },
+            {
+              "text": "下りでは酸素が足りなくなるから",
+              "is_correct": false
+            }
+          ],
+          "explanation": "下りでは大腿四頭筋が伸びながら体重を支える「遠心性収縮」が続く。遠心性収縮は筋線維に大きな力がかかりやすく、微小ダメージが生じやすい。これがDOMS（遅発性筋痛）の主原因。ヨガでも「ポーズをゆっくり解く」動作は遠心性収縮であり、初心者の筋肉痛の原因になりやすい。",
+          "source": "Standring 2020",
+          "reference_text_ids": [
+            "contraction-types-basics"
+          ]
+        },
+        {
+          "question_text": "「ゆっくり下ろして」という指導キューは、生徒のどの収縮タイプを促しているか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            {
+              "text": "求心性収縮 — 筋肉を縮めている",
+              "is_correct": false
+            },
+            {
+              "text": "遠心性収縮 — 筋肉にブレーキをかけさせている",
+              "is_correct": true
+            },
+            {
+              "text": "等尺性収縮 — 筋肉を止めている",
+              "is_correct": false
+            },
+            {
+              "text": "収縮タイプとは無関係",
+              "is_correct": false
+            }
+          ],
+          "explanation": "「ゆっくり下ろして」は遠心性収縮を促すキュー。重力に任せてドスンと下ろすのではなく、筋肉にブレーキをかけながらコントロールする。他のキューとの対応：「力を入れて動かして」＝求心性、「そのまま保持して」＝等尺性。収縮タイプを意識すると指導の精度が上がる。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": [
+            "contraction-types-basics"
+          ]
+        },
+        {
+          "question_text": "椅子から立ち上がる→立っている→座る、という一連の動作で大腿四頭筋の収縮タイプはどう変わるか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            {
+              "text": "すべて求心性収縮",
+              "is_correct": false
+            },
+            {
+              "text": "求心性（立ち上がる）→等尺性（立っている）→遠心性（座る）",
+              "is_correct": true
+            },
+            {
+              "text": "遠心性→等尺性→求心性",
+              "is_correct": false
+            },
+            {
+              "text": "等尺性→求心性→遠心性",
+              "is_correct": false
+            }
+          ],
+          "explanation": "立ち上がる＝大腿四頭筋が縮んで膝を伸ばす（求心性）。立っている＝膝を伸ばした状態を維持（等尺性）。座る＝大腿四頭筋が伸びながらブレーキをかけて腰を下ろす（遠心性）。日常動作でも3種類がシームレスに切り替わっている。チェアヨガの動きもこの原理で理解できる。",
           "source": "Gray's Anatomy 42nd ed.",
           "reference_text_ids": [
             "contraction-types-basics"
           ]
         },
         {
-          "question_text": "遠心性収縮が求心性収縮より大きな力を発揮できる理由として正しいのはどれか？",
+          "question_text": "太陽礼拝のチャトランガ→アップドッグ→ダウンドッグの流れで、上腕三頭筋の収縮タイプはどう変化するか？",
           "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "hard",
           "choices": [
             {
-              "text": "遠心性収縮では速筋のみが動員されるから",
+              "text": "すべて求心性収縮",
               "is_correct": false
             },
             {
-              "text": "筋のタンパク質（アクチン・ミオシン）の結合に加え、引き伸ばしへの受動的な抵抗力も加わるから",
+              "text": "遠心性（チャトランガで下ろす）→求心性（アップドッグで押し上げる）→等尺性（ダウンドッグで保持）",
               "is_correct": true
             },
             {
-              "text": "遠心性収縮ではATPが不要だから",
+              "text": "等尺性→遠心性→求心性",
               "is_correct": false
             },
             {
-              "text": "遠心性収縮では全ての筋線維が同時に動員されるから",
+              "text": "上腕三頭筋はこの流れでは使われない",
               "is_correct": false
             }
           ],
-          "explanation": "遠心性収縮では、ミオシンがアクチンを引く力（能動的な力）に加えて、筋肉が引き伸ばされることに対する受動的な抵抗力（弾性成分や結合組織の抵抗）も加わる。このため、同じ筋肉でも遠心性収縮の方が求心性収縮より約20〜60%大きな力を出せる。ヨガ指導では、チャトランガを「下ろす」（遠心性）方が「上げる」（求心性）より筋力的には容易であることを知っておくと、段階的な指導に役立つ。ただし遠心性収縮は筋線維への負荷が大きくDOMSの原因にもなる — 力が出やすい分、ダメージも大きいというトレードオフがある（Standring 2020）。",
-          "source": "Standring 2020",
+          "explanation": "チャトランガで体を下ろす＝上腕三頭筋が伸びながらブレーキ（遠心性）。アップドッグで腕を伸ばして押し上げる＝上腕三頭筋が縮む（求心性）。ダウンドッグで腕を伸ばしたまま保持＝長さを変えずに支える（等尺性）。一つのフローで3種類が流れるように切り替わる。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": [
+            "contraction-types-basics"
+          ]
+        },
+        {
+          "question_text": "初心者クラスの翌日に多くの生徒が「太ももが筋肉痛」と訴えた。最も考えられる原因と今後の対策の組み合わせとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            {
+              "text": "立位ポーズの求心性収縮が原因。立位ポーズをやめる",
+              "is_correct": false
+            },
+            {
+              "text": "ポーズをゆっくり解くときの遠心性収縮が原因。正常な反応と伝え、徐々に慣らす",
+              "is_correct": true
+            },
+            {
+              "text": "等尺性収縮で関節を痛めた。医者に行くよう指導する",
+              "is_correct": false
+            },
+            {
+              "text": "ウォームアップ不足が原因。太陽礼拝を倍に増やす",
+              "is_correct": false
+            }
+          ],
+          "explanation": "ウォーリアIIやチェアポーズから立ち上がるとき、大腿四頭筋は遠心性収縮で大きな負荷がかかる。初心者は筋がまだ適応していないため微小損傷が起こりやすく、DOMS（筋肉痛）が出る。正常な適応反応なので安心させ、徐々に強度を上げて慣らしていくのが適切な対応。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": [
+            "contraction-types-basics"
+          ]
+        },
+        {
+          "question_text": "高齢の生徒にヨガを指導する際、3つの収縮タイプの知識を活かして特に気をつけるべきことはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            {
+              "text": "等尺性収縮（保持）は危険なので一切避ける",
+              "is_correct": false
+            },
+            {
+              "text": "遠心性収縮（ポーズを解く）の動作を特にゆっくり丁寧に指導し、転倒を防ぐ",
+              "is_correct": true
+            },
+            {
+              "text": "高齢者には求心性収縮だけ行わせる",
+              "is_correct": false
+            },
+            {
+              "text": "収縮タイプは年齢に関係なく同じなので特に配慮は不要",
+              "is_correct": false
+            }
+          ],
+          "explanation": "高齢者は速筋の衰えにより遠心性収縮の制御が特に難しくなる。ポーズを「解く」ときに制御が利かず崩れ落ちるリスクがある。「ゆっくり戻しましょう」と丁寧に声をかけ、必要に応じて椅子やブロックを支えとして使う。等尺性収縮（保持）自体は安全だが、血圧上昇に注意。",
+          "source": "McArdle et al., Exercise Physiology; Kaminoff & Matthews, Yoga Anatomy",
           "reference_text_ids": [
             "contraction-types-basics"
           ]
@@ -1800,255 +1832,276 @@
     {
       "name": "筋の基礎とヨガ — 学んだ知識を使いこなす",
       "slug": "muscle-foundation-yoga",
-      "description": "S0-S5の知識を総動員。ヨガのポーズやフローを「筋の言葉」で読み解く",
+      "description": "S0-S5の知識を使いこなす — 実際のクラスでどう活かす？",
       "sort_order": 6,
       "concepts": [
         {
-          "name": "筋の基礎知識のヨガへの応用",
-          "description": "筋の種類・収縮・エネルギー・ペア・収縮タイプの知識をヨガのポーズ指導に統合する"
+          "name": "筋の基礎知識の統合的理解",
+          "description": "骨格筋・収縮タイプ・筋線維タイプ・エネルギーの知識をヨガの場面で統合的に使えるようにする"
+        },
+        {
+          "name": "クラス設計と生徒対応への応用",
+          "description": "学んだ知識をクラス設計や生徒からの質問への対応に活かす"
         }
       ],
       "questions": [
         {
-          "question_text": "ヴィンヤサフローで太陽礼拝A（チャトランガ→アップドッグ→ダウンドッグ）を行うとき、上腕三頭筋に起こる収縮タイプの変化として正しいのはどれか？",
+          "question_text": "ヴィンヤサフローの太陽礼拝A（チャトランガ→アップドッグ→ダウンドッグ）は、なぜ優れたウォームアップなのか？最も包括的な理由はどれか？",
           "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "easy",
           "choices": [
             {
-              "text": "すべて等尺性収縮",
+              "text": "伝統的に最初に行うものだから",
               "is_correct": false
             },
             {
-              "text": "チャトランガで遠心性 → アップドッグで求心性 → ダウンドッグで等尺性",
+              "text": "全身の大きな筋肉を動かすので筋温が上がり、血流が増え、3種類の収縮タイプもすべて含まれるから",
               "is_correct": true
             },
             {
-              "text": "すべて求心性収縮",
+              "text": "速筋だけを集中的に鍛えるから",
               "is_correct": false
             },
             {
-              "text": "チャトランガで求心性 → アップドッグで遠心性 → ダウンドッグで等尺性",
+              "text": "呼吸を止めて行うから",
               "is_correct": false
             }
           ],
-          "explanation": "一つのフローの中で収縮タイプが流れるように切り替わる。チャトランガ：身体を下ろす=上腕三頭筋の遠心性収縮（伸びながらブレーキ）。アップドッグ：腕を伸ばして身体を押し上げる=求心性収縮（縮んで動かす）。ダウンドッグ：腕を伸ばした状態を維持=等尺性収縮（止める・保つ）。収縮タイプを意識すると、フローの中で筋肉が何をしているかが「見える」ようになる（Kaminoff & Matthews, Yoga Anatomy）。",
+          "explanation": "太陽礼拝は①全身の大きな筋群を動かして筋温を上げ柔軟性を高める②血流増加で酸素とエネルギーを行き渡らせる③求心性・等尺性・遠心性の3種類の収縮タイプを含む④呼吸と動きの連動で有酸素エネルギー系を活性化する。S0-S5で学んだ知識が一つの動きに凝縮されている。",
           "source": "Kaminoff & Matthews, Yoga Anatomy",
           "reference_text_ids": [
             "yoga-muscle-foundation"
           ]
         },
         {
-          "question_text": "前屈（パスチモッターナーサナ）で「膝のお皿を上に引き上げて」という指示を出す科学的な根拠はどれか？",
+          "question_text": "ヨガの指導で「膝のお皿を上に引き上げて」という指示を出す科学的な根拠はどれか？",
           "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "easy",
           "choices": [
             {
-              "text": "膝蓋骨を保護するため",
+              "text": "膝蓋骨の位置を変えて見た目を良くするため",
               "is_correct": false
             },
             {
-              "text": "大腿四頭筋を活性化し、相反抑制でハムストリングスを緩めるため",
+              "text": "大腿四頭筋を収縮させ、相反抑制でハムストリングスを緩めてストレッチを深めるため",
               "is_correct": true
             },
             {
-              "text": "足関節の安定性を高めるため",
+              "text": "膝関節を完全にロックするため",
               "is_correct": false
             },
             {
-              "text": "大腿四頭筋をストレッチするため",
+              "text": "骨格筋ではなく腱を鍛えるため",
               "is_correct": false
             }
           ],
-          "explanation": "「膝のお皿を引き上げて」は大腿四頭筋（太もも前面）の求心性収縮を促すキュー。大腿四頭筋が縮むと、相反抑制によりその拮抗筋であるハムストリングス（太もも裏面）の緊張が自動的に低下する。緊張が下がったハムストリングスはより安全に、より深く伸ばせる。S4で学んだ「主動筋-拮抗筋のペア」と「相反抑制」がそのまま指導テクニックになる好例（Kaminoff & Matthews, Yoga Anatomy）。",
+          "explanation": "「膝のお皿を引き上げて」は大腿四頭筋を収縮させるキュー。大腿四頭筋が縮むと相反抑制によりハムストリングスの緊張が自動的に下がる。結果としてストレッチが深まる。解剖学的根拠のある効果的な指導法。",
           "source": "Kaminoff & Matthews, Yoga Anatomy",
           "reference_text_ids": [
             "yoga-muscle-foundation"
           ]
         },
         {
-          "question_text": "ウォーリアIIを30秒以上保持しているとき、前脚の大腿四頭筋で主に動員されている筋線維タイプはどれか？",
-          "interaction_type": "standard_mcq",
-          "question_type": "text_only",
-          "difficulty": "easy",
-          "choices": [
-            {
-              "text": "Type II（速筋）が主体",
-              "is_correct": false
-            },
-            {
-              "text": "Type I（遅筋）が主体",
-              "is_correct": true
-            },
-            {
-              "text": "心筋線維",
-              "is_correct": false
-            },
-            {
-              "text": "保持時間と筋線維タイプは無関係",
-              "is_correct": false
-            }
-          ],
-          "explanation": "ウォーリアIIのような長時間保持は持久的な活動で、疲れにくいType I（遅筋）線維が主に動員される。脳は「サイズの原則」に従い、まず小さな遅筋線維を動員し、力が足りなくなると大きな速筋線維を追加で動員する。「脚が震えてきた」のは、遅筋が疲労して速筋も動員され始めたサイン。ここで「あと5呼吸」と指導するか「休んで」と指導するかは、生徒の状態を見て判断する（Standring 2020）。",
-          "source": "Standring 2020",
-          "reference_text_ids": [
-            "yoga-muscle-foundation"
-          ]
-        },
-        {
-          "question_text": "初心者クラスの後に多くの生徒が「翌日に太ももが筋肉痛」と訴えた。最も考えられる原因と対応の組み合わせとして正しいのはどれか？",
+          "question_text": "ウォーリアIIを30秒以上保持しているとき、前脚の大腿四頭筋で主に動員されている筋線維タイプと収縮タイプの正しい組み合わせはどれか？",
           "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "medium",
           "choices": [
             {
-              "text": "ウォーリア系の遠心性収縮によるDOMS / 正常な反応と伝え、次回は強度を調整する",
+              "text": "速筋 + 求心性収縮",
+              "is_correct": false
+            },
+            {
+              "text": "遅筋 + 等尺性収縮",
               "is_correct": true
             },
             {
-              "text": "関節の炎症 / 即座に医師の受診を勧める",
+              "text": "速筋 + 遠心性収縮",
               "is_correct": false
             },
             {
-              "text": "乳酸の蓄積 / アイシングで乳酸を除去する",
-              "is_correct": false
-            },
-            {
-              "text": "骨格筋の断裂 / 数週間の安静を指示する",
+              "text": "遅筋 + 遠心性収縮",
               "is_correct": false
             }
           ],
-          "explanation": "ウォーリアIIやチェアポーズでは、大腿四頭筋が伸ばされながら体重を支える遠心性収縮が長く続く。初心者はこの負荷に慣れていないため、筋線維の微小損傷によるDOMS（遅発性筋痛）が翌日〜2日後に出やすい。「乳酸が原因」は誤解（乳酸は運動後すぐに分解される）。指導者の対応としては、①正常な適応反応であること、②修復されると以前より強くなること（超回復）を伝え、③次回は立位ポーズの保持時間を短くするなど強度を調整する（Kaminoff & Matthews, Yoga Anatomy）。",
+          "explanation": "ウォーリアII保持は中程度の力を長時間出す活動→遅筋（Type I/持久力型）が主体。膝の角度を変えずに保持→等尺性収縮（長さを変えずに力を出す）。S2（遅筋と速筋）とS5（3つの収縮タイプ）の知識を組み合わせて答える統合問題。",
           "source": "Kaminoff & Matthews, Yoga Anatomy",
           "reference_text_ids": [
             "yoga-muscle-foundation"
           ]
         },
         {
-          "question_text": "シャヴァーサナ（屍のポーズ）で全身の筋肉をリラックスさせるとき、筋肉の中で起こっていることとして正しいのはどれか？",
+          "question_text": "シャヴァーサナで「全身の筋肉をリラックスさせましょう」と指示したとき、体の中で起こっていることの正確な説明はどれか？",
           "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "medium",
           "choices": [
             {
-              "text": "アクチンとミオシンが分解されている",
+              "text": "すべての筋肉（骨格筋・心筋・平滑筋）が弛緩する",
               "is_correct": false
             },
             {
-              "text": "カルシウムイオンが回収され、アクチンとミオシンの結合が解除されている",
+              "text": "骨格筋への脳からの信号が止まり弛緩するが、心筋と平滑筋は動き続ける",
               "is_correct": true
             },
             {
-              "text": "筋肉が自力で伸びている",
+              "text": "筋肉内のエネルギーがすべて消費される",
               "is_correct": false
             },
             {
-              "text": "骨格筋が平滑筋に変わっている",
+              "text": "腱が緩んで筋肉が骨から離れる",
               "is_correct": false
             }
           ],
-          "explanation": "シャヴァーサナで筋肉を意識的にリラックスさせると、脳から筋肉への信号が止まり、カルシウムイオン（Ca²⁺）が回収される。Ca²⁺がなくなるとアクチンとミオシンの結合が解除され、筋肉は力を出さない「オフ」状態になる。S1で学んだ「Ca²⁺がスイッチ」という原理がそのまま当てはまる。大事なのは「筋肉は自力では伸びない」ということ。弛緩した筋肉は重力で自然に広がっているだけ。だからシャヴァーサナでは体を平らに寝かせる — 重力が全身の筋を均等に「引き伸ばす」ようにするためである（Standring 2020）。",
-          "source": "Standring 2020",
+          "explanation": "「力を抜く」＝骨格筋（随意筋）への収縮信号が止まり弛緩する（S0の知識）。しかし心筋（不随意筋）は拍動を続け、消化管の平滑筋（不随意筋）も働き続ける。シャヴァーサナで安心して全身を委ねられるのは、生命維持の筋肉が意識とは独立して動くから。",
+          "source": "Gray's Anatomy 42nd ed.",
           "reference_text_ids": [
             "yoga-muscle-foundation"
           ]
         },
         {
-          "question_text": "ヨガのクラス設計で、太陽礼拝をウォームアップに置く理由として、S0-S5の知識に基づく最も包括的な説明はどれか？",
+          "question_text": "ヨガのクラスで太陽礼拝をウォームアップに行う理由と、「呼吸を止めないで」と指示する理由は、どちらもエネルギーの観点から説明できる。その説明として正しいのはどれか？",
           "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "medium",
           "choices": [
             {
-              "text": "筋温上昇→血流増加→有酸素系の効率向上→筋の粘弾性低下→ケガ予防",
+              "text": "太陽礼拝は速筋を活性化し、呼吸は心筋を動かすため",
+              "is_correct": false
+            },
+            {
+              "text": "太陽礼拝で筋温を上げてエネルギー産生を効率化し、呼吸で酸素を供給して有酸素エネルギーを維持するため",
               "is_correct": true
             },
             {
-              "text": "速筋のみを活性化してパワーを出す準備",
+              "text": "太陽礼拝は遅筋だけを使い、呼吸は平滑筋を動かすため",
               "is_correct": false
             },
             {
-              "text": "遠心性収縮を先に行いDOMSへの耐性をつける",
-              "is_correct": false
-            },
-            {
-              "text": "クレアチンリン酸を消費してエネルギー系をリセットする",
+              "text": "どちらも精神的な効果だけで科学的根拠はない",
               "is_correct": false
             }
           ],
-          "explanation": "太陽礼拝のウォームアップ効果を筋学の知識で説明すると：①全身の骨格筋（S0で学習）を動かして筋温が上昇→②血流が増え酸素供給が改善→有酸素系（S3で学習）が効率よく働く準備ができる→③筋肉の粘弾性（粘り気）が低下して柔らかくなる→④ケガのリスクが低下。さらに、3種類の収縮タイプ（S5で学習）が太陽礼拝の中で自然に切り替わり、すべての収縮パターンの準備運動にもなっている（Kaminoff & Matthews, Yoga Anatomy）。",
+          "explanation": "太陽礼拝のウォームアップ＝筋温上昇→血流増加→酸素とエネルギーが筋肉に行き渡る（S3の知識）。呼吸を止めない＝ヨガは有酸素系エネルギーが主体なので、酸素供給を途切れさせない（S3の知識）。どちらも筋肉のエネルギー供給を最適化するための科学的に正しい指導。",
           "source": "Kaminoff & Matthews, Yoga Anatomy",
           "reference_text_ids": [
             "yoga-muscle-foundation"
           ]
         },
         {
-          "question_text": "次のヨガの指導キューと、それが促す筋の動作を正しく組み合わせなさい。",
-          "interaction_type": "matching_pairs",
+          "question_text": "次のヨガの指導キューと、それが促す筋の動作の組み合わせとして正しいのはどれか？",
+          "interaction_type": "standard_mcq",
           "question_type": "text_only",
-          "difficulty": "hard",
-          "metadata": {
-            "pairs": [
-              {
-                "left": "「膝を伸ばして」",
-                "right": "大腿四頭筋の求心性収縮"
-              },
-              {
-                "left": "「ゆっくり下ろして」",
-                "right": "上腕三頭筋の遠心性収縮"
-              },
-              {
-                "left": "「そのまま5呼吸保持」",
-                "right": "等尺性収縮"
-              },
-              {
-                "left": "「膝のお皿を引き上げて」",
-                "right": "相反抑制でハムストリングスを緩める"
-              }
-            ]
-          },
+          "difficulty": "medium",
           "choices": [
             {
-              "text": "伸ばして — 求心性、下ろして — 遠心性、保持 — 等尺性、引き上げて — 相反抑制",
+              "text": "「ゆっくり下ろして」＝求心性収縮、「そのまま保持」＝遠心性収縮",
+              "is_correct": false
+            },
+            {
+              "text": "「力を入れて持ち上げて」＝求心性収縮、「そのまま保持」＝等尺性収縮、「ゆっくり下ろして」＝遠心性収縮",
               "is_correct": true
             },
             {
-              "text": "その他の組み合わせ",
+              "text": "「力を入れて」＝等尺性収縮、「下ろして」＝求心性収縮",
+              "is_correct": false
+            },
+            {
+              "text": "指導キューと収縮タイプには関連がない",
               "is_correct": false
             }
           ],
-          "explanation": "ヨガの指導キューは、裏を返すと筋の動作指示である。「膝を伸ばして」=大腿四頭筋を縮めて膝を伸展（求心性収縮）。「ゆっくり下ろして」=重力に逆らってブレーキ（遠心性収縮）。「5呼吸保持」=筋の長さを変えずに力を維持（等尺性収縮）。「お皿を引き上げて」=四頭筋を活性化して相反抑制でハムを緩める。この対応を理解した指導者は、なぜそのキューを出すのかを科学的に説明でき、生徒の信頼も深まる（Kaminoff & Matthews, Yoga Anatomy）。",
+          "explanation": "指導キューは実は筋収縮タイプの指示でもある。「力を入れて持ち上げて（動かして）」＝求心性収縮。「そのまま保持（止めて）」＝等尺性収縮。「ゆっくり下ろして（ブレーキかけて）」＝遠心性収縮。S5の知識を指導の現場に直接活かせる。",
           "source": "Kaminoff & Matthews, Yoga Anatomy",
           "reference_text_ids": [
             "yoga-muscle-foundation"
           ]
         },
         {
-          "question_text": "高齢の生徒にヨガを指導する際、筋学の知識に基づいて特に意識すべきことはどれか？",
+          "question_text": "初心者クラスの後に複数の生徒から「翌日に太ももが筋肉痛」と報告があった。S0-S5の知識に基づく原因と対応の組み合わせとして最も適切なのはどれか？",
           "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "hard",
           "choices": [
             {
-              "text": "速筋の萎縮による瞬発力低下を考慮し、バランス練習と適度な動的ポーズを含める",
+              "text": "遅筋の疲労が原因。今後は短い保持時間にする",
+              "is_correct": false
+            },
+            {
+              "text": "立位ポーズを解くときの遠心性収縮でDOMSが発生。正常な適応反応と伝え安心させ、アクティブリカバリーを勧める",
               "is_correct": true
             },
             {
-              "text": "高齢者は遅筋のみ使用するため、等尺性収縮だけのプログラムにする",
+              "text": "ウォームアップ不足で筋断裂を起こした。医者に行くよう指導する",
               "is_correct": false
             },
             {
-              "text": "筋肉痛が出ないよう、遠心性収縮を完全に避ける",
-              "is_correct": false
-            },
-            {
-              "text": "骨格筋は加齢の影響を受けないため、通常と同じプログラムでよい",
+              "text": "有酸素系エネルギーが不足した。呼吸法を重点的に指導する",
               "is_correct": false
             }
           ],
-          "explanation": "S2で学んだように、加齢では速筋（Type II）が優先的に萎縮する。これにより瞬発力が低下し、つまずいたときの素早い立ち直り反応が鈍くなる。だから高齢者のプログラムでは、①遅筋を使う長時間保持（ウォーリア系）に加え、②速筋を刺激する動的なポーズ移行や、③共収縮を促すバランスポーズ（木のポーズ）を組み込むことが重要。遠心性収縮を完全に避ける必要はなく、強度を調整すればDOMSは最小限に抑えられる。「適切な負荷と十分な回復」のバランスが鍵（McArdle et al., Exercise Physiology; Kaminoff & Matthews, Yoga Anatomy）。",
-          "source": "McArdle et al., Exercise Physiology",
+          "explanation": "ウォーリアII等の立位ポーズからゆっくり戻る動作で大腿四頭筋に遠心性収縮がかかり（S5）、初心者は筋が適応していないためDOMS（遅発性筋痛）が生じやすい（S3）。正常な適応反応であること、修復後は強くなること（超回復）、軽い動きが回復を助けることを伝えて安心させる。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": [
+            "yoga-muscle-foundation"
+          ]
+        },
+        {
+          "question_text": "高齢の生徒にヨガを指導する際、S0-S5の知識に基づいて特に意識すべきことの組み合わせとして最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            {
+              "text": "遅筋が衰えるので保持ポーズを避け、速筋を鍛える激しい動きだけにする",
+              "is_correct": false
+            },
+            {
+              "text": "速筋の衰えによる転倒リスクに配慮し、安全な動的要素を含め、ポーズを解く動作（遠心性収縮）を特にゆっくり指導する",
+              "is_correct": true
+            },
+            {
+              "text": "高齢者は骨格筋が不随意筋になるので指示しても動かせない",
+              "is_correct": false
+            },
+            {
+              "text": "年齢に関係なく同じ内容のクラスで問題ない",
+              "is_correct": false
+            }
+          ],
+          "explanation": "加齢で速筋が優先的に衰える（S2）→つまずき時の瞬発的な立て直しが遅くなり転倒リスク上昇。安全な範囲で動的な要素を入れて速筋を刺激する。また遠心性収縮の制御が難しくなるため（S5）、ポーズを解くときの「ゆっくり戻しましょう」の声かけが特に重要。椅子やブロック等の補助具も活用する。",
+          "source": "McArdle et al., Exercise Physiology; Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": [
+            "yoga-muscle-foundation"
+          ]
+        },
+        {
+          "question_text": "生徒が「心拍が速い」と感じている。直接心拍をコントロールすることはできないが、S0で学んだ知識を使って間接的に落ち着かせる方法はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            {
+              "text": "激しいポーズで体を疲れさせれば心拍が下がる",
+              "is_correct": false
+            },
+            {
+              "text": "横隔膜（骨格筋＝随意筋）を使った深くゆっくりした呼吸で副交感神経を刺激し、間接的に心拍を下げる",
+              "is_correct": true
+            },
+            {
+              "text": "腹筋に力を入れて心臓を圧迫する",
+              "is_correct": false
+            },
+            {
+              "text": "心筋は随意筋なので意識的に心拍を下げるよう指示する",
+              "is_correct": false
+            }
+          ],
+          "explanation": "心筋は不随意筋なので直接コントロールできない（S0の知識）。しかし横隔膜は骨格筋（随意筋）なので意識的にコントロールできる。深くゆっくりした呼吸→迷走神経（副交感神経）を刺激→間接的に心拍低下。「コントロールできる筋肉を通じて、コントロールできない筋肉に影響を与える」のがプラーナーヤーマの科学的根拠。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy; Polsgrove et al. 2016",
           "reference_text_ids": [
             "yoga-muscle-foundation"
           ]
