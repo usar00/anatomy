@@ -11,7 +11,7 @@
     {
       "id": "skeletal-muscle-overview",
       "title": "骨格筋 — あなたが動かす筋肉",
-      "content": "人体には3種類の筋組織がある。①骨格筋（skeletal muscle）：自分の意思で動かせる唯一の筋（随意筋）。骨に付着して身体を動かす。ヨガや運動で鍛える対象はすべてこの骨格筋。体重の約40-50%を占め、全身に約600以上存在する。②心筋（cardiac muscle）：心臓の壁を構成する筋。自動的に一生涯拍動し続ける不随意筋で、自分の意思では止められない。③平滑筋（smooth muscle）：消化管・血管・膀胱など内臓の壁にある不随意筋。食べ物を胃から腸に送る蠕動運動や、血管の収縮・拡張を担う。骨格筋は脳からの指令が運動神経を通じて伝わることで収縮する。ヨガで「右腕を上げて」と思えば、脳→脊髄→運動神経→三角筋という経路で指令が届き、三角筋が収縮して腕が上がる。一方、心筋や平滑筋は自律神経の支配下にあり、意識的なコントロールの対象外。ヨガ指導で扱う「筋肉を使う」「筋肉を伸ばす」は、すべて骨格筋のことである（Gray's Anatomy 42nd ed.; Standring 2020）。"
+      "content": "人体には3種類の筋肉がある。①骨格筋（skeletal muscle）：自分の意思で動かせる唯一の筋肉（随意筋）。腕を上げる、脚を曲げるなど、ヨガのポーズで使う筋肉はすべて骨格筋である。体重の約40〜50%を占め、全身に約600以上ある。骨格筋は「腱」（けん）という丈夫なロープ状の組織を介して骨に付着しており、筋肉が縮む力を骨に伝えて関節を動かす。アキレス腱が代表例。②心筋（cardiac muscle）：心臓の壁にある筋肉。自律神経に支配される不随意筋で、自分の意思では動かせない。一生涯自動的に拍動し続ける。③平滑筋（smooth muscle）：消化管や血管の壁にある不随意筋。食べ物を胃から腸へ送る蠕動運動などを担う。\n\nヨガ指導者にとって大切なポイント：「筋肉を使って」「力を抜いて」という指示は、すべて骨格筋に対するもの。心筋や平滑筋には声で指示しても効かない。ただし横隔膜は骨格筋に分類されるため、プラーナーヤーマ（呼吸法）で意識的にコントロールできる。シャヴァーサナで「全身の力を抜いて」と指示すると骨格筋は弛緩するが、心臓（心筋）も消化管（平滑筋）も止まることなく動き続ける。また、ヨガのツイストや前屈は消化管の平滑筋を直接コントロールするわけではないが、腹部への圧迫や副交感神経の活性化を通じて消化を間接的に助けることができる（Gray's Anatomy 42nd ed.; Kaminoff & Matthews, Yoga Anatomy）。"
     },
     {
       "id": "muscle-force-generation",
@@ -158,17 +158,21 @@
     {
       "name": "骨格筋 — あなたが動かす筋肉",
       "slug": "skeletal-muscle-overview",
-      "description": "ヨガで「筋肉を使う」とは、骨格筋を使うこと。3種類の筋の違いを知ろう",
+      "description": "ヨガで「筋肉を使う」とは？3種類の筋肉を知り、指導の土台を作ろう",
       "sort_order": 0,
       "concepts": [
         {
-          "name": "骨格筋の基本",
-          "description": "骨格筋が随意筋であること、腱で骨に付着すること、体重の約40-50%を占めることを理解する"
+          "name": "ヨガで使う筋肉（骨格筋）の基本",
+          "description": "骨格筋が随意筋であること、腱で骨に付着すること、横隔膜が骨格筋であることを理解する"
+        },
+        {
+          "name": "3種類の筋肉の違いとヨガ指導への活かし方",
+          "description": "骨格筋・心筋・平滑筋の違いを知り、ヨガの指示が効く範囲と間接的な効果を理解する"
         }
       ],
       "questions": [
         {
-          "question_text": "人体の筋組織のうち、自分の意思で動かせる「随意筋」はどれか？",
+          "question_text": "ヨガクラスで「腕の筋肉を使って持ち上げましょう」と指示したとき、生徒が動かしているのはどの種類の筋肉か？",
           "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "easy",
@@ -186,237 +190,244 @@
               "is_correct": false
             },
             {
-              "text": "心筋と骨格筋の両方",
+              "text": "3種類すべて",
               "is_correct": false
             }
           ],
-          "explanation": "自分の意思で動かせる筋肉（随意筋）は骨格筋だけである。「右腕を上げよう」と思えば、脳→脊髄→運動神経→骨格筋（三角筋など）という経路で指令が届き、腕が上がる。心筋（心臓の筋肉）と平滑筋（内臓の壁にある筋肉）は自律神経に支配される「不随意筋」で、自分の意思では動かせない。ヨガで「筋肉を使う」「筋肉を伸ばす」というとき、対象はすべて骨格筋のことである（Gray's Anatomy 42nd ed.）。",
+          "explanation": "ヨガで使う「筋肉」はすべて骨格筋である。人体には3種類の筋肉（骨格筋・心筋・平滑筋）があるが、自分の意思で動かせるのは骨格筋だけ。「力を入れて」「伸ばして」というヨガの指示はすべて骨格筋に向けたもの。心筋（心臓）や平滑筋（消化管）は意識的にはコントロールできない。",
           "source": "Gray's Anatomy 42nd ed.",
           "reference_text_ids": [
             "skeletal-muscle-overview"
           ]
         },
         {
-          "question_text": "心臓の壁を構成する心筋の特徴として正しいのはどれか？",
+          "question_text": "骨格筋が骨を動かすために、筋肉と骨の間をつないでいる丈夫な組織は何か？",
           "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "easy",
           "choices": [
             {
-              "text": "自分の意思で拍動を止められる",
+              "text": "靭帯（じんたい）",
               "is_correct": false
             },
             {
-              "text": "一生涯自動的に拍動し続ける不随意筋である",
+              "text": "腱（けん）",
               "is_correct": true
             },
             {
-              "text": "骨に付着して関節を動かす",
+              "text": "関節軟骨",
               "is_correct": false
             },
             {
-              "text": "消化管にも存在する",
+              "text": "骨膜",
               "is_correct": false
             }
           ],
-          "explanation": "心筋は心臓にだけ存在する特殊な筋肉で、自律神経の支配を受けて自動的に拍動する不随意筋である。出生から死亡まで一瞬も休むことなく収縮し続ける — 80年間で約30億回。自分の意思で「心臓を止めて」「心拍を速くして」とはできない。骨に付着するのは骨格筋、消化管にあるのは平滑筋の役割である（Standring 2020）。",
-          "source": "Standring 2020",
-          "reference_text_ids": [
-            "skeletal-muscle-overview"
-          ]
-        },
-        {
-          "question_text": "平滑筋が存在する場所として正しいのはどれか？",
-          "interaction_type": "standard_mcq",
-          "question_type": "text_only",
-          "difficulty": "easy",
-          "choices": [
-            {
-              "text": "上腕の前面（力こぶの部分）",
-              "is_correct": false
-            },
-            {
-              "text": "心臓の壁",
-              "is_correct": false
-            },
-            {
-              "text": "消化管や血管の壁",
-              "is_correct": true
-            },
-            {
-              "text": "頭蓋骨の縫合部",
-              "is_correct": false
-            }
-          ],
-          "explanation": "平滑筋は消化管（胃・腸）、血管、膀胱、子宮など、中空の臓器の壁に存在する不随意筋である。食後に食べ物が胃から腸へ自動的に送られるのは、消化管の壁にある平滑筋が蠕動運動（ぜんどう：波打つように順番に収縮する動き）を行っているから。上腕の力こぶは骨格筋（上腕二頭筋）、心臓の壁は心筋であり、平滑筋ではない（Gray's Anatomy 42nd ed.）。",
+          "explanation": "骨格筋は「腱」を介して骨に付着している。腱は筋肉の力を骨に伝える「力の伝達ケーブル」。アキレス腱（ふくらはぎの筋肉と踵の骨をつなぐ）が代表例。靭帯は骨と骨をつなぐ別の組織で、腱とは役割が違う。",
           "source": "Gray's Anatomy 42nd ed.",
           "reference_text_ids": [
             "skeletal-muscle-overview"
           ]
         },
         {
-          "question_text": "ヨガのクラスで「腹筋を使って」と指示したとき、生徒が使うのはどの種類の筋か？",
+          "question_text": "プラーナーヤーマ（呼吸法）で呼吸をゆっくりにしたり止めたりできるのはなぜか？",
           "interaction_type": "standard_mcq",
           "question_type": "text_only",
-          "difficulty": "easy",
+          "difficulty": "medium",
           "choices": [
             {
-              "text": "平滑筋",
+              "text": "肺が自分の意思で膨らむから",
               "is_correct": false
             },
             {
-              "text": "心筋",
-              "is_correct": false
-            },
-            {
-              "text": "骨格筋",
+              "text": "横隔膜が骨格筋（随意筋）で、意識的にコントロールできるから",
               "is_correct": true
             },
             {
-              "text": "平滑筋と骨格筋の両方",
+              "text": "心筋が呼吸のリズムを作っているから",
+              "is_correct": false
+            },
+            {
+              "text": "平滑筋が気管支を広げるから",
               "is_correct": false
             }
           ],
-          "explanation": "「腹筋を使って」の指示で使われるのは骨格筋（腹直筋、腹横筋など）である。骨格筋だけが随意筋であり、自分の意思で収縮・弛緩をコントロールできる。腹部には消化管の平滑筋も存在するが、これは自律神経の支配下にあり、ヨガの指示で意識的に使えるものではない。ヨガで扱う「筋肉」は基本的にすべて骨格筋と考えてよい（Kaminoff & Matthews, Yoga Anatomy）。",
+          "explanation": "呼吸の主役である横隔膜は、骨格筋に分類される随意筋。普段は無意識に自動的に動くが（安静呼吸）、ヨガの呼吸法のように自分の意思でもコントロールできる。もし横隔膜が不随意筋だったら、息を止めたり深くゆっくり吸う呼吸法はそもそも不可能だろう。",
+          "source": "Gray's Anatomy 42nd ed.; Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": [
+            "skeletal-muscle-overview"
+          ]
+        },
+        {
+          "question_text": "ヨガの指示（「力を入れて」「力を抜いて」）は骨格筋にしか効かない。その理由は？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            {
+              "text": "骨格筋が最も大きい筋肉だから",
+              "is_correct": false
+            },
+            {
+              "text": "骨格筋だけが自分の意思でコントロールできる随意筋だから",
+              "is_correct": true
+            },
+            {
+              "text": "心筋や平滑筋は耳が聞こえないから",
+              "is_correct": false
+            },
+            {
+              "text": "骨格筋だけが腱でつながっているから",
+              "is_correct": false
+            }
+          ],
+          "explanation": "骨格筋は脳から運動神経を通じて指令を送れる唯一の筋肉（随意筋）。「右手を上げよう」と思えば脳→脊髄→運動神経→骨格筋と信号が伝わる。心筋や平滑筋は自律神経の支配下にあり（不随意筋）、意識的な「力を入れて」の指示には反応しない。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": [
+            "skeletal-muscle-overview"
+          ]
+        },
+        {
+          "question_text": "シャヴァーサナで「全身の力を抜いて」と指示したとき、心臓や消化管が止まらないのはなぜか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            {
+              "text": "シャヴァーサナでは完全にはリラックスしていないから",
+              "is_correct": false
+            },
+            {
+              "text": "心臓（心筋）と消化管（平滑筋）は不随意筋で、意識とは関係なく動き続けるから",
+              "is_correct": true
+            },
+            {
+              "text": "心臓と消化管は骨格筋でできているが、特別に保護されているから",
+              "is_correct": false
+            },
+            {
+              "text": "脳が緊急時には自動的に動かすから",
+              "is_correct": false
+            }
+          ],
+          "explanation": "「全身の力を抜いて」は骨格筋（随意筋）にだけ効く指示。心筋と平滑筋は不随意筋なので、リラクゼーション中も自律神経の制御のもとで動き続ける。だからこそ、シャヴァーサナで安心して全身を委ねられる — 心臓も消化管も意識しなくても大丈夫。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": [
+            "skeletal-muscle-overview"
+          ]
+        },
+        {
+          "question_text": "アキレス腱を痛めると、ふくらはぎの筋肉自体は健康でも歩けなくなる。その理由は？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            {
+              "text": "腱が切れると筋肉も一緒に壊れるから",
+              "is_correct": false
+            },
+            {
+              "text": "腱が損傷すると筋肉の力が骨に伝わらなくなるから",
+              "is_correct": true
+            },
+            {
+              "text": "アキレス腱は骨の一部だから",
+              "is_correct": false
+            },
+            {
+              "text": "腱が切れると神経も同時に切れるから",
+              "is_correct": false
+            }
+          ],
+          "explanation": "腱は筋肉と骨をつなぐ「力の伝達ケーブル」。ケーブルが切れれば、筋肉がどれだけ健康でも力が骨に届かない。アキレス腱断裂でつま先立ちができなくなるのはこの理由。ヨガ指導者として、腱への急激な負荷を避ける指導（反動をつけない、ウォームアップの徹底）が大切。",
+          "source": "Gray's Anatomy 42nd ed.",
+          "reference_text_ids": [
+            "skeletal-muscle-overview"
+          ]
+        },
+        {
+          "question_text": "生徒が「最近ヨガを始めてから消化が良くなった気がする」と話した。ヨガのポーズで消化管の筋肉を直接動かしたのだろうか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            {
+              "text": "はい。ツイストポーズで消化管の平滑筋を直接コントロールしている",
+              "is_correct": false
+            },
+            {
+              "text": "いいえ。平滑筋は直接動かせないが、ツイストでの腹部圧迫やリラクゼーションによる副交感神経の活性化で間接的に消化を助けている",
+              "is_correct": true
+            },
+            {
+              "text": "はい。腹筋（骨格筋）が消化管を押して蠕動運動を起こしている",
+              "is_correct": false
+            },
+            {
+              "text": "いいえ。ヨガと消化には科学的な関連はない",
+              "is_correct": false
+            }
+          ],
+          "explanation": "消化管の壁にある平滑筋は不随意筋なので、ヨガの指示で直接動かすことはできない。しかしツイストや前屈で腹部に圧迫を加えることで蠕動運動を物理的に助けたり、リラクゼーションで副交感神経（消化を促進する神経）を活性化することで、間接的に消化を改善できる。「直接は無理だけど、間接的に助けられる」と理解しておくと正確な指導ができる。",
           "source": "Kaminoff & Matthews, Yoga Anatomy",
           "reference_text_ids": [
             "skeletal-muscle-overview"
           ]
         },
         {
-          "question_text": "骨格筋が骨を動かすために必要な構造として正しいのはどれか？",
+          "question_text": "ヨガクラスで「お腹に力を入れて体幹を安定させましょう」と指示した。生徒の体で起こっていることとして正しいのはどれか？",
           "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "medium",
           "choices": [
             {
-              "text": "筋肉が骨に直接溶け込んでいる",
+              "text": "消化管の平滑筋が収縮して体幹が安定する",
               "is_correct": false
             },
             {
-              "text": "腱（けん）を介して骨に付着している",
+              "text": "腹部の骨格筋（腹横筋・腹直筋など）が意識的に収縮して脊柱を安定させている",
               "is_correct": true
             },
             {
-              "text": "靭帯で骨に固定されている",
+              "text": "心筋が強く拍動して体幹に血液を送っている",
               "is_correct": false
             },
             {
-              "text": "関節軟骨を通じて力を伝えている",
+              "text": "腱が硬くなって体を支えている",
               "is_correct": false
             }
           ],
-          "explanation": "骨格筋は腱（けん/tendon）を介して骨に付着している。腱とは筋肉の端にある丈夫なロープ状の組織で、筋肉が縮むときの力を骨に伝える「力の伝達ケーブル」の役割を果たす。例えばアキレス腱は、ふくらはぎの筋肉（腓腹筋・ヒラメ筋）と踵の骨をつなぐ人体最大の腱。靭帯（じんたい）は骨と骨をつなぐ組織で、腱とは役割が異なる（Gray's Anatomy 42nd ed.）。",
-          "source": "Gray's Anatomy 42nd ed.",
+          "explanation": "「お腹に力を入れて」は腹部の骨格筋（腹横筋、腹直筋、腹斜筋など）への指示。これらの骨格筋が収縮して腹腔内圧を高め、脊柱を前方から支えて安定させる。これがヨガの「コアを使う」の正体。消化管の平滑筋（不随意筋）はこの指示には反応しない。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
           "reference_text_ids": [
             "skeletal-muscle-overview"
           ]
         },
         {
-          "question_text": "骨格筋は体重の約何%を占めるか？",
+          "question_text": "ヨガのクラスで「心拍を落ち着かせましょう」と声をかけても、心筋は随意筋ではないので直接は変えられない。間接的に心拍を落ち着かせる方法として正しいのはどれか？",
           "interaction_type": "standard_mcq",
-          "question_type": "text_only",
-          "difficulty": "medium",
-          "choices": [
-            {
-              "text": "約10-15%",
-              "is_correct": false
-            },
-            {
-              "text": "約20-25%",
-              "is_correct": false
-            },
-            {
-              "text": "約40-50%",
-              "is_correct": true
-            },
-            {
-              "text": "約70-80%",
-              "is_correct": false
-            }
-          ],
-          "explanation": "骨格筋は体重の約40〜50%を占め、人体で最も多くの割合を占める組織である。全身に約600以上の骨格筋がある。体重60kgの人なら約24〜30kgが骨格筋ということになる。ヨガで全身を動かすということは、この膨大な量の筋肉を協調的に使いこなすということでもある（Standring 2020）。",
-          "source": "Standring 2020",
-          "reference_text_ids": [
-            "skeletal-muscle-overview"
-          ]
-        },
-        {
-          "question_text": "次の筋の種類とその特徴を正しく組み合わせなさい。",
-          "interaction_type": "matching_pairs",
-          "question_type": "text_only",
-          "difficulty": "medium",
-          "metadata": {
-            "pairs": [
-              {
-                "left": "骨格筋",
-                "right": "自分の意思で動かせる"
-              },
-              {
-                "left": "心筋",
-                "right": "心臓にだけ存在する"
-              },
-              {
-                "left": "平滑筋",
-                "right": "消化管や血管の壁にある"
-              },
-              {
-                "left": "腱",
-                "right": "筋肉と骨をつなぐ"
-              }
-            ]
-          },
-          "choices": [
-            {
-              "text": "骨格筋 — 随意筋、心筋 — 心臓のみ、平滑筋 — 内臓壁、腱 — 筋と骨の接続",
-              "is_correct": true
-            },
-            {
-              "text": "その他の組み合わせ",
-              "is_correct": false
-            }
-          ],
-          "explanation": "骨格筋は自分の意思で動かせる唯一の随意筋で、腱を介して骨に付着する。心筋は心臓にだけ存在し、自動的に拍動する不随意筋。平滑筋は消化管・血管・膀胱など内臓の壁にある不随意筋で、蠕動運動や血管収縮を担う。腱は筋肉と骨をつなぐ「力の伝達ケーブル」で、靭帯（骨と骨をつなぐ）とは別物。この基本的な分類がこの後の筋学すべての土台になる（Gray's Anatomy 42nd ed.）。",
-          "source": "Gray's Anatomy 42nd ed.",
-          "reference_text_ids": [
-            "skeletal-muscle-overview"
-          ]
-        },
-        {
-          "question_text": "「ヨガで呼吸をコントロールできるのは、横隔膜が{{blank}}だからである。」",
-          "interaction_type": "word_bank",
           "question_type": "text_only",
           "difficulty": "hard",
-          "metadata": {
-            "correct_answer": "骨格筋（随意筋）",
-            "word_options": [
-              "骨格筋（随意筋）",
-              "心筋（不随意筋）",
-              "平滑筋（不随意筋）",
-              "靭帯（結合組織）"
-            ],
-            "template": "ヨガで呼吸をコントロールできるのは、横隔膜が{{blank}}だからである。"
-          },
           "choices": [
             {
-              "text": "骨格筋（随意筋）",
+              "text": "腹筋を強く収縮させて心臓を圧迫する",
+              "is_correct": false
+            },
+            {
+              "text": "深くゆっくりした呼吸（横隔膜＝骨格筋の随意的コントロール）で副交感神経を刺激する",
               "is_correct": true
             },
             {
-              "text": "心筋（不随意筋）",
+              "text": "激しいポーズで体温を上げる",
               "is_correct": false
             },
             {
-              "text": "平滑筋（不随意筋）",
-              "is_correct": false
-            },
-            {
-              "text": "靭帯（結合組織）",
+              "text": "目を閉じるだけで心筋の動きが変わる",
               "is_correct": false
             }
           ],
-          "explanation": "横隔膜（おうかくまく）は胸とお腹の間にあるドーム状の筋肉で、呼吸の主役を担う。意外かもしれないが、横隔膜は骨格筋に分類される随意筋である。普段は無意識に自動的に動いているが（安静呼吸）、ヨガのプラーナーヤーマ（呼吸法）のように自分の意思でも制御できる。もし横隔膜が平滑筋や心筋のような不随意筋だったら、息を止めたり、深くゆっくり吸ったりする呼吸法はそもそも不可能だっただろう（Gray's Anatomy 42nd ed.）。",
-          "source": "Gray's Anatomy 42nd ed.",
+          "explanation": "心筋は不随意筋なので「心拍を下げて」と意思で命令することはできない。しかし横隔膜は骨格筋（随意筋）なので、深くゆっくりした呼吸を意識的に行うことができる。この呼吸が迷走神経（副交感神経）を刺激し、間接的に心拍を下げる。つまり「コントロールできる筋肉（横隔膜）を通じて、コントロールできない筋肉（心筋）に影響を与える」のがプラーナーヤーマの仕組み。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy; Polsgrove et al. 2016",
           "reference_text_ids": [
             "skeletal-muscle-overview"
           ]
