@@ -15,18 +15,18 @@
     },
     {
       "id": "muscle-force-generation",
-      "title": "筋肉が力を生むしくみ",
-      "content": "骨格筋が力を生む基本原理はシンプルである。筋線維（筋細胞）の中には、アクチン（細い糸状のタンパク質）とミオシン（太い糸状のタンパク質）という2種類のタンパク質が整然と並んでいる。脳から「縮め」という信号（電気信号）が届くと、ミオシンがアクチンを手繰り寄せるように引き込み、筋全体が短くなる — これが筋収縮。ちょうど両手で綱引きの縄を手繰り寄せるイメージ。この引き込み動作にはエネルギー（ATP）が必要で、ATPがなくなると筋は動かなくなる。また、収縮の開始にはカルシウムイオン（Ca²⁺）が引き金となる。信号が届く→Ca²⁺が放出される→ミオシンがアクチンを引く→筋が縮む。信号が止まる→Ca²⁺が回収される→ミオシンが離れる→筋が緩む。重要なのは筋肉は「縮む」ことしかできず「押す」ことはできないということ。腕を曲げるのも伸ばすのも、別々の筋肉が縮むことで実現する。だから筋肉はペアで働く必要がある（Gray's Anatomy 42nd ed.; Standring 2020）。"
+      "title": "筋肉が力を生むしくみ — 縮むことしかできない",
+      "content": "筋肉が力を出すとは「縮む」こと。筋肉の中にある2種類のタンパク質が互いに引き合って、筋全体が短くなる。これが筋収縮の基本。\n\n最も大切なルール：筋肉は「縮む（引く）」ことしかできない。自分の力で「押す」ことも「伸びる」こともできない。\n\nこのシンプルなルールが、体の動きのすべてを説明する。肘を曲げるには上腕二頭筋（力こぶ）が縮む。肘を伸ばすには反対側の上腕三頭筋（二の腕）が縮む。1つの筋肉では関節を一方向にしか動かせないので、反対方向に動かすには別の筋肉が必要。これが「筋肉はペアで働く」という原則。\n\n脳から「縮め」という信号が運動神経を通じて筋肉に届くと収縮が始まり、信号が止まると筋肉は自然に弛緩（力が抜ける）する。\n\nヨガでの実践的な意味：\n・「筋肉を伸ばす」とき、筋肉は自分で伸びているのではなく、重力や反対側の筋肉の力で受動的に引き伸ばされている。\n・前屈でハムストリングスを伸ばしたいとき、反対側の大腿四頭筋に軽く力を入れると、脳が自動的にハムストリングスを緩めてくれる（相反抑制）。\n・「手で床を押して」という指示では、実は上腕三頭筋が「縮んで」肘を伸ばし、結果として手が床に押しつけられている。\n・シャヴァーサナの「全身の力を抜いて」は、脳からの収縮信号を止めること（Gray's Anatomy 42nd ed.; Kaminoff & Matthews, Yoga Anatomy）。"
     },
     {
       "id": "slow-fast-twitch",
       "title": "遅筋と速筋 — 持久力とパワーの棲み分け",
-      "content": "骨格筋の筋線維はType I（遅筋線維/slow-twitch）とType II（速筋線維/fast-twitch）の2つのタイプに大別される。①Type I（遅筋）：収縮は遅いが疲れにくい。酸素を使った有酸素代謝が得意で、ミトコンドリアが多く赤みがかった色をしている（赤筋とも呼ばれる）。姿勢維持、長距離歩行、ヨガのポーズ保持など持続的な活動を担う。マラソン選手は遅筋の割合が高い。②Type II（速筋）：収縮は速く強力だが疲れやすい。短時間のエネルギー供給が得意で、ミトコンドリアは少なく白っぽい色（白筋とも呼ばれる）。ジャンプ、短距離ダッシュ、重い荷物を持ち上げるなど瞬発的な動作を担う。短距離走者は速筋の割合が高い。すべての筋肉に両方のタイプが混在しているが、筋ごとに比率が異なる。例えば抗重力筋（ヒラメ筋など）は遅筋が多く、跳躍に使う腓腹筋は速筋が比較的多い。トレーニングにより筋線維の性質はある程度変化する。ヨガの長時間保持は遅筋の能力を高め、パワーヨガの動的なフローは速筋も刺激する。日常生活のほとんどは遅筋が担っている（Standring 2020; McArdle et al., Exercise Physiology）。"
+      "content": "骨格筋には2種類の筋線維がある。\n\n①遅筋（Type I / slow-twitch）：ゆっくり縮むが疲れにくい持久力型。酸素を使って長時間エネルギーを作り続けられる。ヨガのポーズ保持、姿勢維持、ウォーキングなど日常の大半の活動を担う。酸素を蓄える成分（ミオグロビン）が豊富で赤みがかった色をしている。\n\n②速筋（Type II / fast-twitch）：素早く強力に縮むが疲れやすい瞬発型。ジャンプ、ダッシュなど短時間に大きな力が必要な動きを担う。白っぽい色。\n\nすべての筋肉に両方のタイプが混在しているが、筋ごとに比率が異なる。姿勢を支えるヒラメ筋（ふくらはぎ深層）は遅筋が約80%と高い。遺伝的な基本比率はあるが、トレーニングである程度変化する。\n\nヨガ指導者にとって大切なこと：\n・ポーズの長時間保持は遅筋を鍛える。ヴィンヤサの動的な動きは速筋も刺激する。\n・加齢で速筋が優先的に衰える → つまずいたときの立て直しが遅くなり転倒リスクが上がる。\n・動的なヨガは速筋も刺激でき、高齢者の転倒予防に有効。\n・生徒の得意不得意（ホールドは得意だが動的な動きが苦手、またはその逆）は筋線維タイプの比率で説明できる場合がある\n（Standring 2020; McArdle et al., Exercise Physiology; Kaminoff & Matthews, Yoga Anatomy）。"
     },
     {
       "id": "muscle-energy-fatigue",
-      "title": "筋肉のエネルギーと疲労",
-      "content": "筋肉が動くにはエネルギー（ATP）が必要で、エネルギーの供給方法は3通りある。①即時エネルギー（クレアチンリン酸系）：筋肉に少量ストックされた「予備バッテリー」。全力ダッシュの最初の数秒間を支える。②短期エネルギー（解糖系）：糖を分解して素早くATPを作る。30秒〜2分程度の激しい運動を支えるが、副産物として乳酸などが溜まり「焼けるような」疲労感の原因に。③持続エネルギー（有酸素系）：酸素を使って糖や脂肪を効率よくATPに変換。長時間の運動を支える。ヨガのゆったりしたフローは主にこの系統。ウォームアップが大切な理由：筋温が上がると血流が増え、酸素やエネルギーが筋肉に行き渡りやすくなる。また筋肉の粘り気（粘弾性）が下がって柔らかくなり、ケガのリスクが減る。太陽礼拝がクラスの冒頭に行われるのはこの科学的根拠に基づく。DOMS（遅発性筋痛）：運動の24〜72時間後に出現する筋肉痛。特に筋肉が伸ばされながら力を出すとき（後述の遠心性収縮）に起こりやすい。筋線維の微小な損傷と炎症反応が原因で、修復されると以前より強くなる（超回復）。ヨガ初心者や新しいポーズを導入した際に出やすいが、正常な適応反応である（Standring 2020; McArdle et al., Exercise Physiology）。"
+      "title": "筋肉のエネルギーと疲労 — ウォームアップと筋肉痛の科学",
+      "content": "筋肉が動くにはエネルギーが必要。ヨガのようなゆったりした運動では、呼吸で取り込んだ酸素を使ってエネルギーを作る仕組みが主体。だからヨガで「呼吸を止めないで」は科学的にも正しい指示 — 酸素の供給が途切れると筋肉のエネルギーが枯渇して疲労が早まる。\n\n【ウォームアップの科学】\n太陽礼拝をクラスの冒頭に行うのには科学的根拠がある。①筋温が上がると筋肉の粘り気（粘弾性）が下がり柔らかくなる。冷えた輪ゴムは切れやすいが、温めた輪ゴムはよく伸びる — 筋肉も同じ。②血流が増えて酸素と栄養が筋肉に行き渡る。③関節液が軟骨に浸み込み関節の動きが滑らかになる。\n\n【筋肉痛（DOMS）の正体】\n運動の翌日〜2日後に出る筋肉痛は「遅発性筋痛」（DOMS: Delayed Onset Muscle Soreness）と呼ばれる。原因は筋線維の微小な損傷とその修復過程の炎症反応。「乳酸が溜まったから」は誤り（乳酸は運動後1〜2時間で分解される）。特に慣れない動きや、筋肉が伸ばされながら力を出すとき（例：ウォーリアポーズからゆっくり立ち上がる動作）に起こりやすい。DOMSは正常な適応反応で、修復後は以前より強くなる（超回復）。初心者や新しいポーズの導入時に出やすいが、心配はいらない。十分な回復時間（48〜72時間）を取ることが大切（Standring 2020; McArdle et al., Exercise Physiology; Kaminoff & Matthews, Yoga Anatomy）。"
     },
     {
       "id": "yoga-muscle-foundation",
@@ -437,253 +437,276 @@
     {
       "name": "筋肉が力を生むしくみ",
       "slug": "muscle-force-generation",
-      "description": "筋肉は「引く」ことしかできない。だからペアで働く。そのシンプルな原理",
+      "description": "筋肉は「引く」ことしかできない。このルール1つで体の動きが分かるようになる",
       "sort_order": 1,
       "concepts": [
         {
-          "name": "筋収縮の基本原理",
-          "description": "筋肉が縮む仕組み（タンパク質の滑り）と、「引く」しかできないという根本的な性質を理解する"
+          "name": "筋収縮の基本 — 縮むことしかできない",
+          "description": "筋肉が「縮む（引く）」しかできないという根本的な性質を理解する"
+        },
+        {
+          "name": "ヨガの動きと筋収縮のつながり",
+          "description": "「押す」「伸ばす」「力を抜く」というヨガの指示の裏にある筋収縮の仕組みを理解する"
         }
       ],
       "questions": [
         {
-          "question_text": "骨格筋が力を発揮するとき、筋肉の内部で起こっていることとして正しいのはどれか？",
+          "question_text": "筋肉が力を出すとき、筋肉自体に起こることとして正しいのはどれか？",
           "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "easy",
           "choices": [
             {
-              "text": "筋肉の中の水分が膨張する",
+              "text": "膨張して大きくなる",
               "is_correct": false
             },
             {
-              "text": "2種類のタンパク質（アクチンとミオシン）が滑り合って筋全体が短くなる",
+              "text": "縮んで短くなる",
               "is_correct": true
             },
             {
-              "text": "筋肉の中の骨が曲がる",
+              "text": "硬くなるが長さは変わらない",
               "is_correct": false
             },
             {
-              "text": "筋肉の温度が急上昇して膨張する",
+              "text": "伸びて長くなる",
               "is_correct": false
             }
           ],
-          "explanation": "骨格筋の中には、アクチン（細い糸状のタンパク質）とミオシン（太い糸状のタンパク質）という2種類のタンパク質が整然と並んでいる。脳から「縮め」という信号が届くと、ミオシンがアクチンを手繰り寄せるように引き込み、筋全体が短くなる。ちょうど両手で綱引きの縄を手繰り寄せるイメージ。この「滑り合い」が筋収縮の本質であり、滑り説（sliding filament theory）と呼ばれる（Gray's Anatomy 42nd ed.）。",
+          "explanation": "筋肉が力を出す＝「縮む（収縮する）」こと。筋肉内の2種類のタンパク質が互いに引き合って、筋全体が短くなる。力こぶを作ると上腕二頭筋が縮んで盛り上がるのがわかる。これが筋収縮。",
           "source": "Gray's Anatomy 42nd ed.",
           "reference_text_ids": [
             "muscle-force-generation"
           ]
         },
         {
-          "question_text": "骨格筋の根本的な性質として正しいのはどれか？",
+          "question_text": "筋肉にはできないことがある。それはどれか？",
           "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "easy",
           "choices": [
             {
-              "text": "縮むことも伸びることも自力でできる",
+              "text": "骨を引っ張ること",
               "is_correct": false
             },
             {
-              "text": "縮む（引く）ことしかできず、自力で押すことはできない",
+              "text": "自分の力で押すこと・伸びること",
               "is_correct": true
             },
             {
-              "text": "押す力の方が引く力より強い",
+              "text": "力を出し続けること",
               "is_correct": false
             },
             {
-              "text": "関節を固定することはできない",
+              "text": "ペアで協力すること",
               "is_correct": false
             }
           ],
-          "explanation": "骨格筋の最も根本的な性質は「引く（縮む）ことしかできない」ということ。筋肉は自分で伸びることも、押すこともできない。だから腕を曲げるには上腕二頭筋が縮み、腕を伸ばすには別の筋肉（上腕三頭筋）が縮む必要がある。この性質があるから、筋肉は必ずペア（主動筋と拮抗筋）で働く。これはこの後の学習で最も大切な概念の一つ（Gray's Anatomy 42nd ed.）。",
+          "explanation": "筋肉は「縮む（引く）」ことしかできない。自分の力で「押す」ことも「自力で伸びる」こともできない。これが筋肉の最も根本的な性質であり、体の動きを理解する上で最も大切なルール。",
           "source": "Gray's Anatomy 42nd ed.",
           "reference_text_ids": [
             "muscle-force-generation"
           ]
         },
         {
-          "question_text": "筋収縮に必要なエネルギー源として正しいのはどれか？",
-          "interaction_type": "standard_mcq",
-          "question_type": "text_only",
-          "difficulty": "easy",
-          "choices": [
-            {
-              "text": "カルシウム",
-              "is_correct": false
-            },
-            {
-              "text": "コラーゲン",
-              "is_correct": false
-            },
-            {
-              "text": "ATP（アデノシン三リン酸）",
-              "is_correct": true
-            },
-            {
-              "text": "ヘモグロビン",
-              "is_correct": false
-            }
-          ],
-          "explanation": "筋肉が縮むには ATP（アデノシン三リン酸）というエネルギー分子が必要。ATPは「筋肉の燃料」のようなもので、ミオシンがアクチンを引っ張るたびに1つのATPが消費される。ATPがなくなると筋肉は動かなくなる。食事で摂った栄養素（糖や脂肪）が体内で分解されてATPが作られる。カルシウムは収縮の「スイッチ」を入れる引き金役で、エネルギー源そのものではない（Standring 2020）。",
-          "source": "Standring 2020",
-          "reference_text_ids": [
-            "muscle-force-generation"
-          ]
-        },
-        {
-          "question_text": "「筋肉は引くことしかできない」という性質から導かれる結論として正しいのはどれか？",
+          "question_text": "肘を曲げるにも伸ばすにも、別々の筋肉が必要な理由はどれか？",
           "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "medium",
           "choices": [
             {
-              "text": "1つの筋肉で関節を両方向に動かせる",
+              "text": "1つの筋肉では力が足りないから",
               "is_correct": false
             },
             {
-              "text": "関節を両方向に動かすには、反対の作用を持つ筋肉のペアが必要",
+              "text": "筋肉は「縮む」ことしかできないので、反対方向には別の筋肉が必要だから",
               "is_correct": true
             },
             {
-              "text": "筋肉は骨から離れた位置に付着する方が効率的",
+              "text": "関節が2方向に動くには2つの関節が必要だから",
               "is_correct": false
             },
             {
-              "text": "筋肉が多いほど関節は不安定になる",
+              "text": "脳が同時に2つの指令を出すから",
               "is_correct": false
             }
           ],
-          "explanation": "筋肉は縮むことしかできないので、肘を「曲げる」筋肉と「伸ばす」筋肉は別々に必要。肘の場合、上腕二頭筋（前面）が縮むと肘が曲がり、上腕三頭筋（後面）が縮むと肘が伸びる。この「反対の動きを担う筋肉のペア」を主動筋と拮抗筋と呼ぶ。関節が動くためには必ずこのペアが存在する。一方が縮むとき、もう一方は緩んで邪魔しない — この自動調整が相反抑制（Gray's Anatomy 42nd ed.）。",
+          "explanation": "筋肉は縮むことしかできない。肘を曲げるには上腕二頭筋（力こぶ）が縮み、伸ばすには反対側の上腕三頭筋（二の腕）が縮む。1つの筋肉では一方向にしか動かせないので、反対の動きを担う「ペア」が必要。これが主動筋と拮抗筋の関係で、体中のすべての関節にこのペアが存在する。",
           "source": "Gray's Anatomy 42nd ed.",
           "reference_text_ids": [
             "muscle-force-generation"
           ]
         },
         {
-          "question_text": "脳から骨格筋に「縮め」という信号が伝わる正しい経路はどれか？",
+          "question_text": "ヨガでハムストリングス（太もも裏）を「伸ばす」とき、ハムストリングスは自分の力で伸びているのか？",
           "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "medium",
           "choices": [
             {
-              "text": "脳 → 血管 → 筋肉",
+              "text": "はい。ハムストリングスが自力で伸びている",
               "is_correct": false
             },
             {
-              "text": "脳 → 脊髄 → 運動神経 → 筋肉",
+              "text": "いいえ。重力や反対側の筋肉の力で受動的に引き伸ばされている",
               "is_correct": true
             },
             {
-              "text": "脳 → 骨 → 腱 → 筋肉",
+              "text": "はい。ストレッチすると筋肉は能動的に伸びる機能がある",
               "is_correct": false
             },
             {
-              "text": "脳 → ホルモン分泌 → 筋肉",
+              "text": "いいえ。伸びているのは筋肉ではなく腱だけ",
               "is_correct": false
             }
           ],
-          "explanation": "骨格筋への指令は「脳→脊髄→運動神経→筋肉」という電気信号の経路で伝わる。例えばヨガで「右腕を上げよう」と思うと、脳の運動野から信号が発信され、脊髄を経由して運動神経を通り、三角筋に到達する。信号が届くとカルシウムイオン（Ca²⁺）が放出され、これが引き金となってアクチンとミオシンの滑り合い（収縮）が始まる。血管は栄養と酸素の運搬経路、ホルモンは平滑筋などの不随意筋の調節に関わる別の仕組みである（Gray's Anatomy 42nd ed.）。",
-          "source": "Gray's Anatomy 42nd ed.",
+          "explanation": "筋肉は縮むことしかできず、自分で伸びることはできない。ストレッチで筋肉が伸びるのは、重力や反対側の筋肉（この場合は大腿四頭筋）の力で「受動的に引き伸ばされている」から。筋肉は伸ばされることに対して「ブレーキをかける」ことはできるが、自発的に伸びる能力は持っていない。",
+          "source": "Gray's Anatomy 42nd ed.; Kaminoff & Matthews, Yoga Anatomy",
           "reference_text_ids": [
             "muscle-force-generation"
           ]
         },
         {
-          "question_text": "筋肉が弛緩（リラックス）するときに起こることとして正しいのはどれか？",
+          "question_text": "ヨガのポーズで「力を抜いてリラックスして」と指示したとき、筋肉の中で何が起こっているか？",
           "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "medium",
           "choices": [
             {
-              "text": "アクチンとミオシンが破壊される",
+              "text": "筋肉が積極的に弛緩する方向に力を出している",
               "is_correct": false
             },
             {
-              "text": "カルシウムが回収され、アクチンとミオシンの結合が解除される",
+              "text": "脳からの「縮め」という信号が止まり、筋肉が自然に緩む",
               "is_correct": true
             },
             {
-              "text": "筋肉が自力で伸びる",
+              "text": "筋肉内の水分が抜けて柔らかくなる",
               "is_correct": false
             },
             {
-              "text": "ATPが大量に消費される",
+              "text": "腱が緩んで筋肉が骨から離れる",
               "is_correct": false
             }
           ],
-          "explanation": "筋肉が緩む（弛緩する）ときは、収縮を始めた引き金のカルシウムイオンが回収されてしまう。カルシウムがなくなると、アクチンとミオシンの結合が解除され、筋肉は力を出さなくなる。ここで大事なのは「筋肉が自力で伸びているわけではない」ということ。弛緩した筋肉は重力や反対側の筋肉（拮抗筋）の力によって受動的に引き伸ばされる。シャヴァーサナ（屍のポーズ）での全身の弛緩は、まさにこのカルシウム回収による筋の「オフ」状態である（Standring 2020）。",
-          "source": "Standring 2020",
-          "reference_text_ids": [
-            "muscle-force-generation"
-          ]
-        },
-        {
-          "question_text": "筋収縮の流れを正しい順番に並べなさい：脳からの信号 → {{blank}} → アクチンとミオシンが滑り合う → 筋が短くなる",
-          "interaction_type": "word_bank",
-          "question_type": "text_only",
-          "difficulty": "hard",
-          "metadata": {
-            "correct_answer": "カルシウムイオン（Ca²⁺）が放出される",
-            "word_options": [
-              "カルシウムイオン（Ca²⁺）が放出される",
-              "ATPが分解される",
-              "コラーゲンが合成される",
-              "ヘモグロビンが酸素を運ぶ"
-            ],
-            "template": "筋収縮の流れ：脳からの信号 → {{blank}} → アクチンとミオシンが滑り合う → 筋が短くなる"
-          },
-          "choices": [
-            {
-              "text": "カルシウムイオン（Ca²⁺）が放出される",
-              "is_correct": true
-            },
-            {
-              "text": "ATPが分解される",
-              "is_correct": false
-            },
-            {
-              "text": "コラーゲンが合成される",
-              "is_correct": false
-            },
-            {
-              "text": "ヘモグロビンが酸素を運ぶ",
-              "is_correct": false
-            }
-          ],
-          "explanation": "筋収縮の流れは：脳からの信号が運動神経を通じて筋肉に届く → カルシウムイオン（Ca²⁺）が放出される（これがスイッチ） → アクチンとミオシンが滑り合う（これが力の発生） → 筋全体が短くなる。カルシウムは「収縮のスイッチ」、ATPは「動かすための燃料」と覚えるとよい。ATPは滑り合いのプロセス中に消費されるもので、最初のきっかけではない。コラーゲンは腱の材料、ヘモグロビンは赤血球で酸素を運ぶタンパク質で、直接の収縮メカニズムではない（Gray's Anatomy 42nd ed.）。",
+          "explanation": "「力を抜く」とは、脳から筋肉への「縮め」という信号を止めること。信号が止まると筋肉は自然に弛緩する（力が抜ける）。リラックスは筋肉が「何かをしている」のではなく、「信号が来なくなった」状態。シャヴァーサナで全身の力を抜けるのは、骨格筋への信号をすべて止められるから。",
           "source": "Gray's Anatomy 42nd ed.",
           "reference_text_ids": [
             "muscle-force-generation"
           ]
         },
         {
-          "question_text": "筋肉が力を出し続けるために必要な条件の組み合わせとして正しいのはどれか？",
+          "question_text": "前屈で大腿四頭筋（太もも前面）に軽く力を入れると、ハムストリングス（太もも裏）が伸ばしやすくなる。この仕組みの説明として正しいのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            {
+              "text": "大腿四頭筋が物理的にハムストリングスを押しつぶすから",
+              "is_correct": false
+            },
+            {
+              "text": "大腿四頭筋が縮むと、脳が自動的にハムストリングスの緊張を下げるから（相反抑制）",
+              "is_correct": true
+            },
+            {
+              "text": "大腿四頭筋の熱がハムストリングスに伝わって温まるから",
+              "is_correct": false
+            },
+            {
+              "text": "大腿四頭筋が縮むとハムストリングスの血流が増えるから",
+              "is_correct": false
+            }
+          ],
+          "explanation": "これは「相反抑制」と呼ばれる脳の自動制御。一方の筋肉（主動筋）が縮むと、反対側の筋肉（拮抗筋）の緊張を自動的に下げる仕組み。前屈で大腿四頭筋に力を入れる→脳がハムストリングスを緩める→伸ばしやすくなる。ヨガ指導で「膝のお皿を引き上げて」はこの相反抑制を活用した科学的なキュー。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": [
+            "muscle-force-generation"
+          ]
+        },
+        {
+          "question_text": "ダウンドッグで「手で床を押して」と指示する。筋肉は「押す」ことができないはずだが、なぜ床を押せるのか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            {
+              "text": "ダウンドッグでは特別に筋肉が押す力を出せるから",
+              "is_correct": false
+            },
+            {
+              "text": "上腕三頭筋が「縮んで」肘を伸ばし、その結果として手が床に押しつけられるから",
+              "is_correct": true
+            },
+            {
+              "text": "手のひらの平滑筋が床を押しているから",
+              "is_correct": false
+            },
+            {
+              "text": "体重が手にかかっているだけで、筋肉は関係ないから",
+              "is_correct": false
+            }
+          ],
+          "explanation": "筋肉は押せないが「結果として押す動きになる」ことはある。上腕三頭筋が縮んで肘を伸ばすと、手が床に向かって押される。実際に起こっているのは「縮む」だが、体の外から見ると「押している」ように見える。指導では「押して」と言って構わないが、解剖学的に何が起こっているか知っていると、キューイングの引き出しが増える。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": [
+            "muscle-force-generation"
+          ]
+        },
+        {
+          "question_text": "生徒が緊張で体がこわばっている。「肩の力を抜いてください」と言っても抜けない。解剖学的に何が起きていて、どう対処するのが効果的か？",
           "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "hard",
           "choices": [
             {
-              "text": "神経からの持続的な信号 + ATPの供給",
+              "text": "肩の骨が硬くなっている。ストレッチで骨を柔らかくする",
+              "is_correct": false
+            },
+            {
+              "text": "ストレスで脳が無意識に「縮め」の信号を送り続けている。深い呼吸で副交感神経を活性化し、信号を弱める",
               "is_correct": true
             },
             {
-              "text": "カルシウムの完全な除去 + コラーゲンの産生",
+              "text": "肩の腱が短くなっている。強く引っ張って伸ばす",
               "is_correct": false
             },
             {
-              "text": "血液中の酸素のみ",
-              "is_correct": false
-            },
-            {
-              "text": "骨からのミネラル放出 + 体温の低下",
+              "text": "筋肉が疲労して固まっている。激しく動かして血流を増やす",
               "is_correct": false
             }
           ],
-          "explanation": "筋肉が力を出し続けるには2つの条件が必要。①神経からの持続的な信号：信号が続く限りカルシウムが放出され続け、収縮が維持される。信号が止まればカルシウムが回収されて筋は緩む。②ATPの供給：ミオシンがアクチンを引くたびにATPを消費するので、新しいATPが補給され続けなければならない。ヨガのプランクを長時間保持すると腕が震えてくるのは、ATPの供給が消費に追いつかなくなり、一部の筋線維が疲労してくるためである（Standring 2020）。",
-          "source": "Standring 2020",
+          "explanation": "緊張で体がこわばるのは、ストレスにより脳が骨格筋に「縮め」の信号を無意識に送り続けている状態。「力を抜いて」と意識しても、無意識の信号が勝ってしまう。深くゆっくりした呼吸は副交感神経を活性化し、この無意識の緊張信号を弱める効果がある。だからヨガでは「まず呼吸から」が有効なアプローチ。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy; Polsgrove et al. 2016",
+          "reference_text_ids": [
+            "muscle-force-generation"
+          ]
+        },
+        {
+          "question_text": "「腕を伸ばすポーズがつらい」という生徒がいる。「腕を伸ばす」とき、実際に力を出して働いているのはどの筋肉か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            {
+              "text": "上腕二頭筋（力こぶ側）が伸びて力を出している",
+              "is_correct": false
+            },
+            {
+              "text": "上腕三頭筋（二の腕の裏側）が縮んで肘を伸ばしている",
+              "is_correct": true
+            },
+            {
+              "text": "前腕の筋肉が手を引っ張っている",
+              "is_correct": false
+            },
+            {
+              "text": "肩の三角筋だけが働いている",
+              "is_correct": false
+            }
+          ],
+          "explanation": "腕を「伸ばす」ときに力を出しているのは上腕三頭筋（二の腕の裏側）。この筋肉が「縮む」ことで肘が伸びる。腕を伸ばすポーズがつらいなら、上腕三頭筋の筋力が不足している可能性がある。プランクやチャトランガは上腕三頭筋を鍛える良い練習。段階的に強度を上げていく指導が効果的。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
           "reference_text_ids": [
             "muscle-force-generation"
           ]
@@ -693,118 +716,64 @@
     {
       "name": "遅筋と速筋 — スタミナとパワーの棲み分け",
       "slug": "slow-fast-twitch",
-      "description": "なぜマラソン選手は細くてスプリンターはムキムキ？答えは筋線維タイプにある",
+      "description": "ポーズ保持が得意な人、ヴィンヤサが得意な人。その違いの理由を知ろう",
       "sort_order": 2,
       "concepts": [
         {
-          "name": "筋線維タイプ（遅筋と速筋）",
-          "description": "Type I（遅筋）とType II（速筋）の違い、トレーニングによる変化、ヨガとの関係を理解する"
+          "name": "2つの筋線維タイプの基本",
+          "description": "遅筋（持久力型）と速筋（瞬発型）の特徴と違いを理解する"
+        },
+        {
+          "name": "筋線維タイプとヨガ・加齢の関係",
+          "description": "ヨガのスタイルや加齢が筋線維タイプに与える影響を理解し、指導に活かす"
         }
       ],
       "questions": [
         {
-          "question_text": "長時間の姿勢維持やゆっくりした動作に適した筋線維タイプはどれか？",
+          "question_text": "ウォーリアIIを30秒以上保持するとき、主に使われる筋線維タイプはどちらか？",
           "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "easy",
           "choices": [
             {
-              "text": "Type II（速筋線維）",
+              "text": "速筋（Type II） — 大きな力が必要だから",
               "is_correct": false
             },
             {
-              "text": "Type I（遅筋線維）",
+              "text": "遅筋（Type I） — 疲れにくく長時間働けるから",
               "is_correct": true
             },
             {
-              "text": "心筋線維",
+              "text": "どちらも同じ割合で使われる",
               "is_correct": false
             },
             {
-              "text": "平滑筋線維",
+              "text": "保持時間と筋線維タイプは関係ない",
               "is_correct": false
             }
           ],
-          "explanation": "Type I（遅筋線維/slow-twitch）は収縮はゆっくりだが、疲れにくく長時間働ける持久力型の筋線維。酸素を使って効率よくエネルギーを作り続けるため、血液（酸素を運ぶヘモグロビン）やミトコンドリアが豊富で赤みがかった色をしている（「赤筋」とも呼ばれる）。立ち姿勢の維持、ゆっくりした歩行、ヨガのポーズ保持は主にこのType Iが担っている（Standring 2020）。",
-          "source": "Standring 2020",
+          "explanation": "遅筋（Type I）は「疲れにくく長時間働ける」持久力型の筋線維。ヨガのポーズ保持のような、中程度の力を長時間出し続ける活動に最適。ウォーリアIIで脚を30秒以上保持できるのは、大腿四頭筋の遅筋が粘り強く働いてくれているおかげ。",
+          "source": "Standring 2020; Kaminoff & Matthews, Yoga Anatomy",
           "reference_text_ids": [
             "slow-fast-twitch"
           ]
         },
         {
-          "question_text": "100m走やジャンプなど瞬発的な動作に適した筋線維タイプはどれか？",
+          "question_text": "ヴィンヤサのジャンプバックなど、素早く大きな力を出す動作に適した筋線維タイプはどちらか？",
           "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "easy",
           "choices": [
             {
-              "text": "Type I（遅筋線維）",
+              "text": "遅筋（Type I） — 持久力があるから",
               "is_correct": false
             },
             {
-              "text": "Type II（速筋線維）",
+              "text": "速筋（Type II） — 素早く強力に縮めるから",
               "is_correct": true
             },
             {
-              "text": "どちらも同じように使われる",
-              "is_correct": false
-            },
-            {
-              "text": "瞬発的動作には筋線維タイプは関係ない",
-              "is_correct": false
-            }
-          ],
-          "explanation": "Type II（速筋線維/fast-twitch）は収縮が速く、大きな力を一気に出せる瞬発型の筋線維。短時間で大量のATPを作れるが、すぐに疲労してしまう。ミトコンドリアは少なく白っぽい色（「白筋」とも呼ばれる）。100m走、ジャンプ、重いものを持ち上げるなど、短時間で爆発的な力が必要な場面で活躍する。短距離走の選手は速筋の割合が高い傾向がある（Standring 2020）。",
-          "source": "Standring 2020",
-          "reference_text_ids": [
-            "slow-fast-twitch"
-          ]
-        },
-        {
-          "question_text": "遅筋（Type I）が赤みがかった色をしている主な理由はどれか？",
-          "interaction_type": "standard_mcq",
-          "question_type": "text_only",
-          "difficulty": "easy",
-          "choices": [
-            {
-              "text": "アクチンが赤い色素を含むから",
-              "is_correct": false
-            },
-            {
-              "text": "酸素を運ぶ成分が豊富だから",
-              "is_correct": true
-            },
-            {
-              "text": "速筋より細胞が大きいから",
-              "is_correct": false
-            },
-            {
-              "text": "炎症が常に起きているから",
-              "is_correct": false
-            }
-          ],
-          "explanation": "遅筋が赤いのは、酸素を利用する有酸素代謝に特化しているから。酸素を筋肉内に蓄えるミオグロビン（myoglobin、赤い色素タンパク質）と、酸素を使ってエネルギーを作るミトコンドリアが豊富に含まれている。鶏肉で例えると、よく歩き回る「もも肉」は遅筋が多くて赤く、あまり羽ばたかない「ささみ」は速筋が多くて白い。人間の筋肉も同じ原理で色が異なる（McArdle et al., Exercise Physiology）。",
-          "source": "McArdle et al., Exercise Physiology",
-          "reference_text_ids": [
-            "slow-fast-twitch"
-          ]
-        },
-        {
-          "question_text": "ヨガのポーズを30秒以上保持するとき、主に使われる筋線維タイプはどれか？",
-          "interaction_type": "standard_mcq",
-          "question_type": "text_only",
-          "difficulty": "medium",
-          "choices": [
-            {
-              "text": "Type II（速筋）が主体",
-              "is_correct": false
-            },
-            {
-              "text": "Type I（遅筋）が主体",
-              "is_correct": true
-            },
-            {
-              "text": "保持時間と筋線維タイプは無関係",
+              "text": "骨格筋ではなく平滑筋が担当する",
               "is_correct": false
             },
             {
@@ -812,14 +781,101 @@
               "is_correct": false
             }
           ],
-          "explanation": "ヨガのポーズ保持は典型的な持久的活動であり、疲れにくいType I（遅筋線維）が主に動員される。脳は「どれくらいの力が必要か」に応じて使う筋線維を選んでおり、低〜中程度の力で長く保つ場面ではまず遅筋が動員される（サイズの原則）。ウォーリアIIで脚を長時間保持できるのは、大腿四頭筋のType I線維が粘り強く働いてくれているおかげ。もし速筋だけだったら、数秒で力尽きてしまう（Standring 2020; Kaminoff & Matthews, Yoga Anatomy）。",
+          "explanation": "速筋（Type II）は素早く強力に縮める瞬発型の筋線維。ジャンプバック、ジャンプスルーなどの動的な動きを担う。ただし疲れやすいため、長時間は持たない。ヴィンヤサヨガでは速筋と遅筋の両方を使う場面がある。",
           "source": "Standring 2020",
           "reference_text_ids": [
             "slow-fast-twitch"
           ]
         },
         {
-          "question_text": "トレーニングによって筋線維タイプの比率はどの程度変化するか？",
+          "question_text": "姿勢を一日中支え続けるヒラメ筋（ふくらはぎ深層）に遅筋が多い理由はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            {
+              "text": "ふくらはぎは力が要らない場所だから",
+              "is_correct": false
+            },
+            {
+              "text": "立っている間ずっと休まず体重を支える必要があり、疲れにくい遅筋が適しているから",
+              "is_correct": true
+            },
+            {
+              "text": "遅筋は下半身にしか存在しないから",
+              "is_correct": false
+            },
+            {
+              "text": "ヒラメ筋は骨格筋ではなく平滑筋だから",
+              "is_correct": false
+            }
+          ],
+          "explanation": "ヒラメ筋は「抗重力筋」の代表で、立っている間ずっと体重を支え続ける。このような一日中休めない仕事には、疲れにくい遅筋が最適。実際にヒラメ筋は遅筋が約80%と非常に高い。体は用途に合わせて各筋肉の線維タイプ比率を最適化している。",
+          "source": "Standring 2020",
+          "reference_text_ids": [
+            "slow-fast-twitch"
+          ]
+        },
+        {
+          "question_text": "ヨガの長いホールド（静的）とヴィンヤサ（動的）で、使われる筋線維タイプが異なる理由はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            {
+              "text": "ヨガのスタイルによって使う筋肉の種類が変わるから",
+              "is_correct": false
+            },
+            {
+              "text": "長時間の保持は遅筋（持久力型）が主体、素早い動きは速筋（瞬発型）も動員されるから",
+              "is_correct": true
+            },
+            {
+              "text": "ヴィンヤサでは骨格筋ではなく心筋が主に使われるから",
+              "is_correct": false
+            },
+            {
+              "text": "動的なヨガでは筋肉ではなく関節だけが働くから",
+              "is_correct": false
+            }
+          ],
+          "explanation": "脳は必要な力の大きさと速さに応じて筋線維を選んで動員する。中程度の力を長く出す（ホールド）→ 遅筋が主体。短時間に大きな力を出す（ジャンプ等）→ 速筋も動員。だからヨガのクラスでホールドとフローを組み合わせると、両方の筋線維タイプをバランスよく使える。",
+          "source": "Standring 2020; McArdle et al., Exercise Physiology",
+          "reference_text_ids": [
+            "slow-fast-twitch"
+          ]
+        },
+        {
+          "question_text": "年齢とともに階段でつまずきやすくなったり、転倒しやすくなる主な筋肉の変化はどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            {
+              "text": "遅筋だけが減って持久力がなくなる",
+              "is_correct": false
+            },
+            {
+              "text": "速筋が優先的に衰え、とっさの立て直し動作が遅くなる",
+              "is_correct": true
+            },
+            {
+              "text": "両方が均等に減るので影響は少ない",
+              "is_correct": false
+            },
+            {
+              "text": "筋肉は加齢では変化しない",
+              "is_correct": false
+            }
+          ],
+          "explanation": "加齢では速筋（Type II）が優先的に衰える（サルコペニア）。速筋は瞬発力を担うため、つまずいたときの素早い立て直しが遅くなり転倒リスクが上がる。一方、遅筋は比較的保たれるので「歩く」は大丈夫でも「とっさに踏みとどまる」が難しくなる。運動で速筋の衰えを大幅に遅らせることは科学的に証明されている。",
+          "source": "McArdle et al., Exercise Physiology; Standring 2020",
+          "reference_text_ids": [
+            "slow-fast-twitch"
+          ]
+        },
+        {
+          "question_text": "トレーニングによって筋線維タイプの比率はどの程度変わるか？",
           "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "medium",
@@ -829,119 +885,107 @@
               "is_correct": false
             },
             {
-              "text": "遺伝的な基本比率があるが、トレーニングである程度変化する",
+              "text": "遺伝的な基本比率はあるが、トレーニングである程度変化する",
               "is_correct": true
             },
             {
-              "text": "トレーニングで自由に比率を変えられる",
+              "text": "好きなだけ自由に比率を変えられる",
               "is_correct": false
             },
             {
-              "text": "加齢でのみ変化し、運動の影響はない",
+              "text": "年齢でのみ変わり、運動は無関係",
               "is_correct": false
             }
           ],
-          "explanation": "筋線維タイプの基本的な比率は遺伝で大きく決まるが、トレーニングにより「ある程度」変化する。持久系のトレーニング（マラソン、ヨガの長時間保持）を続けると、速筋の一部が遅筋に近い性質に変化し、ミトコンドリアが増えて持久力が上がる。逆にパワートレーニングでは速筋が太くなる。ただし変化には限界があり、遅筋主体の人が短距離王者になることも、速筋主体の人がマラソン王者になることも難しい（McArdle et al., Exercise Physiology）。",
+          "explanation": "筋線維の基本比率は遺伝で大きく決まるが、継続的なトレーニングで「ある程度」変化する。ヨガの長時間保持を続けると、速筋の一部が遅筋に近い性質に変化し持久力が上がる。ただし変化には限界がある。つまり練習を続けることで確実に改善はするが、「生まれ持った得意」もある。生徒の個人差を受け入れつつ、継続を励ます姿勢が大切。",
           "source": "McArdle et al., Exercise Physiology",
           "reference_text_ids": [
             "slow-fast-twitch"
           ]
         },
         {
-          "question_text": "立ち姿勢を長時間維持するヒラメ筋（ふくらはぎの深層の筋）は、どちらの筋線維タイプが多いと考えられるか？",
+          "question_text": "60代の生徒のためのクラスを設計するとき、速筋の衰えを意識した工夫として最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            {
+              "text": "ゆっくりしたホールドだけに限定し、動的な動きは一切避ける",
+              "is_correct": false
+            },
+            {
+              "text": "椅子を使った立ち座りなど、安全な範囲で素早い動作も取り入れて速筋を刺激する",
+              "is_correct": true
+            },
+            {
+              "text": "若い人と全く同じ内容のクラスを行う",
+              "is_correct": false
+            },
+            {
+              "text": "筋力トレーニングはヨガでは扱わない",
+              "is_correct": false
+            }
+          ],
+          "explanation": "加齢で衰えやすいのは速筋なので、安全な範囲で速筋を刺激する動きを入れることが転倒予防に有効。椅子を使った立ち座り（スクワット的な動き）、チェアヨガでの素早い腕の動きなどが実践的。ゆっくりのホールド「だけ」では遅筋しか鍛えられず、転倒予防の効果は限定的になる。",
+          "source": "McArdle et al., Exercise Physiology; Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": [
+            "slow-fast-twitch"
+          ]
+        },
+        {
+          "question_text": "「ポーズの保持は得意だけど、ヴィンヤサの素早い動きが苦手」という生徒へのアドバイスとして最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            {
+              "text": "ヴィンヤサは向いていないので、リストラティブヨガだけを勧める",
+              "is_correct": false
+            },
+            {
+              "text": "遅筋が発達しているが速筋の訓練が少ない可能性がある。段階的にテンポのある動きを増やしていく",
+              "is_correct": true
+            },
+            {
+              "text": "速筋が弱いのは遺伝なので改善は不可能と伝える",
+              "is_correct": false
+            },
+            {
+              "text": "素早い動きを無理にでも毎日繰り返させる",
+              "is_correct": false
+            }
+          ],
+          "explanation": "ホールドが得意＝遅筋が十分に発達。動的な動きが苦手＝速筋のトレーニングが不足している可能性。遺伝的な要素はあるが、練習で改善できる。いきなりハードなヴィンヤサではなく、段階的にテンポのある動きを取り入れる。太陽礼拝のスピードを少しずつ上げる、ジャンプの代わりにステップから始めるなど、無理のない段階を踏むのが効果的。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": [
+            "slow-fast-twitch"
+          ]
+        },
+        {
+          "question_text": "ヨガのシークエンスで、ゆっくりしたホールドと動的なフローの両方を入れることの利点はどれか？",
           "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "medium",
           "choices": [
             {
-              "text": "Type II（速筋）が多い — 大きな力が必要だから",
+              "text": "生徒が飽きないようにするための演出効果だけ",
               "is_correct": false
             },
             {
-              "text": "Type I（遅筋）が多い — 長時間の姿勢維持が必要だから",
+              "text": "遅筋（持久力）と速筋（瞬発力）の両方をバランスよく鍛えられる",
               "is_correct": true
             },
             {
-              "text": "両タイプが全く同じ比率",
+              "text": "ホールドとフローでは使う筋肉の種類が全く違う",
               "is_correct": false
             },
             {
-              "text": "筋線維タイプは筋ごとに異ならない",
+              "text": "フローは筋肉を使わないので休憩になる",
               "is_correct": false
             }
           ],
-          "explanation": "ヒラメ筋は「抗重力筋」の代表で、立っている間ずっと体重を支え続ける。このような持続的な活動に対応するため、Type I（遅筋）が約80%と非常に高い比率を持つ。一方、同じふくらはぎでもヒラメ筋の表層にある腓腹筋は、跳躍やダッシュなど瞬発的な底屈（つま先立ち）にも使われるため、速筋の割合が比較的高い。体は用途に合わせて各筋肉の線維タイプ比率を最適化している（Standring 2020）。",
-          "source": "Standring 2020",
-          "reference_text_ids": [
-            "slow-fast-twitch"
-          ]
-        },
-        {
-          "question_text": "次の運動と、主に使われる筋線維タイプを正しく組み合わせなさい。",
-          "interaction_type": "matching_pairs",
-          "question_type": "text_only",
-          "difficulty": "hard",
-          "metadata": {
-            "pairs": [
-              {
-                "left": "マラソン",
-                "right": "Type I（遅筋）主体"
-              },
-              {
-                "left": "100m走",
-                "right": "Type II（速筋）主体"
-              },
-              {
-                "left": "ヨガの長時間保持",
-                "right": "Type I（遅筋）主体"
-              },
-              {
-                "left": "ウェイトリフティング",
-                "right": "Type II（速筋）主体"
-              }
-            ]
-          },
-          "choices": [
-            {
-              "text": "マラソン/ヨガ保持 — 遅筋主体、100m走/ウェイトリフティング — 速筋主体",
-              "is_correct": true
-            },
-            {
-              "text": "その他の組み合わせ",
-              "is_correct": false
-            }
-          ],
-          "explanation": "マラソンとヨガのポーズ保持は長時間の持久的活動で、疲れにくいType I（遅筋）が主体。100m走とウェイトリフティングは短時間に大きな力を出す瞬発的活動で、素早く強力なType II（速筋）が主体。ヴィンヤサフローのように動的な要素とホールドが混在するヨガでは、実は両方のタイプをバランスよく使っている（Standring 2020）。",
-          "source": "Standring 2020",
-          "reference_text_ids": [
-            "slow-fast-twitch"
-          ]
-        },
-        {
-          "question_text": "加齢に伴う筋肉の変化として正しいのはどれか？",
-          "interaction_type": "standard_mcq",
-          "question_type": "text_only",
-          "difficulty": "hard",
-          "choices": [
-            {
-              "text": "遅筋だけが減少し速筋は維持される",
-              "is_correct": false
-            },
-            {
-              "text": "速筋が優先的に萎縮し、瞬発力やバランス反応が低下する",
-              "is_correct": true
-            },
-            {
-              "text": "両タイプが均等に減少し機能的影響は少ない",
-              "is_correct": false
-            },
-            {
-              "text": "加齢による筋線維の変化は運動では防げない",
-              "is_correct": false
-            }
-          ],
-          "explanation": "加齢（サルコペニア = 加齢性筋萎縮）では速筋（Type II）が優先的に萎縮する。これにより瞬発力が低下し、つまずいたときの素早い立ち直り反応が鈍くなるため、高齢者の転倒リスクが高まる。ヨガは遅筋の維持に加え、動的なポーズ移行で速筋も適度に刺激できるため、高齢者の筋力維持と転倒予防に有効とされる。「運動では防げない」は誤りで、適切な運動は加齢による筋萎縮を大幅に遅らせることが証明されている（McArdle et al., Exercise Physiology; Standring 2020）。",
-          "source": "McArdle et al., Exercise Physiology",
+          "explanation": "ホールド＝遅筋（持久力）を鍛える。動的なフロー＝速筋（瞬発力）も刺激する。両方を含むシークエンスは、筋線維の両タイプをバランスよく鍛えられる。特に加齢で衰えやすい速筋も刺激できるのは、ヴィンヤサとホールドを組み合わせるクラスの大きな利点。単なる演出ではなく、科学的根拠のあるクラス設計。",
+          "source": "McArdle et al., Exercise Physiology; Kaminoff & Matthews, Yoga Anatomy",
           "reference_text_ids": [
             "slow-fast-twitch"
           ]
@@ -951,85 +995,31 @@
     {
       "name": "筋肉のエネルギーと疲労",
       "slug": "muscle-energy-fatigue",
-      "description": "なぜ太陽礼拝は最初にやる？なぜ翌日に筋肉痛？エネルギーの仕組みを知る",
+      "description": "なぜ太陽礼拝は最初にやる？なぜ翌日に筋肉痛？指導に直結する科学",
       "sort_order": 3,
       "concepts": [
         {
-          "name": "筋活動のエネルギー源と疲労・回復",
-          "description": "3つのエネルギー供給系、ウォームアップの意味、DOMS（遅発性筋痛）の仕組みを理解する"
+          "name": "ウォームアップの科学",
+          "description": "太陽礼拝をクラス冒頭に行う科学的理由（筋温・血流・柔軟性）を理解する"
+        },
+        {
+          "name": "筋肉痛（DOMS）と回復",
+          "description": "遅発性筋痛の正体（微小損傷と炎症）、乳酸神話の誤り、超回復を理解する"
         }
       ],
       "questions": [
         {
-          "question_text": "全力ダッシュの最初の数秒間に主に使われるエネルギー供給系はどれか？",
+          "question_text": "ヨガクラスの冒頭に太陽礼拝などでウォームアップを行う科学的な理由として最も適切なのはどれか？",
           "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "easy",
           "choices": [
             {
-              "text": "有酸素系（酸素を使った持続エネルギー）",
+              "text": "伝統的な儀式として行われるから",
               "is_correct": false
             },
             {
-              "text": "クレアチンリン酸系（筋肉内の予備バッテリー）",
-              "is_correct": true
-            },
-            {
-              "text": "解糖系（糖を分解する短期エネルギー）",
-              "is_correct": false
-            },
-            {
-              "text": "脂肪分解系",
-              "is_correct": false
-            }
-          ],
-          "explanation": "全力ダッシュの最初の数秒間は、筋肉内に少量ストックされたクレアチンリン酸（予備バッテリー）からATPが即座に作られる。スマートフォンの「急速充電」のように、非常に素早いが容量は小さい。約5〜10秒で使い切ってしまうため、その後は解糖系（糖を分解してATPを作る、30秒〜2分）や有酸素系（酸素を使って効率よくATPを作る、それ以上の持続運動）に切り替わる（Standring 2020）。",
-          "source": "Standring 2020",
-          "reference_text_ids": [
-            "muscle-energy-fatigue"
-          ]
-        },
-        {
-          "question_text": "ヨガのゆったりしたフローや長時間のポーズ保持で主に使われるエネルギー供給系はどれか？",
-          "interaction_type": "standard_mcq",
-          "question_type": "text_only",
-          "difficulty": "easy",
-          "choices": [
-            {
-              "text": "クレアチンリン酸系",
-              "is_correct": false
-            },
-            {
-              "text": "解糖系",
-              "is_correct": false
-            },
-            {
-              "text": "有酸素系",
-              "is_correct": true
-            },
-            {
-              "text": "エネルギーはほとんど使わない",
-              "is_correct": false
-            }
-          ],
-          "explanation": "有酸素系は酸素を使って糖や脂肪を効率よくATPに変換するシステムで、長時間の低〜中強度の活動に最適。ヨガのゆったりしたフローや長時間のホールドはまさにこの領域。有酸素系は大量のATPを作れるが、その分時間がかかるため、爆発的なパワーには向かない。呼吸で取り込んだ酸素が血液で筋肉に運ばれ、ミトコンドリアでエネルギーに変換される — だからヨガで「呼吸を止めないで」と指導するのは、エネルギー供給を止めないためでもある（Standring 2020）。",
-          "source": "Standring 2020",
-          "reference_text_ids": [
-            "muscle-energy-fatigue"
-          ]
-        },
-        {
-          "question_text": "太陽礼拝をクラスの冒頭に行う科学的な理由として最も適切なのはどれか？",
-          "interaction_type": "standard_mcq",
-          "question_type": "text_only",
-          "difficulty": "easy",
-          "choices": [
-            {
-              "text": "精神的な儀式として伝統的に行われるから",
-              "is_correct": false
-            },
-            {
-              "text": "筋温を上げて血流を増やし、筋の柔軟性を高めてケガを予防するから",
+              "text": "筋温を上げて筋肉を柔らかくし、ケガを予防するから",
               "is_correct": true
             },
             {
@@ -1037,169 +1027,244 @@
               "is_correct": false
             },
             {
-              "text": "クラス全体のリズムを整えるため",
+              "text": "生徒の集中力が最も高い最初に行うため",
               "is_correct": false
             }
           ],
-          "explanation": "太陽礼拝には科学的に重要なウォームアップ効果がある。①筋温の上昇：全身の大きな動きで筋温が上がると、筋肉の粘り気（粘弾性）が下がって柔らかくなり、ケガのリスクが減る。②血流の増加：血管が拡張し、酸素と栄養が筋肉に行き渡りやすくなる。③関節液の分泌促進：関節を動かすことで滑液（関節液）が軟骨に浸み込み、関節の潤滑が良くなる。冷えた輪ゴムは伸ばすと切れやすいが、温めた輪ゴムはよく伸びる — 筋肉も同じ原理（Kaminoff & Matthews, Yoga Anatomy）。",
+          "explanation": "太陽礼拝のウォームアップ効果は科学的に説明できる。筋温が上がると筋肉の粘り気（粘弾性）が下がって柔らかくなり、ケガのリスクが減る。さらに血流が増えて酸素と栄養が筋肉に行き渡り、関節液が軟骨に浸み込んで動きが滑らかになる。冷えた輪ゴムは切れやすいが、温めた輪ゴムはよく伸びる — 筋肉も同じ原理。",
           "source": "Kaminoff & Matthews, Yoga Anatomy",
           "reference_text_ids": [
             "muscle-energy-fatigue"
           ]
         },
         {
-          "question_text": "運動の24〜72時間後に出現する筋肉痛（DOMS）の主な原因はどれか？",
+          "question_text": "運動の翌日〜2日後に感じる筋肉痛（DOMS）の主な原因は何か？",
           "interaction_type": "standard_mcq",
           "question_type": "text_only",
-          "difficulty": "medium",
+          "difficulty": "easy",
           "choices": [
             {
-              "text": "筋肉内に乳酸が溜まり続けるから",
+              "text": "乳酸が筋肉に溜まり続けるから",
               "is_correct": false
             },
             {
-              "text": "筋線維の微小な損傷とそれに伴う炎症反応",
+              "text": "筋線維の微小な損傷と、その修復過程の炎症反応",
               "is_correct": true
             },
             {
-              "text": "関節軟骨がすり減るから",
+              "text": "関節の軟骨がすり減るから",
               "is_correct": false
             },
             {
-              "text": "神経が傷つくから",
+              "text": "筋肉が永久的に傷ついたから",
               "is_correct": false
             }
           ],
-          "explanation": "DOMS（Delayed Onset Muscle Soreness = 遅発性筋痛）は、運動で筋線維に微小な損傷が生じ、その修復過程の炎症反応が痛みを引き起こす現象。「乳酸が原因」は長年の誤解で、乳酸は運動後1〜2時間で分解される。DOMSは特に筋肉が伸ばされながら力を出す「遠心性収縮」（例：階段を下りる、ゆっくりポーズを解く）で起こりやすい。ヨガの初心者や新しいポーズを導入した後に出やすいが、正常な適応反応であり、修復されると以前より強くなる（超回復）（Standring 2020）。",
+          "explanation": "DOMS（遅発性筋痛）は、運動で筋線維に微小な損傷が生じ、その修復過程の炎症が痛みを引き起こす現象。「乳酸のせい」は長年の誤解で、乳酸は運動後1〜2時間で分解される。DOMSは「筋肉が壊れた」のではなく「修復して強くなる途中」の正常な反応。",
           "source": "Standring 2020",
           "reference_text_ids": [
             "muscle-energy-fatigue"
           ]
         },
         {
-          "question_text": "激しい運動中に筋肉が「焼けるような」感覚になる主な原因はどれか？",
+          "question_text": "ヨガで「呼吸を止めないでください」と指示する科学的な理由はどれか？",
           "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "medium",
           "choices": [
             {
-              "text": "筋温が高すぎて火傷している",
+              "text": "声を出し続けた方がポーズが安定するから",
               "is_correct": false
             },
             {
-              "text": "解糖系によるエネルギー産生で代謝産物（水素イオンなど）が蓄積するため",
+              "text": "ヨガは呼吸で取り込んだ酸素でエネルギーを作る有酸素運動であり、酸素の供給が止まると筋肉が早く疲労するから",
               "is_correct": true
             },
             {
-              "text": "酸素が完全になくなるため",
+              "text": "息を止めると血圧が上がって危険だからだけが理由",
               "is_correct": false
             },
             {
-              "text": "筋肉が断裂しかけているため",
+              "text": "呼吸を止めても筋肉には影響がない",
               "is_correct": false
             }
           ],
-          "explanation": "激しい運動で酸素の供給が追いつかなくなると、解糖系（糖を素早く分解してATPを作るシステム）が活発になる。このとき副産物として水素イオンなどの代謝産物が筋肉内に蓄積し、筋内のpHが低下する（酸性化）。これが「焼けるような」感覚の正体。かつては「乳酸が原因」と言われたが、現在は水素イオンの蓄積が主因と考えられている。この感覚は一時的で、運動をやめると数分で回復する — DOMSとは別の現象である（McArdle et al., Exercise Physiology）。",
-          "source": "McArdle et al., Exercise Physiology",
+          "explanation": "ヨガのようなゆったりした運動は、呼吸で取り込んだ酸素を使ってエネルギーを作る「有酸素系」が主体。酸素の供給が途切れるとエネルギー産生が滞り、筋肉の疲労が早まる。もちろん血圧上昇のリスクもあるが、エネルギー供給の観点からも「呼吸を止めない」は科学的に正しい指示。",
+          "source": "Standring 2020; Kaminoff & Matthews, Yoga Anatomy",
           "reference_text_ids": [
             "muscle-energy-fatigue"
           ]
         },
         {
-          "question_text": "ヨガの生徒が「昨日のクラスの後、翌日に太ももが筋肉痛になった」と訴えた。最も考えられる原因はどれか？",
+          "question_text": "冬の寒い朝のクラスで、ウォームアップをいつもより丁寧に行うべき理由はどれか？",
           "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "medium",
           "choices": [
             {
-              "text": "ウォーリアポーズでの大腿四頭筋の遠心性収縮によるDOMS",
+              "text": "寒いと生徒のやる気が出ないから",
+              "is_correct": false
+            },
+            {
+              "text": "筋温が低いと筋肉が硬く（粘弾性が高く）、急に伸ばすとケガしやすいから",
               "is_correct": true
             },
             {
-              "text": "プランク保持中の体幹の等尺性収縮によるケガ",
+              "text": "冬は関節が太くなって動きにくいから",
               "is_correct": false
             },
             {
-              "text": "シャヴァーサナでの筋弛緩による冷え",
-              "is_correct": false
-            },
-            {
-              "text": "呼吸法による過換気症候群",
+              "text": "寒い時期は遅筋が働かないから",
               "is_correct": false
             }
           ],
-          "explanation": "ウォーリアIIやチェアポーズでは、大腿四頭筋が伸ばされながら体重を支える遠心性収縮が長時間続く。遠心性収縮は筋線維への負荷が大きく、DOMSの最大の原因。特にヨガに慣れていない生徒や、新しい立位ポーズを導入した際に起こりやすい。翌日〜2日後の痛みは正常な適応反応なので、「筋肉が強くなるプロセスです」と伝えて安心させ、強度を少し下げた練習を続けるよう助言するのが適切（Kaminoff & Matthews, Yoga Anatomy）。",
+          "explanation": "気温が低いと筋温も低く、筋肉の粘り気（粘弾性）が高い状態。この状態で急にストレッチすると、筋肉や腱を損傷するリスクが高い。冷えた輪ゴムが切れやすいのと同じ。太陽礼拝を通常より多めの回数行うなど、丁寧にウォームアップして筋温を上げてから深いポーズに入ることが大切。",
           "source": "Kaminoff & Matthews, Yoga Anatomy",
           "reference_text_ids": [
             "muscle-energy-fatigue"
           ]
         },
         {
-          "question_text": "3つのエネルギー供給系と、それが主に使われる運動を正しく組み合わせなさい。",
-          "interaction_type": "matching_pairs",
+          "question_text": "同じポーズでも、初めて行うときの方が翌日に筋肉痛が出やすい理由はどれか？",
+          "interaction_type": "standard_mcq",
           "question_type": "text_only",
-          "difficulty": "hard",
-          "metadata": {
-            "pairs": [
-              {
-                "left": "クレアチンリン酸系（即時）",
-                "right": "全力ダッシュの最初の数秒"
-              },
-              {
-                "left": "解糖系（短期）",
-                "right": "30秒〜2分の激しい運動"
-              },
-              {
-                "left": "有酸素系（持続）",
-                "right": "ヨガフローやマラソン"
-              },
-              {
-                "left": "ウォームアップの効果",
-                "right": "血流増加と筋柔軟性の向上"
-              }
-            ]
-          },
+          "difficulty": "medium",
           "choices": [
             {
-              "text": "即時系 — 数秒のダッシュ、短期系 — 30秒〜2分、持続系 — ヨガ/マラソン、ウォームアップ — 血流・柔軟性",
+              "text": "初回は気合が入りすぎて力みすぎるから",
+              "is_correct": false
+            },
+            {
+              "text": "慣れない動きで筋線維への微小損傷が多くなるが、繰り返すと筋が適応して損傷が減るから",
               "is_correct": true
             },
             {
-              "text": "その他の組み合わせ",
+              "text": "初回は乳酸が大量に出るから",
+              "is_correct": false
+            },
+            {
+              "text": "初回だけ筋肉が特殊な反応をするから",
               "is_correct": false
             }
           ],
-          "explanation": "クレアチンリン酸系は「予備バッテリー」で、全力ダッシュや重量挙げの最初の数秒間を支える。解糖系は「急速充電」で、糖を素早く分解して30秒〜2分程度の激しい運動を支える。有酸素系は「省エネモード」で、酸素と糖・脂肪を使って長時間の運動を効率よく支える。ヨガの大半は有酸素系で賄われるが、パワーヨガの激しいフローでは解糖系も動員される。ウォームアップは筋温上昇→血流増加→柔軟性向上で、これらのエネルギー系が効率よく働く準備を整える（Standring 2020）。",
-          "source": "Standring 2020",
+          "explanation": "初めての動きでは筋線維が慣れていないため微小損傷が起こりやすい。しかし繰り返すと筋が「この動きに備えよう」と適応（超回復）し、同じ運動での損傷が減る。だから2回目以降は筋肉痛が出にくくなる。これは「repeated bout effect（反復効果）」と呼ばれる。新しいポーズの導入時は「翌日に筋肉痛が出るかもしれません」と事前に伝えると生徒が安心できる。",
+          "source": "McArdle et al., Exercise Physiology",
           "reference_text_ids": [
             "muscle-energy-fatigue"
           ]
         },
         {
-          "question_text": "筋肉痛（DOMS）の後の「超回復」について正しいのはどれか？",
+          "question_text": "筋肉痛（DOMS）の後に起こる「超回復」とはどういう現象か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "medium",
+          "choices": [
+            {
+              "text": "筋肉痛があるうちに激しい運動をするとさらに強くなる",
+              "is_correct": false
+            },
+            {
+              "text": "微小損傷が修復される過程で、筋肉が以前より少し強くなる。ただし十分な回復時間が必要",
+              "is_correct": true
+            },
+            {
+              "text": "プロテインを飲めばすぐに超回復する",
+              "is_correct": false
+            },
+            {
+              "text": "若い人にだけ起こる特殊な反応",
+              "is_correct": false
+            }
+          ],
+          "explanation": "超回復とは、微小損傷が修復される際に筋肉が「同じストレスに備えて」以前より少し強くなる現象。ただし修復には48〜72時間の回復期間が必要。回復が不十分なまま運動を続けると逆効果（オーバートレーニング）。年齢を問わず起こるが、高齢者は回復に時間がかかる。週2〜3回のペースが効果的。",
+          "source": "McArdle et al., Exercise Physiology",
+          "reference_text_ids": [
+            "muscle-energy-fatigue"
+          ]
+        },
+        {
+          "question_text": "初心者の生徒が「昨日のクラスの後、太ももがすごく痛い」と訴えた。指導者としてどう対応するのが最も適切か？",
           "interaction_type": "standard_mcq",
           "question_type": "text_only",
           "difficulty": "hard",
           "choices": [
             {
-              "text": "微小損傷が修復される際に元より強くなるが、十分な回復時間（48-72時間）が必要",
+              "text": "ケガの可能性があるので医者に行くよう勧める",
+              "is_correct": false
+            },
+            {
+              "text": "DOMSは正常な適応反応であることを説明し安心させる。今日は強度を下げ、軽く動くことを勧める",
               "is_correct": true
             },
             {
-              "text": "筋肉痛がある間に強い運動をすると超回復が加速する",
+              "text": "痛いときは完全に休んで全く動かないよう指示する",
               "is_correct": false
             },
             {
-              "text": "超回復は若年者にのみ起こる現象で高齢者には起こらない",
-              "is_correct": false
-            },
-            {
-              "text": "超回復はType II（速筋）でのみ起こる",
+              "text": "筋肉痛は鍛えている証拠なので、同じ強度で続けるよう勧める",
               "is_correct": false
             }
           ],
-          "explanation": "超回復とは、運動で生じた筋線維の微小損傷が修復される過程で、筋肉が元のレベルより少し強くなる現象。ただし修復には48〜72時間の回復期間が必要で、この間に十分な休息と栄養（特にタンパク質）を取ることが重要。回復が不十分なまま強い運動を続けると、損傷が蓄積して逆効果（オーバートレーニング）になる。ヨガ指導者として、週に2〜3回のペースで徐々に強度を上げていくプログラムが最も効果的であることを知っておくとよい（McArdle et al., Exercise Physiology）。",
-          "source": "McArdle et al., Exercise Physiology",
+          "explanation": "まずDOMS（遅発性筋痛）は正常な適応反応であることを伝えて安心させる。「筋肉が修復されて以前より強くなるプロセス」と説明する。完全に休むより軽い動き（アクティブリカバリー）の方が血流を促進して回復を助ける。ただし同じ強度で続けるのは逆効果。2〜3日で治まることも伝える。鋭い痛みや腫れがあればケガの可能性もあるので見極めが大切。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy; McArdle et al., Exercise Physiology",
+          "reference_text_ids": [
+            "muscle-energy-fatigue"
+          ]
+        },
+        {
+          "question_text": "ヨガクラスの冒頭で太陽礼拝を行わず、いきなり深い前屈やスプリッツ（開脚）から始めた。なぜ危険か？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            {
+              "text": "生徒が精神的に準備できていないから",
+              "is_correct": false
+            },
+            {
+              "text": "筋温が低い状態で急に伸ばすと、筋肉や腱を損傷するリスクが高いから",
+              "is_correct": true
+            },
+            {
+              "text": "太陽礼拝をしないと筋肉が眠ったままだから",
+              "is_correct": false
+            },
+            {
+              "text": "前屈は一日の最後に行うべきポーズだから",
+              "is_correct": false
+            }
+          ],
+          "explanation": "筋温が低い状態＝筋肉の粘弾性が高い＝硬い。この状態で急に深いストレッチをすると、筋肉や腱に微小断裂が起こるリスクが高い。太陽礼拝のような全身の大きな動きで筋温を上げ、血流を増やし、関節液を巡らせてから深いポーズに入ることで、安全性が大幅に向上する。指導者として守るべき基本原則。",
+          "source": "Kaminoff & Matthews, Yoga Anatomy",
+          "reference_text_ids": [
+            "muscle-energy-fatigue"
+          ]
+        },
+        {
+          "question_text": "新しいチャレンジングなポーズをクラスに導入するとき、生徒に事前に伝えるべきこととして最も適切なのはどれか？",
+          "interaction_type": "standard_mcq",
+          "question_type": "text_only",
+          "difficulty": "hard",
+          "choices": [
+            {
+              "text": "「このポーズをすると必ず筋肉痛になります。覚悟してください」",
+              "is_correct": false
+            },
+            {
+              "text": "「慣れない動きなので翌日に筋肉痛が出ることがあります。正常な反応で、2〜3日で治まります」",
+              "is_correct": true
+            },
+            {
+              "text": "「筋肉痛が出たらやり方が間違っている証拠です」",
+              "is_correct": false
+            },
+            {
+              "text": "特に何も伝えず、生徒の様子を見るだけでよい",
+              "is_correct": false
+            }
+          ],
+          "explanation": "新しい動きはDOMSが出やすい（反復効果がまだないため）。事前に伝えることで①生徒が不安にならない②正常な反応と理解してもらえる③「ケガをしたのでは」という誤解を防げる。「必ず出る」と断言するのは不正確（個人差がある）。「間違っている証拠」も誤り（正しいフォームでもDOMSは出る）。安心感を与えつつ正確な情報を伝えるのが良い指導。",
+          "source": "McArdle et al., Exercise Physiology; Kaminoff & Matthews, Yoga Anatomy",
           "reference_text_ids": [
             "muscle-energy-fatigue"
           ]
